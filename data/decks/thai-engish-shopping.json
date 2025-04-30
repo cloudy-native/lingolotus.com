@@ -1,0 +1,614 @@
+{
+    "collectionId": "thai-english",
+    "deckId": "shopping",
+    "name": "Thai Shopping Phrases",
+    "description": "Essential Thai vocabulary and phrases for shopping at markets and stores",
+    "sourceLanguage": "th",
+    "targetLanguage": "en",
+    "cards": [
+      {
+        "cardId": "shopping-001",
+        "frontContent": {
+          "type": "text",
+          "text": "นี่ราคาเท่าไร"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "How much is this?"
+        },
+        "tags": ["shopping", "price", "question"],
+        "difficulty": "easy",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "nee ra-ka tao-rai",
+        "partOfSpeech": "question",
+        "context": "Basic phrase for asking the price of an item",
+        "examples": [
+          {
+            "original": "นี่ราคาเท่าไรครับ",
+            "translation": "How much is this? (male speaker)",
+            "phonetic": "nee ra-ka tao-rai krap"
+          },
+          {
+            "original": "อันนี้ราคาเท่าไรคะ",
+            "translation": "How much is this one? (female speaker)",
+            "phonetic": "an-nee ra-ka tao-rai ka"
+          }
+        ]
+      },
+      {
+        "cardId": "shopping-002",
+        "frontContent": {
+          "type": "text",
+          "text": "ลดราคาได้ไหม"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Can you give me a discount?"
+        },
+        "tags": ["shopping", "bargaining", "question"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "lot ra-ka dai mai",
+        "partOfSpeech": "question",
+        "context": "Used for bargaining at markets or stores",
+        "examples": [
+          {
+            "original": "ลดราคาให้หน่อยได้ไหมครับ",
+            "translation": "Can you give me a little discount? (male speaker)",
+            "phonetic": "lot ra-ka hai noi dai mai krap"
+          },
+          {
+            "original": "ซื้อสองชิ้น ลดราคาได้ไหมคะ",
+            "translation": "If I buy two pieces, can you give me a discount? (female speaker)",
+            "phonetic": "seu song chin, lot ra-ka dai mai ka"
+          }
+        ]
+      },
+      {
+        "cardId": "shopping-003",
+        "frontContent": {
+          "type": "text",
+          "text": "ราคานี้แพงเกินไป"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "This price is too expensive"
+        },
+        "tags": ["shopping", "bargaining", "statement"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "ra-ka nee paeng gern pai",
+        "partOfSpeech": "sentence",
+        "context": "Used during bargaining to indicate the price is high",
+        "examples": [
+          {
+            "original": "ราคานี้แพงเกินไปสำหรับผม",
+            "translation": "This price is too expensive for me (male speaker)",
+            "phonetic": "ra-ka nee paeng gern pai sam-rap pom"
+          },
+          {
+            "original": "ฉันคิดว่าราคานี้แพงไปหน่อย",
+            "translation": "I think this price is a bit too expensive (female speaker)",
+            "phonetic": "chan kit wa ra-ka nee paeng pai noi"
+          }
+        ]
+      },
+      {
+        "cardId": "shopping-004",
+        "frontContent": {
+          "type": "text",
+          "text": "มีขนาดอื่นไหม"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Do you have other sizes?"
+        },
+        "tags": ["shopping", "clothing", "question"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "mee ka-nat uen mai",
+        "partOfSpeech": "question",
+        "context": "Used when shopping for clothes or other sized items",
+        "examples": [
+          {
+            "original": "มีขนาดใหญ่กว่านี้ไหมครับ",
+            "translation": "Do you have a larger size than this? (male speaker)",
+            "phonetic": "mee ka-nat yai gwa nee mai krap"
+          },
+          {
+            "original": "มีไซส์เล็กกว่านี้ไหมคะ",
+            "translation": "Do you have a smaller size than this? (female speaker)",
+            "phonetic": "mee size lek gwa nee mai ka"
+          }
+        ]
+      },
+      {
+        "cardId": "shopping-005",
+        "frontContent": {
+          "type": "text",
+          "text": "มีสีอื่นไหม"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Do you have other colors?"
+        },
+        "tags": ["shopping", "clothing", "question"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "mee see uen mai",
+        "partOfSpeech": "question",
+        "context": "Used when looking for different color options",
+        "examples": [
+          {
+            "original": "อันนี้มีสีแดงไหมครับ",
+            "translation": "Do you have this in red? (male speaker)",
+            "phonetic": "an-nee mee see daeng mai krap"
+          },
+          {
+            "original": "มีสีอื่นให้เลือกไหมคะ",
+            "translation": "Do you have other colors to choose from? (female speaker)",
+            "phonetic": "mee see uen hai lueak mai ka"
+          }
+        ]
+      },
+      {
+        "cardId": "shopping-006",
+        "frontContent": {
+          "type": "text",
+          "text": "ฉันขอลองได้ไหม"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Can I try it on?"
+        },
+        "tags": ["shopping", "clothing", "question"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "chan kor long dai mai",
+        "partOfSpeech": "question",
+        "context": "Used when wanting to try on clothes or test an item",
+        "examples": [
+          {
+            "original": "ผมขอลองใส่เสื้อตัวนี้ได้ไหม",
+            "translation": "Can I try on this shirt? (male speaker)",
+            "phonetic": "pom kor long sai sua tua nee dai mai"
+          },
+          {
+            "original": "ฉันขอทดลองใช้ก่อนได้ไหม",
+            "translation": "Can I test it before buying? (female speaker)",
+            "phonetic": "chan kor tot-long chai gorn dai mai"
+          }
+        ]
+      },
+      {
+        "cardId": "shopping-007",
+        "frontContent": {
+          "type": "text",
+          "text": "ห้องลองอยู่ที่ไหน"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Where is the fitting room?"
+        },
+        "tags": ["shopping", "clothing", "question"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "hong long yu tee nai",
+        "partOfSpeech": "question",
+        "context": "Used when looking for a place to try on clothes",
+        "examples": [
+          {
+            "original": "ห้องลองเสื้อผ้าอยู่ทางไหน",
+            "translation": "Which way is the fitting room?",
+            "phonetic": "hong long sua-pa yu tang nai"
+          },
+          {
+            "original": "ห้องลองอยู่ชั้นไหนคะ",
+            "translation": "On which floor is the fitting room? (female speaker)",
+            "phonetic": "hong long yu chan nai ka"
+          }
+        ]
+      },
+      {
+        "cardId": "shopping-008",
+        "frontContent": {
+          "type": "text",
+          "text": "รับบัตรเครดิตไหม"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Do you accept credit cards?"
+        },
+        "tags": ["shopping", "payment", "question"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "rap bat kre-dit mai",
+        "partOfSpeech": "question",
+        "context": "Used when asking about payment methods",
+        "examples": [
+          {
+            "original": "ที่นี่รับบัตรเครดิตไหมครับ",
+            "translation": "Does this place accept credit cards? (male speaker)",
+            "phonetic": "tee-nee rap bat kre-dit mai krap"
+          },
+          {
+            "original": "ร้านนี้รับชำระด้วยบัตรไหมคะ",
+            "translation": "Does this shop accept payment by card? (female speaker)",
+            "phonetic": "ran nee rap cham-ra duay bat mai ka"
+          }
+        ]
+      },
+      {
+        "cardId": "shopping-009",
+        "frontContent": {
+          "type": "text",
+          "text": "คิดเงินด้วย"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "I'd like to pay"
+        },
+        "tags": ["shopping", "payment", "phrase"],
+        "difficulty": "easy",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "kit ngern duay",
+        "partOfSpeech": "phrase",
+        "context": "Used to indicate you are ready to pay",
+        "examples": [
+          {
+            "original": "คิดเงินด้วยครับ",
+            "translation": "I'd like to pay, please (male speaker)",
+            "phonetic": "kit ngern duay krap"
+          },
+          {
+            "original": "คิดเงินได้แล้วค่ะ",
+            "translation": "I'm ready to pay now (female speaker)",
+            "phonetic": "kit ngern dai laew ka"
+          }
+        ]
+      },
+      {
+        "cardId": "shopping-010",
+        "frontContent": {
+          "type": "text",
+          "text": "มีของแถมไหม"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Is there a free gift?"
+        },
+        "tags": ["shopping", "promotion", "question"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "mee kong taem mai",
+        "partOfSpeech": "question",
+        "context": "Used to ask about complimentary items with purchase",
+        "examples": [
+          {
+            "original": "ซื้อนี่แล้วมีของแถมไหมครับ",
+            "translation": "If I buy this, is there a free gift? (male speaker)",
+            "phonetic": "seu nee laew mee kong taem mai krap"
+          },
+          {
+            "original": "มีโปรโมชั่นหรือของแถมอะไรไหมคะ",
+            "translation": "Are there any promotions or free gifts? (female speaker)",
+            "phonetic": "mee pro-mo-chan rue kong taem a-rai mai ka"
+          }
+        ]
+      },
+      {
+        "cardId": "shopping-011",
+        "frontContent": {
+          "type": "text",
+          "text": "มีส่วนลดไหม"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Is there a discount?"
+        },
+        "tags": ["shopping", "promotion", "question"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "mee suan lot mai",
+        "partOfSpeech": "question",
+        "context": "Used to ask about available discounts",
+        "examples": [
+          {
+            "original": "วันนี้มีส่วนลดพิเศษไหมครับ",
+            "translation": "Is there a special discount today? (male speaker)",
+            "phonetic": "wan-nee mee suan lot pi-set mai krap"
+          },
+          {
+            "original": "สมาชิกร้านมีส่วนลดไหมคะ",
+            "translation": "Is there a discount for members? (female speaker)",
+            "phonetic": "sa-ma-chik ran mee suan lot mai ka"
+          }
+        ]
+      },
+      {
+        "cardId": "shopping-012",
+        "frontContent": {
+          "type": "text",
+          "text": "เอาอันนี้"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "I'll take this one"
+        },
+        "tags": ["shopping", "decision", "phrase"],
+        "difficulty": "easy",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "ao an-nee",
+        "partOfSpeech": "phrase",
+        "context": "Used to indicate which item you want to buy",
+        "examples": [
+          {
+            "original": "ผมเอาอันนี้ครับ",
+            "translation": "I'll take this one (male speaker)",
+            "phonetic": "pom ao an-nee krap"
+          },
+          {
+            "original": "ฉันจะเอาตัวนี้ค่ะ",
+            "translation": "I'll take this one (female speaker)",
+            "phonetic": "chan ja ao tua nee ka"
+          }
+        ]
+      },
+      {
+        "cardId": "shopping-013",
+        "frontContent": {
+          "type": "text",
+          "text": "ใส่ถุงให้หน่อย"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Please put it in a bag"
+        },
+        "tags": ["shopping", "request", "phrase"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "sai tung hai noi",
+        "partOfSpeech": "phrase",
+        "context": "Used to request your purchases be bagged",
+        "examples": [
+          {
+            "original": "ช่วยใส่ถุงให้หน่อยครับ",
+            "translation": "Please help put it in a bag (male speaker)",
+            "phonetic": "chuay sai tung hai noi krap"
+          },
+          {
+            "original": "ใส่ถุงแยกกันได้ไหมคะ",
+            "translation": "Can you put them in separate bags? (female speaker)",
+            "phonetic": "sai tung yak gan dai mai ka"
+          }
+        ]
+      },
+      {
+        "cardId": "shopping-014",
+        "frontContent": {
+          "type": "text",
+          "text": "มีใบเสร็จไหม"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Do you have a receipt?"
+        },
+        "tags": ["shopping", "payment", "question"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "mee bai-set mai",
+        "partOfSpeech": "question",
+        "context": "Used to ask for a receipt after purchase",
+        "examples": [
+          {
+            "original": "ขอใบเสร็จด้วยครับ",
+            "translation": "May I have a receipt, please? (male speaker)",
+            "phonetic": "kor bai-set duay krap"
+          },
+          {
+            "original": "รบกวนขอใบเสร็จด้วยค่ะ",
+            "translation": "I'd like a receipt, please (female speaker)",
+            "phonetic": "rob-kuan kor bai-set duay ka"
+          }
+        ]
+      },
+      {
+        "cardId": "shopping-015",
+        "frontContent": {
+          "type": "text",
+          "text": "รับเงินทอน"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Here's your change"
+        },
+        "tags": ["shopping", "payment", "phrase"],
+        "difficulty": "easy",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "rap ngern torn",
+        "partOfSpeech": "phrase",
+        "context": "What a cashier says when giving you change",
+        "examples": [
+          {
+            "original": "รับเงินทอนห้าสิบบาทครับ",
+            "translation": "Here's your change of fifty baht (male speaker)",
+            "phonetic": "rap ngern torn ha-sip bat krap"
+          },
+          {
+            "original": "นี่คือเงินทอนของคุณค่ะ",
+            "translation": "Here is your change (female speaker)",
+            "phonetic": "nee keu ngern torn kong khun ka"
+          }
+        ]
+      },
+      {
+        "cardId": "shopping-016",
+        "frontContent": {
+          "type": "text",
+          "text": "แผนกนี้อยู่ที่ไหน"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Where is this department?"
+        },
+        "tags": ["shopping", "location", "question"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "pa-nak nee yu tee nai",
+        "partOfSpeech": "question",
+        "context": "Used to ask for directions in a store",
+        "examples": [
+          {
+            "original": "แผนกอาหารอยู่ชั้นไหนครับ",
+            "translation": "On which floor is the food department? (male speaker)",
+            "phonetic": "pa-nak a-han yu chan nai krap"
+          },
+          {
+            "original": "แผนกเครื่องสำอางอยู่ทางไหนคะ",
+            "translation": "Which way is the cosmetics department? (female speaker)",
+            "phonetic": "pa-nak kruang sam-ang yu tang nai ka"
+          }
+        ]
+      },
+      {
+        "cardId": "shopping-017",
+        "frontContent": {
+          "type": "text",
+          "text": "คุณมีสินค้านี้ไหม"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Do you have this product?"
+        },
+        "tags": ["shopping", "inquiry", "question"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "khun mee sin-ka nee mai",
+        "partOfSpeech": "question",
+        "context": "Used to ask if a specific product is available",
+        "examples": [
+          {
+            "original": "คุณมียี่ห้อนี้ไหมครับ",
+            "translation": "Do you have this brand? (male speaker)",
+            "phonetic": "khun mee yee-hor nee mai krap"
+          },
+          {
+            "original": "ร้านนี้มีรุ่นใหม่ไหมคะ",
+            "translation": "Does this shop have the new model? (female speaker)",
+            "phonetic": "ran nee mee run mai mai ka"
+          }
+        ]
+      },
+      {
+        "cardId": "shopping-018",
+        "frontContent": {
+          "type": "text",
+          "text": "เปิดถึงกี่โมง"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Until what time are you open?"
+        },
+        "tags": ["shopping", "time", "question"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "pert teung gee mong",
+        "partOfSpeech": "question",
+        "context": "Used to ask about store hours",
+        "examples": [
+          {
+            "original": "ร้านเปิดถึงกี่โมงครับ",
+            "translation": "Until what time is the shop open? (male speaker)",
+            "phonetic": "ran pert teung gee mong krap"
+          },
+          {
+            "original": "วันอาทิตย์เปิดกี่โมงถึงกี่โมงคะ",
+            "translation": "What are your opening hours on Sunday? (female speaker)",
+            "phonetic": "wan ar-tit pert gee mong teung gee mong ka"
+          }
+        ]
+      },
+      {
+        "cardId": "shopping-019",
+        "frontContent": {
+          "type": "text",
+          "text": "รับคืนสินค้าได้ไหม"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Can I return this item?"
+        },
+        "tags": ["shopping", "return", "question"],
+        "difficulty": "hard",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "rap keun sin-ka dai mai",
+        "partOfSpeech": "question",
+        "context": "Used to ask about return policies",
+        "examples": [
+          {
+            "original": "ถ้าไม่พอดี รับคืนได้ไหมครับ",
+            "translation": "If it doesn't fit, can I return it? (male speaker)",
+            "phonetic": "ta mai por-dee, rap keun dai mai krap"
+          },
+          {
+            "original": "มีนโยบายรับคืนสินค้ากี่วันคะ",
+            "translation": "How many days is your return policy? (female speaker)",
+            "phonetic": "mee na-yo-bai rap keun sin-ka gee wan ka"
+          }
+        ]
+      },
+      {
+        "cardId": "shopping-020",
+        "frontContent": {
+          "type": "text",
+          "text": "ขอดูของก่อนได้ไหม"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Can I see the item first?"
+        },
+        "tags": ["shopping", "examination", "question"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "kor doo kong gorn dai mai",
+        "partOfSpeech": "question",
+        "context": "Used to ask to examine merchandise before buying",
+        "examples": [
+          {
+            "original": "ขอดูสินค้าก่อนตัดสินใจได้ไหม",
+            "translation": "Can I see the product before deciding? (informal)",
+            "phonetic": "kor doo sin-ka gorn tat-sin-jai dai mai"
+          },
+          {
+            "original": "ฉันขอดูคุณภาพก่อนได้ไหมคะ",
+            "translation": "Can I check the quality first? (female speaker)",
+            "phonetic": "chan kor doo kun-na-pap gorn dai mai ka"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-04-30T10:30:00Z",
+    "updatedAt": "2025-04-30T10:30:00Z",
+    "theme": "shopping",
+    "difficulty": "intermediate"
+  }

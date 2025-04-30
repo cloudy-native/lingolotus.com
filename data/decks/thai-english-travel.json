@@ -1,0 +1,614 @@
+{
+    "collectionId": "thai-english",
+    "deckId": "thai-travel",
+    "name": "Thai Travel Phrases",
+    "description": "Essential Thai vocabulary and phrases for travelers in Thailand",
+    "sourceLanguage": "th",
+    "targetLanguage": "en",
+    "cards": [
+      {
+        "cardId": "travel-001",
+        "frontContent": {
+          "type": "text",
+          "text": "สนามบินอยู่ที่ไหน"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Where is the airport?"
+        },
+        "tags": ["travel", "location", "question"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "sa-nam-bin yu tee nai",
+        "partOfSpeech": "question",
+        "context": "Used to ask directions to the airport",
+        "examples": [
+          {
+            "original": "สนามบินสุวรรณภูมิอยู่ที่ไหนครับ",
+            "translation": "Where is Suvarnabhumi Airport? (male speaker)",
+            "phonetic": "sa-nam-bin su-wan-na-poom yu tee nai krap"
+          },
+          {
+            "original": "ไปสนามบินทางไหนคะ",
+            "translation": "Which way to the airport? (female speaker)",
+            "phonetic": "pai sa-nam-bin tang nai ka"
+          }
+        ]
+      },
+      {
+        "cardId": "travel-002",
+        "frontContent": {
+          "type": "text",
+          "text": "สถานีรถไฟอยู่ที่ไหน"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Where is the train station?"
+        },
+        "tags": ["travel", "transportation", "question"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "sa-ta-nee rot-fai yu tee nai",
+        "partOfSpeech": "question",
+        "context": "Used to ask directions to the train station",
+        "examples": [
+          {
+            "original": "สถานีรถไฟหัวลำโพงอยู่ที่ไหนครับ",
+            "translation": "Where is Hua Lamphong train station? (male speaker)",
+            "phonetic": "sa-ta-nee rot-fai hua-lam-pong yu tee nai krap"
+          },
+          {
+            "original": "ถามหน่อยค่ะ สถานีรถไฟไปทางไหน",
+            "translation": "Excuse me, which way to the train station? (female speaker)",
+            "phonetic": "tam noi ka, sa-ta-nee rot-fai pai tang nai"
+          }
+        ]
+      },
+      {
+        "cardId": "travel-003",
+        "frontContent": {
+          "type": "text",
+          "text": "ไปโรงแรมนี้ได้ไหม"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Can you take me to this hotel?"
+        },
+        "tags": ["travel", "accommodation", "question"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "pai rong-raem nee dai mai",
+        "partOfSpeech": "question",
+        "context": "Used when asking a taxi driver to go to your hotel",
+        "examples": [
+          {
+            "original": "คุณขับรถไปโรงแรมนี้ได้ไหมครับ",
+            "translation": "Can you drive to this hotel? (male speaker)",
+            "phonetic": "khun kap rot pai rong-raem nee dai mai krap"
+          },
+          {
+            "original": "ช่วยพาฉันไปที่นี่ได้ไหมคะ",
+            "translation": "Can you help take me to this place? (female speaker)",
+            "phonetic": "chuay pa chan pai tee nee dai mai ka"
+          }
+        ]
+      },
+      {
+        "cardId": "travel-004",
+        "frontContent": {
+          "type": "text",
+          "text": "ราคาตั๋วเท่าไร"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "How much is the ticket?"
+        },
+        "tags": ["travel", "transportation", "question"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "ra-ka tua tao-rai",
+        "partOfSpeech": "question",
+        "context": "Used when asking about ticket prices for transportation",
+        "examples": [
+          {
+            "original": "ตั๋วรถไฟไปเชียงใหม่ราคาเท่าไรครับ",
+            "translation": "How much is a train ticket to Chiang Mai? (male speaker)",
+            "phonetic": "tua rot-fai pai chiang-mai ra-ka tao-rai krap"
+          },
+          {
+            "original": "ตั๋วเครื่องบินไป-กลับราคาเท่าไรคะ",
+            "translation": "How much is a round-trip plane ticket? (female speaker)",
+            "phonetic": "tua kruang-bin pai-glap ra-ka tao-rai ka"
+          }
+        ]
+      },
+      {
+        "cardId": "travel-005",
+        "frontContent": {
+          "type": "text",
+          "text": "ห้องน้ำอยู่ที่ไหน"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Where is the bathroom?"
+        },
+        "tags": ["travel", "basic need", "question"],
+        "difficulty": "easy",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "hong-nam yu tee nai",
+        "partOfSpeech": "question",
+        "context": "Essential phrase for finding restrooms while traveling",
+        "examples": [
+          {
+            "original": "ขอโทษครับ ห้องน้ำอยู่ที่ไหน",
+            "translation": "Excuse me, where is the bathroom? (male speaker)",
+            "phonetic": "kor-tote krap, hong-nam yu tee nai"
+          },
+          {
+            "original": "ห้องน้ำหญิงอยู่ทางไหนคะ",
+            "translation": "Which way to the women's restroom? (female speaker)",
+            "phonetic": "hong-nam ying yu tang nai ka"
+          }
+        ]
+      },
+      {
+        "cardId": "travel-006",
+        "frontContent": {
+          "type": "text",
+          "text": "มีห้องว่างไหม"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Do you have any vacant rooms?"
+        },
+        "tags": ["travel", "accommodation", "question"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "mee hong wang mai",
+        "partOfSpeech": "question",
+        "context": "Used when checking for room availability at hotels",
+        "examples": [
+          {
+            "original": "คืนนี้มีห้องว่างไหมครับ",
+            "translation": "Do you have any vacant rooms tonight? (male speaker)",
+            "phonetic": "keun nee mee hong wang mai krap"
+          },
+          {
+            "original": "มีห้องพักสำหรับสองคนไหมคะ",
+            "translation": "Do you have a room for two people? (female speaker)",
+            "phonetic": "mee hong pak sam-rap song kon mai ka"
+          }
+        ]
+      },
+      {
+        "cardId": "travel-007",
+        "frontContent": {
+          "type": "text",
+          "text": "ไปที่นี่เท่าไร"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "How much to go here?"
+        },
+        "tags": ["travel", "transportation", "question"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "pai tee nee tao-rai",
+        "partOfSpeech": "question",
+        "context": "Used when asking taxi drivers or tuk-tuk drivers about the fare",
+        "examples": [
+          {
+            "original": "ไปวัดพระแก้วเท่าไรครับ",
+            "translation": "How much to go to the Emerald Buddha Temple? (male speaker)",
+            "phonetic": "pai wat pra-gaew tao-rai krap"
+          },
+          {
+            "original": "ไปตลาดนัดจตุจักรราคาเท่าไรคะ",
+            "translation": "How much is the fare to Chatuchak Market? (female speaker)",
+            "phonetic": "pai ta-lat nat ja-tu-jak ra-ka tao-rai ka"
+          }
+        ]
+      },
+      {
+        "cardId": "travel-008",
+        "frontContent": {
+          "type": "text",
+          "text": "เปิดกี่โมง"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "What time does it open?"
+        },
+        "tags": ["travel", "time", "question"],
+        "difficulty": "easy",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "pert gee mong",
+        "partOfSpeech": "question",
+        "context": "Used when asking about opening hours of attractions",
+        "examples": [
+          {
+            "original": "พระบรมมหาราชวังเปิดกี่โมงครับ",
+            "translation": "What time does the Grand Palace open? (male speaker)",
+            "phonetic": "pra ba-rom ma-ha rat-cha-wang pert gee mong krap"
+          },
+          {
+            "original": "พิพิธภัณฑ์เปิดถึงกี่โมงคะ",
+            "translation": "Until what time is the museum open? (female speaker)",
+            "phonetic": "pi-pit-ta-pan pert teung gee mong ka"
+          }
+        ]
+      },
+      {
+        "cardId": "travel-009",
+        "frontContent": {
+          "type": "text",
+          "text": "ค่าเข้าชมเท่าไร"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "How much is the entrance fee?"
+        },
+        "tags": ["travel", "attraction", "question"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "ka kao chom tao-rai",
+        "partOfSpeech": "question",
+        "context": "Used when asking about admission fees to attractions",
+        "examples": [
+          {
+            "original": "ค่าเข้าชมพิพิธภัณฑ์เท่าไรครับ",
+            "translation": "How much is the museum entrance fee? (male speaker)",
+            "phonetic": "ka kao chom pi-pit-ta-pan tao-rai krap"
+          },
+          {
+            "original": "ชาวต่างชาติค่าเข้าเท่าไรคะ",
+            "translation": "How much is the entrance fee for foreigners? (female speaker)",
+            "phonetic": "chao tang-chat ka kao tao-rai ka"
+          }
+        ]
+      },
+      {
+        "cardId": "travel-010",
+        "frontContent": {
+          "type": "text",
+          "text": "ฉันหลงทาง"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "I am lost"
+        },
+        "tags": ["travel", "emergency", "phrase"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "chan long tang",
+        "partOfSpeech": "phrase",
+        "context": "Important phrase to use when you are lost",
+        "examples": [
+          {
+            "original": "ผมหลงทาง ช่วยบอกทางไปโรงแรมหน่อย",
+            "translation": "I am lost, please help me find the way to my hotel (male speaker)",
+            "phonetic": "pom long tang, chuay bok tang pai rong-raem noi"
+          },
+          {
+            "original": "ฉันหลงทางค่ะ ช่วยดูแผนที่นี้หน่อย",
+            "translation": "I am lost, can you help look at this map? (female speaker)",
+            "phonetic": "chan long tang ka, chuay doo pan-tee nee noi"
+          }
+        ]
+      },
+      {
+        "cardId": "travel-011",
+        "frontContent": {
+          "type": "text",
+          "text": "รถเมล์ไปที่นี่หมายเลขอะไร"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Which bus number goes here?"
+        },
+        "tags": ["travel", "transportation", "question"],
+        "difficulty": "hard",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "rot-may pai tee nee mai-lek a-rai",
+        "partOfSpeech": "question",
+        "context": "Used when asking which bus to take to reach a destination",
+        "examples": [
+          {
+            "original": "รถเมล์ไปจตุจักรสายอะไรครับ",
+            "translation": "Which bus line goes to Chatuchak? (male speaker)",
+            "phonetic": "rot-may pai ja-tu-jak sai a-rai krap"
+          },
+          {
+            "original": "รถเมล์สายไหนไปห้างสยามพารากอนคะ",
+            "translation": "Which bus line goes to Siam Paragon mall? (female speaker)",
+            "phonetic": "rot-may sai nai pai hang sa-yam pa-ra-gon ka"
+          }
+        ]
+      },
+      {
+        "cardId": "travel-012",
+        "frontContent": {
+          "type": "text",
+          "text": "รถไฟไปเชียงใหม่ออกกี่โมง"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "What time does the train to Chiang Mai leave?"
+        },
+        "tags": ["travel", "transportation", "question"],
+        "difficulty": "hard",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "rot-fai pai chiang-mai ork gee mong",
+        "partOfSpeech": "question",
+        "context": "Used when asking about train departure times",
+        "examples": [
+          {
+            "original": "รถไฟไปหัวหินขบวนถัดไปออกกี่โมงครับ",
+            "translation": "What time does the next train to Hua Hin depart? (male speaker)",
+            "phonetic": "rot-fai pai hua-hin ka-buan tat-pai ork gee mong krap"
+          },
+          {
+            "original": "รถไฟไปอยุธยาออกเวลาไหนบ้างคะ",
+            "translation": "What are the departure times for trains to Ayutthaya? (female speaker)",
+            "phonetic": "rot-fai pai a-yut-ta-ya ork we-la nai bang ka"
+          }
+        ]
+      },
+      {
+        "cardId": "travel-013",
+        "frontContent": {
+          "type": "text",
+          "text": "มีอาหารมังสวิรัติไหม"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Do you have vegetarian food?"
+        },
+        "tags": ["travel", "food", "question"],
+        "difficulty": "hard",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "mee a-han mang-sa-wi-rat mai",
+        "partOfSpeech": "question",
+        "context": "Used when looking for vegetarian food options",
+        "examples": [
+          {
+            "original": "ร้านนี้มีอาหารมังสวิรัติไหมครับ",
+            "translation": "Does this restaurant have vegetarian food? (male speaker)",
+            "phonetic": "ran nee mee a-han mang-sa-wi-rat mai krap"
+          },
+          {
+            "original": "ฉันทานเจ มีอาหารเจไหมคะ",
+            "translation": "I eat vegan food, do you have vegan options? (female speaker)",
+            "phonetic": "chan tan jay, mee a-han jay mai ka"
+          }
+        ]
+      },
+      {
+        "cardId": "travel-014",
+        "frontContent": {
+          "type": "text",
+          "text": "อันไหนอร่อย"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Which one is delicious?"
+        },
+        "tags": ["travel", "food", "question"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "an nai a-roi",
+        "partOfSpeech": "question",
+        "context": "Used when asking for food recommendations",
+        "examples": [
+          {
+            "original": "แนะนำอาหารที่อร่อยหน่อยครับ",
+            "translation": "Please recommend some delicious food (male speaker)",
+            "phonetic": "nae-nam a-han tee a-roi noi krap"
+          },
+          {
+            "original": "เมนูไหนเป็นอาหารพื้นเมืองที่อร่อยคะ",
+            "translation": "Which menu items are delicious local specialties? (female speaker)",
+            "phonetic": "me-nu nai pen a-han peun-muang tee a-roi ka"
+          }
+        ]
+      },
+      {
+        "cardId": "travel-015",
+        "frontContent": {
+          "type": "text",
+          "text": "เอาไม่เผ็ด"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Not spicy, please"
+        },
+        "tags": ["travel", "food", "request"],
+        "difficulty": "easy",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "ao mai pet",
+        "partOfSpeech": "phrase",
+        "context": "Important phrase for those who cannot eat spicy food",
+        "examples": [
+          {
+            "original": "ขอไม่เผ็ดนะครับ",
+            "translation": "I'd like it not spicy, please (male speaker)",
+            "phonetic": "kor mai pet na krap"
+          },
+          {
+            "original": "ฉันทานเผ็ดไม่ได้ ขอไม่เผ็ดค่ะ",
+            "translation": "I cannot eat spicy food, no spice please (female speaker)",
+            "phonetic": "chan tan pet mai dai, kor mai pet ka"
+          }
+        ]
+      },
+      {
+        "cardId": "travel-016",
+        "frontContent": {
+          "type": "text",
+          "text": "ฉันแพ้อาหารทะเล"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "I am allergic to seafood"
+        },
+        "tags": ["travel", "health", "phrase"],
+        "difficulty": "hard",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "chan pae a-han ta-le",
+        "partOfSpeech": "phrase",
+        "context": "Important health information for those with allergies",
+        "examples": [
+          {
+            "original": "ผมแพ้กุ้ง ปลา และปู",
+            "translation": "I am allergic to shrimp, fish, and crab (male speaker)",
+            "phonetic": "pom pae gung, pla lae poo"
+          },
+          {
+            "original": "ฉันแพ้ถั่วอย่างรุนแรง",
+            "translation": "I have a severe peanut allergy (female speaker)",
+            "phonetic": "chan pae tua yang run-raeng"
+          }
+        ]
+      },
+      {
+        "cardId": "travel-017",
+        "frontContent": {
+          "type": "text",
+          "text": "เรียกแท็กซี่ให้หน่อย"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Please call a taxi for me"
+        },
+        "tags": ["travel", "transportation", "request"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "riak taek-see hai noi",
+        "partOfSpeech": "phrase",
+        "context": "Used when asking hotel staff to help get a taxi",
+        "examples": [
+          {
+            "original": "ช่วยเรียกแท็กซี่ให้ผมหน่อยครับ",
+            "translation": "Please help call a taxi for me (male speaker)",
+            "phonetic": "chuay riak taek-see hai pom noi krap"
+          },
+          {
+            "original": "ขอให้ช่วยจองแท็กซี่ไปสนามบินค่ะ",
+            "translation": "Could you please book a taxi to the airport? (female speaker)",
+            "phonetic": "kor hai chuay jong taek-see pai sa-nam-bin ka"
+          }
+        ]
+      },
+      {
+        "cardId": "travel-018",
+        "frontContent": {
+          "type": "text",
+          "text": "ฉันต้องการความช่วยเหลือ"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "I need help"
+        },
+        "tags": ["travel", "emergency", "phrase"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "chan tong-gan kwam chuay-lue",
+        "partOfSpeech": "phrase",
+        "context": "Essential phrase for emergency situations",
+        "examples": [
+          {
+            "original": "ผมต้องการความช่วยเหลือ กระเป๋าหาย",
+            "translation": "I need help, my bag is missing (male speaker)",
+            "phonetic": "pom tong-gan kwam chuay-lue, kra-pao hai"
+          },
+          {
+            "original": "ช่วยด้วยค่ะ ฉันต้องการความช่วยเหลือ",
+            "translation": "Help please, I need assistance (female speaker)",
+            "phonetic": "chuay duay ka, chan tong-gan kwam chuay-lue"
+          }
+        ]
+      },
+      {
+        "cardId": "travel-019",
+        "frontContent": {
+          "type": "text",
+          "text": "ฉันมาจากอเมริกา"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "I am from America"
+        },
+        "tags": ["travel", "introduction", "phrase"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "chan ma jak a-me-ri-ka",
+        "partOfSpeech": "phrase",
+        "context": "Used when telling locals where you're from",
+        "examples": [
+          {
+            "original": "ผมมาจากแคนาดาครับ",
+            "translation": "I am from Canada (male speaker)",
+            "phonetic": "pom ma jak kae-na-da krap"
+          },
+          {
+            "original": "ฉันเป็นนักท่องเที่ยวจากออสเตรเลียค่ะ",
+            "translation": "I am a tourist from Australia (female speaker)",
+            "phonetic": "chan pen nak-tong-tiao jak aw-sa-tre-lia ka"
+          }
+        ]
+      },
+      {
+        "cardId": "travel-020",
+        "frontContent": {
+          "type": "text",
+          "text": "ถ่ายรูปได้ไหม"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "May I take a photo?"
+        },
+        "tags": ["travel", "tourism", "question"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "tai roop dai mai",
+        "partOfSpeech": "question",
+        "context": "Used when asking permission to take photographs",
+        "examples": [
+          {
+            "original": "ขอถ่ายรูปกับคุณได้ไหมครับ",
+            "translation": "May I take a photo with you? (male speaker)",
+            "phonetic": "kor tai roop gap khun dai mai krap"
+          },
+          {
+            "original": "ที่นี่ถ่ายรูปได้ไหมคะ",
+            "translation": "Is photography allowed here? (female speaker)",
+            "phonetic": "tee nee tai roop dai mai ka"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-04-30T10:30:00Z",
+    "updatedAt": "2025-04-30T10:30:00Z",
+    "theme": "travel",
+    "difficulty": "intermediate"
+  }

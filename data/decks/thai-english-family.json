@@ -1,0 +1,614 @@
+{
+    "collectionId": "thai-english",
+    "deckId": "thai-family",
+    "name": "Thai Family Relationships",
+    "description": "Essential Thai vocabulary for family members and relationships",
+    "sourceLanguage": "th",
+    "targetLanguage": "en",
+    "cards": [
+      {
+        "cardId": "family-001",
+        "frontContent": {
+          "type": "text",
+          "text": "พ่อ"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Father"
+        },
+        "tags": ["family", "immediate family", "basic"],
+        "difficulty": "easy",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "por",
+        "partOfSpeech": "noun",
+        "context": "Basic term for father; used both to refer to and address one's father",
+        "examples": [
+          {
+            "original": "พ่อของฉันเป็นครู",
+            "translation": "My father is a teacher",
+            "phonetic": "por kong chan pen kroo"
+          },
+          {
+            "original": "พ่อครับ/คะ หนูหิว",
+            "translation": "Dad, I'm hungry (male/female child)",
+            "phonetic": "por krap/ka, noo hiw"
+          }
+        ]
+      },
+      {
+        "cardId": "family-002",
+        "frontContent": {
+          "type": "text",
+          "text": "แม่"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Mother"
+        },
+        "tags": ["family", "immediate family", "basic"],
+        "difficulty": "easy",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "mae",
+        "partOfSpeech": "noun",
+        "context": "Basic term for mother; used both to refer to and address one's mother",
+        "examples": [
+          {
+            "original": "แม่ของเขาทำงานที่โรงพยาบาล",
+            "translation": "His mother works at a hospital",
+            "phonetic": "mae kong kao tam-ngan tee rong-pa-ya-ban"
+          },
+          {
+            "original": "แม่คะ/ครับ หนูจะไปโรงเรียน",
+            "translation": "Mom, I'm going to school (female/male child)",
+            "phonetic": "mae ka/krap, noo ja pai rong-rian"
+          }
+        ]
+      },
+      {
+        "cardId": "family-003",
+        "frontContent": {
+          "type": "text",
+          "text": "พี่ชาย"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Older brother"
+        },
+        "tags": ["family", "sibling", "basic"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "pee chai",
+        "partOfSpeech": "noun",
+        "context": "Term for an older brother; Thai distinguishes siblings by their relative age",
+        "examples": [
+          {
+            "original": "พี่ชายของฉันอายุ 25 ปี",
+            "translation": "My older brother is 25 years old",
+            "phonetic": "pee chai kong chan a-yu yee-sip-ha pee"
+          },
+          {
+            "original": "พี่ชายคะ/ครับ ช่วยทำการบ้านหน่อย",
+            "translation": "Big brother, can you help with homework? (female/male speaker)",
+            "phonetic": "pee chai ka/krap, chuay tam garn-ban noi"
+          }
+        ]
+      },
+      {
+        "cardId": "family-004",
+        "frontContent": {
+          "type": "text",
+          "text": "พี่สาว"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Older sister"
+        },
+        "tags": ["family", "sibling", "basic"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "pee sao",
+        "partOfSpeech": "noun",
+        "context": "Term for an older sister; Thai distinguishes siblings by their relative age",
+        "examples": [
+          {
+            "original": "พี่สาวของผมเป็นแพทย์",
+            "translation": "My older sister is a doctor (male speaker)",
+            "phonetic": "pee sao kong pom pen paet"
+          },
+          {
+            "original": "พี่สาวคะ/ครับ ไปซื้อของกันไหม",
+            "translation": "Big sister, shall we go shopping? (female/male speaker)",
+            "phonetic": "pee sao ka/krap, pai seu kong gan mai"
+          }
+        ]
+      },
+      {
+        "cardId": "family-005",
+        "frontContent": {
+          "type": "text",
+          "text": "น้องชาย"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Younger brother"
+        },
+        "tags": ["family", "sibling", "basic"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "nong chai",
+        "partOfSpeech": "noun",
+        "context": "Term for a younger brother; Thai distinguishes siblings by their relative age",
+        "examples": [
+          {
+            "original": "น้องชายของฉันเรียนอยู่ชั้นประถม",
+            "translation": "My younger brother is in elementary school",
+            "phonetic": "nong chai kong chan rian yu chan pra-thom"
+          },
+          {
+            "original": "น้องชาย อย่าเล่นเสียงดัง",
+            "translation": "Little brother, don't play so loudly",
+            "phonetic": "nong chai, ya len siang dang"
+          }
+        ]
+      },
+      {
+        "cardId": "family-006",
+        "frontContent": {
+          "type": "text",
+          "text": "น้องสาว"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Younger sister"
+        },
+        "tags": ["family", "sibling", "basic"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "nong sao",
+        "partOfSpeech": "noun",
+        "context": "Term for a younger sister; Thai distinguishes siblings by their relative age",
+        "examples": [
+          {
+            "original": "น้องสาวของเขาชอบวาดรูป",
+            "translation": "His younger sister likes to draw",
+            "phonetic": "nong sao kong kao chob wat roop"
+          },
+          {
+            "original": "น้องสาวคนเล็กของบ้านเราน่ารักมาก",
+            "translation": "The youngest sister in our family is very cute",
+            "phonetic": "nong sao kon lek kong ban rao na-rak mak"
+          }
+        ]
+      },
+      {
+        "cardId": "family-007",
+        "frontContent": {
+          "type": "text",
+          "text": "ลูกชาย"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Son"
+        },
+        "tags": ["family", "children", "basic"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "look chai",
+        "partOfSpeech": "noun",
+        "context": "Term for a son, literally 'male child'",
+        "examples": [
+          {
+            "original": "ลูกชายของเราเรียนเก่งมาก",
+            "translation": "Our son studies very well",
+            "phonetic": "look chai kong rao rian geng mak"
+          },
+          {
+            "original": "คุณมีลูกชายกี่คน",
+            "translation": "How many sons do you have?",
+            "phonetic": "khun mee look chai gee kon"
+          }
+        ]
+      },
+      {
+        "cardId": "family-008",
+        "frontContent": {
+          "type": "text",
+          "text": "ลูกสาว"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Daughter"
+        },
+        "tags": ["family", "children", "basic"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "look sao",
+        "partOfSpeech": "noun",
+        "context": "Term for a daughter, literally 'female child'",
+        "examples": [
+          {
+            "original": "ลูกสาวของเธอน่ารักจัง",
+            "translation": "Your daughter is so cute",
+            "phonetic": "look sao kong ter na-rak jang"
+          },
+          {
+            "original": "ลูกสาวของเราอายุห้าขวบ",
+            "translation": "Our daughter is five years old",
+            "phonetic": "look sao kong rao a-yu ha kuap"
+          }
+        ]
+      },
+      {
+        "cardId": "family-009",
+        "frontContent": {
+          "type": "text",
+          "text": "สามี"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Husband"
+        },
+        "tags": ["family", "spouse", "basic"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "sa-mee",
+        "partOfSpeech": "noun",
+        "context": "Formal term for husband",
+        "examples": [
+          {
+            "original": "สามีของฉันทำงานที่บริษัทต่างชาติ",
+            "translation": "My husband works at a foreign company",
+            "phonetic": "sa-mee kong chan tam-ngan tee bo-ri-sat tang-chat"
+          },
+          {
+            "original": "สามีของเธอเป็นคนใจดี",
+            "translation": "Her husband is a kind person",
+            "phonetic": "sa-mee kong ter pen kon jai dee"
+          }
+        ]
+      },
+      {
+        "cardId": "family-010",
+        "frontContent": {
+          "type": "text",
+          "text": "ภรรยา"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Wife"
+        },
+        "tags": ["family", "spouse", "basic"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "pan-ra-ya",
+        "partOfSpeech": "noun",
+        "context": "Formal term for wife",
+        "examples": [
+          {
+            "original": "ภรรยาของผมเป็นคนไทย",
+            "translation": "My wife is Thai (male speaker)",
+            "phonetic": "pan-ra-ya kong pom pen kon thai"
+          },
+          {
+            "original": "ภรรยาของเขาทำอาหารอร่อยมาก",
+            "translation": "His wife cooks very delicious food",
+            "phonetic": "pan-ra-ya kong kao tam a-han a-roi mak"
+          }
+        ]
+      },
+      {
+        "cardId": "family-011",
+        "frontContent": {
+          "type": "text",
+          "text": "ปู่"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Paternal grandfather"
+        },
+        "tags": ["family", "grandparent", "extended family"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "poo",
+        "partOfSpeech": "noun",
+        "context": "Father's father; Thai distinguishes between maternal and paternal grandparents",
+        "examples": [
+          {
+            "original": "ปู่ของฉันอายุ 80 ปีแล้ว",
+            "translation": "My paternal grandfather is already 80 years old",
+            "phonetic": "poo kong chan a-yu paet-sip pee laew"
+          },
+          {
+            "original": "ปู่ชอบเล่านิทานให้ฟัง",
+            "translation": "Grandfather likes to tell stories",
+            "phonetic": "poo chob lao ni-tan hai fang"
+          }
+        ]
+      },
+      {
+        "cardId": "family-012",
+        "frontContent": {
+          "type": "text",
+          "text": "ย่า"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Paternal grandmother"
+        },
+        "tags": ["family", "grandparent", "extended family"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "ya",
+        "partOfSpeech": "noun",
+        "context": "Father's mother; Thai distinguishes between maternal and paternal grandparents",
+        "examples": [
+          {
+            "original": "ย่าทำขนมอร่อยมาก",
+            "translation": "Paternal grandmother makes very delicious desserts",
+            "phonetic": "ya tam ka-nom a-roi mak"
+          },
+          {
+            "original": "ผมไปเยี่ยมย่าทุกวันอาทิตย์",
+            "translation": "I visit my paternal grandmother every Sunday (male speaker)",
+            "phonetic": "pom pai yiam ya took wan a-tit"
+          }
+        ]
+      },
+      {
+        "cardId": "family-013",
+        "frontContent": {
+          "type": "text",
+          "text": "ตา"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Maternal grandfather"
+        },
+        "tags": ["family", "grandparent", "extended family"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "ta",
+        "partOfSpeech": "noun",
+        "context": "Mother's father; Thai distinguishes between maternal and paternal grandparents",
+        "examples": [
+          {
+            "original": "ตาชอบตกปลา",
+            "translation": "Maternal grandfather likes to fish",
+            "phonetic": "ta chob tok pla"
+          },
+          {
+            "original": "บ้านตาอยู่ในชนบท",
+            "translation": "Maternal grandfather's house is in the countryside",
+            "phonetic": "ban ta yu nai chon-na-bot"
+          }
+        ]
+      },
+      {
+        "cardId": "family-014",
+        "frontContent": {
+          "type": "text",
+          "text": "ยาย"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Maternal grandmother"
+        },
+        "tags": ["family", "grandparent", "extended family"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "yai",
+        "partOfSpeech": "noun",
+        "context": "Mother's mother; Thai distinguishes between maternal and paternal grandparents",
+        "examples": [
+          {
+            "original": "ยายสอนฉันทำอาหารไทย",
+            "translation": "Maternal grandmother taught me to cook Thai food",
+            "phonetic": "yai sorn chan tam a-han thai"
+          },
+          {
+            "original": "ฉันชอบไปบ้านยายตอนปิดเทอม",
+            "translation": "I like going to maternal grandmother's house during school breaks",
+            "phonetic": "chan chob pai ban yai torn pid term"
+          }
+        ]
+      },
+      {
+        "cardId": "family-015",
+        "frontContent": {
+          "type": "text",
+          "text": "ลูกพี่ลูกน้อง"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Cousin"
+        },
+        "tags": ["family", "extended family", "relatives"],
+        "difficulty": "hard",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "look pee look nong",
+        "partOfSpeech": "noun",
+        "context": "General term for cousins (both maternal and paternal)",
+        "examples": [
+          {
+            "original": "เธอเป็นลูกพี่ลูกน้องของฉัน",
+            "translation": "She is my cousin",
+            "phonetic": "ter pen look pee look nong kong chan"
+          },
+          {
+            "original": "ลูกพี่ลูกน้องของผมหลายคนอาศัยอยู่ต่างประเทศ",
+            "translation": "Many of my cousins live abroad (male speaker)",
+            "phonetic": "look pee look nong kong pom lai kon a-sai yu tang pra-tet"
+          }
+        ]
+      },
+      {
+        "cardId": "family-016",
+        "frontContent": {
+          "type": "text",
+          "text": "หลานชาย"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Nephew/Grandson"
+        },
+        "tags": ["family", "extended family", "relatives"],
+        "difficulty": "hard",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "lan chai",
+        "partOfSpeech": "noun",
+        "context": "Term for male nephew or grandson; Thai uses the same term for both relationships",
+        "examples": [
+          {
+            "original": "หลานชายของฉันเพิ่งเกิด",
+            "translation": "My nephew/grandson was just born",
+            "phonetic": "lan chai kong chan peng gerd"
+          },
+          {
+            "original": "หลานชายคนโตเรียนจบมหาวิทยาลัยแล้ว",
+            "translation": "The eldest nephew/grandson has already graduated from university",
+            "phonetic": "lan chai kon to rian job ma-ha-wit-ta-ya-lai laew"
+          }
+        ]
+      },
+      {
+        "cardId": "family-017",
+        "frontContent": {
+          "type": "text",
+          "text": "หลานสาว"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Niece/Granddaughter"
+        },
+        "tags": ["family", "extended family", "relatives"],
+        "difficulty": "hard",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "lan sao",
+        "partOfSpeech": "noun",
+        "context": "Term for female niece or granddaughter; Thai uses the same term for both relationships",
+        "examples": [
+          {
+            "original": "หลานสาวของฉันน่ารักมาก",
+            "translation": "My niece/granddaughter is very cute",
+            "phonetic": "lan sao kong chan na-rak mak"
+          },
+          {
+            "original": "ฉันซื้อตุ๊กตาให้หลานสาว",
+            "translation": "I bought a doll for my niece/granddaughter",
+            "phonetic": "chan seu took-ta hai lan sao"
+          }
+        ]
+      },
+      {
+        "cardId": "family-018",
+        "frontContent": {
+          "type": "text",
+          "text": "ลุง"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Uncle (older than parent)"
+        },
+        "tags": ["family", "extended family", "relatives"],
+        "difficulty": "hard",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "lung",
+        "partOfSpeech": "noun",
+        "context": "Term for father's older brother or mother's older brother; Thai distinguishes uncles by their age relative to parents",
+        "examples": [
+          {
+            "original": "ลุงของฉันเป็นทหาร",
+            "translation": "My uncle is a soldier",
+            "phonetic": "lung kong chan pen ta-han"
+          },
+          {
+            "original": "บ้านลุงอยู่ใกล้ทะเล",
+            "translation": "Uncle's house is near the sea",
+            "phonetic": "ban lung yu glai ta-le"
+          }
+        ]
+      },
+      {
+        "cardId": "family-019",
+        "frontContent": {
+          "type": "text",
+          "text": "ป้า"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Aunt (father's sister)"
+        },
+        "tags": ["family", "extended family", "relatives"],
+        "difficulty": "hard",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "pa",
+        "partOfSpeech": "noun",
+        "context": "Term specifically for father's sister; Thai has specific terms for different types of aunts",
+        "examples": [
+          {
+            "original": "ป้าของฉันอาศัยอยู่ในกรุงเทพฯ",
+            "translation": "My aunt (father's sister) lives in Bangkok",
+            "phonetic": "pa kong chan a-sai yu nai krung-tep"
+          },
+          {
+            "original": "ป้าชอบทำอาหารให้ครอบครัว",
+            "translation": "Aunt (father's sister) likes to cook for the family",
+            "phonetic": "pa chob tam a-han hai krob-krua"
+          }
+        ]
+      },
+      {
+        "cardId": "family-020",
+        "frontContent": {
+          "type": "text",
+          "text": "น้า"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Aunt (mother's sibling)"
+        },
+        "tags": ["family", "extended family", "relatives"],
+        "difficulty": "hard",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "na",
+        "partOfSpeech": "noun",
+        "context": "Term for mother's siblings (both brothers and sisters younger than mother); Thai has specific terms for different types of aunts and uncles",
+        "examples": [
+          {
+            "original": "น้าของฉันมีลูกสามคน",
+            "translation": "My aunt/uncle (mother's sibling) has three children",
+            "phonetic": "na kong chan mee look sam kon"
+          },
+          {
+            "original": "น้าสาวคนเล็กของแม่เพิ่งแต่งงาน",
+            "translation": "Mother's youngest sister just got married",
+            "phonetic": "na sao kon lek kong mae peng tang-ngan"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-04-30T10:30:00Z",
+    "updatedAt": "2025-04-30T10:30:00Z",
+    "theme": "family",
+    "difficulty": "intermediate"
+  }

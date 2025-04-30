@@ -1,0 +1,614 @@
+{
+  "collectionId": "thai-english",
+  "deckId": "occupations",
+  "name": "Thai Occupations and Professions",
+  "description": "Essential Thai vocabulary and phrases for discussing various occupations and professions",
+  "sourceLanguage": "th",
+  "targetLanguage": "en",
+  "cards": [
+    {
+      "cardId": "occ-001",
+      "frontContent": {
+        "type": "text",
+        "text": "คุณทำงานอะไร"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "What is your occupation? / What do you do for work?"
+      },
+      "tags": ["question", "occupation", "common phrase"],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "khun tam-ngan a-rai",
+      "partOfSpeech": "question",
+      "context": "Common question when asking about someone's job or profession",
+      "examples": [
+        {
+          "original": "คุณทำงานอะไรครับ",
+          "translation": "What is your occupation? (male speaker)",
+          "phonetic": "khun tam-ngan a-rai krap"
+        },
+        {
+          "original": "คุณทำงานที่ไหนคะ",
+          "translation": "Where do you work? (female speaker)",
+          "phonetic": "khun tam-ngan tee-nai ka"
+        }
+      ]
+    },
+    {
+      "cardId": "occ-002",
+      "frontContent": {
+        "type": "text",
+        "text": "ฉันเป็นครู"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "I am a teacher"
+      },
+      "tags": ["teacher", "occupation", "statement"],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "chan pen kroo",
+      "partOfSpeech": "sentence",
+      "context": "Stating one's profession as a teacher",
+      "examples": [
+        {
+          "original": "ฉันเป็นครูสอนภาษาอังกฤษ",
+          "translation": "I am an English teacher",
+          "phonetic": "chan pen kroo sorn pa-sa ang-krit"
+        },
+        {
+          "original": "เธอเป็นครูที่โรงเรียนไหน",
+          "translation": "At which school are you a teacher?",
+          "phonetic": "ter pen kroo tee rong-rian nai"
+        }
+      ]
+    },
+    {
+      "cardId": "occ-003",
+      "frontContent": {
+        "type": "text",
+        "text": "เขาเป็นหมอ"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "He/she is a doctor"
+      },
+      "tags": ["doctor", "medical", "occupation"],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "khao pen mor",
+      "partOfSpeech": "sentence",
+      "context": "Stating someone's profession as a doctor",
+      "examples": [
+        {
+          "original": "เขาเป็นหมอที่โรงพยาบาลศิริราช",
+          "translation": "He/she is a doctor at Siriraj Hospital",
+          "phonetic": "khao pen mor tee rong-pa-ya-ban si-ri-rat"
+        },
+        {
+          "original": "คุณหมอมาจากที่ไหน",
+          "translation": "Where is the doctor from?",
+          "phonetic": "khun mor ma jak tee-nai"
+        }
+      ]
+    },
+    {
+      "cardId": "occ-004",
+      "frontContent": {
+        "type": "text",
+        "text": "ฉันทำงานเป็นวิศวกร"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "I work as an engineer"
+      },
+      "tags": ["engineer", "occupation", "statement"],
+      "difficulty": "medium",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "chan tam-ngan pen wi-sa-wa-korn",
+      "partOfSpeech": "sentence",
+      "context": "Stating one's profession as an engineer",
+      "examples": [
+        {
+          "original": "ฉันทำงานเป็นวิศวกรซอฟต์แวร์",
+          "translation": "I work as a software engineer",
+          "phonetic": "chan tam-ngan pen wi-sa-wa-korn soft-wear"
+        },
+        {
+          "original": "เขาเป็นวิศวกรโยธา",
+          "translation": "He/she is a civil engineer",
+          "phonetic": "khao pen wi-sa-wa-korn yo-ta"
+        }
+      ]
+    },
+    {
+      "cardId": "occ-005",
+      "frontContent": {
+        "type": "text",
+        "text": "เธอเป็นพยาบาล"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "She is a nurse"
+      },
+      "tags": ["nurse", "medical", "occupation"],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "ter pen pa-ya-ban",
+      "partOfSpeech": "sentence",
+      "context": "Stating someone's profession as a nurse",
+      "examples": [
+        {
+          "original": "เธอเป็นพยาบาลมาสิบปีแล้ว",
+          "translation": "She has been a nurse for ten years",
+          "phonetic": "ter pen pa-ya-ban ma sip pee laew"
+        },
+        {
+          "original": "พยาบาลคนนั้นใจดีมาก",
+          "translation": "That nurse is very kind",
+          "phonetic": "pa-ya-ban kon nan jai dee mak"
+        }
+      ]
+    },
+    {
+      "cardId": "occ-006",
+      "frontContent": {
+        "type": "text",
+        "text": "เขาทำงานเป็นตำรวจ"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "He works as a police officer"
+      },
+      "tags": ["police", "law enforcement", "occupation"],
+      "difficulty": "medium",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "khao tam-ngan pen tam-ruat",
+      "partOfSpeech": "sentence",
+      "context": "Stating someone's profession in law enforcement",
+      "examples": [
+        {
+          "original": "พี่ชายของฉันเป็นตำรวจ",
+          "translation": "My older brother is a police officer",
+          "phonetic": "pee chai khong chan pen tam-ruat"
+        },
+        {
+          "original": "ตำรวจกำลังช่วยเหลือผู้คน",
+          "translation": "The police are helping people",
+          "phonetic": "tam-ruat gam-lang chuay-lue pu-kon"
+        }
+      ]
+    },
+    {
+      "cardId": "occ-007",
+      "frontContent": {
+        "type": "text",
+        "text": "ฉันเป็นพนักงานบริษัท"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "I am a company employee"
+      },
+      "tags": ["office worker", "employee", "occupation"],
+      "difficulty": "medium",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "chan pen pa-nak-ngan bo-ri-sat",
+      "partOfSpeech": "sentence",
+      "context": "Stating one's status as a company employee",
+      "examples": [
+        {
+          "original": "ฉันเป็นพนักงานบริษัทไอที",
+          "translation": "I am an employee at an IT company",
+          "phonetic": "chan pen pa-nak-ngan bo-ri-sat ai-tee"
+        },
+        {
+          "original": "เขาทำงานเป็นพนักงานบริษัทต่างชาติ",
+          "translation": "He works as an employee at a foreign company",
+          "phonetic": "khao tam-ngan pen pa-nak-ngan bo-ri-sat tang-chat"
+        }
+      ]
+    },
+    {
+      "cardId": "occ-008",
+      "frontContent": {
+        "type": "text",
+        "text": "เธอเป็นนักแสดง"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "She is an actor/actress"
+      },
+      "tags": ["actor", "entertainment", "occupation"],
+      "difficulty": "medium",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "ter pen nak-sa-dang",
+      "partOfSpeech": "sentence",
+      "context": "Stating someone's profession in entertainment",
+      "examples": [
+        {
+          "original": "เธอเป็นนักแสดงที่มีชื่อเสียง",
+          "translation": "She is a famous actress",
+          "phonetic": "ter pen nak-sa-dang tee mee chue-siang"
+        },
+        {
+          "original": "ฉันอยากเป็นนักแสดง",
+          "translation": "I want to be an actor/actress",
+          "phonetic": "chan yak pen nak-sa-dang"
+        }
+      ]
+    },
+    {
+      "cardId": "occ-009",
+      "frontContent": {
+        "type": "text",
+        "text": "เขาเป็นนักเขียน"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "He/she is a writer"
+      },
+      "tags": ["writer", "author", "occupation"],
+      "difficulty": "medium",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "khao pen nak-kian",
+      "partOfSpeech": "sentence",
+      "context": "Stating someone's profession as a writer or author",
+      "examples": [
+        {
+          "original": "เขาเป็นนักเขียนนิยาย",
+          "translation": "He/she is a novelist",
+          "phonetic": "khao pen nak-kian ni-yai"
+        },
+        {
+          "original": "ฉันชอบอ่านหนังสือของนักเขียนคนนี้",
+          "translation": "I like reading books by this writer",
+          "phonetic": "chan chop aan nang-sue khong nak-kian kon nee"
+        }
+      ]
+    },
+    {
+      "cardId": "occ-010",
+      "frontContent": {
+        "type": "text",
+        "text": "ฉันเป็นนักศึกษา"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "I am a student (university level)"
+      },
+      "tags": ["student", "education", "occupation"],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "chan pen nak-suek-sa",
+      "partOfSpeech": "sentence",
+      "context": "Stating one's status as a university student",
+      "examples": [
+        {
+          "original": "ฉันเป็นนักศึกษาที่มหาวิทยาลัยจุฬาฯ",
+          "translation": "I am a student at Chulalongkorn University",
+          "phonetic": "chan pen nak-suek-sa tee ma-ha-wit-ta-ya-lai ju-la"
+        },
+        {
+          "original": "เขาเป็นนักศึกษาวิชาวิศวกรรม",
+          "translation": "He is an engineering student",
+          "phonetic": "khao pen nak-suek-sa wi-cha wi-sa-wa-kam"
+        }
+      ]
+    },
+    {
+      "cardId": "occ-011",
+      "frontContent": {
+        "type": "text",
+        "text": "เธอเป็นแพทย์เฉพาะทาง"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "She is a specialist doctor"
+      },
+      "tags": ["doctor", "specialist", "medical"],
+      "difficulty": "hard",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "ter pen paet cha-pao tang",
+      "partOfSpeech": "sentence",
+      "context": "Describing someone as a medical specialist",
+      "examples": [
+        {
+          "original": "เธอเป็นแพทย์เฉพาะทางด้านหัวใจ",
+          "translation": "She is a cardiologist (heart specialist)",
+          "phonetic": "ter pen paet cha-pao tang dan hua-jai"
+        },
+        {
+          "original": "คุณต้องไปพบแพทย์เฉพาะทาง",
+          "translation": "You need to see a specialist doctor",
+          "phonetic": "khun tong pai pop paet cha-pao tang"
+        }
+      ]
+    },
+    {
+      "cardId": "occ-012",
+      "frontContent": {
+        "type": "text",
+        "text": "เขาเป็นพ่อครัว"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "He is a chef/cook"
+      },
+      "tags": ["chef", "cooking", "occupation"],
+      "difficulty": "medium",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "khao pen por-krua",
+      "partOfSpeech": "sentence",
+      "context": "Stating someone's profession as a chef",
+      "examples": [
+        {
+          "original": "เขาเป็นพ่อครัวที่ร้านอาหารไทย",
+          "translation": "He is a chef at a Thai restaurant",
+          "phonetic": "khao pen por-krua tee ran a-han thai"
+        },
+        {
+          "original": "พ่อครัวกำลังทำอาหาร",
+          "translation": "The chef is cooking",
+          "phonetic": "por-krua gam-lang tam a-han"
+        }
+      ]
+    },
+    {
+      "cardId": "occ-013",
+      "frontContent": {
+        "type": "text",
+        "text": "เธอเป็นแม่ครัว"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "She is a chef/cook"
+      },
+      "tags": ["chef", "cooking", "occupation"],
+      "difficulty": "medium",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "ter pen mae-krua",
+      "partOfSpeech": "sentence",
+      "context": "Stating someone's profession as a female chef",
+      "examples": [
+        {
+          "original": "เธอเป็นแม่ครัวที่มีชื่อเสียง",
+          "translation": "She is a famous chef",
+          "phonetic": "ter pen mae-krua tee mee chue-siang"
+        },
+        {
+          "original": "แม่ครัวคนนี้ทำอาหารอร่อย",
+          "translation": "This chef makes delicious food",
+          "phonetic": "mae-krua kon nee tam a-han a-roi"
+        }
+      ]
+    },
+    {
+      "cardId": "occ-014",
+      "frontContent": {
+        "type": "text",
+        "text": "พี่ชายของฉันเป็นนักธุรกิจ"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "My older brother is a businessman"
+      },
+      "tags": ["business", "entrepreneur", "occupation"],
+      "difficulty": "medium",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "pee-chai khong chan pen nak-tu-ra-kit",
+      "partOfSpeech": "sentence",
+      "context": "Describing a family member's business profession",
+      "examples": [
+        {
+          "original": "พี่ชายของฉันเป็นนักธุรกิจที่ประสบความสำเร็จ",
+          "translation": "My older brother is a successful businessman",
+          "phonetic": "pee-chai khong chan pen nak-tu-ra-kit tee pra-sop kwam sam-ret"
+        },
+        {
+          "original": "เธอเป็นนักธุรกิจที่เก่งมาก",
+          "translation": "She is a very talented businesswoman",
+          "phonetic": "ter pen nak-tu-ra-kit tee geng mak"
+        }
+      ]
+    },
+    {
+      "cardId": "occ-015",
+      "frontContent": {
+        "type": "text",
+        "text": "ฉันเป็นทนายความ"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "I am a lawyer"
+      },
+      "tags": ["lawyer", "legal", "occupation"],
+      "difficulty": "medium",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "chan pen ta-nai-kwam",
+      "partOfSpeech": "sentence",
+      "context": "Stating one's profession in the legal field",
+      "examples": [
+        {
+          "original": "ฉันเป็นทนายความที่บริษัทกฎหมาย",
+          "translation": "I am a lawyer at a law firm",
+          "phonetic": "chan pen ta-nai-kwam tee bo-ri-sat kot-mai"
+        },
+        {
+          "original": "คุณต้องปรึกษาทนายความ",
+          "translation": "You need to consult a lawyer",
+          "phonetic": "khun tong pruk-sa ta-nai-kwam"
+        }
+      ]
+    },
+    {
+      "cardId": "occ-016",
+      "frontContent": {
+        "type": "text",
+        "text": "น้องสาวฉันเป็นสถาปนิก"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "My younger sister is an architect"
+      },
+      "tags": ["architect", "design", "occupation"],
+      "difficulty": "medium",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "nong-sao chan pen sa-ta-pa-nik",
+      "partOfSpeech": "sentence",
+      "context": "Describing a family member's design profession",
+      "examples": [
+        {
+          "original": "เธอเป็นสถาปนิกที่มีชื่อเสียง",
+          "translation": "She is a famous architect",
+          "phonetic": "ter pen sa-ta-pa-nik tee mee chue-siang"
+        },
+        {
+          "original": "สถาปนิกกำลังออกแบบบ้าน",
+          "translation": "The architect is designing a house",
+          "phonetic": "sa-ta-pa-nik gam-lang ok-baep ban"
+        }
+      ]
+    },
+    {
+      "cardId": "occ-017",
+      "frontContent": {
+        "type": "text",
+        "text": "เขาเป็นช่างภาพ"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "He is a photographer"
+      },
+      "tags": ["photographer", "creative", "occupation"],
+      "difficulty": "medium",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "khao pen chang-pap",
+      "partOfSpeech": "sentence",
+      "context": "Stating someone's profession in photography",
+      "examples": [
+        {
+          "original": "เขาเป็นช่างภาพมืออาชีพ",
+          "translation": "He is a professional photographer",
+          "phonetic": "khao pen chang-pap mue-a-cheep"
+        },
+        {
+          "original": "ช่างภาพกำลังถ่ายรูป",
+          "translation": "The photographer is taking pictures",
+          "phonetic": "chang-pap gam-lang tai-roop"
+        }
+      ]
+    },
+    {
+      "cardId": "occ-018",
+      "frontContent": {
+        "type": "text",
+        "text": "เธอทำงานเป็นนักข่าว"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "She works as a journalist/reporter"
+      },
+      "tags": ["journalist", "media", "occupation"],
+      "difficulty": "medium",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "ter tam-ngan pen nak-khao",
+      "partOfSpeech": "sentence",
+      "context": "Stating someone's profession in media",
+      "examples": [
+        {
+          "original": "เธอทำงานเป็นนักข่าวโทรทัศน์",
+          "translation": "She works as a television reporter",
+          "phonetic": "ter tam-ngan pen nak-khao to-ra-tat"
+        },
+        {
+          "original": "นักข่าวกำลังสัมภาษณ์นายกรัฐมนตรี",
+          "translation": "The journalist is interviewing the prime minister",
+          "phonetic": "nak-khao gam-lang sam-pat na-yok rat-ta-mon-tree"
+        }
+      ]
+    },
+    {
+      "cardId": "occ-019",
+      "frontContent": {
+        "type": "text",
+        "text": "เขาเป็นเกษตรกร"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "He is a farmer"
+      },
+      "tags": ["farmer", "agriculture", "occupation"],
+      "difficulty": "medium",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "khao pen ka-set-ta-korn",
+      "partOfSpeech": "sentence",
+      "context": "Stating someone's profession in agriculture",
+      "examples": [
+        {
+          "original": "พ่อของฉันเป็นเกษตรกร",
+          "translation": "My father is a farmer",
+          "phonetic": "por khong chan pen ka-set-ta-korn"
+        },
+        {
+          "original": "เกษตรกรกำลังปลูกข้าว",
+          "translation": "The farmer is growing rice",
+          "phonetic": "ka-set-ta-korn gam-lang plook khao"
+        }
+      ]
+    },
+    {
+      "cardId": "occ-020",
+      "frontContent": {
+        "type": "text",
+        "text": "เธอเป็นอาจารย์มหาวิทยาลัย"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "She is a university professor"
+      },
+      "tags": ["professor", "education", "occupation"],
+      "difficulty": "hard",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "ter pen a-jarn ma-ha-wit-ta-ya-lai",
+      "partOfSpeech": "sentence",
+      "context": "Stating someone's profession in higher education",
+      "examples": [
+        {
+          "original": "แม่ของฉันเป็นอาจารย์มหาวิทยาลัย",
+          "translation": "My mother is a university professor",
+          "phonetic": "mae khong chan pen a-jarn ma-ha-wit-ta-ya-lai"
+        },
+        {
+          "original": "อาจารย์กำลังสอนนักศึกษา",
+          "translation": "The professor is teaching students",
+          "phonetic": "a-jarn gam-lang sorn nak-suek-sa"
+        }
+      ]
+    }
+  ],
+  "createdAt": "2025-04-30T15:30:00Z",
+  "updatedAt": "2025-04-30T15:30:00Z",
+  "theme": "occupations",
+  "difficulty": "intermediate"
+}

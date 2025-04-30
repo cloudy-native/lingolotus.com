@@ -10,11 +10,12 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "tests",
-        path: `${__dirname}/data/tests`,
+        name: "collections",
+        path: `${__dirname}/data/collections`,
       },
     },
     {
@@ -22,13 +23,6 @@ module.exports = {
       options: {
         name: "decks",
         path: `${__dirname}/data/decks`,
-      },
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "collections",
-        path: `${__dirname}/data/collections`,
       },
     },
     `gatsby-transformer-json`,

@@ -1,0 +1,104 @@
+{
+  "collectionId": "thai-english",
+  "deckId": "shopping",
+  "name": "Thai Shopping Phrases",
+  "description": "Essential Thai vocabulary and phrases for shopping at markets and stores",
+  "sourceLanguage": "th",
+  "targetLanguage": "en",
+  "cards": [
+    {
+      "cardId": "shopping-001",
+      "frontContent": {
+        "type": "text",
+        "text": "นี่ราคาเท่าไร"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "How much is this?"
+      },
+      "tags": ["shopping", "price", "question"],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "nee ra-ka tao-rai",
+      "partOfSpeech": "question",
+      "context": "Basic phrase for asking the price of an item",
+      "examples": [
+        {
+          "original": "นี่ราคาเท่าไรครับ",
+          "translation": "How much is this? (male speaker)",
+          "phonetic": "nee ra-ka tao-rai krap"
+        },
+        {
+          "original": "อันนี้ราคาเท่าไรคะ",
+          "translation": "How much is this one? (female speaker)",
+          "phonetic": "an-nee ra-ka tao-rai ka"
+        }
+      ]
+    },
+    {
+      "cardId": "shopping-002",
+      "frontContent": {
+        "type": "text",
+        "text": "ลดราคาได้ไหม"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "Can you give me a discount?"
+      },
+      "tags": ["shopping", "bargaining", "question"],
+      "difficulty": "medium",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "lot ra-ka dai mai",
+      "partOfSpeech": "question",
+      "context": "Used for bargaining at markets or stores",
+      "examples": [
+        {
+          "original": "ลดราคาให้หน่อยได้ไหมครับ",
+          "translation": "Can you give me a little discount? (male speaker)",
+          "phonetic": "lot ra-ka hai noi dai mai krap"
+        },
+        {
+          "original": "ซื้อสองชิ้น ลดราคาได้ไหมคะ",
+          "translation": "If I buy two pieces, can you give me a discount? (female speaker)",
+          "phonetic": "seu song chin, lot ra-ka dai mai ka"
+        }
+      ]
+    },
+    {
+      "cardId": "shopping-003",
+      "frontContent": {
+        "type": "text",
+        "text": "ราคานี้แพงเกินไป"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "This price is too expensive"
+      },
+      "tags": ["shopping", "bargaining", "statement"],
+      "difficulty": "medium",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "ra-ka nee paeng gern pai",
+      "partOfSpeech": "sentence",
+      "context": "Used during bargaining to indicate the price is high",
+      "examples": [
+        {
+          "original": "ราคานี้แพงเกินไปสำหรับผม",
+          "translation": "This price is too expensive for me (male speaker)",
+          "phonetic": "ra-ka nee paeng gern pai sam-rap pom"
+        },
+        {
+          "original": "ฉันคิดว่าราคานี้แพงไปหน่อย",
+          "translation": "I think this price is a bit too expensive (female speaker)",
+          "phonetic": "chan kit wa ra-ka nee paeng pai noi"
+        }
+      ]
+    }
+  ],
+  "createdAt": "2025-04-30T10:30:00Z",
+  "updatedAt": "2025-04-30T10:30:00Z",
+  "theme": "shopping",
+  "difficulty": "intermediate"
+}

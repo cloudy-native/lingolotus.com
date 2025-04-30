@@ -26,7 +26,11 @@ import {
   Progress,
   SimpleGrid,
   Spacer,
+  Table,
+  Tbody,
+  Td,
   Text,
+  Tr,
   useColorModeValue,
   useDisclosure,
   useToast,
@@ -441,15 +445,30 @@ const DeckStudyTemplate: React.FC<DeckStudyTemplateProps> = ({ data }) => {
                 ) : (
                   // Back of card
                   <VStack spacing={4}>
-                    <Heading size="lg" mb={2}>
-                      {currentCard.backContent.text}
-                    </Heading>
+                    <SimpleGrid columns={2} spacing={20}>
+                      <Box>
+                        <Heading size="lg" mb={2}>
+                          {currentCard.frontContent.text}
+                        </Heading>
 
-                    {currentCard.context && (
-                      <Text fontSize="md" color="gray.600">
-                        {currentCard.context}
-                      </Text>
-                    )}
+                        {showPhonetic && currentCard.phonetic && (
+                          <Text color="gray.500" fontSize="md">
+                            /{currentCard.phonetic}/
+                          </Text>
+                        )}
+                      </Box>
+                      <Box>
+                        <Heading size="lg" mb={2}>
+                          {currentCard.backContent.text}
+                        </Heading>
+
+                        {currentCard.context && (
+                          <Text fontSize="md" color="gray.600">
+                            {currentCard.context}
+                          </Text>
+                        )}
+                      </Box>
+                    </SimpleGrid>
 
                     {currentCard.examples && (
                       <SimpleGrid columns={{ base: 1, md: 2 }} spacing={8}>
