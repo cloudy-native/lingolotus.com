@@ -1,0 +1,614 @@
+{
+    "collectionId": "thai-english",
+    "deckId": "thai-tenses-shower",
+    "name": "Thai Tenses: Shower Activities",
+    "description": "Learn Thai tenses through questions and answers about showering",
+    "sourceLanguage": "th",
+    "targetLanguage": "en",
+    "cards": [
+      {
+        "cardId": "tense-001",
+        "frontContent": {
+          "type": "text",
+          "text": "คุณอาบน้ำหรือยัง"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Have you taken a shower yet?"
+        },
+        "tags": ["present perfect", "question", "daily routine"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "khun aap nam rue yang",
+        "partOfSpeech": "question",
+        "context": "Asking if someone has completed their shower (present perfect tense)",
+        "examples": [
+          {
+            "original": "คุณอาบน้ำหรือยังครับ",
+            "translation": "Have you taken a shower yet? (male speaker)",
+            "phonetic": "khun aap nam rue yang krap"
+          },
+          {
+            "original": "น้องอาบน้ำหรือยังคะ",
+            "translation": "Has the child taken a shower yet? (female speaker)",
+            "phonetic": "nong aap nam rue yang ka"
+          }
+        ]
+      },
+      {
+        "cardId": "tense-002",
+        "frontContent": {
+          "type": "text",
+          "text": "ฉันอาบน้ำแล้ว"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "I have already taken a shower"
+        },
+        "tags": ["present perfect", "response", "daily routine"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "chan aap nam laew",
+        "partOfSpeech": "sentence",
+        "context": "Responding that you have completed your shower (present perfect tense)",
+        "examples": [
+          {
+            "original": "ผมอาบน้ำแล้วครับ",
+            "translation": "I have already taken a shower (male speaker)",
+            "phonetic": "pom aap nam laew krap"
+          },
+          {
+            "original": "ฉันอาบน้ำเสร็จแล้วค่ะ",
+            "translation": "I have finished taking a shower (female speaker)",
+            "phonetic": "chan aap nam set laew ka"
+          }
+        ]
+      },
+      {
+        "cardId": "tense-003",
+        "frontContent": {
+          "type": "text",
+          "text": "ฉันกำลังจะอาบน้ำ"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "I am about to take a shower"
+        },
+        "tags": ["future", "immediate future", "daily routine"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "chan gam-lang ja aap nam",
+        "partOfSpeech": "sentence",
+        "context": "Stating that you will shower very soon (immediate future tense)",
+        "examples": [
+          {
+            "original": "ผมกำลังจะอาบน้ำพอดีครับ",
+            "translation": "I was just about to take a shower (male speaker)",
+            "phonetic": "pom gam-lang ja aap nam por-dee krap"
+          },
+          {
+            "original": "ฉันกำลังจะเข้าไปอาบน้ำค่ะ",
+            "translation": "I am about to go take a shower (female speaker)",
+            "phonetic": "chan gam-lang ja kao pai aap nam ka"
+          }
+        ]
+      },
+      {
+        "cardId": "tense-004",
+        "frontContent": {
+          "type": "text",
+          "text": "คุณกำลังอาบน้ำอยู่เหรอ"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Are you taking a shower right now?"
+        },
+        "tags": ["present continuous", "question", "daily routine"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "khun gam-lang aap nam yu rer",
+        "partOfSpeech": "question",
+        "context": "Asking if someone is currently in the shower (present continuous tense)",
+        "examples": [
+          {
+            "original": "เธอกำลังอาบน้ำอยู่เหรอ",
+            "translation": "Are you taking a shower right now?",
+            "phonetic": "ter gam-lang aap nam yu rer"
+          },
+          {
+            "original": "ใครกำลังอาบน้ำอยู่ในห้องน้ำ",
+            "translation": "Who is taking a shower in the bathroom?",
+            "phonetic": "krai gam-lang aap nam yu nai hong nam"
+          }
+        ]
+      },
+      {
+        "cardId": "tense-005",
+        "frontContent": {
+          "type": "text",
+          "text": "ฉันกำลังอาบน้ำอยู่"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "I am taking a shower right now"
+        },
+        "tags": ["present continuous", "response", "daily routine"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "chan gam-lang aap nam yu",
+        "partOfSpeech": "sentence",
+        "context": "Stating that you are currently showering (present continuous tense)",
+        "examples": [
+          {
+            "original": "ขอโทษนะ ผมกำลังอาบน้ำอยู่",
+            "translation": "Sorry, I am taking a shower right now (male speaker)",
+            "phonetic": "kor-tote na, pom gam-lang aap nam yu"
+          },
+          {
+            "original": "เดี๋ยวนะ ฉันกำลังอาบน้ำอยู่",
+            "translation": "Just a moment, I am taking a shower right now (female speaker)",
+            "phonetic": "diao na, chan gam-lang aap nam yu"
+          }
+        ]
+      },
+      {
+        "cardId": "tense-006",
+        "frontContent": {
+          "type": "text",
+          "text": "ฉันจะอาบน้ำหลังอาหาร"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "I will take a shower after the meal"
+        },
+        "tags": ["future", "plan", "daily routine"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "chan ja aap nam lang a-han",
+        "partOfSpeech": "sentence",
+        "context": "Expressing plan to shower in the future (future tense)",
+        "examples": [
+          {
+            "original": "ผมจะอาบน้ำหลังจากกลับบ้าน",
+            "translation": "I will take a shower after I get home (male speaker)",
+            "phonetic": "pom ja aap nam lang jak glab baan"
+          },
+          {
+            "original": "ฉันจะอาบน้ำก่อนนอน",
+            "translation": "I will take a shower before sleeping (female speaker)",
+            "phonetic": "chan ja aap nam gorn non"
+          }
+        ]
+      },
+      {
+        "cardId": "tense-007",
+        "frontContent": {
+          "type": "text",
+          "text": "คุณจะอาบน้ำเมื่อไร"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "When will you take a shower?"
+        },
+        "tags": ["future", "question", "daily routine"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "khun ja aap nam meu-a-rai",
+        "partOfSpeech": "question",
+        "context": "Asking about someone's future shower plan (future tense)",
+        "examples": [
+          {
+            "original": "คุณจะอาบน้ำตอนไหนครับ",
+            "translation": "When will you take a shower? (male speaker)",
+            "phonetic": "khun ja aap nam torn nai krap"
+          },
+          {
+            "original": "น้องจะอาบน้ำหลังเล่นเสร็จใช่ไหม",
+            "translation": "Will the child take a shower after finishing playing?",
+            "phonetic": "nong ja aap nam lang len set chai mai"
+          }
+        ]
+      },
+      {
+        "cardId": "tense-008",
+        "frontContent": {
+          "type": "text",
+          "text": "ฉันอาบน้ำทุกเช้า"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "I take a shower every morning"
+        },
+        "tags": ["present simple", "habit", "daily routine"],
+        "difficulty": "easy",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "chan aap nam took chao",
+        "partOfSpeech": "sentence",
+        "context": "Describing regular shower habits (present simple tense)",
+        "examples": [
+          {
+            "original": "ผมอาบน้ำวันละสองครั้ง",
+            "translation": "I take a shower twice a day (male speaker)",
+            "phonetic": "pom aap nam wan la song krang"
+          },
+          {
+            "original": "ฉันชอบอาบน้ำตอนเย็น",
+            "translation": "I like to shower in the evening (female speaker)",
+            "phonetic": "chan chob aap nam torn yen"
+          }
+        ]
+      },
+      {
+        "cardId": "tense-009",
+        "frontContent": {
+          "type": "text",
+          "text": "คุณอาบน้ำกี่ครั้งต่อวัน"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "How many times do you shower per day?"
+        },
+        "tags": ["present simple", "question", "daily routine"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "khun aap nam gee krang tor wan",
+        "partOfSpeech": "question",
+        "context": "Asking about shower frequency (present simple tense)",
+        "examples": [
+          {
+            "original": "คุณอาบน้ำกี่ครั้งต่อวันครับ",
+            "translation": "How many times do you shower per day? (male speaker)",
+            "phonetic": "khun aap nam gee krang tor wan krap"
+          },
+          {
+            "original": "ปกติคุณอาบน้ำตอนไหนบ้าง",
+            "translation": "When do you usually take a shower?",
+            "phonetic": "pa-ga-ti khun aap nam torn nai bang"
+          }
+        ]
+      },
+      {
+        "cardId": "tense-010",
+        "frontContent": {
+          "type": "text",
+          "text": "ฉันอาบน้ำเมื่อเช้านี้"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "I took a shower this morning"
+        },
+        "tags": ["past simple", "statement", "daily routine"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "chan aap nam meu-a chao nee",
+        "partOfSpeech": "sentence",
+        "context": "Stating that you showered earlier (past simple tense)",
+        "examples": [
+          {
+            "original": "ผมอาบน้ำตอนตี 5 เมื่อเช้า",
+            "translation": "I took a shower at 5 AM this morning (male speaker)",
+            "phonetic": "pom aap nam torn tee ha meu-a chao"
+          },
+          {
+            "original": "ฉันอาบน้ำก่อนมาที่นี่",
+            "translation": "I took a shower before coming here (female speaker)",
+            "phonetic": "chan aap nam gorn ma tee nee"
+          }
+        ]
+      },
+      {
+        "cardId": "tense-011",
+        "frontContent": {
+          "type": "text",
+          "text": "คุณอาบน้ำเมื่อไร"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "When did you shower?"
+        },
+        "tags": ["past simple", "question", "daily routine"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "khun aap nam meu-a-rai",
+        "partOfSpeech": "question",
+        "context": "Asking when someone showered in the past (past simple tense)",
+        "examples": [
+          {
+            "original": "คุณอาบน้ำครั้งสุดท้ายเมื่อไร",
+            "translation": "When was the last time you took a shower?",
+            "phonetic": "khun aap nam krang sut-tai meu-a-rai"
+          },
+          {
+            "original": "คุณอาบน้ำตอนไหนเมื่อวาน",
+            "translation": "When did you shower yesterday?",
+            "phonetic": "khun aap nam torn nai meu-a wan"
+          }
+        ]
+      },
+      {
+        "cardId": "tense-012",
+        "frontContent": {
+          "type": "text",
+          "text": "ฉันได้อาบน้ำมาแล้ว 2 ชั่วโมง"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "I took a shower 2 hours ago"
+        },
+        "tags": ["past simple", "time reference", "daily routine"],
+        "difficulty": "hard",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "chan dai aap nam ma laew song chua-mong",
+        "partOfSpeech": "sentence",
+        "context": "Stating when you showered with time reference (past simple tense)",
+        "examples": [
+          {
+            "original": "ผมได้อาบน้ำมาแล้วตั้งแต่เช้า",
+            "translation": "I took a shower since this morning (male speaker)",
+            "phonetic": "pom dai aap nam ma laew tang tae chao"
+          },
+          {
+            "original": "ฉันอาบน้ำไปเมื่อสักครู่นี้",
+            "translation": "I took a shower just a moment ago (female speaker)",
+            "phonetic": "chan aap nam pai meu-a sak kroo nee"
+          }
+        ]
+      },
+      {
+        "cardId": "tense-013",
+        "frontContent": {
+          "type": "text",
+          "text": "ฉันกำลังอาบน้ำตอนที่โทรศัพท์ดัง"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "I was taking a shower when the phone rang"
+        },
+        "tags": ["past continuous", "interrupted action", "daily routine"],
+        "difficulty": "hard",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "chan gam-lang aap nam torn tee to-ra-sap dang",
+        "partOfSpeech": "sentence",
+        "context": "Describing an action that was interrupted in the past (past continuous tense)",
+        "examples": [
+          {
+            "original": "ผมกำลังอาบน้ำตอนที่ไฟดับ",
+            "translation": "I was taking a shower when the power went out (male speaker)",
+            "phonetic": "pom gam-lang aap nam torn tee fai dap"
+          },
+          {
+            "original": "ฉันกำลังอาบน้ำเมื่อคุณโทรมา",
+            "translation": "I was taking a shower when you called (female speaker)",
+            "phonetic": "chan gam-lang aap nam meu-a khun to ma"
+          }
+        ]
+      },
+      {
+        "cardId": "tense-014",
+        "frontContent": {
+          "type": "text",
+          "text": "คุณกำลังทำอะไรตอนที่ฝนตก"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "What were you doing when it rained?"
+        },
+        "tags": ["past continuous", "question", "interrupted action"],
+        "difficulty": "hard",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "khun gam-lang tam a-rai torn tee fon tok",
+        "partOfSpeech": "question",
+        "context": "Asking what someone was doing during an event in the past (past continuous tense)",
+        "examples": [
+          {
+            "original": "คุณกำลังอาบน้ำตอนที่แผ่นดินไหวเหรอ",
+            "translation": "Were you taking a shower when the earthquake happened?",
+            "phonetic": "khun gam-lang aap nam torn tee paen-din wai rer"
+          },
+          {
+            "original": "เธอกำลังทำอะไรตอนที่ฉันโทรไป",
+            "translation": "What were you doing when I called?",
+            "phonetic": "ter gam-lang tam a-rai torn tee chan to pai"
+          }
+        ]
+      },
+      {
+        "cardId": "tense-015",
+        "frontContent": {
+          "type": "text",
+          "text": "ฉันอาบน้ำมา 3 วันแล้ว"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "I have been showering for 3 days"
+        },
+        "tags": ["present perfect continuous", "duration", "daily routine"],
+        "difficulty": "hard",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "chan aap nam ma sam wan laew",
+        "partOfSpeech": "sentence",
+        "context": "Describing how long you've been showering (present perfect continuous tense)",
+        "examples": [
+          {
+            "original": "ผมอาบน้ำเย็นมาเดือนหนึ่งแล้ว",
+            "translation": "I have been taking cold showers for a month now (male speaker)",
+            "phonetic": "pom aap nam yen ma deuan neung laew"
+          },
+          {
+            "original": "ฉันอาบน้ำที่นี่มาสองสัปดาห์แล้ว",
+            "translation": "I have been showering here for two weeks (female speaker)",
+            "phonetic": "chan aap nam tee nee ma song sap-da laew"
+          }
+        ]
+      },
+      {
+        "cardId": "tense-016",
+        "frontContent": {
+          "type": "text",
+          "text": "คุณอาบน้ำมานานแค่ไหนแล้ว"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "How long have you been showering?"
+        },
+        "tags": ["present perfect continuous", "question", "duration"],
+        "difficulty": "hard",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "khun aap nam ma naan kae nai laew",
+        "partOfSpeech": "question",
+        "context": "Asking about the duration of a repeated action (present perfect continuous tense)",
+        "examples": [
+          {
+            "original": "คุณอาบน้ำในห้องนี้มากี่วันแล้ว",
+            "translation": "How many days have you been showering in this room?",
+            "phonetic": "khun aap nam nai hong nee ma gee wan laew"
+          },
+          {
+            "original": "คุณใช้สบู่นี้อาบน้ำมานานแค่ไหน",
+            "translation": "How long have you been using this soap to shower?",
+            "phonetic": "khun chai sa-boo nee aap nam ma naan kae nai"
+          }
+        ]
+      },
+      {
+        "cardId": "tense-017",
+        "frontContent": {
+          "type": "text",
+          "text": "ฉันจะได้อาบน้ำเมื่อไร"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "When will I get to shower?"
+        },
+        "tags": ["future", "question", "daily routine"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "chan ja dai aap nam meu-a-rai",
+        "partOfSpeech": "question",
+        "context": "Asking about when you'll have the opportunity to shower (future tense)",
+        "examples": [
+          {
+            "original": "ผมจะได้อาบน้ำอุ่นเมื่อไร",
+            "translation": "When will I get to take a warm shower? (male speaker)",
+            "phonetic": "pom ja dai aap nam un meu-a-rai"
+          },
+          {
+            "original": "ฉันจะมีโอกาสได้อาบน้ำไหม",
+            "translation": "Will I have a chance to take a shower? (female speaker)",
+            "phonetic": "chan ja mee o-gat dai aap nam mai"
+          }
+        ]
+      },
+      {
+        "cardId": "tense-018",
+        "frontContent": {
+          "type": "text",
+          "text": "ถ้าฉันอาบน้ำเสร็จแล้ว ฉันจะโทรหาคุณ"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "If I finish showering, I will call you"
+        },
+        "tags": ["conditional", "future", "daily routine"],
+        "difficulty": "hard",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "ta chan aap nam set laew, chan ja to ha khun",
+        "partOfSpeech": "sentence",
+        "context": "Expressing a condition and future result (conditional tense)",
+        "examples": [
+          {
+            "original": "ถ้าผมอาบน้ำเสร็จเร็ว ผมจะไปเจอคุณ",
+            "translation": "If I finish showering quickly, I will meet you (male speaker)",
+            "phonetic": "ta pom aap nam set reo, pom ja pai jer khun"
+          },
+          {
+            "original": "ถ้าน้ำร้อน ฉันจะอาบน้ำนานขึ้น",
+            "translation": "If the water is hot, I will shower longer (female speaker)",
+            "phonetic": "ta nam ron, chan ja aap nam naan keun"
+          }
+        ]
+      },
+      {
+        "cardId": "tense-019",
+        "frontContent": {
+          "type": "text",
+          "text": "ฉันควรจะอาบน้ำตอนนี้ไหม"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "Should I take a shower now?"
+        },
+        "tags": ["modal verb", "question", "daily routine"],
+        "difficulty": "medium",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "chan kuan ja aap nam torn nee mai",
+        "partOfSpeech": "question",
+        "context": "Asking for advice about showering (modal verb)",
+        "examples": [
+          {
+            "original": "ผมควรจะอาบน้ำก่อนออกไปไหม",
+            "translation": "Should I take a shower before going out? (male speaker)",
+            "phonetic": "pom kuan ja aap nam gorn ork pai mai"
+          },
+          {
+            "original": "ฉันจำเป็นต้องอาบน้ำก่อนนอนไหม",
+            "translation": "Do I need to take a shower before sleeping? (female speaker)",
+            "phonetic": "chan jam-pen tong aap nam gorn non mai"
+          }
+        ]
+      },
+      {
+        "cardId": "tense-020",
+        "frontContent": {
+          "type": "text",
+          "text": "ฉันอาบน้ำเสร็จก่อนที่เธอจะมาถึง"
+        },
+        "backContent": {
+          "type": "text",
+          "text": "I had finished showering before you arrived"
+        },
+        "tags": ["past perfect", "sequence", "daily routine"],
+        "difficulty": "hard",
+        "sourceLanguage": "th",
+        "targetLanguage": "en",
+        "phonetic": "chan aap nam set gorn tee ter ja ma teung",
+        "partOfSpeech": "sentence",
+        "context": "Describing a completed action before another past action (past perfect tense)",
+        "examples": [
+          {
+            "original": "ผมอาบน้ำเสร็จแล้วก่อนที่ฝนจะตก",
+            "translation": "I had finished showering before it rained (male speaker)",
+            "phonetic": "pom aap nam set laew gorn tee fon ja tok"
+          },
+          {
+            "original": "ฉันอาบน้ำเสร็จพอดีตอนที่โทรศัพท์ดัง",
+            "translation": "I had just finished showering when the phone rang (female speaker)",
+            "phonetic": "chan aap nam set por-dee torn tee to-ra-sap dang"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-04-30T10:30:00Z",
+    "updatedAt": "2025-04-30T10:30:00Z",
+    "theme": "tenses",
+    "difficulty": "intermediate"
+  }

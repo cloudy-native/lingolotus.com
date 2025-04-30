@@ -1,0 +1,4 @@
+- [ ] Get study collection working (must either merge cards or use a different template)
+- [ ] Factor identical components everywhere
+- [ ] Fix about page
+- [ ] Clarify scoring and get it working. Do we need it?

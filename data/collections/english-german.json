@@ -1,0 +1,13 @@
+{
+  "collectionId": "english-german",
+  "name": "English for German Speakers",
+  "description": "Learn essential English vocabulary and phrases for everyday communication.",
+  "sourceLanguage": "en",
+  "targetLanguage": "de",
+  "createdAt": "2023-04-15T10:30:00Z",
+  "updatedAt": "2023-04-29T14:45:00Z",
+  "category": "language-learning",
+  "difficulty": "beginner",
+  "imageUrl": "/assets/collections/english-german/cover.webp",
+  "featured": false
+}

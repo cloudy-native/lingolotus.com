@@ -1,0 +1,13 @@
+node_modules/
+public/
+.cache/
+.vscode/
+.github/
+.eslintrc.js
+.prettierrc
+*.json
+*.md
+*.css
+*.scss
+*.yaml
+*.yml
