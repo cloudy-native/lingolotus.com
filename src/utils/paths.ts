@@ -17,8 +17,3 @@ export function studyDeckPath(collectionId: string, deckId: string, studyLanguag
 
   return `/collections/${collectionId}/decks/${deckId}/study?studyLanguage=${studyLanguage}`;
 }
-
-export function deckReviewPath(collectionId: string, deckId: string) {
-  return `/collections/${collectionId}/decks/${deckId}/review`;
-}
-

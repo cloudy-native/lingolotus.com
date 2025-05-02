@@ -4,7 +4,6 @@ import {
   collectionDetailPath,
   collectionListPath,
   deckDetailPath,
-  deckReviewPath,
   studyDeckPath,
 } from "./src/utils/paths";
 
@@ -139,26 +138,6 @@ export const createPages: GatsbyNode["createPages"] = async ({
     });
     reporter.info(
       `Created deck study page ${path} with context: ${JSON.stringify(context)}`,
-    );
-  });
-
-  // Create deck review pages
-  const deckReviewTemplate = path.resolve("./src/templates/deck-review.tsx");
-  decksResult.data?.allDecksJson.nodes.forEach((deck) => {
-    const path = deckReviewPath(deck.collectionId, deck.deckId);
-    const context = {
-      collectionId: deck.collectionId,
-      deckId: deck.deckId,
-      sessionId: "mock-session-id", // In a real app, this would be dynamic
-    };
-
-    createPage({
-      path,
-      component: deckReviewTemplate,
-      context,
-    });
-    reporter.info(
-      `Created deck review page ${path} with context: ${JSON.stringify(context)}`,
     );
   });
 

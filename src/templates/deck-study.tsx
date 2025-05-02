@@ -3,19 +3,10 @@ import {
   Button,
   Card,
   CardBody,
-  Divider,
   Flex,
-  Heading,
   HStack,
   Icon,
   IconButton,
-  Modal,
-  ModalBody,
-  ModalCloseButton,
-  ModalContent,
-  ModalFooter,
-  ModalHeader,
-  ModalOverlay,
   Progress,
   SimpleGrid,
   Spacer,
@@ -26,14 +17,14 @@ import {
   useToast,
   VStack,
 } from "@chakra-ui/react";
-import { graphql, navigate } from "gatsby";
-import { Check, ChevronLeft, X, ArrowLeft } from "lucide-react";
-import React, { useEffect, useState } from "react";
 import { useLocation } from "@reach/router";
+import { graphql, navigate } from "gatsby";
+import { ArrowLeft, ChevronLeft, ChevronRight } from "lucide-react";
+import React, { useEffect, useState } from "react";
 
 import SpeechHeading from "../components/SpeechHeading";
 import TextToSpeech from "../components/TextToSpeech";
-import { Deck, SessionProgress, TranslationFlashcard } from "../types";
+import { Deck, TranslationFlashcard } from "../types";
 import { getLanguageInfo } from "../utils/language";
 import { deckDetailPath } from "../utils/paths";
 
@@ -52,34 +43,22 @@ const DeckStudyTemplate: React.FC<DeckStudyTemplateProps> = ({ data }) => {
   const toast = useToast();
 
   const deck = data.decksJson;
-  const collection = data.collectionsJson;
   const params = new URLSearchParams(location.search);
   const studyLanguage = params.get("studyLanguage"); // 'target', 'source', or null
-  const initialCardFrontLanguage: "source" | "target" = studyLanguage === "target" ? "target" : "source";
+  const initialCardFrontLanguage: "source" | "target" =
+    studyLanguage === "target" ? "target" : "source";
 
   // State for study session
   const [flipped, setFlipped] = useState<boolean>(false);
-  const [showPhonetic, setShowPhonetic] = useState<boolean>(true);
   const [cardIndex, setCardIndex] = useState<number>(0);
-  // Track answers per cardId: 'correct' | 'incorrect'
-  const [answers, setAnswers] = useState<
-    Record<string, "correct" | "incorrect">
-  >({});
-
-  // Session progress tracking
-  const [sessionProgress, setSessionProgress] = useState<SessionProgress>({
-    currentCardIndex: 0,
-    correctAnswers: 0,
-    incorrectAnswers: 0,
-    cardsReviewed: new Set<string>(),
-    cardStatistics: {},
-  });
 
   // Get study preferences from localStorage or use defaults
   const [studyCards, setStudyCards] = useState<TranslationFlashcard[]>([]);
   const { isOpen, onOpen, onClose } = useDisclosure();
 
-  const [cardFrontLanguage, setCardFrontLanguage] = useState<"source" | "target">(initialCardFrontLanguage);
+  const [cardFrontLanguage, setCardFrontLanguage] = useState<
+    "source" | "target"
+  >(initialCardFrontLanguage);
 
   // Card appearance
   const cardBg = useColorModeValue("white", "gray.800");
@@ -136,24 +115,6 @@ const DeckStudyTemplate: React.FC<DeckStudyTemplateProps> = ({ data }) => {
 
       setStudyCards(cardsToStudy);
 
-      // Initialize card statistics if they don't exist
-      const initialCardStats = {};
-      cardsToStudy.forEach((card) => {
-        initialCardStats[card.cardId] = {
-          correctCount: 0,
-          incorrectCount: 0,
-          confidenceLevel: 3, // Start at medium confidence
-        };
-      });
-
-      setSessionProgress((prev) => ({
-        ...prev,
-        cardStatistics: {
-          ...prev.cardStatistics,
-          ...initialCardStats,
-        },
-      }));
-
       toast({
         title: "Study session started",
         description: `${cardsToStudy.length} cards loaded`,
@@ -186,194 +147,11 @@ const DeckStudyTemplate: React.FC<DeckStudyTemplateProps> = ({ data }) => {
 
   // Handle answer submission
   const handleAnswer = (result: "correct" | "incorrect") => {
-    const card = studyCards[cardIndex];
-    setAnswers((prev) => ({ ...prev, [card.cardId]: result }));
-    // Optionally update progress/session stats here
     goToNextCard();
   };
-
-  // Handle card feedback
-  const handleCardFeedback = (correct: boolean) => {
-    const currentCard = studyCards[cardIndex];
-
-    // Update session progress
-    setSessionProgress((prev) => {
-      const newCardsReviewed = new Set(prev.cardsReviewed);
-      newCardsReviewed.add(currentCard.id);
-
-      const newCardStats = { ...prev.cardStatistics };
-
-      if (correct) {
-        newCardStats[currentCard.cardId] = {
-          ...newCardStats[currentCard.cardId],
-          correctCount: newCardStats[currentCard.cardId].correctCount + 1,
-          confidenceLevel: Math.min(
-            5,
-            newCardStats[currentCard.cardId].confidenceLevel + 1,
-          ),
-          lastReviewed: new Date(),
-        };
-
-        return {
-          ...prev,
-          correctAnswers: prev.correctAnswers + 1,
-          cardsReviewed: newCardsReviewed,
-          cardStatistics: newCardStats,
-        };
-      } else {
-        newCardStats[currentCard.cardId] = {
-          ...newCardStats[currentCard.cardId],
-          incorrectCount: newCardStats[currentCard.cardId].incorrectCount + 1,
-          confidenceLevel: Math.max(
-            1,
-            newCardStats[currentCard.cardId].confidenceLevel - 1,
-          ),
-          lastReviewed: new Date(),
-        };
-
-        return {
-          ...prev,
-          incorrectAnswers: prev.incorrectAnswers + 1,
-          cardsReviewed: newCardsReviewed,
-          cardStatistics: newCardStats,
-        };
-      }
-    });
-
-    // Go to next card
-    goToNextCard();
-  };
-
-  // Calculate progress percentage
-  const progressPercentage =
-    (Object.keys(answers).length / studyCards.length) * 100;
 
   // Current card
   const currentCard = studyCards[cardIndex];
-
-  // Modal to show study session summary
-  const SessionSummaryModal = () => (
-    <Modal isOpen={isOpen} onClose={onClose} size="lg">
-      <ModalOverlay />
-      <ModalContent>
-        <ModalHeader>Study Session Complete</ModalHeader>
-        <ModalCloseButton />
-        <ModalBody>
-          <VStack spacing={4} align="stretch">
-            <Box textAlign="center">
-              <Heading size="md" mb={2}>
-                Session Statistics
-              </Heading>
-              <HStack justify="center" spacing={8} mb={4}>
-                <VStack>
-                  <Text fontSize="2xl" fontWeight="bold" color="green.500">
-                    {sessionProgress.correctAnswers}
-                  </Text>
-                  <Text>Correct</Text>
-                </VStack>
-                <VStack>
-                  <Text fontSize="2xl" fontWeight="bold" color="red.500">
-                    {sessionProgress.incorrectAnswers}
-                  </Text>
-                  <Text>Incorrect</Text>
-                </VStack>
-                <VStack>
-                  <Text fontSize="2xl" fontWeight="bold">
-                    {studyCards.length}
-                  </Text>
-                  <Text>Total Cards</Text>
-                </VStack>
-              </HStack>
-
-              <Box mb={4}>
-                <Text mb={2}>Accuracy</Text>
-                <Progress
-                  value={
-                    (sessionProgress.correctAnswers /
-                      (sessionProgress.correctAnswers +
-                        sessionProgress.incorrectAnswers)) *
-                      100 || 0
-                  }
-                  colorScheme="green"
-                  borderRadius="md"
-                  height="20px"
-                />
-                <Text mt={1}>
-                  {Math.round(
-                    (sessionProgress.correctAnswers /
-                      (sessionProgress.correctAnswers +
-                        sessionProgress.incorrectAnswers)) *
-                      100 || 0,
-                  )}
-                  %
-                </Text>
-              </Box>
-            </Box>
-
-            <Divider />
-
-            <Box>
-              <Heading size="sm" mb={2}>
-                Hard Cards to Review
-              </Heading>
-              {Object.entries(sessionProgress.cardStatistics)
-                .filter(([id, stats]) => stats.confidenceLevel <= 2)
-                .slice(0, 3)
-                .map(([id, stats]) => {
-                  const card = studyCards.find((c) => c.id === id);
-                  return card ? (
-                    <Box
-                      key={id}
-                      p={2}
-                      borderWidth="1px"
-                      borderRadius="md"
-                      mb={2}
-                    >
-                      <Flex justify="space-between">
-                        <Text fontWeight="bold">{card.frontContent.text}</Text>
-                        <Tag colorScheme="red">
-                          Confidence: {stats.confidenceLevel}/5
-                        </Tag>
-                      </Flex>
-                      <Text>{card.backContent.text}</Text>
-                    </Box>
-                  ) : null;
-                })}
-            </Box>
-          </VStack>
-        </ModalBody>
-        <ModalFooter>
-          <Button
-            colorScheme="blue"
-            mr={3}
-            onClick={() =>
-              navigate(deckDetailPath(deck.collectionId, deck.deckId))
-            }
-          >
-            Back to Deck
-          </Button>
-          <Button
-            colorScheme="teal"
-            onClick={() => {
-              setCardIndex(0);
-              setFlipped(false);
-              setSessionProgress({
-                currentCardIndex: 0,
-                correctAnswers: 0,
-                incorrectAnswers: 0,
-                cardsReviewed: new Set<string>(),
-                cardStatistics: {},
-              });
-              onClose();
-              // initStudySession();
-            }}
-          >
-            Restart Session
-          </Button>
-        </ModalFooter>
-      </ModalContent>
-    </Modal>
-  );
 
   return (
     <>
@@ -381,9 +159,6 @@ const DeckStudyTemplate: React.FC<DeckStudyTemplateProps> = ({ data }) => {
         {/* Toggle for card front language */}
         <Flex justify="center" mb={4}>
           <HStack spacing={4}>
-          <Text>Progress: {JSON.stringify(sessionProgress)}</Text>
-          <Text>Answers: {JSON.stringify(answers)}</Text>
-
             {/* Target language button */}
             <Button
               colorScheme={cardFrontLanguage === "target" ? "blue" : "gray"}
@@ -438,14 +213,14 @@ const DeckStudyTemplate: React.FC<DeckStudyTemplateProps> = ({ data }) => {
             </Text>
           </HStack>
         </Flex>
-
+{/* 
         <Progress
           value={progressPercentage}
           size="sm"
           colorScheme="blue"
           borderRadius="full"
           mb={8}
-        />
+        /> */}
 
         {/* Card display */}
         {currentCard && (
@@ -493,19 +268,17 @@ const DeckStudyTemplate: React.FC<DeckStudyTemplateProps> = ({ data }) => {
                       )}
                     </Box>
 
-                    {cardFrontLanguage === "source" &&
-                      showPhonetic &&
-                      currentCard.phonetic && (
-                        <Text
-                          color="gray.400"
-                          fontSize="xl"
-                          fontStyle="italic"
-                          letterSpacing="wide"
-                          mt={1}
-                        >
-                          /{currentCard.phonetic}/
-                        </Text>
-                      )}
+                    {cardFrontLanguage === "source" && currentCard.phonetic && (
+                      <Text
+                        color="gray.400"
+                        fontSize="xl"
+                        fontStyle="italic"
+                        letterSpacing="wide"
+                        mt={1}
+                      >
+                        /{currentCard.phonetic}/
+                      </Text>
+                    )}
 
                     {currentCard.partOfSpeech && (
                       <Tag
@@ -541,7 +314,7 @@ const DeckStudyTemplate: React.FC<DeckStudyTemplateProps> = ({ data }) => {
                           headingSize="lg"
                           mb={0}
                         />
-                        {showPhonetic && currentCard.phonetic && (
+                        {currentCard.phonetic && (
                           <Text
                             color="gray.400"
                             fontSize="lg"
@@ -668,42 +441,17 @@ const DeckStudyTemplate: React.FC<DeckStudyTemplateProps> = ({ data }) => {
                 isDisabled={cardIndex === 0}
                 colorScheme="gray"
               />
-
-              {/* Only show answer buttons if this card hasn't been answered */}
-              {flipped && !answers[currentCard.cardId] && (
-                <>
-                  <Button
-                    leftIcon={<Icon as={X} />}
-                    colorScheme="red"
-                    onClick={() => handleAnswer("incorrect")}
-                    variant="outline"
-                    borderRadius="full"
-                    px={6}
-                    fontWeight="bold"
-                  >
-                    Incorrect
-                  </Button>
-
-                  <Button
-                    leftIcon={<Icon as={Check} />}
-                    colorScheme="green"
-                    onClick={() => handleAnswer("correct")}
-                    variant="solid"
-                    borderRadius="full"
-                    px={6}
-                    fontWeight="bold"
-                  >
-                    Correct
-                  </Button>
-                </>
-              )}
-              {/* No Next button! User must answer to advance */}
+              <IconButton
+                aria-label="Next card"
+                icon={<Icon as={ChevronRight} />}
+                onClick={goToNextCard}
+                isDisabled={cardIndex === studyCards.length - 1}
+                colorScheme="gray"
+              />
             </HStack>
           </Box>
         )}
       </Box>
-
-      <SessionSummaryModal />
     </>
   );
 };

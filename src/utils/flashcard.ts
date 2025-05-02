@@ -72,13 +72,3 @@ export function createTranslationDeck(
   };
 }
 
-// Helper function to initialize session progress
-export function initializeSessionProgress(): SessionProgress {
-  return {
-    currentCardIndex: 0,
-    correctAnswers: 0,
-    incorrectAnswers: 0,
-    cardsReviewed: new Set<string>(),
-    cardStatistics: {}
-  };
-}
