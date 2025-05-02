@@ -26,12 +26,12 @@
       "examples": [
         {
           "original": "ผมไม่สบายมาสองวันแล้วครับ",
-          "translation": "I have been feeling unwell for two days (male speaker)",
+          "translation": "I have been feeling unwell for two days (♂)",
           "phonetic": "pom mai sa-bai ma song wan laew krap"
         },
         {
           "original": "ฉันรู้สึกไม่สบายค่ะ",
-          "translation": "I feel unwell (female speaker)",
+          "translation": "I feel unwell (♀)",
           "phonetic": "chan roo-suek mai sa-bai ka"
         }
       ]
@@ -56,12 +56,12 @@
       "examples": [
         {
           "original": "ผมปวดหัวมากครับ",
-          "translation": "I have a severe headache (male speaker)",
+          "translation": "I have a severe headache (♂)",
           "phonetic": "pom puad hua mak krap"
         },
         {
           "original": "ฉันปวดหัวข้างเดียวค่ะ",
-          "translation": "I have a headache on one side (female speaker)",
+          "translation": "I have a headache on one side (♀)",
           "phonetic": "chan puad hua kang diao ka"
         }
       ]
@@ -86,12 +86,12 @@
       "examples": [
         {
           "original": "ผมปวดท้องมากครับ",
-          "translation": "I have a severe stomachache (male speaker)",
+          "translation": "I have a severe stomachache (♂)",
           "phonetic": "pom puad tong mak krap"
         },
         {
           "original": "ฉันปวดท้องและรู้สึกคลื่นไส้ค่ะ",
-          "translation": "I have a stomachache and feel nauseous (female speaker)",
+          "translation": "I have a stomachache and feel nauseous (♀)",
           "phonetic": "chan puad tong lae roo-suek kluen-sai ka"
         }
       ]
@@ -116,12 +116,12 @@
       "examples": [
         {
           "original": "ผมมีไข้สูงมาก",
-          "translation": "I have a very high fever (male speaker)",
+          "translation": "I have a very high fever (♂)",
           "phonetic": "pom mee kai soong mak"
         },
         {
           "original": "ฉันมีไข้ตั้งแต่เมื่อวานค่ะ",
-          "translation": "I've had a fever since yesterday (female speaker)",
+          "translation": "I've had a fever since yesterday (♀)",
           "phonetic": "chan mee kai tang tae meu-a-wan ka"
         }
       ]
@@ -146,12 +146,12 @@
       "examples": [
         {
           "original": "ผมมีอาการไอแห้งๆ",
-          "translation": "I have a dry cough (male speaker)",
+          "translation": "I have a dry cough (♂)",
           "phonetic": "pom mee a-garn ai haeng-haeng"
         },
         {
           "original": "ฉันไอมีเสมหะค่ะ",
-          "translation": "I have a cough with phlegm (female speaker)",
+          "translation": "I have a cough with phlegm (♀)",
           "phonetic": "chan ai mee sa-ma-ha ka"
         }
       ]
@@ -176,12 +176,12 @@
       "examples": [
         {
           "original": "ผมมีผื่นขึ้นที่แขนครับ",
-          "translation": "I have a rash on my arm (male speaker)",
+          "translation": "I have a rash on my arm (♂)",
           "phonetic": "pom mee peun keun tee kaen krap"
         },
         {
           "original": "ฉันมีผื่นคันทั่วตัวค่ะ",
-          "translation": "I have an itchy rash all over my body (female speaker)",
+          "translation": "I have an itchy rash all over my body (♀)",
           "phonetic": "chan mee peun kan tua tua ka"
         }
       ]
@@ -206,12 +206,12 @@
       "examples": [
         {
           "original": "ผมเป็นภูมิแพ้ฝุ่นครับ",
-          "translation": "I am allergic to dust (male speaker)",
+          "translation": "I am allergic to dust (♂)",
           "phonetic": "pom pen poom-pae fun krap"
         },
         {
           "original": "ฉันเป็นภูมิแพ้อากาศค่ะ",
-          "translation": "I have seasonal allergies (female speaker)",
+          "translation": "I have seasonal allergies (♀)",
           "phonetic": "chan pen poom-pae a-kat ka"
         }
       ]
@@ -236,12 +236,12 @@
       "examples": [
         {
           "original": "ผมแพ้ยาเพนิซิลินครับ",
-          "translation": "I am allergic to penicillin (male speaker)",
+          "translation": "I am allergic to penicillin (♂)",
           "phonetic": "pom pae ya pe-ni-si-lin krap"
         },
         {
           "original": "ฉันแพ้ยาแก้ปวดบางชนิดค่ะ",
-          "translation": "I am allergic to certain pain medications (female speaker)",
+          "translation": "I am allergic to certain pain medications (♀)",
           "phonetic": "chan pae ya kae-puad bang cha-nit ka"
         }
       ]
@@ -266,12 +266,12 @@
       "examples": [
         {
           "original": "ผมเจ็บตรงนี้เวลาหายใจเข้าลึกๆ",
-          "translation": "It hurts here when I breathe deeply (male speaker)",
+          "translation": "It hurts here when I breathe deeply (♂)",
           "phonetic": "pom jep trong nee we-la hai-jai kao luek-luek"
         },
         {
           "original": "ฉันรู้สึกเจ็บบริเวณนี้เมื่อกดค่ะ",
-          "translation": "I feel pain in this area when pressed (female speaker)",
+          "translation": "I feel pain in this area when pressed (♀)",
           "phonetic": "chan roo-suek jep bo-ri-wen nee meu-a kot ka"
         }
       ]
@@ -296,12 +296,12 @@
       "examples": [
         {
           "original": "ผมเป็นเบาหวานมานานแล้วครับ",
-          "translation": "I have had diabetes for a long time (male speaker)",
+          "translation": "I have had diabetes for a long time (♂)",
           "phonetic": "pom pen bao-wan ma naan laew krap"
         },
         {
           "original": "ฉันเป็นเบาหวานชนิดที่หนึ่งค่ะ",
-          "translation": "I have Type 1 diabetes (female speaker)",
+          "translation": "I have Type 1 diabetes (♀)",
           "phonetic": "chan pen bao-wan cha-nit tee neung ka"
         }
       ]
@@ -326,12 +326,12 @@
       "examples": [
         {
           "original": "ผมมีความดันโลหิตสูงและต้องกินยาประจำ",
-          "translation": "I have high blood pressure and need to take regular medication (male speaker)",
+          "translation": "I have high blood pressure and need to take regular medication (♂)",
           "phonetic": "pom mee kwam dan lo-hit soong lae tong gin ya pra-jam"
         },
         {
           "original": "ฉันมีปัญหาความดันโลหิตสูงค่ะ",
-          "translation": "I have problems with high blood pressure (female speaker)",
+          "translation": "I have problems with high blood pressure (♀)",
           "phonetic": "chan mee pan-ha kwam dan lo-hit soong ka"
         }
       ]
@@ -356,12 +356,12 @@
       "examples": [
         {
           "original": "ผมต้องการพบหมอโดยด่วนครับ",
-          "translation": "I need to see a doctor urgently (male speaker)",
+          "translation": "I need to see a doctor urgently (♂)",
           "phonetic": "pom tong-garn pop mor doi duan krap"
         },
         {
           "original": "ฉันต้องการพบหมอผิวหนังค่ะ",
-          "translation": "I need to see a dermatologist (female speaker)",
+          "translation": "I need to see a dermatologist (♀)",
           "phonetic": "chan tong-garn pop mor piw-nang ka"
         }
       ]
@@ -416,12 +416,12 @@
       "examples": [
         {
           "original": "ผมมียาประจำตัวหลายชนิดครับ",
-          "translation": "I take several regular medications (male speaker)",
+          "translation": "I take several regular medications (♂)",
           "phonetic": "pom mee ya pra-jam tua lai cha-nit krap"
         },
         {
           "original": "นี่คือยาที่ฉันทานประจำค่ะ",
-          "translation": "These are the medications I take regularly (female speaker)",
+          "translation": "These are the medications I take regularly (♀)",
           "phonetic": "nee keu ya tee chan tan pra-jam ka"
         }
       ]
@@ -476,12 +476,12 @@
       "examples": [
         {
           "original": "ผมต้องงดน้ำงดอาหารก่อนตรวจเลือดไหมครับ",
-          "translation": "Do I need to fast before the blood test? (male speaker)",
+          "translation": "Do I need to fast before the blood test? (♂)",
           "phonetic": "pom tong ngot nam ngot a-han gorn truat lueat mai krap"
         },
         {
           "original": "ฉันต้องงดอาหารกี่ชั่วโมงก่อนการตรวจคะ",
-          "translation": "How many hours should I fast before the examination? (female speaker)",
+          "translation": "How many hours should I fast before the examination? (♀)",
           "phonetic": "chan tong ngot a-han gee chua-mong gorn garn truat ka"
         }
       ]
@@ -506,12 +506,12 @@
       "examples": [
         {
           "original": "ฉันกำลังตั้งครรภ์ได้ 3 เดือนค่ะ",
-          "translation": "I am 3 months pregnant (female speaker)",
+          "translation": "I am 3 months pregnant (♀)",
           "phonetic": "chan gam-lang tang kan dai sam deuan ka"
         },
         {
           "original": "ฉันตั้งครรภ์ ยานี้ปลอดภัยไหมคะ",
-          "translation": "I am pregnant, is this medicine safe? (female speaker)",
+          "translation": "I am pregnant, is this medicine safe? (♀)",
           "phonetic": "chan tang kan, ya nee plod-pai mai ka"
         }
       ]
@@ -536,12 +536,12 @@
       "examples": [
         {
           "original": "คุณหมอถามว่าอาการไข้เป็นมากี่วันแล้ว",
-          "translation": "The doctor asks how many days you have had the fever",
+          "translation": "The doctor asks how many days you have had the fever (♂)",
           "phonetic": "khun mor tam wa a-garn kai pen ma gee wan laew"
         },
         {
           "original": "อาการปวดท้องเป็นมานานแค่ไหนแล้วครับ",
-          "translation": "How long have you had the stomachache? (male doctor)",
+          "translation": "How long have you had the stomachache? (♂)",
           "phonetic": "a-garn puad tong pen ma naan kae nai laew krap"
         }
       ]
@@ -566,12 +566,12 @@
       "examples": [
         {
           "original": "ผมต้องเสียค่ารักษาเท่าไรครับ",
-          "translation": "How much do I need to pay for the treatment? (male speaker)",
+          "translation": "How much do I need to pay for the treatment? (♂)",
           "phonetic": "pom tong sia ka rak-sa tao-rai krap"
         },
         {
           "original": "ค่าหมอและค่ายารวมเท่าไรคะ",
-          "translation": "How much is the total for the doctor's fee and medicine? (female speaker)",
+          "translation": "How much is the total for the doctor's fee and medicine? (♀)",
           "phonetic": "ka mor lae ka ya ruam tao-rai ka"
         }
       ]
@@ -596,12 +596,12 @@
       "examples": [
         {
           "original": "ผมมีประกันสุขภาพระหว่างการเดินทางครับ",
-          "translation": "I have travel health insurance (male speaker)",
+          "translation": "I have travel health insurance (♂)",
           "phonetic": "pom mee pra-gan su-ka-pap ra-wang garn dern tang krap"
         },
         {
           "original": "นี่คือบัตรประกันสุขภาพของฉันค่ะ",
-          "translation": "This is my health insurance card (female speaker)",
+          "translation": "This is my health insurance card (♀)",
           "phonetic": "nee keu bat pra-gan su-ka-pap kong chan ka"
         }
       ]

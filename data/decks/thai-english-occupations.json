@@ -26,12 +26,12 @@
       "examples": [
         {
           "original": "คุณทำงานอะไรครับ",
-          "translation": "What is your occupation? (male speaker)",
+          "translation": "What is your occupation? (♂)",
           "phonetic": "khun tam-ngan a-rai krap"
         },
         {
           "original": "คุณทำงานที่ไหนคะ",
-          "translation": "Where do you work? (female speaker)",
+          "translation": "Where do you work? (♀)",
           "phonetic": "khun tam-ngan tee-nai ka"
         }
       ]

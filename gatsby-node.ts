@@ -3,7 +3,6 @@ import path from "path";
 import {
   collectionDetailPath,
   collectionListPath,
-  collectionStudyPath,
   deckDetailPath,
   deckReviewPath,
   studyDeckPath,
@@ -48,16 +47,17 @@ export const createPages: GatsbyNode["createPages"] = async ({
   );
   collectionsResult.data?.allCollectionsJson.nodes.forEach((collection) => {
     const path = collectionDetailPath(collection.collectionId);
+    const context = {
+      collectionId: collection.collectionId,
+    };
 
     createPage({
       path,
       component: collectionDetailTemplate,
-      context: {
-        collectionId: collection.collectionId,
-      },
+      context,
     });
     reporter.info(
-      `Created collection page ${path} with context: ${JSON.stringify({ collectionId: collection.collectionId })}`,
+      `Created collection page ${path} with context: ${JSON.stringify(context)}`,
     );
   });
 
@@ -108,17 +108,18 @@ export const createPages: GatsbyNode["createPages"] = async ({
   const deckDetailTemplate = path.resolve("./src/templates/deck-detail.tsx");
   decksResult.data?.allDecksJson.nodes.forEach((deck) => {
     const path = deckDetailPath(deck.collectionId, deck.deckId);
+    const context = {
+      collectionId: deck.collectionId,
+      deckId: deck.deckId,
+    };
 
     createPage({
       path,
       component: deckDetailTemplate,
-      context: {
-        collectionId: deck.collectionId,
-        deckId: deck.deckId,
-      },
+      context,
     });
     reporter.info(
-      `Created deck detail page ${path} with context: ${JSON.stringify({ deckId: deck.deckId, collectionId: deck.collectionId })}`,
+      `Created deck detail page ${path} with context: ${JSON.stringify(context)}`,
     );
   });
 
@@ -126,54 +127,38 @@ export const createPages: GatsbyNode["createPages"] = async ({
   const deckStudyTemplate = path.resolve("./src/templates/deck-study.tsx");
   decksResult.data?.allDecksJson.nodes.forEach((deck) => {
     const path = studyDeckPath(deck.collectionId, deck.deckId);
+    const context = {
+      collectionId: deck.collectionId,
+      deckId: deck.deckId,
+    };
 
     createPage({
       path,
       component: deckStudyTemplate,
-      context: {
-        collectionId: deck.collectionId,
-        deckId: deck.deckId,
-      },
+      context,
     });
     reporter.info(
-      `Created deck study page ${path} with context: ${JSON.stringify({ deckId: deck.deckId, collectionId: deck.collectionId })}`,
+      `Created deck study page ${path} with context: ${JSON.stringify(context)}`,
     );
   });
 
   // Create deck review pages
-  const flashcardReviewTemplate = path.resolve(
-    "./src/templates/flashcard-review.tsx",
-  );
+  const deckReviewTemplate = path.resolve("./src/templates/deck-review.tsx");
   decksResult.data?.allDecksJson.nodes.forEach((deck) => {
-    const path = deckReviewPath(deck.collectionId, deck.id);
+    const path = deckReviewPath(deck.collectionId, deck.deckId);
+    const context = {
+      collectionId: deck.collectionId,
+      deckId: deck.deckId,
+      sessionId: "mock-session-id", // In a real app, this would be dynamic
+    };
 
     createPage({
       path,
-      component: flashcardReviewTemplate,
-      context: {
-        collectionId: deck.collectionId,
-        deckId: deck.id,
-        sessionId: "mock-session-id", // In a real app, this would be dynamic
-      },
+      component: deckReviewTemplate,
+      context,
     });
     reporter.info(
-      `Created deck review page ${path} with context: ${JSON.stringify({ collectionId: deck.collectionId, deckId: deck.id, sessionId: "mock-session-id" })}`,
-    );
-  });
-
-  // Create collection study pages (for studying all decks in a collection)
-  collectionsResult.data?.allCollectionsJson.nodes.forEach((collection) => {
-    const path = collectionStudyPath(collection.collectionId);
-    createPage({
-      path,
-      component: deckStudyTemplate, // Reuse the same template
-      context: {
-        collectionId: collection.collectionId,
-        isCollectionStudy: true,
-      },
-    });
-    reporter.info(
-      `Created collection study page ${path} with context: ${JSON.stringify({ collectionId: collection.collectionId, isCollectionStudy: true })}`,
+      `Created deck review page ${path} with context: ${JSON.stringify(context)}`,
     );
   });
 

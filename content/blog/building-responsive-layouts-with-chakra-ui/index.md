@@ -93,7 +93,7 @@ import {
   useColorModeValue,
   Stack,
 } from '@chakra-ui/react';
-import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
+import { MenuIcon, XIcon } from 'lucide-react';
 
 const Links = ['Home', 'About', 'Services', 'Contact'];
 
@@ -119,7 +119,7 @@ export default function Nav() {
       <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
         <IconButton
           size={'md'}
-          icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
+          icon={isOpen ? <Icon as={XIcon} /> : <Icon as={MenuIcon} />}
           aria-label={'Open Menu'}
           display={{ md: 'none' }}
           onClick={isOpen ? onClose : onOpen}

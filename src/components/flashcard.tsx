@@ -1,18 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import {
   Box,
   Flex,
   Text,
-  Badge,
   Button,
   HStack,
   VStack,
-  Spacer,
   useColorModeValue,
-} from '@chakra-ui/react';
-import { ChevronDownIcon, ChevronUpIcon, RepeatIcon } from '@chakra-ui/icons';
+  Icon,
+  Tag,
+} from "@chakra-ui/react";
+import { ChevronDown, ChevronUp, Repeat } from "lucide-react";
 
-import { TranslationFlashcard } from '../types';
+import { TranslationFlashcard } from "../types";
 
 interface FlashcardTemplateProps {
   card: TranslationFlashcard;
@@ -37,10 +37,10 @@ const FlashcardTemplate: React.FC<FlashcardTemplateProps> = ({
   const [flipped, setFlipped] = useState<boolean>(showAnswer);
   const [showDetails, setShowDetails] = useState<boolean>(false);
 
-  const cardBg = useColorModeValue('white', 'gray.800');
-  const cardBorder = useColorModeValue('gray.200', 'gray.700');
-  const frontBg = useColorModeValue('blue.50', 'blue.900');
-  const backBg = useColorModeValue('green.50', 'green.900');
+  const cardBg = useColorModeValue("white", "gray.800");
+  const cardBorder = useColorModeValue("gray.200", "gray.700");
+  const frontBg = useColorModeValue("blue.50", "blue.900");
+  const backBg = useColorModeValue("green.50", "green.900");
 
   const handleFlip = () => {
     if (!isPreview) {
@@ -57,9 +57,9 @@ const FlashcardTemplate: React.FC<FlashcardTemplateProps> = ({
   };
 
   const difficultyColor = {
-    easy: 'green',
-    medium: 'yellow',
-    hard: 'red',
+    easy: "green",
+    medium: "yellow",
+    hard: "red",
   };
 
   return (
@@ -79,7 +79,7 @@ const FlashcardTemplate: React.FC<FlashcardTemplateProps> = ({
         p={6}
         bg={flipped ? backBg : frontBg}
         onClick={handleFlip}
-        cursor={isPreview ? 'default' : 'pointer'}
+        cursor={isPreview ? "default" : "pointer"}
         transition="all 0.3s"
         minH="200px"
       >
@@ -98,23 +98,32 @@ const FlashcardTemplate: React.FC<FlashcardTemplateProps> = ({
 
           {/* Show part of speech on back */}
           {flipped && card.partOfSpeech && (
-            <Badge colorScheme="purple">
-              {card.partOfSpeech}
-            </Badge>
+            <Tag colorScheme="purple">{card.partOfSpeech}</Tag>
           )}
 
           {/* Show example on back */}
-          {flipped && card.examples && card.examples.length > 0 && !isPreview && (
-            <Box borderTopWidth="1px" borderColor={cardBorder} w="100%" pt={4} mt={4}>
-              <Text fontSize="sm" fontWeight="bold" mb={1}>Example:</Text>
-              <Text fontStyle="italic">{card.examples[0].original}</Text>
-              <Text>{card.examples[0].translation}</Text>
-            </Box>
-          )}
+          {flipped &&
+            card.examples &&
+            card.examples.length > 0 &&
+            !isPreview && (
+              <Box
+                borderTopWidth="1px"
+                borderColor={cardBorder}
+                w="100%"
+                pt={4}
+                mt={4}
+              >
+                <Text fontSize="sm" fontWeight="bold" mb={1}>
+                  Example:
+                </Text>
+                <Text fontStyle="italic">{card.examples[0].original}</Text>
+                <Text>{card.examples[0].translation}</Text>
+              </Box>
+            )}
 
           {!isPreview && (
             <Text fontSize="xs" color="gray.500" mt={4}>
-              {flipped ? 'Click to see front' : 'Click to see back'}
+              {flipped ? "Click to see front" : "Click to see back"}
             </Text>
           )}
         </VStack>
@@ -127,52 +136,62 @@ const FlashcardTemplate: React.FC<FlashcardTemplateProps> = ({
           <Flex justify="space-between" align="center">
             <HStack spacing={2} flexWrap="wrap">
               {card.tags.slice(0, 3).map((tag, index) => (
-                <Badge key={index} colorScheme="blue" variant="subtle">
+                <Tag key={index} colorScheme="blue">
                   {tag}
-                </Badge>
+                </Tag>
               ))}
               {card.tags.length > 3 && (
-                <Badge colorScheme="gray" variant="subtle">
-                  +{card.tags.length - 3}
-                </Badge>
+                <Tag colorScheme="gray">+{card.tags.length - 3}</Tag>
               )}
             </HStack>
-            <Badge colorScheme={difficultyColor[card.difficulty]}>
+            <Tag colorScheme={difficultyColor[card.difficulty]}>
               {card.difficulty}
-            </Badge>
+            </Tag>
           </Flex>
 
           {/* Additional details toggle */}
-          {(card.context || (card.examples && card.examples.length > 0)) && isPreview && (
+          {card.examples && card.examples.length > 0 && isPreview && (
             <Button
               size="sm"
               variant="ghost"
-              rightIcon={showDetails ? <ChevronUpIcon /> : <ChevronDownIcon />}
+              rightIcon={showDetails ? <Icon as={ChevronUp} /> : <Icon as={ChevronDown} />}
               onClick={() => setShowDetails(!showDetails)}
               alignSelf="flex-start"
             >
-              {showDetails ? 'Hide details' : 'Show details'}
+              {showDetails ? "Hide details" : "Show details"}
             </Button>
           )}
 
           {/* Expanded details section */}
           {showDetails && isPreview && (
-            <VStack align="stretch" spacing={2} mt={1} p={3} bg={useColorModeValue('gray.50', 'gray.700')} borderRadius="md">
-              {card.context && (
-                <Box>
-                  <Text fontSize="sm" fontWeight="bold">Context:</Text>
-                  <Text fontSize="sm">{card.context}</Text>
-                </Box>
-              )}
+            <VStack
+              align="stretch"
+              spacing={2}
+              mt={1}
+              p={3}
+              bg={useColorModeValue("gray.50", "gray.700")}
+              borderRadius="md"
+            >
               {card.examples && card.examples.length > 0 && (
                 <Box>
-                  <Text fontSize="sm" fontWeight="bold">Examples:</Text>
+                  <Text fontSize="sm" fontWeight="bold" textAlign="left">
+                    Examples:
+                  </Text>
                   {card.examples.map((example, index) => (
-                    <Box key={index} mb={index < (card.examples?.length ?? 0) - 1 ? 2 : 0}>
-                      <Text fontSize="sm">{example.translation}</Text>
-                      <Text fontSize="sm">{example.original}</Text>
+                    <Box
+                      key={index}
+                      mb={index < (card.examples?.length ?? 0) - 1 ? 2 : 0}
+                    >
+                      <Text fontSize="sm" textAlign="left">
+                        {example.translation}
+                      </Text>
+                      <Text fontSize="sm" textAlign="left">
+                        {example.original}
+                      </Text>
                       {example.phonetic && (
-                        <Text fontSize="sm" color="gray.600">/{example.phonetic}/</Text>
+                        <Text fontSize="sm" color="gray.600" textAlign="left">
+                          /{example.phonetic}/
+                        </Text>
                       )}
                     </Box>
                   ))}
@@ -184,18 +203,10 @@ const FlashcardTemplate: React.FC<FlashcardTemplateProps> = ({
           {/* Feedback buttons */}
           {flipped && showButtons && !isPreview && (
             <HStack spacing={4} mt={2} justify="center">
-              <Button
-                colorScheme="red"
-                onClick={handleIncorrect}
-                flex={1}
-              >
+              <Button colorScheme="red" onClick={handleIncorrect} flex={1}>
                 Incorrect
               </Button>
-              <Button
-                colorScheme="green"
-                onClick={handleCorrect}
-                flex={1}
-              >
+              <Button colorScheme="green" onClick={handleCorrect} flex={1}>
                 Correct
               </Button>
             </HStack>
@@ -204,7 +215,7 @@ const FlashcardTemplate: React.FC<FlashcardTemplateProps> = ({
           {isPreview && (
             <HStack spacing={4} mt={2} justify="center">
               <Button
-                leftIcon={<RepeatIcon />}
+                leftIcon={<Icon as={Repeat} />}
                 colorScheme="blue"
                 variant="outline"
                 size="sm"

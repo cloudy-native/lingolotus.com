@@ -1,16 +1,10 @@
 import {
-  ChevronRightIcon,
-  InfoIcon,
-  TimeIcon,
-  ViewIcon,
-} from "@chakra-ui/icons";
-import {
-  Badge,
   Box,
   Breadcrumb,
   BreadcrumbItem,
   BreadcrumbLink,
   Button,
+  ButtonGroup,
   Container,
   Flex,
   HStack,
@@ -37,10 +31,16 @@ import {
   useToast,
 } from "@chakra-ui/react";
 import { Link, graphql, navigate } from "gatsby";
+import { ChevronRight, Clock, Eye } from "lucide-react";
 import React, { useState } from "react";
 
 import { Deck, TranslationFlashcard } from "../types";
-import { collectionDetailPath, collectionListPath, studyDeckPath } from "../utils/paths";
+import { getLanguageInfo } from "../utils/language";
+import {
+  collectionDetailPath,
+  collectionListPath,
+  studyDeckPath,
+} from "../utils/paths";
 
 interface DeckDetailTemplateProps {
   data: {
@@ -48,6 +48,8 @@ interface DeckDetailTemplateProps {
     collectionsJson: {
       collectionId: string;
       name: string;
+      sourceLanguage: string;
+      targetLanguage: string;
     };
   };
 }
@@ -74,7 +76,7 @@ const FlashcardPreview: React.FC<{ card: TranslationFlashcard }> = ({
         <Heading as="h4" size="sm">
           {card.frontContent.text}
         </Heading>
-        <Badge
+        <Tag
           colorScheme={
             card.difficulty === "easy"
               ? "green"
@@ -84,7 +86,7 @@ const FlashcardPreview: React.FC<{ card: TranslationFlashcard }> = ({
           }
         >
           {card.difficulty}
-        </Badge>
+        </Tag>
       </Flex>
 
       {card.phonetic && (
@@ -106,7 +108,7 @@ const FlashcardPreview: React.FC<{ card: TranslationFlashcard }> = ({
       {card.tags.length > 0 && (
         <HStack spacing={2} mb={2} wrap="wrap">
           {card.tags.map((tag, idx) => (
-            <Tag key={idx} size="sm" colorScheme="blue" variant="subtle">
+            <Tag key={idx} size="sm" colorScheme="blue">
               {tag}
             </Tag>
           ))}
@@ -141,7 +143,7 @@ const DeckDetailTemplate: React.FC<DeckDetailTemplateProps> = ({ data }) => {
   const headerBg = useColorModeValue("teal.50", "teal.900");
   const headerBorder = useColorModeValue("teal.100", "teal.800");
 
-  const handleStartStudy = () => {
+  const handleStartStudy = (studyLanguage: "source" | "target") => {
     // Save study preferences to local storage or state management
     localStorage.setItem(
       "studyPreferences",
@@ -160,8 +162,18 @@ const DeckDetailTemplate: React.FC<DeckDetailTemplateProps> = ({ data }) => {
     });
 
     // Navigate to the study page
-    navigate(studyDeckPath(collection.collectionId, deck.deckId));
+    navigate(
+      studyDeckPath(collection.collectionId, deck.deckId, studyLanguage),
+    );
   };
+
+  const sourceLanguageInfo = getLanguageInfo(collection.sourceLanguage);
+  const studyInSourceLanguage =
+    "Study in " + sourceLanguageInfo.nativeName + " " + sourceLanguageInfo.flag;
+
+  const targetLanguageInfo = getLanguageInfo(collection.targetLanguage);
+  const studyInTargetLanguage =
+    "Study in " + targetLanguageInfo.nativeName + " " + targetLanguageInfo.flag;
 
   return (
     <>
@@ -169,7 +181,7 @@ const DeckDetailTemplate: React.FC<DeckDetailTemplateProps> = ({ data }) => {
         <Container maxW="container.xl">
           <Breadcrumb
             spacing="8px"
-            separator={<ChevronRightIcon color="gray.500" />}
+            separator={<Icon as={ChevronRight} color="gray.500" />}
             mb={4}
           >
             <BreadcrumbItem>
@@ -212,29 +224,19 @@ const DeckDetailTemplate: React.FC<DeckDetailTemplateProps> = ({ data }) => {
               <SimpleGrid columns={{ base: 1, md: 2 }} spacing={4} mb={4}>
                 <Box>
                   <Stack direction="row" spacing={4} mb={2}>
-                    <Badge colorScheme="green" fontSize="0.9em" p={1}>
+                    <Tag colorScheme="green">
                       {deck.sourceLanguage} → {deck.targetLanguage}
-                    </Badge>
-                    <Badge colorScheme="purple" fontSize="0.9em" p={1}>
-                      {deck.difficulty}
-                    </Badge>
-                    <Badge colorScheme="blue" fontSize="0.9em" p={1}>
-                      {deck.theme}
-                    </Badge>
+                    </Tag>
+                    <Tag colorScheme="purple">{deck.difficulty}</Tag>
+                    <Tag colorScheme="blue">{deck.theme}</Tag>
                   </Stack>
 
                   <Flex align="center" mb={2}>
-                    <Icon as={TimeIcon} mr={2} />
+                    <Icon as={Clock} mr={2} />
                     <Text fontSize="sm">
-                      Updated: {new Date(deck.updatedAt).toLocaleDateString()}
+                      Updated: {new Date(deck.updatedAt).toLocaleDateString()},
+                      flashcards: {deck.cards.length}
                     </Text>
-                  </Flex>
-                </Box>
-
-                <Box>
-                  <Flex align="center" mb={2}>
-                    <Icon as={InfoIcon} mr={2} />
-                    <Text>{deck.cards.length} flashcards</Text>
                   </Flex>
                 </Box>
               </SimpleGrid>
@@ -274,14 +276,22 @@ const DeckDetailTemplate: React.FC<DeckDetailTemplateProps> = ({ data }) => {
                     </Select>
                   </Box>
                 </Flex>
-                <Button
-                  colorScheme="teal"
-                  size="lg"
-                  leftIcon={<ViewIcon />}
-                  onClick={handleStartStudy}
-                >
-                  Start Studying
-                </Button>
+                <ButtonGroup>
+                  <Button
+                    colorScheme="blue"
+                    leftIcon={<Icon as={Eye} />}
+                    onClick={() => handleStartStudy("target")}
+                  >
+                    {studyInTargetLanguage}
+                  </Button>
+                  <Button
+                    colorScheme="blue"
+                    leftIcon={<Icon as={Eye} />}
+                    onClick={() => handleStartStudy("source")}
+                  >
+                    {studyInSourceLanguage}
+                  </Button>
+                </ButtonGroup>
               </VStack>
             </Box>
           </Flex>
@@ -326,7 +336,7 @@ const DeckDetailTemplate: React.FC<DeckDetailTemplateProps> = ({ data }) => {
                   <Tbody>
                     <Tr>
                       <Td>
-                        <Badge colorScheme="green">Easy</Badge>
+                        <Tag colorScheme="green">Easy</Tag>
                       </Td>
                       <Td>
                         {
@@ -346,7 +356,7 @@ const DeckDetailTemplate: React.FC<DeckDetailTemplateProps> = ({ data }) => {
                     </Tr>
                     <Tr>
                       <Td>
-                        <Badge colorScheme="yellow">Medium</Badge>
+                        <Tag colorScheme="yellow">Medium</Tag>
                       </Td>
                       <Td>
                         {
@@ -366,7 +376,7 @@ const DeckDetailTemplate: React.FC<DeckDetailTemplateProps> = ({ data }) => {
                     </Tr>
                     <Tr>
                       <Td>
-                        <Badge colorScheme="red">Hard</Badge>
+                        <Tag colorScheme="red">Hard</Tag>
                       </Td>
                       <Td>
                         {
@@ -438,6 +448,8 @@ export const query = graphql`
     collectionsJson(collectionId: { eq: $collectionId }) {
       collectionId
       name
+      sourceLanguage
+      targetLanguage
     }
   }
 `;

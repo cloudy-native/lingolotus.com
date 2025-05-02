@@ -26,12 +26,12 @@
       "examples": [
         {
           "original": "สวัสดีครับ",
-          "translation": "Hello (male speaker)",
+          "translation": "Hello (♂)",
           "phonetic": "sa-wat-dee krap"
         },
         {
           "original": "สวัสดีค่ะ",
-          "translation": "Hello (female speaker)",
+          "translation": "Hello (♀)",
           "phonetic": "sa-wat-dee ka"
         }
       ]
@@ -60,7 +60,7 @@
         },
         {
           "original": "ขอบคุณครับ",
-          "translation": "Thank you (male speaker)",
+          "translation": "Thank you (♂)",
           "phonetic": "khop-khun krap"
         }
       ]
@@ -115,7 +115,7 @@
       "examples": [
         {
           "original": "สบายดีไหมครับ",
-          "translation": "How are you? (male speaker)",
+          "translation": "How are you? (♂)",
           "phonetic": "sa-bai-dee mai krap"
         },
         {
@@ -145,12 +145,12 @@
       "examples": [
         {
           "original": "สบายดีครับ",
-          "translation": "I'm fine (male speaker)",
+          "translation": "I'm fine (♂)",
           "phonetic": "sa-bai-dee krap"
         },
         {
           "original": "สบายดีค่ะ คุณล่ะ",
-          "translation": "I'm fine, and you? (female speaker)",
+          "translation": "I'm fine, and you? (♀)",
           "phonetic": "sa-bai-dee ka, khun la"
         }
       ]
@@ -175,12 +175,12 @@
       "examples": [
         {
           "original": "ยินดีที่ได้รู้จักครับ",
-          "translation": "Nice to meet you (male speaker)",
+          "translation": "Nice to meet you (♂)",
           "phonetic": "yin-dee tee dai roo-jak krap"
         },
         {
           "original": "ยินดีที่ได้รู้จักค่ะ",
-          "translation": "Nice to meet you (female speaker)",
+          "translation": "Nice to meet you (♀)",
           "phonetic": "yin-dee tee dai roo-jak ka"
         }
       ]
@@ -205,12 +205,12 @@
       "examples": [
         {
           "original": "เช่นกันครับ",
-          "translation": "Likewise (male speaker)",
+          "translation": "Likewise (♂)",
           "phonetic": "chen-gan krap"
         },
         {
           "original": "ยินดีเช่นกันค่ะ",
-          "translation": "Nice to meet you too (female speaker)",
+          "translation": "Nice to meet you too (♀)",
           "phonetic": "yin-dee chen-gan ka"
         }
       ]
@@ -235,12 +235,12 @@
       "examples": [
         {
           "original": "คุณชื่ออะไรครับ",
-          "translation": "What is your name? (male speaker)",
+          "translation": "What is your name? (♂)",
           "phonetic": "khun cheu a-rai krap"
         },
         {
           "original": "คุณชื่ออะไรค่ะ",
-          "translation": "What is your name? (female speaker)",
+          "translation": "What is your name? (♀)",
           "phonetic": "khun cheu a-rai ka"
         }
       ]
@@ -265,12 +265,12 @@
       "examples": [
         {
           "original": "ผมชื่อแจ็ค",
-          "translation": "My name is Jack (male speaker)",
+          "translation": "My name is Jack (♂)",
           "phonetic": "pom cheu Jack"
         },
         {
           "original": "ฉันชื่อเอมี่",
-          "translation": "My name is Amy (female speaker)",
+          "translation": "My name is Amy (♀)",
           "phonetic": "chan cheu Amy"
         }
       ]
@@ -355,12 +355,12 @@
       "examples": [
         {
           "original": "ขอโทษครับ ทางไปห้องน้ำอยู่ไหน",
-          "translation": "Excuse me, where is the bathroom? (male speaker)",
+          "translation": "Excuse me, where is the bathroom? (♂)",
           "phonetic": "kor-tote krap, tang pai hong nam yu nai"
         },
         {
           "original": "ขอโทษนะคะ ดิฉันมาสาย",
-          "translation": "I'm sorry I'm late (formal, female speaker)",
+          "translation": "I'm sorry I'm late (♀)",
           "phonetic": "kor-tote na ka, di-chan ma sai"
         }
       ]
@@ -385,12 +385,12 @@
       "examples": [
         {
           "original": "ไม่เป็นไรครับ",
-          "translation": "It's okay (male speaker)",
+          "translation": "It's okay (♂)",
           "phonetic": "mai pen rai krap"
         },
         {
           "original": "ไม่เป็นไรค่ะ ไม่ต้องกังวล",
-          "translation": "No problem, don't worry (female speaker)",
+          "translation": "No problem, don't worry (♀)",
           "phonetic": "mai pen rai ka, mai tong gang-won"
         }
       ]
@@ -415,7 +415,7 @@
       "examples": [
         {
           "original": "คุณเป็นอย่างไรบ้างครับ",
-          "translation": "How have you been? (male speaker)",
+          "translation": "How have you been? (♂)",
           "phonetic": "khun pen yang-rai bang krap"
         },
         {
@@ -475,12 +475,12 @@
       "examples": [
         {
           "original": "คุณมาจากประเทศอะไรครับ",
-          "translation": "What country are you from? (male speaker)",
+          "translation": "What country are you from? (♂)",
           "phonetic": "khun ma jak pra-tet a-rai krap"
         },
         {
           "original": "คุณมาจากไหนคะ",
-          "translation": "Where are you from? (female speaker)",
+          "translation": "Where are you from? (♀)",
           "phonetic": "khun ma jak nai ka"
         }
       ]
@@ -505,12 +505,12 @@
       "examples": [
         {
           "original": "ผมมาจากอเมริกา",
-          "translation": "I am from America (male speaker)",
+          "translation": "I am from America (♂)",
           "phonetic": "pom ma jak a-me-ri-ka"
         },
         {
           "original": "ฉันมาจากออสเตรเลีย",
-          "translation": "I am from Australia (female speaker)",
+          "translation": "I am from Australia (♀)",
           "phonetic": "chan ma jak aw-sa-tre-lia"
         }
       ]
@@ -565,7 +565,7 @@
       "examples": [
         {
           "original": "คุณพูดภาษาอังกฤษได้ไหมครับ",
-          "translation": "Do you speak English? (male speaker)",
+          "translation": "Do you speak English? (♂)",
           "phonetic": "khun pood pa-sa ang-krit dai mai krap"
         },
         {
@@ -595,12 +595,12 @@
       "examples": [
         {
           "original": "ผมพูดภาษาไทยได้นิดหน่อยครับ",
-          "translation": "I speak a little Thai (male speaker)",
+          "translation": "I speak a little Thai (♂)",
           "phonetic": "pom pood pa-sa thai dai nit-noi krap"
         },
         {
           "original": "ฉันพูดภาษาไทยไม่คล่อง",
-          "translation": "I don't speak Thai fluently (female speaker)",
+          "translation": "I don't speak Thai fluently (♀)",
           "phonetic": "chan pood pa-sa thai mai klong"
         }
       ]

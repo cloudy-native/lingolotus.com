@@ -116,7 +116,7 @@
         "examples": [
           {
             "original": "พี่สาวของผมเป็นแพทย์",
-            "translation": "My older sister is a doctor (male speaker)",
+            "translation": "My older sister is a doctor (♂)",
             "phonetic": "pee sao kong pom pen paet"
           },
           {
@@ -361,7 +361,7 @@
           },
           {
             "original": "ผมไปเยี่ยมย่าทุกวันอาทิตย์",
-            "translation": "I visit my paternal grandmother every Sunday (male speaker)",
+            "translation": "I visit my paternal grandmother every Sunday (♂)",
             "phonetic": "pom pai yiam ya took wan a-tit"
           }
         ]
@@ -451,7 +451,7 @@
           },
           {
             "original": "ลูกพี่ลูกน้องของผมหลายคนอาศัยอยู่ต่างประเทศ",
-            "translation": "Many of my cousins live abroad (male speaker)",
+            "translation": "Many of my cousins live abroad (♂)",
             "phonetic": "look pee look nong kong pom lai kon a-sai yu tang pra-tet"
           }
         ]

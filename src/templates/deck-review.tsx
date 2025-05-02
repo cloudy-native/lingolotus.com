@@ -1,20 +1,11 @@
 import {
-  ArrowBackIcon,
-  ArrowForwardIcon,
-  CheckIcon,
-  CloseIcon,
-  InfoIcon,
-  RepeatIcon,
-  StarIcon,
-} from "@chakra-ui/icons";
-import {
-  Badge,
   Box,
   Button,
   Container,
   Flex,
   Heading,
   HStack,
+  Icon,
   Progress,
   Select,
   SimpleGrid,
@@ -24,6 +15,7 @@ import {
   StatHelpText,
   StatLabel,
   StatNumber,
+  Tag,
   Text,
   Tooltip,
   useColorModeValue,
@@ -31,14 +23,23 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import { graphql } from "gatsby";
+import {
+  ArrowLeft,
+  ArrowRight,
+  Check,
+  Info,
+  Repeat,
+  Star,
+  X,
+} from "lucide-react";
 import React, { useEffect, useState } from "react";
 
-import { Deck, SessionProgress, TranslationFlashcard } from "../types";
 import FlashcardTemplate from "../components/flashcard";
+import { Deck, SessionProgress, TranslationFlashcard } from "../types";
 
 interface FlashcardReviewTemplateProps {
   data: {
-    deckJson: Deck<TranslationFlashcard>;
+    decksJson: Deck<TranslationFlashcard>;
   };
   pageContext: {
     sessionId: string;
@@ -49,7 +50,7 @@ const FlashcardReviewTemplate: React.FC<FlashcardReviewTemplateProps> = ({
   data,
   pageContext,
 }) => {
-  const { deckJson: deck } = data;
+  const { decksJson: deck } = data;
   const { sessionId } = pageContext;
   const toast = useToast();
 
@@ -180,7 +181,7 @@ const FlashcardReviewTemplate: React.FC<FlashcardReviewTemplateProps> = ({
               <StatNumber>{accuracyRate}%</StatNumber>
               <StatHelpText>
                 <HStack>
-                  <CheckIcon color="green.500" />
+                  <Icon as={Check} color="green.500" />
                   <Text>{sessionData.correctAnswers} correct</Text>
                 </HStack>
               </StatHelpText>
@@ -198,7 +199,7 @@ const FlashcardReviewTemplate: React.FC<FlashcardReviewTemplateProps> = ({
               <StatNumber>{sessionData.incorrectAnswers}</StatNumber>
               <StatHelpText>
                 <HStack>
-                  <CloseIcon color="red.500" />
+                  <Icon as={X} color="red.500" />
                   <Text>Incorrect answers</Text>
                 </HStack>
               </StatHelpText>
@@ -216,7 +217,7 @@ const FlashcardReviewTemplate: React.FC<FlashcardReviewTemplateProps> = ({
               <StatNumber>{sessionData.cardsReviewed.size}</StatNumber>
               <StatHelpText>
                 <HStack>
-                  <InfoIcon />
+                  <Icon as={Info} />
                   <Text>of {deck.cards.length} total</Text>
                 </HStack>
               </StatHelpText>
@@ -240,7 +241,7 @@ const FlashcardReviewTemplate: React.FC<FlashcardReviewTemplateProps> = ({
               </StatNumber>
               <StatHelpText>
                 <HStack>
-                  <StarIcon color="yellow.500" />
+                  <Icon as={Star} color="yellow.500" />
                   <Text>Cards to review again</Text>
                 </HStack>
               </StatHelpText>
@@ -279,7 +280,7 @@ const FlashcardReviewTemplate: React.FC<FlashcardReviewTemplateProps> = ({
 
             <Tooltip label="Start a new study session with these cards">
               <Button
-                leftIcon={<RepeatIcon />}
+                leftIcon={<Icon as={Repeat} />}
                 colorScheme="blue"
                 display={{ base: "none", md: "flex" }}
                 onClick={() => {
@@ -321,7 +322,7 @@ const FlashcardReviewTemplate: React.FC<FlashcardReviewTemplateProps> = ({
                   p={4}
                 >
                   <Flex justify="space-between" mb={2}>
-                    <Badge
+                    <Tag
                       colorScheme={
                         !wasReviewed ? "gray" : wasCorrect ? "green" : "red"
                       }
@@ -331,11 +332,12 @@ const FlashcardReviewTemplate: React.FC<FlashcardReviewTemplateProps> = ({
                         : wasCorrect
                           ? "Correct"
                           : "Incorrect"}
-                    </Badge>
+                    </Tag>
 
                     {stats && (
                       <HStack>
-                        <StarIcon
+                        <Icon
+                          as={Star}
                           color={
                             stats.confidenceLevel <= 2
                               ? "red.400"
@@ -364,17 +366,17 @@ const FlashcardReviewTemplate: React.FC<FlashcardReviewTemplateProps> = ({
                         <Text fontSize="sm" color="gray.500">
                           Correct
                         </Text>
-                        <Badge colorScheme="green" fontSize="md">
+                        <Tag colorScheme="green" fontSize="md">
                           {stats.correctCount}
-                        </Badge>
+                        </Tag>
                       </VStack>
                       <VStack>
                         <Text fontSize="sm" color="gray.500">
                           Incorrect
                         </Text>
-                        <Badge colorScheme="red" fontSize="md">
+                        <Tag colorScheme="red" fontSize="md">
                           {stats.incorrectCount}
-                        </Badge>
+                        </Tag>
                       </VStack>
                       {stats.lastReviewed && (
                         <VStack>
@@ -401,7 +403,7 @@ const FlashcardReviewTemplate: React.FC<FlashcardReviewTemplateProps> = ({
             borderRadius="lg"
             bg={boxBg}
           >
-            <InfoIcon boxSize={10} color="blue.500" mb={4} />
+            <Icon as={Info} boxSize={10} color="blue.500" mb={4} />
             <Heading as="h3" size="md" mb={2}>
               No Cards Match Filter
             </Heading>
@@ -414,12 +416,12 @@ const FlashcardReviewTemplate: React.FC<FlashcardReviewTemplateProps> = ({
 
         {/* Bottom navigation */}
         <Flex justify="space-between" mt={8}>
-          <Button leftIcon={<ArrowBackIcon />} variant="outline">
+          <Button leftIcon={<Icon as={ArrowLeft} />} variant="outline">
             Back to Deck
           </Button>
 
           <Button
-            rightIcon={<RepeatIcon />}
+            rightIcon={<Icon as={Repeat} />}
             colorScheme="blue"
             display={{ base: "flex", md: "none" }}
             onClick={() => {
@@ -435,7 +437,7 @@ const FlashcardReviewTemplate: React.FC<FlashcardReviewTemplateProps> = ({
             Study Again
           </Button>
 
-          <Button rightIcon={<ArrowForwardIcon />} colorScheme="teal">
+          <Button rightIcon={<Icon as={ArrowRight} />} colorScheme="teal">
             Next Deck
           </Button>
         </Flex>
@@ -446,39 +448,40 @@ const FlashcardReviewTemplate: React.FC<FlashcardReviewTemplateProps> = ({
 
 export default FlashcardReviewTemplate;
 
-// export const query = graphql`
-//   query DeckReviewById($id: String!) {
-//     deckJson(id: { eq: $id }) {
-//       id
-//       name
-//       description
-//       sourceLanguage
-//       targetLanguage
-//       theme
-//       difficulty
-//       cards {
-//         id
-//         frontContent {
-//           type
-//           text
-//         }
-//         backContent {
-//           type
-//           text
-//         }
-//         tags
-//         difficulty
-//         sourceLanguage
-//         targetLanguage
-//         phonetic
-//         partOfSpeech
-//         context
-//         examples {
-//           original
-//           translation
-//           phonetic
-//         }
-//       }
-//     }
-//   }
-// `;
+export const query = graphql`
+  query DeckReviewById($collectionId: String!, $deckId: String!) {
+    decksJson(collectionId: { eq: $collectionId }, deckId: { eq: $deckId }) {
+      collectionId
+      deckId
+      name
+      description
+      sourceLanguage
+      targetLanguage
+      theme
+      difficulty
+      cards {
+        cardId
+        frontContent {
+          type
+          text
+        }
+        backContent {
+          type
+          text
+        }
+        tags
+        difficulty
+        sourceLanguage
+        targetLanguage
+        phonetic
+        partOfSpeech
+        context
+        examples {
+          original
+          translation
+          phonetic
+        }
+      }
+    }
+  }
+`;

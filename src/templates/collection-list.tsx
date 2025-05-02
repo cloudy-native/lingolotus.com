@@ -1,5 +1,4 @@
 import {
-  Badge,
   Box,
   Container,
   Flex,
@@ -7,6 +6,7 @@ import {
   Image,
   SimpleGrid,
   Stack,
+  Tag,
   Text,
   useColorModeValue,
 } from "@chakra-ui/react";
@@ -55,11 +55,7 @@ const CollectionCard: React.FC<{ collection: Collection }> = ({
             <Heading as="h3" size="md" fontWeight="semibold">
               {collection.name}
             </Heading>
-            {collection.featured && (
-              <Badge colorScheme="blue" fontSize="0.8em">
-                Featured
-              </Badge>
-            )}
+            {collection.featured && <Tag colorScheme="blue">Featured</Tag>}
           </Flex>
 
           <Text fontSize="sm" color="gray.500" noOfLines={2} mb={3}>
@@ -68,12 +64,10 @@ const CollectionCard: React.FC<{ collection: Collection }> = ({
 
           <Stack direction="row" align="center" justify="space-between">
             <Flex align="center">
-              <Badge colorScheme="green" mr={2}>
+              <Tag colorScheme="green" mr={2}>
                 {collection.sourceLanguage} → {collection.targetLanguage}
-              </Badge>
-              <Badge colorScheme="purple">
-                {collection.difficulty || "Mixed"}
-              </Badge>
+              </Tag>
+              <Tag colorScheme="purple">{collection.difficulty || "Mixed"}</Tag>
             </Flex>
           </Stack>
         </Box>

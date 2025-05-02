@@ -26,12 +26,12 @@
         "examples": [
           {
             "original": "นี่ราคาเท่าไรครับ",
-            "translation": "How much is this? (male speaker)",
+            "translation": "How much is this? (♂)",
             "phonetic": "nee ra-ka tao-rai krap"
           },
           {
             "original": "อันนี้ราคาเท่าไรคะ",
-            "translation": "How much is this one? (female speaker)",
+            "translation": "How much is this one? (♀)",
             "phonetic": "an-nee ra-ka tao-rai ka"
           }
         ]
@@ -56,12 +56,12 @@
         "examples": [
           {
             "original": "ลดราคาให้หน่อยได้ไหมครับ",
-            "translation": "Can you give me a little discount? (male speaker)",
+            "translation": "Can you give me a little discount? (♂)",
             "phonetic": "lot ra-ka hai noi dai mai krap"
           },
           {
             "original": "ซื้อสองชิ้น ลดราคาได้ไหมคะ",
-            "translation": "If I buy two pieces, can you give me a discount? (female speaker)",
+            "translation": "If I buy two pieces, can you give me a discount? (♀)",
             "phonetic": "seu song chin, lot ra-ka dai mai ka"
           }
         ]
@@ -86,12 +86,12 @@
         "examples": [
           {
             "original": "ราคานี้แพงเกินไปสำหรับผม",
-            "translation": "This price is too expensive for me (male speaker)",
+            "translation": "This price is too expensive for me (♂)",
             "phonetic": "ra-ka nee paeng gern pai sam-rap pom"
           },
           {
             "original": "ฉันคิดว่าราคานี้แพงไปหน่อย",
-            "translation": "I think this price is a bit too expensive (female speaker)",
+            "translation": "I think this price is a bit too expensive (♀)",
             "phonetic": "chan kit wa ra-ka nee paeng pai noi"
           }
         ]
@@ -116,12 +116,12 @@
         "examples": [
           {
             "original": "มีขนาดใหญ่กว่านี้ไหมครับ",
-            "translation": "Do you have a larger size than this? (male speaker)",
+            "translation": "Do you have a larger size than this? (♂)",
             "phonetic": "mee ka-nat yai gwa nee mai krap"
           },
           {
             "original": "มีไซส์เล็กกว่านี้ไหมคะ",
-            "translation": "Do you have a smaller size than this? (female speaker)",
+            "translation": "Do you have a smaller size than this? (♀)",
             "phonetic": "mee size lek gwa nee mai ka"
           }
         ]
@@ -146,12 +146,12 @@
         "examples": [
           {
             "original": "อันนี้มีสีแดงไหมครับ",
-            "translation": "Do you have this in red? (male speaker)",
+            "translation": "Do you have this in red? (♂)",
             "phonetic": "an-nee mee see daeng mai krap"
           },
           {
             "original": "มีสีอื่นให้เลือกไหมคะ",
-            "translation": "Do you have other colors to choose from? (female speaker)",
+            "translation": "Do you have other colors to choose from? (♀)",
             "phonetic": "mee see uen hai lueak mai ka"
           }
         ]
@@ -176,12 +176,12 @@
         "examples": [
           {
             "original": "ผมขอลองใส่เสื้อตัวนี้ได้ไหม",
-            "translation": "Can I try on this shirt? (male speaker)",
+            "translation": "Can I try on this shirt? (♂)",
             "phonetic": "pom kor long sai sua tua nee dai mai"
           },
           {
             "original": "ฉันขอทดลองใช้ก่อนได้ไหม",
-            "translation": "Can I test it before buying? (female speaker)",
+            "translation": "Can I test it before buying? (♀)",
             "phonetic": "chan kor tot-long chai gorn dai mai"
           }
         ]
@@ -206,12 +206,12 @@
         "examples": [
           {
             "original": "ห้องลองเสื้อผ้าอยู่ทางไหน",
-            "translation": "Which way is the fitting room?",
+            "translation": "Which way is the fitting room? (♂)",
             "phonetic": "hong long sua-pa yu tang nai"
           },
           {
             "original": "ห้องลองอยู่ชั้นไหนคะ",
-            "translation": "On which floor is the fitting room? (female speaker)",
+            "translation": "On which floor is the fitting room? (♀)",
             "phonetic": "hong long yu chan nai ka"
           }
         ]
@@ -236,12 +236,12 @@
         "examples": [
           {
             "original": "ที่นี่รับบัตรเครดิตไหมครับ",
-            "translation": "Does this place accept credit cards? (male speaker)",
+            "translation": "Does this place accept credit cards? (♂)",
             "phonetic": "tee-nee rap bat kre-dit mai krap"
           },
           {
             "original": "ร้านนี้รับชำระด้วยบัตรไหมคะ",
-            "translation": "Does this shop accept payment by card? (female speaker)",
+            "translation": "Does this shop accept payment by card? (♀)",
             "phonetic": "ran nee rap cham-ra duay bat mai ka"
           }
         ]
@@ -266,12 +266,12 @@
         "examples": [
           {
             "original": "คิดเงินด้วยครับ",
-            "translation": "I'd like to pay, please (male speaker)",
+            "translation": "I'd like to pay, please (♂)",
             "phonetic": "kit ngern duay krap"
           },
           {
             "original": "คิดเงินได้แล้วค่ะ",
-            "translation": "I'm ready to pay now (female speaker)",
+            "translation": "I'm ready to pay now (♀)",
             "phonetic": "kit ngern dai laew ka"
           }
         ]
@@ -296,12 +296,12 @@
         "examples": [
           {
             "original": "ซื้อนี่แล้วมีของแถมไหมครับ",
-            "translation": "If I buy this, is there a free gift? (male speaker)",
+            "translation": "If I buy this, is there a free gift? (♂)",
             "phonetic": "seu nee laew mee kong taem mai krap"
           },
           {
             "original": "มีโปรโมชั่นหรือของแถมอะไรไหมคะ",
-            "translation": "Are there any promotions or free gifts? (female speaker)",
+            "translation": "Are there any promotions or free gifts? (♀)",
             "phonetic": "mee pro-mo-chan rue kong taem a-rai mai ka"
           }
         ]
@@ -326,12 +326,12 @@
         "examples": [
           {
             "original": "วันนี้มีส่วนลดพิเศษไหมครับ",
-            "translation": "Is there a special discount today? (male speaker)",
+            "translation": "Is there a special discount today? (♂)",
             "phonetic": "wan-nee mee suan lot pi-set mai krap"
           },
           {
             "original": "สมาชิกร้านมีส่วนลดไหมคะ",
-            "translation": "Is there a discount for members? (female speaker)",
+            "translation": "Is there a discount for members? (♀)",
             "phonetic": "sa-ma-chik ran mee suan lot mai ka"
           }
         ]
@@ -356,12 +356,12 @@
         "examples": [
           {
             "original": "ผมเอาอันนี้ครับ",
-            "translation": "I'll take this one (male speaker)",
+            "translation": "I'll take this one (♂)",
             "phonetic": "pom ao an-nee krap"
           },
           {
             "original": "ฉันจะเอาตัวนี้ค่ะ",
-            "translation": "I'll take this one (female speaker)",
+            "translation": "I'll take this one (♀)",
             "phonetic": "chan ja ao tua nee ka"
           }
         ]
@@ -386,12 +386,12 @@
         "examples": [
           {
             "original": "ช่วยใส่ถุงให้หน่อยครับ",
-            "translation": "Please help put it in a bag (male speaker)",
+            "translation": "Please help put it in a bag (♂)",
             "phonetic": "chuay sai tung hai noi krap"
           },
           {
             "original": "ใส่ถุงแยกกันได้ไหมคะ",
-            "translation": "Can you put them in separate bags? (female speaker)",
+            "translation": "Can you put them in separate bags? (♀)",
             "phonetic": "sai tung yak gan dai mai ka"
           }
         ]
@@ -416,12 +416,12 @@
         "examples": [
           {
             "original": "ขอใบเสร็จด้วยครับ",
-            "translation": "May I have a receipt, please? (male speaker)",
+            "translation": "May I have a receipt, please? (♂)",
             "phonetic": "kor bai-set duay krap"
           },
           {
             "original": "รบกวนขอใบเสร็จด้วยค่ะ",
-            "translation": "I'd like a receipt, please (female speaker)",
+            "translation": "I'd like a receipt, please (♀)",
             "phonetic": "rob-kuan kor bai-set duay ka"
           }
         ]
@@ -446,12 +446,12 @@
         "examples": [
           {
             "original": "รับเงินทอนห้าสิบบาทครับ",
-            "translation": "Here's your change of fifty baht (male speaker)",
+            "translation": "Here's your change of fifty baht (♂)",
             "phonetic": "rap ngern torn ha-sip bat krap"
           },
           {
             "original": "นี่คือเงินทอนของคุณค่ะ",
-            "translation": "Here is your change (female speaker)",
+            "translation": "Here is your change (♀)",
             "phonetic": "nee keu ngern torn kong khun ka"
           }
         ]
@@ -476,12 +476,12 @@
         "examples": [
           {
             "original": "แผนกอาหารอยู่ชั้นไหนครับ",
-            "translation": "On which floor is the food department? (male speaker)",
+            "translation": "On which floor is the food department? (♂)",
             "phonetic": "pa-nak a-han yu chan nai krap"
           },
           {
             "original": "แผนกเครื่องสำอางอยู่ทางไหนคะ",
-            "translation": "Which way is the cosmetics department? (female speaker)",
+            "translation": "Which way is the cosmetics department? (♀)",
             "phonetic": "pa-nak kruang sam-ang yu tang nai ka"
           }
         ]
@@ -506,12 +506,12 @@
         "examples": [
           {
             "original": "คุณมียี่ห้อนี้ไหมครับ",
-            "translation": "Do you have this brand? (male speaker)",
+            "translation": "Do you have this brand? (♂)",
             "phonetic": "khun mee yee-hor nee mai krap"
           },
           {
             "original": "ร้านนี้มีรุ่นใหม่ไหมคะ",
-            "translation": "Does this shop have the new model? (female speaker)",
+            "translation": "Does this shop have the new model? (♀)",
             "phonetic": "ran nee mee run mai mai ka"
           }
         ]
@@ -536,12 +536,12 @@
         "examples": [
           {
             "original": "ร้านเปิดถึงกี่โมงครับ",
-            "translation": "Until what time is the shop open? (male speaker)",
+            "translation": "Until what time is the shop open? (♂)",
             "phonetic": "ran pert teung gee mong krap"
           },
           {
             "original": "วันอาทิตย์เปิดกี่โมงถึงกี่โมงคะ",
-            "translation": "What are your opening hours on Sunday? (female speaker)",
+            "translation": "What are your opening hours on Sunday? (♀)",
             "phonetic": "wan ar-tit pert gee mong teung gee mong ka"
           }
         ]
@@ -566,12 +566,12 @@
         "examples": [
           {
             "original": "ถ้าไม่พอดี รับคืนได้ไหมครับ",
-            "translation": "If it doesn't fit, can I return it? (male speaker)",
+            "translation": "If it doesn't fit, can I return it? (♂)",
             "phonetic": "ta mai por-dee, rap keun dai mai krap"
           },
           {
             "original": "มีนโยบายรับคืนสินค้ากี่วันคะ",
-            "translation": "How many days is your return policy? (female speaker)",
+            "translation": "How many days is your return policy? (♀)",
             "phonetic": "mee na-yo-bai rap keun sin-ka gee wan ka"
           }
         ]
@@ -601,7 +601,7 @@
           },
           {
             "original": "ฉันขอดูคุณภาพก่อนได้ไหมคะ",
-            "translation": "Can I check the quality first? (female speaker)",
+            "translation": "Can I check the quality first? (♀)",
             "phonetic": "chan kor doo kun-na-pap gorn dai mai ka"
           }
         ]

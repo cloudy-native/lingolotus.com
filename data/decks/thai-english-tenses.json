@@ -26,12 +26,12 @@
         "examples": [
           {
             "original": "คุณอาบน้ำหรือยังครับ",
-            "translation": "Have you taken a shower yet? (male speaker)",
-            "phonetic": "khun aap nam rue yang krap"
+              "translation": "Have you taken a shower yet? (♂)",
+              "phonetic": "khun aap nam rue yang krap"
           },
           {
             "original": "น้องอาบน้ำหรือยังคะ",
-            "translation": "Has the child taken a shower yet? (female speaker)",
+            "translation": "Has the child taken a shower yet? (♀)",
             "phonetic": "nong aap nam rue yang ka"
           }
         ]
@@ -56,12 +56,12 @@
         "examples": [
           {
             "original": "ผมอาบน้ำแล้วครับ",
-            "translation": "I have already taken a shower (male speaker)",
+            "translation": "I have already taken a shower (♂)",
             "phonetic": "pom aap nam laew krap"
           },
           {
             "original": "ฉันอาบน้ำเสร็จแล้วค่ะ",
-            "translation": "I have finished taking a shower (female speaker)",
+            "translation": "I have finished taking a shower (♀)",
             "phonetic": "chan aap nam set laew ka"
           }
         ]
@@ -86,12 +86,12 @@
         "examples": [
           {
             "original": "ผมกำลังจะอาบน้ำพอดีครับ",
-            "translation": "I was just about to take a shower (male speaker)",
+            "translation": "I was just about to take a shower (♂)",
             "phonetic": "pom gam-lang ja aap nam por-dee krap"
           },
           {
             "original": "ฉันกำลังจะเข้าไปอาบน้ำค่ะ",
-            "translation": "I am about to go take a shower (female speaker)",
+            "translation": "I am about to go take a shower (♀)",
             "phonetic": "chan gam-lang ja kao pai aap nam ka"
           }
         ]
@@ -146,12 +146,12 @@
         "examples": [
           {
             "original": "ขอโทษนะ ผมกำลังอาบน้ำอยู่",
-            "translation": "Sorry, I am taking a shower right now (male speaker)",
+            "translation": "Sorry, I am taking a shower right now (♂)",
             "phonetic": "kor-tote na, pom gam-lang aap nam yu"
           },
           {
             "original": "เดี๋ยวนะ ฉันกำลังอาบน้ำอยู่",
-            "translation": "Just a moment, I am taking a shower right now (female speaker)",
+            "translation": "Just a moment, I am taking a shower right now (♀)",
             "phonetic": "diao na, chan gam-lang aap nam yu"
           }
         ]
@@ -176,12 +176,12 @@
         "examples": [
           {
             "original": "ผมจะอาบน้ำหลังจากกลับบ้าน",
-            "translation": "I will take a shower after I get home (male speaker)",
+            "translation": "I will take a shower after I get home (♂)",
             "phonetic": "pom ja aap nam lang jak glab baan"
           },
           {
             "original": "ฉันจะอาบน้ำก่อนนอน",
-            "translation": "I will take a shower before sleeping (female speaker)",
+            "translation": "I will take a shower before sleeping (♀)",
             "phonetic": "chan ja aap nam gorn non"
           }
         ]
@@ -206,7 +206,7 @@
         "examples": [
           {
             "original": "คุณจะอาบน้ำตอนไหนครับ",
-            "translation": "When will you take a shower? (male speaker)",
+            "translation": "When will you take a shower? (♂)",
             "phonetic": "khun ja aap nam torn nai krap"
           },
           {
@@ -236,12 +236,12 @@
         "examples": [
           {
             "original": "ผมอาบน้ำวันละสองครั้ง",
-            "translation": "I take a shower twice a day (male speaker)",
+            "translation": "I take a shower twice a day (♂)",
             "phonetic": "pom aap nam wan la song krang"
           },
           {
             "original": "ฉันชอบอาบน้ำตอนเย็น",
-            "translation": "I like to shower in the evening (female speaker)",
+            "translation": "I like to shower in the evening (♀)",
             "phonetic": "chan chob aap nam torn yen"
           }
         ]
@@ -266,7 +266,7 @@
         "examples": [
           {
             "original": "คุณอาบน้ำกี่ครั้งต่อวันครับ",
-            "translation": "How many times do you shower per day? (male speaker)",
+            "translation": "How many times do you shower per day? (♂)",
             "phonetic": "khun aap nam gee krang tor wan krap"
           },
           {
@@ -296,12 +296,12 @@
         "examples": [
           {
             "original": "ผมอาบน้ำตอนตี 5 เมื่อเช้า",
-            "translation": "I took a shower at 5 AM this morning (male speaker)",
+            "translation": "I took a shower at 5 AM this morning (♂)",
             "phonetic": "pom aap nam torn tee ha meu-a chao"
           },
           {
             "original": "ฉันอาบน้ำก่อนมาที่นี่",
-            "translation": "I took a shower before coming here (female speaker)",
+            "translation": "I took a shower before coming here (♀)",
             "phonetic": "chan aap nam gorn ma tee nee"
           }
         ]
@@ -356,12 +356,12 @@
         "examples": [
           {
             "original": "ผมได้อาบน้ำมาแล้วตั้งแต่เช้า",
-            "translation": "I took a shower since this morning (male speaker)",
+            "translation": "I took a shower since this morning (♂)",
             "phonetic": "pom dai aap nam ma laew tang tae chao"
           },
           {
             "original": "ฉันอาบน้ำไปเมื่อสักครู่นี้",
-            "translation": "I took a shower just a moment ago (female speaker)",
+            "translation": "I took a shower just a moment ago (♀)",
             "phonetic": "chan aap nam pai meu-a sak kroo nee"
           }
         ]
@@ -386,12 +386,12 @@
         "examples": [
           {
             "original": "ผมกำลังอาบน้ำตอนที่ไฟดับ",
-            "translation": "I was taking a shower when the power went out (male speaker)",
+            "translation": "I was taking a shower when the power went out (♂)",
             "phonetic": "pom gam-lang aap nam torn tee fai dap"
           },
           {
             "original": "ฉันกำลังอาบน้ำเมื่อคุณโทรมา",
-            "translation": "I was taking a shower when you called (female speaker)",
+            "translation": "I was taking a shower when you called (♀)",
             "phonetic": "chan gam-lang aap nam meu-a khun to ma"
           }
         ]
@@ -446,12 +446,12 @@
         "examples": [
           {
             "original": "ผมอาบน้ำเย็นมาเดือนหนึ่งแล้ว",
-            "translation": "I have been taking cold showers for a month now (male speaker)",
+            "translation": "I have been taking cold showers for a month now (♂)",
             "phonetic": "pom aap nam yen ma deuan neung laew"
           },
           {
             "original": "ฉันอาบน้ำที่นี่มาสองสัปดาห์แล้ว",
-            "translation": "I have been showering here for two weeks (female speaker)",
+            "translation": "I have been showering here for two weeks (♀)",
             "phonetic": "chan aap nam tee nee ma song sap-da laew"
           }
         ]
@@ -506,12 +506,12 @@
         "examples": [
           {
             "original": "ผมจะได้อาบน้ำอุ่นเมื่อไร",
-            "translation": "When will I get to take a warm shower? (male speaker)",
+            "translation": "When will I get to take a warm shower? (♂)",
             "phonetic": "pom ja dai aap nam un meu-a-rai"
           },
           {
             "original": "ฉันจะมีโอกาสได้อาบน้ำไหม",
-            "translation": "Will I have a chance to take a shower? (female speaker)",
+            "translation": "Will I have a chance to take a shower? (♀)",
             "phonetic": "chan ja mee o-gat dai aap nam mai"
           }
         ]
@@ -536,12 +536,12 @@
         "examples": [
           {
             "original": "ถ้าผมอาบน้ำเสร็จเร็ว ผมจะไปเจอคุณ",
-            "translation": "If I finish showering quickly, I will meet you (male speaker)",
+            "translation": "If I finish showering quickly, I will meet you (♂)",
             "phonetic": "ta pom aap nam set reo, pom ja pai jer khun"
           },
           {
             "original": "ถ้าน้ำร้อน ฉันจะอาบน้ำนานขึ้น",
-            "translation": "If the water is hot, I will shower longer (female speaker)",
+            "translation": "If the water is hot, I will shower longer (♀)",
             "phonetic": "ta nam ron, chan ja aap nam naan keun"
           }
         ]
@@ -566,12 +566,12 @@
         "examples": [
           {
             "original": "ผมควรจะอาบน้ำก่อนออกไปไหม",
-            "translation": "Should I take a shower before going out? (male speaker)",
+            "translation": "Should I take a shower before going out? (♂)",
             "phonetic": "pom kuan ja aap nam gorn ork pai mai"
           },
           {
             "original": "ฉันจำเป็นต้องอาบน้ำก่อนนอนไหม",
-            "translation": "Do I need to take a shower before sleeping? (female speaker)",
+            "translation": "Do I need to take a shower before sleeping? (♀)",
             "phonetic": "chan jam-pen tong aap nam gorn non mai"
           }
         ]
@@ -596,12 +596,12 @@
         "examples": [
           {
             "original": "ผมอาบน้ำเสร็จแล้วก่อนที่ฝนจะตก",
-            "translation": "I had finished showering before it rained (male speaker)",
+            "translation": "I had finished showering before it rained (♂)",
             "phonetic": "pom aap nam set laew gorn tee fon ja tok"
           },
           {
             "original": "ฉันอาบน้ำเสร็จพอดีตอนที่โทรศัพท์ดัง",
-            "translation": "I had just finished showering when the phone rang (female speaker)",
+            "translation": "I had just finished showering when the phone rang (♀)",
             "phonetic": "chan aap nam set por-dee torn tee to-ra-sap dang"
           }
         ]

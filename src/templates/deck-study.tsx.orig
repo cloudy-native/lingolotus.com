@@ -30,6 +30,7 @@ import { graphql, navigate } from "gatsby";
 import { Check, ChevronLeft, X, ArrowLeft } from "lucide-react";
 import React, { useEffect, useState } from "react";
 import { useLocation } from "@reach/router";
+import { useScoring } from "../hooks/useScoring";
 
 import SpeechHeading from "../components/SpeechHeading";
 import TextToSpeech from "../components/TextToSpeech";
@@ -60,26 +61,24 @@ const DeckStudyTemplate: React.FC<DeckStudyTemplateProps> = ({ data }) => {
   // State for study session
   const [flipped, setFlipped] = useState<boolean>(false);
   const [showPhonetic, setShowPhonetic] = useState<boolean>(true);
-  const [cardIndex, setCardIndex] = useState<number>(0);
-  // Track answers per cardId: 'correct' | 'incorrect'
-  const [answers, setAnswers] = useState<
-    Record<string, "correct" | "incorrect">
-  >({});
-
-  // Session progress tracking
-  const [sessionProgress, setSessionProgress] = useState<SessionProgress>({
-    currentCardIndex: 0,
-    correctAnswers: 0,
-    incorrectAnswers: 0,
-    cardsReviewed: new Set<string>(),
-    cardStatistics: {},
-  });
-
-  // Get study preferences from localStorage or use defaults
   const [studyCards, setStudyCards] = useState<TranslationFlashcard[]>([]);
   const { isOpen, onOpen, onClose } = useDisclosure();
-
   const [cardFrontLanguage, setCardFrontLanguage] = useState<"source" | "target">(initialCardFrontLanguage);
+
+  // Use the scoring hook
+  const cardIds = studyCards.map(card => card.cardId);
+  const {
+    scores,
+    currentIndex,
+    totalCorrect,
+    totalIncorrect,
+    answerCard,
+    nextCard,
+    reset: resetScoring,
+  } = useScoring(cardIds);
+
+  // Current card
+  const currentCard = studyCards[currentIndex];
 
   // Card appearance
   const cardBg = useColorModeValue("white", "gray.800");
@@ -95,6 +94,15 @@ const DeckStudyTemplate: React.FC<DeckStudyTemplateProps> = ({ data }) => {
     }
     return newArray;
   };
+
+  // Handle answer submission using scoring hook
+  const handleAnswer = (result: "correct" | "incorrect") => {
+    if (!currentCard) return;
+    answerCard(currentCard.cardId, result === "correct");
+    nextCard();
+    setFlipped(false);
+  };
+
 
   // Initialize study session
   useEffect(() => {
@@ -166,35 +174,12 @@ const DeckStudyTemplate: React.FC<DeckStudyTemplateProps> = ({ data }) => {
     initStudySession();
   }, [deck.cards, toast]);
 
-  // Handle card navigation
-  const goToNextCard = () => {
-    if (cardIndex < studyCards.length - 1) {
-      setCardIndex(cardIndex + 1);
-      setFlipped(false);
-    } else {
-      // End of deck
-      onOpen(); // Open summary modal
-    }
-  };
-
+  // Handle card navigation (next handled by scoring hook)
   const goToPrevCard = () => {
-    if (cardIndex > 0) {
-      setCardIndex(cardIndex - 1);
-      setFlipped(false);
-    }
+    // Optionally implement if you want to allow going back
+    // Not implemented in scoring hook for simplicity
+    setFlipped(false);
   };
-
-  // Handle answer submission
-  const handleAnswer = (result: "correct" | "incorrect") => {
-    const card = studyCards[cardIndex];
-    setAnswers((prev) => ({ ...prev, [card.cardId]: result }));
-    // Optionally update progress/session stats here
-    goToNextCard();
-  };
-
-  // Handle card feedback
-  const handleCardFeedback = (correct: boolean) => {
-    const currentCard = studyCards[cardIndex];
 
     // Update session progress
     setSessionProgress((prev) => {
@@ -374,16 +359,16 @@ const DeckStudyTemplate: React.FC<DeckStudyTemplateProps> = ({ data }) => {
       </ModalContent>
     </Modal>
   );
+}; // End SessionSummaryModal
 
-  return (
-    <>
-      <Box py={4} px={{ base: 4, md: 8 }}>
-        {/* Toggle for card front language */}
+return (
+  <>
+    <SessionSummaryModal />
+    <Box py={4} px={{ base: 4, md: 8 }}>
+      {/* Toggle for card front language */}
         <Flex justify="center" mb={4}>
           <HStack spacing={4}>
-          <Text>Progress: {JSON.stringify(sessionProgress)}</Text>
-          <Text>Answers: {JSON.stringify(answers)}</Text>
-
+            <Text>Progress: {totalCorrect} correct, {totalIncorrect} incorrect</Text>
             {/* Target language button */}
             <Button
               colorScheme={cardFrontLanguage === "target" ? "blue" : "gray"}

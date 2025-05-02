@@ -1,10 +1,10 @@
-import { CloseIcon, HamburgerIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
 import {
   Box,
   Button,
   Collapse,
   Container,
   Flex,
+  Icon,
   IconButton,
   Link,
   Stack,
@@ -14,8 +14,8 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import { Link as GatsbyLink } from "gatsby";
+import { Menu, Moon, Sun, X } from "lucide-react";
 import React from "react";
-import BuyMeCoffeeButton from "./BuyMeCoffeeButton";
 
 interface NavItem {
   label: string;
@@ -76,9 +76,9 @@ const Header = () => {
               onClick={onToggle}
               icon={
                 isOpen ? (
-                  <CloseIcon w={3} h={3} />
+                  <Icon as={X} w={3} h={3} />
                 ) : (
-                  <HamburgerIcon w={5} h={5} />
+                  <Icon as={Menu} w={5} h={5} />
                 )
               }
               variant={"ghost"}
@@ -135,7 +135,7 @@ const Header = () => {
             <IconButton
               aria-label={`Switch to ${colorMode === "light" ? "dark" : "light"} mode`}
               variant="ghost"
-              icon={colorMode === "light" ? <MoonIcon /> : <SunIcon />}
+              icon={colorMode === "light" ? <Icon as={Moon} /> : <Icon as={Sun} />}
               onClick={toggleColorMode}
             />
           </Stack>

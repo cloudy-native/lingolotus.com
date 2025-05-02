@@ -1,6 +1,4 @@
-import { ChevronRightIcon, StarIcon } from "@chakra-ui/icons";
 import {
-  Badge,
   Box,
   Button,
   Container,
@@ -11,11 +9,13 @@ import {
   Image,
   SimpleGrid,
   Stack,
+  Tag,
   Text,
   useColorModeValue,
   VStack,
 } from "@chakra-ui/react";
 import { graphql, Link } from "gatsby";
+import { ChevronRight, Star } from "lucide-react";
 import React from "react";
 import { FaBookOpen, FaChalkboardTeacher, FaLanguage } from "react-icons/fa";
 
@@ -70,7 +70,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                   size="lg"
                   height="56px"
                   px={8}
-                  rightIcon={<ChevronRightIcon />}
+                  rightIcon={<Icon as={ChevronRight} />}
                 >
                   Browse Collections
                 </Button>
@@ -116,7 +116,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
           <Button
             as={Link}
             to="/collections"
-            rightIcon={<ChevronRightIcon />}
+            rightIcon={<Icon as={ChevronRight} />}
             variant="ghost"
             colorScheme="blue"
           >
@@ -126,7 +126,10 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
 
         <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={8}>
           {featuredCollections.map((collection) => (
-            <Link to={collectionDetailPath(collection.collectionId)} key={collection.collectionId}>
+            <Link
+              to={collectionDetailPath(collection.collectionId)}
+              key={collection.collectionId}
+            >
               <Box
                 bg={boxBg}
                 borderWidth="1px"
@@ -147,20 +150,19 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                       objectFit="cover"
                       fallbackSrc={`https://via.placeholder.com/800x450?text=${collection.name}`}
                     />
-                    <Badge
+                    <Tag
                       position="absolute"
                       top="10px"
                       right="10px"
                       colorScheme="blue"
-                      fontSize="0.8em"
                       p={2}
                       borderRadius="md"
                     >
                       <Flex align="center">
-                        <StarIcon mr={1} />
+                        <Icon as={Star} mr={1} />
                         Featured
                       </Flex>
-                    </Badge>
+                    </Tag>
                   </Box>
                 )}
                 <Box p={5}>
@@ -171,12 +173,12 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                     {collection.description}
                   </Text>
                   <HStack spacing={2} mb={3}>
-                    <Badge colorScheme="green">
+                    <Tag colorScheme="green">
                       {collection.sourceLanguage} → {collection.targetLanguage}
-                    </Badge>
-                    <Badge colorScheme="purple">
+                    </Tag>
+                    <Tag colorScheme="purple">
                       {collection.difficulty || "Mixed"}
-                    </Badge>
+                    </Tag>
                   </HStack>
                 </Box>
               </Box>
@@ -343,4 +345,3 @@ export const query = graphql`
     }
   }
 `;
-

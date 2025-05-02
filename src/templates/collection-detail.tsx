@@ -1,6 +1,4 @@
-import { ChevronRightIcon, StarIcon, TimeIcon } from "@chakra-ui/icons";
 import {
-  Badge,
   Box,
   Breadcrumb,
   BreadcrumbItem,
@@ -13,14 +11,16 @@ import {
   Image,
   SimpleGrid,
   Stack,
+  Tag,
   Text,
   useColorModeValue,
 } from "@chakra-ui/react";
 import { graphql, Link } from "gatsby";
+import { ChevronRight, Clock, Star } from "lucide-react";
 import React from "react";
 
 import { Collection, Deck } from "../types";
-import { collectionListPath, collectionStudyPath, studyDeckPath } from "../utils/paths";
+import { collectionListPath, deckDetailPath } from "../utils/paths";
 
 interface CollectionDetailTemplateProps {
   data: {
@@ -36,7 +36,7 @@ const DeckCard: React.FC<{ deck: Deck }> = ({ deck }) => {
   const cardBorder = useColorModeValue("gray.200", "gray.700");
 
   return (
-    <Link to={studyDeckPath(deck.collectionId, deck.deckId)}>
+    <Link to={deckDetailPath(deck.collectionId, deck.deckId)}>
       <Box
         borderWidth="1px"
         borderRadius="lg"
@@ -58,13 +58,13 @@ const DeckCard: React.FC<{ deck: Deck }> = ({ deck }) => {
 
           <Stack spacing={3} mt="auto">
             <Flex align="center" justify="space-between">
-              <Badge colorScheme="teal">{deck.theme}</Badge>
-              <Badge colorScheme="purple">{deck.difficulty}</Badge>
+              <Tag colorScheme="teal">{deck.theme}</Tag>
+              <Tag colorScheme="purple">{deck.difficulty}</Tag>
             </Flex>
 
             <Flex align="center" justify="space-between">
               <Flex align="center">
-                <Icon as={TimeIcon} mr={1} color="gray.500" />
+                <Icon as={Clock} mr={1} color="gray.500" />
                 <Text fontSize="sm" color="gray.500">
                   {new Date(deck.updatedAt).toLocaleDateString()}
                 </Text>
@@ -87,7 +87,6 @@ const DeckCard: React.FC<{ deck: Deck }> = ({ deck }) => {
 const CollectionDetailTemplate: React.FC<CollectionDetailTemplateProps> = ({
   data,
 }) => {
-  console.log(">>> data", data);
   const collection = data.collectionsJson;
   const decks = data.allDecksJson.nodes;
 
@@ -100,7 +99,7 @@ const CollectionDetailTemplate: React.FC<CollectionDetailTemplateProps> = ({
         <Container maxW="container.xl">
           <Breadcrumb
             spacing="8px"
-            separator={<ChevronRightIcon color="gray.500" />}
+            separator={<Icon as={ChevronRight} color="gray.500" />}
             mb={4}
           >
             <BreadcrumbItem>
@@ -140,8 +139,8 @@ const CollectionDetailTemplate: React.FC<CollectionDetailTemplateProps> = ({
                 </Heading>
                 {collection.featured && (
                   <Flex align="center">
-                    <Icon as={StarIcon} color="yellow.400" mr={1} />
-                    <Badge colorScheme="yellow">Featured</Badge>
+                    <Icon as={Star} color="yellow.400" mr={1} />
+                    <Tag colorScheme="yellow">Featured</Tag>
                   </Flex>
                 )}
               </Flex>
@@ -155,29 +154,16 @@ const CollectionDetailTemplate: React.FC<CollectionDetailTemplateProps> = ({
                 spacing={4}
                 wrap="wrap"
               >
-                <Badge colorScheme="green" fontSize="0.9em" p={1}>
+                <Tag colorScheme="green">
                   {collection.sourceLanguage} → {collection.targetLanguage}
-                </Badge>
-                <Badge colorScheme="purple" fontSize="0.9em" p={1}>
+                </Tag>
+                <Tag colorScheme="purple">
                   {collection.difficulty || "Mixed"}
-                </Badge>
+                </Tag>
                 {collection.category && (
-                  <Badge colorScheme="blue" fontSize="0.9em" p={1}>
-                    {collection.category}
-                  </Badge>
+                  <Tag colorScheme="blue">{collection.category}</Tag>
                 )}
               </Stack>
-
-              {/* TODO: Add Study Entire Collection button */}
-              {/* <Button
-                colorScheme="blue"
-                size="md"
-                mt={4}
-                as={Link}
-                to={collectionStudyPath(collection.collectionId)}
-              >
-                Study Entire Collection
-              </Button> */}
             </Box>
           </Flex>
         </Container>
