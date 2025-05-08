@@ -66,7 +66,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                 <Button
                   as={Link}
                   to={collectionListPath()}
-                  colorScheme="blue"
+                  colorScheme="primary"
                   size="lg"
                   height="56px"
                   px={8}
@@ -77,7 +77,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                 {/* <Button
                   as={Link}
                   to="/about"
-                  colorScheme="blue"
+                  colorScheme="primary"
                   variant="outline"
                   size="lg"
                   height="56px"
@@ -93,7 +93,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
               position="relative"
             >
               <Image
-                src="/images/hero-flashcards.png"
+                src="/images/hero-lotus.jpeg"
                 alt="Language flashcards app preview"
                 borderRadius="lg"
                 boxShadow="xl"
@@ -118,7 +118,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
             to="/collections"
             rightIcon={<Icon as={ChevronRight} />}
             variant="ghost"
-            colorScheme="blue"
+            colorScheme="primary"
           >
             View All ({totalCollectionCount})
           </Button>
@@ -154,7 +154,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                       position="absolute"
                       top="10px"
                       right="10px"
-                      colorScheme="blue"
+                      colorScheme="primary"
                       p={2}
                       borderRadius="md"
                     >

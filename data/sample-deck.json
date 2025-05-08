@@ -7,7 +7,6 @@
   "targetLanguage": "en",
   "cards": [
     {
-      "cardId": "shopping-001",
       "frontContent": {
         "type": "text",
         "text": "นี่ราคาเท่าไร"
@@ -37,7 +36,6 @@
       ]
     },
     {
-      "cardId": "shopping-002",
       "frontContent": {
         "type": "text",
         "text": "ลดราคาได้ไหม"
@@ -67,7 +65,6 @@
       ]
     },
     {
-      "cardId": "shopping-003",
       "frontContent": {
         "type": "text",
         "text": "ราคานี้แพงเกินไป"

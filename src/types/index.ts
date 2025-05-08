@@ -4,18 +4,16 @@ export interface BaseContent {
 }
 
 export interface TextContent extends BaseContent {
-  type: 'text';
+  type: "text";
   text: string;
 }
 
 // Core flashcard structure
 export interface Flashcard {
-  id: string;
-  cardId: string;
   frontContent: TextContent;
   backContent: TextContent;
   tags: string[];
-  difficulty: 'easy' | 'medium' | 'hard';
+  difficulty: "easy" | "medium" | "hard";
   lastReviewed?: Date;
   nextReviewDate?: Date;
 }
@@ -31,7 +29,16 @@ export interface TranslationFlashcard extends Flashcard {
   sourceLanguage: string;
   targetLanguage: string;
   phonetic?: string; // Optional pronunciation guide
-  partOfSpeech?: 'noun' | 'verb' | 'adjective' | 'adverb' | 'preposition' | 'pronoun' | 'conjunction' | 'interjection' | 'phrase';
+  partOfSpeech?:
+    | "noun"
+    | "verb"
+    | "adjective"
+    | "adverb"
+    | "preposition"
+    | "pronoun"
+    | "conjunction"
+    | "interjection"
+    | "phrase";
   context?: string; // Optional usage context
   examples?: TranslationExample[];
 }
@@ -48,9 +55,9 @@ export interface Deck<T extends Flashcard = Flashcard> {
   createdAt: Date | string;
   updatedAt: Date | string;
   category?: string;
-  theme: string;              // Theme of this deck (basics, food, etc.)
-  difficulty?: 'beginner' | 'intermediate' | 'advanced' | 'mixed';
-  collectionId: string;       // Reference to parent collection
+  theme: string; // Theme of this deck (basics, food, etc.)
+  difficulty?: "beginner" | "intermediate" | "advanced" | "mixed";
+  collectionId: string; // Reference to parent collection
 }
 
 // Collection structure to group related decks
@@ -64,9 +71,9 @@ export interface Collection {
   createdAt: Date | string;
   updatedAt: Date | string;
   category?: string;
-  difficulty?: 'beginner' | 'intermediate' | 'advanced' | 'mixed';
+  difficulty?: "beginner" | "intermediate" | "advanced" | "mixed";
   imageUrl?: string;
-  featured?: boolean;         // Is this a featured collection?
+  featured?: boolean; // Is this a featured collection?
 }
 
 // Type to track user progress during the session
@@ -80,7 +87,7 @@ export interface SessionProgress {
 //   incorrectAnswers: number;
 //   cardsReviewed: Set<string>; // Card IDs that have been reviewed
 //   cardStatistics: {
-//     [cardId: string]: {
+//     [id: string]: {
 //       correctCount: number;
 //       incorrectCount: number;
 //       lastReviewed?: Date;

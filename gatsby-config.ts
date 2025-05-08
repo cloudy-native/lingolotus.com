@@ -1,12 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: `Language Flashcard App`,
+    title: `Lingo Lotus Flashcard App`,
     description: `A modern flashcard app for language learning built with GatsbyJS, ChakraUI and TypeScript`,
     author: `@yourname`,
-    siteUrl: `https://yourflashcardapp.com`,
+    siteUrl: `https://lingolotus.com`,
   },
   plugins: [
-    // Essential Gatsby plugins
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "images",
+        path: `${__dirname}/static/images`,
+      },
+    },
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,

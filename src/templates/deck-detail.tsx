@@ -28,7 +28,6 @@ import {
   Tr,
   VStack,
   useColorModeValue,
-  useToast,
 } from "@chakra-ui/react";
 import { Link, graphql, navigate } from "gatsby";
 import { ChevronRight, Clock, Eye } from "lucide-react";
@@ -135,7 +134,6 @@ const FlashcardPreview: React.FC<{ card: TranslationFlashcard }> = ({
 const DeckDetailTemplate: React.FC<DeckDetailTemplateProps> = ({ data }) => {
   const deck = data.decksJson;
   const collection = data.collectionsJson;
-  const toast = useToast();
 
   const [studyType, setStudyType] = useState<string>("all");
   const [cardOrder, setCardOrder] = useState<string>("default");
@@ -152,14 +150,6 @@ const DeckDetailTemplate: React.FC<DeckDetailTemplateProps> = ({ data }) => {
         order: cardOrder,
       }),
     );
-
-    toast({
-      title: "Starting study session",
-      description: `${deck.cards.length} cards loaded`,
-      status: "success",
-      duration: 2000,
-      isClosable: true,
-    });
 
     // Navigate to the study page
     navigate(
@@ -278,14 +268,14 @@ const DeckDetailTemplate: React.FC<DeckDetailTemplateProps> = ({ data }) => {
                 </Flex>
                 <ButtonGroup>
                   <Button
-                    colorScheme="blue"
+                    colorScheme="primary"
                     leftIcon={<Icon as={Eye} />}
                     onClick={() => handleStartStudy("target")}
                   >
                     {studyInTargetLanguage}
                   </Button>
                   <Button
-                    colorScheme="blue"
+                    colorScheme="primary"
                     leftIcon={<Icon as={Eye} />}
                     onClick={() => handleStartStudy("source")}
                   >
@@ -299,7 +289,7 @@ const DeckDetailTemplate: React.FC<DeckDetailTemplateProps> = ({ data }) => {
       </Box>
 
       <Container maxW="container.xl" py={8}>
-        <Tabs colorScheme="teal" variant="enclosed">
+        <Tabs colorScheme="primary" variant="enclosed">
           <TabList>
             <Tab>Preview Cards</Tab>
             <Tab>Card Statistics</Tab>
@@ -422,7 +412,6 @@ export const query = graphql`
       difficulty
       collectionId
       cards {
-        cardId
         frontContent {
           type
           text

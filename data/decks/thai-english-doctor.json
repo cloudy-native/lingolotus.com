@@ -7,7 +7,6 @@
   "targetLanguage": "en",
   "cards": [
     {
-      "cardId": "medical-001",
       "frontContent": {
         "type": "text",
         "text": "ฉันไม่สบาย"
@@ -16,7 +15,11 @@
         "type": "text",
         "text": "I am not feeling well"
       },
-      "tags": ["medical", "symptom", "basic"],
+      "tags": [
+        "medical",
+        "symptom",
+        "basic"
+      ],
       "difficulty": "easy",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -37,7 +40,6 @@
       ]
     },
     {
-      "cardId": "medical-002",
       "frontContent": {
         "type": "text",
         "text": "ฉันปวดหัว"
@@ -46,7 +48,11 @@
         "type": "text",
         "text": "I have a headache"
       },
-      "tags": ["medical", "symptom", "pain"],
+      "tags": [
+        "medical",
+        "symptom",
+        "pain"
+      ],
       "difficulty": "easy",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -67,7 +73,6 @@
       ]
     },
     {
-      "cardId": "medical-003",
       "frontContent": {
         "type": "text",
         "text": "ฉันปวดท้อง"
@@ -76,7 +81,11 @@
         "type": "text",
         "text": "I have a stomachache"
       },
-      "tags": ["medical", "symptom", "pain"],
+      "tags": [
+        "medical",
+        "symptom",
+        "pain"
+      ],
       "difficulty": "easy",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -97,7 +106,6 @@
       ]
     },
     {
-      "cardId": "medical-004",
       "frontContent": {
         "type": "text",
         "text": "ฉันมีไข้"
@@ -106,7 +114,11 @@
         "type": "text",
         "text": "I have a fever"
       },
-      "tags": ["medical", "symptom", "basic"],
+      "tags": [
+        "medical",
+        "symptom",
+        "basic"
+      ],
       "difficulty": "easy",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -127,7 +139,6 @@
       ]
     },
     {
-      "cardId": "medical-005",
       "frontContent": {
         "type": "text",
         "text": "ฉันมีอาการไอ"
@@ -136,7 +147,11 @@
         "type": "text",
         "text": "I have a cough"
       },
-      "tags": ["medical", "symptom", "respiratory"],
+      "tags": [
+        "medical",
+        "symptom",
+        "respiratory"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -157,7 +172,6 @@
       ]
     },
     {
-      "cardId": "medical-006",
       "frontContent": {
         "type": "text",
         "text": "ฉันมีผื่นขึ้น"
@@ -166,7 +180,11 @@
         "type": "text",
         "text": "I have a rash"
       },
-      "tags": ["medical", "symptom", "skin"],
+      "tags": [
+        "medical",
+        "symptom",
+        "skin"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -187,7 +205,6 @@
       ]
     },
     {
-      "cardId": "medical-007",
       "frontContent": {
         "type": "text",
         "text": "ฉันเป็นภูมิแพ้"
@@ -196,7 +213,11 @@
         "type": "text",
         "text": "I have allergies"
       },
-      "tags": ["medical", "condition", "allergy"],
+      "tags": [
+        "medical",
+        "condition",
+        "allergy"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -217,7 +238,6 @@
       ]
     },
     {
-      "cardId": "medical-008",
       "frontContent": {
         "type": "text",
         "text": "ฉันแพ้ยา"
@@ -226,7 +246,11 @@
         "type": "text",
         "text": "I am allergic to medication"
       },
-      "tags": ["medical", "allergy", "medication"],
+      "tags": [
+        "medical",
+        "allergy",
+        "medication"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -247,7 +271,6 @@
       ]
     },
     {
-      "cardId": "medical-009",
       "frontContent": {
         "type": "text",
         "text": "ฉันเจ็บตรงนี้"
@@ -256,7 +279,11 @@
         "type": "text",
         "text": "It hurts here"
       },
-      "tags": ["medical", "pain", "locating"],
+      "tags": [
+        "medical",
+        "pain",
+        "locating"
+      ],
       "difficulty": "easy",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -277,7 +304,6 @@
       ]
     },
     {
-      "cardId": "medical-010",
       "frontContent": {
         "type": "text",
         "text": "ฉันเป็นเบาหวาน"
@@ -286,7 +312,11 @@
         "type": "text",
         "text": "I have diabetes"
       },
-      "tags": ["medical", "condition", "chronic"],
+      "tags": [
+        "medical",
+        "condition",
+        "chronic"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -307,7 +337,6 @@
       ]
     },
     {
-      "cardId": "medical-011",
       "frontContent": {
         "type": "text",
         "text": "ฉันมีความดันโลหิตสูง"
@@ -316,7 +345,11 @@
         "type": "text",
         "text": "I have high blood pressure"
       },
-      "tags": ["medical", "condition", "chronic"],
+      "tags": [
+        "medical",
+        "condition",
+        "chronic"
+      ],
       "difficulty": "hard",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -337,7 +370,6 @@
       ]
     },
     {
-      "cardId": "medical-012",
       "frontContent": {
         "type": "text",
         "text": "ฉันต้องการพบหมอ"
@@ -346,7 +378,11 @@
         "type": "text",
         "text": "I need to see a doctor"
       },
-      "tags": ["medical", "request", "basic"],
+      "tags": [
+        "medical",
+        "request",
+        "basic"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -367,7 +403,6 @@
       ]
     },
     {
-      "cardId": "medical-013",
       "frontContent": {
         "type": "text",
         "text": "ฉันมีนัดกับหมอ"
@@ -376,7 +411,11 @@
         "type": "text",
         "text": "I have an appointment with the doctor"
       },
-      "tags": ["medical", "appointment", "basic"],
+      "tags": [
+        "medical",
+        "appointment",
+        "basic"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -397,7 +436,6 @@
       ]
     },
     {
-      "cardId": "medical-014",
       "frontContent": {
         "type": "text",
         "text": "ฉันมียาประจำตัว"
@@ -406,7 +444,11 @@
         "type": "text",
         "text": "I take regular medication"
       },
-      "tags": ["medical", "medication", "important"],
+      "tags": [
+        "medical",
+        "medication",
+        "important"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -427,7 +469,6 @@
       ]
     },
     {
-      "cardId": "medical-015",
       "frontContent": {
         "type": "text",
         "text": "ทานยานี้อย่างไร"
@@ -436,7 +477,11 @@
         "type": "text",
         "text": "How do I take this medicine?"
       },
-      "tags": ["medical", "medication", "question"],
+      "tags": [
+        "medical",
+        "medication",
+        "question"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -457,7 +502,6 @@
       ]
     },
     {
-      "cardId": "medical-016",
       "frontContent": {
         "type": "text",
         "text": "ฉันต้องงดน้ำงดอาหารไหม"
@@ -466,7 +510,11 @@
         "type": "text",
         "text": "Do I need to fast?"
       },
-      "tags": ["medical", "procedure", "question"],
+      "tags": [
+        "medical",
+        "procedure",
+        "question"
+      ],
       "difficulty": "hard",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -487,7 +535,6 @@
       ]
     },
     {
-      "cardId": "medical-017",
       "frontContent": {
         "type": "text",
         "text": "ฉันกำลังตั้งครรภ์"
@@ -496,7 +543,11 @@
         "type": "text",
         "text": "I am pregnant"
       },
-      "tags": ["medical", "condition", "important"],
+      "tags": [
+        "medical",
+        "condition",
+        "important"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -517,7 +568,6 @@
       ]
     },
     {
-      "cardId": "medical-018",
       "frontContent": {
         "type": "text",
         "text": "อาการเป็นมากี่วันแล้ว"
@@ -526,7 +576,11 @@
         "type": "text",
         "text": "How many days have you had these symptoms?"
       },
-      "tags": ["medical", "question", "doctor"],
+      "tags": [
+        "medical",
+        "question",
+        "doctor"
+      ],
       "difficulty": "hard",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -547,7 +601,6 @@
       ]
     },
     {
-      "cardId": "medical-019",
       "frontContent": {
         "type": "text",
         "text": "ฉันต้องเสียค่าใช้จ่ายเท่าไร"
@@ -556,7 +609,11 @@
         "type": "text",
         "text": "How much do I need to pay?"
       },
-      "tags": ["medical", "payment", "question"],
+      "tags": [
+        "medical",
+        "payment",
+        "question"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -577,7 +634,6 @@
       ]
     },
     {
-      "cardId": "medical-020",
       "frontContent": {
         "type": "text",
         "text": "ฉันมีประกันสุขภาพ"
@@ -586,7 +642,11 @@
         "type": "text",
         "text": "I have health insurance"
       },
-      "tags": ["medical", "payment", "insurance"],
+      "tags": [
+        "medical",
+        "payment",
+        "insurance"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",

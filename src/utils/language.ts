@@ -4,6 +4,7 @@ export interface LanguageInfo {
   englishName: string;
   nativeName: string;
 }
+
 const LANGUAGES: Record<string, LanguageInfo> = {
   en: {
     code: "en",

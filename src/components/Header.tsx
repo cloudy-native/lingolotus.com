@@ -14,7 +14,7 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import { Link as GatsbyLink } from "gatsby";
-import { Menu, Moon, Sun, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import React from "react";
 
 interface NavItem {
@@ -125,20 +125,6 @@ const Header = () => {
               </Stack>
             </Flex>
           </Flex>
-
-          <Stack
-            flex={{ base: 1, md: 0 }}
-            justify={"flex-end"}
-            direction={"row"}
-            spacing={6}
-          >
-            <IconButton
-              aria-label={`Switch to ${colorMode === "light" ? "dark" : "light"} mode`}
-              variant="ghost"
-              icon={colorMode === "light" ? <Icon as={Moon} /> : <Icon as={Sun} />}
-              onClick={toggleColorMode}
-            />
-          </Stack>
         </Flex>
 
         <Collapse in={isOpen} animateOpacity>

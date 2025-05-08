@@ -88,8 +88,9 @@ const Footer = () => {
               </Text>
             </Box>
             <Text fontSize={"sm"}>
-              A modern Gatsby starter template featuring TypeScript and Chakra UI
-              for building fast, responsive websites with a great developer experience.
+              A modern Gatsby starter template featuring TypeScript and Chakra
+              UI for building fast, responsive websites with a great developer
+              experience.
             </Text>
             <Stack direction={"row"} spacing={4}>
               <SocialButton label={"Twitter"} href={"https://twitter.com"}>
@@ -148,7 +149,8 @@ const Footer = () => {
 
       <Box py={4}>
         <Text pt={2} fontSize={"sm"} textAlign={"center"}>
-          © {new Date().getFullYear()} Gatsby TypeScript ChakraUI Starter. All rights reserved.
+          © {new Date().getFullYear()} Gatsby TypeScript ChakraUI Starter. All
+          rights reserved.
         </Text>
       </Box>
     </Box>

@@ -8,18 +8,20 @@
     "gatsby"
   ],
   "scripts": {
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "postinstall": "npm run theme",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "deploy": "aws s3 sync public/ s3://lingolotus.com --cache-control \"max-age=31536000,public\" --delete",
+    "postinstall": "npm run theme",
     "typecheck": "tsc --noEmit",
     "theme": "chakra-cli tokens src/theme/index.ts",
     "theme:watch": "chakra-cli tokens src/theme/index.ts --watch",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "deploy:gh": "gatsby build --prefix-paths && gh-pages -d public -b main"
+    "format": "prettier --check src",
+    "format:fix": "prettier --write src",
+    "lint": "eslint src --ext ts --ext tsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint src --ext ts --ext tsx --fix"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.10.6",

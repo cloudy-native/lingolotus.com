@@ -7,7 +7,6 @@
   "targetLanguage": "en",
   "cards": [
     {
-      "cardId": "occ-001",
       "frontContent": {
         "type": "text",
         "text": "คุณทำงานอะไร"
@@ -16,7 +15,11 @@
         "type": "text",
         "text": "What is your occupation? / What do you do for work?"
       },
-      "tags": ["question", "occupation", "common phrase"],
+      "tags": [
+        "question",
+        "occupation",
+        "common phrase"
+      ],
       "difficulty": "easy",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -37,7 +40,6 @@
       ]
     },
     {
-      "cardId": "occ-002",
       "frontContent": {
         "type": "text",
         "text": "ฉันเป็นครู"
@@ -46,7 +48,11 @@
         "type": "text",
         "text": "I am a teacher"
       },
-      "tags": ["teacher", "occupation", "statement"],
+      "tags": [
+        "teacher",
+        "occupation",
+        "statement"
+      ],
       "difficulty": "easy",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -67,7 +73,6 @@
       ]
     },
     {
-      "cardId": "occ-003",
       "frontContent": {
         "type": "text",
         "text": "เขาเป็นหมอ"
@@ -76,7 +81,11 @@
         "type": "text",
         "text": "He/she is a doctor"
       },
-      "tags": ["doctor", "medical", "occupation"],
+      "tags": [
+        "doctor",
+        "medical",
+        "occupation"
+      ],
       "difficulty": "easy",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -97,7 +106,6 @@
       ]
     },
     {
-      "cardId": "occ-004",
       "frontContent": {
         "type": "text",
         "text": "ฉันทำงานเป็นวิศวกร"
@@ -106,7 +114,11 @@
         "type": "text",
         "text": "I work as an engineer"
       },
-      "tags": ["engineer", "occupation", "statement"],
+      "tags": [
+        "engineer",
+        "occupation",
+        "statement"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -127,7 +139,6 @@
       ]
     },
     {
-      "cardId": "occ-005",
       "frontContent": {
         "type": "text",
         "text": "เธอเป็นพยาบาล"
@@ -136,7 +147,11 @@
         "type": "text",
         "text": "She is a nurse"
       },
-      "tags": ["nurse", "medical", "occupation"],
+      "tags": [
+        "nurse",
+        "medical",
+        "occupation"
+      ],
       "difficulty": "easy",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -157,7 +172,6 @@
       ]
     },
     {
-      "cardId": "occ-006",
       "frontContent": {
         "type": "text",
         "text": "เขาทำงานเป็นตำรวจ"
@@ -166,7 +180,11 @@
         "type": "text",
         "text": "He works as a police officer"
       },
-      "tags": ["police", "law enforcement", "occupation"],
+      "tags": [
+        "police",
+        "law enforcement",
+        "occupation"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -187,7 +205,6 @@
       ]
     },
     {
-      "cardId": "occ-007",
       "frontContent": {
         "type": "text",
         "text": "ฉันเป็นพนักงานบริษัท"
@@ -196,7 +213,11 @@
         "type": "text",
         "text": "I am a company employee"
       },
-      "tags": ["office worker", "employee", "occupation"],
+      "tags": [
+        "office worker",
+        "employee",
+        "occupation"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -217,7 +238,6 @@
       ]
     },
     {
-      "cardId": "occ-008",
       "frontContent": {
         "type": "text",
         "text": "เธอเป็นนักแสดง"
@@ -226,7 +246,11 @@
         "type": "text",
         "text": "She is an actor/actress"
       },
-      "tags": ["actor", "entertainment", "occupation"],
+      "tags": [
+        "actor",
+        "entertainment",
+        "occupation"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -247,7 +271,6 @@
       ]
     },
     {
-      "cardId": "occ-009",
       "frontContent": {
         "type": "text",
         "text": "เขาเป็นนักเขียน"
@@ -256,7 +279,11 @@
         "type": "text",
         "text": "He/she is a writer"
       },
-      "tags": ["writer", "author", "occupation"],
+      "tags": [
+        "writer",
+        "author",
+        "occupation"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -277,7 +304,6 @@
       ]
     },
     {
-      "cardId": "occ-010",
       "frontContent": {
         "type": "text",
         "text": "ฉันเป็นนักศึกษา"
@@ -286,7 +312,11 @@
         "type": "text",
         "text": "I am a student (university level)"
       },
-      "tags": ["student", "education", "occupation"],
+      "tags": [
+        "student",
+        "education",
+        "occupation"
+      ],
       "difficulty": "easy",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -307,7 +337,6 @@
       ]
     },
     {
-      "cardId": "occ-011",
       "frontContent": {
         "type": "text",
         "text": "เธอเป็นแพทย์เฉพาะทาง"
@@ -316,7 +345,11 @@
         "type": "text",
         "text": "She is a specialist doctor"
       },
-      "tags": ["doctor", "specialist", "medical"],
+      "tags": [
+        "doctor",
+        "specialist",
+        "medical"
+      ],
       "difficulty": "hard",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -337,7 +370,6 @@
       ]
     },
     {
-      "cardId": "occ-012",
       "frontContent": {
         "type": "text",
         "text": "เขาเป็นพ่อครัว"
@@ -346,7 +378,11 @@
         "type": "text",
         "text": "He is a chef/cook"
       },
-      "tags": ["chef", "cooking", "occupation"],
+      "tags": [
+        "chef",
+        "cooking",
+        "occupation"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -367,7 +403,6 @@
       ]
     },
     {
-      "cardId": "occ-013",
       "frontContent": {
         "type": "text",
         "text": "เธอเป็นแม่ครัว"
@@ -376,7 +411,11 @@
         "type": "text",
         "text": "She is a chef/cook"
       },
-      "tags": ["chef", "cooking", "occupation"],
+      "tags": [
+        "chef",
+        "cooking",
+        "occupation"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -397,7 +436,6 @@
       ]
     },
     {
-      "cardId": "occ-014",
       "frontContent": {
         "type": "text",
         "text": "พี่ชายของฉันเป็นนักธุรกิจ"
@@ -406,7 +444,11 @@
         "type": "text",
         "text": "My older brother is a businessman"
       },
-      "tags": ["business", "entrepreneur", "occupation"],
+      "tags": [
+        "business",
+        "entrepreneur",
+        "occupation"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -427,7 +469,6 @@
       ]
     },
     {
-      "cardId": "occ-015",
       "frontContent": {
         "type": "text",
         "text": "ฉันเป็นทนายความ"
@@ -436,7 +477,11 @@
         "type": "text",
         "text": "I am a lawyer"
       },
-      "tags": ["lawyer", "legal", "occupation"],
+      "tags": [
+        "lawyer",
+        "legal",
+        "occupation"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -457,7 +502,6 @@
       ]
     },
     {
-      "cardId": "occ-016",
       "frontContent": {
         "type": "text",
         "text": "น้องสาวฉันเป็นสถาปนิก"
@@ -466,7 +510,11 @@
         "type": "text",
         "text": "My younger sister is an architect"
       },
-      "tags": ["architect", "design", "occupation"],
+      "tags": [
+        "architect",
+        "design",
+        "occupation"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -487,7 +535,6 @@
       ]
     },
     {
-      "cardId": "occ-017",
       "frontContent": {
         "type": "text",
         "text": "เขาเป็นช่างภาพ"
@@ -496,7 +543,11 @@
         "type": "text",
         "text": "He is a photographer"
       },
-      "tags": ["photographer", "creative", "occupation"],
+      "tags": [
+        "photographer",
+        "creative",
+        "occupation"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -517,7 +568,6 @@
       ]
     },
     {
-      "cardId": "occ-018",
       "frontContent": {
         "type": "text",
         "text": "เธอทำงานเป็นนักข่าว"
@@ -526,7 +576,11 @@
         "type": "text",
         "text": "She works as a journalist/reporter"
       },
-      "tags": ["journalist", "media", "occupation"],
+      "tags": [
+        "journalist",
+        "media",
+        "occupation"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -547,7 +601,6 @@
       ]
     },
     {
-      "cardId": "occ-019",
       "frontContent": {
         "type": "text",
         "text": "เขาเป็นเกษตรกร"
@@ -556,7 +609,11 @@
         "type": "text",
         "text": "He is a farmer"
       },
-      "tags": ["farmer", "agriculture", "occupation"],
+      "tags": [
+        "farmer",
+        "agriculture",
+        "occupation"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -577,7 +634,6 @@
       ]
     },
     {
-      "cardId": "occ-020",
       "frontContent": {
         "type": "text",
         "text": "เธอเป็นอาจารย์มหาวิทยาลัย"
@@ -586,7 +642,11 @@
         "type": "text",
         "text": "She is a university professor"
       },
-      "tags": ["professor", "education", "occupation"],
+      "tags": [
+        "professor",
+        "education",
+        "occupation"
+      ],
       "difficulty": "hard",
       "sourceLanguage": "th",
       "targetLanguage": "en",

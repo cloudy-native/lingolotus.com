@@ -58,8 +58,8 @@ const DeckCard: React.FC<{ deck: Deck }> = ({ deck }) => {
 
           <Stack spacing={3} mt="auto">
             <Flex align="center" justify="space-between">
-              <Tag colorScheme="teal">{deck.theme}</Tag>
-              <Tag colorScheme="purple">{deck.difficulty}</Tag>
+              <Tag colorScheme="primary">{deck.theme}</Tag>
+              <Tag colorScheme="secondary">{deck.difficulty}</Tag>
             </Flex>
 
             <Flex align="center" justify="space-between">
@@ -74,7 +74,7 @@ const DeckCard: React.FC<{ deck: Deck }> = ({ deck }) => {
               </Text>
             </Flex>
 
-            <Button colorScheme="blue" size="sm" width="100%" mt={2}>
+            <Button colorScheme="primary" size="sm" width="100%" mt={2}>
               Study Deck
             </Button>
           </Stack>
@@ -216,7 +216,26 @@ export const query = graphql`
         theme
         difficulty
         cards {
-          cardId
+          frontContent {
+            type
+            text
+          }
+          backContent {
+            type
+            text
+          }
+          tags
+          difficulty
+          sourceLanguage
+          targetLanguage
+          phonetic
+          partOfSpeech
+          context
+          examples {
+            original
+            translation
+            phonetic
+          }
         }
       }
     }

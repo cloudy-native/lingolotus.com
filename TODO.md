@@ -2,3 +2,5 @@
 - [ ] Factor identical components everywhere
 - [ ] Fix about page
 - [ ] Clarify scoring and get it working. Do we need it?
+- [ ] Theme consistently
+- [ ] Make TTS button a ChakraUI Button

@@ -7,7 +7,6 @@
   "targetLanguage": "en",
   "cards": [
     {
-      "cardId": "act-001",
       "frontContent": {
         "type": "text",
         "text": "ฉันชอบอ่านหนังสือ"
@@ -16,7 +15,11 @@
         "type": "text",
         "text": "I like to read books"
       },
-      "tags": ["reading", "hobby", "statement"],
+      "tags": [
+        "reading",
+        "hobby",
+        "statement"
+      ],
       "difficulty": "easy",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -37,7 +40,6 @@
       ]
     },
     {
-      "cardId": "act-002",
       "frontContent": {
         "type": "text",
         "text": "ฉันไปเดินเล่นทุกเช้า"
@@ -46,7 +48,11 @@
         "type": "text",
         "text": "I go for a walk every morning"
       },
-      "tags": ["walking", "exercise", "routine"],
+      "tags": [
+        "walking",
+        "exercise",
+        "routine"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -67,7 +73,6 @@
       ]
     },
     {
-      "cardId": "act-003",
       "frontContent": {
         "type": "text",
         "text": "เขากำลังวิ่ง"
@@ -76,7 +81,11 @@
         "type": "text",
         "text": "He/she is running"
       },
-      "tags": ["running", "exercise", "present continuous"],
+      "tags": [
+        "running",
+        "exercise",
+        "present continuous"
+      ],
       "difficulty": "easy",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -97,7 +106,6 @@
       ]
     },
     {
-      "cardId": "act-004",
       "frontContent": {
         "type": "text",
         "text": "คุณว่ายน้ำเป็นไหม"
@@ -106,7 +114,11 @@
         "type": "text",
         "text": "Can you swim?"
       },
-      "tags": ["swimming", "ability", "question"],
+      "tags": [
+        "swimming",
+        "ability",
+        "question"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -127,7 +139,6 @@
       ]
     },
     {
-      "cardId": "act-005",
       "frontContent": {
         "type": "text",
         "text": "เธอชอบฟังเพลง"
@@ -136,7 +147,11 @@
         "type": "text",
         "text": "She likes to listen to music"
       },
-      "tags": ["music", "listening", "hobby"],
+      "tags": [
+        "music",
+        "listening",
+        "hobby"
+      ],
       "difficulty": "easy",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -157,7 +172,6 @@
       ]
     },
     {
-      "cardId": "act-006",
       "frontContent": {
         "type": "text",
         "text": "ฉันกำลังเรียนภาษาไทย"
@@ -166,7 +180,11 @@
         "type": "text",
         "text": "I am learning Thai"
       },
-      "tags": ["language learning", "education", "present continuous"],
+      "tags": [
+        "language learning",
+        "education",
+        "present continuous"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -187,7 +205,6 @@
       ]
     },
     {
-      "cardId": "act-007",
       "frontContent": {
         "type": "text",
         "text": "เขาเล่นกีฬาทุกวัน"
@@ -196,7 +213,11 @@
         "type": "text",
         "text": "He/she plays sports every day"
       },
-      "tags": ["sports", "routine", "daily activity"],
+      "tags": [
+        "sports",
+        "routine",
+        "daily activity"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -217,7 +238,6 @@
       ]
     },
     {
-      "cardId": "act-008",
       "frontContent": {
         "type": "text",
         "text": "เรากำลังทำอาหาร"
@@ -226,7 +246,11 @@
         "type": "text",
         "text": "We are cooking"
       },
-      "tags": ["cooking", "present continuous", "activity"],
+      "tags": [
+        "cooking",
+        "present continuous",
+        "activity"
+      ],
       "difficulty": "easy",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -247,7 +271,6 @@
       ]
     },
     {
-      "cardId": "act-009",
       "frontContent": {
         "type": "text",
         "text": "ฉันชอบถ่ายรูป"
@@ -256,7 +279,11 @@
         "type": "text",
         "text": "I like taking photos"
       },
-      "tags": ["photography", "hobby", "activity"],
+      "tags": [
+        "photography",
+        "hobby",
+        "activity"
+      ],
       "difficulty": "easy",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -277,7 +304,6 @@
       ]
     },
     {
-      "cardId": "act-010",
       "frontContent": {
         "type": "text",
         "text": "เธอกำลังเต้นรำ"
@@ -286,7 +312,11 @@
         "type": "text",
         "text": "She is dancing"
       },
-      "tags": ["dancing", "present continuous", "activity"],
+      "tags": [
+        "dancing",
+        "present continuous",
+        "activity"
+      ],
       "difficulty": "easy",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -307,7 +337,6 @@
       ]
     },
     {
-      "cardId": "act-011",
       "frontContent": {
         "type": "text",
         "text": "พวกเขากำลังเล่นดนตรี"
@@ -316,7 +345,11 @@
         "type": "text",
         "text": "They are playing music"
       },
-      "tags": ["music", "instrument", "present continuous"],
+      "tags": [
+        "music",
+        "instrument",
+        "present continuous"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -337,7 +370,6 @@
       ]
     },
     {
-      "cardId": "act-012",
       "frontContent": {
         "type": "text",
         "text": "ฉันชอบปลูกต้นไม้"
@@ -346,7 +378,11 @@
         "type": "text",
         "text": "I like to grow plants"
       },
-      "tags": ["gardening", "hobby", "activity"],
+      "tags": [
+        "gardening",
+        "hobby",
+        "activity"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -367,7 +403,6 @@
       ]
     },
     {
-      "cardId": "act-013",
       "frontContent": {
         "type": "text",
         "text": "เขาชอบวาดรูป"
@@ -376,7 +411,11 @@
         "type": "text",
         "text": "He/she likes to draw"
       },
-      "tags": ["drawing", "art", "hobby"],
+      "tags": [
+        "drawing",
+        "art",
+        "hobby"
+      ],
       "difficulty": "easy",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -397,7 +436,6 @@
       ]
     },
     {
-      "cardId": "act-014",
       "frontContent": {
         "type": "text",
         "text": "เรากำลังดูหนัง"
@@ -406,7 +444,11 @@
         "type": "text",
         "text": "We are watching a movie"
       },
-      "tags": ["movie", "entertainment", "present continuous"],
+      "tags": [
+        "movie",
+        "entertainment",
+        "present continuous"
+      ],
       "difficulty": "easy",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -427,7 +469,6 @@
       ]
     },
     {
-      "cardId": "act-015",
       "frontContent": {
         "type": "text",
         "text": "ฉันจะไปเที่ยวทะเล"
@@ -436,7 +477,11 @@
         "type": "text",
         "text": "I will go to the beach"
       },
-      "tags": ["travel", "beach", "future"],
+      "tags": [
+        "travel",
+        "beach",
+        "future"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -457,7 +502,6 @@
       ]
     },
     {
-      "cardId": "act-016",
       "frontContent": {
         "type": "text",
         "text": "เธอกำลังเล่นกับสุนัข"
@@ -466,7 +510,11 @@
         "type": "text",
         "text": "She is playing with the dog"
       },
-      "tags": ["pets", "playing", "present continuous"],
+      "tags": [
+        "pets",
+        "playing",
+        "present continuous"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -487,7 +535,6 @@
       ]
     },
     {
-      "cardId": "act-017",
       "frontContent": {
         "type": "text",
         "text": "ฉันชอบนั่งสมาธิ"
@@ -496,7 +543,11 @@
         "type": "text",
         "text": "I like to meditate"
       },
-      "tags": ["meditation", "wellness", "hobby"],
+      "tags": [
+        "meditation",
+        "wellness",
+        "hobby"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -517,7 +568,6 @@
       ]
     },
     {
-      "cardId": "act-018",
       "frontContent": {
         "type": "text",
         "text": "พวกเรากำลังปิกนิก"
@@ -526,7 +576,11 @@
         "type": "text",
         "text": "We are having a picnic"
       },
-      "tags": ["picnic", "outdoor", "present continuous"],
+      "tags": [
+        "picnic",
+        "outdoor",
+        "present continuous"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -547,7 +601,6 @@
       ]
     },
     {
-      "cardId": "act-019",
       "frontContent": {
         "type": "text",
         "text": "ฉันเล่นเกมคอมพิวเตอร์"
@@ -556,7 +609,11 @@
         "type": "text",
         "text": "I play computer games"
       },
-      "tags": ["gaming", "computer", "hobby"],
+      "tags": [
+        "gaming",
+        "computer",
+        "hobby"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",
@@ -577,7 +634,6 @@
       ]
     },
     {
-      "cardId": "act-020",
       "frontContent": {
         "type": "text",
         "text": "เขากำลังเรียนทำอาหาร"
@@ -586,7 +642,11 @@
         "type": "text",
         "text": "He/she is learning to cook"
       },
-      "tags": ["cooking", "learning", "present continuous"],
+      "tags": [
+        "cooking",
+        "learning",
+        "present continuous"
+      ],
       "difficulty": "medium",
       "sourceLanguage": "th",
       "targetLanguage": "en",

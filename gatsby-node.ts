@@ -191,7 +191,6 @@ export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] 
     }
 
     type CardJson {
-      cardId: String!
       frontContent: Content!
       backContent: Content!
       tags: [String!]!

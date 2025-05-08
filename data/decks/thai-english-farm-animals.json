@@ -1,314 +1,344 @@
 {
-    "collectionId": "thai-english",
-    "deckId": "farm-animals",
-    "name": "Farm Animals",
-    "description": "Essential Thai vocabulary for farm animals",
-    "sourceLanguage": "th",
-    "targetLanguage": "en",
-    "cards": [
-      {
-        "cardId": "animal-001",
-        "frontContent": {
-          "type": "text",
-          "text": "วัว"
-        },
-        "backContent": {
-          "type": "text",
-          "text": "Cow"
-        },
-        "tags": ["farm", "mammals", "livestock"],
-        "difficulty": "easy",
-        "sourceLanguage": "th",
-        "targetLanguage": "en",
-        "phonetic": "wua",
-        "partOfSpeech": "noun",
-        "context": "Large domesticated animal raised for milk and meat",
-        "examples": [
-          {
-            "original": "วัวกำลังกินหญ้า",
-            "translation": "The cow is eating grass",
-            "phonetic": "wua gam-lang gin ya"
-          },
-          {
-            "original": "วัวสีขาวตัวนั้น",
-            "translation": "That white cow",
-            "phonetic": "wua see khao tua nan"
-          }
-        ]
+  "collectionId": "thai-english",
+  "deckId": "farm-animals",
+  "name": "Farm Animals",
+  "description": "Essential Thai vocabulary for farm animals",
+  "sourceLanguage": "th",
+  "targetLanguage": "en",
+  "cards": [
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "วัว"
       },
-      {
-        "cardId": "animal-002",
-        "frontContent": {
-          "type": "text",
-          "text": "ม้า"
-        },
-        "backContent": {
-          "type": "text",
-          "text": "Horse"
-        },
-        "tags": ["farm", "mammals", "working animal"],
-        "difficulty": "easy",
-        "sourceLanguage": "th",
-        "targetLanguage": "en",
-        "phonetic": "ma",
-        "partOfSpeech": "noun",
-        "context": "Large domesticated animal used for riding and farm work",
-        "examples": [
-          {
-            "original": "ม้าวิ่งเร็ว",
-            "translation": "The horse runs fast",
-            "phonetic": "ma wing reo"
-          },
-          {
-            "original": "ม้าสีน้ำตาล",
-            "translation": "Brown horse",
-            "phonetic": "ma see nam-tan"
-          }
-        ]
+      "backContent": {
+        "type": "text",
+        "text": "Cow"
       },
-      {
-        "cardId": "animal-003",
-        "frontContent": {
-          "type": "text",
-          "text": "ไก่"
+      "tags": [
+        "farm",
+        "mammals",
+        "livestock"
+      ],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "wua",
+      "partOfSpeech": "noun",
+      "context": "Large domesticated animal raised for milk and meat",
+      "examples": [
+        {
+          "original": "วัวกำลังกินหญ้า",
+          "translation": "The cow is eating grass",
+          "phonetic": "wua gam-lang gin ya"
         },
-        "backContent": {
-          "type": "text",
-          "text": "Chicken"
-        },
-        "tags": ["farm", "birds", "poultry"],
-        "difficulty": "easy",
-        "sourceLanguage": "th",
-        "targetLanguage": "en",
-        "phonetic": "gai",
-        "partOfSpeech": "noun",
-        "context": "Common farm bird kept for eggs and meat",
-        "examples": [
-          {
-            "original": "ไก่กำลังออกไข่",
-            "translation": "The chicken is laying eggs",
-            "phonetic": "gai gam-lang ork kai"
-          },
-          {
-            "original": "ไก่อยู่ในเล้า",
-            "translation": "The chicken is in the coop",
-            "phonetic": "gai yu nai lao"
-          }
-        ]
+        {
+          "original": "วัวสีขาวตัวนั้น",
+          "translation": "That white cow",
+          "phonetic": "wua see khao tua nan"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "ม้า"
       },
-      {
-        "cardId": "animal-004",
-        "frontContent": {
-          "type": "text",
-          "text": "หมู"
-        },
-        "backContent": {
-          "type": "text",
-          "text": "Pig"
-        },
-        "tags": ["farm", "mammals", "livestock"],
-        "difficulty": "easy",
-        "sourceLanguage": "th",
-        "targetLanguage": "en",
-        "phonetic": "moo",
-        "partOfSpeech": "noun",
-        "context": "Domesticated animal raised primarily for meat",
-        "examples": [
-          {
-            "original": "หมูกำลังกลิ้งในโคลน",
-            "translation": "The pig is rolling in the mud",
-            "phonetic": "moo gam-lang gling nai klon"
-          },
-          {
-            "original": "หมูตัวอ้วน",
-            "translation": "Fat pig",
-            "phonetic": "moo tua uan"
-          }
-        ]
+      "backContent": {
+        "type": "text",
+        "text": "Horse"
       },
-      {
-        "cardId": "animal-005",
-        "frontContent": {
-          "type": "text",
-          "text": "เป็ด"
+      "tags": [
+        "farm",
+        "mammals",
+        "working animal"
+      ],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "ma",
+      "partOfSpeech": "noun",
+      "context": "Large domesticated animal used for riding and farm work",
+      "examples": [
+        {
+          "original": "ม้าวิ่งเร็ว",
+          "translation": "The horse runs fast",
+          "phonetic": "ma wing reo"
         },
-        "backContent": {
-          "type": "text",
-          "text": "Duck"
-        },
-        "tags": ["farm", "birds", "poultry"],
-        "difficulty": "easy",
-        "sourceLanguage": "th",
-        "targetLanguage": "en",
-        "phonetic": "pet",
-        "partOfSpeech": "noun",
-        "context": "Waterfowl kept for eggs and meat",
-        "examples": [
-          {
-            "original": "เป็ดว่ายน้ำ",
-            "translation": "The duck is swimming",
-            "phonetic": "pet wai nam"
-          },
-          {
-            "original": "เป็ดกำลังร้อง",
-            "translation": "The duck is quacking",
-            "phonetic": "pet gam-lang rong"
-          }
-        ]
+        {
+          "original": "ม้าสีน้ำตาล",
+          "translation": "Brown horse",
+          "phonetic": "ma see nam-tan"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "ไก่"
       },
-      {
-        "cardId": "animal-006",
-        "frontContent": {
-          "type": "text",
-          "text": "แพะ"
-        },
-        "backContent": {
-          "type": "text",
-          "text": "Goat"
-        },
-        "tags": ["farm", "mammals", "livestock"],
-        "difficulty": "medium",
-        "sourceLanguage": "th",
-        "targetLanguage": "en",
-        "phonetic": "pae",
-        "partOfSpeech": "noun",
-        "context": "Small ruminant kept for milk, meat, and fiber",
-        "examples": [
-          {
-            "original": "แพะปีนภูเขา",
-            "translation": "The goat is climbing the mountain",
-            "phonetic": "pae peen poo-kao"
-          },
-          {
-            "original": "นมแพะ",
-            "translation": "Goat's milk",
-            "phonetic": "nom pae"
-          }
-        ]
+      "backContent": {
+        "type": "text",
+        "text": "Chicken"
       },
-      {
-        "cardId": "animal-007",
-        "frontContent": {
-          "type": "text",
-          "text": "แกะ"
+      "tags": [
+        "farm",
+        "birds",
+        "poultry"
+      ],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "gai",
+      "partOfSpeech": "noun",
+      "context": "Common farm bird kept for eggs and meat",
+      "examples": [
+        {
+          "original": "ไก่กำลังออกไข่",
+          "translation": "The chicken is laying eggs",
+          "phonetic": "gai gam-lang ork kai"
         },
-        "backContent": {
-          "type": "text",
-          "text": "Sheep"
-        },
-        "tags": ["farm", "mammals", "livestock"],
-        "difficulty": "medium",
-        "sourceLanguage": "th",
-        "targetLanguage": "en",
-        "phonetic": "gae",
-        "partOfSpeech": "noun",
-        "context": "Domesticated ruminant kept for wool and meat",
-        "examples": [
-          {
-            "original": "แกะขนขาว",
-            "translation": "White-wooled sheep",
-            "phonetic": "gae khon khao"
-          },
-          {
-            "original": "ฝูงแกะ",
-            "translation": "Flock of sheep",
-            "phonetic": "fung gae"
-          }
-        ]
+        {
+          "original": "ไก่อยู่ในเล้า",
+          "translation": "The chicken is in the coop",
+          "phonetic": "gai yu nai lao"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "หมู"
       },
-      {
-        "cardId": "animal-008",
-        "frontContent": {
-          "type": "text",
-          "text": "กระต่าย"
-        },
-        "backContent": {
-          "type": "text",
-          "text": "Rabbit"
-        },
-        "tags": ["farm", "mammals", "small animals"],
-        "difficulty": "medium",
-        "sourceLanguage": "th",
-        "targetLanguage": "en",
-        "phonetic": "gra-tai",
-        "partOfSpeech": "noun",
-        "context": "Small mammal kept for meat and fur",
-        "examples": [
-          {
-            "original": "กระต่ายกระโดด",
-            "translation": "The rabbit is jumping",
-            "phonetic": "gra-tai gra-dote"
-          },
-          {
-            "original": "กระต่ายกินแครอท",
-            "translation": "The rabbit is eating a carrot",
-            "phonetic": "gra-tai gin care-rot"
-          }
-        ]
+      "backContent": {
+        "type": "text",
+        "text": "Pig"
       },
-      {
-        "cardId": "animal-009",
-        "frontContent": {
-          "type": "text",
-          "text": "ควาย"
+      "tags": [
+        "farm",
+        "mammals",
+        "livestock"
+      ],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "moo",
+      "partOfSpeech": "noun",
+      "context": "Domesticated animal raised primarily for meat",
+      "examples": [
+        {
+          "original": "หมูกำลังกลิ้งในโคลน",
+          "translation": "The pig is rolling in the mud",
+          "phonetic": "moo gam-lang gling nai klon"
         },
-        "backContent": {
-          "type": "text",
-          "text": "Buffalo"
-        },
-        "tags": ["farm", "mammals", "working animal"],
-        "difficulty": "medium",
-        "sourceLanguage": "th",
-        "targetLanguage": "en",
-        "phonetic": "kwaai",
-        "partOfSpeech": "noun",
-        "context": "Large domesticated bovine used for farm work and milk",
-        "examples": [
-          {
-            "original": "ควายลากไถ",
-            "translation": "The buffalo pulls the plow",
-            "phonetic": "kwaai lak tai"
-          },
-          {
-            "original": "ควายอาบน้ำ",
-            "translation": "The buffalo is bathing",
-            "phonetic": "kwaai aab nam"
-          }
-        ]
+        {
+          "original": "หมูตัวอ้วน",
+          "translation": "Fat pig",
+          "phonetic": "moo tua uan"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "เป็ด"
       },
-      {
-        "cardId": "animal-010",
-        "frontContent": {
-          "type": "text",
-          "text": "ไก่ตัวผู้"
+      "backContent": {
+        "type": "text",
+        "text": "Duck"
+      },
+      "tags": [
+        "farm",
+        "birds",
+        "poultry"
+      ],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "pet",
+      "partOfSpeech": "noun",
+      "context": "Waterfowl kept for eggs and meat",
+      "examples": [
+        {
+          "original": "เป็ดว่ายน้ำ",
+          "translation": "The duck is swimming",
+          "phonetic": "pet wai nam"
         },
-        "backContent": {
-          "type": "text",
-          "text": "Rooster"
+        {
+          "original": "เป็ดกำลังร้อง",
+          "translation": "The duck is quacking",
+          "phonetic": "pet gam-lang rong"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "แพะ"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "Goat"
+      },
+      "tags": [
+        "farm",
+        "mammals",
+        "livestock"
+      ],
+      "difficulty": "medium",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "pae",
+      "partOfSpeech": "noun",
+      "context": "Small ruminant kept for milk, meat, and fiber",
+      "examples": [
+        {
+          "original": "แพะปีนภูเขา",
+          "translation": "The goat is climbing the mountain",
+          "phonetic": "pae peen poo-kao"
         },
-        "tags": ["farm", "birds", "poultry"],
-        "difficulty": "medium",
-        "sourceLanguage": "th",
-        "targetLanguage": "en",
-        "phonetic": "gai tua pu",
-        "partOfSpeech": "noun",
-        "context": "Male chicken known for crowing at dawn",
-        "examples": [
-          {
-            "original": "ไก่ตัวผู้ขัน",
-            "translation": "The rooster crows",
-            "phonetic": "gai tua pu kan"
-          },
-          {
-            "original": "ไก่ตัวผู้มีหงอนสีแดง",
-            "translation": "The rooster has a red comb",
-            "phonetic": "gai tua pu mee ngon see daeng"
-          }
-        ]
-      }
-    ],
-    "createdAt": "2025-04-30T10:30:00Z",
-    "updatedAt": "2025-04-30T10:30:00Z",
-    "theme": "animals",
-    "difficulty": "beginner"
-  }
+        {
+          "original": "นมแพะ",
+          "translation": "Goat's milk",
+          "phonetic": "nom pae"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "แกะ"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "Sheep"
+      },
+      "tags": [
+        "farm",
+        "mammals",
+        "livestock"
+      ],
+      "difficulty": "medium",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "gae",
+      "partOfSpeech": "noun",
+      "context": "Domesticated ruminant kept for wool and meat",
+      "examples": [
+        {
+          "original": "แกะขนขาว",
+          "translation": "White-wooled sheep",
+          "phonetic": "gae khon khao"
+        },
+        {
+          "original": "ฝูงแกะ",
+          "translation": "Flock of sheep",
+          "phonetic": "fung gae"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "กระต่าย"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "Rabbit"
+      },
+      "tags": [
+        "farm",
+        "mammals",
+        "small animals"
+      ],
+      "difficulty": "medium",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "gra-tai",
+      "partOfSpeech": "noun",
+      "context": "Small mammal kept for meat and fur",
+      "examples": [
+        {
+          "original": "กระต่ายกระโดด",
+          "translation": "The rabbit is jumping",
+          "phonetic": "gra-tai gra-dote"
+        },
+        {
+          "original": "กระต่ายกินแครอท",
+          "translation": "The rabbit is eating a carrot",
+          "phonetic": "gra-tai gin care-rot"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "ควาย"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "Buffalo"
+      },
+      "tags": [
+        "farm",
+        "mammals",
+        "working animal"
+      ],
+      "difficulty": "medium",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "kwaai",
+      "partOfSpeech": "noun",
+      "context": "Large domesticated bovine used for farm work and milk",
+      "examples": [
+        {
+          "original": "ควายลากไถ",
+          "translation": "The buffalo pulls the plow",
+          "phonetic": "kwaai lak tai"
+        },
+        {
+          "original": "ควายอาบน้ำ",
+          "translation": "The buffalo is bathing",
+          "phonetic": "kwaai aab nam"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "ไก่ตัวผู้"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "Rooster"
+      },
+      "tags": [
+        "farm",
+        "birds",
+        "poultry"
+      ],
+      "difficulty": "medium",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "gai tua pu",
+      "partOfSpeech": "noun",
+      "context": "Male chicken known for crowing at dawn",
+      "examples": [
+        {
+          "original": "ไก่ตัวผู้ขัน",
+          "translation": "The rooster crows",
+          "phonetic": "gai tua pu kan"
+        },
+        {
+          "original": "ไก่ตัวผู้มีหงอนสีแดง",
+          "translation": "The rooster has a red comb",
+          "phonetic": "gai tua pu mee ngon see daeng"
+        }
+      ]
+    }
+  ],
+  "createdAt": "2025-04-30T10:30:00Z",
+  "updatedAt": "2025-04-30T10:30:00Z",
+  "theme": "animals",
+  "difficulty": "beginner"
+}

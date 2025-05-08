@@ -1,5 +1,5 @@
 export function collectionListPath() {
-  return '/collections';
+  return "/collections";
 }
 
 export function collectionDetailPath(collectionId: string) {
@@ -10,7 +10,11 @@ export function deckDetailPath(collectionId: string, deckId: string) {
   return `/collections/${collectionId}/decks/${deckId}`;
 }
 
-export function studyDeckPath(collectionId: string, deckId: string, studyLanguage?: 'source' | 'target') {
+export function studyDeckPath(
+  collectionId: string,
+  deckId: string,
+  studyLanguage?: "source" | "target",
+) {
   if (!studyLanguage) {
     return `/collections/${collectionId}/decks/${deckId}/study`;
   }

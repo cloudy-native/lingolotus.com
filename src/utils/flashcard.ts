@@ -1,32 +1,35 @@
-import { Deck, Flashcard, SessionProgress, TranslationFlashcard } from "../types";
+import {
+  Deck,
+  Flashcard,
+  SessionProgress,
+  TranslationFlashcard,
+} from "../types";
 
 // Factory function to create a new translation flashcard
 export function createTranslationCard(
   id: string,
-  cardId: string,
   sourceWord: string,
   targetWord: string,
   sourceLanguage: string,
   targetLanguage: string,
   options?: {
     phonetic?: string;
-    partOfSpeech?: TranslationFlashcard['partOfSpeech'];
+    partOfSpeech?: TranslationFlashcard["partOfSpeech"];
     context?: string;
-    examples?: TranslationFlashcard['examples'];
+    examples?: TranslationFlashcard["examples"];
     tags?: string[];
-    difficulty?: Flashcard['difficulty'];
-  }
+    difficulty?: Flashcard["difficulty"];
+  },
 ): TranslationFlashcard {
   return {
     id,
-    cardId,
     frontContent: {
-      type: 'text',
-      text: sourceWord
+      type: "text",
+      text: sourceWord,
     },
     backContent: {
-      type: 'text',
-      text: targetWord
+      type: "text",
+      text: targetWord,
     },
     sourceLanguage,
     targetLanguage,
@@ -35,7 +38,7 @@ export function createTranslationCard(
     context: options?.context,
     examples: options?.examples,
     tags: options?.tags || [],
-    difficulty: options?.difficulty || 'medium',
+    difficulty: options?.difficulty || "medium",
   };
 }
 
@@ -51,9 +54,9 @@ export function createTranslationDeck(
   cards: TranslationFlashcard[] = [],
   options?: {
     category?: string;
-    difficulty?: Deck['difficulty'];
+    difficulty?: Deck["difficulty"];
     theme?: string;
-  }
+  },
 ): Deck<TranslationFlashcard> {
   return {
     id,
@@ -67,8 +70,7 @@ export function createTranslationDeck(
     createdAt: new Date(),
     updatedAt: new Date(),
     category: options?.category,
-    difficulty: options?.difficulty || 'mixed',
-    theme: options?.theme || 'mixed',
+    difficulty: options?.difficulty || "mixed",
+    theme: options?.theme || "mixed",
   };
 }
-
