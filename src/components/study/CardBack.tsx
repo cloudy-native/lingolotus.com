@@ -24,17 +24,33 @@ const CardBack: React.FC<CardBackProps> = ({
   sourceLanguage,
   targetLanguage,
 }) => {
-  const contentBg = useColorModeValue("gray.50", "gray.800");
-  const phoneticColor = useColorModeValue("gray.500", "gray.400");
+  const contentBg = "gray.50";
+  const phoneticColor = "gray.500";
 
   return (
     <VStack spacing={3} width="100%" maxWidth="100%" align="stretch">
-      {/* Front content */}
-      <Box
-        borderRadius="md"
-        p={3}
-        bg={contentBg}
-      >
+      <Box borderRadius="md" p={3} bg={contentBg}>
+        <HStack spacing={2} align="center" maxWidth="100%">
+          <TextToSpeech text={card.frontContent.text} lang={sourceLanguage} />
+          <Heading size="lg" mb={0} wordBreak="break-word">
+            {card.backContent.text}
+          </Heading>
+        </HStack>
+        {card.context && (
+          <Text
+            color={phoneticColor}
+            fontSize="sm"
+            fontStyle="italic"
+            letterSpacing="wide"
+            mt={1}
+            textAlign="left"
+          >
+            {card.context}
+          </Text>
+        )}
+      </Box>
+      
+      <Box borderRadius="md" p={3} bg={contentBg}>
         <HStack spacing={2} align="center" maxWidth="100%">
           <TextToSpeech text={card.frontContent.text} lang={sourceLanguage} />
           <Heading size="lg" mb={0} wordBreak="break-word">
@@ -53,20 +69,6 @@ const CardBack: React.FC<CardBackProps> = ({
             /{card.phonetic}/
           </Text>
         )}
-      </Box>
-
-      {/* Back content */}
-      <Box
-        borderRadius="md"
-        p={3}
-        bg={contentBg}
-      >
-        <HStack spacing={2} align="center" maxWidth="100%">
-          <TextToSpeech text={card.backContent.text} lang={targetLanguage} />
-          <Heading size="lg" mb={0} wordBreak="break-word">
-            {card.backContent.text}
-          </Heading>
-        </HStack>
       </Box>
 
       {card.examples && card.examples.length > 0 && (

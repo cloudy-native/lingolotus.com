@@ -1,0 +1,623 @@
+{
+  "collectionId": "thai-english",
+  "deckId": "common-adjectives",
+  "name": "Thai Common Adjectives",
+  "description": "Essential Thai adjectives for English speakers, covering qualities, emotions, sizes, and more",
+  "sourceLanguage": "th",
+  "targetLanguage": "en",
+  "cards": [
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "ดี"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "good"
+      },
+      "tags": ["adjective", "quality", "basic"],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "dee",
+      "partOfSpeech": "adjective",
+      "context": "Used to describe something of high quality or positive attributes",
+      "examples": [
+        {
+          "original": "อาหารนี้อร่อยดี",
+          "translation": "This food tastes good",
+          "phonetic": "aa-haan nee a-roi dee"
+        },
+        {
+          "original": "เขาเป็นคนดี",
+          "translation": "He is a good person",
+          "phonetic": "kao pen kon dee"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "ใหญ่"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "big, large"
+      },
+      "tags": ["adjective", "size", "basic"],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "yai",
+      "partOfSpeech": "adjective",
+      "context": "Used to describe something of substantial size",
+      "examples": [
+        {
+          "original": "บ้านหลังใหญ่",
+          "translation": "A big house",
+          "phonetic": "baan lang yai"
+        },
+        {
+          "original": "ต้นไม้ใหญ่",
+          "translation": "A large tree",
+          "phonetic": "ton-mai yai"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "เล็ก"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "small, little"
+      },
+      "tags": ["adjective", "size", "basic"],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "lek",
+      "partOfSpeech": "adjective",
+      "context": "Used to describe something of minimal size",
+      "examples": [
+        {
+          "original": "หมาตัวเล็ก",
+          "translation": "A small dog",
+          "phonetic": "maa tua lek"
+        },
+        {
+          "original": "กระเป๋าใบเล็ก",
+          "translation": "A small bag",
+          "phonetic": "kra-pao bai lek"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "สวย"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "beautiful, pretty"
+      },
+      "tags": ["adjective", "appearance", "basic"],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "suay",
+      "partOfSpeech": "adjective",
+      "context": "Used to describe something visually appealing, especially for females or objects",
+      "examples": [
+        {
+          "original": "ผู้หญิงคนนั้นสวยมาก",
+          "translation": "That woman is very beautiful",
+          "phonetic": "poo-ying kon nan suay maak"
+        },
+        {
+          "original": "ดอกไม้สวย",
+          "translation": "Beautiful flowers",
+          "phonetic": "dok-mai suay"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "หล่อ"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "handsome (for men)"
+      },
+      "tags": ["adjective", "appearance", "basic"],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "lor",
+      "partOfSpeech": "adjective",
+      "context": "Used specifically to describe attractive men",
+      "examples": [
+        {
+          "original": "ผู้ชายคนนั้นหล่อมาก",
+          "translation": "That man is very handsome",
+          "phonetic": "poo-chai kon nan lor maak"
+        },
+        {
+          "original": "นักแสดงหล่อ",
+          "translation": "A handsome actor",
+          "phonetic": "nak-sa-daeng lor"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "เก่า"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "old (for objects), ancient"
+      },
+      "tags": ["adjective", "age", "basic"],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "kao",
+      "partOfSpeech": "adjective",
+      "context": "Used to describe objects or things that have existed for a long time",
+      "examples": [
+        {
+          "original": "บ้านหลังเก่า",
+          "translation": "An old house",
+          "phonetic": "baan lang kao"
+        },
+        {
+          "original": "รถคันเก่า",
+          "translation": "An old car",
+          "phonetic": "rot kan kao"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "ใหม่"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "new, recent"
+      },
+      "tags": ["adjective", "age", "basic"],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "mai",
+      "partOfSpeech": "adjective",
+      "context": "Used to describe something recently created or acquired",
+      "examples": [
+        {
+          "original": "รถคันใหม่",
+          "translation": "A new car",
+          "phonetic": "rot kan mai"
+        },
+        {
+          "original": "เสื้อตัวใหม่",
+          "translation": "A new shirt",
+          "phonetic": "seua tua mai"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "แก่"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "old (for people or animals)"
+      },
+      "tags": ["adjective", "age", "basic"],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "kae",
+      "partOfSpeech": "adjective",
+      "context": "Used to describe people or animals of advanced age",
+      "examples": [
+        {
+          "original": "คุณยายแก่แล้ว",
+          "translation": "Grandmother is old now",
+          "phonetic": "kun yaai kae laew"
+        },
+        {
+          "original": "สุนัขตัวนี้แก่มาก",
+          "translation": "This dog is very old",
+          "phonetic": "su-nak tua nee kae maak"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "หนุ่ม"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "young (for men)"
+      },
+      "tags": ["adjective", "age", "gender-specific"],
+      "difficulty": "medium",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "num",
+      "partOfSpeech": "adjective",
+      "context": "Used specifically to describe young men",
+      "examples": [
+        {
+          "original": "ชายหนุ่ม",
+          "translation": "Young man",
+          "phonetic": "chai num"
+        },
+        {
+          "original": "เขายังหนุ่มอยู่",
+          "translation": "He is still young",
+          "phonetic": "kao yang num yoo"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "สาว"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "young (for women)"
+      },
+      "tags": ["adjective", "age", "gender-specific"],
+      "difficulty": "medium",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "sao",
+      "partOfSpeech": "adjective",
+      "context": "Used specifically to describe young women",
+      "examples": [
+        {
+          "original": "หญิงสาว",
+          "translation": "Young woman",
+          "phonetic": "ying sao"
+        },
+        {
+          "original": "เธอยังสาวอยู่",
+          "translation": "She is still young",
+          "phonetic": "ter yang sao yoo"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "ร้อน"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "hot"
+      },
+      "tags": ["adjective", "temperature", "basic"],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "ron",
+      "partOfSpeech": "adjective",
+      "context": "Used to describe high temperature",
+      "examples": [
+        {
+          "original": "วันนี้อากาศร้อนมาก",
+          "translation": "Today the weather is very hot",
+          "phonetic": "wan-nee aa-kaat ron maak"
+        },
+        {
+          "original": "กาแฟร้อน",
+          "translation": "Hot coffee",
+          "phonetic": "ka-fae ron"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "เย็น"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "cool, cold"
+      },
+      "tags": ["adjective", "temperature", "basic"],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "yen",
+      "partOfSpeech": "adjective",
+      "context": "Used to describe low temperature, cooler than room temperature",
+      "examples": [
+        {
+          "original": "น้ำเย็น",
+          "translation": "Cold water",
+          "phonetic": "nam yen"
+        },
+        {
+          "original": "อากาศเย็นสบาย",
+          "translation": "The weather is pleasantly cool",
+          "phonetic": "aa-kaat yen sa-baai"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "หนาว"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "very cold, freezing"
+      },
+      "tags": ["adjective", "temperature", "basic"],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "nao",
+      "partOfSpeech": "adjective",
+      "context": "Used to describe very cold temperature, often used for weather",
+      "examples": [
+        {
+          "original": "ที่เชียงใหม่อากาศหนาว",
+          "translation": "In Chiang Mai the weather is cold",
+          "phonetic": "tee chiang-mai aa-kaat nao"
+        },
+        {
+          "original": "ฉันรู้สึกหนาว",
+          "translation": "I feel cold",
+          "phonetic": "chan roo-suek nao"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "หวาน"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "sweet"
+      },
+      "tags": ["adjective", "taste", "basic"],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "waan",
+      "partOfSpeech": "adjective",
+      "context": "Used to describe sweet taste or sweet personality",
+      "examples": [
+        {
+          "original": "ขนมนี้หวานมาก",
+          "translation": "This dessert is very sweet",
+          "phonetic": "ka-nom nee waan maak"
+        },
+        {
+          "original": "เธอมีนิสัยหวาน",
+          "translation": "She has a sweet personality",
+          "phonetic": "ter mee ni-sai waan"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "เผ็ด"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "spicy, hot (taste)"
+      },
+      "tags": ["adjective", "taste", "basic"],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "pet",
+      "partOfSpeech": "adjective",
+      "context": "Used to describe spicy or hot taste in food",
+      "examples": [
+        {
+          "original": "ต้มยำเผ็ดมาก",
+          "translation": "Tom Yum is very spicy",
+          "phonetic": "tom-yam pet maak"
+        },
+        {
+          "original": "ฉันชอบอาหารเผ็ด",
+          "translation": "I like spicy food",
+          "phonetic": "chan chob aa-haan pet"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "เปรี้ยว"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "sour"
+      },
+      "tags": ["adjective", "taste", "basic"],
+      "difficulty": "medium",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "priao",
+      "partOfSpeech": "adjective",
+      "context": "Used to describe sour taste",
+      "examples": [
+        {
+          "original": "มะนาวเปรี้ยว",
+          "translation": "Limes are sour",
+          "phonetic": "ma-nao priao"
+        },
+        {
+          "original": "น้ำส้มเปรี้ยวๆ หวานๆ",
+          "translation": "Orange juice is a bit sour and sweet",
+          "phonetic": "nam-som priao-priao waan-waan"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "เค็ม"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "salty"
+      },
+      "tags": ["adjective", "taste", "basic"],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "kem",
+      "partOfSpeech": "adjective",
+      "context": "Used to describe salty taste",
+      "examples": [
+        {
+          "original": "ซุปนี้เค็มเกินไป",
+          "translation": "This soup is too salty",
+          "phonetic": "sup nee kem gern-pai"
+        },
+        {
+          "original": "น้ำทะเลเค็ม",
+          "translation": "Seawater is salty",
+          "phonetic": "nam ta-le kem"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "แพง"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "expensive"
+      },
+      "tags": ["adjective", "price", "basic"],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "paeng",
+      "partOfSpeech": "adjective",
+      "context": "Used to describe high price",
+      "examples": [
+        {
+          "original": "โรงแรมนี้แพงมาก",
+          "translation": "This hotel is very expensive",
+          "phonetic": "rong-raem nee paeng maak"
+        },
+        {
+          "original": "ร้านอาหารแพงๆ",
+          "translation": "An expensive restaurant",
+          "phonetic": "raan aa-haan paeng-paeng"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "ถูก"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "cheap, inexpensive"
+      },
+      "tags": ["adjective", "price", "basic"],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "took",
+      "partOfSpeech": "adjective",
+      "context": "Used to describe low price",
+      "examples": [
+        {
+          "original": "ร้านนี้ขายของถูก",
+          "translation": "This shop sells things cheaply",
+          "phonetic": "raan nee kai kong took"
+        },
+        {
+          "original": "ที่พักราคาถูก",
+          "translation": "Inexpensive accommodation",
+          "phonetic": "tee-pak ra-ka took"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "ยาก"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "difficult, hard"
+      },
+      "tags": ["adjective", "quality", "basic"],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "yaak",
+      "partOfSpeech": "adjective",
+      "context": "Used to describe something challenging or difficult",
+      "examples": [
+        {
+          "original": "การบ้านนี้ยากมาก",
+          "translation": "This homework is very difficult",
+          "phonetic": "kaan-baan nee yaak maak"
+        },
+        {
+          "original": "ภาษาไทยยากสำหรับฉัน",
+          "translation": "Thai language is difficult for me",
+          "phonetic": "pa-sa thai yaak sam-rap chan"
+        }
+      ]
+    },
+    {
+      "frontContent": {
+        "type": "text",
+        "text": "ง่าย"
+      },
+      "backContent": {
+        "type": "text",
+        "text": "easy, simple"
+      },
+      "tags": ["adjective", "quality", "basic"],
+      "difficulty": "easy",
+      "sourceLanguage": "th",
+      "targetLanguage": "en",
+      "phonetic": "ngaai",
+      "partOfSpeech": "adjective",
+      "context": "Used to describe something that requires little effort",
+      "examples": [
+        {
+          "original": "คำถามง่ายๆ",
+          "translation": "Easy questions",
+          "phonetic": "kam-taam ngaai-ngaai"
+        },
+        {
+          "original": "วิธีนี้ง่ายกว่า",
+          "translation": "This method is easier",
+          "phonetic": "wi-tee nee ngaai kwaa"
+        }
+      ]
+    }
+  ],
+  "createdAt": "2025-05-09T15:30:00Z",
+  "updatedAt": "2025-05-09T15:30:00Z",
+  "theme": "vocabulary",
+  "difficulty": "beginner-intermediate"
+}

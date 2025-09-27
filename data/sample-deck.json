@@ -25,12 +25,12 @@
       "examples": [
         {
           "original": "นี่ราคาเท่าไรครับ",
-          "translation": "How much is this? (male speaker)",
+          "translation": "How much is this? (♂)",
           "phonetic": "nee ra-ka tao-rai krap"
         },
         {
           "original": "อันนี้ราคาเท่าไรคะ",
-          "translation": "How much is this one? (female speaker)",
+          "translation": "How much is this one? (♀)",
           "phonetic": "an-nee ra-ka tao-rai ka"
         }
       ]
@@ -54,12 +54,12 @@
       "examples": [
         {
           "original": "ลดราคาให้หน่อยได้ไหมครับ",
-          "translation": "Can you give me a little discount? (male speaker)",
+          "translation": "Can you give me a little discount? (♂)",
           "phonetic": "lot ra-ka hai noi dai mai krap"
         },
         {
           "original": "ซื้อสองชิ้น ลดราคาได้ไหมคะ",
-          "translation": "If I buy two pieces, can you give me a discount? (female speaker)",
+          "translation": "If I buy two pieces, can you give me a discount? (♀)",
           "phonetic": "seu song chin, lot ra-ka dai mai ka"
         }
       ]
@@ -83,12 +83,12 @@
       "examples": [
         {
           "original": "ราคานี้แพงเกินไปสำหรับผม",
-          "translation": "This price is too expensive for me (male speaker)",
+          "translation": "This price is too expensive for me (♂)",
           "phonetic": "ra-ka nee paeng gern pai sam-rap pom"
         },
         {
           "original": "ฉันคิดว่าราคานี้แพงไปหน่อย",
-          "translation": "I think this price is a bit too expensive (female speaker)",
+          "translation": "I think this price is a bit too expensive (♀)",
           "phonetic": "chan kit wa ra-ka nee paeng pai noi"
         }
       ]

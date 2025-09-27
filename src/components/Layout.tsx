@@ -74,7 +74,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 as={Link}
                 variant="ghost"
                 colorScheme="primary"
-                href="https://github.com/stephen/flashcards.com"
+                href="https://github.com/cloudy-native/lingolotus.com"
                 _hover={{ textDecoration: "none" }}
                 aria-label="Fork me on GitHub"
                 leftIcon={<Icon as={FaGithub} w={5} h={5} />}

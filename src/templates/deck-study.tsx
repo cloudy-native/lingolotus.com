@@ -197,10 +197,9 @@ const DeckStudyTemplate: React.FC<DeckStudyTemplateProps> = ({ data }) => {
                   scores[id] === "correct"
                     ? "green.400"
                     : scores[id] === "incorrect"
-                      ? "red.400"
+                      ? "orange.400"
                       : "gray.300"
                 }
-                opacity={idx === cardIndex ? 1 : 0.7}
                 transition="all 0.2s"
                 cursor="pointer"
                 _hover={{ opacity: 0.9, transform: "scaleY(1.2)" }}
@@ -262,7 +261,7 @@ const DeckStudyTemplate: React.FC<DeckStudyTemplateProps> = ({ data }) => {
                     ✓ Correct
                   </Button>
                   <Button
-                    colorScheme="red"
+                    colorScheme="orange"
                     onClick={() => handleMarkCard(false)}
                     size="lg"
                     width="120px"

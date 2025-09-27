@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Lingo Lotus Flashcard App`,
     description: `A modern flashcard app for language learning built with GatsbyJS, ChakraUI and TypeScript`,
-    author: `@yourname`,
+    author: `Stephen Harrison <stephen@harrison.org>`,
     siteUrl: `https://lingolotus.com`,
   },
   plugins: [

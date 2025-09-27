@@ -1,3 +1,4 @@
+import { TranslationFlashcard } from "@/types";
 import {
   Box,
   Heading,
@@ -8,7 +9,6 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import React from "react";
-import { TranslationFlashcard } from "@/types";
 import TextToSpeech from "../speech/TextToSpeech";
 
 interface CardFrontProps {
@@ -28,9 +28,12 @@ const CardFront: React.FC<CardFrontProps> = ({
     <VStack spacing={6} width="100%" maxWidth="100%">
       <Box width="100%" maxWidth="100%">
         {cardFrontLanguage === "source" ? (
-          <>
+          <Box borderRadius="md" p={3} bg="gray.50">
             <HStack spacing={2} justify="center" maxWidth="100%">
-              <TextToSpeech text={card.frontContent.text} lang={sourceLanguage} />
+              <TextToSpeech
+                text={card.frontContent.text}
+                lang={sourceLanguage}
+              />
               <Heading size="xl" textAlign="center" wordBreak="break-word">
                 {card.frontContent.text}
               </Heading>
@@ -47,14 +50,19 @@ const CardFront: React.FC<CardFrontProps> = ({
                 /{card.phonetic}/
               </Text>
             )}
-          </>
+          </Box>
         ) : (
-          <HStack spacing={2} justify="center" maxWidth="100%">
-            <TextToSpeech text={card.backContent.text} lang={targetLanguage} />
-            <Heading size="xl" textAlign="center" wordBreak="break-word">
-              {card.backContent.text}
-            </Heading>
-          </HStack>
+          <Box borderRadius="md" p={3} bg="gray.50">
+            <HStack spacing={2} justify="center" maxWidth="100%">
+              <TextToSpeech
+                text={card.backContent.text}
+                lang={targetLanguage}
+              />
+              <Heading size="xl" textAlign="center" wordBreak="break-word">
+                {card.backContent.text}
+              </Heading>
+            </HStack>
+          </Box>
         )}
       </Box>
 

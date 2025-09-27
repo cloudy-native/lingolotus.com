@@ -19,7 +19,7 @@ const Flashcard: React.FC<FlashcardProps> = ({
   setFlipped,
   cardFrontLanguage,
 }) => {
-  const cardBorder = useColorModeValue("gray.200", "gray.700");
+  const cardBorder = "gray.200";
 
   return (
     <Table

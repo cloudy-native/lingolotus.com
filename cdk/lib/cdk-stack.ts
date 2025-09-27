@@ -15,11 +15,10 @@ export class CdkStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props: WebsiteStackProps) {
     super(scope, id, props);
 
-    const {domainName} = props;
+    const { domainName } = props;
 
     // Create S3 bucket for website hosting
     const bucket = new s3.Bucket(this, "WebsiteBucket", {
-      bucketName: domainName,
       websiteIndexDocument: "index.html",
       websiteErrorDocument: "error.html",
       publicReadAccess: true,
