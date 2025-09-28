@@ -2,9 +2,10 @@ import { GatsbyNode } from "gatsby";
 import path from "path";
 import {
   collectionDetailPath,
-  collectionListPath,
+  flashcardListPath,
   deckDetailPath,
   studyDeckPath,
+  bookDetailPath,
 } from "./src/utils/paths";
 
 export const createPages: GatsbyNode["createPages"] = async ({
@@ -62,17 +63,57 @@ export const createPages: GatsbyNode["createPages"] = async ({
 
   // Create collection list page
   const collectionListTemplate = path.resolve(
-    "./src/templates/collection-list.tsx",
+    "./src/templates/flashcard-list.tsx",
   );
   createPage({
-    path: collectionListPath(),
+    path: flashcardListPath(),
     component: collectionListTemplate,
     context: {},
   });
 
   reporter.info(
-    `Created collection list page ${collectionListPath()} with context: ${JSON.stringify({})}`,
+    `Created collection list page ${flashcardListPath()} with context: ${JSON.stringify({})}`,
   );
+
+  // Query for all books
+  const booksResult = await graphql<{
+    allBookJson: {
+      nodes: {
+        bookId: string;
+      }[];
+    };
+  }>(`
+    query {
+      allBookJson {
+        nodes {
+          bookId
+        }
+      }
+    }
+  `);
+
+  if (booksResult.errors) {
+    reporter.panicOnBuild(`Error while running GraphQL query for books.`);
+    return;
+  }
+
+  const bookDetailTemplate = path.resolve("./src/templates/book-detail.tsx");
+  booksResult.data?.allBookJson.nodes.forEach((book) => {
+    const pagePath = bookDetailPath(book.bookId);
+    const context = {
+      bookId: book.bookId,
+    };
+
+    createPage({
+      path: pagePath,
+      component: bookDetailTemplate,
+      context,
+    });
+
+    reporter.info(
+      `Created book detail page ${pagePath} with context: ${JSON.stringify(context)}`,
+    );
+  });
 
   // Query for all decks
   const decksResult = await graphql<{
@@ -144,7 +185,7 @@ export const createPages: GatsbyNode["createPages"] = async ({
   // Create the homepage
   createPage({
     path: "/",
-    component: path.resolve("./src/templates/collection-list.tsx"), // Reuse the collection list template for homepage
+    component: path.resolve("./src/templates/flashcard-list.tsx"), // Reuse the collection list template for homepage
     context: {
       featured: true, // Only show featured collections on homepage
     },
@@ -188,6 +229,38 @@ export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] 
       category: String
       theme: String!
       difficulty: String
+    }
+
+    type BookJson implements Node {
+      bookId: String!
+      name: String!
+      description: String!
+      sourceLanguage: String!
+      targetLanguage: String
+      createdAt: Date!
+      updatedAt: Date!
+      category: String
+      difficulty: String
+      imageUrl: String
+      featured: Boolean
+    }
+
+    type BookStoryJson implements Node {
+      storyId: String!
+      bookId: String!
+      language: String!
+      title: String!
+      sentences: [BookSentenceJson!]!
+      createdAt: Date!
+      updatedAt: Date!
+      difficulty: String
+      summary: String
+    }
+
+    type BookSentenceJson {
+      source: String!
+      target: String!
+      phonetic: String!
     }
 
     type CardJson {

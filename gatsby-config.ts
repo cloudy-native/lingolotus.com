@@ -21,17 +21,50 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "collections",
-        path: `${__dirname}/data/collections`,
+        path: `${__dirname}/data/flash-cards/collections`,
       },
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "decks",
-        path: `${__dirname}/data/decks`,
+        path: `${__dirname}/data/flash-cards/decks`,
       },
     },
-    `gatsby-transformer-json`,
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "books",
+        path: `${__dirname}/data/books`,
+        ignore: ["**/stories/**"],
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "bookStories",
+        path: `${__dirname}/data/books/stories`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-json`,
+      options: {
+        typeName: ({ node }: { node: { sourceInstanceName?: string } }) => {
+          switch (node.sourceInstanceName) {
+            case "collections":
+              return "CollectionsJson";
+            case "decks":
+              return "DecksJson";
+            case "books":
+              return "BookJson";
+            case "bookStories":
+              return "BookStoryJson";
+            default:
+              return "Json";
+          }
+        },
+      },
+    },
 
     // TypeScript support
     {

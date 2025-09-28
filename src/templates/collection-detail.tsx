@@ -20,7 +20,7 @@ import { ChevronRight, Clock, Star } from "lucide-react";
 import React from "react";
 
 import { Collection, Deck } from "../types";
-import { collectionListPath, deckDetailPath } from "../utils/paths";
+import { flashcardListPath, deckDetailPath } from "../utils/paths";
 
 interface CollectionDetailTemplateProps {
   data: {
@@ -108,7 +108,7 @@ const CollectionDetailTemplate: React.FC<CollectionDetailTemplateProps> = ({
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbItem>
-              <BreadcrumbLink as={Link} to={collectionListPath()}>
+              <BreadcrumbLink as={Link} to={flashcardListPath()}>
                 Collections
               </BreadcrumbLink>
             </BreadcrumbItem>

@@ -81,6 +81,39 @@ export interface SessionProgress {
   currentCardIndex: number;
 }
 
+// Reading story types
+export interface Book {
+  bookId: string;
+  name: string;
+  description: string;
+  sourceLanguage: string;
+  targetLanguage?: string;
+  createdAt: Date | string;
+  updatedAt: Date | string;
+  category?: string;
+  difficulty?: "beginner" | "intermediate" | "advanced";
+  imageUrl?: string;
+  featured?: boolean;
+}
+
+export interface ReadingSentence {
+  source: string;
+  target: string;
+  phonetic: string;
+}
+
+export interface ReadingStory {
+  storyId: string;
+  bookId: string;
+  language: string;
+  title: string;
+  sentences: ReadingSentence[];
+  createdAt: Date | string;
+  updatedAt: Date | string;
+  difficulty?: "beginner" | "intermediate" | "advanced";
+  summary?: string;
+}
+
 // export interface SessionProgress {
 //   currentCardIndex: number;
 //   correctAnswers: number;

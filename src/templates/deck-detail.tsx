@@ -37,7 +37,7 @@ import { Deck, TranslationFlashcard } from "../types";
 import { getLanguageInfo } from "../utils/language";
 import {
   collectionDetailPath,
-  collectionListPath,
+  flashcardListPath,
   studyDeckPath,
 } from "../utils/paths";
 
@@ -180,7 +180,7 @@ const DeckDetailTemplate: React.FC<DeckDetailTemplateProps> = ({ data }) => {
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbItem>
-              <BreadcrumbLink as={Link} to={collectionListPath()}>
+              <BreadcrumbLink as={Link} to={flashcardListPath()}>
                 Collections
               </BreadcrumbLink>
             </BreadcrumbItem>

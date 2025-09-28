@@ -1,0 +1,27 @@
+{
+  "storyId": "thai-greetings-intro",
+  "bookId": "thai-beginner",
+  "language": "th",
+  "title": "การทักทายยามเช้า",
+  "sentences": [
+    {
+      "source": "วันนี้อากาศสดใส",
+      "target": "Today the weather is bright.",
+      "phonetic": "wan-níi aa-gàat sòt-sǎi"
+    },
+    {
+      "source": "พลอยเดินไปโรงเรียนและทักทายเพื่อนว่า สวัสดี",
+      "target": "Ploy walks to school and greets her friend saying hello.",
+      "phonetic": "Ploy dern bpai roong-rian láe thák-taai pêuan wâa sà-wat-dii"
+    },
+    {
+      "source": "เพื่อนยิ้มและตอบว่า สวัสดีจ้ะ พลอย",
+      "target": "Her friend smiles and replies, 'Hello, Ploy.'",
+      "phonetic": "Pêuan yím láe dtàwp wâa sà-wat-dii jâ Ploy"
+    }
+  ],
+  "createdAt": "2025-09-28T13:45:00Z",
+  "updatedAt": "2025-09-28T13:45:00Z",
+  "difficulty": "beginner",
+  "summary": "เรื่องสั้นเกี่ยวกับการทักทายในตอนเช้า"
+}

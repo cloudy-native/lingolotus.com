@@ -12,7 +12,7 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import { Link as GatsbyLink } from "gatsby";
-import { Flower, Home, LibraryBig } from "lucide-react";
+import { BookOpen, Flower, Home, LibraryBig } from "lucide-react";
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 
@@ -59,12 +59,22 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               </Link>
               <Link
                 as={GatsbyLink}
-                to="/collections"
+                to="/flash-cards"
                 _hover={{ textDecoration: "none" }}
               >
                 <HStack spacing={1}>
                   <Icon as={LibraryBig} size="24px" />
-                  <Text>Collections</Text>
+                  <Text>Flash Cards</Text>
+                </HStack>
+              </Link>
+              <Link
+                as={GatsbyLink}
+                to="/reading"
+                _hover={{ textDecoration: "none" }}
+              >
+                <HStack spacing={1}>
+                  <Icon as={BookOpen} size="24px" />
+                  <Text>Reading</Text>
                 </HStack>
               </Link>
             </HStack>
@@ -124,6 +134,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               </Link>
               <Link as={GatsbyLink} to="/collections">
                 Collections
+              </Link>
+              <Link as={GatsbyLink} to="/reading">
+                Reading
               </Link>
             </HStack>
           </Flex>

@@ -20,7 +20,7 @@ import React from "react";
 import { FaBookOpen, FaChalkboardTeacher, FaLanguage } from "react-icons/fa";
 
 import { Collection } from "../types";
-import { collectionDetailPath, collectionListPath } from "../utils/paths";
+import { collectionDetailPath, flashcardListPath, readingPath } from "../utils/paths";
 
 interface HomePageProps {
 	data: {
@@ -36,7 +36,6 @@ interface HomePageProps {
 const HomePage: React.FC<HomePageProps> = ({ data }) => {
 	const featuredCollections = data.featuredCollections.nodes;
 	const totalCollectionCount = data.totalCollections.totalCount;
-
 	const boxBg = useColorModeValue("white", "gray.800");
 	const borderColor = useColorModeValue("gray.200", "gray.700");
 	const heroBg = useColorModeValue("blue.50", "blue.900");
@@ -65,25 +64,28 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
 							<Stack direction={{ base: "column", sm: "row" }} spacing={4}>
 								<Button
 									as={Link}
-									to={collectionListPath()}
+									to={flashcardListPath()}
 									colorScheme="primary"
-									size="lg"
-									height="56px"
-									px={8}
-									rightIcon={<Icon as={ChevronRight} />}
 								>
-									Browse Collections
+									Browse Flashcard Collections
+								</Button>
+								<Button
+									as={Link}
+									to={readingPath()}
+									colorScheme="teal"
+								>
+									Practice Reading
 								</Button>
 								{/* <Button
-                  as={Link}
-                  to="/about"
-                  colorScheme="primary"
-                  variant="outline"
-                  size="lg"
-                  height="56px"
-                >
-                  Learn More
-                </Button> */}
+									as={Link}
+									to="/about"
+									colorScheme="primary"
+									variant="outline"
+									size="lg"
+									height="56px"
+								>
+								Learn More
+							</Button> */}
 							</Stack>
 						</Box>
 						<Box
@@ -115,7 +117,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
 					</Heading>
 					<Button
 						as={Link}
-						to="/collections"
+						to="/flash-cards"
 						rightIcon={<Icon as={ChevronRight} />}
 						variant="ghost"
 						colorScheme="primary"
@@ -306,7 +308,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
 					</Text>
 					<Button
 						as={Link}
-						to="/collections"
+						to="/flash-cards"
 						size="lg"
 						height="60px"
 						px={8}

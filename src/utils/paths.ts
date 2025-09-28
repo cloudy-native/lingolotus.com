@@ -1,13 +1,13 @@
-export function collectionListPath() {
-  return "/collections";
+export function flashcardListPath() {
+  return "/flash-cards";
 }
 
 export function collectionDetailPath(collectionId: string) {
-  return `/collections/${collectionId}`;
+  return `/flash-cards/${collectionId}`;
 }
 
 export function deckDetailPath(collectionId: string, deckId: string) {
-  return `/collections/${collectionId}/decks/${deckId}`;
+  return `/flash-cards/${collectionId}/decks/${deckId}`;
 }
 
 export function studyDeckPath(
@@ -16,8 +16,16 @@ export function studyDeckPath(
   studyLanguage?: "source" | "target",
 ) {
   if (!studyLanguage) {
-    return `/collections/${collectionId}/decks/${deckId}/study`;
+    return `/flash-cards/${collectionId}/decks/${deckId}/study`;
   }
 
-  return `/collections/${collectionId}/decks/${deckId}/study?studyLanguage=${studyLanguage}`;
+  return `/flash-cards/${collectionId}/decks/${deckId}/study?studyLanguage=${studyLanguage}`;
+}
+
+export function readingPath() {
+  return "/reading";
+}
+
+export function bookDetailPath(bookId: string) {
+  return `/reading/${bookId}`;
 }
