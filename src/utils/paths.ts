@@ -29,3 +29,7 @@ export function readingPath() {
 export function bookDetailPath(bookId: string) {
   return `/reading/${bookId}`;
 }
+
+export function storyDetailPath(bookId: string, storyId: string) {
+  return `/reading/${bookId}/${storyId}`;
+}

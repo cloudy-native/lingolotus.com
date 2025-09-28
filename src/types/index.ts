@@ -100,6 +100,14 @@ export interface ReadingSentence {
   source: string;
   target: string;
   phonetic: string;
+  breakdown?: ReadingSentenceBreakdown[];
+}
+
+export interface ReadingSentenceBreakdown {
+  source: string;
+  target: string;
+  phonetic: string;
+  partOfSpeech?: string;
 }
 
 export interface ReadingStory {

@@ -8,8 +8,6 @@ import {
   Heading,
   Icon,
   Image,
-  List,
-  ListItem,
   SimpleGrid,
   Stack,
   Tag,
@@ -20,8 +18,8 @@ import { graphql, Link } from "gatsby";
 import { ChevronRight, Library } from "lucide-react";
 import React from "react";
 
-import type { Book, ReadingSentence, ReadingStory } from "../types";
-import { readingPath } from "../utils/paths";
+import type { Book, ReadingStory } from "../types";
+import { readingPath, storyDetailPath } from "../utils/paths";
 
 interface BookDetailTemplateProps {
   data: {
@@ -109,7 +107,7 @@ const BookDetailTemplate: React.FC<BookDetailTemplateProps> = ({ data }) => {
 
       <Container maxW="container.xl" py={10}>
         <Heading as="h2" size="lg" mb={6}>
-          Stories in this Book
+          Stories
         </Heading>
 
         {stories.length === 0 ? (
@@ -127,12 +125,16 @@ const BookDetailTemplate: React.FC<BookDetailTemplateProps> = ({ data }) => {
           <SimpleGrid columns={{ base: 1, md: 2 }} spacing={6}>
             {stories.map((story: ReadingStory) => (
               <Box
+                as={Link}
+                to={storyDetailPath(book.bookId, story.storyId)}
                 key={story.storyId}
                 borderWidth="1px"
                 borderRadius="lg"
                 borderColor={cardBorder}
                 bg={cardBg}
                 p={6}
+                transition="all 0.2s"
+                _hover={{ transform: "translateY(-4px)", boxShadow: "md" }}
               >
                 <Heading as="h3" size="md" mb={2}>
                   {story.title}
@@ -144,28 +146,14 @@ const BookDetailTemplate: React.FC<BookDetailTemplateProps> = ({ data }) => {
                   </Text>
                 )}
 
-                <Stack direction={{ base: "column", sm: "row" }} spacing={2} wrap="wrap" mb={4}>
+                <Stack direction={{ base: "column", sm: "row" }} spacing={2} wrap="wrap">
                   <Tag colorScheme="blue">{story.language}</Tag>
                   {story.difficulty && <Tag colorScheme="purple">{story.difficulty}</Tag>}
-                  <Tag colorScheme="gray">{story.sentences.length} sentences</Tag>
                 </Stack>
 
-                <Box borderLeftWidth="3px" borderColor={cardBorder} pl={4}>
-                  <Heading as="h4" size="sm" mb={2}>
-                    Sentences
-                  </Heading>
-                  <List spacing={3} stylePosition="inside">
-                    {story.sentences.map((sentence: ReadingSentence, index: number) => (
-                      <ListItem key={`${story.storyId}-sentence-${index}`}>
-                        <Text fontWeight="medium">{sentence.source}</Text>
-                        <Text color={storyMetaColor}>{sentence.target}</Text>
-                        <Text fontSize="sm" fontStyle="italic" color={storyMetaColor}>
-                          {sentence.phonetic}
-                        </Text>
-                      </ListItem>
-                    ))}
-                  </List>
-                </Box>
+                <Text mt={4} fontWeight="semibold" color="primary.500">
+                  Read story →
+                </Text>
               </Box>
             ))}
           </SimpleGrid>

@@ -7,17 +7,131 @@
     {
       "source": "วันนี้อากาศสดใส",
       "target": "Today the weather is bright.",
-      "phonetic": "wan-níi aa-gàat sòt-sǎi"
+      "phonetic": "wan-níi aa-gàat sòt-sǎi",
+      "breakdown": [
+        {
+          "source": "วันนี้",
+          "target": "today",
+          "phonetic": "wan-níi",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "อากาศ",
+          "target": "weather",
+          "phonetic": "aa-gàat",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "สดใส",
+          "target": "bright",
+          "phonetic": "sòt-sǎi",
+          "partOfSpeech": "adjective"
+        }
+      ]
     },
     {
       "source": "พลอยเดินไปโรงเรียนและทักทายเพื่อนว่า สวัสดี",
       "target": "Ploy walks to school and greets her friend saying hello.",
-      "phonetic": "Ploy dern bpai roong-rian láe thák-taai pêuan wâa sà-wat-dii"
+      "phonetic": "Ploy dern bpai roong-rian láe thák-taai pêuan wâa sà-wat-dii",
+      "breakdown": [
+        {
+          "source": "พลอย",
+          "target": "Ploy",
+          "phonetic": "Ploy",
+          "partOfSpeech": "proper noun"
+        },
+        {
+          "source": "เดิน",
+          "target": "walks",
+          "phonetic": "dern",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "ไปโรงเรียน",
+          "target": "to school",
+          "phonetic": "bpai roong-rian",
+          "partOfSpeech": "phrase"
+        },
+        {
+          "source": "และ",
+          "target": "and",
+          "phonetic": "láe",
+          "partOfSpeech": "conjunction"
+        },
+        {
+          "source": "ทักทาย",
+          "target": "greets",
+          "phonetic": "thák-taai",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "เพื่อน",
+          "target": "friend",
+          "phonetic": "pêuan",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "ว่า",
+          "target": "saying",
+          "phonetic": "wâa",
+          "partOfSpeech": "particle"
+        },
+        {
+          "source": "สวัสดี",
+          "target": "hello",
+          "phonetic": "sà-wat-dii",
+          "partOfSpeech": "interjection"
+        }
+      ]
     },
     {
       "source": "เพื่อนยิ้มและตอบว่า สวัสดีจ้ะ พลอย",
       "target": "Her friend smiles and replies, 'Hello, Ploy.'",
-      "phonetic": "Pêuan yím láe dtàwp wâa sà-wat-dii jâ Ploy"
+      "phonetic": "Pêuan yím láe dtàwp wâa sà-wat-dii jâ Ploy",
+      "breakdown": [
+        {
+          "source": "เพื่อน",
+          "target": "friend",
+          "phonetic": "pêuan",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "ยิ้ม",
+          "target": "smiles",
+          "phonetic": "yím",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "และ",
+          "target": "and",
+          "phonetic": "láe",
+          "partOfSpeech": "conjunction"
+        },
+        {
+          "source": "ตอบ",
+          "target": "replies",
+          "phonetic": "dtàwp",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "ว่า",
+          "target": "saying",
+          "phonetic": "wâa",
+          "partOfSpeech": "particle"
+        },
+        {
+          "source": "สวัสดีจ้ะ",
+          "target": "hello",
+          "phonetic": "sà-wat-dii jâ",
+          "partOfSpeech": "interjection"
+        },
+        {
+          "source": "พลอย",
+          "target": "Ploy",
+          "phonetic": "Ploy",
+          "partOfSpeech": "proper noun"
+        }
+      ]
     }
   ],
   "createdAt": "2025-09-28T13:45:00Z",

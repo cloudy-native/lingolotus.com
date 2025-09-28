@@ -6,6 +6,7 @@ import {
   deckDetailPath,
   studyDeckPath,
   bookDetailPath,
+  storyDetailPath,
 } from "./src/utils/paths";
 
 export const createPages: GatsbyNode["createPages"] = async ({
@@ -112,6 +113,57 @@ export const createPages: GatsbyNode["createPages"] = async ({
 
     reporter.info(
       `Created book detail page ${pagePath} with context: ${JSON.stringify(context)}`,
+    );
+  });
+
+  // Create story detail pages
+  type StoryNode = {
+    storyId: string;
+    bookId: string;
+  };
+
+  const storiesResult = (await graphql(`
+    query {
+      allBookStoryJson {
+        nodes {
+          storyId
+          bookId
+        }
+      }
+    }
+  `)) as {
+    data?: {
+      allBookStoryJson: {
+        nodes: StoryNode[];
+      };
+    };
+    errors?: unknown;
+  };
+
+  if (storiesResult.errors) {
+    reporter.panicOnBuild(`Error while running GraphQL query for book stories.`);
+    return;
+  }
+
+  const stories = storiesResult.data?.allBookStoryJson?.nodes ?? [];
+  reporter.info(`Fetched ${stories.length} stories`);
+
+  const storyDetailTemplate = path.resolve("./src/templates/story-detail.tsx");
+  stories.forEach((story: StoryNode) => {
+    const pagePath = storyDetailPath(story.bookId, story.storyId);
+    const context = {
+      bookId: story.bookId,
+      storyId: story.storyId,
+    };
+
+    createPage({
+      path: pagePath,
+      component: storyDetailTemplate,
+      context,
+    });
+
+    reporter.info(
+      `Created story detail page ${pagePath} with context: ${JSON.stringify(context)}`,
     );
   });
 
@@ -261,6 +313,14 @@ export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] 
       source: String!
       target: String!
       phonetic: String!
+      breakdown: [BookSentenceBreakdownJson!]
+    }
+
+    type BookSentenceBreakdownJson {
+      source: String!
+      target: String!
+      phonetic: String!
+      partOfSpeech: String
     }
 
     type CardJson {
