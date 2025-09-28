@@ -2,7 +2,10 @@
   "storyId": "thai-greetings-intro",
   "bookId": "thai-beginner",
   "language": "th",
-  "title": "การทักทายยามเช้า",
+  "title": {
+    "source": "การทักทายยามเช้า",
+    "target": "Morning greetings"
+  },
   "sentences": [
     {
       "source": "วันนี้อากาศสดใส",

@@ -301,12 +301,17 @@ export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] 
       storyId: String!
       bookId: String!
       language: String!
-      title: String!
+      title: BookStoryTitleJson!
       sentences: [BookSentenceJson!]!
       createdAt: Date!
       updatedAt: Date!
       difficulty: String
       summary: String
+    }
+
+    type BookStoryTitleJson {
+      source: String!
+      target: String!
     }
 
     type BookSentenceJson {

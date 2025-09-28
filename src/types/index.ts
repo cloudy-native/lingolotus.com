@@ -110,11 +110,16 @@ export interface ReadingSentenceBreakdown {
   partOfSpeech?: string;
 }
 
+export interface ReadingStoryTitle {
+  source: string;
+  target: string;
+}
+
 export interface ReadingStory {
   storyId: string;
   bookId: string;
   language: string;
-  title: string;
+  title: ReadingStoryTitle;
   sentences: ReadingSentence[];
   createdAt: Date | string;
   updatedAt: Date | string;

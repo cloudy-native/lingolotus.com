@@ -185,7 +185,10 @@ export const query = graphql`
         storyId
         bookId
         language
-        title
+        title {
+          source
+          target
+        }
         sentences {
           source
           target
