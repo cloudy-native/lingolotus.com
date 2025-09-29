@@ -1,0 +1,705 @@
+{
+  "storyId": "thai-beginner-2-big-family",
+  "bookId": "thai-beginner-2",
+  "language": "th",
+  "title": {
+    "source": "ครอบครัวใหญ่ของฉัน",
+    "target": "My Big Family"
+  },
+  "sentences": [
+    {
+      "source": "ฉันมีครอบครัวใหญ่ และเราอาศัยอยู่ในบ้าน",
+      "target": "I have a big family, and we live in a house.",
+      "phonetic": "chǎn mee khraawp khrua yài láe rao aa-sǎai yùu nai bâan",
+      "breakdown": [
+        {
+          "source": "ฉัน",
+          "target": "I",
+          "phonetic": "chǎn",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "มี",
+          "target": "to have",
+          "phonetic": "mee",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "ครอบครัว",
+          "target": "family",
+          "phonetic": "khraawp khrua",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "ใหญ่",
+          "target": "big",
+          "phonetic": "yài",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "source": "และ",
+          "target": "and",
+          "phonetic": "láe",
+          "partOfSpeech": "conjunction"
+        },
+        {
+          "source": "เรา",
+          "target": "we",
+          "phonetic": "rao",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "อาศัย",
+          "target": "to live/reside",
+          "phonetic": "aa-sǎai",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "อยู่",
+          "target": "(auxiliary verb for continuous action)",
+          "phonetic": "yùu",
+          "partOfSpeech": "auxiliary"
+        },
+        {
+          "source": "ใน",
+          "target": "in",
+          "phonetic": "nai",
+          "partOfSpeech": "preposition"
+        },
+        {
+          "source": "บ้าน",
+          "target": "house",
+          "phonetic": "bâan",
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    {
+      "source": "มีใครบ้างในครอบครัวของคุณครับ",
+      "target": "Who is in your family? my friend asked.",
+      "phonetic": "mee kraai bâang nai khraawp khrua khǎwng khun khráp",
+      "breakdown": [
+        {
+          "source": "มี",
+          "target": "to have",
+          "phonetic": "mee",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "ใคร",
+          "target": "who",
+          "phonetic": "kraai",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "บ้าง",
+          "target": "(emphasizing particle)",
+          "phonetic": "bâang",
+          "partOfSpeech": "particle"
+        },
+        {
+          "source": "ใน",
+          "target": "in",
+          "phonetic": "nai",
+          "partOfSpeech": "preposition"
+        },
+        {
+          "source": "ครอบครัว",
+          "target": "family",
+          "phonetic": "khraawp khrua",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "ของ",
+          "target": "of",
+          "phonetic": "khǎwng",
+          "partOfSpeech": "preposition"
+        },
+        {
+          "source": "คุณ",
+          "target": "you (polite)",
+          "phonetic": "khun",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "ครับ",
+          "target": "male polite particle",
+          "phonetic": "khráp",
+          "partOfSpeech": "particle"
+        }
+      ]
+    },
+    {
+      "source": "ฉันมีแม่ พ่อ น้องสาวสองคน และน้องชายหนึ่งคน",
+      "target": "I have a mother, a father, two sisters, and a brother.",
+      "phonetic": "chǎn mee mae phǒ awng sǎao sǎawng khon láe awng chai nǔeng khon",
+      "breakdown": [
+        {
+          "source": "ฉัน",
+          "target": "I",
+          "phonetic": "chǎn",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "มี",
+          "target": "to have",
+          "phonetic": "mee",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "แม่",
+          "target": "mother",
+          "phonetic": "mae",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "พ่อ",
+          "target": "father",
+          "phonetic": "phǒ",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "น้องสาว",
+          "target": "sister",
+          "phonetic": "awng sǎao",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "สอง",
+          "target": "two",
+          "phonetic": "sǎawng",
+          "partOfSpeech": "numeral"
+        },
+        {
+          "source": "คน",
+          "target": "person (classifier)",
+          "phonetic": "khon",
+          "partOfSpeech": "classifier"
+        },
+        {
+          "source": "และ",
+          "target": "and",
+          "phonetic": "láe",
+          "partOfSpeech": "conjunction"
+        },
+        {
+          "source": "น้องชาย",
+          "target": "brother",
+          "phonetic": "awng chai",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "หนึ่ง",
+          "target": "one",
+          "phonetic": "nǔeng",
+          "partOfSpeech": "numeral"
+        },
+        {
+          "source": "คน",
+          "target": "person (classifier)",
+          "phonetic": "khon",
+          "partOfSpeech": "classifier"
+        }
+      ]
+    },
+    {
+      "source": "แม่ของฉันใจดี และเธอทำอาหารอร่อย",
+      "target": "My mother is kind, and she cooks good food.",
+      "phonetic": "mae khǎwng chǎn jai dee láe thəe tham aa-hǎan a-rɔ̀i",
+      "breakdown": [
+        {
+          "source": "แม่",
+          "target": "mother",
+          "phonetic": "mae",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "ของ",
+          "target": "of",
+          "phonetic": "khǎwng",
+          "partOfSpeech": "preposition"
+        },
+        {
+          "source": "ฉัน",
+          "target": "I",
+          "phonetic": "chǎn",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "ใจดี",
+          "target": "kind",
+          "phonetic": "jai dee",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "source": "และ",
+          "target": "and",
+          "phonetic": "láe",
+          "partOfSpeech": "conjunction"
+        },
+        {
+          "source": "เธอ",
+          "target": "she",
+          "phonetic": "thəe",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "ทำ",
+          "target": "to make/do",
+          "phonetic": "tham",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "อาหาร",
+          "target": "food",
+          "phonetic": "aa-hǎan",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "อร่อย",
+          "target": "delicious",
+          "phonetic": "a-rɔ̀i",
+          "partOfSpeech": "adjective"
+        }
+      ]
+    },
+    {
+      "source": "ชื่อของน้องชายคุณคืออะไรครับ",
+      "target": "What is your brother's name? my friend asked.",
+      "phonetic": "chûue khǎwng awng chai khun kheuu à-rai khráp",
+      "breakdown": [
+        {
+          "source": "ชื่อ",
+          "target": "name",
+          "phonetic": "chûue",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "ของ",
+          "target": "of",
+          "phonetic": "khǎwng",
+          "partOfSpeech": "preposition"
+        },
+        {
+          "source": "น้องชาย",
+          "target": "brother",
+          "phonetic": "awng chai",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "คุณ",
+          "target": "you (polite)",
+          "phonetic": "khun",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "คือ",
+          "target": "is",
+          "phonetic": "kheuu",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "อะไร",
+          "target": "what",
+          "phonetic": "à-rai",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "ครับ",
+          "target": "male polite particle",
+          "phonetic": "khráp",
+          "partOfSpeech": "particle"
+        }
+      ]
+    },
+    {
+      "source": "เขาชื่อแซม และเขาขำขันมาก",
+      "target": "His name is Sam, and he is very funny.",
+      "phonetic": "khǎo chûue saem láe khǎo kham khan mâak",
+      "breakdown": [
+        {
+          "source": "เขา",
+          "target": "he",
+          "phonetic": "khǎo",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "ชื่อ",
+          "target": "name",
+          "phonetic": "chûue",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "แซม",
+          "target": "Sam",
+          "phonetic": "saem",
+          "partOfSpeech": "proper noun"
+        },
+        {
+          "source": "และ",
+          "target": "and",
+          "phonetic": "láe",
+          "partOfSpeech": "conjunction"
+        },
+        {
+          "source": "เขา",
+          "target": "he",
+          "phonetic": "khǎo",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "ขำขัน",
+          "target": "funny",
+          "phonetic": "kham khan",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "source": "มาก",
+          "target": "very",
+          "phonetic": "mâak",
+          "partOfSpeech": "adverb"
+        }
+      ]
+    },
+    {
+      "source": "เมื่อสุดสัปดาห์ที่แล้ว เราเล่นเกมด้วยกันที่บ้าน",
+      "target": "Last weekend, we played games together at home.",
+      "phonetic": "mûea sùt sàp-daa hâa lâae rao lèn gaan dûai kan thîi bâan",
+      "breakdown": [
+        {
+          "source": "เมื่อ",
+          "target": "when",
+          "phonetic": "mûea",
+          "partOfSpeech": "preposition"
+        },
+        {
+          "source": "สุดสัปดาห์",
+          "target": "weekend",
+          "phonetic": "sùt sàp-daa hâa",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "ที่แล้ว",
+          "target": "last/past",
+          "phonetic": "thîi lâae",
+          "partOfSpeech": "adverb"
+        },
+        {
+          "source": "เรา",
+          "target": "we",
+          "phonetic": "rao",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "เล่น",
+          "target": "to play",
+          "phonetic": "lèn",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "เกม",
+          "target": "game",
+          "phonetic": "gaan",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "ด้วยกัน",
+          "target": "together",
+          "phonetic": "dûai kan",
+          "partOfSpeech": "adverb"
+        },
+        {
+          "source": "ที่",
+          "target": "at",
+          "phonetic": "thîi",
+          "partOfSpeech": "preposition"
+        },
+        {
+          "source": "บ้าน",
+          "target": "home",
+          "phonetic": "bâan",
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    {
+      "source": "คุณมียายหรือไม่ครับ",
+      "target": "Do you have a grandmother? I asked my friend.",
+      "phonetic": "khun mee yaai rǔu mâai khráp",
+      "breakdown": [
+        {
+          "source": "คุณ",
+          "target": "you (polite)",
+          "phonetic": "khun",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "มี",
+          "target": "to have",
+          "phonetic": "mee",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "ยาย",
+          "target": "grandmother",
+          "phonetic": "yaai",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "หรือ",
+          "target": "or",
+          "phonetic": "rǔu",
+          "partOfSpeech": "conjunction"
+        },
+        {
+          "source": "ไม่",
+          "target": "not",
+          "phonetic": "mâai",
+          "partOfSpeech": "negative particle"
+        },
+        {
+          "source": "ครับ",
+          "target": "male polite particle",
+          "phonetic": "khráp",
+          "partOfSpeech": "particle"
+        }
+      ]
+    },
+    {
+      "source": "ใช่ ยายของฉันแก่ แต่แข็งแรงมาก",
+      "target": "Yes, my grandmother is old but very strong.",
+      "phonetic": "châi yaai khǎwng chǎn gâae dtàae khæ̌ng raeng mâak",
+      "breakdown": [
+        {
+          "source": "ใช่",
+          "target": "yes",
+          "phonetic": "châi",
+          "partOfSpeech": "interjection"
+        },
+        {
+          "source": "ยาย",
+          "target": "grandmother",
+          "phonetic": "yaai",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "ของ",
+          "target": "of",
+          "phonetic": "khǎwng",
+          "partOfSpeech": "preposition"
+        },
+        {
+          "source": "ฉัน",
+          "target": "I",
+          "phonetic": "chǎn",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "แก่",
+          "target": "old",
+          "phonetic": "gâae",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "source": "แต่",
+          "target": "but",
+          "phonetic": "dtàae",
+          "partOfSpeech": "conjunction"
+        },
+        {
+          "source": "แข็งแรง",
+          "target": "strong",
+          "phonetic": "khæ̌ng raeng",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "source": "มาก",
+          "target": "very",
+          "phonetic": "mâak",
+          "partOfSpeech": "adverb"
+        }
+      ]
+    },
+    {
+      "source": "ฉันรักครอบครัวของฉันเพราะพวกเขาทำให้ฉันมีความสุข",
+      "target": "I like my family because they make me happy.",
+      "phonetic": "chǎn rák khraawp khrua khǎwng chǎn phaw rák khǎwng rao tham hâi chǎn mee khwaam sùk",
+      "breakdown": [
+        {
+          "source": "ฉัน",
+          "target": "I",
+          "phonetic": "chǎn",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "รัก",
+          "target": "to like/love",
+          "phonetic": "rák",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "ครอบครัว",
+          "target": "family",
+          "phonetic": "khraawp khrua",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "ของ",
+          "target": "of",
+          "phonetic": "khǎwng",
+          "partOfSpeech": "preposition"
+        },
+        {
+          "source": "ฉัน",
+          "target": "I",
+          "phonetic": "chǎn",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "เพราะ",
+          "target": "because",
+          "phonetic": "phaw",
+          "partOfSpeech": "conjunction"
+        },
+        {
+          "source": "พวกเขา",
+          "target": "they",
+          "phonetic": "rák khǎwng rao",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "ทำให้",
+          "target": "to make (someone do something)",
+          "phonetic": "tham hâi",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "ฉัน",
+          "target": "I",
+          "phonetic": "chǎn",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "มี",
+          "target": "to have",
+          "phonetic": "mee",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "ความสุข",
+          "target": "happiness",
+          "phonetic": "khwaam sùk",
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    {
+      "source": "คุณไปเยี่ยมครอบครัวบ่อยๆ ไหมครับ",
+      "target": "Do you visit your family often? I asked.",
+      "phonetic": "khun bpai yîiam khraawp khrua bɔ̀ɔi bɔ̀ɔi mǎi khráp",
+      "breakdown": [
+        {
+          "source": "คุณ",
+          "target": "you (polite)",
+          "phonetic": "khun",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "ไป",
+          "target": "to go",
+          "phonetic": "bpai",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "เยี่ยม",
+          "target": "to visit",
+          "phonetic": "yîiam",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "ครอบครัว",
+          "target": "family",
+          "phonetic": "khraawp khrua",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "บ่อยๆ",
+          "target": "often",
+          "phonetic": "bɔ̀ɔi bɔ̀ɔi",
+          "partOfSpeech": "adverb"
+        },
+        {
+          "source": "ไหม",
+          "target": "(question particle)",
+          "phonetic": "mǎi",
+          "partOfSpeech": "particle"
+        },
+        {
+          "source": "ครับ",
+          "target": "male polite particle",
+          "phonetic": "khráp",
+          "partOfSpeech": "particle"
+        }
+      ]
+    },
+    {
+      "source": "ใช่ เราทานข้าวกันทุกวันอาทิตย์",
+      "target": "Yes, we eat dinner together every Sunday.",
+      "phonetic": "châi rao thaan khâao kan thúk wan aa-thít",
+      "breakdown": [
+        {
+          "source": "ใช่",
+          "target": "yes",
+          "phonetic": "châi",
+          "partOfSpeech": "interjection"
+        },
+        {
+          "source": "เรา",
+          "target": "we",
+          "phonetic": "rao",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "ทาน",
+          "target": "to eat",
+          "phonetic": "thaan",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "ข้าว",
+          "target": "rice/meal",
+          "phonetic": "khâao",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "กัน",
+          "target": "(reciprocal particle)",
+          "phonetic": "kan",
+          "partOfSpeech": "particle"
+        },
+        {
+          "source": "ทุก",
+          "target": "every",
+          "phonetic": "thúk",
+          "partOfSpeech": "determiner"
+        },
+        {
+          "source": "วัน",
+          "target": "day",
+          "phonetic": "wan",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "อาทิตย์",
+          "target": "Sunday",
+          "phonetic": "aa-thít",
+          "partOfSpeech": "noun"
+        }
+      ]
+    }
+  ],
+  "createdAt": "2025-09-29T12:10:00Z",
+  "updatedAt": "2025-09-29T12:10:00Z",
+  "difficulty": "beginner",
+  "summary": "การพูดคุยเกี่ยวกับครอบครัวและการใช้คำนามและคำคุณศัพท์"
+}

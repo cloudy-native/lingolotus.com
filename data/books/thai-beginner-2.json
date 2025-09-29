@@ -1,0 +1,13 @@
+{
+  "bookId": "thai-beginner-2",
+  "name": "Beginner 2. Building Confidence",
+  "description": "Slightly longer sentences with basic conjunctions, simple past tense, and descriptive words",
+  "sourceLanguage": "th",
+  "targetLanguage": "en",
+  "createdAt": "2025-09-29T12:00:00Z",
+  "updatedAt": "2025-09-29T12:00:00Z",
+  "category": "language-learning",
+  "difficulty": "Beginner",
+  "imageUrl": "/images/bangkok-rainbow.jpeg",
+  "featured": false
+}

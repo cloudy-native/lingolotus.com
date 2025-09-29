@@ -10,5 +10,5 @@ export interface LanguageFonts {
 }
 
 export interface LanguageConfig {
-  fonts: LanguageFonts;
+  fonts?: LanguageFonts;
 }

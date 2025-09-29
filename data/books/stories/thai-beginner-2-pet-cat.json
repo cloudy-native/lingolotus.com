@@ -1,0 +1,633 @@
+{
+  "storyId": "thai-beginner-2-pet-cat",
+  "bookId": "thai-beginner-2",
+  "language": "th",
+  "title": {
+    "source": "แมวเลี้ยงของฉัน",
+    "target": "My Pet Cat"
+  },
+  "sentences": [
+    {
+      "source": "ฉันมีแมวเลี้ยง และชื่อของมันคือลูนา",
+      "target": "I have a pet cat, and her name is Luna.",
+      "phonetic": "chǎn mee maew lîiang láe chûue khǎwng man kheuu luu-naa",
+      "breakdown": [
+        {
+          "source": "ฉัน",
+          "target": "I",
+          "phonetic": "chǎn",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "มี",
+          "target": "to have",
+          "phonetic": "mee",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "แมว",
+          "target": "cat",
+          "phonetic": "maew",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "เลี้ยง",
+          "target": "pet",
+          "phonetic": "lîiang",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "และ",
+          "target": "and",
+          "phonetic": "láe",
+          "partOfSpeech": "conjunction"
+        },
+        {
+          "source": "ชื่อ",
+          "target": "name",
+          "phonetic": "chûue",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "ของ",
+          "target": "of",
+          "phonetic": "khǎwng",
+          "partOfSpeech": "preposition"
+        },
+        {
+          "source": "มัน",
+          "target": "it/her",
+          "phonetic": "man",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "คือ",
+          "target": "is",
+          "phonetic": "kheuu",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "ลูนา",
+          "target": "Luna",
+          "phonetic": "luu-naa",
+          "partOfSpeech": "proper noun"
+        }
+      ]
+    },
+    {
+      "source": "ลูนาใหญ่หรือเล็กครับ",
+      "target": "Is Luna big or small? my neighbor asked.",
+      "phonetic": "luu-naa yài rǔu lék khráp",
+      "breakdown": [
+        {
+          "source": "ลูนา",
+          "target": "Luna",
+          "phonetic": "luu-naa",
+          "partOfSpeech": "proper noun"
+        },
+        {
+          "source": "ใหญ่",
+          "target": "big",
+          "phonetic": "yài",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "source": "หรือ",
+          "target": "or",
+          "phonetic": "rǔu",
+          "partOfSpeech": "conjunction"
+        },
+        {
+          "source": "เล็ก",
+          "target": "small",
+          "phonetic": "lék",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "source": "ครับ",
+          "target": "male polite particle",
+          "phonetic": "khráp",
+          "partOfSpeech": "particle"
+        }
+      ]
+    },
+    {
+      "source": "ลูนาเล็ก แต่มันซุกซนมาก",
+      "target": "Luna is small, but she is very playful.",
+      "phonetic": "luu-naa lék dtàae man sùk sǒn mâak",
+      "breakdown": [
+        {
+          "source": "ลูนา",
+          "target": "Luna",
+          "phonetic": "luu-naa",
+          "partOfSpeech": "proper noun"
+        },
+        {
+          "source": "เล็ก",
+          "target": "small",
+          "phonetic": "lék",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "source": "แต่",
+          "target": "but",
+          "phonetic": "dtàae",
+          "partOfSpeech": "conjunction"
+        },
+        {
+          "source": "มัน",
+          "target": "she",
+          "phonetic": "man",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "ซุกซน",
+          "target": "playful",
+          "phonetic": "sùk sǒn",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "source": "มาก",
+          "target": "very",
+          "phonetic": "mâak",
+          "partOfSpeech": "adverb"
+        }
+      ]
+    },
+    {
+      "source": "มันทำอะไรครับ",
+      "target": "What does she do? my neighbor asked me.",
+      "phonetic": "man tham à-rai khráp",
+      "breakdown": [
+        {
+          "source": "มัน",
+          "target": "she",
+          "phonetic": "man",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "ทำ",
+          "target": "to do",
+          "phonetic": "tham",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "อะไร",
+          "target": "what",
+          "phonetic": "à-rai",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "ครับ",
+          "target": "male polite particle",
+          "phonetic": "khráp",
+          "partOfSpeech": "particle"
+        }
+      ]
+    },
+    {
+      "source": "มันวิ่งเร็วและกระโดดบนโซฟา",
+      "target": "She runs fast and jumps on the sofa.",
+      "phonetic": "man wîng rew láe grà-dtôot bon sôo-faa",
+      "breakdown": [
+        {
+          "source": "มัน",
+          "target": "she",
+          "phonetic": "man",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "วิ่ง",
+          "target": "to run",
+          "phonetic": "wîng",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "เร็ว",
+          "target": "fast",
+          "phonetic": "rew",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "source": "และ",
+          "target": "and",
+          "phonetic": "láe",
+          "partOfSpeech": "conjunction"
+        },
+        {
+          "source": "กระโดด",
+          "target": "to jump",
+          "phonetic": "grà-dtôot",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "บน",
+          "target": "on",
+          "phonetic": "bon",
+          "partOfSpeech": "preposition"
+        },
+        {
+          "source": "โซฟา",
+          "target": "sofa",
+          "phonetic": "sôo-faa",
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    {
+      "source": "เมื่อสัปดาห์ที่แล้ว ลูนาจับหนูเล่นของเล่น",
+      "target": "Last week, Luna caught a toy mouse.",
+      "phonetic": "mûea sàp-daa hâa thîi lâae luu-naa jàp nǔu lèn khǎwng lèn",
+      "breakdown": [
+        {
+          "source": "เมื่อ",
+          "target": "when",
+          "phonetic": "mûea",
+          "partOfSpeech": "preposition"
+        },
+        {
+          "source": "สัปดาห์",
+          "target": "week",
+          "phonetic": "sàp-daa hâa",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "ที่แล้ว",
+          "target": "last/past",
+          "phonetic": "thîi lâae",
+          "partOfSpeech": "adverb"
+        },
+        {
+          "source": "ลูนา",
+          "target": "Luna",
+          "phonetic": "luu-naa",
+          "partOfSpeech": "proper noun"
+        },
+        {
+          "source": "จับ",
+          "target": "to catch",
+          "phonetic": "jàp",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "หนู",
+          "target": "mouse",
+          "phonetic": "nǔu",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "เล่น",
+          "target": "play",
+          "phonetic": "lèn",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "ของ",
+          "target": "(possessive)",
+          "phonetic": "khǎwng",
+          "partOfSpeech": "preposition"
+        },
+        {
+          "source": "เล่น",
+          "target": "toy",
+          "phonetic": "lèn",
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    {
+      "source": "คุณมีสุนัขไหมครับ",
+      "target": "Do you have a dog? I asked my neighbor.",
+      "phonetic": "khun mee sǔn-ák mǎi khráp",
+      "breakdown": [
+        {
+          "source": "คุณ",
+          "target": "you (polite)",
+          "phonetic": "khun",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "มี",
+          "target": "to have",
+          "phonetic": "mee",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "สุนัข",
+          "target": "dog",
+          "phonetic": "sǔn-ák",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "ไหม",
+          "target": "(question particle)",
+          "phonetic": "mǎi",
+          "partOfSpeech": "particle"
+        },
+        {
+          "source": "ครับ",
+          "target": "male polite particle",
+          "phonetic": "khráp",
+          "partOfSpeech": "particle"
+        }
+      ]
+    },
+    {
+      "source": "ไม่ ฉันมีนกเพราะฉันชอบนก",
+      "target": "No, I have a bird because I like birds.",
+      "phonetic": "mâai chǎn mee nòk phaw chǎn châwp nòk",
+      "breakdown": [
+        {
+          "source": "ไม่",
+          "target": "no",
+          "phonetic": "mâai",
+          "partOfSpeech": "negative particle"
+        },
+        {
+          "source": "ฉัน",
+          "target": "I",
+          "phonetic": "chǎn",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "มี",
+          "target": "to have",
+          "phonetic": "mee",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "นก",
+          "target": "bird",
+          "phonetic": "nòk",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "เพราะ",
+          "target": "because",
+          "phonetic": "phaw",
+          "partOfSpeech": "conjunction"
+        },
+        {
+          "source": "ฉัน",
+          "target": "I",
+          "phonetic": "chǎn",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "ชอบ",
+          "target": "to like",
+          "phonetic": "châwp",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "นก",
+          "target": "birds",
+          "phonetic": "nòk",
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    {
+      "source": "นกของคุณเสียงดังไหมครับ",
+      "target": "Is your bird noisy? I asked curiously.",
+      "phonetic": "nòk khǎwng khun sǐiang dang mǎi khráp",
+      "breakdown": [
+        {
+          "source": "นก",
+          "target": "bird",
+          "phonetic": "nòk",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "ของ",
+          "target": "of",
+          "phonetic": "khǎwng",
+          "partOfSpeech": "preposition"
+        },
+        {
+          "source": "คุณ",
+          "target": "you (polite)",
+          "phonetic": "khun",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "เสียง",
+          "target": "sound/voice",
+          "phonetic": "sǐiang",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "ดัง",
+          "target": "loud",
+          "phonetic": "dang",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "source": "ไหม",
+          "target": "(question particle)",
+          "phonetic": "mǎi",
+          "partOfSpeech": "particle"
+        },
+        {
+          "source": "ครับ",
+          "target": "male polite particle",
+          "phonetic": "khráp",
+          "partOfSpeech": "particle"
+        }
+      ]
+    },
+    {
+      "source": "ใช่ มันร้องเพลงมาก แต่มันน่ารัก",
+      "target": "Yes, it sings a lot, but it is cute.",
+      "phonetic": "châi man rɔ̌ɔng phleng mâak dtàae man nâa rúk",
+      "breakdown": [
+        {
+          "source": "ใช่",
+          "target": "yes",
+          "phonetic": "châi",
+          "partOfSpeech": "interjection"
+        },
+        {
+          "source": "มัน",
+          "target": "it",
+          "phonetic": "man",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "ร้อง",
+          "target": "to sing",
+          "phonetic": "rɔ̌ɔng",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "เพลง",
+          "target": "song",
+          "phonetic": "phleng",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "มาก",
+          "target": "a lot",
+          "phonetic": "mâak",
+          "partOfSpeech": "adverb"
+        },
+        {
+          "source": "แต่",
+          "target": "but",
+          "phonetic": "dtàae",
+          "partOfSpeech": "conjunction"
+        },
+        {
+          "source": "มัน",
+          "target": "it",
+          "phonetic": "man",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "น่ารัก",
+          "target": "cute",
+          "phonetic": "nâa rúk",
+          "partOfSpeech": "adjective"
+        }
+      ]
+    },
+    {
+      "source": "ฉันรักลูนาเพราะมันทำให้ฉันหัวเราะ",
+      "target": "I love Luna because she makes me laugh.",
+      "phonetic": "chǎn rák luu-naa phaw man tham hâi chǎn hǔa rao",
+      "breakdown": [
+        {
+          "source": "ฉัน",
+          "target": "I",
+          "phonetic": "chǎn",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "รัก",
+          "target": "to love",
+          "phonetic": "rák",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "ลูนา",
+          "target": "Luna",
+          "phonetic": "luu-naa",
+          "partOfSpeech": "proper noun"
+        },
+        {
+          "source": "เพราะ",
+          "target": "because",
+          "phonetic": "phaw",
+          "partOfSpeech": "conjunction"
+        },
+        {
+          "source": "มัน",
+          "target": "she",
+          "phonetic": "man",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "ทำให้",
+          "target": "to make",
+          "phonetic": "tham hâi",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "ฉัน",
+          "target": "I",
+          "phonetic": "chǎn",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "หัวเราะ",
+          "target": "to laugh",
+          "phonetic": "hǔa rao",
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    {
+      "source": "สัตว์เลี้ยงเป็นเพื่อนที่ดีเพราะมันเป็นเพื่อนของเรา",
+      "target": "Pets are great because they are our friends.",
+      "phonetic": "sàt-dtâa lîiang pen pûeon thîi dee phaw man pen pûeon khǎwng rao",
+      "breakdown": [
+        {
+          "source": "สัตว์",
+          "target": "animal",
+          "phonetic": "sàt-dtâa",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "เลี้ยง",
+          "target": "pet",
+          "phonetic": "lîiang",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "เป็น",
+          "target": "to be",
+          "phonetic": "pen",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "เพื่อน",
+          "target": "friend",
+          "phonetic": "pûeon",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "ที่",
+          "target": "(relative)",
+          "phonetic": "thîi",
+          "partOfSpeech": "particle"
+        },
+        {
+          "source": "ดี",
+          "target": "good",
+          "phonetic": "dee",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "source": "เพราะ",
+          "target": "because",
+          "phonetic": "phaw",
+          "partOfSpeech": "conjunction"
+        },
+        {
+          "source": "มัน",
+          "target": "they",
+          "phonetic": "man",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "เป็น",
+          "target": "to be",
+          "phonetic": "pen",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "เพื่อน",
+          "target": "friends",
+          "phonetic": "pûeon",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "ของ",
+          "target": "of",
+          "phonetic": "khǎwng",
+          "partOfSpeech": "preposition"
+        },
+        {
+          "source": "เรา",
+          "target": "we/us",
+          "phonetic": "rao",
+          "partOfSpeech": "pronoun"
+        }
+      ]
+    }
+  ],
+  "createdAt": "2025-09-29T12:30:00Z",
+  "updatedAt": "2025-09-29T12:30:00Z",
+  "difficulty": "beginner",
+  "summary": "การพูดคุยเกี่ยวกับสัตว์เลี้ยงและการใช้กริยาในอดีต"
+}

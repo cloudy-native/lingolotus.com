@@ -53,6 +53,13 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "languages",
+        path: `${__dirname}/data/languages`,
+      },
+    },
+    {
       resolve: `gatsby-transformer-json`,
       options: {
         typeName: ({ node }: { node: { sourceInstanceName?: string } }) => {
@@ -65,6 +72,8 @@ module.exports = {
               return "BookJson";
             case "bookStories":
               return "BookStoryJson";
+            case "languages":
+              return "LanguagesJson";
             default:
               return "Json";
           }

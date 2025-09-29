@@ -120,6 +120,7 @@ export const createPages: GatsbyNode["createPages"] = async ({
   type StoryNode = {
     storyId: string;
     bookId: string;
+    language: string;
   };
 
   const storiesResult = (await graphql(`
@@ -128,6 +129,7 @@ export const createPages: GatsbyNode["createPages"] = async ({
         nodes {
           storyId
           bookId
+          language
         }
       }
     }
@@ -154,6 +156,7 @@ export const createPages: GatsbyNode["createPages"] = async ({
     const context = {
       bookId: story.bookId,
       storyId: story.storyId,
+      storyLanguage: story.language,
     };
 
     createPage({
@@ -353,19 +356,32 @@ export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] 
       translation: String!
       phonetic: String
     }
+
+    type Language implements Node {
+      languageCode: String!
+      fonts: LanguageFonts
+    }
+
+    type LanguageFonts {
+      label: String!
+      variants: JSON
+      default: String
+    }
   `;
 
     createTypes(typeDefs);
   };
 
 // Make sure createPages has node data already processed
-export const onCreateNode: GatsbyNode["onCreateNode"] = ({
+export const onCreateNode: GatsbyNode["onCreateNode"] = async ({
   node,
   actions,
   getNode,
   reporter,
+  createNodeId,
+  createContentDigest,
 }) => {
-  const { createNodeField } = actions;
+  const { createNodeField, createNode } = actions;
 
   // If we have a deck JSON, ensure it has a reference to its collection
   if (node.internal.type === "DeckJson") {
@@ -380,5 +396,44 @@ export const onCreateNode: GatsbyNode["onCreateNode"] = ({
         value: deckNode.collectionId,
       });
     }
+  }
+
+  // Create language nodes from JSON files
+  if (node.internal.type === "LanguagesJson") {
+    // Extract language code from the parent node's relative path
+    // The parent node should have the file information
+    const parentNode: any = getNode(node.parent);
+    if (!parentNode || !parentNode.relativePath) {
+      console.warn(`Skipping language node creation: no parent or relativePath found for node`, node);
+      return;
+    }
+    
+    // Extract language code from the filename (e.g., "th" from "languages/th.json")
+    const relativePath = parentNode.relativePath as string;
+    const languageCode = relativePath.replace(/^languages\//, '').replace(/\.json$/, '');
+    
+    // Safety check to ensure we have a valid language code
+    if (!languageCode) {
+      console.warn(`Skipping language node creation: no language code found for path ${relativePath}`, node);
+      return;
+    }
+    
+    const languageNode = node as any;
+    
+    // Create a language node with the font configuration
+    const languageNodeData = {
+      languageCode,
+      fonts: languageNode.fonts || null,
+      id: createNodeId(`language-${languageCode}`),
+      parent: node.id,
+      children: [],
+      internal: {
+        type: "Language",
+        contentDigest: createContentDigest(node),
+      },
+    };
+    
+    createNode(languageNodeData);
+    reporter.info(`Created language node for ${languageCode}`);
   }
 };

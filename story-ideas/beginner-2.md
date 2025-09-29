@@ -1,6 +1,3 @@
-Beginner-2 English Stories for Learning to Read
-These stories are crafted for beginner English learners ready to take a small step forward from basic reading. They build on familiar themes (greetings, family, food, etc.) with slightly longer sentences, simple conjunctions (and, but, because), basic past tense, and more descriptive words. Each story uses a mix of question-and-answer dialogue and short narrative elements to encourage confidence in reading and comprehension.
-
 Story 1: A New Friend
 Theme: Greetings and introductionsPurpose: Practice introductions with simple past tense and conjunctions  
 
@@ -169,6 +166,3 @@ Last night, I watched TV at seven and laughed.
 When do you sleep? my friend asked me.  
 I sleep at nine because I need to rest.  
 Time is important because it helps me plan my day.
-
-
-These Beginner-2 stories build on the original beginner themes with slightly longer sentences, basic conjunctions, simple past tense, and descriptive words. They are designed to gently challenge learners while reinforcing familiar topics, making them ideal for reading practice, answering questions, or creating similar dialogues.

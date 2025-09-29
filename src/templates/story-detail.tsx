@@ -27,7 +27,7 @@ import {
 } from "@chakra-ui/react";
 import type { PageProps } from "gatsby";
 import { graphql, Link } from "gatsby";
-import { BookOpen, ChevronRight } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 import React, { useId, useMemo, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -35,21 +35,41 @@ import { TextToSpeech } from "../components/speech/TextToSpeech";
 import type { Book, ReadingSentence, ReadingStory } from "../types";
 import { bookDetailPath, readingPath } from "../utils/paths";
 
+interface FontVariant {
+	name: string;
+	fontFamily: string;
+	description: string;
+}
+
+interface LanguageFonts {
+	label: string;
+	variants: Record<string, FontVariant>;
+	default: string;
+}
+
 interface StoryDetailPageData {
 	book: Book;
 	story: ReadingStory;
 	grammar?: {
 		rawMarkdownBody: string;
 	};
+	language?: {
+		languageCode: string;
+		fonts?: LanguageFonts;
+	};
 }
 
 const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
+	console.log(data);
 	const { book, story } = data;
 	const [showTarget, setShowTarget] = useState(true);
 	const [showPhonetic, setShowPhonetic] = useState(true);
 	const [showBreakdown, setShowBreakdown] = useState(false);
 	const [sourceTextSize, setSourceTextSize] = useState<"sm" | "md" | "xl">(
 		"md",
+	);
+	const [fontVariant, setFontVariant] = useState<string>(
+		data.language?.fonts?.default || "serif",
 	);
 	const { isOpen, onOpen, onClose } = useDisclosure();
 
@@ -69,6 +89,7 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
 	const translateToggleId = useId();
 	const phoneticToggleId = useId();
 	const breakdownToggleId = useId();
+	const fontChoiceId = useId();
 
 	return (
 		<>
@@ -128,29 +149,26 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
 								</Text>
 							)}
 
-							<Stack
-								direction={{ base: "column", sm: "row" }}
-								spacing={3}
-								wrap="wrap"
-							>
-								<Tag colorScheme="blue" textTransform="uppercase">
-									{story.language}
-								</Tag>
-								{story.difficulty && (
-									<Tag colorScheme="purple">{story.difficulty}</Tag>
-								)}
-								<Tag colorScheme="teal">{sentenceCountLabel}</Tag>
-								<Button colorScheme="primary" onClick={onOpen} ml={4}>
+							<Stack spacing={3}>
+								<Stack direction="row" spacing={3} wrap="wrap">
+									<Tag colorScheme="blue" textTransform="uppercase">
+										{story.language}
+									</Tag>
+									{story.difficulty && (
+										<Tag colorScheme="purple">{story.difficulty}</Tag>
+									)}
+									{/* <Tag colorScheme="teal">{sentenceCountLabel}</Tag> */}
+								</Stack>
+								<Button
+									colorScheme="primary"
+									onClick={onOpen}
+									width={{ base: "100%", sm: "auto" }}
+									maxWidth="200px"
+								>
 									Grammar Cheatsheet
 								</Button>
 							</Stack>
 						</Box>
-
-						<Icon
-							as={BookOpen}
-							color="primary.400"
-							boxSize={{ base: 16, md: 20 }}
-						/>
 					</Flex>
 				</Container>
 			</Box>
@@ -169,29 +187,23 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
 						align="center"
 					>
 						<FormControl display="flex" alignItems="center" width="auto">
-							<ButtonGroup isAttached>
+							<ButtonGroup size="md" isAttached>
 								<Button
-									size="md"
 									variant={sourceTextSize === "sm" ? "solid" : "outline"}
-									colorScheme="primary"
 									onClick={() => setSourceTextSize("sm")}
 									title="Small text"
 								>
 									<Text fontSize="sm">A</Text>
 								</Button>
 								<Button
-									size="md"
 									variant={sourceTextSize === "md" ? "solid" : "outline"}
-									colorScheme="primary"
 									onClick={() => setSourceTextSize("md")}
 									title="Medium text"
 								>
 									<Text fontSize="md">A</Text>
 								</Button>
 								<Button
-									size="md"
 									variant={sourceTextSize === "xl" ? "solid" : "outline"}
-									colorScheme="primary"
 									onClick={() => setSourceTextSize("xl")}
 									title="Large text"
 								>
@@ -199,6 +211,27 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
 								</Button>
 							</ButtonGroup>
 						</FormControl>
+
+						{data.language?.fonts?.variants && (
+							<FormControl display="flex" alignItems="center" width="auto">
+								<ButtonGroup size="md" isAttached>
+									{Object.entries(data.language.fonts.variants).map(
+										([key, variant]) => (
+											<Button
+												key={key}
+												variant={fontVariant === key ? "solid" : "outline"}
+												onClick={() => setFontVariant(key)}
+												title={variant.description}
+											>
+												<Text as="span" fontFamily={variant.fontFamily}>
+													{data.language?.fonts?.label || variant.name}
+												</Text>
+											</Button>
+										),
+									)}
+								</ButtonGroup>
+							</FormControl>
+						)}
 
 						<FormControl display="flex" alignItems="center" width="auto">
 							<FormLabel htmlFor={translateToggleId} mb="0" fontWeight="medium">
@@ -240,20 +273,27 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
 				<Stack spacing={6}>
 					{story.sentences.map((sentence: ReadingSentence, index: number) => (
 						<Stack key={`${story.storyId}-${index}`} spacing={3}>
-							<Text fontSize={sourceTextSize}>
-								<TextToSpeech text={sentence.source} lang="th" />{" "}
+							<Text
+								fontSize={sourceTextSize}
+								fontFamily={
+									data.language?.fonts
+										? data.language.fonts.variants?.[fontVariant]?.fontFamily
+										: undefined
+								}
+							>
+								<TextToSpeech text={sentence.source} lang={story.language} />{" "}
 								{sentence.source}
 							</Text>
-
-							{showTarget && (
-								<Text fontSize="lg" color={metaColor}>
-									{sentence.target}
-								</Text>
-							)}
 
 							{showPhonetic && (
 								<Text fontSize="sm" fontStyle="italic" color={phoneticColor}>
 									{sentence.phonetic}
+								</Text>
+							)}
+
+							{showTarget && (
+								<Text fontSize="lg" color={metaColor}>
+									{sentence.target}
 								</Text>
 							)}
 
@@ -276,8 +316,17 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
 													as="span"
 													fontWeight="semibold"
 													color={breakdownAccentColor}
+													fontFamily={
+														data.language?.fonts
+															? data.language.fonts.variants?.[fontVariant]
+																	?.fontFamily
+															: undefined
+													}
 												>
-													<TextToSpeech text={word.source} lang="th" />{" "}
+													<TextToSpeech
+														text={word.source}
+														lang={story.language}
+													/>{" "}
 													{word.source}
 												</Text>{" "}
 												<Text
@@ -367,7 +416,7 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
 export default StoryDetailTemplate;
 
 export const query = graphql`
-    query StoryDetail($bookId: String!, $storyId: String!) {
+    query StoryDetail($bookId: String!, $storyId: String!, $storyLanguage: String!) {
       book: bookJson(bookId: { eq: $bookId }) {
         bookId
         name
@@ -399,12 +448,19 @@ export const query = graphql`
         }
         createdAt
         updatedAt
+      }
 
+      language: language(languageCode: { eq: $storyLanguage }) {
+        languageCode
+        fonts {
+          label
+          variants
+          default
+        }
       }
 
       grammar: markdownRemark(fileAbsolutePath: { regex: "/grammar/th.md/" }) {
         rawMarkdownBody
       }
-
     }
 `;
