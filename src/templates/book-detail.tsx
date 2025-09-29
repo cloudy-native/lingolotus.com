@@ -131,14 +131,19 @@ const BookDetailTemplate: React.FC<BookDetailTemplateProps> = ({ data }) => {
                 borderWidth="1px"
                 borderRadius="lg"
                 borderColor={cardBorder}
-                bg={cardBg}
                 p={6}
                 transition="all 0.2s"
                 _hover={{ transform: "translateY(-4px)", boxShadow: "md" }}
               >
                 <Heading as="h3" size="md" mb={2}>
-                  {story.title}
+                  {story.title.target}
                 </Heading>
+
+                {story.title.source && (
+                  <Text fontSize="sm" color={storyMetaColor} mb={3}>
+                    ({story.title.source})
+                  </Text>
+                )}
 
                 {story.summary && (
                   <Text color={storyMetaColor} mb={3}>

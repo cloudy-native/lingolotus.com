@@ -16,7 +16,6 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -47,6 +46,13 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "grammar",
+        path: `${__dirname}/languages/grammar`,
+      },
+    },
+    {
       resolve: `gatsby-transformer-json`,
       options: {
         typeName: ({ node }: { node: { sourceInstanceName?: string } }) => {
@@ -65,6 +71,7 @@ module.exports = {
         },
       },
     },
+    `gatsby-transformer-remark`,
 
     // TypeScript support
     {

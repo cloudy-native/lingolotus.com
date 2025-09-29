@@ -37,6 +37,7 @@
     // "types": [],                                      /* Specify type package names to be included without being referenced in a source file. */
     // "allowUmdGlobalAccess": true,                     /* Allow accessing UMD globals from modules. */
     "resolveJsonModule": true,                        /* Enable importing .json files */
+    "allowSyntheticDefaultImports": true,             /* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */
     // "noResolve": true,                                /* Disallow `import`s, `require`s or `<reference>`s from expanding the number of files TypeScript should add to a project. */
 
     /* JavaScript Support */

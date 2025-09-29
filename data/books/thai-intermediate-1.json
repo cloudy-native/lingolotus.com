@@ -1,0 +1,13 @@
+{
+  "bookId": "thai-intermediate-1",
+  "name": "Intermediate 1. Making Connections",
+  "description": "Intermediate-level conversations and interactions for building fluency",
+  "sourceLanguage": "th",
+  "targetLanguage": "en",
+  "createdAt": "2025-09-28T10:30:00Z",
+  "updatedAt": "2025-09-28T14:45:00Z",
+  "category": "language-learning",
+  "difficulty": "Intermediate",
+  "imageUrl": "/images/bangkok-rainbow.jpeg",
+  "featured": true
+}

@@ -1,10 +1,10 @@
 {
-  "storyId": "thai-beginner-dinsor-intro",
-  "bookId": "thai-beginner",
+  "storyId": "thai-beginner-1-greetings",
+  "bookId": "thai-beginner-1",
   "language": "th",
   "title": {
-    "source": "การแนะนำตัวของดินสอ",
-    "target": "Din-sor introduces himself"
+    "source": "การทักทาย",
+    "target": "Greetings"
   },
   "sentences": [
     {
@@ -58,9 +58,9 @@
       ]
     },
     {
-      "source": "ผมชื่อดินสอครับ",
-      "target": "My name is Din-sor.",
-      "phonetic": "phǒm chûue din-sǎaw khráp",
+      "source": "ผมชื่อสตีเฟนครับ",
+      "target": "My name is Stephen.",
+      "phonetic": "phǒm chûue sà-dii-fen khráp",
       "breakdown": [
         {
           "source": "ผม",
@@ -75,10 +75,90 @@
           "partOfSpeech": "verb"
         },
         {
-          "source": "ดินสอ",
-          "target": "Din-sor (Pencil)",
-          "phonetic": "din-sǎaw",
+          "source": "สตีเฟน",
+          "target": "Stephen",
+          "phonetic": "sà-dii-fen",
           "partOfSpeech": "proper noun"
+        },
+        {
+          "source": "ครับ",
+          "target": "male polite particle",
+          "phonetic": "khráp",
+          "partOfSpeech": "particle"
+        }
+      ]
+    },
+    {
+      "source": "ยินดีที่ได้รู้จักครับ",
+      "target": "Nice to meet you.",
+      "phonetic": "yin-dee thîi dâi rúu-jàk khráp",
+      "breakdown": [
+        {
+          "source": "ยินดี",
+          "target": "pleased",
+          "phonetic": "yin-dee",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "source": "ที่",
+          "target": "that",
+          "phonetic": "thîi",
+          "partOfSpeech": "conjunction"
+        },
+        {
+          "source": "ได้",
+          "target": "can",
+          "phonetic": "dâi",
+          "partOfSpeech": "auxiliary verb"
+        },
+        {
+          "source": "รู้จัก",
+          "target": "to know",
+          "phonetic": "rúu-jàk",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "ครับ",
+          "target": "male polite particle",
+          "phonetic": "khráp",
+          "partOfSpeech": "particle"
+        }
+      ]
+    },
+    {
+      "source": "ยินดีที่ได้รู้จักเช่นกันครับ",
+      "target": "Nice to meet you too.",
+      "phonetic": "yin-dee thîi dâi rúu-jàk chên-gan khráp",
+      "breakdown": [
+        {
+          "source": "ยินดี",
+          "target": "pleased",
+          "phonetic": "yin-dee",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "source": "ที่",
+          "target": "that",
+          "phonetic": "thîi",
+          "partOfSpeech": "conjunction"
+        },
+        {
+          "source": "ได้",
+          "target": "can",
+          "phonetic": "dâi",
+          "partOfSpeech": "auxiliary verb"
+        },
+        {
+          "source": "รู้จัก",
+          "target": "to know",
+          "phonetic": "rúu-jàk",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "เช่นกัน",
+          "target": "also",
+          "phonetic": "chên-gan",
+          "partOfSpeech": "adverb"
         },
         {
           "source": "ครับ",
@@ -169,9 +249,9 @@
       ]
     },
     {
-      "source": "คุณอาศัยอยู่ที่ไหนครับ",
-      "target": "Where do you live?",
-      "phonetic": "khun aa-săi yùu thîi năi khráp",
+      "source": "คุณชอบอังกฤษไหมครับ",
+      "target": "Do you like England?",
+      "phonetic": "khun châwp ang-grìt măi khráp",
       "breakdown": [
         {
           "source": "คุณ",
@@ -180,28 +260,22 @@
           "partOfSpeech": "pronoun"
         },
         {
-          "source": "อาศัย",
-          "target": "reside",
-          "phonetic": "aa-săi",
+          "source": "ชอบ",
+          "target": "to like",
+          "phonetic": "châwp",
           "partOfSpeech": "verb"
         },
         {
-          "source": "อยู่",
-          "target": "to be",
-          "phonetic": "yùu",
-          "partOfSpeech": "verb"
+          "source": "อังกฤษ",
+          "target": "England",
+          "phonetic": "ang-grìt",
+          "partOfSpeech": "proper noun"
         },
         {
-          "source": "ที่",
-          "target": "at",
-          "phonetic": "thîi",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "ไหน",
-          "target": "where",
-          "phonetic": "năi",
-          "partOfSpeech": "pronoun"
+          "source": "ไหม",
+          "target": "or not",
+          "phonetic": "măi",
+          "partOfSpeech": "particle"
         },
         {
           "source": "ครับ",
@@ -212,10 +286,16 @@
       ]
     },
     {
-      "source": "ผมอาศัยอยู่ที่กรุงเทพฯครับ",
-      "target": "I live in Bangkok.",
-      "phonetic": "phǒm aa-săi yùu thîi grung-thêep khráp",
+      "source": "ใช่ ผมชอบอังกฤษครับ",
+      "target": "Yes, I like England.",
+      "phonetic": "châi phǒm châwp ang-grìt khráp",
       "breakdown": [
+        {
+          "source": "ใช่",
+          "target": "yes",
+          "phonetic": "châi",
+          "partOfSpeech": "interjection"
+        },
         {
           "source": "ผม",
           "target": "I (male)",
@@ -223,27 +303,15 @@
           "partOfSpeech": "pronoun"
         },
         {
-          "source": "อาศัย",
-          "target": "reside",
-          "phonetic": "aa-săi",
+          "source": "ชอบ",
+          "target": "to like",
+          "phonetic": "châwp",
           "partOfSpeech": "verb"
         },
         {
-          "source": "อยู่",
-          "target": "to be",
-          "phonetic": "yùu",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ที่",
-          "target": "at",
-          "phonetic": "thîi",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "กรุงเทพฯ",
-          "target": "Bangkok",
-          "phonetic": "grung-thêep",
+          "source": "อังกฤษ",
+          "target": "England",
+          "phonetic": "ang-grìt",
           "partOfSpeech": "proper noun"
         },
         {
@@ -258,5 +326,5 @@
   "createdAt": "2025-09-28T08:54:49Z",
   "updatedAt": "2025-09-28T08:54:49Z",
   "difficulty": "beginner",
-  "summary": "การสนทนาแนะนำตัวด้วยคำถามพื้นฐาน"
+  "summary": "การสนทนาทักทายและแนะนำตัว"
 }

@@ -1,0 +1,311 @@
+{
+  "storyId": "thai-beginner-1-animals",
+  "bookId": "thai-beginner-1",
+  "language": "th",
+  "title": {
+    "source": "สัตว์",
+    "target": "Animals"
+  },
+  "sentences": [
+    {
+      "source": "คุณมีสัตว์เลี้ยงไหมครับ",
+      "target": "Do you have a pet?",
+      "phonetic": "khun mee sàt dtà-lǐang măi khráp",
+      "breakdown": [
+        {
+          "source": "คุณ",
+          "target": "you",
+          "phonetic": "khun",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "มี",
+          "target": "to have",
+          "phonetic": "mee",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "สัตว์เลี้ยง",
+          "target": "pet",
+          "phonetic": "sàt dtà-lǐang",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "ไหม",
+          "target": "or not",
+          "phonetic": "măi",
+          "partOfSpeech": "particle"
+        },
+        {
+          "source": "ครับ",
+          "target": "male polite particle",
+          "phonetic": "khráp",
+          "partOfSpeech": "particle"
+        }
+      ]
+    },
+    {
+      "source": "ใช่ ผมมีสุนัขครับ",
+      "target": "Yes, I have a dog.",
+      "phonetic": "châi phǒm mee sǔn-ák khráp",
+      "breakdown": [
+        {
+          "source": "ใช่",
+          "target": "yes",
+          "phonetic": "châi",
+          "partOfSpeech": "interjection"
+        },
+        {
+          "source": "ผม",
+          "target": "I (male)",
+          "phonetic": "phǒm",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "มี",
+          "target": "to have",
+          "phonetic": "mee",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "สุนัข",
+          "target": "dog",
+          "phonetic": "sǔn-ák",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "ครับ",
+          "target": "male polite particle",
+          "phonetic": "khráp",
+          "partOfSpeech": "particle"
+        }
+      ]
+    },
+    {
+      "source": "สุนัขของคุณชื่ออะไรครับ",
+      "target": "What is your dog’s name?",
+      "phonetic": "sǔn-ák khǎwng khun chûue à-rai khráp",
+      "breakdown": [
+        {
+          "source": "สุนัข",
+          "target": "dog",
+          "phonetic": "sǔn-ák",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "ของ",
+          "target": "of",
+          "phonetic": "khǎwng",
+          "partOfSpeech": "preposition"
+        },
+        {
+          "source": "คุณ",
+          "target": "you",
+          "phonetic": "khun",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "ชื่อ",
+          "target": "name",
+          "phonetic": "chûue",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "อะไร",
+          "target": "what",
+          "phonetic": "à-rai",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "ครับ",
+          "target": "male polite particle",
+          "phonetic": "khráp",
+          "partOfSpeech": "particle"
+        }
+      ]
+    },
+    {
+      "source": "ชื่อสุนัขของผมคือแม็กซ์ครับ",
+      "target": "My dog’s name is Max.",
+      "phonetic": "chûue sǔn-ák khǎwng phǒm kheuu maek khráp",
+      "breakdown": [
+        {
+          "source": "ชื่อ",
+          "target": "name",
+          "phonetic": "chûue",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "สุนัข",
+          "target": "dog",
+          "phonetic": "sǔn-ák",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "ของ",
+          "target": "of",
+          "phonetic": "khǎwng",
+          "partOfSpeech": "preposition"
+        },
+        {
+          "source": "ผม",
+          "target": "I (male)",
+          "phonetic": "phǒm",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "คือ",
+          "target": "is",
+          "phonetic": "kheuu",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "แม็กซ์",
+          "target": "Max",
+          "phonetic": "maek",
+          "partOfSpeech": "proper noun"
+        },
+        {
+          "source": "ครับ",
+          "target": "male polite particle",
+          "phonetic": "khráp",
+          "partOfSpeech": "particle"
+        }
+      ]
+    },
+    {
+      "source": "แม็กซ์ใหญ่หรือเล็กครับ",
+      "target": "Is Max big or small?",
+      "phonetic": "maek yài rǔu lék khráp",
+      "breakdown": [
+        {
+          "source": "แม็กซ์",
+          "target": "Max",
+          "phonetic": "maek",
+          "partOfSpeech": "proper noun"
+        },
+        {
+          "source": "ใหญ่",
+          "target": "big",
+          "phonetic": "yài",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "source": "หรือ",
+          "target": "or",
+          "phonetic": "rǔu",
+          "partOfSpeech": "conjunction"
+        },
+        {
+          "source": "เล็ก",
+          "target": "small",
+          "phonetic": "lék",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "source": "ครับ",
+          "target": "male polite particle",
+          "phonetic": "khráp",
+          "partOfSpeech": "particle"
+        }
+      ]
+    },
+    {
+      "source": "แม็กซ์เล็กครับ",
+      "target": "Max is small.",
+      "phonetic": "maek lék khráp",
+      "breakdown": [
+        {
+          "source": "แม็กซ์",
+          "target": "Max",
+          "phonetic": "maek",
+          "partOfSpeech": "proper noun"
+        },
+        {
+          "source": "เล็ก",
+          "target": "small",
+          "phonetic": "lék",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "source": "ครับ",
+          "target": "male polite particle",
+          "phonetic": "khráp",
+          "partOfSpeech": "particle"
+        }
+      ]
+    },
+    {
+      "source": "คุณชอบแมวไหมครับ",
+      "target": "Do you like cats?",
+      "phonetic": "khun châwp maew măi khráp",
+      "breakdown": [
+        {
+          "source": "คุณ",
+          "target": "you",
+          "phonetic": "khun",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "ชอบ",
+          "target": "to like",
+          "phonetic": "châwp",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "แมว",
+          "target": "cat",
+          "phonetic": "maew",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "ไหม",
+          "target": "or not",
+          "phonetic": "măi",
+          "partOfSpeech": "particle"
+        },
+        {
+          "source": "ครับ",
+          "target": "male polite particle",
+          "phonetic": "khráp",
+          "partOfSpeech": "particle"
+        }
+      ]
+    },
+    {
+      "source": "ใช่ แมว可愛ครับ",
+      "target": "Yes, cats are cute!",
+      "phonetic": "châi maew nâaw khráp",
+      "breakdown": [
+        {
+          "source": "ใช่",
+          "target": "yes",
+          "phonetic": "châi",
+          "partOfSpeech": "interjection"
+        },
+        {
+          "source": "แมว",
+          "target": "cat",
+          "phonetic": "maew",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "可愛",
+          "target": "cute",
+          "phonetic": "nâaw",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "source": "ครับ",
+          "target": "male polite particle",
+          "phonetic": "khráp",
+          "partOfSpeech": "particle"
+        }
+      ]
+    }
+  ],
+  "createdAt": "2025-09-28T10:00:00Z",
+  "updatedAt": "2025-09-28T10:00:00Z",
+  "difficulty": "beginner",
+  "summary": "การสนทนาเกี่ยวกับสัตว์"
+}

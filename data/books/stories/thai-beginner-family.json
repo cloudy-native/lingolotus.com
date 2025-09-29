@@ -1,0 +1,329 @@
+{
+  "storyId": "thai-beginner-1-family",
+  "bookId": "thai-beginner-1",
+  "language": "th",
+  "title": {
+    "source": "ครอบครัว",
+    "target": "Family"
+  },
+  "sentences": [
+    {
+      "source": "คุณมีครอบครัวไหมครับ",
+      "target": "Do you have a family?",
+      "phonetic": "khun mee khrâwp-khrua măi khráp",
+      "breakdown": [
+        {
+          "source": "คุณ",
+          "target": "you",
+          "phonetic": "khun",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "มี",
+          "target": "to have",
+          "phonetic": "mee",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "ครอบครัว",
+          "target": "family",
+          "phonetic": "khrâwp-khrua",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "ไหม",
+          "target": "or not",
+          "phonetic": "măi",
+          "partOfSpeech": "particle"
+        },
+        {
+          "source": "ครับ",
+          "target": "male polite particle",
+          "phonetic": "khráp",
+          "partOfSpeech": "particle"
+        }
+      ]
+    },
+    {
+      "source": "ใช่ ผมมีครอบครัวครับ",
+      "target": "Yes, I have a family.",
+      "phonetic": "châi phǒm mee khrâwp-khrua khráp",
+      "breakdown": [
+        {
+          "source": "ใช่",
+          "target": "yes",
+          "phonetic": "châi",
+          "partOfSpeech": "interjection"
+        },
+        {
+          "source": "ผม",
+          "target": "I (male)",
+          "phonetic": "phǒm",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "มี",
+          "target": "to have",
+          "phonetic": "mee",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "ครอบครัว",
+          "target": "family",
+          "phonetic": "khrâwp-khrua",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "ครับ",
+          "target": "male polite particle",
+          "phonetic": "khráp",
+          "partOfSpeech": "particle"
+        }
+      ]
+    },
+    {
+      "source": "ใครอยู่ในครอบครัวของคุณครับ",
+      "target": "Who is in your family?",
+      "phonetic": "khrai yùu nai khrâwp-khrua khǎwng khun khráp",
+      "breakdown": [
+        {
+          "source": "ใคร",
+          "target": "who",
+          "phonetic": "khrai",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "อยู่",
+          "target": "to be",
+          "phonetic": "yùu",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "ใน",
+          "target": "in",
+          "phonetic": "nai",
+          "partOfSpeech": "preposition"
+        },
+        {
+          "source": "ครอบครัว",
+          "target": "family",
+          "phonetic": "khrâwp-khrua",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "ของ",
+          "target": "of",
+          "phonetic": "khǎwng",
+          "partOfSpeech": "preposition"
+        },
+        {
+          "source": "คุณ",
+          "target": "you",
+          "phonetic": "khun",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "ครับ",
+          "target": "male polite particle",
+          "phonetic": "khráp",
+          "partOfSpeech": "particle"
+        }
+      ]
+    },
+    {
+      "source": "แม่ พ่อ และน้องชายของผม",
+      "target": "My mother, father, and brother.",
+      "phonetic": "mâae pôo láe nâwng-chaai khǎwng phǒm",
+      "breakdown": [
+        {
+          "source": "แม่",
+          "target": "mother",
+          "phonetic": "mâae",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "พ่อ",
+          "target": "father",
+          "phonetic": "pôo",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "และ",
+          "target": "and",
+          "phonetic": "láe",
+          "partOfSpeech": "conjunction"
+        },
+        {
+          "source": "น้องชาย",
+          "target": "brother",
+          "phonetic": "nâwng-chaai",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "ของ",
+          "target": "of",
+          "phonetic": "khǎwng",
+          "partOfSpeech": "preposition"
+        },
+        {
+          "source": "ผม",
+          "target": "I (male)",
+          "phonetic": "phǒm",
+          "partOfSpeech": "pronoun"
+        }
+      ]
+    },
+    {
+      "source": "น้องชายของคุณชื่ออะไรครับ",
+      "target": "What is your brother’s name?",
+      "phonetic": "nâwng-chaai khǎwng khun chûue à-rai khráp",
+      "breakdown": [
+        {
+          "source": "น้องชาย",
+          "target": "brother",
+          "phonetic": "nâwng-chaai",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "ของ",
+          "target": "of",
+          "phonetic": "khǎwng",
+          "partOfSpeech": "preposition"
+        },
+        {
+          "source": "คุณ",
+          "target": "you",
+          "phonetic": "khun",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "ชื่อ",
+          "target": "name",
+          "phonetic": "chûue",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "อะไร",
+          "target": "what",
+          "phonetic": "à-rai",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "ครับ",
+          "target": "male polite particle",
+          "phonetic": "khráp",
+          "partOfSpeech": "particle"
+        }
+      ]
+    },
+    {
+      "source": "ชื่อเขาคือทอมครับ",
+      "target": "His name is Tom.",
+      "phonetic": "chûue khǎw kheuu thɔɔm khráp",
+      "breakdown": [
+        {
+          "source": "ชื่อ",
+          "target": "name",
+          "phonetic": "chûue",
+          "partOfSpeech": "noun"
+        },
+        {
+          "source": "เขา",
+          "target": "he",
+          "phonetic": "khǎw",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "source": "คือ",
+          "target": "is",
+          "phonetic": "kheuu",
+          "partOfSpeech": "verb"
+        },
+        {
+          "source": "ทอม",
+          "target": "Tom",
+          "phonetic": "thɔɔm",
+          "partOfSpeech": "proper noun"
+        },
+        {
+          "source": "ครับ",
+          "target": "male polite particle",
+          "phonetic": "khráp",
+          "partOfSpeech": "particle"
+        }
+      ]
+    },
+    {
+      "source": "ทอมใจดีไหมครับ",
+      "target": "Is Tom nice?",
+      "phonetic": "thɔɔm jai-dee măi khráp",
+      "breakdown": [
+        {
+          "source": "ทอม",
+          "target": "Tom",
+          "phonetic": "thɔɔm",
+          "partOfSpeech": "proper noun"
+        },
+        {
+          "source": "ใจดี",
+          "target": "kind",
+          "phonetic": "jai-dee",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "source": "ไหม",
+          "target": "or not",
+          "phonetic": "măi",
+          "partOfSpeech": "particle"
+        },
+        {
+          "source": "ครับ",
+          "target": "male polite particle",
+          "phonetic": "khráp",
+          "partOfSpeech": "particle"
+        }
+      ]
+    },
+    {
+      "source": "ใช่ ทอมใจดีมากครับ",
+      "target": "Yes, Tom is very nice!",
+      "phonetic": "châi thɔɔm jai-dee mâak khráp",
+      "breakdown": [
+        {
+          "source": "ใช่",
+          "target": "yes",
+          "phonetic": "châi",
+          "partOfSpeech": "interjection"
+        },
+        {
+          "source": "ทอม",
+          "target": "Tom",
+          "phonetic": "thɔɔm",
+          "partOfSpeech": "proper noun"
+        },
+        {
+          "source": "ใจดี",
+          "target": "kind",
+          "phonetic": "jai-dee",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "source": "มาก",
+          "target": "very",
+          "phonetic": "mâak",
+          "partOfSpeech": "adverb"
+        },
+        {
+          "source": "ครับ",
+          "target": "male polite particle",
+          "phonetic": "khráp",
+          "partOfSpeech": "particle"
+        }
+      ]
+    }
+  ],
+  "createdAt": "2025-09-28T09:00:00Z",
+  "updatedAt": "2025-09-28T09:00:00Z",
+  "difficulty": "beginner",
+  "summary": "การสนทนาเกี่ยวกับสมาชิกในครอบครัว"
+}

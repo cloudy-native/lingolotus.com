@@ -186,6 +186,7 @@ const CollectionDetailTemplate: React.FC<CollectionDetailTemplateProps> = ({
 
 export default CollectionDetailTemplate;
 
+/*
 export const query = graphql`
   query CollectionById($collectionId: String!) {
     collectionsJson(collectionId: { eq: $collectionId }) {
@@ -241,3 +242,4 @@ export const query = graphql`
     }
   }
 `;
+*/

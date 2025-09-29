@@ -6,13 +6,13 @@ Story 1: Greetings
 Theme: Basic introductions and greetingsPurpose: Learn how to say hello and introduce yourself  
 
 Hello! What is your name?  
-My name is Anna.  
-Nice to meet you, Anna!  
+My name is Stephen.  
+Nice to meet you, Stephen!  
 Nice to meet you too!  
 Where are you from?  
-I am from Canada.  
-Do you like Canada?  
-Yes, I like Canada!
+I am from England.  
+Do you like England?  
+Yes, I like England!
 
 
 Story 2: Family

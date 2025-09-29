@@ -1,0 +1,22 @@
+{
+  "fonts": {
+    "variants": {
+      "serif": {
+        "name": "Abugida",
+        "fontFamily": "Noto Serif Thai",
+        "description": "Traditional Thai script style"
+      },
+      "sans": {
+        "name": "Sans",
+        "fontFamily": "Noto Sans Thai",
+        "description": "Modern sans-serif with loops"
+      },
+      "sansLooped": {
+        "name": "Sans Looped",
+        "fontFamily": "Noto Sans Thai Looped",
+        "description": "Modern sans-serif with loops"
+      }
+    },
+    "default": "serif"
+  }
+}
