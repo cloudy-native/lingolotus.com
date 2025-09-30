@@ -70,7 +70,7 @@
     },
     {
       "source": "คุณมีหนังสือกี่เล่มครับ",
-      "target": "How many books do you have? my teacher asked.",
+      "target": "How many books do you have?",
       "phonetic": "khun mee nǎng sǔe gìi lèm khráp",
       "breakdown": [
         {
@@ -229,7 +229,7 @@
     },
     {
       "source": "คุณนับถึงยี่สิบได้ไหมครับ",
-      "target": "Can you count to twenty? my teacher asked.",
+      "target": "Can you count to twenty?",
       "phonetic": "khun nàp thʉng yîi sìp dâai mǎi khráp",
       "breakdown": [
         {
@@ -345,7 +345,7 @@
     },
     {
       "source": "เลขโปรดของคุณคืออะไรครับ",
-      "target": "What is your favorite number? I asked her.",
+      "target": "What is your favorite number?",
       "phonetic": "lek prɔ̂ɔt khǎwng khun kheuu à-rai khráp",
       "breakdown": [
         {
@@ -516,7 +516,7 @@
     },
     {
       "source": "การนับเลขยากสำหรับคุณไหมครับ",
-      "target": "Is counting hard for you? my teacher asked.",
+      "target": "Is counting hard for you?",
       "phonetic": "gaan nàp lek yaak sàm-ràp khun mǎi khráp",
       "breakdown": [
         {

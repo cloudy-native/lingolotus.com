@@ -70,7 +70,7 @@
     },
     {
       "source": "คุณนำอาหารอะไรมาครับ",
-      "target": "What food did you bring? my sister asked.",
+      "target": "What food did you bring?",
       "phonetic": "khun nam aa-hǎan à-rai maa khráp",
       "breakdown": [
         {
@@ -162,7 +162,7 @@
     },
     {
       "source": "คุณชอบแซนวิชไหมครับ",
-      "target": "Do you like sandwiches? I asked my friend Mia.",
+      "target": "Do you like sandwiches?",
       "phonetic": "khun châwp saen wích mǎi khráp",
       "breakdown": [
         {
@@ -486,7 +486,7 @@
     },
     {
       "source": "คุณสนุกกับปิกนิกไหมครับ",
-      "target": "Did you have fun at the picnic? my sister asked.",
+      "target": "Did you have fun at the picnic?",
       "phonetic": "khun sà-núk kàp bpìk ník mǎi khráp",
       "breakdown": [
         {

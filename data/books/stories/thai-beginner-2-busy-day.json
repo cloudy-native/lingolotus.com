@@ -70,7 +70,7 @@
     },
     {
       "source": "หลังจากนั้นคุณทำอะไรครับ",
-      "target": "What do you do after that? my cousin asked.",
+      "target": "What do you do after that?",
       "phonetic": "lǎng jaak nán khun tham à-rai khráp",
       "breakdown": [
         {
@@ -253,7 +253,7 @@
     },
     {
       "source": "คุณชอบโรงเรียนไหมครับ",
-      "target": "Do you like school? my cousin asked me.",
+      "target": "Do you like school?",
       "phonetic": "khun châwp rohng rian mǎi khráp",
       "breakdown": [
         {
@@ -406,7 +406,7 @@
     },
     {
       "source": "ฟุตบอลสนุกไหมครับ",
-      "target": "Was soccer fun? my cousin asked.",
+      "target": "Was soccer fun?",
       "phonetic": "fút thaan sà-núk mǎi khráp",
       "breakdown": [
         {
@@ -535,7 +535,7 @@
     },
     {
       "source": "คุณเข้านอนเวลาไหนครับ",
-      "target": "What time do you sleep? she asked.",
+      "target": "What time do you sleep?",
       "phonetic": "khun khâo nɔɔn wa-la nǎi khráp",
       "breakdown": [
         {

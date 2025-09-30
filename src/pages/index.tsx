@@ -141,7 +141,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
 								</Button>
 							</Flex>
 							<Image
-								src="/images/bangkok-rainbow.jpeg"
+								src="/images/IMG_5492.jpeg"
 								alt="Flashcards"
 								borderRadius="md"
 								h="200px"
@@ -276,7 +276,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
 								</Button>
 							</Flex>
 							<Image
-								src="/images/bangkok-rainbow.jpeg"
+								src="/images/IMG_5673.jpeg"
 								alt="Reading"
 								borderRadius="md"
 								h="200px"

@@ -10,7 +10,7 @@
     {
       "source": "คุณมีสัตว์เลี้ยงไหมครับ",
       "target": "Do you have a pet?",
-      "phonetic": "khun mee sàt dtà-lǐang măi khráp",
+      "phonetic": "khun mee sàt-dtâa lîiang măi khráp",
       "breakdown": [
         {
           "source": "คุณ",
@@ -27,7 +27,7 @@
         {
           "source": "สัตว์เลี้ยง",
           "target": "pet",
-          "phonetic": "sàt dtà-lǐang",
+          "phonetic": "sàt-dtâa lîiang",
           "partOfSpeech": "noun"
         },
         {
@@ -273,9 +273,9 @@
       ]
     },
     {
-      "source": "ใช่ แมว可愛ครับ",
+      "source": "ใช่ แมวน่ารักครับ",
       "target": "Yes, cats are cute!",
-      "phonetic": "châi maew nâaw khráp",
+      "phonetic": "châi maew nâa rák khráp",
       "breakdown": [
         {
           "source": "ใช่",
@@ -290,9 +290,9 @@
           "partOfSpeech": "noun"
         },
         {
-          "source": "可愛",
+          "source": "น่ารัก",
           "target": "cute",
-          "phonetic": "nâaw",
+          "phonetic": "nâa rák",
           "partOfSpeech": "adjective"
         },
         {

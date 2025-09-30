@@ -1,0 +1,198 @@
+{
+  "storyId": "thai-advanced-1-a-winter-retreat",
+  "bookId": "thai-advanced-1",
+  "language": "th",
+  "title": {
+    "source": "การพักผ่อนในฤดูหนาว",
+    "target": "A Winter Retreat"
+  },
+  "sentences": [
+    {
+      "source": "ในกระท่อมที่ปกคลุมด้วยหิมะซึ่งตั้งอยู่ในเทือกเขาแอลป์ ปรียาแสวงหาความสันโดษหลังจากปีที่วุ่นวาย",
+      "target": "In a snow-covered cabin nestled in the Alps, Priya sought solitude after a hectic year.",
+      "phonetic": "nai grà-thɔ̂m thîi bpòk-khlum dûai hì-má sʉ̂ng dtâng-yùu nai thʉ̂ak-khǎo ɛɛn bprii-yaa sà-wɛ̌ng-hǎa khwaam-sǎn-dòot lǎng-jàak bpii thîi wûn-waai",
+      "breakdown": [
+        { "source": "ในกระท่อมที่ปกคลุมด้วยหิมะ", "target": "in a snow-covered cabin", "phonetic": "nai grà-thɔ̂m thîi bpòk-khlum dûai hì-má", "partOfSpeech": "prepositional phrase" },
+        { "source": "ซึ่งตั้งอยู่ในเทือกเขาแอลป์", "target": "nestled in the Alps", "phonetic": "sʉ̂ng dtâng-yùu nai thʉ̂ak-khǎo ɛɛn", "partOfSpeech": "participial phrase" },
+        { "source": "ปรียาแสวงหาความสันโดษ", "target": "Priya sought solitude", "phonetic": "bprii-yaa sà-wɛ̌ng-hǎa khwaam-sǎn-dòot", "partOfSpeech": "verb phrase" },
+        { "source": "หลังจากปีที่วุ่นวาย", "target": "after a hectic year", "phonetic": "lǎng-jàak bpii thîi wûn-waai", "partOfSpeech": "prepositional phrase" }
+      ]
+    },
+    {
+      "source": "ที่พักผ่อนไม้ ที่ล้อมรอบด้วยต้นสน เสนอการหลบหนีที่เงียบสงบจากชีวิตที่วุ่นวายของเธอ",
+      "target": "The wooden retreat, surrounded by pine trees, offered a quiet escape from her busy life.",
+      "phonetic": "thîi-phák-phɔ̀ɔn-máai thîi lɔ́ɔm-rɔ̂ɔp dûai dtôn-sǒn sà-nə̌ə gaan lòp-nǐi thîi ngîap-sà-ngòp jàak chii-wít thîi wûn-waai khɔ̌ɔng thəə",
+      "breakdown": [
+        { "source": "ที่พักผ่อนไม้", "target": "the wooden retreat", "phonetic": "thîi-phák-phɔ̀ɔn-máai", "partOfSpeech": "noun phrase" },
+        { "source": "ที่ล้อมรอบด้วยต้นสน", "target": "surrounded by pine trees", "phonetic": "thîi lɔ́ɔm-rɔ̂ɔp dûai dtôn-sǒn", "partOfSpeech": "participial phrase" },
+        { "source": "เสนอการหลบหนีที่เงียบสงบ", "target": "offered a quiet escape", "phonetic": "sà-nə̌ə gaan lòp-nǐi thîi ngîap-sà-ngòp", "partOfSpeech": "verb phrase" },
+        { "source": "จากชีวิตที่วุ่นวายของเธอ", "target": "from her busy life", "phonetic": "jàak chii-wít thîi wûn-waai khɔ̌ɔng thəə", "partOfSpeech": "prepositional phrase" }
+      ]
+    },
+    {
+      "source": "เธอมาถึงพร้อมกระเป๋าเดินทางและกองหนังสือ พร้อมที่จะผ่อนคลาย",
+      "target": "She arrived with a suitcase and a stack of books, ready to unwind.",
+      "phonetic": "thəə maa-thʉ̌ng phrɔ́ɔm grà-bpǎo dəən-thaang láe gɔɔng nǎng-sʉ̌ʉ phrɔ́ɔm thîi jà phɔ̀ɔn-khlaai",
+      "breakdown": [
+        { "source": "เธอมาถึงพร้อมกระเป๋าเดินทางและกองหนังสือ", "target": "she arrived with a suitcase and a stack of books", "phonetic": "thəə maa-thʉ̌ng phrɔ́ɔm grà-bpǎo dəən-thaang láe gɔɔng nǎng-sʉ̌ʉ", "partOfSpeech": "clause" },
+        { "source": "พร้อมที่จะผ่อนคลาย", "target": "ready to unwind", "phonetic": "phrɔ́ɔm thîi jà phɔ̀ɔn-khlaai", "partOfSpeech": "adjectival phrase" }
+      ]
+    },
+    {
+      "source": "เตาผิงที่แตกเสียงอุ่นห้อง ขณะที่หิมะตกเบาๆ ข้างนอก",
+      "target": "The crackling fireplace warmed the room as snow fell softly outside.",
+      "phonetic": "dtao-phǐng thîi dtɛ̀ɛk-sǐang ùn hɔ̂ɔng khà-nà thîi hì-má dtòk bao-bao khâang-nɔ̂ɔk",
+      "breakdown": [
+        { "source": "เตาผิงที่แตกเสียงอุ่นห้อง", "target": "the crackling fireplace warmed the room", "phonetic": "dtao-phǐng thîi dtɛ̀ɛk-sǐang ùn hɔ̂ɔng", "partOfSpeech": "clause" },
+        { "source": "ขณะที่หิมะตกเบาๆ ข้างนอก", "target": "as snow fell softly outside", "phonetic": "khà-nà thîi hì-má dtòk bao-bao khâang-nɔ̂ɔk", "partOfSpeech": "temporal clause" }
+      ]
+    },
+    {
+      "source": "ปรียาใช้เวลาตอนเช้าอ่านนวนิยาย ลิ้มรสความเงียบที่ถูกทำลายเพียงลม",
+      "target": "Priya spent mornings reading novels, savoring the silence broken only by the wind.",
+      "phonetic": "bprii-yaa chái wee-laa dtɔɔn-cháao àan na-wá-ní-yaai lím-rót khwaam-ngîap thîi thùuk tham-laai phiang lom",
+      "breakdown": [
+        { "source": "ปรียาใช้เวลาตอนเช้าอ่านนวนิยาย", "target": "Priya spent mornings reading novels", "phonetic": "bprii-yaa chái wee-laa dtɔɔn-cháao àan na-wá-ní-yaai", "partOfSpeech": "verb phrase" },
+        { "source": "ลิ้มรสความเงียบที่ถูกทำลายเพียงลม", "target": "savoring the silence broken only by the wind", "phonetic": "lím-rót khwaam-ngîap thîi thùuk tham-laai phiang lom", "partOfSpeech": "participial phrase" }
+      ]
+    },
+    {
+      "source": "เธอทำอาหารง่ายๆ ทดลองกับวัตถุดิบท้องถิ่นเช่นมันฝรั่งที่แข็งแรง",
+      "target": "She cooked simple meals, experimenting with local ingredients like hearty potatoes.",
+      "phonetic": "thəə tham aa-hǎan ngâai-ngâai thót-lɔɔng gàp wát-thù-dìp thɔ́ɔng-thìn chên man-fà-ràng thîi khɛ̌ng-rɛɛng",
+      "breakdown": [
+        { "source": "เธอทำอาหารง่ายๆ", "target": "she cooked simple meals", "phonetic": "thəə tham aa-hǎan ngâai-ngâai", "partOfSpeech": "verb phrase" },
+        { "source": "ทดลองกับวัตถุดิบท้องถิ่นเช่นมันฝรั่งที่แข็งแรง", "target": "experimenting with local ingredients like hearty potatoes", "phonetic": "thót-lɔɔng gàp wát-thù-dìp thɔ́ɔng-thìn chên man-fà-ràng thîi khɛ̌ng-rɛɛng", "partOfSpeech": "participial phrase" }
+      ]
+    },
+    {
+      "source": "บ่ายวันหนึ่ง เธอออกไปข้างนอก รองเท้าบู๊ตของเธอกรอบแกรบในหิมะสด",
+      "target": "One afternoon, she ventured outside, her boots crunching in the fresh snow.",
+      "phonetic": "bàai wan-nʉ̀ng thəə ɔ̀ɔk-bpai khâang-nɔ̂ɔk rɔɔng-tháo-búut khɔ̌ɔng thəə grɔ̀ɔp-grɛ̀ɛp nai hì-má sòt",
+      "breakdown": [
+        { "source": "บ่ายวันหนึ่ง เธอออกไปข้างนอก", "target": "one afternoon, she ventured outside", "phonetic": "bàai wan-nʉ̀ng thəə ɔ̀ɔk-bpai khâang-nɔ̂ɔk", "partOfSpeech": "clause" },
+        { "source": "รองเท้าบู๊ตของเธอกรอบแกรบในหิมะสด", "target": "her boots crunching in the fresh snow", "phonetic": "rɔɔng-tháo-búut khɔ̌ɔng thəə grɔ̀ɔp-grɛ̀ɛp nai hì-má sòt", "partOfSpeech": "participial phrase" }
+      ]
+    },
+    {
+      "source": "ภูมิทัศน์น่าทึ่ง ด้วยภูเขาที่เปล่งประกายภายใต้แสงอาทิตย์ฤดูหนาว",
+      "target": "The landscape was breathtaking, with mountains glowing under the winter sun.",
+      "phonetic": "phuum-thát nâa-thʉ́ng dûai phuu-khǎo thîi bplèng-bprà-gaai phaa-tai sɛ̌ɛng-aa-thít rʉ́-duu-nǎao",
+      "breakdown": [
+        { "source": "ภูมิทัศน์น่าทึ่ง", "target": "the landscape was breathtaking", "phonetic": "phuum-thát nâa-thʉ́ng", "partOfSpeech": "clause" },
+        { "source": "ด้วยภูเขาที่เปล่งประกายภายใต้แสงอาทิตย์ฤดูหนาว", "target": "with mountains glowing under the winter sun", "phonetic": "dûai phuu-khǎo thîi bplèng-bprà-gaai phaa-tai sɛ̌ɛng-aa-thít rʉ́-duu-nǎao", "partOfSpeech": "prepositional phrase" }
+      ]
+    },
+    {
+      "source": "เธอพบกับไกด์ท้องถิ่น ซึ่งสอนเธอเกี่ยวกับประวัติศาสตร์ของภูมิภาค",
+      "target": "She met a local guide, who taught her about the region's history.",
+      "phonetic": "thəə phóp gàp gai thɔ́ɔng-thìn sʉ̂ng sɔ̌ɔn thəə gìeow-gàp bprà-wàt-sàat khɔ̌ɔng phuum-phâak",
+      "breakdown": [
+        { "source": "เธอพบกับไกด์ท้องถิ่น", "target": "she met a local guide", "phonetic": "thəə phóp gàp gai thɔ́ɔng-thìn", "partOfSpeech": "verb phrase" },
+        { "source": "ซึ่งสอนเธอเกี่ยวกับประวัติศาสตร์ของภูมิภาค", "target": "who taught her about the region's history", "phonetic": "sʉ̂ng sɔ̌ɔn thəə gìeow-gàp bprà-wàt-sàat khɔ̌ɔng phuum-phâak", "partOfSpeech": "relative clause" }
+      ]
+    },
+    {
+      "source": "พวกเขาพูดคุยเกี่ยวกับเส้นทางการค้าโบราณที่เคยข้ามเทือกเขาแอลป์",
+      "target": "They discussed ancient trade routes that once crossed the Alps.",
+      "phonetic": "phûak-kháo phûut-khui gìeow-gàp sên-thaang gaan-kháa boo-raan thîi khəəi khâam thʉ̂ak-khǎo ɛɛn",
+      "breakdown": [
+        { "source": "พวกเขาพูดคุยเกี่ยวกับเส้นทางการค้าโบราณ", "target": "they discussed ancient trade routes", "phonetic": "phûak-kháo phûut-khui gìeow-gàp sên-thaang gaan-kháa boo-raan", "partOfSpeech": "verb phrase" },
+        { "source": "ที่เคยข้ามเทือกเขาแอลป์", "target": "that once crossed the Alps", "phonetic": "thîi khəəi khâam thʉ̂ak-khǎo ɛɛn", "partOfSpeech": "relative clause" }
+      ]
+    },
+    {
+      "source": "ปรียารู้สึกถึงความเชื่อมโยงกับอดีต จินตนาการถึงนักเดินทางที่กล้าหาญท้าทายหิมะ",
+      "target": "Priya felt a connection to the past, imagining travelers braving the snow.",
+      "phonetic": "bprii-yaa rúu-sʉ̀k thʉ̌ng khwaam-chʉ̂am-yoong gàp à-dìit jin-dtà-naa-gaan thʉ̌ng nák-dəən-thaang thîi glâa-hǎan tháa-thaai hì-má",
+      "breakdown": [
+        { "source": "ปรียารู้สึกถึงความเชื่อมโยงกับอดีต", "target": "Priya felt a connection to the past", "phonetic": "bprii-yaa rúu-sʉ̀k thʉ̌ng khwaam-chʉ̂am-yoong gàp à-dìit", "partOfSpeech": "verb phrase" },
+        { "source": "จินตนาการถึงนักเดินทางที่กล้าหาญท้าทายหิมะ", "target": "imagining travelers braving the snow", "phonetic": "jin-dtà-naa-gaan thʉ̌ng nák-dəən-thaang thîi glâa-hǎan tháa-thaai hì-má", "partOfSpeech": "participial phrase" }
+      ]
+    },
+    {
+      "source": "เธอเขียนบันทึกความคิดของเธอ ไตร่ตรองเป้าหมายสำหรับปีใหม่",
+      "target": "She journaled her thoughts, reflecting on her goals for the new year.",
+      "phonetic": "thəə khǐan ban-thʉ́k khwaam-khít khɔ̌ɔng thəə dtrài-dtrɔɔng bpâo-mǎai sǎm-ràp bpii-mài",
+      "breakdown": [
+        { "source": "เธอเขียนบันทึกความคิดของเธอ", "target": "she journaled her thoughts", "phonetic": "thəə khǐan ban-thʉ́k khwaam-khít khɔ̌ɔng thəə", "partOfSpeech": "verb phrase" },
+        { "source": "ไตร่ตรองเป้าหมายสำหรับปีใหม่", "target": "reflecting on her goals for the new year", "phonetic": "dtrài-dtrɔɔng bpâo-mǎai sǎm-ràp bpii-mài", "partOfSpeech": "participial phrase" }
+      ]
+    },
+    {
+      "source": "ความโดดเดี่ยวของกระท่อมทำให้เธอคิดได้อย่างชัดเจน ปราศจากสิ่งรบกวน",
+      "target": "The cabin's isolation allowed her to think clearly, free from distractions.",
+      "phonetic": "khwaam-dòot-dìiao khɔ̌ɔng grà-thɔ̂m tham hâi thəə khít dâi yàang chát-jeen bpràat-jàak sìng-róp-guan",
+      "breakdown": [
+        { "source": "ความโดดเดี่ยวของกระท่อมทำให้เธอคิดได้อย่างชัดเจน", "target": "the cabin's isolation allowed her to think clearly", "phonetic": "khwaam-dòot-dìiao khɔ̌ɔng grà-thɔ̂m tham hâi thəə khít dâi yàang chát-jeen", "partOfSpeech": "clause" },
+        { "source": "ปราศจากสิ่งรบกวน", "target": "free from distractions", "phonetic": "bpràat-jàak sìng-róp-guan", "partOfSpeech": "adjectival phrase" }
+      ]
+    },
+    {
+      "source": "เธอลองเล่นสกี หัวเราะขณะที่เธอล้มลงบนทางลาดที่อ่อนโยน",
+      "target": "She tried skiing, laughing as she tumbled down gentle slopes.",
+      "phonetic": "thəə lɔɔng lên sà-gii hǔa-ró khà-nà thîi thəə lóm-long bon thaang-làat thîi ɔ̀ɔn-yoon",
+      "breakdown": [
+        { "source": "เธอลองเล่นสกี", "target": "she tried skiing", "phonetic": "thəə lɔɔng lên sà-gii", "partOfSpeech": "verb phrase" },
+        { "source": "หัวเราะขณะที่เธอล้มลงบนทางลาดที่อ่อนโยน", "target": "laughing as she tumbled down gentle slopes", "phonetic": "hǔa-ró khà-nà thîi thəə lóm-long bon thaang-làat thîi ɔ̀ɔn-yoon", "partOfSpeech": "participial phrase" }
+      ]
+    },
+    {
+      "source": "ประสบการณ์นี้ทำให้ถ่อมตัว เตือนเธอให้ยอมรับความท้าทาย",
+      "target": "The experience was humbling, reminding her to embrace challenges.",
+      "phonetic": "bprà-sòp-gaan níi tham hâi thɔ̀m-dtua dtʉan thəə hâi yɔɔm-ráp khwaam-tháa-thaai",
+      "breakdown": [
+        { "source": "ประสบการณ์นี้ทำให้ถ่อมตัว", "target": "the experience was humbling", "phonetic": "bprà-sòp-gaan níi tham hâi thɔ̀m-dtua", "partOfSpeech": "clause" },
+        { "source": "เตือนเธอให้ยอมรับความท้าทาย", "target": "reminding her to embrace challenges", "phonetic": "dtʉan thəə hâi yɔɔm-ráp khwaam-tháa-thaai", "partOfSpeech": "participial phrase" }
+      ]
+    },
+    {
+      "source": "เมื่อสิ้นสุดการพักผ่อน ปรียารู้สึกฟื้นฟู จิตใจของเธอชัดเจนและมุ่งมั่น",
+      "target": "By the end of her stay, Priya felt renewed, her mind clear and focused.",
+      "phonetic": "mʉ̂a sîn-sùt gaan-phák-phɔ̀ɔn bprii-yaa rúu-sʉ̀k fʉ́ʉn-fuu jìt-jai khɔ̌ɔng thəə chát-jeen láe mûng-mân",
+      "breakdown": [
+        { "source": "เมื่อสิ้นสุดการพักผ่อน", "target": "by the end of her stay", "phonetic": "mʉ̂a sîn-sùt gaan-phák-phɔ̀ɔn", "partOfSpeech": "temporal clause" },
+        { "source": "ปรียารู้สึกฟื้นฟู", "target": "Priya felt renewed", "phonetic": "bprii-yaa rúu-sʉ̀k fʉ́ʉn-fuu", "partOfSpeech": "verb phrase" },
+        { "source": "จิตใจของเธอชัดเจนและมุ่งมั่น", "target": "her mind clear and focused", "phonetic": "jìt-jai khɔ̌ɔng thəə chát-jeen láe mûng-mân", "partOfSpeech": "noun phrase" }
+      ]
+    },
+    {
+      "source": "เธอเขียนจดหมายถึงตัวเอง ร่างความฝันของเธอ",
+      "target": "She wrote a letter to herself, outlining her dreams.",
+      "phonetic": "thəə khǐan jòt-mǎai thʉ̌ng dtua-eeng râang khwaam-fǎn khɔ̌ɔng thəə",
+      "breakdown": [
+        { "source": "เธอเขียนจดหมายถึงตัวเอง", "target": "she wrote a letter to herself", "phonetic": "thəə khǐan jòt-mǎai thʉ̌ng dtua-eeng", "partOfSpeech": "verb phrase" },
+        { "source": "ร่างความฝันของเธอ", "target": "outlining her dreams", "phonetic": "râang khwaam-fǎn khɔ̌ɔng thəə", "partOfSpeech": "participial phrase" }
+      ]
+    },
+    {
+      "source": "กระท่อมให้เธอมากกว่าการพักผ่อน—มันให้มุมมอง",
+      "target": "The cabin had given her more than rest—it had given her perspective.",
+      "phonetic": "grà-thɔ̂m hâi thəə mâak-gwàa gaan-phák-phɔ̀ɔn—man hâi mum-mɔɔng",
+      "breakdown": [
+        { "source": "กระท่อมให้เธอมากกว่าการพักผ่อน—มันให้มุมมอง", "target": "the cabin had given her more than rest—it had given her perspective", "phonetic": "grà-thɔ̂m hâi thəə mâak-gwàa gaan-phák-phɔ̀ɔn—man hâi mum-mɔɔng", "partOfSpeech": "clause" }
+      ]
+    },
+    {
+      "source": "เธอออกจากเทือกเขาแอลป์ด้วยหัวใจที่สงบ พร้อมที่จะเผชิญหน้ากับโลก",
+      "target": "She left the Alps with a calm heart, ready to face the world.",
+      "phonetic": "thəə ɔ̀ɔk jàak thʉ̂ak-khǎo ɛɛn dûai hǔa-jai thîi sà-ngòp phrɔ́ɔm thîi jà phà-chəən-nâa gàp lôok",
+      "breakdown": [
+        { "source": "เธอออกจากเทือกเขาแอลป์ด้วยหัวใจที่สงบ", "target": "she left the Alps with a calm heart", "phonetic": "thəə ɔ̀ɔk jàak thʉ̂ak-khǎo ɛɛn dûai hǔa-jai thîi sà-ngòp", "partOfSpeech": "verb phrase" },
+        { "source": "พร้อมที่จะเผชิญหน้ากับโลก", "target": "ready to face the world", "phonetic": "phrɔ́ɔm thîi jà phà-chəən-nâa gàp lôok", "partOfSpeech": "adjectival phrase" }
+      ]
+    },
+    {
+      "source": "การพักผ่อนในฤดูหนาวจะเป็นสถานที่พิเศษในความทรงจำของเธอเสมอ",
+      "target": "The winter retreat would always hold a special place in her memory.",
+      "phonetic": "gaan-phák-phɔ̀ɔn nai rʉ́-duu-nǎao jà bpen sà-thǎan-thîi phí-sèet nai khwaam-song-jam khɔ̌ɔng thəə sà-mə̌ə",
+      "breakdown": [
+        { "source": "การพักผ่อนในฤดูหนาวจะเป็นสถานที่พิเศษในความทรงจำของเธอเสมอ", "target": "the winter retreat would always hold a special place in her memory", "phonetic": "gaan-phák-phɔ̀ɔn nai rʉ́-duu-nǎao jà bpen sà-thǎan-thîi phí-sèet nai khwaam-song-jam khɔ̌ɔng thəə sà-mə̌ə", "partOfSpeech": "clause" }
+      ]
+    }
+  ],
+  "createdAt": "2025-09-30T20:31:00Z",
+  "updatedAt": "2025-09-30T20:31:00Z",
+  "difficulty": "advanced",
+  "summary": "การพักผ่อนของปรียาในเทือกเขาแอลป์และการค้นพบความชัดเจนในชีวิต"
+}

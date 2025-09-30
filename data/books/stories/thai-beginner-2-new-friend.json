@@ -10,7 +10,7 @@
     {
       "source": "เมื่อวานนี้ ฉันได้พบเพื่อนใหม่ที่สวนสาธารณะ",
       "target": "Yesterday, I met a new friend at the park.",
-      "phonetic": "mûea waan níi chǎn dâai phôhb pûeon mai thîi sǔan sà-tha-raṇa",
+      "phonetic": "mûea waan níi chǎn dâai phôhb pûeon mai thîi sǔan sǎa-tha-ra-ná",
       "breakdown": [
         {
           "source": "เมื่อวานนี้",
@@ -57,14 +57,14 @@
         {
           "source": "สวนสาธารณะ",
           "target": "park",
-          "phonetic": "sǔan sà-tha-raṇa",
+          "phonetic": "sǔan sǎa-tha-ra-ná",
           "partOfSpeech": "noun"
         }
       ]
     },
     {
       "source": "คุณชื่ออะไรครับ",
-      "target": "What is your name? I asked him.",
+      "target": "What is your name?",
       "phonetic": "khun chûue à-rai khráp",
       "breakdown": [
         {
@@ -150,7 +150,7 @@
     },
     {
       "source": "ยินดีที่ได้รู้จักครับ เลโอ",
-      "target": "Nice to meet you, Leo! I said happily.",
+      "target": "Nice to meet you, Leo!",
       "phonetic": "yin dee thîi dâai rúu jàk khráp le-o",
       "breakdown": [
         {
@@ -193,7 +193,7 @@
     },
     {
       "source": "คุณเกิดที่ไหนครับ",
-      "target": "Where were you born? he asked me.",
+      "target": "Where were you born?",
       "phonetic": "khun gèrt thîi nǎi khráp",
       "breakdown": [
         {
@@ -297,8 +297,8 @@
     },
     {
       "source": "คุณชอบสวนสาธารณะไหมครับ",
-      "target": "Do you like the park? I asked.",
-      "phonetic": "khun châwp sǔan sà-tha-raṇa mǎi khráp",
+      "target": "Do you like the park?",
+      "phonetic": "khun châwp sǔan sǎa-tha-ra-ná mǎi khráp",
       "breakdown": [
         {
           "source": "คุณ",
@@ -315,7 +315,7 @@
         {
           "source": "สวนสาธารณะ",
           "target": "park",
-          "phonetic": "sǔan sà-tha-raṇa",
+          "phonetic": "sǔan sǎa-tha-ra-ná",
           "partOfSpeech": "noun"
         },
         {
@@ -535,8 +535,8 @@
     },
     {
       "source": "พรุ่งนี้คุณจะมาสวนสาธารณะไหมครับ",
-      "target": "Will you come to the park tomorrow? I asked.",
-      "phonetic": "phrung níi khun jà maa sǔan sà-tha-raṇa mǎi khráp",
+      "target": "Will you come to the park tomorrow?",
+      "phonetic": "phrung níi khun jà maa sǔan sǎa-tha-ra-ná mǎi khráp",
       "breakdown": [
         {
           "source": "พรุ่งนี้",
@@ -565,7 +565,7 @@
         {
           "source": "สวนสาธารณะ",
           "target": "park",
-          "phonetic": "sǔan sà-tha-raṇa",
+          "phonetic": "sǔan sǎa-tha-ra-ná",
           "partOfSpeech": "noun"
         },
         {
@@ -584,7 +584,7 @@
     },
     {
       "source": "ใช่ ฉันจะมา และเราสามารถเล่นกันได้",
-      "target": "Yes, I will come, and we can play! he said.",
+      "target": "Yes, I will come, and we can play!",
       "phonetic": "châi chǎn jà maa láe rao sǎa-mâat lèn kan dâai",
       "breakdown": [
         {

@@ -1,0 +1,135 @@
+{
+  "storyId": "thai-advanced-1-the-art-of-baking",
+  "bookId": "thai-advanced-1",
+  "language": "th",
+  "title": {
+    "source": "ศิลปะการทำขนม",
+    "target": "The Art of Baking"
+  },
+  "sentences": [
+    {
+      "source": "ในครัวที่อบอุ่น มาเรียได้พัฒนาฝีมือการทำขนมของเธออย่างสมบูรณ์แบบ ท่ามกลางกลิ่นหอมของวานิลลาและอบเชย",
+      "target": "In a cozy kitchen, Maria perfected her craft of baking, surrounded by the aroma of vanilla and cinnamon.",
+      "phonetic": "nai khrua thîi òp-ùn maa-rii-aa dâi phát-thá-naa fǐi-mʉʉ gaan tham khà-nǒm khɔ̌ɔng thəə yàang sǒm-buun-bɛ̀ɛp thâam-glaang glìn-hɔ̌ɔm khɔ̌ɔng waa-nin-laa láe òp-chəəi",
+      "breakdown": []
+    },
+    {
+      "source": "เธอใช้เวลาหลายปีในการทดลองสูตรอาหาร เปลี่ยนวัตถุดิบธรรมดาให้กลายเป็นผลงานที่น่ารับประทาน",
+      "target": "She had spent years experimenting with recipes, transforming simple ingredients into delightful creations.",
+      "phonetic": "thəə chái wee-laa lǎai bpii nai gaan thót-lɔɔng sùut-aa-hǎan bplìian wát-thù-dìp tham-má-daa hâi glaai-bpen phǒn-ngaan thîi nâa ráp-bprà-thaan",
+      "breakdown": []
+    },
+    {
+      "source": "ความเชี่ยวชาญของเธอคือเค้กช็อกโกแลตเข้มข้น ซ้อนด้วยกานาชครีมและเบอร์รี่สด",
+      "target": "Her specialty was a rich chocolate cake, layered with creamy ganache and fresh berries.",
+      "phonetic": "khwaam chîao-chaan khɔ̌ɔng thəə kheuu khéek chɔ́k-goo-lɛɛt khêm-khôn sɔ́ɔn dûai gaa-nâat khriim láe bəə-rîi sòt",
+      "breakdown": []
+    },
+    {
+      "source": "ทุกเช้า เธอรวบรวมเครื่องมือของเธอ—ถ้วยตวง ช้อนไม้ และชามผสมที่เธอชื่นชอบ",
+      "target": "Each morning, she gathered her tools—measuring cups, a wooden spoon, and her favorite mixing bowl.",
+      "phonetic": "thúk cháao thəə rûap-ruam khrʉ̂ang-mʉʉ khɔ̌ɔng thəə—thûai dtuang chɔ́ɔn-máai láe chaam phà-sǒm thîi thəə chʉ̂ən-chɔɔp",
+      "breakdown": []
+    },
+    {
+      "source": "เธอเชื่อว่าการทำขนมเป็นเรื่องของความแม่นยำพอๆ กับความคิดสร้างสรรค์",
+      "target": "Baking, she believed, was as much about precision as it was about creativity.",
+      "phonetic": "thəə chʉ̂a wâa gaan tham khà-nǒm bpen rʉ̂ang khɔ̌ɔng khwaam mɛ̂ɛn-yam phɔɔ-phɔɔ gàp khwaam khít sâang-sǎn",
+      "breakdown": []
+    },
+    {
+      "source": "มาเรียร่อนแป้งอย่างระมัดระวังเพื่อให้แน่ใจว่าเค้กจะมีเนื้อสัมผัสที่เบาและนุ่มฟู",
+      "target": "Maria carefully sifted flour to ensure a light, fluffy texture in her cakes.",
+      "phonetic": "maa-rii-aa rɔ̂ɔn bpɛ̂ɛng yàang rá-mát-rá-wang phʉ̂a hâi nɛ̂ɛ-jai wâa khéek jà mii nʉ́a-sǎm-phàt thîi bao láe nûm-fuu",
+      "breakdown": []
+    },
+    {
+      "source": "เธอละลายเนยอย่างช้าๆ มองดูมันเปลี่ยนเป็นสีทองและมีกลิ่นหอม",
+      "target": "She melted butter slowly, watching it turn golden and fragrant.",
+      "phonetic": "thəə lá-laai nəəi yàang cháa-cháa mɔɔng duu man bplìian bpen sǐi thɔɔng láe mii glìn-hɔ̌ɔm",
+      "breakdown": []
+    },
+    {
+      "source": "สมุดสูตรอาหารของคุณยายที่ทรุดโทรมจากการใช้งานหลายปี วางเปิดอยู่บนเคาน์เตอร์",
+      "target": "Her grandmother's recipe book, worn from years of use, sat open on the counter.",
+      "phonetic": "sà-mùt sùut-aa-hǎan khɔ̌ɔng khun-yaai thîi sút-thoo-rom jàak gaan chái-ngaan lǎai bpii waang bpə̀ət yùu bon khao-dtə̂ə",
+      "breakdown": []
+    },
+    {
+      "source": "มันมีบันทึกที่เขียนด้วยลายมือเกี่ยวกับการปรับรสชาติสำหรับฤดูกาลที่แตกต่างกัน",
+      "target": "It contained handwritten notes about adjusting flavors for different seasons.",
+      "phonetic": "man mii ban-thʉ́k thîi khǐan dûai laai-mʉʉ gìeow-gàp gaan bpràp rót-châat sǎm-ràp rʉ́-duu-gaan thîi dtɛ̀ɛk-dtàang-gan",
+      "breakdown": []
+    },
+    {
+      "source": "วันนี้ เธอเพิ่มเปลือกส้มเล็กน้อยลงในแป้ง ได้รับแรงบันดาลใจจากการเดินทางไปสวนส้มเมื่อเร็วๆ นี้",
+      "target": "Today, she added a hint of orange zest to her batter, inspired by a recent trip to a citrus orchard.",
+      "phonetic": "wan-níi thəə phə̂əm bplʉ̀ak sôm lék-nɔ́ɔi long nai bpɛ̂ɛng dâi ráp rɛɛng-ban-daan-jai jàak gaan dəən-thaang bpai sǔan-sôm mʉ̂a reo-reo níi",
+      "breakdown": []
+    },
+    {
+      "source": "ขณะที่เตาอบอุ่นขึ้น เธอฮัมเพลงเบาๆ หลงใหลในจังหวะของงานของเธอ",
+      "target": "As the oven preheated, she hummed a soft tune, lost in the rhythm of her work.",
+      "phonetic": "khà-nà thîi dtao òp-ùn-khʉ̂n thəə ham phleeng bao-bao lǒng-lǎi nai jang-wà khɔ̌ɔng ngaan khɔ̌ɔng thəə",
+      "breakdown": []
+    },
+    {
+      "source": "เค้กอบอย่างช้าๆ เติมเต็มบ้านด้วยกลิ่นหอมที่อบอุ่นและเชิญชวน",
+      "target": "The cake baked slowly, filling the house with a warm, inviting scent.",
+      "phonetic": "khéek òp yàang cháa-cháa dtə̀əm-dtèm bâan dûai glìn-hɔ̌ɔm thîi òp-ùn láe chəən-chuuan",
+      "breakdown": []
+    },
+    {
+      "source": "เพื่อนๆ ของมาเรียมักจะมารวมตัวกันในครัวของเธอ กระตือรือร้นที่จะได้ลิ้มรสผลงานล่าสุดของเธอ",
+      "target": "Maria's friends often gathered in her kitchen, eager to taste her latest creation.",
+      "phonetic": "phʉ̂an-phʉ̂an khɔ̌ɔng maa-rii-aa mák jà maa ruam-dtua-gan nai khrua khɔ̌ɔng thəə grà-dtʉʉ-rʉʉ-rɔ́ɔn thîi jà dâi lím-rót phǒn-ngaan lâa-sùt khɔ̌ɔng thəə",
+      "breakdown": []
+    },
+    {
+      "source": "พวกเขาชื่นชมความสามารถของเธอในการสร้างสมดุลระหว่างความหวานกับรสชาติที่ละเอียดอ่อน",
+      "target": "They praised her ability to balance sweetness with subtle flavors.",
+      "phonetic": "phûak-kháo chʉ̂ən-chom khwaam-sǎa-mâat khɔ̌ɔng thəə nai gaan sâang sǒm-dun rá-wàang khwaam-wǎan gàp rót-châat thîi lá-ìat-ɔ̀ɔn",
+      "breakdown": []
+    },
+    {
+      "source": "เธอยิ้ม อธิบายว่าการทำขนมคือวิธีของเธอในการแบ่งปันความรัก",
+      "target": "She smiled, explaining that baking was her way of sharing love.",
+      "phonetic": "thəə yím à-thí-baai wâa gaan tham khà-nǒm kheuu wí-thii khɔ̌ɔng thəə nai gaan bɛ̀ng-bpan khwaam-rák",
+      "breakdown": []
+    },
+    {
+      "source": "หลังจากเค้กเย็นลง เธอตกแต่งมันด้วยลวดลายครีมที่ละเอียดอ่อน",
+      "target": "After the cake cooled, she decorated it with delicate swirls of frosting.",
+      "phonetic": "lǎng-jàak khéek yen-long thəə dtòk-dtɛ̀ɛng man dûai lûat-laai khriim thîi lá-ìat-ɔ̀ɔn",
+      "breakdown": []
+    },
+    {
+      "source": "เพื่อนๆ มาถึงพอดีกับที่เธอหั่นชิ้นแรก ตาของพวกเขาเบิกกว้างด้วยความคาดหวัง",
+      "target": "Her friends arrived just as she sliced the first piece, their eyes wide with anticipation.",
+      "phonetic": "phʉ̂an-phʉ̂an maa thʉ̌ng phɔɔ-dii gàp thîi thəə hàn chín-rɛ̂ɛk dtaa khɔ̌ɔng phûak-kháo bə̀ək-gwâang dûai khwaam-khâat-wǎng",
+      "breakdown": []
+    },
+    {
+      "source": "เค้กประสบความสำเร็จ เนื้อสัมผัสที่ชุ่มฉ่ำทำให้ทุกคนอุทานด้วยความปีติยินดี",
+      "target": "The cake was a success, its moist texture earning gasps of delight.",
+      "phonetic": "khéek bprà-sòp khwaam-sǎm-rèt nʉ́a-sǎm-phàt thîi chûm-chàm tham hâi thúk-khon ù-thaan dûai khwaam bpii-dtì-yin-dii",
+      "breakdown": []
+    },
+    {
+      "source": "มาเรียรู้สึกภาคภูมิใจอย่างมาก แต่ยังคงถ่อมตัว วางแผนสูตรใหม่ของเธออยู่แล้ว",
+      "target": "Maria felt a surge of pride but remained humble, already planning her next recipe.",
+      "phonetic": "maa-rii-aa rúu-sʉ̀k phâak-phuum-jai yàang mâak dtɛ̀ɛ yang khong thɔ̀m-dtua waang-phɛ̌ɛn sùut mài khɔ̌ɔng thəə yùu lɛ́ɛw",
+      "breakdown": []
+    },
+    {
+      "source": "การทำขนม สำหรับเธอ คือความหลงใหลตลอดชีวิตที่นำผู้คนมารวมกัน",
+      "target": "Baking, for her, was a lifelong passion that brought people together.",
+      "phonetic": "gaan tham khà-nǒm sǎm-ràp thəə kheuu khwaam lǒng-lǎi dtà-lɔ̀ɔt chii-wít thîi nam phûu-khon maa ruam-gan",
+      "breakdown": []
+    }
+  ],
+  "createdAt": "2025-09-30T20:22:00Z",
+  "updatedAt": "2025-09-30T20:22:00Z",
+  "difficulty": "advanced",
+  "summary": "ศิลปะการทำขนมของมาเรีย ความหลงใหลและการแบ่งปันความรักผ่านการทำขนม"
+}

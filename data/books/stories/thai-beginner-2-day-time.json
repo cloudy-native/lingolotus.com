@@ -70,7 +70,7 @@
     },
     {
       "source": "คุณทานข้าวเช้าเวลาไหนครับ",
-      "target": "What time do you eat breakfast? my friend asked.",
+      "target": "What time do you eat breakfast?",
       "phonetic": "khun thaan khâao châao wa-la nǎi khráp",
       "breakdown": [
         {
@@ -241,7 +241,7 @@
     },
     {
       "source": "คุณเรียนหนักไหมครับ",
-      "target": "Do you study a lot? my friend asked me.",
+      "target": "Do you study a lot?",
       "phonetic": "khun rian nák mǎi khráp",
       "breakdown": [
         {
@@ -363,7 +363,7 @@
     },
     {
       "source": "คุณเล่นกีฬาเวลาไหนครับ",
-      "target": "What time do you play? he asked curiously.",
+      "target": "What time do you play?",
       "phonetic": "khun lèn gîl-daa wa-la nǎi khráp",
       "breakdown": [
         {
@@ -522,7 +522,7 @@
     },
     {
       "source": "คุณเข้านอนเวลาไหนครับ",
-      "target": "When do you sleep? my friend asked me.",
+      "target": "When do you sleep?",
       "phonetic": "khun khâo nɔɔn wa-la nǎi khráp",
       "breakdown": [
         {

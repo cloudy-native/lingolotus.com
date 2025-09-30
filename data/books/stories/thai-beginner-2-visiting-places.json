@@ -64,7 +64,7 @@
     },
     {
       "source": "คุณเห็นอะไรที่สวนสัตว์ครับ",
-      "target": "What did you see at the zoo? my cousin asked.",
+      "target": "What did you see at the zoo?",
       "phonetic": "khun hěn à-rai thîi sǔan sàt-dtâa khráp",
       "breakdown": [
         {
@@ -150,7 +150,7 @@
     },
     {
       "source": "สัตว์ใหญ่ไหมครับ",
-      "target": "Were the animals big? my cousin asked me.",
+      "target": "Were the animals big?",
       "phonetic": "sàt-dtâa yài mǎi khráp",
       "breakdown": [
         {
@@ -224,7 +224,7 @@
     },
     {
       "source": "คุณชอบสวนสัตว์ไหมครับ",
-      "target": "Do you like the zoo? I asked my cousin.",
+      "target": "Do you like the zoo?",
       "phonetic": "khun châwp sǔan sàt-dtâa mǎi khráp",
       "breakdown": [
         {
@@ -347,7 +347,7 @@
     },
     {
       "source": "พิพิธภัณฑ์มีอะไรครับ",
-      "target": "What is in the museum? my cousin asked.",
+      "target": "What is in the museum?",
       "phonetic": "pí-pít-thá-phan-dtù mee à-rai khráp",
       "breakdown": [
         {

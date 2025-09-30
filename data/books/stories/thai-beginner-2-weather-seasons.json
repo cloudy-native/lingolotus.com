@@ -64,7 +64,7 @@
     },
     {
       "source": "คุณทำอะไรในวันที่มีแดดครับ",
-      "target": "What do you do on sunny days? my friend asked.",
+      "target": "What do you do on sunny days?",
       "phonetic": "khun tham à-rai nai wan thîi mee daan khráp",
       "breakdown": [
         {
@@ -126,7 +126,7 @@
     {
       "source": "ฉันไปสวนสาธารณะและเล่นบอล",
       "target": "I go to the park and play with my ball.",
-      "phonetic": "chǎn bpai sǔan sà-tha-raṇa láe lèn baan",
+      "phonetic": "chǎn bpai sǔan sǎa-tha-ra-ná láe lèn baan",
       "breakdown": [
         {
           "source": "ฉัน",
@@ -143,7 +143,7 @@
         {
           "source": "สวนสาธารณะ",
           "target": "park",
-          "phonetic": "sǔan sà-tha-raṇa",
+          "phonetic": "sǔan sǎa-tha-ra-ná",
           "partOfSpeech": "noun"
         },
         {
@@ -247,7 +247,7 @@
     },
     {
       "source": "คุณชอบฝนไหมครับ",
-      "target": "Do you like rain? I asked my friend.",
+      "target": "Do you like rain?",
       "phonetic": "khun châwp fon mǎi khráp",
       "breakdown": [
         {
@@ -339,7 +339,7 @@
     },
     {
       "source": "ฤดูโปรดของคุณคืออะไรครับ",
-      "target": "What is your favorite season? I asked him.",
+      "target": "What is your favorite season?",
       "phonetic": "rûu prɔ̂ɔt khǎwng khun kheuu à-rai khráp",
       "breakdown": [
         {
@@ -522,7 +522,7 @@
     },
     {
       "source": "ฤดูใบไม้เปลี่ยนสีสวยไหมครับ",
-      "target": "Is autumn beautiful? my friend asked me.",
+      "target": "Is autumn beautiful?",
       "phonetic": "rûu bai mâai bplîian sǐi sǔai mǎi khráp",
       "breakdown": [
         {

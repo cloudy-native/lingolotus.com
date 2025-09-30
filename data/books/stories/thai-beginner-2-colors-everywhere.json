@@ -64,7 +64,7 @@
     },
     {
       "source": "สีโปรดของคุณคืออะไรครับ",
-      "target": "What is your favorite color? my friend asked.",
+      "target": "What is your favorite color?",
       "phonetic": "sǐi prɔ̂ɔt khǎwng khun kheuu à-rai khráp",
       "breakdown": [
         {
@@ -223,7 +223,7 @@
     },
     {
       "source": "ท้องฟ้าเป็นสีอะไรในวันนี้ครับ",
-      "target": "What color is the sky today? I asked him.",
+      "target": "What color is the sky today?",
       "phonetic": "thɔ̌ɔng faa pen sǐi à-rai nai wan níi khráp",
       "breakdown": [
         {
@@ -327,7 +327,7 @@
     },
     {
       "source": "คุณชอบดอกไม้สีเหลืองไหมครับ",
-      "target": "Do you like yellow flowers? my friend asked.",
+      "target": "Do you like yellow flowers?",
       "phonetic": "khun châwp dòk mâai sǐi lǔeng mǎi khráp",
       "breakdown": [
         {
@@ -486,7 +486,7 @@
     },
     {
       "source": "การวาดภาพสนุกไหมครับ",
-      "target": "Was it fun to paint? he asked me.",
+      "target": "Was it fun to paint?",
       "phonetic": "gaan wâat phâap sà-núk mǎi khráp",
       "breakdown": [
         {

@@ -76,7 +76,7 @@
     },
     {
       "source": "มีใครบ้างในครอบครัวของคุณครับ",
-      "target": "Who is in your family? my friend asked.",
+      "target": "Who is in your family?",
       "phonetic": "mee kraai bâang nai khraawp khrua khǎwng khun khráp",
       "breakdown": [
         {
@@ -265,7 +265,7 @@
     },
     {
       "source": "ชื่อของน้องชายคุณคืออะไรครับ",
-      "target": "What is your brother's name? my friend asked.",
+      "target": "What is your brother's name?",
       "phonetic": "chûue khǎwng awng chai khun kheuu à-rai khráp",
       "breakdown": [
         {
@@ -424,7 +424,7 @@
     },
     {
       "source": "คุณมียายหรือไม่ครับ",
-      "target": "Do you have a grandmother? I asked my friend.",
+      "target": "Do you have a grandmother?",
       "phonetic": "khun mee yaai rǔu mâai khráp",
       "breakdown": [
         {
@@ -595,7 +595,7 @@
     },
     {
       "source": "คุณไปเยี่ยมครอบครัวบ่อยๆ ไหมครับ",
-      "target": "Do you visit your family often? I asked.",
+      "target": "Do you visit your family often?",
       "phonetic": "khun bpai yîiam khraawp khrua bɔ̀ɔi bɔ̀ɔi mǎi khráp",
       "breakdown": [
         {

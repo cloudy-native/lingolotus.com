@@ -1,0 +1,135 @@
+{
+  "storyId": "thai-advanced-1-the-street-artist",
+  "bookId": "thai-advanced-1",
+  "language": "th",
+  "title": {
+    "source": "ศิลปินริมถนน",
+    "target": "The Street Artist"
+  },
+  "sentences": [
+    {
+      "source": "บนถนนที่พลุกพล่านในปารีส อามีร์วาดภาพจิตรกรรมฝาผนังที่จับจิตวิญญาณของเมือง",
+      "target": "On a busy street in Paris, Amir painted murals that captured the city's soul.",
+      "phonetic": "bon thà-nǒn thîi phlúk-phlân nai bpaa-rîit aa-miia wâat phâap jìt-dtrà-gam fǎa-phà-nǎng thîi jàp jìt-wí-yaan khɔ̌ɔng mʉang",
+      "breakdown": []
+    },
+    {
+      "source": "โครงการล่าสุดของเขาคือฉากที่มีชีวิตชีวาของคาเฟ่ที่พลุกพล่าน วาดบนผนังอิฐ",
+      "target": "His latest project was a vibrant scene of a bustling café, drawn on a brick wall.",
+      "phonetic": "khroo-gaan lâa-sùt khɔ̌ɔng kháo kheuu chàak thîi mii chii-wít-chii-waa khɔ̌ɔng khaa-fée thîi phlúk-phlân wâat bon phà-nǎng ìt",
+      "breakdown": []
+    },
+    {
+      "source": "คนเดินผ่านหยุดดู หลงใหลในการลากพู่กันที่รวดเร็วของเขา",
+      "target": "Passersby stopped to watch, mesmerized by his swift brushstrokes.",
+      "phonetic": "khon-dəən-phàan yùt duu lǒng-lǎi nai gaan lâak phûu-gan thîi rûat-reo khɔ̌ɔng kháo",
+      "breakdown": []
+    },
+    {
+      "source": "อามีร์ ศิลปินที่สอนตัวเอง ใช้เวลาหลายปีในการพัฒนาฝีมือของเขา",
+      "target": "Amir, a self-taught artist, had spent years perfecting his craft.",
+      "phonetic": "aa-miia sǐn-là-bpin thîi sɔ̌ɔn dtua-eeng chái wee-laa lǎai bpii nai gaan phát-thá-naa fǐi-mʉʉ khɔ̌ɔng kháo",
+      "breakdown": []
+    },
+    {
+      "source": "เขาผสมสีอย่างระมัดระวัง สร้างเฉดสีที่เปล่งประกายในแสงแดด",
+      "target": "He mixed colors carefully, creating shades that glowed in the sunlight.",
+      "phonetic": "kháo phà-sǒm sǐi yàang rá-mát-rá-wang sâang chèet-sǐi thîi bplèng-bprà-gaai nai sɛ̌ɛng-dɛ̀ɛt",
+      "breakdown": []
+    },
+    {
+      "source": "นักท่องเที่ยวถามเกี่ยวกับแรงบันดาลใจของเขา และเขาชี้ไปที่เมืองรอบตัวเขา",
+      "target": "A tourist asked about his inspiration, and he pointed to the city around him.",
+      "phonetic": "nák-thɔ̂ng-thîao thǎam gìeow-gàp rɛɛng-ban-daan-jai khɔ̌ɔng kháo láe kháo chíi bpai thîi mʉang rɔ̂ɔp-dtua kháo",
+      "breakdown": []
+    },
+    {
+      "source": "ปารีส ด้วยประวัติศาสตร์และเสน่ห์ เติมเต็มความคิดสร้างสรรค์ของเขา",
+      "target": "Paris, with its history and charm, fueled his creativity.",
+      "phonetic": "bpaa-rîit dûai bprà-wàt-sàat láe sà-nèe dtə̀əm-dtèm khwaam-khít-sâang-sǎn khɔ̌ɔng kháo",
+      "breakdown": []
+    },
+    {
+      "source": "เขาทำงานตั้งแต่รุ่งอรุณจนถึงพลบค่ำ เพิกเฉยต่อความเจ็บปวดในแขนของเขา",
+      "target": "He worked from dawn to dusk, ignoring the ache in his arms.",
+      "phonetic": "kháo tham-ngaan dtâng-dtɛ̀ɛ rûng-à-run jon thʉ̌ng phlóp-khâm phə̀ək-chə̌əi dtɔ̀ɔ khwaam-jèp-bpùat nai khɛ̌ɛn khɔ̌ɔng kháo",
+      "breakdown": []
+    },
+    {
+      "source": "คนท้องถิ่นนำกาแฟมาให้เขา ขอบคุณสำหรับการมีส่วนร่วมของเขาในย่านของพวกเขา",
+      "target": "Locals brought him coffee, grateful for his contribution to their neighborhood.",
+      "phonetic": "khon-thɔ́ɔng-thìn nam gaa-fɛɛ maa hâi kháo khɔ̀ɔp-khun sǎm-ràp gaan mii-sùan-rûam khɔ̌ɔng kháo nai yâan khɔ̌ɔng phûak-kháo",
+      "breakdown": []
+    },
+    {
+      "source": "ภาพจิตรกรรมฝาผนังของอามีร์เล่าเรื่องราว—ของความรัก การต่อสู้ และความหวัง",
+      "target": "Amir's murals told stories—of love, struggle, and hope.",
+      "phonetic": "phâap-jìt-dtrà-gam-fǎa-phà-nǎng khɔ̌ɔng aa-miia lâo rʉ̂ang-raao—khɔ̌ɔng khwaam-rák gaan-dtɔ̀ɔ-sûu láe khwaam-wǎng",
+      "breakdown": []
+    },
+    {
+      "source": "เขาเคยวาดภาพเหมือนของหญิงชราที่มาที่ถนนบ่อยๆ",
+      "target": "He once painted a portrait of an elderly woman who frequented the street.",
+      "phonetic": "kháo khəəi wâat phâap-mʉ̌an khɔ̌ɔng yǐng-chraa thîi maa thîi thà-nǒn bɔ̀ɔi-bɔ̀ɔi",
+      "breakdown": []
+    },
+    {
+      "source": "เธอร้องไห้เมื่อเห็นมัน ซาบซึ้งในท่าทาง",
+      "target": "She cried when she saw it, touched by the gesture.",
+      "phonetic": "thəə rɔ́ɔng-hâi mʉ̂a hěn man sâap-sʉ́ng nai thâa-thaang",
+      "breakdown": []
+    },
+    {
+      "source": "อามีร์รู้สึกเติมเต็ม รู้ว่าศิลปะของเขาเชื่อมโยงผู้คน",
+      "target": "Amir felt fulfilled, knowing his art connected people.",
+      "phonetic": "aa-miia rúu-sʉ̀k dtə̀əm-dtèm rúu wâa sǐn-là-bpà khɔ̌ɔng kháo chʉ̂am-yoong phûu-khon",
+      "breakdown": []
+    },
+    {
+      "source": "เขาฝันที่จะแสดงผลงานของเขาในหอศิลป์สักวันหนึ่ง",
+      "target": "He dreamed of exhibiting his work in a gallery someday.",
+      "phonetic": "kháo fǎn thîi jà sà-dɛɛng phǒn-ngaan khɔ̌ɔng kháo nai hɔ̌ɔ-sǐn sàk-wan-nʉ̀ng",
+      "breakdown": []
+    },
+    {
+      "source": "ภัณฑารักษ์สังเกตเห็นความสามารถของเขาและเสนอการแสดงเล็กๆ ให้เขา",
+      "target": "A curator noticed his talent and offered him a small show.",
+      "phonetic": "phan-thaa-rák sǎng-gèt-hěn khwaam-sǎa-mâat khɔ̌ɔng kháo láe sà-nə̌ə gaan-sà-dɛɛng lék-lék hâi kháo",
+      "breakdown": []
+    },
+    {
+      "source": "อามีร์เตรียมการอย่างไม่รู้จักเหน็ดเหนื่อย เลือกชิ้นงานที่ดีที่สุดของเขา",
+      "target": "Amir prepared tirelessly, selecting his best pieces.",
+      "phonetic": "aa-miia dtrìiam-gaan yàang mâi rúu-jàk nèt-nʉ̀ai lʉ̂ak chín-ngaan thîi dii-thîi-sùt khɔ̌ɔng kháo",
+      "breakdown": []
+    },
+    {
+      "source": "นิทรรศการประสบความสำเร็จ ดึงดูดฝูงชนจากทั่วเมือง",
+      "target": "The exhibition was a success, drawing crowds from across the city.",
+      "phonetic": "ní-thát-sà-gaan bprà-sòp khwaam-sǎm-rèt dʉng-dùut fǔung-chon jàak thûa mʉang",
+      "breakdown": []
+    },
+    {
+      "source": "เขารู้สึกประหม่าแต่ภาคภูมิใจ ยืนอยู่ท่ามกลางผลงานของเขา",
+      "target": "He felt nervous but proud, standing among his creations.",
+      "phonetic": "kháo rúu-sʉ̀k bprà-màa dtɛ̀ɛ phâak-phuum-jai yʉʉn yùu thâam-glaang phǒn-ngaan khɔ̌ɔng kháo",
+      "breakdown": []
+    },
+    {
+      "source": "ปารีสได้หล่อหลอมเขา และเขากำลังหล่อหลอมถนนของมัน",
+      "target": "Paris had shaped him, and he was shaping its streets.",
+      "phonetic": "bpaa-rîit dâi lɔ̀ɔ-lɔ̌m kháo láe kháo gam-lang lɔ̀ɔ-lɔ̌m thà-nǒn khɔ̌ɔng man",
+      "breakdown": []
+    },
+    {
+      "source": "อามีร์ยังคงวาดภาพต่อไป รู้ว่าแต่ละภาพจิตรกรรมฝาผนังเป็นของขวัญให้กับโลก",
+      "target": "Amir continued painting, knowing each mural was a gift to the world.",
+      "phonetic": "aa-miia yang-khong wâat-phâap dtɔ̀ɔ-bpai rúu wâa dtɛ̀ɛ-lá-phâap-jìt-dtrà-gam-fǎa-phà-nǎng bpen khɔ̌ɔng-khwǎn hâi gàp lôok",
+      "breakdown": []
+    }
+  ],
+  "createdAt": "2025-09-30T20:31:00Z",
+  "updatedAt": "2025-09-30T20:31:00Z",
+  "difficulty": "advanced",
+  "summary": "ศิลปินริมถนนอามีร์ในปารีสและการแสดงออกผ่านภาพจิตรกรรมฝาผนัง"
+}

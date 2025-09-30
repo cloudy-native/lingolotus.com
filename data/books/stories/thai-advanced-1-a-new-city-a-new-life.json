@@ -1,0 +1,217 @@
+{
+  "storyId": "thai-advanced-1-a-new-city-a-new-life",
+  "bookId": "thai-advanced-1",
+  "language": "th",
+  "title": {
+    "source": "เมืองใหม่ ชีวิตใหม่",
+    "target": "A New City, A New Life"
+  },
+  "sentences": [
+    {
+      "source": "เมื่อเจมส์ย้ายไปโตเกียว เขาไม่ได้เตรียมพร้อมสำหรับพายุอารมณ์ที่ตามมา",
+      "target": "When James moved to Tokyo, he wasn't prepared for the whirlwind of emotions that followed.",
+      "phonetic": "mʉ̂a jeem yáai bpai dtoo-giiao kháo mâi dâi dtrìiam-phrɔ́ɔm sǎm-ràp phaa-yú aa-rom thîi dtaam-maa",
+      "breakdown": [
+        { "source": "เมื่อเจมส์ย้ายไปโตเกียว", "target": "when James moved to Tokyo", "phonetic": "mʉ̂a jeem yáai bpai dtoo-giiao", "partOfSpeech": "clause" },
+        { "source": "เขาไม่ได้เตรียมพร้อม", "target": "he wasn't prepared", "phonetic": "kháo mâi dâi dtrìiam-phrɔ́ɔm", "partOfSpeech": "verb phrase" },
+        { "source": "สำหรับพายุอารมณ์", "target": "for the whirlwind of emotions", "phonetic": "sǎm-ràp phaa-yú aa-rom", "partOfSpeech": "prepositional phrase" },
+        { "source": "ที่ตามมา", "target": "that followed", "phonetic": "thîi dtaam-maa", "partOfSpeech": "relative clause" }
+      ]
+    },
+    {
+      "source": "พลังงานที่มีชีวิตชีวาของเมือง ด้วยไฟนีออนและถนนที่แออัด ทั้งน่าตื่นเต้นและครอบงำ",
+      "target": "The city's vibrant energy, with its neon lights and crowded streets, was both thrilling and overwhelming.",
+      "phonetic": "phlang-ngaan thîi mii chii-wít-chii-waa khɔ̌ɔng mʉang dûai fai-nii-ɔɔn láe thà-nǒn thîi ɛɛ-át tháng nâa-dtʉ̀ʉn-dtên láe khrɔɔp-ngam",
+      "breakdown": [
+        { "source": "พลังงาน", "target": "the city's energy", "phonetic": "phlang-ngaan", "partOfSpeech": "noun" },
+        { "source": "ที่มีชีวิตชีวา", "target": "vibrant", "phonetic": "thîi mii chii-wít-chii-waa", "partOfSpeech": "adjective" },
+        { "source": "ของเมือง", "target": "of the city", "phonetic": "khɔ̌ɔng mʉang", "partOfSpeech": "prepositional phrase" },
+        { "source": "ด้วยไฟนีออน", "target": "with its neon lights", "phonetic": "dûai fai-nii-ɔɔn", "partOfSpeech": "prepositional phrase" },
+        { "source": "และถนนที่แออัด", "target": "and crowded streets", "phonetic": "láe thà-nǒn thîi ɛɛ-át", "partOfSpeech": "prepositional phrase" },
+        { "source": "ทั้งน่าตื่นเต้นและครอบงำ", "target": "was both thrilling and overwhelming", "phonetic": "tháng nâa-dtʉ̀ʉn-dtên láe khrɔɔp-ngam", "partOfSpeech": "prepositional phrase" }
+      ]
+    },
+    {
+      "source": "เขาออกจากเมืองเล็กๆ ที่เงียบสงบในไอร์แลนด์ ที่ซึ่งชีวิตเคลื่อนไหวด้วยจังหวะที่ช้ากว่า",
+      "target": "He had left a quiet town in Ireland, where life moved at a slower pace.",
+      "phonetic": "kháo ɔ̀ɔk jàak mʉang lék-lék thîi ngîap sà-ngòp nai ai-lɛɛn thîi sʉ̂ng chii-wít khlʉ̂an-wǎi dûai jang-wà thîi cháa gwàa",
+      "breakdown": [
+        { "source": "เขาออกจากเมืองเล็กๆ", "target": "He had left a quiet town", "phonetic": "kháo ɔ̀ɔk jàak mʉang lék-lék", "partOfSpeech": "clause" },
+        { "source": "ที่เงียบสงบ", "target": "where life moved at a slower pace", "phonetic": "thîi ngîap sà-ngòp", "partOfSpeech": "relative clause" },
+        { "source": "ในไอร์แลนด์", "target": "in Ireland", "phonetic": "nai ai-lɛɛn", "partOfSpeech": "prepositional phrase" },
+        { "source": "ที่ซึ่งชีวิตเคลื่อนไหวด้วยจังหวะที่ช้ากว่า", "target": "where life moved at a slower pace", "phonetic": "thîi sʉ̂ng chii-wít khlʉ̂an-wǎi dûai jang-wà thîi cháa gwàa", "partOfSpeech": "relative clause" }
+      ]
+    },
+    {
+      "source": "อพาร์ตเมนต์ใหม่ของเขาแม้จะเล็ก แต่มองเห็นถนนที่พลุกพล่านซึ่งเต็มไปด้วยต้นซากุระ",
+      "target": "His new apartment, though small, overlooked a bustling street lined with cherry blossom trees.",
+      "phonetic": "à-phâat-mén mài khɔ̌ɔng kháo mɛ́ɛ jà lék dtɛ̀ɛ mɔɔng-hěn thà-nǒn thîi phlúk-phlân sʉ̂ng dtèm bpai dûai dtôn saa-gù-raa",
+      "breakdown": [
+        { "source": "อพาร์ตเมนต์ใหม่ของเขา", "target": "his new apartment", "phonetic": "à-phâat-mén mài khɔ̌ɔng kháo", "partOfSpeech": "noun phrase" },
+        { "source": "แม้จะเล็ก", "target": "though small", "phonetic": "mɛ́ɛ jà lék", "partOfSpeech": "concessive clause" },
+        { "source": "แต่มองเห็นถนนที่พลุกพล่าน", "target": "overlooked a bustling street", "phonetic": "dtɛ̀ɛ mɔɔng-hěn thà-nǒn thîi phlúk-phlân", "partOfSpeech": "verb phrase" },
+        { "source": "ซึ่งเต็มไปด้วยต้นซากุระ", "target": "lined with cherry blossom trees", "phonetic": "sʉ̂ng dtèm bpai dûai dtôn saa-gù-raa", "partOfSpeech": "relative clause" }
+      ]
+    },
+    {
+      "source": "ทุกเช้า เขาจิบกาแฟขณะดูผู้โดยสารเร่งรีบไปยังสถานีรถไฟ",
+      "target": "Each morning, he sipped coffee while watching commuters rush to the train station.",
+      "phonetic": "thúk cháao kháo jìp gaa-fɛɛ khà-nà duu phûu-dooi-sǎan rêng-rîip bpai yang sà-thǎa-nii rót-fai",
+      "breakdown": [
+        { "source": "ทุกเช้า", "target": "each morning", "phonetic": "thúk cháao", "partOfSpeech": "time phrase" },
+        { "source": "เขาจิบกาแฟ", "target": "he sipped coffee", "phonetic": "kháo jìp gaa-fɛɛ", "partOfSpeech": "verb phrase" },
+        { "source": "ขณะดูผู้โดยสารเร่งรีบ", "target": "while watching commuters rush", "phonetic": "khà-nà duu phûu-dooi-sǎan rêng-rîip", "partOfSpeech": "temporal clause" },
+        { "source": "ไปยังสถานีรถไฟ", "target": "to the train station", "phonetic": "bpai yang sà-thǎa-nii rót-fai", "partOfSpeech": "prepositional phrase" }
+      ]
+    },
+    {
+      "source": "การเรียนภาษาญี่ปุ่นพิสูจน์ว่าท้าทาย แต่เขาลงทะเบียนเรียนเพื่อเชื่อมโยงกับคนท้องถิ่น",
+      "target": "Learning Japanese proved challenging, but he enrolled in a language class to connect with locals.",
+      "phonetic": "gaan rian phaa-sǎa yîi-bpùn phí-sùut wâa tháa-thaai dtɛ̀ɛ kháo long-thá-biian rian phʉ̂a chʉ̂am-yoong gàp khon thɔ́ɔng-thìn",
+      "breakdown": [
+        { "source": "การเรียนภาษาญี่ปุ่น", "target": "learning Japanese", "phonetic": "gaan rian phaa-sǎa yîi-bpùn", "partOfSpeech": "noun phrase" },
+        { "source": "พิสูจน์ว่าท้าทาย", "target": "proved challenging", "phonetic": "phí-sùut wâa tháa-thaai", "partOfSpeech": "verb phrase" },
+        { "source": "แต่เขาลงทะเบียนเรียน", "target": "but he enrolled in a language class", "phonetic": "dtɛ̀ɛ kháo long-thá-biian rian", "partOfSpeech": "clause" },
+        { "source": "เพื่อเชื่อมโยงกับคนท้องถิ่น", "target": "to connect with locals", "phonetic": "phʉ̂a chʉ̂am-yoong gàp khon thɔ́ɔng-thìn", "partOfSpeech": "purpose clause" }
+      ]
+    },
+    {
+      "source": "ครูของเขา ไอโกะ สนับสนุนเขาอย่างอดทนให้ฝึกฝนทุกวัน",
+      "target": "His teacher, Aiko, patiently encouraged him to practice daily.",
+      "phonetic": "khruu khɔ̌ɔng kháo ai-gò sà-nàp-sà-nǔn kháo yàang òt-thon hâi fʉ̀k-fǒn thúk-wan",
+      "breakdown": [
+        { "source": "ครูของเขา ไอโกะ", "target": "his teacher, Aiko", "phonetic": "khruu khɔ̌ɔng kháo ai-gò", "partOfSpeech": "noun phrase" },
+        { "source": "สนับสนุนเขาอย่างอดทน", "target": "patiently encouraged him", "phonetic": "sà-nàp-sà-nǔn kháo yàang òt-thon", "partOfSpeech": "verb phrase" },
+        { "source": "ให้ฝึกฝนทุกวัน", "target": "to practice daily", "phonetic": "hâi fʉ̀k-fǒn thúk-wan", "partOfSpeech": "infinitive phrase" }
+      ]
+    },
+    {
+      "source": "เจมส์สะดุดในการสนทนาที่ตลาด ที่ซึ่งพ่อค้ายิ้มให้กับความพยายามของเขา",
+      "target": "James stumbled through conversations at markets, where vendors smiled at his efforts.",
+      "phonetic": "jeem sà-dùt nai gaan sǒn-thá-naa thîi dtà-làat thîi sʉ̂ng phɔ̂ɔ-kháa yím hâi gàp khwaam phá-yaa-yaam khɔ̌ɔng kháo",
+      "breakdown": [
+        { "source": "เจมส์สะดุดในการสนทนา", "target": "James stumbled through conversations", "phonetic": "jeem sà-dùt nai gaan sǒn-thá-naa", "partOfSpeech": "verb phrase" },
+        { "source": "ที่ตลาด", "target": "at markets", "phonetic": "thîi dtà-làat", "partOfSpeech": "prepositional phrase" },
+        { "source": "ที่ซึ่งพ่อค้ายิ้มให้กับความพยายามของเขา", "target": "where vendors smiled at his efforts", "phonetic": "thîi sʉ̂ng phɔ̂ɔ-kháa yím hâi gàp khwaam phá-yaa-yaam khɔ̌ɔng kháo", "partOfSpeech": "relative clause" }
+      ]
+    },
+    {
+      "source": "เมื่อเวลาผ่านไป เขาเริ่มเข้าใจจังหวะของภาษา",
+      "target": "Over time, he began to understand the rhythm of the language.",
+      "phonetic": "mʉ̂a wee-laa phàan-bpai kháo rə̂əm khâo-jai jang-wà khɔ̌ɔng phaa-sǎa",
+      "breakdown": [
+        { "source": "เมื่อเวลาผ่านไป", "target": "Over time", "phonetic": "mʉ̂a wee-laa phàan-bpai", "partOfSpeech": "time phrase" },
+        { "source": "เขาเริ่มเข้าใจจังหวะของภาษา", "target": "he began to understand the rhythm of the language", "phonetic": "kháo rə̂əm khâo-jai jang-wà khɔ̌ɔng phaa-sǎa", "partOfSpeech": "verb phrase" }
+      ]
+    },
+    {
+      "source": "เขาสำรวจวัดและศาลเจ้า ประหลาดใจกับการออกแบบที่ซับซ้อนและสวนที่เงียบสงบ",
+      "target": "He explored temples and shrines, marveling at their intricate designs and peaceful gardens.",
+      "phonetic": "kháo săm-rùat wát láe sǎan-jâo bprà-làat-jai gàp gaan ɔ̀ɔk-bɛ̀ɛp thîi sáp-sɔ́ɔn láe sǔan thîi ngîap-sà-ngòp",
+      "breakdown": [
+        { "source": "เขาสำรวจวัดและศาลเจ้า", "target": "He explored temples and shrines", "phonetic": "kháo săm-rùat wát láe sǎan-jâo", "partOfSpeech": "verb phrase" },
+        { "source": "ประหลาดใจกับการออกแบบที่ซับซ้อน", "target": "marveling at their intricate designs", "phonetic": "bprà-làat-jai gàp gaan ɔ̀ɔk-bɛ̀ɛp thîi sáp-sɔ́ɔn", "partOfSpeech": "verb phrase" },
+        { "source": "และสวนที่เงียบสงบ", "target": "and peaceful gardens", "phonetic": "láe sǔan thîi ngîap-sà-ngòp", "partOfSpeech": "prepositional phrase" }
+      ]
+    },
+    {
+      "source": "วันหยุดสุดสัปดาห์หนึ่ง เขาเข้าร่วมกับชาวต่างชาติในการเดินป่านอกเมือง",
+      "target": "One weekend, he joined expatriates for a hiking trip outside the city.",
+      "phonetic": "wan-yùt sùt-sàp-daa nʉ̀ng kháo khâo-rûam gàp chaao-dtàang-châat nai gaan dəən-bpàa nɔ̂ɔk-mʉang",
+      "breakdown": [
+        { "source": "วันหยุดสุดสัปดาห์หนึ่ง", "target": "One weekend", "phonetic": "wan-yùt sùt-sàp-daa nʉ̀ng", "partOfSpeech": "time phrase" },
+        { "source": "เขาเข้าร่วมกับชาวต่างชาติ", "target": "he joined expatriates", "phonetic": "kháo khâo-rûam gàp chaao-dtàang-châat", "partOfSpeech": "verb phrase" },
+        { "source": "ในการเดินป่านอกเมือง", "target": "for a hiking trip outside the city", "phonetic": "nai gaan dəən-bpàa nɔ̂ɔk-mʉang", "partOfSpeech": "prepositional phrase" }
+      ]
+    },
+    {
+      "source": "พวกเขาแบ่งปันเรื่องราวการปรับตัวของตัวเองในชีวิตในญี่ปุ่น สร้างความผูกพันในทันที",
+      "target": "They shared stories of their own adjustments to life in Japan, forming an instant bond.",
+      "phonetic": "phûak-kháo bɛ̀ng-bpan rʉ̂ang-raao gaan bpràp-dtua khɔ̌ɔng dtua-eeng nai chii-wít nai yîi-bpùn sâang khwaam-phùuk-phan nai than-thii",
+      "breakdown": [
+        { "source": "พวกเขาแบ่งปันเรื่องราวการปรับตัวของตัวเองในชีวิตในญี่ปุ่น", "target": "They shared stories of their own adjustments to life in Japan", "phonetic": "phûak-kháo bɛ̀ng-bpan rʉ̂ang-raao gaan bpràp-dtua khɔ̌ɔng dtua-eeng nai chii-wít nai yîi-bpùn", "partOfSpeech": "verb phrase" },
+        { "source": "สร้างความผูกพันในทันที", "target": "forming an instant bond", "phonetic": "sâang khwaam-phùuk-phan nai than-thii", "partOfSpeech": "verb phrase" }
+      ]
+    },
+    {
+      "source": "เจมส์ค้นพบความรักในซูชิ โดยเฉพาะปลาทูน่าสดที่ร้านอาหารท้องถิ่น",
+      "target": "James discovered a love for sushi, especially fresh tuna at a local restaurant.",
+      "phonetic": "jeem khón-phóp khwaam-rák nai suu-chíi doi-chà-phɔ́ bplaa-thuu-nâa sòt thîi ráan-aa-hǎan thɔ́ɔng-thìn",
+      "breakdown": [
+        { "source": "เจมส์ค้นพบความรักในซูชิ", "target": "James discovered a love for sushi", "phonetic": "jeem khón-phóp khwaam-rák nai suu-chíi", "partOfSpeech": "verb phrase" },
+        { "source": "โดยเฉพาะปลาทูน่าสด", "target": "especially fresh tuna", "phonetic": "doi-chà-phɔ́ bplaa-thuu-nâa sòt", "partOfSpeech": "adverbial phrase" },
+        { "source": "ที่ร้านอาหารท้องถิ่น", "target": "at a local restaurant", "phonetic": "thîi ráan-aa-hǎan thɔ́ɔng-thìn", "partOfSpeech": "prepositional phrase" }
+      ]
+    },
+    {
+      "source": "เขาคิดถึงครอบครัว แต่การโทรวิดีโอทำให้พวกเขาใกล้ชิดแม้จะอยู่ห่างไกล",
+      "target": "He missed his family, but video calls kept them close despite the distance.",
+      "phonetic": "kháo khít-thʉ̌ng khrɔɔp-khrua dtɛ̀ɛ gaan thoo wí-dii-oo tham hâi phûak-kháo glâi-chít mɛ́ɛ jà yùu hàang-glai",
+      "breakdown": [
+        { "source": "เขาคิดถึงครอบครัว", "target": "he missed his family", "phonetic": "kháo khít-thʉ̌ng khrɔɔp-khrua", "partOfSpeech": "verb phrase" },
+        { "source": "แต่การโทรวิดีโอทำให้พวกเขาใกล้ชิด", "target": "but video calls kept them close", "phonetic": "dtɛ̀ɛ gaan thoo wí-dii-oo tham hâi phûak-kháo glâi-chít", "partOfSpeech": "clause" },
+        { "source": "แม้จะอยู่ห่างไกล", "target": "despite the distance", "phonetic": "mɛ́ɛ jà yùu hàang-glai", "partOfSpeech": "concessive phrase" }
+      ]
+    },
+    {
+      "source": "เทศกาลของเมือง ด้วยขบวนพาเหรดที่มีสีสันและดนตรีแบบดั้งเดิม ทำให้เขาหลงใหล",
+      "target": "The city's festivals, with colorful parades and traditional music, captivated him.",
+      "phonetic": "thêet-sà-gaan khɔ̌ɔng mʉang dûai khà-buuan-phaa-rèet thîi mii sǐi-sǎn láe don-dtrii bɛ̀ɛp dtâng-də̀əm tham hâi kháo lǒng-lǎi",
+      "breakdown": [
+        { "source": "เทศกาลของเมือง", "target": "the city's festivals", "phonetic": "thêet-sà-gaan khɔ̌ɔng mʉang", "partOfSpeech": "noun phrase" },
+        { "source": "ด้วยขบวนพาเหรดที่มีสีสันและดนตรีแบบดั้งเดิม", "target": "with colorful parades and traditional music", "phonetic": "dûai khà-buuan-phaa-rèet thîi mii sǐi-sǎn láe don-dtrii bɛ̀ɛp dtâng-də̀əm", "partOfSpeech": "prepositional phrase" },
+        { "source": "ทำให้เขาหลงใหล", "target": "captivated him", "phonetic": "tham hâi kháo lǒng-lǎi", "partOfSpeech": "verb phrase" }
+      ]
+    },
+    {
+      "source": "เขาลองสวมยูกาตะ รู้สึกทั้งตื่นเต้นและอึดอัด",
+      "target": "He tried wearing a yukata, feeling a mix of excitement and awkwardness.",
+      "phonetic": "kháo lɔɔng sǔam yuu-gaa-dtà rúu-sʉ̀k tháng dtʉ̀ʉn-dtên láe ʉ̀t-ʉ̀at",
+      "breakdown": [
+        { "source": "เขาลองสวมยูกาตะ", "target": "he tried wearing a yukata", "phonetic": "kháo lɔɔng sǔam yuu-gaa-dtà", "partOfSpeech": "verb phrase" },
+        { "source": "รู้สึกทั้งตื่นเต้นและอึดอัด", "target": "feeling a mix of excitement and awkwardness", "phonetic": "rúu-sʉ̀k tháng dtʉ̀ʉn-dtên láe ʉ̀t-ʉ̀at", "partOfSpeech": "participial phrase" }
+      ]
+    },
+    {
+      "source": "เมื่อเดือนผ่านไป โตเกียวเริ่มรู้สึกเหมือนบ้าน",
+      "target": "As months passed, Tokyo began to feel like home.",
+      "phonetic": "mʉ̂a dʉan phàan-bpai dtoo-giiao rə̂əm rúu-sʉ̀k mʉ̌an bâan",
+      "breakdown": [
+        { "source": "เมื่อเดือนผ่านไป", "target": "as months passed", "phonetic": "mʉ̂a dʉan phàan-bpai", "partOfSpeech": "temporal clause" },
+        { "source": "โตเกียวเริ่มรู้สึกเหมือนบ้าน", "target": "Tokyo began to feel like home", "phonetic": "dtoo-giiao rə̂əm rúu-sʉ̀k mʉ̌an bâan", "partOfSpeech": "verb phrase" }
+      ]
+    },
+    {
+      "source": "เจมส์หางานที่บริษัทเทคโนโลยี ที่ซึ่งเพื่อนร่วมงานต้อนรับเขาอย่างอบอุ่น",
+      "target": "James found a job at a tech company, where colleagues welcomed him warmly.",
+      "phonetic": "jeem hǎa-ngaan thîi bɔɔ-rí-sàt thék-noo-loo-yii thîi sʉ̂ng phʉ̂an-rûam-ngaan dtɔ̂ɔn-ráp kháo yàang òp-ùn",
+      "breakdown": [
+        { "source": "เจมส์หางานที่บริษัทเทคโนโลยี", "target": "James found a job at a tech company", "phonetic": "jeem hǎa-ngaan thîi bɔɔ-rí-sàt thék-noo-loo-yii", "partOfSpeech": "verb phrase" },
+        { "source": "ที่ซึ่งเพื่อนร่วมงานต้อนรับเขาอย่างอบอุ่น", "target": "where colleagues welcomed him warmly", "phonetic": "thîi sʉ̂ng phʉ̂an-rûam-ngaan dtɔ̂ɔn-ráp kháo yàang òp-ùn", "partOfSpeech": "relative clause" }
+      ]
+    },
+    {
+      "source": "การย้ายไปเมืองใหม่ไม่ได้เป็นเพียงเรื่องของการปรับตัว แต่เป็นเรื่องของการยอมรับการเปลี่ยนแปลง",
+      "target": "Moving to a new city was not just about adapting but about embracing change.",
+      "phonetic": "gaan yáai bpai mʉang mài mâi dâi bpen phiang rʉ̂ang khɔ̌ɔng gaan bpràp-dtua dtɛ̀ɛ bpen rʉ̂ang khɔ̌ɔng gaan yɔɔm-ráp gaan bplìian-bplɛɛng",
+      "breakdown": [
+        { "source": "การย้ายไปเมืองใหม่", "target": "moving to a new city", "phonetic": "gaan yáai bpai mʉang mài", "partOfSpeech": "noun phrase" },
+        { "source": "ไม่ได้เป็นเพียงเรื่องของการปรับตัว", "target": "was not just about adapting", "phonetic": "mâi dâi bpen phiang rʉ̂ang khɔ̌ɔng gaan bpràp-dtua", "partOfSpeech": "verb phrase" },
+        { "source": "แต่เป็นเรื่องของการยอมรับการเปลี่ยนแปลง", "target": "but about embracing change", "phonetic": "dtɛ̀ɛ bpen rʉ̂ang khɔ̌ɔng gaan yɔɔm-ráp gaan bplìian-bplɛɛng", "partOfSpeech": "clause" }
+      ]
+    },
+    {
+      "source": "ทุกวันนำมาซึ่งบทเรียนใหม่ และเขากระตือรือร้นที่จะเรียนรู้เพิ่มเติม",
+      "target": "Each day brought new lessons, and he was eager to learn more.",
+      "phonetic": "thúk-wan nam maa sʉ̂ng bòt-rian mài láe kháo grà-dtʉʉ-rʉʉ-rɔ́ɔn thîi jà rian-rúu phə̂əm-dtə̀əm",
+      "breakdown": [
+        { "source": "ทุกวันนำมาซึ่งบทเรียนใหม่", "target": "each day brought new lessons", "phonetic": "thúk-wan nam maa sʉ̂ng bòt-rian mài", "partOfSpeech": "clause" },
+        { "source": "และเขากระตือรือร้นที่จะเรียนรู้เพิ่มเติม", "target": "and he was eager to learn more", "phonetic": "láe kháo grà-dtʉʉ-rʉʉ-rɔ́ɔn thîi jà rian-rúu phə̂əm-dtə̀əm", "partOfSpeech": "clause" }
+      ]
+    }
+  ],
+  "createdAt": "2025-09-30T20:22:00Z",
+  "updatedAt": "2025-09-30T20:22:00Z",
+  "difficulty": "advanced",
+  "summary": "การปรับตัวของเจมส์ในโตเกียว การเรียนรู้ภาษาและวัฒนธรรมใหม่"
+}
