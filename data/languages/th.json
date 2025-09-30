@@ -1,4 +1,8 @@
 {
+  "languageCode": "th",
+  "language": "ไทย",
+  "english": "Thai",
+  "flag": "🇹🇭",
   "fonts": {
     "label": "แบบ",
     "variants": {

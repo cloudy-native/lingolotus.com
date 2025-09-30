@@ -10,5 +10,9 @@ export interface LanguageFonts {
 }
 
 export interface LanguageConfig {
+  languageCode?: string;
+  language?: string;
+  english?: string;
+  flag?: string;
   fonts?: LanguageFonts;
 }

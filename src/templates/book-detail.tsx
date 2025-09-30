@@ -3,7 +3,14 @@ import {
   Breadcrumb,
   BreadcrumbItem,
   BreadcrumbLink,
+  Button,
   Container,
+  Drawer,
+  DrawerBody,
+  DrawerCloseButton,
+  DrawerContent,
+  DrawerHeader,
+  DrawerOverlay,
   Flex,
   Heading,
   Icon,
@@ -13,10 +20,13 @@ import {
   Tag,
   Text,
   useColorModeValue,
+  useDisclosure,
 } from "@chakra-ui/react";
 import { graphql, Link } from "gatsby";
-import { ChevronRight, Library } from "lucide-react";
+import { BookOpen, ChevronRight, Library } from "lucide-react";
 import React from "react";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 import type { Book, ReadingStory } from "../types";
 import { readingPath, storyDetailPath } from "../utils/paths";
@@ -27,12 +37,16 @@ interface BookDetailTemplateProps {
     stories: {
       nodes: ReadingStory[];
     };
+    grammar?: {
+      rawMarkdownBody: string;
+    };
   };
 }
 
 const BookDetailTemplate: React.FC<BookDetailTemplateProps> = ({ data }) => {
   const book = data.book;
   const stories = data.stories.nodes;
+  const { isOpen, onOpen, onClose } = useDisclosure();
 
   const headerBg = useColorModeValue("orange.50", "orange.900");
   const headerBorder = useColorModeValue("orange.100", "orange.800");
@@ -91,7 +105,7 @@ const BookDetailTemplate: React.FC<BookDetailTemplateProps> = ({ data }) => {
                 {book.description}
               </Text>
 
-              <Stack direction={{ base: "column", sm: "row" }} spacing={3} wrap="wrap">
+              <Stack direction={{ base: "column", sm: "row" }} spacing={3} wrap="wrap" mb={4}>
                 <Tag colorScheme="blue">{book.sourceLanguage}</Tag>
                 {book.targetLanguage && (
                   <Tag colorScheme="teal">{book.targetLanguage}</Tag>
@@ -100,6 +114,18 @@ const BookDetailTemplate: React.FC<BookDetailTemplateProps> = ({ data }) => {
                 {book.category && <Tag colorScheme="orange">{book.category}</Tag>}
                 {book.featured && <Tag colorScheme="yellow">Featured</Tag>}
               </Stack>
+
+              {data.grammar && (
+                <Button
+                  onClick={onOpen}
+                  leftIcon={<Icon as={BookOpen} />}
+                  colorScheme="blue"
+                  variant="outline"
+                  size="sm"
+                >
+                  Grammar Cheatsheet
+                </Button>
+              )}
             </Box>
           </Flex>
         </Container>
@@ -164,6 +190,70 @@ const BookDetailTemplate: React.FC<BookDetailTemplateProps> = ({ data }) => {
           </SimpleGrid>
         )}
       </Container>
+
+      {/* Grammar Drawer */}
+      <Drawer isOpen={isOpen} placement="right" onClose={onClose} size="md">
+        <DrawerOverlay />
+        <DrawerContent>
+          <DrawerCloseButton />
+          <DrawerHeader>Grammar Guide</DrawerHeader>
+          <DrawerBody>
+            {data.grammar?.rawMarkdownBody && (
+              <Box
+                className="markdown-content"
+                sx={{
+                  "& h1": {
+                    fontSize: "2xl",
+                    fontWeight: "bold",
+                    mb: 4,
+                    mt: 6,
+                  },
+                  "& h2": {
+                    fontSize: "xl",
+                    fontWeight: "bold",
+                    mb: 3,
+                    mt: 5,
+                  },
+                  "& h3": {
+                    fontSize: "lg",
+                    fontWeight: "semibold",
+                    mb: 2,
+                    mt: 4,
+                  },
+                  "& p": {
+                    mb: 3,
+                  },
+                  "& ul, & ol": {
+                    ml: 6,
+                    mb: 3,
+                  },
+                  "& li": {
+                    mb: 1,
+                  },
+                  "& code": {
+                    bg: "gray.100",
+                    px: 1,
+                    py: 0.5,
+                    borderRadius: "sm",
+                    fontSize: "sm",
+                  },
+                  "& pre": {
+                    bg: "gray.100",
+                    p: 3,
+                    borderRadius: "md",
+                    overflow: "auto",
+                    mb: 3,
+                  },
+                }}
+              >
+                <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                  {data.grammar.rawMarkdownBody}
+                </ReactMarkdown>
+              </Box>
+            )}
+          </DrawerBody>
+        </DrawerContent>
+      </Drawer>
     </>
   );
 };
@@ -171,7 +261,7 @@ const BookDetailTemplate: React.FC<BookDetailTemplateProps> = ({ data }) => {
 export default BookDetailTemplate;
 
 export const query = graphql`
-  query BookDetail($bookId: String!) {
+  query BookDetail($bookId: String!, $sourceLanguage: String!) {
     book: bookJson(bookId: { eq: $bookId }) {
       bookId
       name
@@ -204,6 +294,11 @@ export const query = graphql`
         difficulty
         summary
       }
+    }
+    grammar: markdownRemark(
+      fileAbsolutePath: { regex: $sourceLanguage }
+    ) {
+      rawMarkdownBody
     }
   }
 `;

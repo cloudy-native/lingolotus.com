@@ -1,0 +1,262 @@
+{
+  "storyId": "thai-intermediate-2-the-community-garden",
+  "bookId": "thai-intermediate-2",
+  "language": "th",
+  "title": {
+    "source": "สวนชุมชน",
+    "target": "The Community Garden"
+  },
+  "sentences": [
+    {
+      "source": "การเข้าร่วมสวนชุมชนเป็นหนึ่งในการตัดสินใจที่ดีที่สุดที่เอ็มมาเคยทำ",
+      "target": "Joining the community garden was one of the best decisions Emma had ever made.",
+      "phonetic": "gaan khâo-rûam sǔan chum-chon bpen nʉ̀ng nai gaan dtàt-sǐn-jai thîi dîi thîi-sùt thîi em-maa khoei tham",
+      "breakdown": [
+        { "source": "การเข้าร่วม", "target": "joining", "phonetic": "gaan khâo-rûam", "partOfSpeech": "noun" },
+        { "source": "สวนชุมชน", "target": "community garden", "phonetic": "sǔan chum-chon", "partOfSpeech": "noun" },
+        { "source": "เป็นหนึ่งใน", "target": "was one of", "phonetic": "bpen nʉ̀ng nai", "partOfSpeech": "verb" },
+        { "source": "การตัดสินใจ", "target": "decisions", "phonetic": "gaan dtàt-sǐn-jai", "partOfSpeech": "noun" },
+        { "source": "ที่ดีที่สุด", "target": "the best", "phonetic": "thîi dîi thîi-sùt", "partOfSpeech": "adjective" },
+        { "source": "ที่เอ็มมาเคยทำ", "target": "that Emma had ever made", "phonetic": "thîi em-maa khoei tham", "partOfSpeech": "clause" }
+      ]
+    },
+    {
+      "source": "การทำงานร่วมกับเพื่อนบ้านเพื่อปลูกผักทำให้เธอมีความสุขแบบที่ไม่คาดคิด",
+      "target": "Working with her neighbors to grow vegetables brought her unexpected joy.",
+      "phonetic": "gaan tham-ngaan rûam gàp phʉ̂an-bâan phʉ̂a bplùuk phàk tham hâi thoe mii khwaam-sùk bɛ̀ɛp thîi mâi khâat-khít",
+      "breakdown": [
+        { "source": "การทำงานร่วมกับ", "target": "working with", "phonetic": "gaan tham-ngaan rûam gàp", "partOfSpeech": "verb" },
+        { "source": "เพื่อนบ้าน", "target": "neighbors", "phonetic": "phʉ̂an-bâan", "partOfSpeech": "noun" },
+        { "source": "เพื่อปลูกผัก", "target": "to grow vegetables", "phonetic": "phʉ̂a bplùuk phàk", "partOfSpeech": "verb" },
+        { "source": "ทำให้เธอ", "target": "brought her", "phonetic": "tham hâi thoe", "partOfSpeech": "verb" },
+        { "source": "มีความสุข", "target": "joy", "phonetic": "mii khwaam-sùk", "partOfSpeech": "verb" },
+        { "source": "แบบที่ไม่คาดคิด", "target": "unexpected", "phonetic": "bɛ̀ɛp thîi mâi khâat-khít", "partOfSpeech": "adjective" }
+      ]
+    },
+    {
+      "source": "เธอชอบทำสวนอยู่แล้ว แต่ไม่เคยรู้เลยว่าการทำงานเป็นทีมให้รางวัลได้มากเพียงใด",
+      "target": "She had always enjoyed gardening but hadn’t realized how rewarding teamwork could be.",
+      "phonetic": "thoe châwp tham sǔan yùu láeo dtàe mâi khoei rúu loei wâa gaan tham-ngaan bpen thiim hâi raa ng-wǎan dâi mâak phiang dai",
+      "breakdown": [
+        { "source": "เธอชอบทำสวน", "target": "she enjoyed gardening", "phonetic": "thoe châwp tham sǔan", "partOfSpeech": "verb" },
+        { "source": "อยู่แล้ว", "target": "already", "phonetic": "yùu láeo", "partOfSpeech": "adverb" },
+        { "source": "แต่ไม่เคยรู้เลยว่า", "target": "but hadn't realized that", "phonetic": "dtàe mâi khoei rúu loei wâa", "partOfSpeech": "conjunction" },
+        { "source": "การทำงานเป็นทีม", "target": "teamwork", "phonetic": "gaan tham-ngaan bpen thiim", "partOfSpeech": "noun" },
+        { "source": "ให้รางวัลได้", "target": "could be rewarding", "phonetic": "hâi raang-wǎan dâi", "partOfSpeech": "verb" },
+        { "source": "มากเพียงใด", "target": "how much", "phonetic": "mâak phiang dai", "partOfSpeech": "adverb" }
+      ]
+    },
+    {
+      "source": "ทุกวันเสาร์เธอใช้เวลาหลายชั่วโมงปลูกเมล็ดและดายหญ้าในสวน",
+      "target": "Every Saturday, she spent hours planting seeds and pulling weeds in the garden.",
+      "phonetic": "thúk wan sǎo thoe chái wee-laa lǎai chûa-moong bplùuk má-lét láe daai yâa nai sǔan",
+      "breakdown": [
+        { "source": "ทุกวันเสาร์", "target": "every Saturday", "phonetic": "thúk wan sǎo", "partOfSpeech": "adverb" },
+        { "source": "เธอใช้เวลา", "target": "she spent time", "phonetic": "thoe chái wee-laa", "partOfSpeech": "verb" },
+        { "source": "หลายชั่วโมง", "target": "hours", "phonetic": "lǎai chûa-moong", "partOfSpeech": "noun" },
+        { "source": "ปลูกเมล็ด", "target": "planting seeds", "phonetic": "bplùuk má-lét", "partOfSpeech": "verb" },
+        { "source": "และดายหญ้า", "target": "and pulling weeds", "phonetic": "láe daai yâa", "partOfSpeech": "verb" },
+        { "source": "ในสวน", "target": "in the garden", "phonetic": "nai sǔan", "partOfSpeech": "preposition" }
+      ]
+    },
+    {
+      "source": "ถ้าเธอไม่เข้าร่วม เธอคงไม่ได้พบผู้คนใจดีมากมายขนาดนี้",
+      "target": "If she hadn’t joined, she wouldn’t have met so many kind people.",
+      "phonetic": "thâa thoe mâi khâo-rûam thoe khong mâi dâi phóp phûu-khon jai-dii mâak-maai khà-nàat níi",
+      "breakdown": [
+        { "source": "ถ้าเธอไม่เข้าร่วม", "target": "if she hadn't joined", "phonetic": "thâa thoe mâi khâo-rûam", "partOfSpeech": "conditional" },
+        { "source": "เธอคงไม่ได้พบ", "target": "she wouldn't have met", "phonetic": "thoe khong mâi dâi phóp", "partOfSpeech": "verb" },
+        { "source": "ผู้คนใจดี", "target": "kind people", "phonetic": "phûu-khon jai-dii", "partOfSpeech": "noun" },
+        { "source": "มากมาย", "target": "so many", "phonetic": "mâak-maai", "partOfSpeech": "adverb" },
+        { "source": "ขนาดนี้", "target": "this much", "phonetic": "khà-nàat níi", "partOfSpeech": "adverb" }
+      ]
+    },
+    {
+      "source": "เพื่อนบ้านของเธอ คุณลี สอนเธอทำปุ๋ยจากขยะอินทรีย์อย่างมีประสิทธิภาพ",
+      "target": "Her neighbor, Mr. Lee, taught her how to compost organic waste effectively.",
+      "phonetic": "phʉ̂an-bâan khǎwng thoe khun lii sɔ̌ɔn thoe tham bpui jàak khà-yà in-sii yàang mii bprà-sìt-thi-phâap",
+      "breakdown": [
+        { "source": "เพื่อนบ้านของเธอ", "target": "her neighbor", "phonetic": "phʉ̂an-bâan khǎwng thoe", "partOfSpeech": "noun" },
+        { "source": "คุณลี", "target": "Mr. Lee", "phonetic": "khun lii", "partOfSpeech": "proper_noun" },
+        { "source": "สอนเธอ", "target": "taught her", "phonetic": "sɔ̌ɔn thoe", "partOfSpeech": "verb" },
+        { "source": "ทำปุ๋ยจากขยะอินทรีย์", "target": "to compost organic waste", "phonetic": "tham bpui jàak khà-yà in-sii", "partOfSpeech": "verb" },
+        { "source": "อย่างมีประสิทธิภาพ", "target": "effectively", "phonetic": "yàang mii bprà-sìt-thi-phâap", "partOfSpeech": "adverb" }
+      ]
+    },
+    {
+      "source": "เขาอธิบายว่าการทำปุ๋ยหมักช่วยลดความจำเป็นของปุ๋ยเคมีได้",
+      "target": "Composting, he explained, could reduce the need for chemical fertilizers.",
+      "phonetic": "kháo à-thí-baai wâa gaan tham bpui-màk chûai lót khwaam jam-pen khǎwng bpui kheemii dâi",
+      "breakdown": [
+        { "source": "เขาอธิบายว่า", "target": "he explained that", "phonetic": "kháo à-thí-baai wâa", "partOfSpeech": "verb" },
+        { "source": "การทำปุ๋ยหมัก", "target": "composting", "phonetic": "gaan tham bpui-màk", "partOfSpeech": "noun" },
+        { "source": "ช่วยลด", "target": "could reduce", "phonetic": "chûai lót", "partOfSpeech": "verb" },
+        { "source": "ความจำเป็นของ", "target": "the need for", "phonetic": "khwaam jam-pen khǎwng", "partOfSpeech": "noun" },
+        { "source": "ปุ๋ยเคมี", "target": "chemical fertilizers", "phonetic": "bpui kheemii", "partOfSpeech": "noun" },
+        { "source": "ได้", "target": "can", "phonetic": "dâi", "partOfSpeech": "auxiliary" }
+      ]
+    },
+    {
+      "source": "เอ็มมาเสนอว่าควรจัดเวิร์กช็อปเพื่อสอนเรื่องความยั่งยืนให้คนอื่นๆ",
+      "target": "Emma suggested they should organize a workshop to teach others about sustainability.",
+      "phonetic": "em-maa sà-nǒe wâa khuan jàt wə̂ək-chɔ̀p phʉ̂a sɔ̌ɔn rʉ̂ang khwaam yâng-yʉʉn hâi khon ʉ̀ʉn-ʉ̀ʉn",
+      "breakdown": [
+        { "source": "เอ็มมาเสนอว่า", "target": "Emma suggested that", "phonetic": "em-maa sà-nǒe wâa", "partOfSpeech": "verb" },
+        { "source": "ควรจัด", "target": "should organize", "phonetic": "khuan jàt", "partOfSpeech": "verb" },
+        { "source": "เวิร์กช็อป", "target": "a workshop", "phonetic": "wə̂ək-chɔ̀p", "partOfSpeech": "noun" },
+        { "source": "เพื่อสอนเรื่อง", "target": "to teach about", "phonetic": "phʉ̂a sɔ̌ɔn rʉ̂ang", "partOfSpeech": "verb" },
+        { "source": "ความยั่งยืน", "target": "sustainability", "phonetic": "khwaam yâng-yʉʉn", "partOfSpeech": "noun" },
+        { "source": "ให้คนอื่นๆ", "target": "to others", "phonetic": "hâi khon ʉ̀ʉn-ʉ̀ʉn", "partOfSpeech": "preposition" }
+      ]
+    },
+    {
+      "source": "ทุกคนเห็นด้วย และการวางแผนงานอีเวนต์ก็กลายเป็นความท้าทายที่สนุก",
+      "target": "The group agreed, and planning the event became a fun challenge.",
+      "phonetic": "thúk khon hěn dûai láe gaan waang-phǎen ngaan ii-wên gɔ̂ɔ glaai bpen khwaam tháa-thaai thîi sà-nùk",
+      "breakdown": [
+        { "source": "ทุกคนเห็นด้วย", "target": "the group agreed", "phonetic": "thúk khon hěn dûai", "partOfSpeech": "verb" },
+        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
+        { "source": "การวางแผนงานอีเวนต์", "target": "planning the event", "phonetic": "gaan waang-phǎen ngaan ii-wên", "partOfSpeech": "noun" },
+        { "source": "ก็กลายเป็น", "target": "became", "phonetic": "gɔ̂ɔ glaai bpen", "partOfSpeech": "verb" },
+        { "source": "ความท้าทายที่สนุก", "target": "a fun challenge", "phonetic": "khwaam tháa-thaai thîi sà-nùk", "partOfSpeech": "noun" }
+      ]
+    },
+    {
+      "source": "พวกเขาเชิญผู้เชี่ยวชาญท้องถิ่นมาบรรยาย แบ่งปันเคล็ดลับการปลูกสมุนไพรในพื้นที่เล็ก",
+      "target": "They invited a local expert, who shared tips on growing herbs in small spaces.",
+      "phonetic": "phûak-kháo choeen phûu chîao-chaanthɔ́ɔng-thìn maa ban-yaai bàeng-bpan khlét-láp gaan bplùuk sà-mǔn-phrai nai phʉ̂en-thîi lék",
+      "breakdown": [
+        { "source": "พวกเขาเชิญ", "target": "they invited", "phonetic": "phûak-kháo choeen", "partOfSpeech": "verb" },
+        { "source": "ผู้เชี่ยวชาญท้องถิ่น", "target": "a local expert", "phonetic": "phûu chîao-chaan thɔ́ɔng-thìn", "partOfSpeech": "noun" },
+        { "source": "มาบรรยาย", "target": "to give a talk", "phonetic": "maa ban-yaai", "partOfSpeech": "verb" },
+        { "source": "แบ่งปันเคล็ดลับ", "target": "shared tips", "phonetic": "bàeng-bpan khlét-láp", "partOfSpeech": "verb" },
+        { "source": "การปลูกสมุนไพร", "target": "growing herbs", "phonetic": "gaan bplùuk sà-mǔn-phrai", "partOfSpeech": "noun" },
+        { "source": "ในพื้นที่เล็ก", "target": "in small spaces", "phonetic": "nai phʉ̂en-thîi lék", "partOfSpeech": "preposition" }
+      ]
+    },
+    {
+      "source": "เอ็มมาชอบดูเด็กๆ ในละแวกบ้านเรียนรู้เรื่องพืชพรรณ",
+      "target": "Emma loved watching children in the neighborhood learn about plants.",
+      "phonetic": "em-maa châwp duu dèk-dèk nai lá-wɛ̂ɛk-bâan rian-rúu rʉ̂ang phʉ̂ʉt phan",
+      "breakdown": [
+        { "source": "เอ็มมาชอบดู", "target": "Emma loved watching", "phonetic": "em-maa châwp duu", "partOfSpeech": "verb" },
+        { "source": "เด็กๆ", "target": "children", "phonetic": "dèk-dèk", "partOfSpeech": "noun" },
+        { "source": "ในละแวกบ้าน", "target": "in the neighborhood", "phonetic": "nai lá-wɛ̂ɛk-bâan", "partOfSpeech": "preposition" },
+        { "source": "เรียนรู้เรื่อง", "target": "learn about", "phonetic": "rian-rúu rʉ̂ang", "partOfSpeech": "verb" },
+        { "source": "พืชพรรณ", "target": "plants", "phonetic": "phʉ̂ʉt phan", "partOfSpeech": "noun" }
+      ]
+    },
+    {
+      "source": "ถ้าสวนขยายใหญ่ขึ้น พวกเขาอาจต้องขยายไปยังแปลงใกล้เคียง",
+      "target": "If the garden grows larger, they might need to expand to a nearby lot.",
+      "phonetic": "thâa sǔan khà-yăai yài khʉ̂n phûak-kháo àat dtâwng khà-yăai bpai yang bplɛɛng glâi khiang",
+      "breakdown": [
+        { "source": "ถ้าสวนขยายใหญ่ขึ้น", "target": "if the garden grows larger", "phonetic": "thâa sǔan khà-yăai yài khʉ̂n", "partOfSpeech": "conditional" },
+        { "source": "พวกเขาอาจต้อง", "target": "they might need to", "phonetic": "phûak-kháo àat dtâwng", "partOfSpeech": "verb" },
+        { "source": "ขยายไปยัง", "target": "expand to", "phonetic": "khà-yăai bpai yang", "partOfSpeech": "verb" },
+        { "source": "แปลงใกล้เคียง", "target": "a nearby lot", "phonetic": "bplɛɛng glâi khiang", "partOfSpeech": "noun" }
+      ]
+    },
+    {
+      "source": "การดูแลสวนต้องใช้ความอดทน แต่ผลลัพธ์ก็คุ้มค่า",
+      "target": "Tending the garden required patience, but the results were worth it.",
+      "phonetic": "gaan duu-lae sǔan dtâwng chái khwaam òt-thon dtàe phǒn-láp gɔ̂ɔ khúm khâa",
+      "breakdown": [
+        { "source": "การดูแลสวน", "target": "tending the garden", "phonetic": "gaan duu-lae sǔan", "partOfSpeech": "noun" },
+        { "source": "ต้องใช้", "target": "required", "phonetic": "dtâwng chái", "partOfSpeech": "verb" },
+        { "source": "ความอดทน", "target": "patience", "phonetic": "khwaam òt-thon", "partOfSpeech": "noun" },
+        { "source": "แต่", "target": "but", "phonetic": "dtàe", "partOfSpeech": "conjunction" },
+        { "source": "ผลลัพธ์", "target": "the results", "phonetic": "phǒn-láp", "partOfSpeech": "noun" },
+        { "source": "ก็คุ้มค่า", "target": "were worth it", "phonetic": "gɔ̂ɔ khúm khâa", "partOfSpeech": "verb" }
+      ]
+    },
+    {
+      "source": "มะเขือเทศของเอ็มมาเติบโตงดงามเพราะอากาศแจ่มใสปีนี้",
+      "target": "Emma’s tomatoes were thriving, thanks to the sunny weather this year.",
+      "phonetic": "má-kʰʉ̌a-thêt khǎwng em-maa dtɤ̀ɤp-dtoo ngót-ngaa m phráw aa-gàat jèm-sǎi bpii níi",
+      "breakdown": [
+        { "source": "มะเขือเทศของเอ็มมา", "target": "Emma's tomatoes", "phonetic": "má-kʰʉ̌a-thêt khǎwng em-maa", "partOfSpeech": "noun" },
+        { "source": "เติบโตงดงาม", "target": "were thriving", "phonetic": "dtɤ̀ɤp-dtoo ngót-ngaam", "partOfSpeech": "verb" },
+        { "source": "เพราะ", "target": "thanks to", "phonetic": "phráw", "partOfSpeech": "conjunction" },
+        { "source": "อากาศแจ่มใส", "target": "sunny weather", "phonetic": "aa-gàat jèm-sǎi", "partOfSpeech": "noun" },
+        { "source": "ปีนี้", "target": "this year", "phonetic": "bpii níi", "partOfSpeech": "noun" }
+      ]
+    },
+    {
+      "source": "เธออาจซื้อผักจากร้านก็ได้ แต่การปลูกเองให้ความรู้สึกพิเศษกว่า",
+      "target": "She could have bought vegetables at the store, but growing them felt special.",
+      "phonetic": "thoe àat súe phàk jàak ráan gɔ̂ɔ dâi dtàe gaan bplùuk eng hâi khwaam rúu-sʉ̀k phí-sèt gwàa",
+      "breakdown": [
+        { "source": "เธออาจซื้อผัก", "target": "she could have bought vegetables", "phonetic": "thoe àat súe phàk", "partOfSpeech": "verb" },
+        { "source": "จากร้าน", "target": "at the store", "phonetic": "jàak ráan", "partOfSpeech": "preposition" },
+        { "source": "ก็ได้", "target": "could", "phonetic": "gɔ̂ɔ dâi", "partOfSpeech": "auxiliary" },
+        { "source": "แต่การปลูกเอง", "target": "but growing them", "phonetic": "dtàe gaan bplùuk eng", "partOfSpeech": "conjunction" },
+        { "source": "ให้ความรู้สึก", "target": "felt", "phonetic": "hâi khwaam rúu-sʉ̀k", "partOfSpeech": "verb" },
+        { "source": "พิเศษกว่า", "target": "more special", "phonetic": "phí-sèt gwàa", "partOfSpeech": "adjective" }
+      ]
+    },
+    {
+      "source": "การแบ่งปันผลผลิตกับเพื่อนบ้านช่วยเสริมสร้างความเป็นชุมชน",
+      "target": "Sharing the harvest with her neighbors strengthened their sense of community.",
+      "phonetic": "gaan bàeng-bpan phǒn-phalìt gàp phʉ̂an-bâan chûai sǒerm sâang khwaam bpen chum-chon",
+      "breakdown": [
+        { "source": "การแบ่งปันผลผลิต", "target": "sharing the harvest", "phonetic": "gaan bàeng-bpan phǒn-phalìt", "partOfSpeech": "noun" },
+        { "source": "กับเพื่อนบ้าน", "target": "with her neighbors", "phonetic": "gàp phʉ̂an-bâan", "partOfSpeech": "preposition" },
+        { "source": "ช่วยเสริมสร้าง", "target": "strengthened", "phonetic": "chûai sǒerm sâang", "partOfSpeech": "verb" },
+        { "source": "ความเป็นชุมชน", "target": "their sense of community", "phonetic": "khwaam bpen chum-chon", "partOfSpeech": "noun" }
+      ]
+    },
+    {
+      "source": "เอ็มมาฝันอยากเริ่มตลาดเกษตรกรเพื่อขายผลผลิตของพวกเขา",
+      "target": "Emma dreamed of starting a farmers’ market to sell their produce.",
+      "phonetic": "em-maa fǎn yàak rœ̂œm dtà-làat gà-sèet-dtrɔɔn phʉ̂a khǎai phǒn-phalìt khǎwng phûak-kháo",
+      "breakdown": [
+        { "source": "เอ็มมาฝันอยาก", "target": "Emma dreamed of", "phonetic": "em-maa fǎn yàak", "partOfSpeech": "verb" },
+        { "source": "เริ่มตลาดเกษตรกร", "target": "starting a farmers' market", "phonetic": "rœ̂œm dtà-làat gà-sèet-dtrɔɔn", "partOfSpeech": "verb" },
+        { "source": "เพื่อขาย", "target": "to sell", "phonetic": "phʉ̂a khǎai", "partOfSpeech": "verb" },
+        { "source": "ผลผลิตของพวกเขา", "target": "their produce", "phonetic": "phǒn-phalìt khǎwng phûak-kháo", "partOfSpeech": "noun" }
+      ]
+    },
+    {
+      "source": "สำหรับเธอ การทำสวนคือวิธีเชื่อมโยงกับธรรมชาติและผู้คน",
+      "target": "Gardening, she realized, was a way to connect with both nature and people.",
+      "phonetic": "sǎm-ràp thoe gaan tham sǔan khʉʉ wí-thii chʉ̂am-yoo ng gàp tham-ma-châat láe phûu-khon",
+      "breakdown": [
+        { "source": "สำหรับเธอ", "target": "for her", "phonetic": "sǎm-ràp thoe", "partOfSpeech": "preposition" },
+        { "source": "การทำสวน", "target": "gardening", "phonetic": "gaan tham sǔan", "partOfSpeech": "noun" },
+        { "source": "คือวิธี", "target": "was a way", "phonetic": "khʉʉ wí-thii", "partOfSpeech": "verb" },
+        { "source": "เชื่อมโยงกับ", "target": "to connect with", "phonetic": "chʉ̂am-yoong gàp", "partOfSpeech": "verb" },
+        { "source": "ธรรมชาติและผู้คน", "target": "both nature and people", "phonetic": "tham-ma-châat láe phûu-khon", "partOfSpeech": "noun" }
+      ]
+    },
+    {
+      "source": "เธอหวังว่าสวนจะเป็นแรงบันดาลใจให้คนอื่นใช้ชีวิตอย่างยั่งยืนมากขึ้น",
+      "target": "She hoped the garden would inspire others to live more sustainably.",
+      "phonetic": "thoe wǎng wâa sǔan jà bpen raaeng ban-daan-jai hâi khon ʉ̀ʉn chái chii-wít yàang yâng-yʉʉn mâak khʉ̂n",
+      "breakdown": [
+        { "source": "เธอหวังว่า", "target": "she hoped that", "phonetic": "thoe wǎng wâa", "partOfSpeech": "verb" },
+        { "source": "สวนจะเป็น", "target": "the garden would be", "phonetic": "sǔan jà bpen", "partOfSpeech": "verb" },
+        { "source": "แรงบันดาลใจ", "target": "inspiration", "phonetic": "raaeng ban-daan-jai", "partOfSpeech": "noun" },
+        { "source": "ให้คนอื่น", "target": "for others", "phonetic": "hâi khon ʉ̀ʉn", "partOfSpeech": "preposition" },
+        { "source": "ใช้ชีวิตอย่างยั่งยืน", "target": "to live sustainably", "phonetic": "chái chii-wít yàang yâng-yʉʉn", "partOfSpeech": "verb" },
+        { "source": "มากขึ้น", "target": "more", "phonetic": "mâak khʉ̂n", "partOfSpeech": "adverb" }
+      ]
+    },
+    {
+      "source": "ทุกครั้งที่เธอลงมือบนดิน เธอรู้สึกถึงความหมายลึกซึ้งของสิ่งที่ทำ",
+      "target": "Every time she worked in the soil, she felt a deep sense of purpose.",
+      "phonetic": "thúk khráng thîi thoe long-mʉʉ bon din thoe rúu-sʉ̀k thʉ̌ng khwaam-mǎai lʉ́k-sʉ́eng khǎwng sìng thîi tham",
+      "breakdown": [
+        { "source": "ทุกครั้งที่", "target": "every time", "phonetic": "thúk khráng thîi", "partOfSpeech": "adverb" },
+        { "source": "เธอลงมือบนดิน", "target": "she worked in the soil", "phonetic": "thoe long-mʉʉ bon din", "partOfSpeech": "verb" },
+        { "source": "เธอรู้สึกถึง", "target": "she felt", "phonetic": "thoe rúu-sʉ̀k thʉ̌ng", "partOfSpeech": "verb" },
+        { "source": "ความหมายลึกซึ้ง", "target": "a deep sense", "phonetic": "khwaam-mǎai lʉ́k-sʉ́eng", "partOfSpeech": "noun" },
+        { "source": "ของสิ่งที่ทำ", "target": "of purpose", "phonetic": "khǎwng sìng thîi tham", "partOfSpeech": "noun" }
+      ]
+    }
+  ],
+  "createdAt": "2025-09-29T23:31:00Z",
+  "updatedAt": "2025-09-29T23:31:00Z",
+  "difficulty": "intermediate",
+  "summary": "สวนชุมชนของเอ็มมา: การทำงานร่วมกัน ปุ๋ยหมัก เวิร์กช็อป เด็กๆ เรียนรู้ การเก็บเกี่ยว และแรงบันดาลใจด้านความยั่งยืน"
+}

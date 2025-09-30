@@ -1,0 +1,275 @@
+{
+  "storyId": "thai-intermediate-1-planning-a-party",
+  "bookId": "thai-intermediate-1",
+  "language": "th",
+  "title": {
+    "source": "การวางแผนจัดงานปาร์ตี้",
+    "target": "Planning a Party"
+  },
+  "sentences": [
+    {
+      "source": "คุณกำลังวางแผนปาร์ตี้อยู่ไหมครับ",
+      "target": "Are you planning a party?",
+      "phonetic": "khun gam-lang waang-phǎen bpaa-dtîi yùu mǎi khráp",
+      "breakdown": [
+        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
+        { "source": "กำลัง", "target": "in the process of", "phonetic": "gam-lang", "partOfSpeech": "auxiliary" },
+        { "source": "วางแผน", "target": "to plan", "phonetic": "waang-phǎen", "partOfSpeech": "verb" },
+        { "source": "ปาร์ตี้", "target": "party", "phonetic": "bpaa-dtîi", "partOfSpeech": "noun" },
+        { "source": "อยู่", "target": "progressive marker", "phonetic": "yùu", "partOfSpeech": "particle" },
+        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "ใช่ค่ะ ฉันวางแผนปาร์ตี้วันเกิด",
+      "target": "Yes, I’m planning a birthday party.",
+      "phonetic": "châi khâ chăn waang-phǎen bpaa-dtîi wan-gèrt",
+      "breakdown": [
+        { "source": "ใช่", "target": "yes", "phonetic": "châi", "partOfSpeech": "interjection" },
+        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
+        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
+        { "source": "วางแผน", "target": "to plan", "phonetic": "waang-phǎen", "partOfSpeech": "verb" },
+        { "source": "ปาร์ตี้", "target": "party", "phonetic": "bpaa-dtîi", "partOfSpeech": "noun" },
+        { "source": "วันเกิด", "target": "birthday", "phonetic": "wan-gèrt", "partOfSpeech": "noun" }
+      ]
+    },
+    {
+      "source": "เป็นวันเกิดของใครครับ",
+      "target": "Whose birthday is it?",
+      "phonetic": "bpen wan-gèrt khǎwng krai khráp",
+      "breakdown": [
+        { "source": "เป็น", "target": "is", "phonetic": "bpen", "partOfSpeech": "verb" },
+        { "source": "วันเกิด", "target": "birthday", "phonetic": "wan-gèrt", "partOfSpeech": "noun" },
+        { "source": "ของ", "target": "of", "phonetic": "khǎwng", "partOfSpeech": "preposition" },
+        { "source": "ใคร", "target": "who", "phonetic": "krai", "partOfSpeech": "pronoun" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "เป็นวันเกิดของน้องชายฉัน",
+      "target": "It’s my brother’s birthday.",
+      "phonetic": "bpen wan-gèrt khǎwng nóng-chaai chăn",
+      "breakdown": [
+        { "source": "เป็น", "target": "is", "phonetic": "bpen", "partOfSpeech": "verb" },
+        { "source": "วันเกิด", "target": "birthday", "phonetic": "wan-gèrt", "partOfSpeech": "noun" },
+        { "source": "ของ", "target": "of", "phonetic": "khǎwng", "partOfSpeech": "preposition" },
+        { "source": "น้องชาย", "target": "younger brother", "phonetic": "nóng-chaai", "partOfSpeech": "noun" },
+        { "source": "ฉัน", "target": "my", "phonetic": "chăn", "partOfSpeech": "pronoun" }
+      ]
+    },
+    {
+      "source": "เขาจะอายุเท่าไหร่ครับ",
+      "target": "How old will he be?",
+      "phonetic": "kháo jà aa-yú thâo-rài khráp",
+      "breakdown": [
+        { "source": "เขา", "target": "he", "phonetic": "kháo", "partOfSpeech": "pronoun" },
+        { "source": "จะ", "target": "will", "phonetic": "jà", "partOfSpeech": "auxiliary" },
+        { "source": "อายุ", "target": "age", "phonetic": "aa-yú", "partOfSpeech": "noun" },
+        { "source": "เท่าไหร่", "target": "how much/how many", "phonetic": "thâo-rài", "partOfSpeech": "pronoun" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "เขาจะอายุยี่สิบปี",
+      "target": "He will be twenty years old.",
+      "phonetic": "kháo jà aa-yú yîi-sìp bpii",
+      "breakdown": [
+        { "source": "เขา", "target": "he", "phonetic": "kháo", "partOfSpeech": "pronoun" },
+        { "source": "จะ", "target": "will", "phonetic": "jà", "partOfSpeech": "auxiliary" },
+        { "source": "อายุ", "target": "age", "phonetic": "aa-yú", "partOfSpeech": "noun" },
+        { "source": "ยี่สิบ", "target": "twenty", "phonetic": "yîi-sìp", "partOfSpeech": "numeral" },
+        { "source": "ปี", "target": "years", "phonetic": "bpii", "partOfSpeech": "classifier" }
+      ]
+    },
+    {
+      "source": "ปาร์ตี้จัดที่ไหนครับ",
+      "target": "Where is the party?",
+      "phonetic": "bpaa-dtîi jàt thîi năi khráp",
+      "breakdown": [
+        { "source": "ปาร์ตี้", "target": "party", "phonetic": "bpaa-dtîi", "partOfSpeech": "noun" },
+        { "source": "จัด", "target": "to hold/organize", "phonetic": "jàt", "partOfSpeech": "verb" },
+        { "source": "ที่", "target": "at", "phonetic": "thîi", "partOfSpeech": "preposition" },
+        { "source": "ไหน", "target": "where", "phonetic": "năi", "partOfSpeech": "pronoun" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "จัดที่บ้านของพวกเรา หลังบ้านค่ะ",
+      "target": "It’s at our house in the backyard.",
+      "phonetic": "jàt thîi bâan khǎwng phûak-rao lăng-bâan khâ",
+      "breakdown": [
+        { "source": "จัด", "target": "to hold/organize", "phonetic": "jàt", "partOfSpeech": "verb" },
+        { "source": "ที่", "target": "at", "phonetic": "thîi", "partOfSpeech": "preposition" },
+        { "source": "บ้าน", "target": "house", "phonetic": "bâan", "partOfSpeech": "noun" },
+        { "source": "ของ", "target": "of", "phonetic": "khǎwng", "partOfSpeech": "preposition" },
+        { "source": "พวกเรา", "target": "our", "phonetic": "phûak-rao", "partOfSpeech": "pronoun" },
+        { "source": "หลังบ้าน", "target": "backyard", "phonetic": "lăng-bâan", "partOfSpeech": "noun" },
+        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "จะมีอาหารอะไรบ้างครับ",
+      "target": "What food will you have?",
+      "phonetic": "jà mii aa-hăan à-rai bâang khráp",
+      "breakdown": [
+        { "source": "จะ", "target": "will", "phonetic": "jà", "partOfSpeech": "auxiliary" },
+        { "source": "มี", "target": "to have", "phonetic": "mii", "partOfSpeech": "verb" },
+        { "source": "อาหาร", "target": "food", "phonetic": "aa-hăan", "partOfSpeech": "noun" },
+        { "source": "อะไร", "target": "what", "phonetic": "à-rai", "partOfSpeech": "pronoun" },
+        { "source": "บ้าง", "target": "some", "phonetic": "bâang", "partOfSpeech": "particle" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "เราจะมีพิซซ่า เค้ก และน้ำอัดลม",
+      "target": "We’ll have pizza, cake, and soda.",
+      "phonetic": "rao jà mii pít-sâa khêek láe náam àt-lom",
+      "breakdown": [
+        { "source": "เรา", "target": "we", "phonetic": "rao", "partOfSpeech": "pronoun" },
+        { "source": "จะ", "target": "will", "phonetic": "jà", "partOfSpeech": "auxiliary" },
+        { "source": "มี", "target": "to have", "phonetic": "mii", "partOfSpeech": "verb" },
+        { "source": "พิซซ่า", "target": "pizza", "phonetic": "pít-sâa", "partOfSpeech": "noun" },
+        { "source": "เค้ก", "target": "cake", "phonetic": "khêek", "partOfSpeech": "noun" },
+        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
+        { "source": "น้ำอัดลม", "target": "soda", "phonetic": "náam àt-lom", "partOfSpeech": "noun" }
+      ]
+    },
+    {
+      "source": "จะมีเพลงไหมครับ",
+      "target": "Will there be music?",
+      "phonetic": "jà mii phleng mǎi khráp",
+      "breakdown": [
+        { "source": "จะ", "target": "will", "phonetic": "jà", "partOfSpeech": "auxiliary" },
+        { "source": "มี", "target": "to be/have", "phonetic": "mii", "partOfSpeech": "verb" },
+        { "source": "เพลง", "target": "music", "phonetic": "phleng", "partOfSpeech": "noun" },
+        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "ใช่ค่ะ เราจะเปิดเพลงและเต้น",
+      "target": "Yes, we’ll play music and dance.",
+      "phonetic": "châi khâ rao jà bpòeert phleng láe dten",
+      "breakdown": [
+        { "source": "ใช่", "target": "yes", "phonetic": "châi", "partOfSpeech": "interjection" },
+        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
+        { "source": "เรา", "target": "we", "phonetic": "rao", "partOfSpeech": "pronoun" },
+        { "source": "จะ", "target": "will", "phonetic": "jà", "partOfSpeech": "auxiliary" },
+        { "source": "เปิดเพลง", "target": "to play music", "phonetic": "bpòeert phleng", "partOfSpeech": "verb" },
+        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
+        { "source": "เต้น", "target": "to dance", "phonetic": "dten", "partOfSpeech": "verb" }
+      ]
+    },
+    {
+      "source": "คุณชอบเต้นไหมครับ",
+      "target": "Do you like dancing?",
+      "phonetic": "khun chôrp dten mǎi khráp",
+      "breakdown": [
+        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
+        { "source": "ชอบ", "target": "to like", "phonetic": "chôrp", "partOfSpeech": "verb" },
+        { "source": "เต้น", "target": "to dance", "phonetic": "dten", "partOfSpeech": "verb" },
+        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "ชอบค่ะ การเต้นสนุกมาก",
+      "target": "Yes, dancing is so much fun!",
+      "phonetic": "chôrp khâ gaan dten sà-nùk mâak",
+      "breakdown": [
+        { "source": "ชอบ", "target": "yes/like", "phonetic": "chôrp", "partOfSpeech": "verb" },
+        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
+        { "source": "การ", "target": "nominalizer", "phonetic": "gaan", "partOfSpeech": "prefix" },
+        { "source": "เต้น", "target": "dance", "phonetic": "dten", "partOfSpeech": "noun" },
+        { "source": "สนุก", "target": "fun", "phonetic": "sà-nùk", "partOfSpeech": "adjective" },
+        { "source": "มาก", "target": "very", "phonetic": "mâak", "partOfSpeech": "adverb" }
+      ]
+    },
+    {
+      "source": "จะมีคนมากี่คนครับ",
+      "target": "How many people are coming?",
+      "phonetic": "jà mii khon maa gìi khon khráp",
+      "breakdown": [
+        { "source": "จะ", "target": "will", "phonetic": "jà", "partOfSpeech": "auxiliary" },
+        { "source": "มี", "target": "to be/have", "phonetic": "mii", "partOfSpeech": "verb" },
+        { "source": "คน", "target": "people", "phonetic": "khon", "partOfSpeech": "noun" },
+        { "source": "มา", "target": "to come", "phonetic": "maa", "partOfSpeech": "verb" },
+        { "source": "กี่", "target": "how many", "phonetic": "gìi", "partOfSpeech": "determiner" },
+        { "source": "คน", "target": "people (classifier)", "phonetic": "khon", "partOfSpeech": "classifier" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "ประมาณเพื่อนและครอบครัวสิบห้าคน",
+      "target": "About fifteen friends and family.",
+      "phonetic": "bprà-maan phêuan láe khrâwp-khrua sìp-hâa khon",
+      "breakdown": [
+        { "source": "ประมาณ", "target": "about", "phonetic": "bprà-maan", "partOfSpeech": "adverb" },
+        { "source": "เพื่อน", "target": "friends", "phonetic": "phêuan", "partOfSpeech": "noun" },
+        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
+        { "source": "ครอบครัว", "target": "family", "phonetic": "khrâwp-khrua", "partOfSpeech": "noun" },
+        { "source": "สิบห้า", "target": "fifteen", "phonetic": "sìp-hâa", "partOfSpeech": "numeral" },
+        { "source": "คน", "target": "people (classifier)", "phonetic": "khon", "partOfSpeech": "classifier" }
+      ]
+    },
+    {
+      "source": "คุณต้องการความช่วยเหลือในการวางแผนไหมครับ",
+      "target": "Do you need help planning?",
+      "phonetic": "khun dtông-gaan khwaam chûai-lǔea nai gaan waang-phǎen mǎi khráp",
+      "breakdown": [
+        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
+        { "source": "ต้องการ", "target": "to need/want", "phonetic": "dtông-gaan", "partOfSpeech": "verb" },
+        { "source": "ความช่วยเหลือ", "target": "help", "phonetic": "khwaam chûai-lǔea", "partOfSpeech": "noun" },
+        { "source": "ใน", "target": "in", "phonetic": "nai", "partOfSpeech": "preposition" },
+        { "source": "การ", "target": "nominalizer", "phonetic": "gaan", "partOfSpeech": "prefix" },
+        { "source": "วางแผน", "target": "planning", "phonetic": "waang-phǎen", "partOfSpeech": "noun" },
+        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "ต้องการค่ะ แม่ของฉันกำลังช่วย",
+      "target": "Yes, my mom is helping me.",
+      "phonetic": "dtông-gaan khâ mâe khǎwng chăn gam-lang chûai",
+      "breakdown": [
+        { "source": "ต้องการ", "target": "yes/need", "phonetic": "dtông-gaan", "partOfSpeech": "verb" },
+        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
+        { "source": "แม่", "target": "mom", "phonetic": "mâe", "partOfSpeech": "noun" },
+        { "source": "ของ", "target": "of", "phonetic": "khǎwng", "partOfSpeech": "preposition" },
+        { "source": "ฉัน", "target": "my/me", "phonetic": "chăn", "partOfSpeech": "pronoun" },
+        { "source": "กำลัง", "target": "in the process of", "phonetic": "gam-lang", "partOfSpeech": "auxiliary" },
+        { "source": "ช่วย", "target": "helping", "phonetic": "chûai", "partOfSpeech": "verb" }
+      ]
+    },
+    {
+      "source": "ปาร์ตี้จะสนุกไหมครับ",
+      "target": "Will the party be fun?",
+      "phonetic": "bpaa-dtîi jà sà-nùk mǎi khráp",
+      "breakdown": [
+        { "source": "ปาร์ตี้", "target": "party", "phonetic": "bpaa-dtîi", "partOfSpeech": "noun" },
+        { "source": "จะ", "target": "will", "phonetic": "jà", "partOfSpeech": "auxiliary" },
+        { "source": "สนุก", "target": "fun", "phonetic": "sà-nùk", "partOfSpeech": "adjective" },
+        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "หวังว่าอย่างนั้นค่ะ ทุกคนตื่นเต้นมาก",
+      "target": "I hope so! Everyone is excited.",
+      "phonetic": "wǎng wâa yàang-nán khâ thúk-khon tʉ̀ʉn-dtên mâak",
+      "breakdown": [
+        { "source": "หวังว่า", "target": "I hope", "phonetic": "wǎng wâa", "partOfSpeech": "verb" },
+        { "source": "อย่างนั้น", "target": "so/that way", "phonetic": "yàang-nán", "partOfSpeech": "adverb" },
+        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
+        { "source": "ทุกคน", "target": "everyone", "phonetic": "thúk-khon", "partOfSpeech": "pronoun" },
+        { "source": "ตื่นเต้น", "target": "excited", "phonetic": "tʉ̀ʉn-dtên", "partOfSpeech": "adjective" },
+        { "source": "มาก", "target": "very", "phonetic": "mâak", "partOfSpeech": "adverb" }
+      ]
+    }
+  ],
+  "createdAt": "2025-09-29T15:37:30Z",
+  "updatedAt": "2025-09-29T15:37:30Z",
+  "difficulty": "intermediate",
+  "summary": "บทสนทนาเกี่ยวกับการวางแผนจัดปาร์ตี้: วันเกิด สถานที่ อาหาร เพลง การเต้น จำนวนคน การขอความช่วยเหลือ และความตื่นเต้นของผู้ร่วมงาน"
+}

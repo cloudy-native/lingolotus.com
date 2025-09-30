@@ -1,0 +1,247 @@
+{
+  "storyId": "thai-intermediate-2-the-job-interview",
+  "bookId": "thai-intermediate-2",
+  "language": "th",
+  "title": {
+    "source": "การสัมภาษณ์งาน",
+    "target": "The Job Interview"
+  },
+  "sentences": [
+    {
+      "source": "พรุ่งนี้ ลิซ่าจะไปสัมภาษณ์งานในฝันที่บริษัทการตลาดแห่งหนึ่ง",
+      "target": "Tomorrow, Lisa will attend an interview for her dream job at a marketing firm.",
+      "phonetic": "phrûng-níi lí-sâa jà bpai sǎm-phâat ngaan nai fǎn thîi bɔɔ-rí-sàt gaan-taa-lâat hɛ̀ng nʉ̀ng",
+      "breakdown": [
+        { "source": "พรุ่งนี้", "target": "tomorrow", "phonetic": "phrûng-níi", "partOfSpeech": "adverb" },
+        { "source": "ลิซ่าจะไป", "target": "Lisa will attend", "phonetic": "lí-sâa jà bpai", "partOfSpeech": "verb" },
+        { "source": "สัมภาษณ์งานในฝัน", "target": "an interview for her dream job", "phonetic": "sǎm-phâat ngaan nai fǎn", "partOfSpeech": "noun" },
+        { "source": "ที่บริษัทการตลาด", "target": "at a marketing firm", "phonetic": "thîi bɔɔ-rí-sàt gaan-taa-lâat", "partOfSpeech": "preposition" },
+        { "source": "แห่งหนึ่ง", "target": "one", "phonetic": "hɛ̀ng nʉ̀ng", "partOfSpeech": "classifier" }
+      ]
+    },
+    {
+      "source": "เธอเตรียมตัวมาหลายสัปดาห์ ศึกษาโครงการและคุณค่าของบริษัทอย่างละเอียด",
+      "target": "She has been preparing for weeks, researching the company’s projects and values.",
+      "phonetic": "thoe dtriam-dtua maa lǎai sàp-daa sʉ̀k-sǎa khroong-gaan láe khun-ná-khâa khǎwng bɔɔ-rí-sàt yàang lá-ìat",
+      "breakdown": [
+        { "source": "เธอเตรียมตัวมา", "target": "she has been preparing", "phonetic": "thoe dtriam-dtua maa", "partOfSpeech": "verb" },
+        { "source": "หลายสัปดาห์", "target": "for weeks", "phonetic": "lǎai sàp-daa", "partOfSpeech": "noun" },
+        { "source": "ศึกษาโครงการ", "target": "researching the projects", "phonetic": "sʉ̀k-sǎa khroong-gaan", "partOfSpeech": "verb" },
+        { "source": "และคุณค่าของบริษัท", "target": "and values of the company", "phonetic": "láe khun-ná-khâa khǎwng bɔɔ-rí-sàt", "partOfSpeech": "conjunction" },
+        { "source": "อย่างละเอียด", "target": "thoroughly", "phonetic": "yàang lá-ìat", "partOfSpeech": "adverb" }
+      ]
+    },
+    {
+      "source": "ถ้าเธอทำได้ดี เธออาจบรรลุเป้าหมายในการเป็นผู้จัดการในที่สุด",
+      "target": "If she performs well, she might finally achieve her goal of becoming a manager.",
+      "phonetic": "thâa thoe tham dâi dii thoe àat ban-lú páo-mǎai nai gaan bpen phûu jàt-gaan nai thîi-sùt",
+      "breakdown": [
+        { "source": "ถ้าเธอทำได้ดี", "target": "if she performs well", "phonetic": "thâa thoe tham dâi dii", "partOfSpeech": "conditional" },
+        { "source": "เธออาจบรรลุ", "target": "she might achieve", "phonetic": "thoe àat ban-lú", "partOfSpeech": "verb" },
+        { "source": "เป้าหมาย", "target": "her goal", "phonetic": "páo-mǎai", "partOfSpeech": "noun" },
+        { "source": "ในการเป็นผู้จัดการ", "target": "of becoming a manager", "phonetic": "nai gaan bpen phûu jàt-gaan", "partOfSpeech": "preposition" },
+        { "source": "ในที่สุด", "target": "finally", "phonetic": "nai thîi-sùt", "partOfSpeech": "adverb" }
+      ]
+    },
+    {
+      "source": "เมื่อคืน เธอฝึกตอบคำถามเกี่ยวกับทักษะและประสบการณ์ของเธอ",
+      "target": "Last night, she practiced answering questions about her skills and experience.",
+      "phonetic": "mʉ̂a-kʉʉn thoe fʉ̀k dtɔ̀ɔp kham-thǎam gìeow-gàp thák-sà láe bprà-sòp-gaan khǎwng thoe",
+      "breakdown": [
+        { "source": "เมื่อคืน", "target": "last night", "phonetic": "mʉ̂a-kʉʉn", "partOfSpeech": "adverb" },
+        { "source": "เธอฝึกตอบ", "target": "she practiced answering", "phonetic": "thoe fʉ̀k dtɔ̀ɔp", "partOfSpeech": "verb" },
+        { "source": "คำถามเกี่ยวกับ", "target": "questions about", "phonetic": "kham-thǎam gìeow-gàp", "partOfSpeech": "noun" },
+        { "source": "ทักษะ", "target": "her skills", "phonetic": "thák-sà", "partOfSpeech": "noun" },
+        { "source": "และประสบการณ์ของเธอ", "target": "and experience", "phonetic": "láe bprà-sòp-gaan khǎwng thoe", "partOfSpeech": "conjunction" }
+      ]
+    },
+    {
+      "source": "เธอเชื่อว่าความมั่นใจจะช่วยให้เธอสร้างความประทับใจได้ดี",
+      "target": "She believes that confidence will help her make a strong impression.",
+      "phonetic": "thoe chʉ̂a wâa khwaam mân-jai jà chûai hâi thoe sâang khwaam bprà-tháp-jai dâi dii",
+      "breakdown": [
+        { "source": "เธอเชื่อว่า", "target": "she believes that", "phonetic": "thoe chʉ̂a wâa", "partOfSpeech": "verb" },
+        { "source": "ความมั่นใจ", "target": "confidence", "phonetic": "khwaam mân-jai", "partOfSpeech": "noun" },
+        { "source": "จะช่วยให้เธอ", "target": "will help her", "phonetic": "jà chûai hâi thoe", "partOfSpeech": "verb" },
+        { "source": "สร้างความประทับใจ", "target": "make an impression", "phonetic": "sâang khwaam bprà-tháp-jai", "partOfSpeech": "verb" },
+        { "source": "ได้ดี", "target": "strong", "phonetic": "dâi dii", "partOfSpeech": "adverb" }
+      ]
+    },
+    {
+      "source": "เพื่อนของเธอที่ทำงานการตลาด แนะนำให้เธอเน้นทักษะการทำงานเป็นทีม",
+      "target": "Her friend, who works in marketing, advised her to emphasize teamwork skills.",
+      "phonetic": "phʉ̂an khǎwng thoe thîi tham-ngaan gaan-taa-lâat nɛ́-nam hâi thoe nén thák-sà gaan tham-ngaan bpen thiim",
+      "breakdown": [
+        { "source": "เพื่อนของเธอ", "target": "her friend", "phonetic": "phʉ̂an khǎwng thoe", "partOfSpeech": "noun" },
+        { "source": "ที่ทำงานการตลาด", "target": "who works in marketing", "phonetic": "thîi tham-ngaan gaan-taa-lâat", "partOfSpeech": "clause" },
+        { "source": "แนะนำให้เธอ", "target": "advised her", "phonetic": "nɛ́-nam hâi thoe", "partOfSpeech": "verb" },
+        { "source": "เน้นทักษะ", "target": "to emphasize skills", "phonetic": "nén thák-sà", "partOfSpeech": "verb" },
+        { "source": "การทำงานเป็นทีม", "target": "teamwork", "phonetic": "gaan tham-ngaan bpen thiim", "partOfSpeech": "noun" }
+      ]
+    },
+    {
+      "source": "ลิซ่าอาจสมัครงานอื่นได้ แต่ตำแหน่งนี้ทำให้เธอตื่นเต้นที่สุด",
+      "target": "Lisa could have applied for other jobs, but this one excites her the most.",
+      "phonetic": "lí-sâa àat sà-màk ngaan ʉ̀ʉn dâi dtàe dtam-nɛ̀ng níi tham hâi thoe tʉ̀ʉn-dtên thîi-sùt",
+      "breakdown": [
+        { "source": "ลิซ่าอาจสมัครงานอื่น", "target": "Lisa could have applied for other jobs", "phonetic": "lí-sâa àat sà-màk ngaan ʉ̀ʉn", "partOfSpeech": "verb" },
+        { "source": "ได้", "target": "could", "phonetic": "dâi", "partOfSpeech": "auxiliary" },
+        { "source": "แต่ตำแหน่งนี้", "target": "but this one", "phonetic": "dtàe dtam-nɛ̀ng níi", "partOfSpeech": "conjunction" },
+        { "source": "ทำให้เธอตื่นเต้น", "target": "excites her", "phonetic": "tham hâi thoe tʉ̀ʉn-dtên", "partOfSpeech": "verb" },
+        { "source": "ที่สุด", "target": "the most", "phonetic": "thîi-sùt", "partOfSpeech": "adverb" }
+      ]
+    },
+    {
+      "source": "แคมเปญที่สร้างสรรค์ของบริษัทนี้ทำให้เธอประทับใจมาตั้งแต่สมัยเรียน",
+      "target": "The company’s innovative campaigns have inspired her since college.",
+      "phonetic": "khaem-pen thîi sâang-san khǎwng bɔɔ-rí-sàt níi tham hâi thoe bprà-tháp-jai maa tâng-tàe sà-mǎi rian",
+      "breakdown": [
+        { "source": "แคมเปญที่สร้างสรรค์", "target": "the innovative campaigns", "phonetic": "khaem-pen thîi sâang-san", "partOfSpeech": "noun" },
+        { "source": "ของบริษัทนี้", "target": "of this company", "phonetic": "khǎwng bɔɔ-rí-sàt níi", "partOfSpeech": "noun" },
+        { "source": "ทำให้เธอประทับใจ", "target": "have inspired her", "phonetic": "tham hâi thoe bprà-tháp-jai", "partOfSpeech": "verb" },
+        { "source": "มาตั้งแต่", "target": "since", "phonetic": "maa tâng-tàe", "partOfSpeech": "preposition" },
+        { "source": "สมัยเรียน", "target": "college", "phonetic": "sà-mǎi rian", "partOfSpeech": "noun" }
+      ]
+    },
+    {
+      "source": "ถ้าเธอเรียนธุรกิจแทนศิลปะ เธออาจเริ่มอาชีพนี้เร็วกว่านี้",
+      "target": "If she had studied business instead of art, she might have started this career sooner.",
+      "phonetic": "thâa thoe rian thú-rá-kìt thaaen sǐn-là-bpà thoe àat rœ̂œm aa-chîip níi reo gwàa níi",
+      "breakdown": [
+        { "source": "ถ้าเธอเรียนธุรกิจ", "target": "if she had studied business", "phonetic": "thâa thoe rian thú-rá-kìt", "partOfSpeech": "conditional" },
+        { "source": "แทนศิลปะ", "target": "instead of art", "phonetic": "thaaen sǐn-là-bpà", "partOfSpeech": "preposition" },
+        { "source": "เธออาจเริ่ม", "target": "she might have started", "phonetic": "thoe àat rœ̂œm", "partOfSpeech": "verb" },
+        { "source": "อาชีพนี้", "target": "this career", "phonetic": "aa-chîip níi", "partOfSpeech": "noun" },
+        { "source": "เร็วกว่านี้", "target": "sooner", "phonetic": "reo gwàa níi", "partOfSpeech": "adverb" }
+      ]
+    },
+    {
+      "source": "เธอวางแผนจะสวมชุดสุภาพเพื่อเพิ่มความมั่นใจให้ตัวเอง",
+      "target": "She plans to wear a professional outfit to feel more self-assured.",
+      "phonetic": "thoe waang-phǎen jà sǔam chút sù-phâap phʉ̂a phœ̂œm khwaam mân-jai hâi tua-eng",
+      "breakdown": [
+        { "source": "เธอวางแผนจะสวม", "target": "she plans to wear", "phonetic": "thoe waang-phǎen jà sǔam", "partOfSpeech": "verb" },
+        { "source": "ชุดสุภาพ", "target": "a professional outfit", "phonetic": "chút sù-phâap", "partOfSpeech": "noun" },
+        { "source": "เพื่อเพิ่ลความมั่นใจ", "target": "to feel more confident", "phonetic": "phʉ̂a phœ̂œm khwaam mân-jai", "partOfSpeech": "verb" },
+        { "source": "ให้ตัวเอง", "target": "herself", "phonetic": "hâi tua-eng", "partOfSpeech": "pronoun" }
+      ]
+    },
+    {
+      "source": "ระหว่างสัมภาษณ์ เธอจะเน้นความสามารถในการแก้ปัญหาอย่างสร้างสรรค์",
+      "target": "During the interview, she will highlight her ability to solve problems creatively.",
+      "phonetic": "rá-wàang sǎm-phâat thoe jà nén khwaam sǎa-mâat nai gaan gâe bpan-hăa yàang sâang-san",
+      "breakdown": [
+        { "source": "ระหว่างสัมภาษณ์", "target": "during the interview", "phonetic": "rá-wàang sǎm-phâat", "partOfSpeech": "preposition" },
+        { "source": "เธอจะเน้น", "target": "she will highlight", "phonetic": "thoe jà nén", "partOfSpeech": "verb" },
+        { "source": "ความสามารถ", "target": "her ability", "phonetic": "khwaam sǎa-mâat", "partOfSpeech": "noun" },
+        { "source": "ในการแก้ปัญหา", "target": "to solve problems", "phonetic": "nai gaan gâe bpan-hăa", "partOfSpeech": "preposition" },
+        { "source": "อย่างสร้างสรรค์", "target": "creatively", "phonetic": "yàang sâang-san", "partOfSpeech": "adverb" }
+      ]
+    },
+    {
+      "source": "ผู้สัมภาษณ์อาจถามถึงประสบการณ์ด้านกลยุทธ์สื่อสังคมออนไลน์ของเธอ",
+      "target": "The interviewer might ask about her experience with social media strategies.",
+      "phonetic": "phûu sǎm-phâat àat thǎam thʉ̌ng bprà-sòp-gaan dâan glà-yùt sʉ̀ʉ sǎng-khom on-laai khǎwng thoe",
+      "breakdown": [
+        { "source": "ผู้สัมภาษณ์อาจถามถึง", "target": "the interviewer might ask about", "phonetic": "phûu sǎm-phâat àat thǎam thʉ̌ng", "partOfSpeech": "verb" },
+        { "source": "ประสบการณ์ด้าน", "target": "her experience with", "phonetic": "bprà-sòp-gaan dâan", "partOfSpeech": "noun" },
+        { "source": "กลยุทธ์สื่อสังคมออนไลน์", "target": "social media strategies", "phonetic": "glà-yùt sʉ̀ʉ sǎng-khom on-laai", "partOfSpeech": "noun" },
+        { "source": "ของเธอ", "target": "of hers", "phonetic": "khǎwng thoe", "partOfSpeech": "pronoun" }
+      ]
+    },
+    {
+      "source": "ลิซ่าเตรียมตัวด้วยตัวอย่างแคมเปญที่เธอเคยทำตอนเรียน",
+      "target": "Lisa has prepared examples of campaigns she created for a school project.",
+      "phonetic": "lí-sâa dtriam-dtua dûai dtua-yàang khaem-pen thîi thoe khoei tham dtɔɔn rian",
+      "breakdown": [
+        { "source": "ลิซ่าเตรียมตัวด้วย", "target": "Lisa has prepared with", "phonetic": "lí-sâa dtriam-dtua dûai", "partOfSpeech": "verb" },
+        { "source": "ตัวอย่างแคมเปญ", "target": "examples of campaigns", "phonetic": "dtua-yàang khaem-pen", "partOfSpeech": "noun" },
+        { "source": "ที่เธอเคยทำ", "target": "she created", "phonetic": "thîi thoe khoei tham", "partOfSpeech": "verb" },
+        { "source": "ตอนเรียน", "target": "for a school project", "phonetic": "dtɔɔn rian", "partOfSpeech": "noun" }
+      ]
+    },
+    {
+      "source": "ถ้าเธอได้งาน เธอจะฉลองกับครอบครัวที่ร้านอาหาร",
+      "target": "If she gets the job, she will celebrate with her family at a restaurant.",
+      "phonetic": "thâa thoe dâi ngaan thoe jà chà-lɔ̌ɔng gàp khrâwp-khrua thîi ráan aa-hăan",
+      "breakdown": [
+        { "source": "ถ้าเธอได้งาน", "target": "if she gets the job", "phonetic": "thâa thoe dâi ngaan", "partOfSpeech": "conditional" },
+        { "source": "เธอจะฉลอง", "target": "she will celebrate", "phonetic": "thoe jà chà-lɔ̌ɔng", "partOfSpeech": "verb" },
+        { "source": "กับครอบครัว", "target": "with her family", "phonetic": "gàp khrâwp-khrua", "partOfSpeech": "preposition" },
+        { "source": "ที่ร้านอาหาร", "target": "at a restaurant", "phonetic": "thîi ráan aa-hăan", "partOfSpeech": "preposition" }
+      ]
+    },
+    {
+      "source": "เธอจินตนาการว่าเธอจะเติบโตได้ดีในสภาพแวดล้อมที่รวดเร็วและสร้างสรรค์",
+      "target": "She imagines herself thriving in a fast-paced, creative environment.",
+      "phonetic": "thoe jin-dtà-naa-gaan wâa thoe jà dtǝ̀ǝp-dtoo dâi dii nai sà-phâap wɛ̂ɛt-lɔ́ɔm thîi rûat-reo láe sâang-san",
+      "breakdown": [
+        { "source": "เธอจินตนาการว่า", "target": "she imagines", "phonetic": "thoe jin-dtà-naa-gaan wâa", "partOfSpeech": "verb" },
+        { "source": "เธอจะเติบโตได้ดี", "target": "herself thriving", "phonetic": "thoe jà dtǝ̀ǝp-dtoo dâi dii", "partOfSpeech": "verb" },
+        { "source": "ในสภาพแวดล้อม", "target": "in an environment", "phonetic": "nai sà-phâap wɛ̂ɛt-lɔ́ɔm", "partOfSpeech": "preposition" },
+        { "source": "ที่รวดเร็ว", "target": "fast-paced", "phonetic": "thîi rûat-reo", "partOfSpeech": "adjective" },
+        { "source": "และสร้างสรรค์", "target": "and creative", "phonetic": "láe sâang-san", "partOfSpeech": "conjunction" }
+      ]
+    },
+    {
+      "source": "แม้ว่าเธออาจไม่ได้งาน เธอก็จะไม่ยอมแพ้ต่อความฝัน",
+      "target": "Even if she doesn’t get the job, she won’t give up on her dreams.",
+      "phonetic": "mɛ́ɛ wâa thoe àat mâi dâi ngaan thoe gɔ̂ɔ jà mâi yɔɔm-phɛ́ɛ dtɔ̀ɔ khwaam fǎn",
+      "breakdown": [
+        { "source": "แม้ว่าเธออาจไม่ได้งาน", "target": "even if she doesn't get the job", "phonetic": "mɛ́ɛ wâa thoe àat mâi dâi ngaan", "partOfSpeech": "conditional" },
+        { "source": "เธอก็จะไม่ยอมแพ้", "target": "she won't give up", "phonetic": "thoe gɔ̂ɔ jà mâi yɔɔm-phɛ́ɛ", "partOfSpeech": "verb" },
+        { "source": "ต่อความฝัน", "target": "on her dreams", "phonetic": "dtɔ̀ɔ khwaam fǎn", "partOfSpeech": "preposition" }
+      ]
+    },
+    {
+      "source": "ลิซ่ารู้ว่าทุกการสัมภาษณ์คือโอกาสในการเรียนรู้และพัฒนา",
+      "target": "Lisa knows that every interview is a chance to learn and improve.",
+      "phonetic": "lí-sâa rúu wâa thúk gaan sǎm-phâat khʉʉ ʔoo-gaat nai gaan rian-rúu láe phát-thá-naa",
+      "breakdown": [
+        { "source": "ลิซ่ารู้ว่า", "target": "Lisa knows that", "phonetic": "lí-sâa rúu wâa", "partOfSpeech": "verb" },
+        { "source": "ทุกการสัมภาษณ์", "target": "every interview", "phonetic": "thúk gaan sǎm-phâat", "partOfSpeech": "noun" },
+        { "source": "คือโอกาส", "target": "is a chance", "phonetic": "khʉʉ ʔoo-gaat", "partOfSpeech": "verb" },
+        { "source": "ในการเรียนรู้", "target": "to learn", "phonetic": "nai gaan rian-rúu", "partOfSpeech": "preposition" },
+        { "source": "และพัฒนา", "target": "and improve", "phonetic": "láe phát-thá-naa", "partOfSpeech": "conjunction" }
+      ]
+    },
+    {
+      "source": "เธอรู้สึกกังวลแต่ก็ตื่นเต้นกับโอกาสที่จะเติบโต",
+      "target": "She feels nervous but excited about the opportunity to grow.",
+      "phonetic": "thoe rúu-sʉ̀k gang-won dtàe gɔ̂ɔ tʉ̀ʉn-dtên gàp ʔoo-gaat thîi jà dtǝ̀ǝp-dtoo",
+      "breakdown": [
+        { "source": "เธอรู้สึกกังวล", "target": "she feels nervous", "phonetic": "thoe rúu-sʉ̀k gang-won", "partOfSpeech": "verb" },
+        { "source": "แต่ก็ตื่นเต้น", "target": "but excited", "phonetic": "dtàe gɔ̂ɔ tʉ̀ʉn-dtên", "partOfSpeech": "conjunction" },
+        { "source": "กับโอกาส", "target": "about the opportunity", "phonetic": "gàp ʔoo-gaat", "partOfSpeech": "preposition" },
+        { "source": "ที่จะเติบโต", "target": "to grow", "phonetic": "thîi jà dtǝ̀ǝp-dtoo", "partOfSpeech": "clause" }
+      ]
+    },
+    {
+      "source": "หลังสัมภาษณ์ เธอจะส่งอีเมลขอบคุณผู้สัมภาษณ์อย่างสุภาพ",
+      "target": "After the interview, she will thank the interviewer with a polite email.",
+      "phonetic": "lǎng sǎm-phâat thoe jà sòng ii-meeo khɔ̀ɔp-khun phûu sǎm-phâat yàang sù-phâap",
+      "breakdown": [
+        { "source": "หลังสัมภาษณ์", "target": "after the interview", "phonetic": "lǎng sǎm-phâat", "partOfSpeech": "preposition" },
+        { "source": "เธอจะส่งอีเมล", "target": "she will send an email", "phonetic": "thoe jà sòng ii-meeo", "partOfSpeech": "verb" },
+        { "source": "ขอบคุณผู้สัมภาษณ์", "target": "to thank the interviewer", "phonetic": "khɔ̀ɔp-khun phûu sǎm-phâat", "partOfSpeech": "verb" },
+        { "source": "อย่างสุภาพ", "target": "politely", "phonetic": "yàang sù-phâap", "partOfSpeech": "adverb" }
+      ]
+    },
+    {
+      "source": "ไม่ว่าอะไรจะเกิดขึ้น ลิซ่ามุ่งมั่นที่จะเดินหน้าตามเป้าหมายในอาชีพของเธอ",
+      "target": "No matter what happens, Lisa is determined to keep pursuing her career goals.",
+      "phonetic": "mâi wâa à-rai jà gèrt khʉ̂n lí-sâa mûng-mân thîi jà dœœn nâa taam páo-mǎai nai aa-chîip khǎwng thoe",
+      "breakdown": [
+        { "source": "ไม่ว่าอะไรจะเกิดขึ้น", "target": "no matter what happens", "phonetic": "mâi wâa à-rai jà gèrt khʉ̂n", "partOfSpeech": "conjunction" },
+        { "source": "ลิซ่ามุ่งมั่น", "target": "Lisa is determined", "phonetic": "lí-sâa mûng-mân", "partOfSpeech": "verb" },
+        { "source": "ที่จะเดินหน้า", "target": "to keep pursuing", "phonetic": "thîi jà dœœn nâa", "partOfSpeech": "verb" },
+        { "source": "ตามเป้าหมาย", "target": "her goals", "phonetic": "taam páo-mǎai", "partOfSpeech": "preposition" },
+        { "source": "ในอาชีพของเธอ", "target": "in her career", "phonetic": "nai aa-chîip khǎwng thoe", "partOfSpeech": "preposition" }
+      ]
+    }
+  ],
+  "createdAt": "2025-09-29T23:30:30Z",
+  "updatedAt": "2025-09-29T23:30:30Z",
+  "difficulty": "intermediate",
+  "summary": "การเตรียมตัวสัมภาษณ์งานของลิซ่า ความมั่นใจ กลยุทธ์ ประสบการณ์ เงื่อนไขต่างๆ และความมุ่งมั่นในอาชีพ"
+}

@@ -1,9 +1,7 @@
 
-Intermediate English Stories for Learning to Read
-Below are 10 intermediate-level stories designed for English learners to practice reading through themed question-and-answer formats. Each story contains approximately 20 sentences, using slightly more complex vocabulary, varied sentence structures, and practical topics to build confidence in reading and comprehension.
-
 Story 1: Meeting New Friends
-Theme: Making new friendsPurpose: Practice conversational phrases and personal details  
+Theme: Making new friends
+Purpose: Practice conversational phrases and personal details  
 
 Hello! What is your name?  
 My name is Sarah.  
@@ -28,7 +26,8 @@ Yes, I love making new friends like you!
 
 
 Story 2: At the Market
-Theme: Shopping for foodPurpose: Learn vocabulary for shopping and food preferences  
+Theme: Shopping for food
+Purpose: Learn vocabulary for shopping and food preferences  
 
 Do you like going to the market?  
 Yes, I go to the market every Saturday.  
@@ -53,7 +52,8 @@ It’s a short walk, about ten minutes.
 
 
 Story 3: A Day at School
-Theme: School life and studiesPurpose: Practice vocabulary related to education  
+Theme: School life and studies
+Purpose: Practice vocabulary related to education  
 
 Do you go to school?  
 Yes, I study at a language school.  
@@ -78,7 +78,8 @@ Yes, I learn a lot and meet friends!
 
 
 Story 4: Traveling
-Theme: Discussing travel experiencesPurpose: Learn travel-related vocabulary and past tense  
+Theme: Discussing travel experiences
+Purpose: Learn travel-related vocabulary and past tense  
 
 Do you like to travel?  
 Yes, I love traveling to new places!  
@@ -103,7 +104,8 @@ I travel with my family or friends.
 
 
 Story 5: Hobbies
-Theme: Talking about hobbies and free timePurpose: Practice describing activities and preferences  
+Theme: Talking about hobbies and free time
+Purpose: Practice describing activities and preferences  
 
 What do you do in your free time?  
 I like painting and playing soccer.  
@@ -128,7 +130,8 @@ Yes, I also like listening to music.
 
 
 Story 6: At the Restaurant
-Theme: Ordering food at a restaurantPurpose: Learn restaurant vocabulary and polite phrases  
+Theme: Ordering food at a restaurant
+Purpose: Learn restaurant vocabulary and polite phrases  
 
 Do you like eating at restaurants?  
 Yes, I go to restaurants with my friends.  
@@ -153,7 +156,8 @@ I go once or twice a month.
 
 
 Story 7: Work and Jobs
-Theme: Talking about jobs and careersPurpose: Practice job-related vocabulary and future tense  
+Theme: Talking about jobs and careers
+Purpose: Practice job-related vocabulary and future tense  
 
 Do you have a job?  
 Yes, I work at a small store.  
@@ -178,7 +182,8 @@ Yes, they are friendly and helpful.
 
 
 Story 8: Health and Exercise
-Theme: Discussing health and fitnessPurpose: Learn health-related vocabulary and routines  
+Theme: Discussing health and fitness
+Purpose: Learn health-related vocabulary and routines  
 
 Do you exercise?  
 Yes, I exercise three times a week.  
@@ -203,7 +208,8 @@ Yes, my doctor is very kind.
 
 
 Story 9: Shopping for Clothes
-Theme: Buying clothesPurpose: Practice shopping vocabulary and descriptions  
+Theme: Buying clothes
+Purpose: Practice shopping vocabulary and descriptions  
 
 Do you like shopping for clothes?  
 Yes, I enjoy it!  
@@ -228,7 +234,8 @@ Yes, I buy sneakers and boots.
 
 
 Story 10: Planning a Party
-Theme: Organizing a partyPurpose: Learn vocabulary for planning and events  
+Theme: Organizing a party
+Purpose: Learn vocabulary for planning and events  
 
 Are you planning a party?  
 Yes, I’m planning a birthday party.  

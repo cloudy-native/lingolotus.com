@@ -1,0 +1,277 @@
+{
+  "storyId": "thai-intermediate-1-traveling",
+  "bookId": "thai-intermediate-1",
+  "language": "th",
+  "title": {
+    "source": "การท่องเที่ยว",
+    "target": "Traveling"
+  },
+  "sentences": [
+    {
+      "source": "คุณชอบท่องเที่ยวไหมครับ",
+      "target": "Do you like to travel?",
+      "phonetic": "khun chôrp thâwng-thîao mǎi khráp",
+      "breakdown": [
+        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
+        { "source": "ชอบ", "target": "to like", "phonetic": "chôrp", "partOfSpeech": "verb" },
+        { "source": "ท่องเที่ยว", "target": "to travel", "phonetic": "thâwng-thîao", "partOfSpeech": "verb" },
+        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "ใช่ค่ะ ฉันชอบท่องเที่ยวไปสถานที่ใหม่ๆ มาก",
+      "target": "Yes, I love traveling to new places!",
+      "phonetic": "châi khâ chăn chôrp thâwng-thîao bpai sa-thăan-thîi mài mài mâak",
+      "breakdown": [
+        { "source": "ใช่", "target": "yes", "phonetic": "châi", "partOfSpeech": "interjection" },
+        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
+        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
+        { "source": "ชอบ", "target": "to love/like", "phonetic": "chôrp", "partOfSpeech": "verb" },
+        { "source": "ท่องเที่ยว", "target": "to travel", "phonetic": "thâwng-thîao", "partOfSpeech": "verb" },
+        { "source": "ไป", "target": "to go", "phonetic": "bpai", "partOfSpeech": "verb" },
+        { "source": "สถานที่", "target": "places", "phonetic": "sa-thăan-thîi", "partOfSpeech": "noun" },
+        { "source": "ใหม่ๆ", "target": "new (reduplicated)", "phonetic": "mài mài", "partOfSpeech": "adjective" },
+        { "source": "มาก", "target": "very/much", "phonetic": "mâak", "partOfSpeech": "adverb" }
+      ]
+    },
+    {
+      "source": "คุณเคยไปเที่ยวที่ไหนมาบ้างครับ",
+      "target": "Where have you traveled?",
+      "phonetic": "khun khoei bpai thîao thîi năi maa bâang khráp",
+      "breakdown": [
+        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
+        { "source": "เคย", "target": "ever/used to (perfect)", "phonetic": "khoei", "partOfSpeech": "aspect" },
+        { "source": "ไปเที่ยว", "target": "to go travel", "phonetic": "bpai thîao", "partOfSpeech": "verb" },
+        { "source": "ที่ไหน", "target": "where", "phonetic": "thîi năi", "partOfSpeech": "pronoun" },
+        { "source": "มา", "target": "come (perfect)", "phonetic": "maa", "partOfSpeech": "aspect" },
+        { "source": "บ้าง", "target": "(some/any) particle", "phonetic": "bâang", "partOfSpeech": "particle" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "ฉันเคยไปฝรั่งเศสและญี่ปุ่นค่ะ",
+      "target": "I have been to France and Japan.",
+      "phonetic": "chăn khoei bpai fà-ràng-sèet láe yîi-bpùn khâ",
+      "breakdown": [
+        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
+        { "source": "เคย", "target": "have (ever)", "phonetic": "khoei", "partOfSpeech": "aspect" },
+        { "source": "ไป", "target": "to go (been)", "phonetic": "bpai", "partOfSpeech": "verb" },
+        { "source": "ฝรั่งเศส", "target": "France", "phonetic": "fà-ràng-sèet", "partOfSpeech": "proper noun" },
+        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
+        { "source": "ญี่ปุ่น", "target": "Japan", "phonetic": "yîi-bpùn", "partOfSpeech": "proper noun" },
+        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "ฝรั่งเศสเป็นอย่างไรบ้างครับ",
+      "target": "What was France like?",
+      "phonetic": "fà-ràng-sèet bpen yàang-rai bâang khráp",
+      "breakdown": [
+        { "source": "ฝรั่งเศส", "target": "France", "phonetic": "fà-ràng-sèet", "partOfSpeech": "proper noun" },
+        { "source": "เป็น", "target": "to be", "phonetic": "bpen", "partOfSpeech": "verb" },
+        { "source": "อย่างไร", "target": "how/what like", "phonetic": "yàang-rai", "partOfSpeech": "pronoun" },
+        { "source": "บ้าง", "target": "(some/any) particle", "phonetic": "bâang", "partOfSpeech": "particle" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "ฝรั่งเศสสวยงาม มีอาคารเก่าแก่",
+      "target": "France was beautiful, with old buildings.",
+      "phonetic": "fà-ràng-sèet sŭai-ngaam mii aa-khaan gào-gàe",
+      "breakdown": [
+        { "source": "ฝรั่งเศส", "target": "France", "phonetic": "fà-ràng-sèet", "partOfSpeech": "proper noun" },
+        { "source": "สวยงาม", "target": "beautiful", "phonetic": "sŭai-ngaam", "partOfSpeech": "adjective" },
+        { "source": "มี", "target": "to have/there is", "phonetic": "mii", "partOfSpeech": "verb" },
+        { "source": "อาคาร", "target": "buildings", "phonetic": "aa-khaan", "partOfSpeech": "noun" },
+        { "source": "เก่าแก่", "target": "old/ancient", "phonetic": "gào-gàe", "partOfSpeech": "adjective" }
+      ]
+    },
+    {
+      "source": "คุณได้ไปปารีสไหมครับ",
+      "target": "Did you visit Paris?",
+      "phonetic": "khun dâai bpai paa-ríit mǎi khráp",
+      "breakdown": [
+        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
+        { "source": "ได้", "target": "able to/did", "phonetic": "dâai", "partOfSpeech": "auxiliary" },
+        { "source": "ไป", "target": "to go", "phonetic": "bpai", "partOfSpeech": "verb" },
+        { "source": "ปารีส", "target": "Paris", "phonetic": "paa-ríit", "partOfSpeech": "proper noun" },
+        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "ใช่ค่ะ ฉันได้เห็นหอไอเฟล!",
+      "target": "Yes, I saw the Eiffel Tower!",
+      "phonetic": "châi khâ chăn dâai hĕn hŏr ai-fel",
+      "breakdown": [
+        { "source": "ใช่", "target": "yes", "phonetic": "châi", "partOfSpeech": "interjection" },
+        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
+        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
+        { "source": "ได้", "target": "did (past)", "phonetic": "dâai", "partOfSpeech": "auxiliary" },
+        { "source": "เห็น", "target": "to see", "phonetic": "hĕn", "partOfSpeech": "verb" },
+        { "source": "หอไอเฟล", "target": "Eiffel Tower", "phonetic": "hŏr ai-fel", "partOfSpeech": "proper noun" }
+      ]
+    },
+    {
+      "source": "มันน่าตื่นเต้นไหมครับ",
+      "target": "Was it exciting?",
+      "phonetic": "man nâa-tùen-tên mǎi khráp",
+      "breakdown": [
+        { "source": "มัน", "target": "it", "phonetic": "man", "partOfSpeech": "pronoun" },
+        { "source": "น่าตื่นเต้น", "target": "exciting", "phonetic": "nâa-tùen-tên", "partOfSpeech": "adjective" },
+        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "มันน่าทึ่งมาก โดยเฉพาะตอนกลางคืน",
+      "target": "It was amazing, especially at night.",
+      "phonetic": "man nâa-thûeng mâak doi-chá-phá thawn glaang-khuen",
+      "breakdown": [
+        { "source": "มัน", "target": "it", "phonetic": "man", "partOfSpeech": "pronoun" },
+        { "source": "น่าทึ่ง", "target": "amazing", "phonetic": "nâa-thûeng", "partOfSpeech": "adjective" },
+        { "source": "มาก", "target": "very", "phonetic": "mâak", "partOfSpeech": "adverb" },
+        { "source": "โดยเฉพาะ", "target": "especially", "phonetic": "doi-chá-phá", "partOfSpeech": "adverb" },
+        { "source": "ตอน", "target": "at/when (time)", "phonetic": "thawn", "partOfSpeech": "noun" },
+        { "source": "กลางคืน", "target": "night", "phonetic": "glaang-khuen", "partOfSpeech": "noun" }
+      ]
+    },
+    {
+      "source": "แล้วญี่ปุ่นล่ะครับ",
+      "target": "What about Japan?",
+      "phonetic": "láew yîi-bpùn lâ khráp",
+      "breakdown": [
+        { "source": "แล้ว", "target": "and then/what about", "phonetic": "láew", "partOfSpeech": "discourse" },
+        { "source": "ญี่ปุ่น", "target": "Japan", "phonetic": "yîi-bpùn", "partOfSpeech": "proper noun" },
+        { "source": "ล่ะ", "target": "topic particle", "phonetic": "lâ", "partOfSpeech": "particle" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "ญี่ปุ่นมีอาหารอร่อยและผู้คนใจดี",
+      "target": "Japan had great food and kind people.",
+      "phonetic": "yîi-bpùn mii aa-hăan à-ròi láe phûu-khon jai-dee",
+      "breakdown": [
+        { "source": "ญี่ปุ่น", "target": "Japan", "phonetic": "yîi-bpùn", "partOfSpeech": "proper noun" },
+        { "source": "มี", "target": "to have", "phonetic": "mii", "partOfSpeech": "verb" },
+        { "source": "อาหาร", "target": "food", "phonetic": "aa-hăan", "partOfSpeech": "noun" },
+        { "source": "อร่อย", "target": "delicious", "phonetic": "à-ròi", "partOfSpeech": "adjective" },
+        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
+        { "source": "ผู้คน", "target": "people", "phonetic": "phûu-khon", "partOfSpeech": "noun" },
+        { "source": "ใจดี", "target": "kind", "phonetic": "jai-dee", "partOfSpeech": "adjective" }
+      ]
+    },
+    {
+      "source": "คุณได้ลองซูชิไหมครับ",
+      "target": "Did you try sushi?",
+      "phonetic": "khun dâai long suu-chí mǎi khráp",
+      "breakdown": [
+        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
+        { "source": "ได้", "target": "did/able to", "phonetic": "dâai", "partOfSpeech": "auxiliary" },
+        { "source": "ลอง", "target": "to try", "phonetic": "long", "partOfSpeech": "verb" },
+        { "source": "ซูชิ", "target": "sushi", "phonetic": "suu-chí", "partOfSpeech": "noun" },
+        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "ได้ค่ะ ฉันกินซูชิทุกวัน!",
+      "target": "Yes, I ate sushi every day!",
+      "phonetic": "dâai khâ chăn gin suu-chí thúk wan",
+      "breakdown": [
+        { "source": "ได้", "target": "yes/did", "phonetic": "dâai", "partOfSpeech": "interjection/aux" },
+        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
+        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
+        { "source": "กิน", "target": "to eat", "phonetic": "gin", "partOfSpeech": "verb" },
+        { "source": "ซูชิ", "target": "sushi", "phonetic": "suu-chí", "partOfSpeech": "noun" },
+        { "source": "ทุก", "target": "every", "phonetic": "thúk", "partOfSpeech": "determiner" },
+        { "source": "วัน", "target": "day", "phonetic": "wan", "partOfSpeech": "noun" }
+      ]
+    },
+    {
+      "source": "คุณอยากท่องเที่ยวอีกไหมครับ",
+      "target": "Do you want to travel again?",
+      "phonetic": "khun yàak thâwng-thîao ìik mǎi khráp",
+      "breakdown": [
+        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
+        { "source": "อยาก", "target": "to want", "phonetic": "yàak", "partOfSpeech": "verb" },
+        { "source": "ท่องเที่ยว", "target": "to travel", "phonetic": "thâwng-thîao", "partOfSpeech": "verb" },
+        { "source": "อีก", "target": "again", "phonetic": "ìik", "partOfSpeech": "adverb" },
+        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "ใช่ค่ะ ฉันอยากไปอิตาลีต่อไป",
+      "target": "Yes, I want to visit Italy next.",
+      "phonetic": "châi khâ chăn yàak bpai ì-dtaa-lîi dtàw-bpai",
+      "breakdown": [
+        { "source": "ใช่", "target": "yes", "phonetic": "châi", "partOfSpeech": "interjection" },
+        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
+        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
+        { "source": "อยาก", "target": "to want", "phonetic": "yàak", "partOfSpeech": "verb" },
+        { "source": "ไป", "target": "to go/visit", "phonetic": "bpai", "partOfSpeech": "verb" },
+        { "source": "อิตาลี", "target": "Italy", "phonetic": "ì-dtaa-lîi", "partOfSpeech": "proper noun" },
+        { "source": "ต่อไป", "target": "next", "phonetic": "dtàw-bpai", "partOfSpeech": "adverb" }
+      ]
+    },
+    {
+      "source": "ทำไมถึงเป็นอิตาลีครับ",
+      "target": "Why Italy?",
+      "phonetic": "tham-mai thǔeng bpen ì-dtaa-lîi khráp",
+      "breakdown": [
+        { "source": "ทำไม", "target": "why", "phonetic": "tham-mai", "partOfSpeech": "adverb" },
+        { "source": "ถึง", "target": "(emphasis) to/that", "phonetic": "thǔeng", "partOfSpeech": "particle" },
+        { "source": "เป็น", "target": "to be", "phonetic": "bpen", "partOfSpeech": "verb" },
+        { "source": "อิตาลี", "target": "Italy", "phonetic": "ì-dtaa-lîi", "partOfSpeech": "proper noun" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "ฉันอยากเห็นโรมและกินพาสต้า",
+      "target": "I want to see Rome and eat pasta.",
+      "phonetic": "chăn yàak hĕn rohm láe gin paas-dtâa",
+      "breakdown": [
+        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
+        { "source": "อยาก", "target": "to want", "phonetic": "yàak", "partOfSpeech": "verb" },
+        { "source": "เห็น", "target": "to see", "phonetic": "hĕn", "partOfSpeech": "verb" },
+        { "source": "โรม", "target": "Rome", "phonetic": "rohm", "partOfSpeech": "proper noun" },
+        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
+        { "source": "กิน", "target": "to eat", "phonetic": "gin", "partOfSpeech": "verb" },
+        { "source": "พาสต้า", "target": "pasta", "phonetic": "paas-dtâa", "partOfSpeech": "noun" }
+      ]
+    },
+    {
+      "source": "คุณเดินทางคนเดียวหรือกับครอบครัวครับ",
+      "target": "Do you travel alone or with family?",
+      "phonetic": "khun dooen-thaang khon-diao rǔe gàp khrâwp-khrua khráp",
+      "breakdown": [
+        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
+        { "source": "เดินทาง", "target": "to travel", "phonetic": "dooen-thaang", "partOfSpeech": "verb" },
+        { "source": "คนเดียว", "target": "alone", "phonetic": "khon-diao", "partOfSpeech": "adverb" },
+        { "source": "หรือ", "target": "or", "phonetic": "rǔe", "partOfSpeech": "conjunction" },
+        { "source": "กับ", "target": "with", "phonetic": "gàp", "partOfSpeech": "preposition" },
+        { "source": "ครอบครัว", "target": "family", "phonetic": "khrâwp-khrua", "partOfSpeech": "noun" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "ฉันเดินทางกับครอบครัวหรือเพื่อนๆ",
+      "target": "I travel with my family or friends.",
+      "phonetic": "chăn dooen-thaang gàp khrâwp-khrua rǔe phêuan phêuan",
+      "breakdown": [
+        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
+        { "source": "เดินทาง", "target": "to travel", "phonetic": "dooen-thaang", "partOfSpeech": "verb" },
+        { "source": "กับ", "target": "with", "phonetic": "gàp", "partOfSpeech": "preposition" },
+        { "source": "ครอบครัว", "target": "family", "phonetic": "khrâwp-khrua", "partOfSpeech": "noun" },
+        { "source": "หรือ", "target": "or", "phonetic": "rǔe", "partOfSpeech": "conjunction" },
+        { "source": "เพื่อนๆ", "target": "friends (plural)", "phonetic": "phêuan phêuan", "partOfSpeech": "noun" }
+      ]
+    }
+  ],
+  "createdAt": "2025-09-29T15:07:00Z",
+  "updatedAt": "2025-09-29T15:07:00Z",
+  "difficulty": "intermediate",
+  "summary": "บทสนทนาเกี่ยวกับการท่องเที่ยว ประสบการณ์ที่ผ่านมา เมืองสำคัญ และแผนการเดินทางครั้งต่อไป"
+}

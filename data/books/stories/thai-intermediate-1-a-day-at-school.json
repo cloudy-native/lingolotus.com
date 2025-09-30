@@ -1,0 +1,295 @@
+{
+  "storyId": "thai-intermediate-1-a-day-at-school",
+  "bookId": "thai-intermediate-1",
+  "language": "th",
+  "title": {
+    "source": "หนึ่งวันในโรงเรียน",
+    "target": "A Day at School"
+  },
+  "sentences": [
+    {
+      "source": "คุณไปโรงเรียนไหมครับ",
+      "target": "Do you go to school?",
+      "phonetic": "khun bpai rohng-riian mǎi khráp",
+      "breakdown": [
+        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
+        { "source": "ไป", "target": "to go", "phonetic": "bpai", "partOfSpeech": "verb" },
+        { "source": "โรงเรียน", "target": "school", "phonetic": "rohng-riian", "partOfSpeech": "noun" },
+        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "ใช่ค่ะ ฉันเรียนที่โรงเรียนสอนภาษา",
+      "target": "Yes, I study at a language school.",
+      "phonetic": "châi khâ chăn rian thîi rohng-riian sŏrn phaa-săa",
+      "breakdown": [
+        { "source": "ใช่", "target": "yes", "phonetic": "châi", "partOfSpeech": "interjection" },
+        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
+        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
+        { "source": "เรียน", "target": "to study", "phonetic": "rian", "partOfSpeech": "verb" },
+        { "source": "ที่", "target": "at", "phonetic": "thîi", "partOfSpeech": "preposition" },
+        { "source": "โรงเรียน", "target": "school", "phonetic": "rohng-riian", "partOfSpeech": "noun" },
+        { "source": "สอน", "target": "to teach", "phonetic": "sŏrn", "partOfSpeech": "verb" },
+        { "source": "ภาษา", "target": "language", "phonetic": "phaa-săa", "partOfSpeech": "noun" }
+      ]
+    },
+    {
+      "source": "คุณเรียนวิชาอะไรบ้างครับ",
+      "target": "What subjects do you study?",
+      "phonetic": "khun rian wí-chaa à-rai bâang khráp",
+      "breakdown": [
+        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
+        { "source": "เรียน", "target": "to study", "phonetic": "rian", "partOfSpeech": "verb" },
+        { "source": "วิชา", "target": "subject", "phonetic": "wí-chaa", "partOfSpeech": "noun" },
+        { "source": "อะไร", "target": "what", "phonetic": "à-rai", "partOfSpeech": "pronoun" },
+        { "source": "บ้าง", "target": "(some/any) particle", "phonetic": "bâang", "partOfSpeech": "particle" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "ฉันเรียนภาษาอังกฤษ คณิตศาสตร์ และประวัติศาสตร์",
+      "target": "I study English, math, and history.",
+      "phonetic": "chăn rian phaa-săa ang-grìt khá-nít-sà-sàat láe bprà-wàt-tì-sàat",
+      "breakdown": [
+        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
+        { "source": "เรียน", "target": "to study", "phonetic": "rian", "partOfSpeech": "verb" },
+        { "source": "ภาษาอังกฤษ", "target": "English", "phonetic": "phaa-săa ang-grìt", "partOfSpeech": "noun" },
+        { "source": "คณิตศาสตร์", "target": "mathematics", "phonetic": "khá-nít-sà-sàat", "partOfSpeech": "noun" },
+        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
+        { "source": "ประวัติศาสตร์", "target": "history", "phonetic": "bprà-wàt-tì-sàat", "partOfSpeech": "noun" }
+      ]
+    },
+    {
+      "source": "วิชาไหนเป็นวิชาที่คุณชอบมากที่สุดครับ",
+      "target": "Which subject is your favorite?",
+      "phonetic": "wí-chaa năi bpen wí-chaa thîi khun chôrp mâak thîi-sùt khráp",
+      "breakdown": [
+        { "source": "วิชา", "target": "subject", "phonetic": "wí-chaa", "partOfSpeech": "noun" },
+        { "source": "ไหน", "target": "which", "phonetic": "năi", "partOfSpeech": "pronoun" },
+        { "source": "เป็น", "target": "to be", "phonetic": "bpen", "partOfSpeech": "verb" },
+        { "source": "วิชา", "target": "subject", "phonetic": "wí-chaa", "partOfSpeech": "noun" },
+        { "source": "ที่", "target": "that/which", "phonetic": "thîi", "partOfSpeech": "relative pronoun" },
+        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
+        { "source": "ชอบ", "target": "to like", "phonetic": "chôrp", "partOfSpeech": "verb" },
+        { "source": "มาก", "target": "very", "phonetic": "mâak", "partOfSpeech": "adverb" },
+        { "source": "ที่สุด", "target": "most", "phonetic": "thîi-sùt", "partOfSpeech": "adverb" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "ภาษาอังกฤษเป็นวิชาที่ฉันชอบที่สุด เพราะฉันชอบการอ่าน",
+      "target": "English is my favorite because I like reading.",
+      "phonetic": "phaa-săa ang-grìt bpen wí-chaa thîi chăn chôrp thîi-sùt phráw chăn chôrp gaan àan",
+      "breakdown": [
+        { "source": "ภาษาอังกฤษ", "target": "English", "phonetic": "phaa-săa ang-grìt", "partOfSpeech": "noun" },
+        { "source": "เป็น", "target": "to be", "phonetic": "bpen", "partOfSpeech": "verb" },
+        { "source": "วิชา", "target": "subject", "phonetic": "wí-chaa", "partOfSpeech": "noun" },
+        { "source": "ที่", "target": "that/which", "phonetic": "thîi", "partOfSpeech": "relative pronoun" },
+        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
+        { "source": "ชอบ", "target": "to like", "phonetic": "chôrp", "partOfSpeech": "verb" },
+        { "source": "ที่สุด", "target": "most", "phonetic": "thîi-sùt", "partOfSpeech": "adverb" },
+        { "source": "เพราะ", "target": "because", "phonetic": "phráw", "partOfSpeech": "conjunction" },
+        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
+        { "source": "ชอบ", "target": "to like", "phonetic": "chôrp", "partOfSpeech": "verb" },
+        { "source": "การ", "target": "nominalizer", "phonetic": "gaan", "partOfSpeech": "prefix" },
+        { "source": "อ่าน", "target": "reading", "phonetic": "àan", "partOfSpeech": "verb" }
+      ]
+    },
+    {
+      "source": "คุณมีครูคนโปรดไหมครับ",
+      "target": "Do you have a favorite teacher?",
+      "phonetic": "khun mii khruu khon bpròot mǎi khráp",
+      "breakdown": [
+        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
+        { "source": "มี", "target": "to have", "phonetic": "mii", "partOfSpeech": "verb" },
+        { "source": "ครู", "target": "teacher", "phonetic": "khruu", "partOfSpeech": "noun" },
+        { "source": "คน", "target": "classifier: person", "phonetic": "khon", "partOfSpeech": "classifier" },
+        { "source": "โปรด", "target": "favorite", "phonetic": "bpròot", "partOfSpeech": "adjective" },
+        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "มีค่ะ ครูภาษาอังกฤษของฉัน คุณบราวน์ เก่งมาก",
+      "target": "Yes, my English teacher, Mr. Brown, is great.",
+      "phonetic": "mii khâ khruu phaa-săa ang-grìt khǎwng chăn khun brawn gèng mâak",
+      "breakdown": [
+        { "source": "มี", "target": "to have/yes", "phonetic": "mii", "partOfSpeech": "verb" },
+        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
+        { "source": "ครู", "target": "teacher", "phonetic": "khruu", "partOfSpeech": "noun" },
+        { "source": "ภาษาอังกฤษ", "target": "English", "phonetic": "phaa-săa ang-grìt", "partOfSpeech": "noun" },
+        { "source": "ของ", "target": "of", "phonetic": "khǎwng", "partOfSpeech": "preposition" },
+        { "source": "ฉัน", "target": "my", "phonetic": "chăn", "partOfSpeech": "pronoun" },
+        { "source": "คุณบราวน์", "target": "Mr. Brown", "phonetic": "khun brawn", "partOfSpeech": "proper noun" },
+        { "source": "เก่ง", "target": "skilled/great", "phonetic": "gèng", "partOfSpeech": "adjective" },
+        { "source": "มาก", "target": "very", "phonetic": "mâak", "partOfSpeech": "adverb" }
+      ]
+    },
+    {
+      "source": "ทำไมคุณถึงชอบเขาครับ",
+      "target": "Why do you like him?",
+      "phonetic": "tham-mai khun thǔeng chôrp khăo khráp",
+      "breakdown": [
+        { "source": "ทำไม", "target": "why", "phonetic": "tham-mai", "partOfSpeech": "adverb" },
+        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
+        { "source": "ถึง", "target": "(emphasis) to/that", "phonetic": "thǔeng", "partOfSpeech": "particle" },
+        { "source": "ชอบ", "target": "to like", "phonetic": "chôrp", "partOfSpeech": "verb" },
+        { "source": "เขา", "target": "him", "phonetic": "khăo", "partOfSpeech": "pronoun" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "เขาทำให้บทเรียนสนุกและน่าสนใจ",
+      "target": "He makes lessons fun and interesting.",
+      "phonetic": "khăo tham-hâi bòt-rian sà-nùk láe nâa-sŏn-jai",
+      "breakdown": [
+        { "source": "เขา", "target": "he", "phonetic": "khăo", "partOfSpeech": "pronoun" },
+        { "source": "ทำให้", "target": "to make/cause", "phonetic": "tham-hâi", "partOfSpeech": "verb" },
+        { "source": "บทเรียน", "target": "lesson", "phonetic": "bòt-rian", "partOfSpeech": "noun" },
+        { "source": "สนุก", "target": "fun", "phonetic": "sà-nùk", "partOfSpeech": "adjective" },
+        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
+        { "source": "น่าสนใจ", "target": "interesting", "phonetic": "nâa-sŏn-jai", "partOfSpeech": "adjective" }
+      ]
+    },
+    {
+      "source": "การบ้านของคุณเยอะไหมครับ",
+      "target": "Do you have a lot of homework?",
+      "phonetic": "gaan-bâan khǎwng khun yóe mǎi khráp",
+      "breakdown": [
+        { "source": "การบ้าน", "target": "homework", "phonetic": "gaan-bâan", "partOfSpeech": "noun" },
+        { "source": "ของ", "target": "of", "phonetic": "khǎwng", "partOfSpeech": "preposition" },
+        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
+        { "source": "เยอะ", "target": "a lot/many", "phonetic": "yóe", "partOfSpeech": "adjective" },
+        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "ใช่ค่ะ ฉันได้รับการบ้านทุกวัน",
+      "target": "Yes, I get homework every day.",
+      "phonetic": "châi khâ chăn dâai-ráp gaan-bâan thúk wan",
+      "breakdown": [
+        { "source": "ใช่", "target": "yes", "phonetic": "châi", "partOfSpeech": "interjection" },
+        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
+        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
+        { "source": "ได้รับ", "target": "to receive", "phonetic": "dâai-ráp", "partOfSpeech": "verb" },
+        { "source": "การบ้าน", "target": "homework", "phonetic": "gaan-bâan", "partOfSpeech": "noun" },
+        { "source": "ทุก", "target": "every", "phonetic": "thúk", "partOfSpeech": "determiner" },
+        { "source": "วัน", "target": "day", "phonetic": "wan", "partOfSpeech": "noun" }
+      ]
+    },
+    {
+      "source": "ใช้เวลาทำประมาณเท่าไหร่ครับ",
+      "target": "How long does it take to do?",
+      "phonetic": "chái way-laa tham bprà-maan thâo-rài khráp",
+      "breakdown": [
+        { "source": "ใช้", "target": "to use/take", "phonetic": "chái", "partOfSpeech": "verb" },
+        { "source": "เวลา", "target": "time", "phonetic": "way-laa", "partOfSpeech": "noun" },
+        { "source": "ทำ", "target": "to do", "phonetic": "tham", "partOfSpeech": "verb" },
+        { "source": "ประมาณ", "target": "approximately", "phonetic": "bprà-maan", "partOfSpeech": "adverb" },
+        { "source": "เท่าไหร่", "target": "how much", "phonetic": "thâo-rài", "partOfSpeech": "pronoun" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "ใช้เวลาประมาณสองชั่วโมง",
+      "target": "It takes about two hours.",
+      "phonetic": "chái way-laa bprà-maan sǎawng chûa-moong",
+      "breakdown": [
+        { "source": "ใช้", "target": "to take/use", "phonetic": "chái", "partOfSpeech": "verb" },
+        { "source": "เวลา", "target": "time", "phonetic": "way-laa", "partOfSpeech": "noun" },
+        { "source": "ประมาณ", "target": "about", "phonetic": "bprà-maan", "partOfSpeech": "adverb" },
+        { "source": "สอง", "target": "two", "phonetic": "sǎawng", "partOfSpeech": "numeral" },
+        { "source": "ชั่วโมง", "target": "hours", "phonetic": "chûa-moong", "partOfSpeech": "noun" }
+      ]
+    },
+    {
+      "source": "คุณอ่านหนังสือกับเพื่อนๆไหมครับ",
+      "target": "Do you study with friends?",
+      "phonetic": "khun àan năng-sĕu gàp phêuan phêuan mǎi khráp",
+      "breakdown": [
+        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
+        { "source": "อ่าน", "target": "to read/study", "phonetic": "àan", "partOfSpeech": "verb" },
+        { "source": "หนังสือ", "target": "book", "phonetic": "năng-sĕu", "partOfSpeech": "noun" },
+        { "source": "กับ", "target": "with", "phonetic": "gàp", "partOfSpeech": "preposition" },
+        { "source": "เพื่อนๆ", "target": "friends (plural)", "phonetic": "phêuan phêuan", "partOfSpeech": "noun" },
+        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "บางครั้งพวกเราอ่านหนังสือด้วยกันที่ห้องสมุด",
+      "target": "Sometimes we study together at the library.",
+      "phonetic": "baang-khráng phûak-rao àan năng-sĕu dûai-gan thîi hâwng-sà-mùt",
+      "breakdown": [
+        { "source": "บางครั้ง", "target": "sometimes", "phonetic": "baang-khráng", "partOfSpeech": "adverb" },
+        { "source": "พวกเรา", "target": "we/us", "phonetic": "phûak-rao", "partOfSpeech": "pronoun" },
+        { "source": "อ่าน", "target": "to read/study", "phonetic": "àan", "partOfSpeech": "verb" },
+        { "source": "หนังสือ", "target": "book", "phonetic": "năng-sĕu", "partOfSpeech": "noun" },
+        { "source": "ด้วยกัน", "target": "together", "phonetic": "dûai-gan", "partOfSpeech": "adverb" },
+        { "source": "ที่", "target": "at", "phonetic": "thîi", "partOfSpeech": "preposition" },
+        { "source": "ห้องสมุด", "target": "library", "phonetic": "hâwng-sà-mùt", "partOfSpeech": "noun" }
+      ]
+    },
+    {
+      "source": "ห้องสมุดเงียบไหมครับ",
+      "target": "Is the library quiet?",
+      "phonetic": "hâwng-sà-mùt ngîap mǎi khráp",
+      "breakdown": [
+        { "source": "ห้องสมุด", "target": "library", "phonetic": "hâwng-sà-mùt", "partOfSpeech": "noun" },
+        { "source": "เงียบ", "target": "quiet", "phonetic": "ngîap", "partOfSpeech": "adjective" },
+        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "ใช่ค่ะ เงียบมากและน่าอยู่",
+      "target": "Yes, it’s very quiet and nice.",
+      "phonetic": "châi khâ ngîap mâak láe nâa-yùu",
+      "breakdown": [
+        { "source": "ใช่", "target": "yes", "phonetic": "châi", "partOfSpeech": "interjection" },
+        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
+        { "source": "เงียบ", "target": "quiet", "phonetic": "ngîap", "partOfSpeech": "adjective" },
+        { "source": "มาก", "target": "very", "phonetic": "mâak", "partOfSpeech": "adverb" },
+        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
+        { "source": "น่าอยู่", "target": "nice/pleasant to be", "phonetic": "nâa-yùu", "partOfSpeech": "adjective" }
+      ]
+    },
+    {
+      "source": "คุณชอบไปโรงเรียนไหมครับ",
+      "target": "Do you like going to school?",
+      "phonetic": "khun chôrp bpai rohng-riian mǎi khráp",
+      "breakdown": [
+        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
+        { "source": "ชอบ", "target": "to like", "phonetic": "chôrp", "partOfSpeech": "verb" },
+        { "source": "ไป", "target": "to go", "phonetic": "bpai", "partOfSpeech": "verb" },
+        { "source": "โรงเรียน", "target": "school", "phonetic": "rohng-riian", "partOfSpeech": "noun" },
+        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
+        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "ชอบค่ะ ฉันได้เรียนรู้อะไรมากมายและได้พบเพื่อนๆ",
+      "target": "Yes, I learn a lot and meet friends!",
+      "phonetic": "chôrp khâ chăn dâai rian-rúu à-rai mâak-maai láe dâai phóp phêuan phêuan",
+      "breakdown": [
+        { "source": "ชอบ", "target": "to like", "phonetic": "chôrp", "partOfSpeech": "verb" },
+        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
+        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
+        { "source": "ได้", "target": "to get", "phonetic": "dâai", "partOfSpeech": "auxiliary" },
+        { "source": "เรียนรู้", "target": "to learn", "phonetic": "rian-rúu", "partOfSpeech": "verb" },
+        { "source": "อะไร", "target": "things/what", "phonetic": "à-rai", "partOfSpeech": "pronoun" },
+        { "source": "มากมาย", "target": "a lot", "phonetic": "mâak-maai", "partOfSpeech": "adverb" },
+        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
+        { "source": "ได้", "target": "to get", "phonetic": "dâai", "partOfSpeech": "auxiliary" },
+        { "source": "พบ", "target": "to meet", "phonetic": "phóp", "partOfSpeech": "verb" },
+        { "source": "เพื่อนๆ", "target": "friends (plural)", "phonetic": "phêuan phêuan", "partOfSpeech": "noun" }
+      ]
+    }
+  ],
+  "createdAt": "2025-09-29T14:29:00Z",
+  "updatedAt": "2025-09-29T14:30:00Z",
+  "difficulty": "intermediate",
+  "summary": "บทสนทนาเกี่ยวกับชีวิตในโรงเรียน รายวิชา ครู การบ้าน และการอ่านหนังสือกับเพื่อนที่ห้องสมุด"
+}

@@ -19,11 +19,15 @@ import { BookOpen, ChevronRight } from "lucide-react";
 import React from "react";
 
 import type { Book } from "../types";
+import type { LanguageConfig } from "../types/language";
 import { bookDetailPath } from "../utils/paths";
 
 type ReadingPageData = {
 	allBookJson: {
 		nodes: Book[];
+	};
+	allLanguagesJson: {
+		nodes: LanguageConfig[];
 	};
 };
 
@@ -37,6 +41,36 @@ const ReadingPage = ({ data }: PageProps<ReadingPageData>) => {
 	const detailTextColor = useColorModeValue("gray.700", "gray.200");
 
 	const books = data.allBookJson.nodes;
+	const languages = data.allLanguagesJson.nodes;
+
+	// Create a map of language codes to language configs
+	const languageMap = new Map(
+		languages.map((lang) => [lang.languageCode, lang]),
+	);
+
+	// Group books by language
+	const booksByLanguage: { [key: string]: Book[] } = {};
+	books.forEach((book) => {
+		const lang = book.sourceLanguage;
+		if (!booksByLanguage[lang]) {
+			booksByLanguage[lang] = [];
+		}
+		booksByLanguage[lang].push(book);
+	});
+
+	// Sort books within each language by difficulty
+	const difficultyOrder = ["Beginner", "Intermediate", "Advanced"];
+	Object.keys(booksByLanguage).forEach((lang) => {
+		booksByLanguage[lang].sort((a, b) => {
+			const diffA = a.difficulty || "Other";
+			const diffB = b.difficulty || "Other";
+			const indexA = difficultyOrder.indexOf(diffA);
+			const indexB = difficultyOrder.indexOf(diffB);
+			return (
+				(indexA === -1 ? 999 : indexA) - (indexB === -1 ? 999 : indexB)
+			);
+		});
+	});
 
 	return (
 		<>
@@ -52,49 +86,18 @@ const ReadingPage = ({ data }: PageProps<ReadingPageData>) => {
 								fontWeight="bold"
 								mb={5}
 							>
-								Practice Reading in Your Target Language
+								Practice Reading
 							</Heading>
-							<Text fontSize={{ base: "lg", md: "xl" }} mb={8}>
+							<Text fontSize={{ base: "lg", md: "xl" }} mb={6}>
 								Build comprehension and confidence with bite-sized passages and
 								helpful tools.
 							</Text>
-							<Stack direction={{ base: "column", sm: "row" }} spacing={4}>
-								<Button
-									as={Link}
-									to="/flash-cards"
-									colorScheme="primary"
-									size="lg"
-									height="56px"
-									px={8}
-									rightIcon={<Icon as={ChevronRight} />}
-									variant="outline"
-								>
-									Review Vocabulary
-								</Button>
-								<Button
-									as={Link}
-									to="/reading"
-									colorScheme="primary"
-									size="lg"
-									height="56px"
-									px={8}
-									rightIcon={<Icon as={ChevronRight} />}
-								>
-									Start Reading
-								</Button>
-							</Stack>
-						</Box>
-						<Box
-							flex="1"
-							display="flex"
-							alignItems="center"
-							justifyContent="center"
-						>
-							<Icon
-								as={BookOpen}
-								boxSize={{ base: 32, md: 44 }}
-								color="primary.400"
-							/>
+							<Text fontSize={{ base: "md", md: "lg" }} color={supportingTextColor}>
+								Start with beginner stories to build your foundation, but don't be
+								afraid to dip into intermediate content when you're feeling
+								confident—or go back to practice what you've already learned.
+								Learning is not always linear!
+							</Text>
 						</Box>
 					</Flex>
 				</Container>
@@ -102,11 +105,6 @@ const ReadingPage = ({ data }: PageProps<ReadingPageData>) => {
 
 			{/* Books List */}
 			<Container maxW="container.xl" mb={16}>
-				<Stack spacing={3} mb={8} textAlign={{ base: "left", md: "center" }}>
-					<Heading as="h2" size="xl">
-						Your Library
-					</Heading>
-				</Stack>
 				{books.length === 0 ? (
 					<Box
 						bg={sectionBg}
@@ -119,57 +117,79 @@ const ReadingPage = ({ data }: PageProps<ReadingPageData>) => {
 						<Text>No reading collections available yet. Check back soon!</Text>
 					</Box>
 				) : (
-					<SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={8}>
-						{books.map((book: Book) => (
-							<Box
-								as={Link}
-								to={bookDetailPath(book.bookId)}
-								key={book.bookId}
-								bg={cardBg}
-								borderWidth="1px"
-								borderColor={cardBorderColor}
-								borderRadius="lg"
-								overflow="hidden"
-								boxShadow="sm"
-								display="flex"
-								flexDirection="column"
-								transition="all 0.2s"
-								_hover={{ transform: "translateY(-4px)", boxShadow: "md" }}
-							>
-								{book.imageUrl && (
-									<Image
-										src={book.imageUrl}
-										alt={book.name}
-										w="100%"
-										h="180px"
-										objectFit="cover"
-									/>
-								)}
-								<Box p={6} flex="1" display="flex" flexDirection="column">
-									<Heading as="h3" size="md" mb={2}>
-										{book.name}
+					<Stack spacing={12}>
+						{Object.keys(booksByLanguage).map((languageCode) => {
+							const languageConfig = languageMap.get(languageCode);
+							const languageName =
+								languageConfig?.language || languageCode.toUpperCase();
+							const flag = languageConfig?.flag || "";
+
+							return (
+								<Box key={languageCode}>
+									<Heading as="h2" size="xl" mb={6}>
+										{flag && <span style={{ marginRight: "0.5rem" }}>{flag}</span>}
+										{languageName} ({languageConfig?.english})
 									</Heading>
-									<Text color={supportingTextColor} noOfLines={3} mb={4}>
-										{book.description}
-									</Text>
-									<HStack spacing={2} flexWrap="wrap" mt="auto">
-										<Tag colorScheme="blue" textTransform="uppercase">
-											{book.sourceLanguage}
-										</Tag>
-										{book.targetLanguage && (
-											<Tag colorScheme="teal" textTransform="uppercase">
-												{book.targetLanguage}
-											</Tag>
-										)}
-										{book.difficulty && (
-											<Tag colorScheme="purple">{book.difficulty}</Tag>
-										)}
-										{book.featured && <Tag colorScheme="yellow">Featured</Tag>}
-									</HStack>
+									<SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={8}>
+										{booksByLanguage[languageCode].map((book: Book) => (
+										<Box
+											as={Link}
+											to={bookDetailPath(book.bookId)}
+											key={book.bookId}
+											bg={cardBg}
+											borderWidth="1px"
+											borderColor={cardBorderColor}
+											borderRadius="lg"
+											overflow="hidden"
+											boxShadow="sm"
+											display="flex"
+											flexDirection="column"
+											transition="all 0.2s"
+											_hover={{
+												transform: "translateY(-4px)",
+												boxShadow: "md",
+											}}
+										>
+											{book.imageUrl && (
+												<Image
+													src={book.imageUrl}
+													alt={book.name}
+													w="100%"
+													h="180px"
+													objectFit="cover"
+												/>
+											)}
+											<Box p={6} flex="1" display="flex" flexDirection="column">
+												<Heading as="h4" size="md" mb={2}>
+													{book.name}
+												</Heading>
+												<Text color={supportingTextColor} noOfLines={3} mb={4}>
+													{book.description}
+												</Text>
+												<HStack spacing={2} flexWrap="wrap" mt="auto">
+													<Tag colorScheme="blue" textTransform="uppercase">
+														{book.sourceLanguage}
+													</Tag>
+													{book.targetLanguage && (
+														<Tag colorScheme="teal" textTransform="uppercase">
+															{book.targetLanguage}
+														</Tag>
+													)}
+													{book.difficulty && (
+														<Tag colorScheme="purple">{book.difficulty}</Tag>
+													)}
+													{book.featured && (
+														<Tag colorScheme="yellow">Featured</Tag>
+													)}
+												</HStack>
+											</Box>
+										</Box>
+										))}
+									</SimpleGrid>
 								</Box>
-							</Box>
-						))}
-					</SimpleGrid>
+							);
+						})}
+					</Stack>
 				)}
 			</Container>
 		</>
@@ -191,6 +211,14 @@ export const query = graphql`
         difficulty
         imageUrl
         featured
+      }
+    }
+    allLanguagesJson {
+      nodes {
+        languageCode
+        language
+        english
+        flag
       }
     }
   }

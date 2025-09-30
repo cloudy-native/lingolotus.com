@@ -1,0 +1,290 @@
+{
+  "storyId": "thai-intermediate-2-a-new-hobby",
+  "bookId": "thai-intermediate-2",
+  "language": "th",
+  "title": {
+    "source": "งานอดิเรกใหม่",
+    "target": "A New Hobby"
+  },
+  "sentences": [
+    {
+      "source": "หลังจากปีที่ตึงเครียด ทอมตัดสินใจว่าเขาควรหางานอดิเรกใหม่เพื่อผ่อนคลาย",
+      "target": "After a stressful year, Tom decided he should find a new hobby to relax.",
+      "phonetic": "lǎng jàak bpii thîi tʉng-khriiat thɔm dtàt-sǐn-jai wâa khǎo khuan hǎa ngaan-à-dì-rèk mài phʉ̂a phɔ̀n-khlaai",
+      "breakdown": [
+        { "source": "หลังจาก", "target": "after", "phonetic": "lǎng jàak", "partOfSpeech": "preposition" },
+        { "source": "ปีที่ตึงเครียด", "target": "a stressful year", "phonetic": "bpii thîi tʉng-khriiat", "partOfSpeech": "noun" },
+        { "source": "ทอม", "target": "Tom", "phonetic": "thɔm", "partOfSpeech": "proper_noun" },
+        { "source": "ตัดสินใจว่า", "target": "decided that", "phonetic": "dtàt-sǐn-jai wâa", "partOfSpeech": "verb" },
+        { "source": "เขา", "target": "he", "phonetic": "kháo", "partOfSpeech": "pronoun" },
+        { "source": "ควรหา", "target": "should find", "phonetic": "khuan hǎa", "partOfSpeech": "auxiliary" },
+        { "source": "งานอดิเรกใหม่", "target": "a new hobby", "phonetic": "ngaan-à-dì-rèk mài", "partOfSpeech": "noun" },
+        { "source": "เพื่อ", "target": "to", "phonetic": "phʉ̂a", "partOfSpeech": "preposition" },
+        { "source": "ผ่อนคลาย", "target": "relax", "phonetic": "phɔ̀n-khlaai", "partOfSpeech": "verb" }
+      ]
+    },
+    {
+      "source": "เขาสนใจเรื่องปั้นดินเผามาตลอด จึงลงชื่อเรียนชั้นเรียน",
+      "target": "He had always been curious about pottery, so he signed up for a class.",
+      "phonetic": "khǎo sǒn-jai rʉ̂ang bpân din-phǎo maa dta-lɔ̀ɔt jʉng long chʉ̂ʉ rian chán-rian",
+      "breakdown": [
+        { "source": "เขา", "target": "he", "phonetic": "kháo", "partOfSpeech": "pronoun" },
+        { "source": "สนใจ", "target": "is curious", "phonetic": "sǒn-jai", "partOfSpeech": "verb" },
+        { "source": "เรื่อง", "target": "about", "phonetic": "rʉ̂ang", "partOfSpeech": "preposition" },
+        { "source": "ปั้นดินเผา", "target": "pottery", "phonetic": "bpân din-phǎo", "partOfSpeech": "noun" },
+        { "source": "มาตลอด", "target": "always", "phonetic": "maa dta-lɔ̀ɔt", "partOfSpeech": "adverb" },
+        { "source": "จึง", "target": "so", "phonetic": "jʉng", "partOfSpeech": "conjunction" },
+        { "source": "ลงชื่อ", "target": "signed up", "phonetic": "long chʉ̂ʉ", "partOfSpeech": "verb" },
+        { "source": "เรียนชั้นเรียน", "target": "for a class", "phonetic": "rian chán-rian", "partOfSpeech": "noun" }
+      ]
+    },
+    {
+      "source": "การขึ้นรูปดินด้วยเครื่องหมุนยากกว่าที่เขาคิด แต่เขาก็ชอบมัน",
+      "target": "Shaping clay on a wheel was harder than he had expected, but he loved it.",
+      "phonetic": "gaan khʉ̂n-rûup din dûai khrʉ̂ang-mùn yâak gwàa thîi khǎo khít dtàe khǎo gɔ̂ɔ châwp man",
+      "breakdown": [
+        { "source": "การขึ้นรูปดิน", "target": "shaping clay", "phonetic": "gaan khʉ̂n-rûup din", "partOfSpeech": "noun" },
+        { "source": "ด้วย", "target": "with", "phonetic": "dûai", "partOfSpeech": "preposition" },
+        { "source": "เครื่องหมุน", "target": "a wheel", "phonetic": "khrʉ̂ang-mùn", "partOfSpeech": "noun" },
+        { "source": "ยากกว่า", "target": "harder than", "phonetic": "yâak gwàa", "partOfSpeech": "adjective" },
+        { "source": "ที่เขาคิด", "target": "he expected", "phonetic": "thîi khǎo khít", "partOfSpeech": "clause" },
+        { "source": "แต่", "target": "but", "phonetic": "dtàe", "partOfSpeech": "conjunction" },
+        { "source": "เขาก็", "target": "he still", "phonetic": "kháo gɔ̂ɔ", "partOfSpeech": "adverb" },
+        { "source": "ชอบ", "target": "loved", "phonetic": "châwp", "partOfSpeech": "verb" },
+        { "source": "มัน", "target": "it", "phonetic": "man", "partOfSpeech": "pronoun" }
+      ]
+    },
+    {
+      "source": "ครูบอกว่าการฝึกอย่างสม่ำเสมอจะช่วยพัฒนาทักษะของเขา",
+      "target": "His teacher said that practicing regularly would improve his technique.",
+      "phonetic": "khruu bɔ̀ɔk wâa gaan fʉ̀k yàang sà-màm-sà-məə jà chûai phát-thá-naa thák-sà khǎwng khǎo",
+      "breakdown": [
+        { "source": "ครู", "target": "teacher", "phonetic": "khruu", "partOfSpeech": "noun" },
+        { "source": "บอกว่า", "target": "said that", "phonetic": "bɔ̀ɔk wâa", "partOfSpeech": "verb" },
+        { "source": "การฝึก", "target": "practicing", "phonetic": "gaan fʉ̀k", "partOfSpeech": "noun" },
+        { "source": "อย่างสม่ำเสมอ", "target": "regularly", "phonetic": "yàang sà-màm-sà-məə", "partOfSpeech": "adverb" },
+        { "source": "จะช่วย", "target": "would help", "phonetic": "jà chûai", "partOfSpeech": "auxiliary" },
+        { "source": "พัฒนาทักษะ", "target": "improve technique", "phonetic": "phát-thá-naa thák-sà", "partOfSpeech": "verb" },
+        { "source": "ของเขา", "target": "his", "phonetic": "khǎwng khǎo", "partOfSpeech": "pronoun" }
+      ]
+    },
+    {
+      "source": "ทอมชอบความรู้สึกของดินที่ค่อยๆ เป็นรูปภายใต้นิ้วมือ เรียบลื่นและเย็น",
+      "target": "Tom enjoyed feeling the clay take shape under his fingers, smooth and cool.",
+      "phonetic": "thɔm châwp khwaam rúu-sʉ̀k khǎwng din thîi khɔ̂i-khɔ̂i bpen rûup phaai tâi níu-mʉʉ rîap lʉ̂ʉn láe yen",
+      "breakdown": [
+        { "source": "ทอม", "target": "Tom", "phonetic": "thɔm", "partOfSpeech": "proper_noun" },
+        { "source": "ชอบ", "target": "enjoyed", "phonetic": "châwp", "partOfSpeech": "verb" },
+        { "source": "ความรู้สึกของดิน", "target": "the feeling of the clay", "phonetic": "khwaam rúu-sʉ̀k khǎwng din", "partOfSpeech": "noun" },
+        { "source": "ที่ค่อยๆ", "target": "gradually", "phonetic": "thîi khɔ̂i-khɔ̂i", "partOfSpeech": "adverb" },
+        { "source": "เป็นรูป", "target": "take shape", "phonetic": "bpen rûup", "partOfSpeech": "verb" },
+        { "source": "ภายใต้", "target": "under", "phonetic": "phaai tâi", "partOfSpeech": "preposition" },
+        { "source": "นิ้วมือ", "target": "fingers", "phonetic": "níu-mʉʉ", "partOfSpeech": "noun" },
+        { "source": "เรียบลื่น", "target": "smooth", "phonetic": "rîap lʉ̂ʉn", "partOfSpeech": "adjective" },
+        { "source": "และเย็น", "target": "and cool", "phonetic": "láe yen", "partOfSpeech": "adjective" }
+      ]
+    },
+    {
+      "source": "ถ้าเขาไม่ได้ลองปั้นดินเผา เขาอาจไม่ได้ค้นพบด้านสร้างสรรค์ของตัวเอง",
+      "target": "If he hadn’t tried pottery, he might not have discovered his creative side.",
+      "phonetic": "thâa khǎo mâi dâi long bpân din-phǎo khǎo àat mâi dâi khón-phóp dâan sâang-san khǎwng dtua-eng",
+      "breakdown": [
+        { "source": "ถ้า", "target": "if", "phonetic": "thâa", "partOfSpeech": "conjunction" },
+        { "source": "เขาไม่ได้ลอง", "target": "he hadn’t tried", "phonetic": "kháo mâi dâi long", "partOfSpeech": "verb" },
+        { "source": "ปั้นดินเผา", "target": "pottery", "phonetic": "bpân din-phǎo", "partOfSpeech": "noun" },
+        { "source": "เขาอาจ", "target": "he might", "phonetic": "kháo àat", "partOfSpeech": "auxiliary" },
+        { "source": "ไม่ได้", "target": "not", "phonetic": "mâi dâi", "partOfSpeech": "auxiliary" },
+        { "source": "ค้นพบ", "target": "discover", "phonetic": "khón-phóp", "partOfSpeech": "verb" },
+        { "source": "ด้านสร้างสรรค์", "target": "creative side", "phonetic": "dâan sâang-san", "partOfSpeech": "noun" },
+        { "source": "ของตัวเอง", "target": "of himself", "phonetic": "khǎwng dtua-eng", "partOfSpeech": "prepositional" }
+      ]
+    },
+    {
+      "source": "เขาอาจเลือกวาดภาพก็ได้ แต่การปั้นดินเผาดูได้ลงมือมากกว่า",
+      "target": "He could have chosen painting, but pottery felt more hands-on.",
+      "phonetic": "khǎo àat lʉ̂ak wâat-phâap gɔ̂ɔ dâi dtàe gaan bpân din-phǎo duu dâi long-mʉʉ mâak gwàa",
+      "breakdown": [
+        { "source": "เขาอาจ", "target": "he could", "phonetic": "kháo àat", "partOfSpeech": "auxiliary" },
+        { "source": "เลือก", "target": "choose", "phonetic": "lʉ̂ak", "partOfSpeech": "verb" },
+        { "source": "วาดภาพ", "target": "painting", "phonetic": "wâat-phâap", "partOfSpeech": "noun" },
+        { "source": "ก็ได้", "target": "could have", "phonetic": "gɔ̂ɔ dâi", "partOfSpeech": "modal" },
+        { "source": "แต่", "target": "but", "phonetic": "dtàe", "partOfSpeech": "conjunction" },
+        { "source": "การปั้นดินเผา", "target": "pottery", "phonetic": "gaan bpân din-phǎo", "partOfSpeech": "noun" },
+        { "source": "ดูได้ลงมือ", "target": "felt hands-on", "phonetic": "duu dâi long-mʉʉ", "partOfSpeech": "verb" },
+        { "source": "มากกว่า", "target": "more", "phonetic": "mâak gwàa", "partOfSpeech": "adverb" }
+      ]
+    },
+    {
+      "source": "การทำชามจากก้อนดินเล็กๆ ทำให้เขารู้สึกภาคภูมิใจ",
+      "target": "Creating a bowl from a lump of clay gave him a sense of accomplishment.",
+      "phonetic": "gaan tham chaam jàak gɔ̂ɔn din lék-lék tham hâi khǎo rúu-sʉ̀k phâak-phuum-jai",
+      "breakdown": [
+        { "source": "การทำชาม", "target": "creating a bowl", "phonetic": "gaan tham chaam", "partOfSpeech": "noun" },
+        { "source": "จาก", "target": "from", "phonetic": "jàak", "partOfSpeech": "preposition" },
+        { "source": "ก้อนดินเล็กๆ", "target": "a lump of clay", "phonetic": "gɔ̂ɔn din lék-lék", "partOfSpeech": "noun" },
+        { "source": "ทำให้", "target": "made", "phonetic": "tham hâi", "partOfSpeech": "verb" },
+        { "source": "เขา", "target": "him", "phonetic": "kháo", "partOfSpeech": "pronoun" },
+        { "source": "รู้สึก", "target": "feel", "phonetic": "rúu-sʉ̀k", "partOfSpeech": "verb" },
+        { "source": "ภาคภูมิใจ", "target": "accomplishment/pride", "phonetic": "phâak-phuum-jai", "partOfSpeech": "noun" }
+      ]
+    },
+    {
+      "source": "ชามใบแรกของทอมไม่เท่ากัน แต่เขาภูมิใจกับความพยายามของตัวเอง",
+      "target": "Tom’s first bowl was uneven, but he was proud of his effort.",
+      "phonetic": "chaam bai rɛ̂ɛk khǎwng thɔm mâi thâo gan dtàe khǎo phuum-jai gàp khwaam phá-yaa-yaam khǎwng dtua-eng",
+      "breakdown": [
+        { "source": "ชามใบแรก", "target": "first bowl", "phonetic": "chaam bai rɛ̂ɛk", "partOfSpeech": "noun" },
+        { "source": "ของทอม", "target": "of Tom", "phonetic": "khǎwng thɔm", "partOfSpeech": "prepositional" },
+        { "source": "ไม่เท่ากัน", "target": "uneven", "phonetic": "mâi thâo gan", "partOfSpeech": "adjective" },
+        { "source": "แต่", "target": "but", "phonetic": "dtàe", "partOfSpeech": "conjunction" },
+        { "source": "เขา", "target": "he", "phonetic": "kháo", "partOfSpeech": "pronoun" },
+        { "source": "ภูมิใจ", "target": "was proud", "phonetic": "phuum-jai", "partOfSpeech": "verb" },
+        { "source": "กับ", "target": "of/with", "phonetic": "gàp", "partOfSpeech": "preposition" },
+        { "source": "ความพยายาม", "target": "effort", "phonetic": "khwaam phá-yaa-yaam", "partOfSpeech": "noun" },
+        { "source": "ของตัวเอง", "target": "of his own", "phonetic": "khǎwng dtua-eng", "partOfSpeech": "prepositional" }
+      ]
+    },
+    {
+      "source": "เพื่อนร่วมชั้นทุกคนซึ่งเป็นมือใหม่ แบ่งปันเคล็ดลับและให้กำลังใจกัน",
+      "target": "His classmates, all beginners, shared tips and encouraged each other.",
+      "phonetic": "phʉ̂an rûam chán thúk khon sʉ̂ng bpen mʉʉ mài bàeng-bpan khlét-láp láe hâi gam-lang-jai gan",
+      "breakdown": [
+        { "source": "เพื่อนร่วมชั้น", "target": "classmates", "phonetic": "phʉ̂an rûam chán", "partOfSpeech": "noun" },
+        { "source": "ทุกคน", "target": "all", "phonetic": "thúk khon", "partOfSpeech": "determiner" },
+        { "source": "ซึ่งเป็นมือใหม่", "target": "who are beginners", "phonetic": "sʉ̂ng bpen mʉʉ mài", "partOfSpeech": "clause" },
+        { "source": "แบ่งปัน", "target": "shared", "phonetic": "bàeng-bpan", "partOfSpeech": "verb" },
+        { "source": "เคล็ดลับ", "target": "tips", "phonetic": "khlét-láp", "partOfSpeech": "noun" },
+        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
+        { "source": "ให้กำลังใจกัน", "target": "encouraged each other", "phonetic": "hâi gam-lang-jai gan", "partOfSpeech": "verb" }
+      ]
+    }
+,
+    {
+      "source": "การผสมสีเคลือบเพื่อเพิ่มสีสันเป็นส่วนที่ทอมชอบที่สุด",
+      "target": "Mixing glazes to add color was Tom’s favorite part of the process.",
+      "phonetic": "gaan phà-som sǐi khlʉ̂ap phʉ̂a phœ̂œm sǐi-sǎn bpen sùan thîi thɔm châwp thîi-sùt",
+      "breakdown": [
+        { "source": "การผสมสีเคลือบ", "target": "mixing glazes", "phonetic": "gaan phà-som sǐi khlʉ̂ap", "partOfSpeech": "noun" },
+        { "source": "เพื่อเพิ่ม", "target": "to add", "phonetic": "phʉ̂a phœ̂œm", "partOfSpeech": "preposition" },
+        { "source": "สีสัน", "target": "color", "phonetic": "sǐi-sǎn", "partOfSpeech": "noun" },
+        { "source": "เป็นส่วนที่", "target": "was the part that", "phonetic": "bpen sùan thîi", "partOfSpeech": "phrase" },
+        { "source": "ทอมชอบ", "target": "Tom liked", "phonetic": "thɔm châwp", "partOfSpeech": "verb" },
+        { "source": "ที่สุด", "target": "the most", "phonetic": "thîi-sùt", "partOfSpeech": "adverb" }
+      ]
+    },
+    {
+      "source": "เขาได้เรียนรู้ว่าการเผาดินในเตาเผาอาจใช้เวลาหลายชั่วโมง",
+      "target": "He learned that firing the clay in a kiln could take several hours.",
+      "phonetic": "khǎo dâi rian-rúu wâa gaan phǎo din nai tao-phǎo àat chái wee-laa lǎai chûa-moong",
+      "breakdown": [
+        { "source": "เขาได้เรียนรู้ว่า", "target": "he learned that", "phonetic": "kháo dâi rian-rúu wâa", "partOfSpeech": "verb" },
+        { "source": "การเผาดิน", "target": "firing clay", "phonetic": "gaan phǎo din", "partOfSpeech": "noun" },
+        { "source": "ในเตาเผา", "target": "in a kiln", "phonetic": "nai tao-phǎo", "partOfSpeech": "prepositional" },
+        { "source": "อาจใช้เวลา", "target": "could take time", "phonetic": "àat chái wee-laa", "partOfSpeech": "verb" },
+        { "source": "หลายชั่วโมง", "target": "several hours", "phonetic": "lǎai chûa-moong", "partOfSpeech": "noun" }
+      ]
+    },
+    {
+      "source": "ถ้าเขาฝึกต่อไป เขาอาจขายงานปั้นที่ตลาดท้องถิ่นได้",
+      "target": "If he keeps practicing, he might sell his pottery at a local market.",
+      "phonetic": "thâa khǎo fʉ̀k tɔ̀ɔ-bpai khǎo àat khǎai ngaan-bpân thîi dtà-làat thɔ́ɔng-thìn dâi",
+      "breakdown": [
+        { "source": "ถ้า", "target": "if", "phonetic": "thâa", "partOfSpeech": "conjunction" },
+        { "source": "เขาฝึกต่อไป", "target": "he keeps practicing", "phonetic": "kháo fʉ̀k tɔ̀ɔ-bpai", "partOfSpeech": "verb" },
+        { "source": "เขาอาจ", "target": "he might", "phonetic": "kháo àat", "partOfSpeech": "auxiliary" },
+        { "source": "ขายงานปั้น", "target": "sell pottery", "phonetic": "khǎai ngaan-bpân", "partOfSpeech": "verb" },
+        { "source": "ที่ตลาดท้องถิ่น", "target": "at a local market", "phonetic": "thîi dtà-làat thɔ́ɔng-thìn", "partOfSpeech": "prepositional" },
+        { "source": "ได้", "target": "(possibility)", "phonetic": "dâi", "partOfSpeech": "particle" }
+      ]
+    },
+    {
+      "source": "ทอมพบว่าการปั้นดินเผาช่วยให้เขาลืมความกังวลในแต่ละวัน",
+      "target": "Tom found that making pottery helped him forget his daily worries.",
+      "phonetic": "thɔm phóp wâa gaan bpân din-phǎo chûai hâi khǎo luem khwaam gang-won nai dtàe-lá wan",
+      "breakdown": [
+        { "source": "ทอมพบว่า", "target": "Tom found that", "phonetic": "thɔm phóp wâa", "partOfSpeech": "verb" },
+        { "source": "การปั้นดินเผา", "target": "making pottery", "phonetic": "gaan bpân din-phǎo", "partOfSpeech": "noun" },
+        { "source": "ช่วยให้", "target": "helped", "phonetic": "chûai hâi", "partOfSpeech": "verb" },
+        { "source": "เขาลืม", "target": "him forget", "phonetic": "kháo luem", "partOfSpeech": "verb" },
+        { "source": "ความกังวล", "target": "worries", "phonetic": "khwaam gang-won", "partOfSpeech": "noun" },
+        { "source": "ในแต่ละวัน", "target": "day by day", "phonetic": "nai dtàe-lá wan", "partOfSpeech": "adverb" }
+      ]
+    },
+    {
+      "source": "เขานำชามที่เสร็จแล้วกลับบ้าน โชว์ให้ครอบครัวดูด้วยความภูมิใจ",
+      "target": "He brought his finished bowl home, showing it to his family with pride.",
+      "phonetic": "khǎo nam chaam thîi sèt láeo glàp bâan choo wai hâi khrâwp-khrua duu dûai khwaam phuum-jai",
+      "breakdown": [
+        { "source": "เขานำ", "target": "he brought", "phonetic": "kháo nam", "partOfSpeech": "verb" },
+        { "source": "ชามที่เสร็จแล้ว", "target": "finished bowl", "phonetic": "chaam thîi sèt láeo", "partOfSpeech": "noun" },
+        { "source": "กลับบ้าน", "target": "home", "phonetic": "glàp bâan", "partOfSpeech": "adverb" },
+        { "source": "โชว์ให้ครอบครัวดู", "target": "showed his family", "phonetic": "choo hâi khrâwp-khrua duu", "partOfSpeech": "verb" },
+        { "source": "ด้วยความภูมิใจ", "target": "with pride", "phonetic": "dûai khwaam phuum-jai", "partOfSpeech": "prepositional" }
+      ]
+    },
+    {
+      "source": "พวกเขาเสนอให้เขาทำของขวัญให้พวกเขาในครั้งหน้า",
+      "target": "They suggested he should make gifts for them next time.",
+      "phonetic": "phûak-kháo sà-nǒe hâi khǎo tham khɔ̌ɔng-khwǎn hâi phûak-kháo nai khráng nâa",
+      "breakdown": [
+        { "source": "พวกเขาเสนอ", "target": "they suggested", "phonetic": "phûak-kháo sà-nǒe", "partOfSpeech": "verb" },
+        { "source": "ให้เขาทำ", "target": "that he make", "phonetic": "hâi kháo tham", "partOfSpeech": "verb" },
+        { "source": "ของขวัญ", "target": "gifts", "phonetic": "khɔ̌ɔng-khwǎn", "partOfSpeech": "noun" },
+        { "source": "ให้พวกเขา", "target": "for them", "phonetic": "hâi phûak-kháo", "partOfSpeech": "prepositional" },
+        { "source": "ในครั้งหน้า", "target": "next time", "phonetic": "nai khráng nâa", "partOfSpeech": "adverb" }
+      ]
+    },
+    {
+      "source": "ทอมวางแผนจะทดลองออกแบบใหม่ๆ เช่น แจกันและแก้วมัค",
+      "target": "Tom planned to experiment with new designs, like vases and mugs.",
+      "phonetic": "thɔm waang-phǎen jà thót-long ɔ̀ɔk-bɛ̀ɛp mài-mài chên jɛɛ-gan láe gɛ̂ɛo mák",
+      "breakdown": [
+        { "source": "ทอมวางแผน", "target": "Tom planned", "phonetic": "thɔm waang-phǎen", "partOfSpeech": "verb" },
+        { "source": "จะทดลอง", "target": "to experiment", "phonetic": "jà thót-long", "partOfSpeech": "auxiliary" },
+        { "source": "ออกแบบใหม่ๆ", "target": "new designs", "phonetic": "ɔ̀ɔk-bɛ̀ɛp mài-mài", "partOfSpeech": "noun" },
+        { "source": "เช่น", "target": "such as", "phonetic": "chên", "partOfSpeech": "preposition" },
+        { "source": "แจกัน", "target": "vases", "phonetic": "jɛɛ-gan", "partOfSpeech": "noun" },
+        { "source": "และแก้วมัค", "target": "and mugs", "phonetic": "láe gɛ̂ɛo mák", "partOfSpeech": "noun" }
+      ]
+    },
+    {
+      "source": "ศิลปะงานปั้น เขาค้นพบว่า เป็นวิธีแสดงตัวตนโดยไม่ต้องใช้คำพูด",
+      "target": "Pottery, he realized, was a way to express himself without words.",
+      "phonetic": "sǐn-là-bpà ngaan-bpân khǎo khón-phóp wâa bpen wí-thii sà-dɛɛng dtua-ton doi mâi dtɔ̂ng chái kham-phûut",
+      "breakdown": [
+        { "source": "ศิลปะงานปั้น", "target": "pottery (art)", "phonetic": "sǐn-là-bpà ngaan-bpân", "partOfSpeech": "noun" },
+        { "source": "เขาค้นพบว่า", "target": "he realized that", "phonetic": "kháo khón-phóp wâa", "partOfSpeech": "verb" },
+        { "source": "เป็นวิธี", "target": "was a way", "phonetic": "bpen wí-thii", "partOfSpeech": "verb" },
+        { "source": "แสดงตัวตน", "target": "to express oneself", "phonetic": "sà-dɛɛng dtua-ton", "partOfSpeech": "verb" },
+        { "source": "โดยไม่ต้องใช้คำพูด", "target": "without words", "phonetic": "doi mâi dtɔ̂ng chái kham-phûut", "partOfSpeech": "adverb" }
+      ]
+    },
+    {
+      "source": "เขาตั้งตารอชั้นเรียนทุกครั้ง กระตือรือร้นที่จะเรียนรู้เทคนิคใหม่ๆ",
+      "target": "He looked forward to every class, eager to learn more techniques.",
+      "phonetic": "khǎo tâng-taa rɔɔ chán-rian thúk khráng grà-tʉʉ-rʉ́ʉ-rón thîi jà rian-rúu thék-nik mài-mài",
+      "breakdown": [
+        { "source": "เขาตั้งตารอ", "target": "he looked forward", "phonetic": "kháo tâng-taa rɔɔ", "partOfSpeech": "verb" },
+        { "source": "ชั้นเรียนทุกครั้ง", "target": "to every class", "phonetic": "chán-rian thúk khráng", "partOfSpeech": "noun" },
+        { "source": "กระตือรือร้นที่จะ", "target": "eager to", "phonetic": "grà-tʉʉ-rʉ́ʉ-rón thîi jà", "partOfSpeech": "adverb" },
+        { "source": "เรียนรู้เทคนิคใหม่ๆ", "target": "learn new techniques", "phonetic": "rian-rúu thék-nik mài-mài", "partOfSpeech": "verb" }
+      ]
+    },
+    {
+      "source": "การเริ่มงานอดิเรกใหม่ทำให้ชีวิตของเขามีความสุขอย่างไม่คาดคิด",
+      "target": "Starting a new hobby had brought unexpected joy to his life.",
+      "phonetic": "gaan rœ̂œm ngaan-à-dì-rèk mài tham hâi chii-wít khǎwng khǎo mii khwaam-sùk yàang mâi khâat-khít",
+      "breakdown": [
+        { "source": "การเริ่มงานอดิเรกใหม่", "target": "starting a new hobby", "phonetic": "gaan rœ̂œm ngaan-à-dì-rèk mài", "partOfSpeech": "noun" },
+        { "source": "ทำให้", "target": "made", "phonetic": "tham hâi", "partOfSpeech": "verb" },
+        { "source": "ชีวิตของเขา", "target": "his life", "phonetic": "chii-wít khǎwng kháo", "partOfSpeech": "noun" },
+        { "source": "มีความสุข", "target": "have joy", "phonetic": "mii khwaam-sùk", "partOfSpeech": "verb" },
+        { "source": "อย่างไม่คาดคิด", "target": "unexpectedly", "phonetic": "yàang mâi khâat-khít", "partOfSpeech": "adverb" }
+      ]
+    }
+  ],
+  "createdAt": "2025-09-29T23:35:30Z",
+  "updatedAt": "2025-09-29T23:59:30Z",
+  "difficulty": "intermediate",
+  "summary": "ทอมเริ่มงานอดิเรกปั้นดินเผา: การฝึกฝน ความท้าทาย ความภูมิใจ การแบ่งปัน และความสุขที่ไม่คาดคิด"
+}

@@ -12,313 +12,367 @@ import {
 	Tag,
 	Text,
 	useColorModeValue,
-	VStack,
 } from "@chakra-ui/react";
 import { graphql, Link } from "gatsby";
-import { ChevronRight, Star } from "lucide-react";
+import { BookOpen, ChevronRight, CreditCard } from "lucide-react";
 import React from "react";
-import { FaBookOpen, FaChalkboardTeacher, FaLanguage } from "react-icons/fa";
 
-import { Collection } from "../types";
-import { collectionDetailPath, flashcardListPath, readingPath } from "../utils/paths";
+import type { Book, Collection } from "../types";
+import {
+	bookDetailPath,
+	collectionDetailPath,
+	flashcardListPath,
+	readingPath,
+} from "../utils/paths";
 
 interface HomePageProps {
 	data: {
 		featuredCollections: {
 			nodes: Collection[];
 		};
-		totalCollections: {
-			totalCount: number;
+		featuredBooks: {
+			nodes: Book[];
+		};
+		allCollections: {
+			group: Array<{
+				fieldValue: string;
+				totalCount: number;
+			}>;
+		};
+		allBooks: {
+			group: Array<{
+				fieldValue: string;
+				totalCount: number;
+			}>;
 		};
 	};
 }
 
 const HomePage: React.FC<HomePageProps> = ({ data }) => {
 	const featuredCollections = data.featuredCollections.nodes;
-	const totalCollectionCount = data.totalCollections.totalCount;
+	const featuredBooks = data.featuredBooks.nodes;
+	const collectionsByLanguage = data.allCollections.group;
+	const booksByLanguage = data.allBooks.group;
+
 	const boxBg = useColorModeValue("white", "gray.800");
 	const borderColor = useColorModeValue("gray.200", "gray.700");
 	const heroBg = useColorModeValue("blue.50", "blue.900");
+	const flashcardHoverBg = useColorModeValue("blue.50", "blue.900");
+	const readingHoverBg = useColorModeValue("green.50", "green.900");
 
 	return (
 		<>
 			{/* Hero Section */}
-			<Box bg={heroBg} py={{ base: 12, md: 20 }} mb={12}>
+			<Box bg={heroBg} py={{ base: 12, md: 16 }} mb={12}>
 				<Container maxW="container.xl">
-					<Flex direction={{ base: "column", md: "row" }} align="center">
-						<Box flex="1" pr={{ md: 10 }} mb={{ base: 10, md: 0 }}>
+					<Flex
+						direction={{ base: "column", md: "row" }}
+						align="center"
+						gap={8}
+					>
+						<Box flex="1">
 							<Heading
 								as="h1"
 								size="2xl"
-								lineHeight="shorter"
 								fontWeight="bold"
-								mb={5}
+								mb={4}
+								textAlign={{ base: "center", md: "left" }}
 							>
-								Master Languages with Smart Flashcards
+								Lingo Lotus
 							</Heading>
-							<Text fontSize={{ base: "lg", md: "xl" }} mb={8}>
-								Enhance your vocabulary, improve pronunciation, practice
-								reading, and boost fluency with our spaced repetition flashcard
-								system. Learn at your own pace, anytime, anywhere.
+							<Text
+								fontSize={{ base: "xl", md: "2xl" }}
+								fontWeight="semibold"
+								mb={3}
+								textAlign={{ base: "center", md: "left" }}
+							>
+								Language learning made easy
 							</Text>
-							<Stack direction={{ base: "column", sm: "row" }} spacing={4}>
-								<Button
-									as={Link}
-									to={flashcardListPath()}
-									colorScheme="primary"
-								>
-									Browse Flashcard Collections
-								</Button>
-								<Button
-									as={Link}
-									to={readingPath()}
-									colorScheme="teal"
-								>
-									Practice Reading
-								</Button>
-								{/* <Button
-									as={Link}
-									to="/about"
-									colorScheme="primary"
-									variant="outline"
-									size="lg"
-									height="56px"
-								>
-								Learn More
-							</Button> */}
-							</Stack>
+							<Text
+								fontSize={{ base: "md", md: "lg" }}
+								textAlign={{ base: "center", md: "left" }}
+								color="gray.700"
+							>
+								Master vocabulary with spaced repetition flashcards and build
+								reading comprehension with stories that include phonetics and
+								word-by-word breakdowns. Everything you need to learn naturally
+								and effectively.
+							</Text>
 						</Box>
 						<Box
 							flex="1"
-							maxW={{ base: "100%", md: "500px" }}
-							h={{ base: "auto", md: "400px" }}
-							position="relative"
+							maxW={{ base: "100%", md: "400px" }}
+							h={{ base: "250px", md: "300px" }}
 						>
 							<Image
-								src="/images/hero-lotus.jpeg"
-								alt="Language flashcards app preview"
+								src="/images/bangkok-rainbow.jpeg"
+								alt="Language learning"
 								borderRadius="lg"
 								boxShadow="xl"
 								objectFit="cover"
 								w="100%"
 								h="100%"
-								fallbackSrc="https://via.placeholder.com/800x600?text=Language+Flashcards"
 							/>
 						</Box>
 					</Flex>
 				</Container>
 			</Box>
 
-			{/* Featured Collections Section */}
+			{/* Two Column Layout */}
 			<Container maxW="container.xl" mb={16}>
-				<Flex justify="space-between" align="center" mb={8}>
-					<Heading as="h2" size="xl">
-						Featured Collections
-					</Heading>
-					<Button
-						as={Link}
-						to="/flash-cards"
-						rightIcon={<Icon as={ChevronRight} />}
-						variant="ghost"
-						colorScheme="primary"
-					>
-						View All ({totalCollectionCount})
-					</Button>
-				</Flex>
-
-				<SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={8}>
-					{featuredCollections.map((collection) => (
-						<Link
-							to={collectionDetailPath(collection.collectionId)}
-							key={collection.collectionId}
-						>
-							<Box
-								bg={boxBg}
-								borderWidth="1px"
-								borderColor={borderColor}
-								borderRadius="lg"
-								overflow="hidden"
-								transition="all 0.3s"
-								_hover={{ transform: "translateY(-4px)", shadow: "lg" }}
-								h="100%"
-							>
-								{collection.imageUrl && (
-									<Box position="relative">
-										<Image
-											src={collection.imageUrl}
-											alt={collection.name}
-											h="180px"
-											w="100%"
-											objectFit="cover"
-											fallbackSrc={`https://via.placeholder.com/800x450?text=${collection.name}`}
-										/>
-										<Tag
-											position="absolute"
-											top="10px"
-											right="10px"
-											colorScheme="primary"
-											p={2}
-											borderRadius="md"
-										>
-											<Flex align="center">
-												<Icon as={Star} mr={1} />
-												Featured
-											</Flex>
-										</Tag>
-									</Box>
-								)}
-								<Box p={5}>
-									<Heading size="md" mb={2}>
-										{collection.name}
+				<SimpleGrid columns={{ base: 1, lg: 2 }} spacing={8}>
+					{/* Flashcards Column */}
+					<Box>
+						<Box mb={6}>
+							<Flex justify="space-between" align="center" mb={4}>
+								<HStack spacing={3}>
+									<Icon as={CreditCard} boxSize={7} color="blue.500" />
+									<Heading as="h2" size="lg">
+										Flashcards
 									</Heading>
-									<Text color="gray.500" noOfLines={2} mb={4}>
-										{collection.description}
-									</Text>
-									<HStack spacing={2} mb={3}>
-										<Tag colorScheme="green">
-											{collection.sourceLanguage} → {collection.targetLanguage}
-										</Tag>
-										<Tag colorScheme="purple">
-											{collection.difficulty || "Mixed"}
-										</Tag>
-									</HStack>
-								</Box>
+								</HStack>
+								<Button
+									as={Link}
+									to={flashcardListPath()}
+									rightIcon={<Icon as={ChevronRight} />}
+									colorScheme="blue"
+									size="sm"
+								>
+									Browse All
+								</Button>
+							</Flex>
+							<Image
+								src="/images/bangkok-rainbow.jpeg"
+								alt="Flashcards"
+								borderRadius="md"
+								h="200px"
+								w="100%"
+								objectFit="cover"
+								mb={4}
+							/>
+							<Text color="gray.600" mb={4}>
+								Learn vocabulary with spaced repetition. Each card includes
+								translations, phonetics, and example sentences. Perfect for
+								building your word bank.
+							</Text>
+						</Box>
+
+						{/* Featured Flashcards */}
+						{featuredCollections.length > 0 && (
+							<Box mb={6}>
+								<Heading size="sm" mb={3}>
+									Featured
+								</Heading>
+								<Stack spacing={3}>
+									{featuredCollections.map((collection) => (
+										<Link
+											to={collectionDetailPath(collection.collectionId)}
+											key={collection.collectionId}
+										>
+											<Flex
+												bg={boxBg}
+												borderWidth="1px"
+												borderColor={borderColor}
+												borderRadius="md"
+												overflow="hidden"
+												transition="all 0.2s"
+												_hover={{ transform: "translateY(-2px)", shadow: "md" }}
+											>
+												<Image
+													src={
+														collection.imageUrl || "/images/bangkok-rainbow.jpeg"
+													}
+													alt={collection.name}
+													w="120px"
+													h="100px"
+													objectFit="cover"
+													flexShrink={0}
+												/>
+												<Box p={4} flex="1">
+													<Heading size="sm" mb={2}>
+														{collection.name}
+													</Heading>
+													<Text fontSize="sm" color="gray.500" noOfLines={2} mb={2}>
+														{collection.description}
+													</Text>
+													<HStack spacing={2}>
+														<Tag size="sm" colorScheme="green">
+															{collection.sourceLanguage} →{" "}
+															{collection.targetLanguage}
+														</Tag>
+														{collection.difficulty && (
+															<Tag size="sm" colorScheme="purple">
+																{collection.difficulty}
+															</Tag>
+														)}
+													</HStack>
+												</Box>
+											</Flex>
+										</Link>
+									))}
+								</Stack>
 							</Box>
-						</Link>
-					))}
+						)}
+
+						{/* Flashcards by Language */}
+						<Box>
+							<Heading size="sm" mb={3}>
+								By Language
+							</Heading>
+							<SimpleGrid columns={2} spacing={3}>
+								{collectionsByLanguage.map((group) => (
+									<Link
+										to={flashcardListPath()}
+										key={group.fieldValue}
+										state={{ language: group.fieldValue }}
+									>
+										<Box
+											bg={boxBg}
+											borderWidth="1px"
+											borderColor={borderColor}
+											borderRadius="md"
+											p={3}
+											textAlign="center"
+											transition="all 0.2s"
+											_hover={{ bg: flashcardHoverBg }}
+										>
+											<Text fontWeight="bold" fontSize="sm" mb={1}>
+												{group.fieldValue}
+											</Text>
+											<Text fontSize="xs" color="gray.500">
+												{group.totalCount} collection
+												{group.totalCount !== 1 ? "s" : ""}
+											</Text>
+										</Box>
+									</Link>
+								))}
+							</SimpleGrid>
+						</Box>
+					</Box>
+
+					{/* Reading Column */}
+					<Box>
+						<Box mb={6}>
+							<Flex justify="space-between" align="center" mb={4}>
+								<HStack spacing={3}>
+									<Icon as={BookOpen} boxSize={7} color="green.500" />
+									<Heading as="h2" size="lg">
+										Reading
+									</Heading>
+								</HStack>
+								<Button
+									as={Link}
+									to={readingPath()}
+									rightIcon={<Icon as={ChevronRight} />}
+									colorScheme="green"
+									size="sm"
+								>
+									Browse All
+								</Button>
+							</Flex>
+							<Image
+								src="/images/bangkok-rainbow.jpeg"
+								alt="Reading"
+								borderRadius="md"
+								h="200px"
+								w="100%"
+								objectFit="cover"
+								mb={4}
+							/>
+							<Text color="gray.600" mb={4}>
+								Practice reading with stories that include phonetics and
+								word-by-word breakdowns. Build comprehension and learn grammar
+								in context.
+							</Text>
+						</Box>
+
+						{/* Featured Books */}
+						{featuredBooks.length > 0 && (
+							<Box mb={6}>
+								<Heading size="sm" mb={3}>
+									Featured
+								</Heading>
+								<Stack spacing={3}>
+									{featuredBooks.map((book) => (
+										<Link to={bookDetailPath(book.bookId)} key={book.bookId}>
+											<Flex
+												bg={boxBg}
+												borderWidth="1px"
+												borderColor={borderColor}
+												borderRadius="md"
+												overflow="hidden"
+												transition="all 0.2s"
+												_hover={{ transform: "translateY(-2px)", shadow: "md" }}
+											>
+												<Image
+													src={book.imageUrl || "/images/bangkok-rainbow.jpeg"}
+													alt={book.name}
+													w="120px"
+													h="100px"
+													objectFit="cover"
+													flexShrink={0}
+												/>
+												<Box p={4} flex="1">
+													<Heading size="sm" mb={2}>
+														{book.name}
+													</Heading>
+													<Text fontSize="sm" color="gray.500" noOfLines={2} mb={2}>
+														{book.description}
+													</Text>
+													<HStack spacing={2}>
+														<Tag size="sm" colorScheme="green">
+															{book.sourceLanguage}
+														</Tag>
+														{book.difficulty && (
+															<Tag size="sm" colorScheme="purple">
+																{book.difficulty}
+															</Tag>
+														)}
+													</HStack>
+												</Box>
+											</Flex>
+										</Link>
+									))}
+								</Stack>
+							</Box>
+						)}
+
+						{/* Reading by Language */}
+						<Box>
+							<Heading size="sm" mb={3}>
+								By Language
+							</Heading>
+							<SimpleGrid columns={2} spacing={3}>
+								{booksByLanguage.map((group) => (
+									<Link
+										to={readingPath()}
+										key={group.fieldValue}
+										state={{ language: group.fieldValue }}
+									>
+										<Box
+											bg={boxBg}
+											borderWidth="1px"
+											borderColor={borderColor}
+											borderRadius="md"
+											p={3}
+											textAlign="center"
+											transition="all 0.2s"
+											_hover={{ bg: readingHoverBg }}
+										>
+											<Text fontWeight="bold" fontSize="sm" mb={1}>
+												{group.fieldValue}
+											</Text>
+											<Text fontSize="xs" color="gray.500">
+												{group.totalCount} book{group.totalCount !== 1 ? "s" : ""}
+											</Text>
+										</Box>
+									</Link>
+								))}
+							</SimpleGrid>
+						</Box>
+					</Box>
 				</SimpleGrid>
 			</Container>
-
-			{/* Features Section */}
-			<Box py={16} bg={useColorModeValue("gray.50", "gray.900")}>
-				<Container maxW="container.xl">
-					<VStack spacing={4} mb={12} textAlign="center">
-						<Heading as="h2" size="xl">
-							Why Learn with Flashcards?
-						</Heading>
-						<Text fontSize={{ base: "md", md: "lg" }} maxW="800px">
-							Our flashcard system is designed specifically for language
-							learning, with features that help you memorize vocabulary
-							efficiently and track your progress over time.
-						</Text>
-					</VStack>
-
-					<SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>
-						<VStack
-							align="start"
-							p={6}
-							bg={boxBg}
-							borderRadius="lg"
-							borderWidth="1px"
-							borderColor={borderColor}
-						>
-							<Flex
-								w="60px"
-								h="60px"
-								align="center"
-								justify="center"
-								color="white"
-								rounded="full"
-								bg="blue.500"
-								mb={4}
-							>
-								<Icon as={FaLanguage} boxSize={6} />
-							</Flex>
-							<Heading as="h3" size="md" mb={3}>
-								Multiple Languages
-							</Heading>
-							<Text>
-								Learn vocabulary in various languages with tailored collections
-								for beginners to advanced learners. Each card includes
-								pronunciation guides.
-							</Text>
-						</VStack>
-
-						<VStack
-							align="start"
-							p={6}
-							bg={boxBg}
-							borderRadius="lg"
-							borderWidth="1px"
-							borderColor={borderColor}
-						>
-							<Flex
-								w="60px"
-								h="60px"
-								align="center"
-								justify="center"
-								color="white"
-								rounded="full"
-								bg="teal.500"
-								mb={4}
-							>
-								<Icon as={FaBookOpen} boxSize={6} />
-							</Flex>
-							<Heading as="h3" size="md" mb={3}>
-								Spaced Repetition
-							</Heading>
-							<Text>
-								Our system uses proven spaced repetition techniques to help you
-								review cards at optimal intervals, strengthening your memory and
-								retention.
-							</Text>
-						</VStack>
-
-						<VStack
-							align="start"
-							p={6}
-							bg={boxBg}
-							borderRadius="lg"
-							borderWidth="1px"
-							borderColor={borderColor}
-						>
-							<Flex
-								w="60px"
-								h="60px"
-								align="center"
-								justify="center"
-								color="white"
-								rounded="full"
-								bg="purple.500"
-								mb={4}
-							>
-								<Icon as={FaChalkboardTeacher} boxSize={6} />
-							</Flex>
-							<Heading as="h3" size="md" mb={3}>
-								Progress Tracking
-							</Heading>
-							<Text>
-								Track your learning journey with detailed statistics. See which
-								words you've mastered and which ones need more practice.
-							</Text>
-						</VStack>
-					</SimpleGrid>
-				</Container>
-			</Box>
-
-			{/* Call to Action */}
-			<Box py={16}>
-				<Container maxW="container.md" textAlign="center">
-					<Heading as="h2" size="xl" mb={4}>
-						Ready to Start Learning?
-					</Heading>
-					<Text fontSize="lg" mb={8}>
-						Browse our collection of flashcard decks and start improving your
-						language skills today.
-					</Text>
-					<Button
-						as={Link}
-						to="/flash-cards"
-						size="lg"
-						height="60px"
-						px={8}
-						colorScheme="blue"
-						fontSize="lg"
-					>
-						Get Started Now
-					</Button>
-				</Container>
-			</Box>
 		</>
 	);
 };
@@ -329,7 +383,7 @@ export const query = graphql`
   query HomePage {
     featuredCollections: allCollectionsJson(
       filter: { featured: { eq: true } }
-      limit: 6
+      limit: 3
     ) {
       nodes {
         collectionId
@@ -339,11 +393,29 @@ export const query = graphql`
         targetLanguage
         difficulty
         imageUrl
-        featured
       }
     }
-    totalCollections: allCollectionsJson {
-      totalCount
+    featuredBooks: allBookJson(filter: { featured: { eq: true } }, limit: 3) {
+      nodes {
+        bookId
+        name
+        description
+        sourceLanguage
+        difficulty
+        imageUrl
+      }
+    }
+    allCollections: allCollectionsJson {
+      group(field: { sourceLanguage: SELECT }) {
+        fieldValue
+        totalCount
+      }
+    }
+    allBooks: allBookJson {
+      group(field: { sourceLanguage: SELECT }) {
+        fieldValue
+        totalCount
+      }
     }
   }
 `;

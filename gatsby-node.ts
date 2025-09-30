@@ -81,6 +81,7 @@ export const createPages: GatsbyNode["createPages"] = async ({
     allBookJson: {
       nodes: {
         bookId: string;
+        sourceLanguage: string;
       }[];
     };
   }>(`
@@ -88,6 +89,7 @@ export const createPages: GatsbyNode["createPages"] = async ({
       allBookJson {
         nodes {
           bookId
+          sourceLanguage
         }
       }
     }
@@ -103,6 +105,7 @@ export const createPages: GatsbyNode["createPages"] = async ({
     const pagePath = bookDetailPath(book.bookId);
     const context = {
       bookId: book.bookId,
+      sourceLanguage: `/grammar/${book.sourceLanguage}.md/`,
     };
 
     createPage({
