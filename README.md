@@ -1,167 +1,221 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.com/">
-    <img src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" alt="Gatsby logo" width="60" />
-  </a>
-  <a href="https://www.typescriptlang.org/">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" alt="TypeScript logo" width="60" />
-  </a>
-  <a href="https://chakra-ui.com/">
-    <img src="https://raw.githubusercontent.com/chakra-ui/chakra-ui/main/logo/logo-colored@2x.png?raw=true" alt="Chakra UI logo" width="180" />
-  </a>
+  <img src="https://img.shields.io/badge/Gatsby-663399?style=for-the-badge&logo=gatsby&logoColor=white" alt="Gatsby" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Chakra_UI-319795?style=for-the-badge&logo=chakra-ui&logoColor=white" alt="Chakra UI" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
 </p>
+
 <h1 align="center">
-  Gatsby TypeScript Chakra UI Blog Starter
+  🌸 Lingo Lotus
 </h1>
 
 <p align="center">
-A modern, opinionated blog starter with Gatsby, TypeScript, and Chakra UI. Features elegant typography, responsive design, and system-aware dark mode.
+  <strong>A comprehensive language learning platform built with modern web technologies</strong>
+</p>
+
+<p align="center">
+  Master new languages through interactive flashcards, immersive reading experiences, and intelligent study features.
 </p>
 
 ## ✨ Features
 
-- **Gatsby** — Fast, optimized websites with great SEO
-- **TypeScript** — Type safety and better developer experience
-- **Chakra UI** — Beautiful, accessible components with dark mode support
-- **Blog-Focused** — Optimized for beautiful article presentation
-- **Responsive Design** — Mobile-first design that works on all devices
-- **System-Aware Dark Mode** — Automatically switches based on user preference
-- **"Buy Me Coffee" Integration** — Support monetization for your content
-- **SEO Optimized** — Meta tags, sitemaps, and robots.txt included
+### 📚 **Comprehensive Learning Tools**
+- **Interactive Flashcards** - Spaced repetition with customizable difficulty levels
+- **Reading Practice** - Curated texts with translations and pronunciation guides
+- **Speech Synthesis** - Built-in text-to-speech for pronunciation practice
+- **Progress Tracking** - Study scoring and performance analytics
+- **Multi-language Support** - Currently focused on Thai for English speakers
 
-## 🚀 Quick start
+### 🎨 **Modern UI/UX**
+- **Dark/Light Mode** - System-aware theme switching
+- **Responsive Design** - Optimized for desktop, tablet, and mobile
+- **Multiple Themes** - Choose from various color schemes (Ocean Breeze, Sunset Vibes, Zen Garden, etc.)
+- **Accessibility First** - WCAG compliant with keyboard navigation and screen reader support
+
+### 🚀 **Performance & Developer Experience**
+- **Blazing Fast** - Gatsby-powered static site generation
+- **Type Safe** - Full TypeScript integration
+- **Modern Stack** - React 18, Chakra UI, Framer Motion animations
+- **SEO Optimized** - Built-in meta tags, sitemaps, and structured data
+
+## 🏗️ Project Structure
+
+```
+lingolotus.com/
+├── data/                          # Static content and data
+│   ├── books/                     # Reading content (stories, articles)
+│   │   ├── stories/              # Individual story files
+│   │   └── *.json                # Book metadata
+│   ├── flash-cards/              # Flashcard collections and decks
+│   │   ├── collections/          # Collection metadata
+│   │   └── decks/                # Individual flashcard decks
+│   └── languages/                # Language configuration
+├── src/
+│   ├── components/               # Reusable UI components
+│   │   ├── speech/              # Text-to-speech components
+│   │   └── study/               # Study interface components
+│   ├── hooks/                   # Custom React hooks
+│   │   ├── useScoring.ts        # Study progress tracking
+│   │   └── useSpeechSynthesis.ts # Speech synthesis logic
+│   ├── pages/                   # Gatsby pages (home, about, 404)
+│   ├── templates/               # Page templates for dynamic content
+│   │   ├── deck-detail.tsx      # Flashcard deck pages
+│   │   ├── deck-study.tsx       # Study session interface
+│   │   ├── reading-list.tsx     # Reading content browser
+│   │   └── book-detail.tsx      # Individual reading pages
+│   ├── theme/                   # Chakra UI theme configuration
+│   │   └── colors-*.ts          # Color scheme definitions
+│   ├── types/                   # TypeScript type definitions
+│   └── utils/                   # Utility functions
+├── static/images/               # Static assets
+├── gatsby-*.{js,ts}             # Gatsby configuration
+└── package.json                 # Dependencies and scripts
+```
+
+## 🛠️ Technology Stack
+
+### **Frontend Framework**
+- **Gatsby** - React-based static site generator
+- **React 18** - Modern React with concurrent features
+- **TypeScript** - Type-safe JavaScript development
+
+### **UI & Styling**
+- **Chakra UI** - Accessible component library
+- **Framer Motion** - Animation library
+- **Emotion** - CSS-in-JS styling
+
+### **Language Learning Features**
+- **Web Speech API** - Text-to-speech synthesis
+- **Lucide React** - Modern icon library
+- **Recharts** - Data visualization for progress tracking
+
+### **Content Management**
+- **Markdown** - Content authoring with Gatsby Remark
+- **JSON** - Structured data for flashcards and books
+- **Gatsby Image** - Optimized image handling
+
+### **Development Tools**
+- **Biome** - Fast linter and formatter
+- **ESLint** - Code quality enforcement
+- **Prettier** - Code formatting (migrating to Biome)
+
+## 🚀 Getting Started
+
+### Prerequisites
+- **Node.js** 18+
+- **pnpm** (recommended) or npm
+
+### Installation
 
 1. **Clone the repository**
-
-   ```shell
-   git clone https://github.com/cloudy-native/gatsby-typescript-chakraui.git
+   ```bash
+   git clone https://github.com/cloudy-native/lingolotus.com.git
+   cd lingolotus.com
    ```
 
 2. **Install dependencies**
-
-   ```shell
-   cd gatsby-typescript-chakraui
+   ```bash
+   pnpm install
+   # or
    npm install
    ```
 
-3. **Start the development server**
-
-   ```shell
+3. **Start development server**
+   ```bash
+   pnpm run develop
+   # or
    npm run develop
    ```
 
-4. **Open the source code and start editing!**
+4. **Open your browser**
+   Navigate to `http://localhost:8000`
 
-   Your site is now running at `http://localhost:8000`!
+### Available Scripts
 
-   The GraphQL explorer is available at `http://localhost:8000/___graphql`
+```bash
+# Development
+pnpm run develop    # Start development server
+pnpm run build      # Build for production
+pnpm run serve      # Serve production build locally
 
-## 🧐 Project Structure
+# Code Quality
+pnpm run typecheck  # TypeScript type checking
+pnpm run format     # Check code formatting
+pnpm run format:fix # Auto-fix formatting issues
+pnpm run lint       # Check code quality
+pnpm run lint:fix   # Auto-fix linting issues
 
-```
-.
-├── content/                # Blog content files
-│   └── blog/               # Blog posts with Markdown + frontmatter
-├── public/                 # Built files (generated after build)
-├── src/                    # Source code
-│   ├── components/         # React components
-│   │   ├── Header.tsx      # Site navigation header
-│   │   ├── Footer.tsx      # Site footer with links
-│   │   ├── Layout.tsx      # Main layout wrapper
-│   │   └── BuyMeCoffeeButton.tsx # Support button
-│   ├── pages/              # Page components
-│   │   ├── index.tsx       # Homepage
-│   │   ├── about.tsx       # About page
-│   │   ├── 404.tsx         # 404 page
-│   │   └── blog/index.tsx  # Blog listing page
-│   ├── templates/          # Page templates for generated pages
-│   │   ├── blog-post.tsx   # Full-featured blog post template
-│   │   └── blog-post-simple.tsx # Minimal blog post template
-│   └── theme/              # Chakra UI theme customization
-│       └── index.ts        # Theme configuration
-├── gatsby-browser.js       # Browser-specific configurations
-├── gatsby-config.ts        # Gatsby configuration
-├── gatsby-node.js          # Gatsby Node API implementations
-├── gatsby-ssr.js           # Server-side rendering configurations
-└── package.json            # Project dependencies and scripts
+# Deployment
+pnpm run deploy     # Deploy to AWS S3
+pnpm run clean      # Clean Gatsby cache
 ```
 
-## 🎨 Theme Customization
+## 📖 Content Management
 
-This starter uses an opinionated theme with:
+### Adding Flashcards
 
-- **Color Mode**: System-aware dark mode that respects user preferences
-- **Responsive Design**: Mobile-first approach with adaptive layouts
+1. Create deck files in `data/flash-cards/decks/`
+2. Add collection metadata in `data/flash-cards/collections/`
+3. Include translations, phonetic guides, and difficulty levels
 
-### Customize the Theme
+### Adding Reading Content
 
-Edit the theme in `src/theme/index.ts`:
+1. Create story files in `data/books/stories/`
+2. Add book metadata in `data/books/`
+3. Include translations and comprehension exercises
+
+### Language Support
+
+- **Thai (ไทย)** - Primary language with full support
+- **English** - Interface and translation language
+- **Extensible** - Framework supports additional languages
+
+## 🎨 Customization
+
+### Themes
+Choose from pre-built themes or create custom ones:
 
 ```typescript
-// Current theme configuration
-const theme = extendTheme({
-  config: {
-    initialColorMode: "system",
-    useSystemColorMode: true,
-  },
-  fonts: {
-  },
-  // Add custom colors, spacing, etc.
-});
+// src/theme/index.ts
+import { oceanBreezeTheme } from './colors-ocean-breeze'
+// Available: matcha-latte, ocean-breeze, sunset-vibes, zen-garden, vibrant-lotus
 ```
 
-## 📝 Blog Content
+### Language Learning Features
 
-Blog posts live in `content/blog/` as Markdown files with frontmatter. Each post should be in its own directory with an `index.md` file and any images used in the post.
+- **Speech Synthesis** - Configurable voices and rates
+- **Study Modes** - Target language → source language or vice versa
+- **Progress Tracking** - Session-based scoring and analytics
+- **Difficulty Levels** - Easy, Medium, Hard with adaptive learning
 
-Example blog post structure:
-```
-content/
-└── blog/
-    └── getting-started-with-gatsby-and-chakra-ui/
-        ├── index.md
-        └── hero-image.jpg
-```
+## 🤝 Contributing
 
-## 🧩 Main Components
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
-- **Layout** - Common layout with header and footer
-- **Header** - Navigation with theme toggle and mobile menu
-- **Footer** - Site footer with important links
-- **BuyMeCoffeeButton** - Support button for reader contributions
+### Areas for Contribution
+- **Content Creation** - Add more flashcards and reading materials
+- **Language Support** - Extend platform to new languages
+- **Feature Development** - Study algorithms, progress tracking, gamification
+- **UI/UX Improvements** - Enhanced accessibility, new themes, mobile optimization
 
-## 🚀 Deployment
+## 📄 License
 
-### Build for production
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-```shell
-npm run build
-```
+## 🙏 Acknowledgments
 
-The build output will be in the `public/` directory, ready to be deployed to any static hosting service.
+- **Thai Language Community** - For inspiration and content contributions
+- **Open Source Community** - Gatsby, Chakra UI, and countless other tools
+- **Language Learners Worldwide** - For their dedication and feedback
 
-## 🎓 Learning Resources
+---
 
-- **[Gatsby Documentation](https://www.gatsbyjs.com/docs/)**
-- **[TypeScript Documentation](https://www.typescriptlang.org/docs/)**
-- **[Chakra UI Documentation](https://chakra-ui.com/docs/getting-started)**
+<p align="center">
+  Made with ❤️ for language learners everywhere
+</p>
 
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details. Attribution required.
-
-## 📸 Screenshots
-
-### Home Page (Light Mode)
-![Home Page Light Mode](doc/images/home-page-light-mode.png)
-
-### Home Page (Dark Mode)
-![Home Page Dark Mode](doc/images/home-page-dark-mode.png)
-
-### About Page
-![About Page](doc/images/about.png)
-
-### Blog Index
-![Blog Index](doc/images/blog-index.png)
-
-### Blog Post
-![Blog Post](doc/images/blog-post.png)
+<p align="center">
+  <a href="https://lingolotus.com">🌐 Live Site</a> •
+  <a href="https://github.com/cloudy-native/lingolotus.com">📖 Source Code</a> •
+  <a href="https://lingolotus.com/about">ℹ️ About</a>
+</p>
