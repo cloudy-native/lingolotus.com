@@ -18,8 +18,8 @@
     "format": "biome format src",
     "format:fix": "biome format --write src",
     "lint": "biome check src",
-    "lint:fix": "biome check --write src",
-    "optimize-images": "bash scripts/optimize-images.sh"
+    "optimize-images": "bash scripts/optimize-images.sh",
+    "lint:fix": "biome check --write src"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.10.6",
