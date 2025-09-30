@@ -1,8 +1,8 @@
 /**
  * Main color theme file.
- * 
+ *
  * To switch themes, simply change the import below:
- * 
+ *
  * Available themes:
  * - colors-original.ts       - Original blue/orange scheme
  * - colors-zen-garden.ts     - 🌸 Purple/teal (calming, lotus-themed)
