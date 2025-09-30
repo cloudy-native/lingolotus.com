@@ -19,7 +19,7 @@ import {
 import { graphql, Link } from "gatsby";
 import { ChevronRight, Clock, Star } from "lucide-react";
 
-import { semanticColors, tagColorSchemes } from "../theme/colors";
+import { semanticColors } from "../theme/colors";
 import type { Collection, Deck } from "../types";
 import { deckDetailPath, flashcardListPath } from "../utils/paths";
 

@@ -88,13 +88,45 @@ const CollectionListTemplate: React.FC<CollectionListTemplateProps> = ({
 	const featuredCollections = collections.filter((c) => c.featured);
 	const regularCollections = collections.filter((c) => !c.featured);
 
-	return (
-		<Container maxW="container.xl" py={8}>
-			<Heading as="h1" mb={8}>
-				Flashcard Collections
-			</Heading>
+	const heroBg = semanticColors.hero.flashcards;
+	const supportingTextColor = semanticColors.text.supporting;
 
-			{featuredCollections.length > 0 && (
+	return (
+		<>
+			{/* Hero Section */}
+			<Box bg={heroBg} py={{ base: 12, md: 20 }} mb={12}>
+				<Container maxW="container.xl">
+					<Flex direction={{ base: "column", md: "row" }} align="center">
+						<Box flex="1" pr={{ md: 10 }} mb={{ base: 10, md: 0 }}>
+							<Heading
+								as="h1"
+								size="2xl"
+								lineHeight="shorter"
+								fontWeight="bold"
+								mb={5}
+							>
+								Master Vocabulary with Flashcards
+							</Heading>
+							<Text fontSize={{ base: "lg", md: "xl" }} mb={6}>
+								Build your vocabulary systematically with spaced repetition and
+								interactive flashcards.
+							</Text>
+							<Text
+								fontSize={{ base: "md", md: "lg" }}
+								color={supportingTextColor}
+							>
+								Choose from curated decks organized by theme, difficulty, and
+								real-world scenarios. Practice at your own pace and track your
+								progress as you build fluency one word at a time.
+							</Text>
+						</Box>
+					</Flex>
+				</Container>
+			</Box>
+
+			{/* Collections List */}
+			<Container maxW="container.xl" mb={16}>
+				{featuredCollections.length > 0 && (
 				<>
 					<Heading as="h2" size="lg" mb={4}>
 						Featured Flashcard Collections
@@ -120,6 +152,7 @@ const CollectionListTemplate: React.FC<CollectionListTemplateProps> = ({
 				</>
 			)}
 		</Container>
+		</>
 	);
 };
 

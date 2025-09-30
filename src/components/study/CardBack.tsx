@@ -10,8 +10,9 @@ import {
 	VStack,
 } from "@chakra-ui/react";
 
-import { semanticColors } from "@/theme/colors";
 import type { TranslationFlashcard } from "@/types";
+
+import { semanticColors } from "../../theme/colors";
 
 import Examples from "./Examples";
 import TextToSpeech from "../speech/TextToSpeech";
