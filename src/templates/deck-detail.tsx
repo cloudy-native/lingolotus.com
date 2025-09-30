@@ -7,17 +7,17 @@ import {
   ButtonGroup,
   Container,
   Flex,
-  HStack,
   Heading,
+  HStack,
   Icon,
   Select,
   SimpleGrid,
   Stack,
   Tab,
+  Table,
   TabList,
   TabPanel,
   TabPanels,
-  Table,
   Tabs,
   Tag,
   Tbody,
@@ -26,10 +26,9 @@ import {
   Th,
   Thead,
   Tr,
-  VStack,
-  useColorModeValue,
+  VStack
 } from "@chakra-ui/react";
-import { Link, graphql, navigate } from "gatsby";
+import { graphql, Link, navigate } from "gatsby";
 import { ChevronRight, Clock, Eye } from "lucide-react";
 import React, { useState } from "react";
 
@@ -59,8 +58,8 @@ const SHOW_CARDS = 6;
 const FlashcardPreview: React.FC<{ card: TranslationFlashcard }> = ({
   card,
 }) => {
-  const cardBg = useColorModeValue("white", "gray.800");
-  const cardBorder = useColorModeValue("gray.200", "gray.700");
+  const cardBg = "white";
+  const cardBorder = "gray.200";
 
   return (
     <Box
@@ -107,7 +106,7 @@ const FlashcardPreview: React.FC<{ card: TranslationFlashcard }> = ({
       {card.tags.length > 0 && (
         <HStack spacing={2} mb={2} wrap="wrap">
           {card.tags.map((tag, idx) => (
-            <Tag key={idx} size="sm" colorScheme="blue">
+            <Tag key={tag} size="sm" colorScheme="blue">
               {tag}
             </Tag>
           ))}
@@ -138,8 +137,8 @@ const DeckDetailTemplate: React.FC<DeckDetailTemplateProps> = ({ data }) => {
   const [studyType, setStudyType] = useState<string>("all");
   const [cardOrder, setCardOrder] = useState<string>("default");
 
-  const headerBg = useColorModeValue("teal.50", "teal.900");
-  const headerBorder = useColorModeValue("teal.100", "teal.800");
+  const headerBg = "teal.50";
+  const headerBorder = "teal.100";
 
   const handleStartStudy = (studyLanguage: "source" | "target") => {
     // Save study preferences to local storage or state management

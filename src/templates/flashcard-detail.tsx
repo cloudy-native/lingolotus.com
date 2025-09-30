@@ -13,9 +13,8 @@ import {
 	Stack,
 	Tag,
 	Text,
-	useColorModeValue,
 } from "@chakra-ui/react";
-import { graphql, Link } from "gatsby";
+import { Link } from "gatsby";
 import { ChevronRight, Clock, Star } from "lucide-react";
 import React from "react";
 
@@ -32,8 +31,8 @@ interface CollectionDetailTemplateProps {
 }
 
 const DeckCard: React.FC<{ deck: Deck }> = ({ deck }) => {
-	const cardBg = useColorModeValue("white", "gray.800");
-	const cardBorder = useColorModeValue("gray.200", "gray.700");
+	const cardBg = "white";
+	const cardBorder = "gray.200";
 
 	return (
 		<Link to={deckDetailPath(deck.collectionId, deck.deckId)}>
@@ -90,8 +89,8 @@ const CollectionDetailTemplate: React.FC<CollectionDetailTemplateProps> = ({
 	const collection = data.collectionsJson;
 	const decks = data.allDecksJson.nodes;
 
-	const headerBg = useColorModeValue("blue.50", "blue.900");
-	const headerBorder = useColorModeValue("blue.100", "blue.800");
+	const headerBg = "blue.50";
+	const headerBorder = "blue.100";
 
 	return (
 		<>

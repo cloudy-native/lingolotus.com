@@ -1,23 +1,21 @@
+import React from "react";
+
 import {
 	Box,
-	Button,
 	Container,
 	Flex,
 	Heading,
 	HStack,
-	Icon,
 	Image,
 	SimpleGrid,
 	Stack,
 	Tag,
 	Text,
-	useColorModeValue,
 } from "@chakra-ui/react";
 import type { PageProps } from "gatsby";
 import { graphql, Link } from "gatsby";
-import { BookOpen, ChevronRight } from "lucide-react";
-import React from "react";
 
+import { semanticColors, tagColorSchemes } from "../theme/colors";
 import type { Book } from "../types";
 import type { LanguageConfig } from "../types/language";
 import { bookDetailPath } from "../utils/paths";
@@ -31,14 +29,13 @@ type ReadingPageData = {
 	};
 };
 
-const ReadingPage = ({ data }: PageProps<ReadingPageData>) => {
-	const heroBg = useColorModeValue("blue.50", "blue.900");
-	const sectionBg = useColorModeValue("white", "gray.800");
-	const borderColor = useColorModeValue("gray.200", "gray.700");
-	const cardBg = useColorModeValue("white", "gray.900");
-	const cardBorderColor = useColorModeValue("gray.200", "gray.700");
-	const supportingTextColor = useColorModeValue("gray.600", "gray.300");
-	const detailTextColor = useColorModeValue("gray.700", "gray.200");
+const ReadingListTemplate = ({ data }: PageProps<ReadingPageData>) => {
+	const heroBg = semanticColors.hero.reading;
+	const sectionBg = semanticColors.section.bg;
+	const borderColor = semanticColors.border.default;
+	const cardBg = semanticColors.card.bg;
+	const cardBorderColor = semanticColors.card.border;
+	const supportingTextColor = semanticColors.text.supporting;
 
 	const books = data.allBookJson.nodes;
 	const languages = data.allLanguagesJson.nodes;
@@ -66,9 +63,7 @@ const ReadingPage = ({ data }: PageProps<ReadingPageData>) => {
 			const diffB = b.difficulty || "Other";
 			const indexA = difficultyOrder.indexOf(diffA);
 			const indexB = difficultyOrder.indexOf(diffB);
-			return (
-				(indexA === -1 ? 999 : indexA) - (indexB === -1 ? 999 : indexB)
-			);
+			return (indexA === -1 ? 999 : indexA) - (indexB === -1 ? 999 : indexB);
 		});
 	});
 
@@ -92,9 +87,12 @@ const ReadingPage = ({ data }: PageProps<ReadingPageData>) => {
 								Build comprehension and confidence with bite-sized passages and
 								helpful tools.
 							</Text>
-							<Text fontSize={{ base: "md", md: "lg" }} color={supportingTextColor}>
-								Start with beginner stories to build your foundation, but don't be
-								afraid to dip into intermediate content when you're feeling
+							<Text
+								fontSize={{ base: "md", md: "lg" }}
+								color={supportingTextColor}
+							>
+								Start with beginner stories to build your foundation, but don't
+								be afraid to dip into intermediate content when you're feeling
 								confident—or go back to practice what you've already learned.
 								Learning is not always linear!
 							</Text>
@@ -127,63 +125,73 @@ const ReadingPage = ({ data }: PageProps<ReadingPageData>) => {
 							return (
 								<Box key={languageCode}>
 									<Heading as="h2" size="xl" mb={6}>
-										{flag && <span style={{ marginRight: "0.5rem" }}>{flag}</span>}
+										{flag && (
+											<span style={{ marginRight: "0.5rem" }}>{flag}</span>
+										)}
 										{languageName} ({languageConfig?.english})
 									</Heading>
 									<SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={8}>
 										{booksByLanguage[languageCode].map((book: Book) => (
-										<Box
-											as={Link}
-											to={bookDetailPath(book.bookId)}
-											key={book.bookId}
-											bg={cardBg}
-											borderWidth="1px"
-											borderColor={cardBorderColor}
-											borderRadius="lg"
-											overflow="hidden"
-											boxShadow="sm"
-											display="flex"
-											flexDirection="column"
-											transition="all 0.2s"
-											_hover={{
-												transform: "translateY(-4px)",
-												boxShadow: "md",
-											}}
-										>
-											{book.imageUrl && (
-												<Image
-													src={book.imageUrl}
-													alt={book.name}
-													w="100%"
-													h="180px"
-													objectFit="cover"
-												/>
-											)}
-											<Box p={6} flex="1" display="flex" flexDirection="column">
-												<Heading as="h4" size="md" mb={2}>
-													{book.name}
-												</Heading>
-												<Text color={supportingTextColor} noOfLines={3} mb={4}>
-													{book.description}
-												</Text>
-												<HStack spacing={2} flexWrap="wrap" mt="auto">
-													<Tag colorScheme="blue" textTransform="uppercase">
-														{book.sourceLanguage}
-													</Tag>
-													{book.targetLanguage && (
-														<Tag colorScheme="teal" textTransform="uppercase">
-															{book.targetLanguage}
+											<Box
+												as={Link}
+												to={bookDetailPath(book.bookId)}
+												key={book.bookId}
+												bg={cardBg}
+												borderWidth="1px"
+												borderColor={cardBorderColor}
+												borderRadius="lg"
+												overflow="hidden"
+												boxShadow="sm"
+												display="flex"
+												flexDirection="column"
+												transition="all 0.2s"
+												_hover={{
+													transform: "translateY(-4px)",
+													boxShadow: "md",
+												}}
+											>
+												{book.imageUrl && (
+													<Image
+														src={book.imageUrl}
+														alt={book.name}
+														w="100%"
+														h="180px"
+														objectFit="cover"
+													/>
+												)}
+												<Box
+													p={6}
+													flex="1"
+													display="flex"
+													flexDirection="column"
+												>
+													<Heading as="h4" size="md" mb={2}>
+														{book.name}
+													</Heading>
+													<Text
+														color={supportingTextColor}
+														mb={4}
+													>
+														{book.description}
+													</Text>
+													<HStack spacing={2} flexWrap="wrap" mt="auto">
+														<Tag colorScheme={tagColorSchemes.language} textTransform="uppercase">
+															{book.sourceLanguage}
 														</Tag>
-													)}
-													{book.difficulty && (
-														<Tag colorScheme="purple">{book.difficulty}</Tag>
-													)}
-													{book.featured && (
-														<Tag colorScheme="yellow">Featured</Tag>
-													)}
-												</HStack>
+														{book.targetLanguage && (
+															<Tag colorScheme={tagColorSchemes.targetLanguage} textTransform="uppercase">
+																{book.targetLanguage}
+															</Tag>
+														)}
+														{book.difficulty && (
+															<Tag colorScheme={tagColorSchemes.difficulty}>{book.difficulty}</Tag>
+														)}
+														{book.featured && (
+															<Tag colorScheme={tagColorSchemes.featured}>Featured</Tag>
+														)}
+													</HStack>
+												</Box>
 											</Box>
-										</Box>
 										))}
 									</SimpleGrid>
 								</Box>
@@ -196,10 +204,10 @@ const ReadingPage = ({ data }: PageProps<ReadingPageData>) => {
 	);
 };
 
-export default ReadingPage;
+export default ReadingListTemplate;
 
 export const query = graphql`
-  query ReadingPage {
+  query ReadingList {
     allBookJson {
       nodes {
         bookId

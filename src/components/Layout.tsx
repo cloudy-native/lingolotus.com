@@ -1,3 +1,5 @@
+import React from "react";
+
 import {
 	Box,
 	Button,
@@ -8,22 +10,21 @@ import {
 	Icon,
 	Link,
 	Text,
-	useColorMode,
-	useColorModeValue,
 } from "@chakra-ui/react";
 import { Link as GatsbyLink } from "gatsby";
 import { BookOpen, Flower, Home, LibraryBig } from "lucide-react";
-import React from "react";
 import { FaGithub } from "react-icons/fa";
+
+import { semanticColors } from "../theme/colors";
 
 interface LayoutProps {
 	children: React.ReactNode;
 }
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
-	const bgColor = useColorModeValue("white", "gray.800");
-	const textColor = useColorModeValue("gray.800", "white");
-	const borderColor = useColorModeValue("gray.200", "gray.700");
+	const bgColor = semanticColors.layout.bg;
+	const textColor = semanticColors.text.primary;
+	const borderColor = semanticColors.border.default;
 
 	return (
 		<Box minH="100vh" display="flex" flexDirection="column">
@@ -105,7 +106,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 			<Box
 				as="footer"
 				py={8}
-				bg={useColorModeValue("gray.100", "gray.900")}
+				bg="gray.100"
 				color={textColor}
 				borderTopWidth="1px"
 				borderColor={borderColor}

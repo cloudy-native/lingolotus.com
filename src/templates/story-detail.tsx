@@ -1,3 +1,5 @@
+import React, { useId, useMemo, useState } from "react";
+
 import {
 	Box,
 	Breadcrumb,
@@ -22,16 +24,16 @@ import {
 	Switch,
 	Tag,
 	Text,
-	useColorModeValue,
 	useDisclosure,
 } from "@chakra-ui/react";
 import type { PageProps } from "gatsby";
 import { graphql, Link } from "gatsby";
 import { ChevronRight } from "lucide-react";
-import React, { useId, useMemo, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+
 import { TextToSpeech } from "../components/speech/TextToSpeech";
+import { semanticColors, tagColorSchemes } from "../theme/colors";
 import type { Book, ReadingSentence, ReadingStory } from "../types";
 import { bookDetailPath, readingPath } from "../utils/paths";
 
@@ -60,7 +62,6 @@ interface StoryDetailPageData {
 }
 
 const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
-	console.log(data);
 	const { book, story } = data;
 	const [showTarget, setShowTarget] = useState(true);
 	const [showPhonetic, setShowPhonetic] = useState(true);
@@ -73,18 +74,12 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
 	);
 	const { isOpen, onOpen, onClose } = useDisclosure();
 
-	const sentenceCountLabel = useMemo(
-		() =>
-			`${story.sentences.length} sentence${story.sentences.length === 1 ? "" : "s"}`,
-		[story.sentences.length],
-	);
-
-	const headerBg = useColorModeValue("orange.50", "orange.900");
-	const headerBorder = useColorModeValue("orange.100", "orange.800");
-	const metaColor = useColorModeValue("gray.600", "gray.300");
-	const phoneticColor = useColorModeValue("gray.500", "gray.400");
-	const breakdownBorderColor = useColorModeValue("orange.200", "orange.600");
-	const breakdownAccentColor = useColorModeValue("orange.600", "orange.300");
+	const headerBg = semanticColors.header.reading;
+	const headerBorder = semanticColors.border.header.reading;
+	const metaColor = semanticColors.text.secondary;
+	const phoneticColor = semanticColors.text.phonetic;
+	const breakdownBorderColor = semanticColors.breakdown.border;
+	const breakdownAccentColor = semanticColors.breakdown.accent;
 
 	const translateToggleId = useId();
 	const phoneticToggleId = useId();
@@ -145,17 +140,18 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
 
 							{story.summary && (
 								<Text fontSize="lg" mb={4} color={metaColor}>
-									{story.summary}
 								</Text>
 							)}
 
 							<Stack spacing={3}>
 								<Stack direction="row" spacing={3} wrap="wrap">
-									<Tag colorScheme="blue" textTransform="uppercase">
+									<Tag colorScheme={tagColorSchemes.language} textTransform="uppercase">
 										{story.language}
 									</Tag>
 									{story.difficulty && (
-										<Tag colorScheme="purple">{story.difficulty}</Tag>
+										<Tag colorScheme={tagColorSchemes.difficulty}>
+											{story.difficulty}
+										</Tag>
 									)}
 									{/* <Tag colorScheme="teal">{sentenceCountLabel}</Tag> */}
 								</Stack>
@@ -351,7 +347,7 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
 					))}
 				</Stack>
 			</Container>
-			<Drawer isOpen={isOpen} placement="right" size="lg" onClose={onClose}>
+			<Drawer isOpen={isOpen} placement="right" size="full" onClose={onClose}>
 				<DrawerOverlay />
 				<DrawerContent>
 					<DrawerCloseButton />
@@ -392,9 +388,13 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
 									},
 									ul: {
 										listStyleType: "disc",
+										ml: 6,
+										mb: 3,
 									},
 									ol: {
 										listStyleType: "decimal",
+										ml: 6,
+										mb: 3,
 									},
 									li: {
 										mb: 2,

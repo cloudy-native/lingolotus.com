@@ -11,7 +11,6 @@ import {
 	Stack,
 	Tag,
 	Text,
-	useColorModeValue,
 } from "@chakra-ui/react";
 import { graphql, Link } from "gatsby";
 import { BookOpen, ChevronRight, CreditCard } from "lucide-react";
@@ -54,11 +53,11 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
 	const collectionsByLanguage = data.allCollections.group;
 	const booksByLanguage = data.allBooks.group;
 
-	const boxBg = useColorModeValue("white", "gray.800");
-	const borderColor = useColorModeValue("gray.200", "gray.700");
-	const heroBg = useColorModeValue("blue.50", "blue.900");
-	const flashcardHoverBg = useColorModeValue("blue.50", "blue.900");
-	const readingHoverBg = useColorModeValue("green.50", "green.900");
+	const boxBg = "white";
+	const borderColor = "gray.200";
+	const heroBg = "blue.50";
+	const flashcardHoverBg = "blue.50";
+	const readingHoverBg = "green.50";
 
 	return (
 		<>
@@ -180,7 +179,8 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
 											>
 												<Image
 													src={
-														collection.imageUrl || "/images/bangkok-rainbow.jpeg"
+														collection.imageUrl ||
+														"/images/bangkok-rainbow.jpeg"
 													}
 													alt={collection.name}
 													w="120px"
@@ -192,7 +192,12 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
 													<Heading size="sm" mb={2}>
 														{collection.name}
 													</Heading>
-													<Text fontSize="sm" color="gray.500" noOfLines={2} mb={2}>
+													<Text
+														fontSize="sm"
+														color="gray.500"
+														noOfLines={2}
+														mb={2}
+													>
 														{collection.description}
 													</Text>
 													<HStack spacing={2}>
@@ -316,7 +321,12 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
 													<Heading size="sm" mb={2}>
 														{book.name}
 													</Heading>
-													<Text fontSize="sm" color="gray.500" noOfLines={2} mb={2}>
+													<Text
+														fontSize="sm"
+														color="gray.500"
+														noOfLines={2}
+														mb={2}
+													>
 														{book.description}
 													</Text>
 													<HStack spacing={2}>
@@ -363,7 +373,8 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
 												{group.fieldValue}
 											</Text>
 											<Text fontSize="xs" color="gray.500">
-												{group.totalCount} book{group.totalCount !== 1 ? "s" : ""}
+												{group.totalCount} book
+												{group.totalCount !== 1 ? "s" : ""}
 											</Text>
 										</Box>
 									</Link>

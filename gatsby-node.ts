@@ -7,6 +7,7 @@ import {
   studyDeckPath,
   bookDetailPath,
   storyDetailPath,
+  readingPath,
 } from "./src/utils/paths";
 
 export const createPages: GatsbyNode["createPages"] = async ({
@@ -239,6 +240,17 @@ export const createPages: GatsbyNode["createPages"] = async ({
       `Created deck study page ${path} with context: ${JSON.stringify(context)}`,
     );
   });
+
+  // Create the reading list page
+  const readingListTemplate = path.resolve("./src/templates/reading-list.tsx");
+  createPage({
+    path: readingPath(),
+    component: readingListTemplate,
+    context: {},
+  });
+  reporter.info(
+    `Created reading list page ${readingPath()} with context: ${JSON.stringify({})}`,
+  );
 
   // Create the homepage
   createPage({

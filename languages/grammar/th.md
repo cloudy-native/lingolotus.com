@@ -42,13 +42,13 @@ Thai consonants are split into three groups—high, mid, and low—which set the
 ## Vowels: The Sound Shapers
 Thai vowels are like the spices in a dish—they add flavor to consonants. There are 18 single vowels and several diphthongs (vowel combos), which can be short (quick) or long (drawn out). Vowels are written around the consonant—before, after, above, or below—and their length can change a word's tone and meaning.
 
-| Vowel     | Symbol | Sound | Position     | Example Word | Meaning        |
-| --------- | ------ | ----- | ------------ | ------------ | -------------- |
-| Short     | -ะ     | a     | After        | บะ (ba)      | Crazy          |
-| Long      | -า     | ā     | After        | บา (bā)      | Lotus          |
-| Short     | -ิ      | i     | Above        | กิ (ki)       | (part of word) |
-| Long      | -ี      | ī     | Above        | กี (kī)       | (part of word) |
-| Diphthong | เ-า    | ao    | Before/After | เกา (kao)    | Scratch        |
+| Vowel     | Symbol | Sound | Example Word | Meaning        |
+| --------- | ------ | ----- | ------------ | -------------- |
+| Short     | ◌ะ     | a     | บะ (ba)      | Crazy          |
+| Long      | ◌า     | ā     | บา (bā)      | Lotus          |
+| Short     | ◌ิ      | i     | กิ (ki)       | (part of word) |
+| Long      | ◌ี      | ī     | กี (kī)       | (part of word) |
+| Diphthong | เ◌า    | ao    | เกา (kao)    | Scratch        |
 
 - **How It Works**: Vowels follow the consonant in pronunciation, even if written before it (e.g., เกา, kao, starts with k, then ao).
 - **Example Fun**: Compare มา (mā, come, long vowel) with มิ (mi, not, short vowel) to hear the difference.
@@ -64,50 +64,50 @@ The table below lists all 44 Thai consonants, their class (low, mid, high), the 
 
 | Thai Consonant | Class | Rhyme Noun | Initial Sound | Final Sound | Transliteration | Notes |
 |----------------|-------|------------|---------------|-------------|-----------------|-------|
-| ก | Mid | ไก่ (chicken) | k (unaspirated) | k | k | Unaspirated, like 'k' in "sky". |
-| ข | High | ไข่ (egg) | kh (aspirated) | k | kh | Aspirated, like 'k' in "kite". |
-| ฃ | High | ขวด (bottle) | kh (aspirated) | k | kh | Obsolete, rarely used in modern Thai. |
-| ค | Low | ควาย (buffalo) | kh (aspirated) | k | kh | Aspirated, paired with low-class tone rules. |
-| ฅ | Low | คน (person) | kh (aspirated) | k | kh | Obsolete, not used in modern Thai. |
-| ฆ | Low | ระฆัง (bell) | kh (aspirated) | k | kh | Rare in initial position, used in loanwords. |
-| ง | Low | งู (snake) | ng | ng | ng | Nasal sound, like 'ng' in "sing". |
-| จ | Mid | จาน (plate) | ch (unaspirated) | t | ch | Unaspirated, like 'ch' in "church". |
-| ฉ | High | ฉิ่ง (cymbals) | ch (aspirated) | - | ch | Aspirated, no final sound in modern usage. |
-| ช | Low | ช้าง (elephant) | ch (aspirated) | t | ch | Aspirated, common in native Thai words. |
-| ซ | Low | โซ่ (chain) | s | t | s | Similar to 's' in "see". |
-| ฌ | Low | เฌอ (tree) | ch (aspirated) | - | ch | Rare, used in specific loanwords. |
-| ญ | Low | หญิง (woman) | y | n | y | Palatal nasal in final position. |
-| ฎ | Mid | ชฎา (headdress) | d (unaspirated) | t | d | Rare, used in royal or ceremonial terms. |
-| ฏ | Mid | ปฏัก (spear) | t (unaspirated) | t | t | Unaspirated, used in specific words. |
-| ฐ | High | ฐาน (base) | th (aspirated) | t | th | Rare, used in Pali/Sanskrit loanwords. |
-| ฑ | Low | มณโฑ (Monttho, a mythical character) | th (aspirated) | t | th | Used in loanwords, rare in native words. |
-| ฒ | Low | ผู้เฒ่า (elder) | th (aspirated) | t | th | Rare, used in specific contexts. |
-| ณ | Low | เณร (novice monk) | n | n | n | Nasal sound, like 'n' in "no". |
-| ด | Mid | เด็ก (child) | d (unaspirated) | t | d | Unaspirated, like 'd' in "dog". |
-| ต | Mid | เต่า (turtle) | t (unaspirated) | t | t | Unaspirated, like 't' in "stop". |
-| ถ | High | ถุง (sack) | th (aspirated) | t | th | Aspirated, like 't' in "top". |
-| ท | Low | ทหาร (soldier) | th (aspirated) | t | th | Common in native Thai words. |
-| ธ | Low | ธง (flag) | th (aspirated) | t | th | Used in Pali/Sanskrit loanwords. |
-| น | Low | หนู (mouse) | n | n | n | Nasal sound, like 'n' in "net". |
-| บ | Mid | ใบไม้ (leaf) | b (unaspirated) | p | b | Unaspirated, like 'b' in "boy". |
-| ป | Mid | ปลา (fish) | p (unaspirated) | p | p | Unaspirated, like 'p' in "spin". |
-| ผ | High | ผึ้ง (bee) | ph (aspirated) | - | ph | Aspirated, like 'p' in "pin". |
-| ฝ | High | ฝา (lid) | f | - | f | Like 'f' in "fan", no final sound. |
-| พ | Low | พาน (tray) | ph (aspirated) | p | ph | Aspirated, common in native words. |
-| ฟ | Low | ฟัน (teeth) | f | p | f | Like 'f' in "fish". |
-| ภ | Low | สำเภา (junk ship) | ph (aspirated) | p | ph | Used in Pali/Sanskrit loanwords. |
-| ม | Low | ม้า (horse) | m | m | m | Nasal sound, like 'm' in "man". |
-| ย | Low | ยักษ์ (giant) | y | - | y | Like 'y' in "yes", no final sound in some dialects. |
-| ร | Low | เรือ (boat) | r | n | r | Rolled 'r', often pronounced as 'l' in casual speech. |
-| ล | Low | ลิง (monkey) | l | n | l | Like 'l' in "love". |
-| ว | Low | แหวน (ring) | w | - | w | Like 'w' in "way". |
-| ศ | High | ศาลา (pavilion) | s | t | s | Used in Pali/Sanskrit loanwords. |
-| ษ | High | ฤๅษี (hermit) | s | t | s | Rare, used in Pali/Sanskrit loanwords. |
-| ส | High | เสือ (tiger) | s | t | s | Like 's' in "sun". |
-| ห | High | หีบ (chest/box) | h | - | h | Like 'h' in "hat", no final sound. |
-| ฬ | Low | จุฬา (kite) | l | n | l | Rare, used in specific loanwords. |
-| อ | Low | อ่าง (basin) | - | - | - | Acts as a vowel holder, no consonant sound. |
-| ฮ | Low | นกฮูก (owl) | h | - | h | Like 'h' in "hot", no final sound. |
+| ก | Mid | ไก่ (gài - chicken) | k (unaspirated) | k | k | Unaspirated, like 'k' in "sky". |
+| ข | High | ไข่ (khài - egg) | kh (aspirated) | k | kh | Aspirated, like 'k' in "kite". |
+| ฃ | High | ขวด (khùuat - bottle) | kh (aspirated) | k | kh | Obsolete, rarely used in modern Thai. |
+| ค | Low | ควาย (khwaai - buffalo) | kh (aspirated) | k | kh | Aspirated, paired with low-class tone rules. |
+| ฅ | Low | คน (khon - person) | kh (aspirated) | k | kh | Obsolete, not used in modern Thai. |
+| ฆ | Low | ระฆัง (rá-khang - bell) | kh (aspirated) | k | kh | Rare in initial position, used in loanwords. |
+| ง | Low | งู (nguu - snake) | ng | ng | ng | Nasal sound, like 'ng' in "sing". |
+| จ | Mid | จาน (jaan - plate) | ch (unaspirated) | t | ch | Unaspirated, like 'ch' in "church". |
+| ฉ | High | ฉิ่ง (chìng - cymbals) | ch (aspirated) | - | ch | Aspirated, no final sound in modern usage. |
+| ช | Low | ช้าง (cháang - elephant) | ch (aspirated) | t | ch | Aspirated, common in native Thai words. |
+| ซ | Low | โซ่ (sôh - chain) | s | t | s | Similar to 's' in "see". |
+| ฌ | Low | เฌอ (chəə - tree) | ch (aspirated) | - | ch | Rare, used in specific loanwords. |
+| ญ | Low | หญิง (yĭng - woman) | y | n | y | Palatal nasal in final position. |
+| ฎ | Mid | ชฎา (chá-daa - headdress) | d (unaspirated) | t | d | Rare, used in royal or ceremonial terms. |
+| ฏ | Mid | ปฏัก (bpà-dtàk - spear) | t (unaspirated) | t | t | Unaspirated, used in specific words. |
+| ฐ | High | ฐาน (thăan - base) | th (aspirated) | t | th | Rare, used in Pali/Sanskrit loanwords. |
+| ฑ | Low | มณโฑ (mon-thoh - Monttho) | th (aspirated) | t | th | Used in loanwords, rare in native words. |
+| ฒ | Low | ผู้เฒ่า (phûu-thâo - elder) | th (aspirated) | t | th | Rare, used in specific contexts. |
+| ณ | Low | เณร (nen - novice monk) | n | n | n | Nasal sound, like 'n' in "no". |
+| ด | Mid | เด็ก (dèk - child) | d (unaspirated) | t | d | Unaspirated, like 'd' in "dog". |
+| ต | Mid | เต่า (dtào - turtle) | t (unaspirated) | t | t | Unaspirated, like 't' in "stop". |
+| ถ | High | ถุง (thŭng - sack) | th (aspirated) | t | th | Aspirated, like 't' in "top". |
+| ท | Low | ทหาร (tá-hăan - soldier) | th (aspirated) | t | th | Common in native Thai words. |
+| ธ | Low | ธง (thong - flag) | th (aspirated) | t | th | Used in Pali/Sanskrit loanwords. |
+| น | Low | หนู (nŭu - mouse) | n | n | n | Nasal sound, like 'n' in "net". |
+| บ | Mid | ใบไม้ (bai-máai - leaf) | b (unaspirated) | p | b | Unaspirated, like 'b' in "boy". |
+| ป | Mid | ปลา (bplaa - fish) | p (unaspirated) | p | p | Unaspirated, like 'p' in "spin". |
+| ผ | High | ผึ้ง (phûeng - bee) | ph (aspirated) | - | ph | Aspirated, like 'p' in "pin". |
+| ฝ | High | ฝา (făa - lid) | f | - | f | Like 'f' in "fan", no final sound. |
+| พ | Low | พาน (phaan - tray) | ph (aspirated) | p | ph | Aspirated, common in native words. |
+| ฟ | Low | ฟัน (fan - teeth) | f | p | f | Like 'f' in "fish". |
+| ภ | Low | สำเภา (săm-phao - junk ship) | ph (aspirated) | p | ph | Used in Pali/Sanskrit loanwords. |
+| ม | Low | ม้า (máa - horse) | m | m | m | Nasal sound, like 'm' in "man". |
+| ย | Low | ยักษ์ (yák - giant) | y | - | y | Like 'y' in "yes", no final sound in some dialects. |
+| ร | Low | เรือ (reua - boat) | r | n | r | Rolled 'r', often pronounced as 'l' in casual speech. |
+| ล | Low | ลิง (ling - monkey) | l | n | l | Like 'l' in "love". |
+| ว | Low | แหวน (wăen - ring) | w | - | w | Like 'w' in "way". |
+| ศ | High | ศาลา (săa-laa - pavilion) | s | t | s | Used in Pali/Sanskrit loanwords. |
+| ษ | High | ฤๅษี (rúe-sĭi - hermit) | s | t | s | Rare, used in Pali/Sanskrit loanwords. |
+| ส | High | เสือ (sŭea - tiger) | s | t | s | Like 's' in "sun". |
+| ห | High | หีบ (hìip - chest/box) | h | - | h | Like 'h' in "hat", no final sound. |
+| ฬ | Low | จุฬา (jù-laa - kite) | l | n | l | Rare, used in specific loanwords. |
+| อ | Low | อ่าง (àang - basin) | - | - | - | Acts as a vowel holder, no consonant sound. |
+| ฮ | Low | นกฮูก (nók-hûuk - owl) | h | - | h | Like 'h' in "hot", no final sound. |
 
 ### Notes:
 - **Consonant Classes**: Thai consonants are divided into three classes (low, mid, high) which influence tone rules in combination with tone marks and syllable structure.
@@ -123,47 +123,47 @@ Thai has 15 simple vowels and 9 compound vowels (diphthongs). Vowels can be shor
 
 ### Simple Vowels
 
-| Symbol | Sound | Length | Position | Example Word | Meaning |
-| ------ | ----- | ------ | -------- | ------------ | ------- |
-| า | ā | Long | After | กา | crow |
-| ะ | a | Short | After | กะ | (prefix) |
-| อิ | i | Short | Before | อิน | India |
-| อี | ī | Long | Before | อีก | again |
-| อุ | u | Short | Before | อุ้ม | to carry |
-| อู | ū | Long | Before | อู | to be sulky |
-| เะ | e | Short | Before | เด็ก | child |
-| เ | ē | Long | Before | เดิม | original |
-| แะ | æ | Short | Before | แคน | cane |
-| แอ | æː | Long | Before | แอ่น | to squat |
-| โอะ | o | Short | Before | โอน | to transfer |
-| โอ | ō | Long | Before | โอ | oh! |
-| เอะ | ə | Short | Before | เอ็ด | one (end) |
-| เอ | əː | Long | Before | เอ | to want |
-| เยอะ | ə | Short | Before | เยอะ | many |
+| Symbol | Sound | Length | Example Word | Meaning |
+| ------ | ----- | ------ | ------------ | ------- |
+| ◌า | ā | Long | กา | crow |
+| ◌ะ | a | Short | กะ | (prefix) |
+| ◌ิ | i | Short | อิน | India |
+| ◌ี | ī | Long | อีก | again |
+| ◌ุ | u | Short | อุ้ม | to carry |
+| ◌ู | ū | Long | อู | to be sulky |
+| เ◌ะ | e | Short | เด็ก | child |
+| เ◌ | ē | Long | เดิม | original |
+| แ◌ะ | æ | Short | แคน | cane |
+| แ◌ | æː | Long | แอ่น | to squat |
+| โ◌ะ | o | Short | โอน | to transfer |
+| โ◌ | ō | Long | โอ | oh! |
+| เ◌ะ | ə | Short | เอ็ด | one (end) |
+| เ◌ | əː | Long | เอ | to want |
+| เ◌อะ | ə | Short | เยอะ | many |
 
 ### Compound Vowels (Diphthongs)
 
-| Symbol | Sound | Length | Position | Example Word | Meaning |
-| ------ | ----- | ------ | -------- | ------------ | ------- |
-| เ-ียะ | ia | Short | Around | เจี๊ยะ | (exclamation) |
-| เ-ีย | ia | Long | Around | เมีย | wife |
-| เ-ือะ | uea | Short | Around | เขื่อน | dam |
-| เ-ือ | uea | Long | Around | เขือ | water buffalo |
-| แ-ะ | æ | Short | Around | แข็ง | hard |
-| เ-าะ | o | Short | Around | โลก | world |
-| เ-อะ | ə | Short | Around | เจ็ด | seven |
-| เ-อ | ə | Long | Around | เดอะ | the (Eng loan) |
-| โ-ะ | o | Short | Around | โรง | building |
+| Symbol | Sound | Length | Example Word | Meaning |
+| ------ | ----- | ------ | ------------ | ------- |
+| เ◌ียะ | ia | Short | เจี๊ยะ | (exclamation) |
+| เ◌ีย | ia | Long | เมีย | wife |
+| เ◌ือะ | uea | Short | เขื่อน | dam |
+| เ◌ือ | uea | Long | เขือ | water buffalo |
+| แ◌ะ | æ | Short | แข็ง | hard |
+| เ◌าะ | o | Short | โลก | world |
+| เ◌อะ | ə | Short | เจ็ด | seven |
+| เ◌อ | ə | Long | เดอะ | the (Eng loan) |
+| โ◌ะ | o | Short | โรง | building |
 
 ### Vowel Positions
 
 Thai vowels can be positioned in different places relative to the consonant:
 
-- **Before**: Written before the consonant but pronounced after (e.g., เ-า)
-- **After**: Written after the consonant (e.g., -า)
-- **Above**: Written above the consonant (e.g., -ิ)
-- **Below**: Written below the consonant (e.g., -ุ)
-- **Around**: Written both before and after, or above and below (e.g., เ-ีย)
+- **Before**: Written before the consonant but pronounced after (e.g., เ◌า)
+- **After**: Written after the consonant (e.g., ◌า)
+- **Above**: Written above the consonant (e.g., ◌ิ)
+- **Below**: Written below the consonant (e.g., ◌ุ)
+- **Around**: Written both before and after, or above and below (e.g., เ◌ีย)
 
 ### Short vs. Long Vowels
 

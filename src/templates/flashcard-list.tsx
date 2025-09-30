@@ -1,3 +1,5 @@
+import React from "react";
+
 import {
 	Box,
 	Container,
@@ -8,10 +10,10 @@ import {
 	Stack,
 	Tag,
 	Text,
-	useColorModeValue,
 } from "@chakra-ui/react";
 import { graphql, Link } from "gatsby";
-import React from "react";
+
+import { semanticColors, tagColorSchemes } from "../theme/colors";
 import type { Collection } from "../types";
 import { collectionDetailPath } from "../utils/paths";
 
@@ -26,8 +28,8 @@ interface CollectionListTemplateProps {
 const CollectionCard: React.FC<{ collection: Collection }> = ({
 	collection,
 }) => {
-	const cardBg = useColorModeValue("white", "gray.800");
-	const cardBorder = useColorModeValue("gray.200", "gray.700");
+	const cardBg = semanticColors.card.bg;
+	const cardBorder = semanticColors.card.border;
 
 	return (
 		<Link to={collectionDetailPath(collection.collectionId)}>
@@ -54,7 +56,9 @@ const CollectionCard: React.FC<{ collection: Collection }> = ({
 						<Heading as="h3" size="md" fontWeight="semibold">
 							{collection.name}
 						</Heading>
-						{collection.featured && <Tag colorScheme="blue">Featured</Tag>}
+						{collection.featured && (
+							<Tag colorScheme={tagColorSchemes.featured}>Featured</Tag>
+						)}
 					</Flex>
 
 					<Text fontSize="sm" color="gray.500" noOfLines={2} mb={3}>
@@ -63,10 +67,12 @@ const CollectionCard: React.FC<{ collection: Collection }> = ({
 
 					<Stack direction="row" align="center" justify="space-between">
 						<Flex align="center">
-							<Tag colorScheme="green" mr={2}>
+							<Tag colorScheme={tagColorSchemes.language} mr={2}>
 								{collection.sourceLanguage} → {collection.targetLanguage}
 							</Tag>
-							<Tag colorScheme="purple">{collection.difficulty || "Mixed"}</Tag>
+							<Tag colorScheme={tagColorSchemes.difficulty}>
+								{collection.difficulty || "Mixed"}
+							</Tag>
 						</Flex>
 					</Stack>
 				</Box>
