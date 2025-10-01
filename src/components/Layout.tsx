@@ -4,15 +4,24 @@ import {
     Box,
     Button,
     Container,
+    Drawer,
+    DrawerBody,
+    DrawerCloseButton,
+    DrawerContent,
+    DrawerHeader,
+    DrawerOverlay,
     Flex,
     Heading,
     HStack,
     Icon,
+    IconButton,
     Link,
+    Stack,
     Text,
+    useDisclosure,
 } from "@chakra-ui/react";
 import { Link as GatsbyLink } from "gatsby";
-import { BookOpen, Home, Info, LibraryBig } from "lucide-react";
+import { BookOpen, Home, Info, LibraryBig, Menu } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
 
 import { semanticColors } from "../theme/colors";
@@ -22,6 +31,7 @@ interface LayoutProps {
 }
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
+    const { isOpen, onOpen, onClose } = useDisclosure();
     const bgColor = semanticColors.layout.bg;
     const textColor = semanticColors.text.primary;
     const borderColor = semanticColors.border.default;
@@ -48,6 +58,15 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                             <Text fontSize="2xl">🪷</Text>
                             <Heading size="md">Lingo Lotus</Heading>
                         </HStack>
+
+                        {/* Mobile Menu Button */}
+                        <IconButton
+                            aria-label="Open menu"
+                            icon={<Icon as={Menu} />}
+                            onClick={onOpen}
+                            display={{ base: "flex", md: "none" }}
+                            variant="ghost"
+                        />
 
                         {/* Navigation Links */}
                         <HStack
@@ -113,6 +132,102 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                     </Flex>
                 </Container>
             </Box>
+
+            {/* Mobile Navigation Drawer */}
+            <Drawer isOpen={isOpen} placement="left" onClose={onClose}>
+                <DrawerOverlay />
+                <DrawerContent>
+                    <DrawerCloseButton />
+                    <DrawerHeader>
+                        <HStack spacing={2}>
+                            <Text fontSize="2xl">🪷</Text>
+                            <Text>Lingo Lotus</Text>
+                        </HStack>
+                    </DrawerHeader>
+
+                    <DrawerBody>
+                        <Stack spacing={4}>
+                            <Link
+                                as={GatsbyLink}
+                                to="/"
+                                onClick={onClose}
+                                _hover={{ textDecoration: "none" }}
+                            >
+                                <HStack
+                                    spacing={3}
+                                    p={3}
+                                    borderRadius="md"
+                                    _hover={{ bg: "gray.100" }}
+                                >
+                                    <Icon as={Home} boxSize={5} />
+                                    <Text fontSize="lg">Home</Text>
+                                </HStack>
+                            </Link>
+                            <Link
+                                as={GatsbyLink}
+                                to="/flash-cards"
+                                onClick={onClose}
+                                _hover={{ textDecoration: "none" }}
+                            >
+                                <HStack
+                                    spacing={3}
+                                    p={3}
+                                    borderRadius="md"
+                                    _hover={{ bg: "gray.100" }}
+                                >
+                                    <Icon as={LibraryBig} boxSize={5} />
+                                    <Text fontSize="lg">Flash Cards</Text>
+                                </HStack>
+                            </Link>
+                            <Link
+                                as={GatsbyLink}
+                                to="/reading"
+                                onClick={onClose}
+                                _hover={{ textDecoration: "none" }}
+                            >
+                                <HStack
+                                    spacing={3}
+                                    p={3}
+                                    borderRadius="md"
+                                    _hover={{ bg: "gray.100" }}
+                                >
+                                    <Icon as={BookOpen} boxSize={5} />
+                                    <Text fontSize="lg">Reading</Text>
+                                </HStack>
+                            </Link>
+                            <Link
+                                as={GatsbyLink}
+                                to="/about"
+                                onClick={onClose}
+                                _hover={{ textDecoration: "none" }}
+                            >
+                                <HStack
+                                    spacing={3}
+                                    p={3}
+                                    borderRadius="md"
+                                    _hover={{ bg: "gray.100" }}
+                                >
+                                    <Icon as={Info} boxSize={5} />
+                                    <Text fontSize="lg">About</Text>
+                                </HStack>
+                            </Link>
+                            <Box pt={4} borderTopWidth="1px">
+                                <Button
+                                    as={Link}
+                                    variant="outline"
+                                    colorScheme="blue"
+                                    href="https://github.com/cloudy-native/lingolotus.com"
+                                    leftIcon={<Icon as={FaGithub} />}
+                                    isExternal
+                                    width="100%"
+                                >
+                                    Fork on GitHub
+                                </Button>
+                            </Box>
+                        </Stack>
+                    </DrawerBody>
+                </DrawerContent>
+            </Drawer>
 
             {/* Main Content */}
             <Box as="main" flex="1">

@@ -18,6 +18,7 @@ import { graphql, HeadFC, Link } from "gatsby";
 import { LanguageCard } from "../components/LanguageCard";
 import { LazyImage } from "../components/LazyImage";
 import { semanticColors, tagColorSchemes } from "../theme/colors";
+import { tokens } from "../theme/tokens";
 import type { Book } from "../types";
 import type { LanguageConfig } from "../types/language";
 import { bookDetailPath } from "../utils/paths";
@@ -175,13 +176,19 @@ const ReadingListTemplate = ({ data }: PageProps<ReadingPageData>) => {
                                                                 }
                                                                 alt={book.name}
                                                                 w="100%"
-                                                                h="180px"
+                                                                h={
+                                                                    tokens.card
+                                                                        .imageHeight
+                                                                }
                                                                 objectFit="cover"
                                                                 loading="lazy"
                                                             />
                                                         )}
                                                         <Box
-                                                            p={6}
+                                                            p={
+                                                                tokens.card
+                                                                    .padding
+                                                            }
                                                             flex="1"
                                                             display="flex"
                                                             flexDirection="column"
@@ -190,9 +197,7 @@ const ReadingListTemplate = ({ data }: PageProps<ReadingPageData>) => {
                                                                 as="h4"
                                                                 size="md"
                                                                 mb={2}
-                                                            >
-                                                                {book.name}
-                                                            </Heading>
+                                                            ></Heading>
                                                             <Text
                                                                 color={
                                                                     supportingTextColor

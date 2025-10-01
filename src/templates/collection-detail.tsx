@@ -21,6 +21,7 @@ import { ChevronRight, Clock, Star } from "lucide-react";
 import { LanguageCard } from "../components/LanguageCard";
 import { LazyImage } from "../components/LazyImage";
 import { semanticColors } from "../theme/colors";
+import { tokens } from "../theme/tokens";
 import type { Collection, Deck } from "../types";
 import { deckDetailPath, flashcardListPath } from "../utils/paths";
 
@@ -37,7 +38,7 @@ const DeckCard: React.FC<{ deck: Deck }> = ({ deck }) => {
     return (
         <Link to={deckDetailPath(deck.collectionId, deck.deckId)}>
             <LanguageCard height="100%">
-                <Box p={5}>
+                <Box p={tokens.card.padding}>
                     <Heading as="h3" size="md" fontWeight="semibold" mb={2}>
                         {deck.name}
                     </Heading>

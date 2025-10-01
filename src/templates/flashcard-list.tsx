@@ -15,6 +15,7 @@ import { graphql, HeadFC, Link } from "gatsby";
 import { LanguageCard } from "../components/LanguageCard";
 import { LazyImage } from "../components/LazyImage";
 import { semanticColors, tagColorSchemes } from "../theme/colors";
+import { tokens } from "../theme/tokens";
 import type { Collection } from "../types";
 import { collectionDetailPath } from "../utils/paths";
 
@@ -36,13 +37,13 @@ const CollectionCard: React.FC<{ collection: Collection }> = ({
                     <LazyImage
                         src={collection.imageUrl}
                         alt={collection.name}
-                        height="200px"
+                        height={tokens.card.imageHeight}
                         width="100%"
                         objectFit="cover"
                         loading="lazy"
                     />
                 )}
-                <Box p={5}>
+                <Box p={tokens.card.padding}>
                     <Flex justify="space-between" align="center" mb={2}>
                         <Heading as="h3" size="md" fontWeight="semibold">
                             {collection.name}
