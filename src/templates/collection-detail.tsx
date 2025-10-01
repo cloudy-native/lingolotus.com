@@ -16,7 +16,7 @@ import {
     Tag,
     Text,
 } from "@chakra-ui/react";
-import { graphql, Link } from "gatsby";
+import { graphql, HeadFC, Link } from "gatsby";
 import { ChevronRight, Clock, Star } from "lucide-react";
 
 import { semanticColors } from "../theme/colors";
@@ -204,8 +204,6 @@ const CollectionDetailTemplate: React.FC<CollectionDetailTemplateProps> = ({
     );
 };
 
-export default CollectionDetailTemplate;
-
 export const query = graphql`
   query CollectionById($collectionId: String!) {
     collectionsJson(collectionId: { eq: $collectionId }) {
@@ -261,3 +259,23 @@ export const query = graphql`
     }
   }
 `;
+
+export default CollectionDetailTemplate;
+
+export const Head: HeadFC<any> = ({ data }) => {
+    const collection = data?.collectionsJson;
+    const collectionName = collection?.name || "Flashcard Collection";
+
+    return (
+        <>
+            <title>{collectionName} | Lingo Lotus</title>
+            <meta
+                name="description"
+                content={
+                    collection?.description ||
+                    `Study ${collectionName} flashcards on Lingo Lotus`
+                }
+            />
+        </>
+    );
+};

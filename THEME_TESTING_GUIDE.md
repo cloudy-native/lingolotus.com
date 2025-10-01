@@ -11,7 +11,7 @@ export { semanticColors, tagColorSchemes } from "./colors-original";
 
 ## Available Themes
 
-### 1. 🌸 Zen Garden (Recommended)
+### 1. 🪷 Zen Garden (Recommended)
 **File:** `colors-zen-garden.ts`  
 **Colors:** Purple + Teal  
 **Vibe:** Calming, nature-inspired, perfect for learning  
@@ -131,7 +131,7 @@ Test each theme and rate:
 
 | Theme | Visual Appeal | Readability | Brand Fit | Energy Level | Overall |
 |-------|--------------|-------------|-----------|--------------|---------|
-| 🌸 Zen Garden | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | Calm | ? |
+| 🪷 Zen Garden | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | Calm | ? |
 | 🌅 Sunset Vibes | ? | ? | ? | High | ? |
 | 🌊 Ocean Breeze | ? | ? | ? | Medium | ? |
 | 🍵 Matcha Latte | ? | ? | ? | Low | ? |
@@ -148,7 +148,7 @@ Consider:
 
 ## Recommendation
 
-**Zen Garden (🌸)** is recommended because:
+**Zen Garden (🪷)** is recommended because:
 - Purple connects to lotus flowers (your brand)
 - Teal represents water and growth
 - Calming colors are ideal for learning

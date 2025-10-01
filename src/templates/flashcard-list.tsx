@@ -11,7 +11,7 @@ import {
     Tag,
     Text,
 } from "@chakra-ui/react";
-import { graphql, Link } from "gatsby";
+import { graphql, HeadFC, Link } from "gatsby";
 
 import { semanticColors, tagColorSchemes } from "../theme/colors";
 import type { Collection } from "../types";
@@ -181,6 +181,8 @@ const CollectionListTemplate: React.FC<CollectionListTemplateProps> = ({
 };
 
 export default CollectionListTemplate;
+
+export const Head: HeadFC = () => <title>Flashcards | Lingo Lotus</title>;
 
 export const query = graphql`
   query AllCollections {

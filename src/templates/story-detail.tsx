@@ -27,7 +27,7 @@ import {
     useDisclosure,
 } from "@chakra-ui/react";
 import type { PageProps } from "gatsby";
-import { graphql, Link } from "gatsby";
+import { graphql, HeadFC, Link } from "gatsby";
 import { ChevronRight } from "lucide-react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -37,18 +37,6 @@ import { semanticColors, tagColorSchemes } from "../theme/colors";
 import type { Book, ReadingSentence, ReadingStory } from "../types";
 import { bookDetailPath, readingPath } from "../utils/paths";
 
-interface FontVariant {
-    name: string;
-    fontFamily: string;
-    description: string;
-}
-
-interface LanguageFonts {
-    label: string;
-    variants: Record<string, FontVariant>;
-    default: string;
-}
-
 interface StoryDetailPageData {
     book: Book;
     story: ReadingStory;
@@ -57,7 +45,6 @@ interface StoryDetailPageData {
     };
     language?: {
         languageCode: string;
-        fonts?: LanguageFonts;
     };
 }
 
@@ -68,9 +55,6 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
     const [showBreakdown, setShowBreakdown] = useState(false);
     const [sourceTextSize, setSourceTextSize] = useState<"sm" | "md" | "xl">(
         "md",
-    );
-    const [fontVariant, setFontVariant] = useState<string>(
-        data.language?.fonts?.default || "serif",
     );
     const { isOpen, onOpen, onClose } = useDisclosure();
 
@@ -85,6 +69,11 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
     const phoneticToggleId = useId();
     const breakdownToggleId = useId();
     const fontChoiceId = useId();
+
+    // Check if any sentence has breakdown data
+    const hasBreakdowns = story.sentences?.some(
+        (sentence) => sentence.breakdown && sentence.breakdown.length > 0,
+    );
 
     return (
         <>
@@ -244,39 +233,6 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
                             </ButtonGroup>
                         </FormControl>
 
-                        {data.language?.fonts?.variants && (
-                            <FormControl
-                                display="flex"
-                                alignItems="center"
-                                width="auto"
-                            >
-                                <ButtonGroup size="md" isAttached>
-                                    {Object.entries(
-                                        data.language.fonts.variants,
-                                    ).map(([key, variant]) => (
-                                        <Button
-                                            key={key}
-                                            variant={
-                                                fontVariant === key
-                                                    ? "solid"
-                                                    : "outline"
-                                            }
-                                            onClick={() => setFontVariant(key)}
-                                            title={variant.description}
-                                        >
-                                            <Text
-                                                as="span"
-                                                fontFamily={variant.fontFamily}
-                                            >
-                                                {data.language?.fonts?.label ||
-                                                    variant.name}
-                                            </Text>
-                                        </Button>
-                                    ))}
-                                </ButtonGroup>
-                            </FormControl>
-                        )}
-
                         <FormControl
                             display="flex"
                             alignItems="center"
@@ -321,27 +277,29 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
                             />
                         </FormControl>
 
-                        <FormControl
-                            display="flex"
-                            alignItems="center"
-                            width="auto"
-                        >
-                            <FormLabel
-                                htmlFor={breakdownToggleId}
-                                mb="0"
-                                fontWeight="medium"
+                        {hasBreakdowns && (
+                            <FormControl
+                                display="flex"
+                                alignItems="center"
+                                width="auto"
                             >
-                                Break it down
-                            </FormLabel>
-                            <Switch
-                                id={breakdownToggleId}
-                                colorScheme="orange"
-                                isChecked={showBreakdown}
-                                onChange={(event) =>
-                                    setShowBreakdown(event.target.checked)
-                                }
-                            />
-                        </FormControl>
+                                <FormLabel
+                                    htmlFor={breakdownToggleId}
+                                    mb="0"
+                                    fontWeight="medium"
+                                >
+                                    Break it down
+                                </FormLabel>
+                                <Switch
+                                    id={breakdownToggleId}
+                                    colorScheme="orange"
+                                    isChecked={showBreakdown}
+                                    onChange={(event) =>
+                                        setShowBreakdown(event.target.checked)
+                                    }
+                                />
+                            </FormControl>
+                        )}
                     </Stack>
                 </Flex>
                 <Stack spacing={6}>
@@ -351,16 +309,7 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
                                 key={`${story.storyId}-${index}`}
                                 spacing={3}
                             >
-                                <Text
-                                    fontSize={sourceTextSize}
-                                    fontFamily={
-                                        data.language?.fonts
-                                            ? data.language.fonts.variants?.[
-                                                  fontVariant
-                                              ]?.fontFamily
-                                            : undefined
-                                    }
-                                >
+                                <Text fontSize={sourceTextSize}>
                                     <TextToSpeech
                                         text={sentence.source}
                                         lang={story.language}
@@ -405,18 +354,6 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
                                                             fontWeight="semibold"
                                                             color={
                                                                 breakdownAccentColor
-                                                            }
-                                                            fontFamily={
-                                                                data.language
-                                                                    ?.fonts
-                                                                    ? data
-                                                                          .language
-                                                                          .fonts
-                                                                          .variants?.[
-                                                                          fontVariant
-                                                                      ]
-                                                                          ?.fontFamily
-                                                                    : undefined
                                                             }
                                                         >
                                                             <TextToSpeech
@@ -533,6 +470,29 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
 
 export default StoryDetailTemplate;
 
+export const Head: HeadFC<any> = ({ data }) => {
+    const story = data?.story;
+    const book = data?.book;
+    const storyTitle = story?.title?.target || story?.title?.source || "Story";
+    const bookName = book?.name || "";
+
+    return (
+        <>
+            <title>
+                {storyTitle} - {bookName} | Lingo Lotus
+            </title>
+            <meta
+                name="description"
+                content={
+                    story?.summary ||
+                    book?.description ||
+                    `Read ${storyTitle} on Lingo Lotus`
+                }
+            />
+        </>
+    );
+};
+
 export const query = graphql`
     query StoryDetail($bookId: String!, $storyId: String!, $storyLanguage: String!) {
       book: bookJson(bookId: { eq: $bookId }) {
@@ -570,11 +530,6 @@ export const query = graphql`
 
       language: language(languageCode: { eq: $storyLanguage }) {
         languageCode
-        fonts {
-          label
-          variants
-          default
-        }
       }
 
       grammar: markdownRemark(fileAbsolutePath: { regex: "/grammar/th.md/" }) {

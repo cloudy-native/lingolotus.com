@@ -13,9 +13,11 @@ import {
     Text,
 } from "@chakra-ui/react";
 import { graphql, Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 import { BookOpen, ChevronRight, CreditCard } from "lucide-react";
 import React from "react";
 
+import { LazyImage } from "../components/LazyImage";
 import type { Book, Collection } from "../types";
 import {
     bookDetailPath,
@@ -77,7 +79,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                 mb={4}
                                 textAlign={{ base: "center", md: "left" }}
                             >
-                                Lingo Lotus
+                                🪷 Lingo Lotus
                             </Heading>
                             <Text
                                 fontSize={{ base: "xl", md: "2xl" }}
@@ -104,14 +106,18 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                             maxW={{ base: "100%", md: "400px" }}
                             h={{ base: "250px", md: "300px" }}
                         >
-                            <Image
-                                src="/images/bangkok-rainbow.jpeg"
+                            <StaticImage
+                                src="../../static/images/bangkok-rainbow.jpeg"
                                 alt="Language learning"
-                                borderRadius="lg"
-                                boxShadow="xl"
+                                style={{
+                                    borderRadius: "0.5rem",
+                                    boxShadow:
+                                        "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
+                                    width: "100%",
+                                    height: "100%",
+                                }}
                                 objectFit="cover"
-                                w="100%"
-                                h="100%"
+                                loading="eager"
                             />
                         </Box>
                     </Flex>
@@ -145,14 +151,17 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                     Browse All
                                 </Button>
                             </Flex>
-                            <Image
-                                src="/images/IMG_5492.jpeg"
+                            <StaticImage
+                                src="../../static/images/IMG_5492.jpeg"
                                 alt="Flashcards"
-                                borderRadius="md"
-                                h="200px"
-                                w="100%"
+                                style={{
+                                    borderRadius: "0.375rem",
+                                    height: "200px",
+                                    width: "100%",
+                                    marginBottom: "1rem",
+                                }}
                                 objectFit="cover"
-                                mb={4}
+                                loading="lazy"
                             />
                             <Text color="gray.600" mb={4}>
                                 Learn vocabulary with spaced repetition. Each
@@ -160,6 +169,30 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                 example sentences. Perfect for building your
                                 word bank.
                             </Text>
+
+                            {/* Languages */}
+                            <HStack spacing={2} mb={4} flexWrap="wrap">
+                                {collectionsByLanguage.map((group) => (
+                                    <Link
+                                        to={flashcardListPath()}
+                                        key={group.fieldValue}
+                                        state={{ language: group.fieldValue }}
+                                    >
+                                        <Tag
+                                            size="lg"
+                                            colorScheme="blue"
+                                            cursor="pointer"
+                                            _hover={{
+                                                bg: "blue.600",
+                                                color: "white",
+                                            }}
+                                        >
+                                            {group.fieldValue.toUpperCase()} (
+                                            {group.totalCount})
+                                        </Tag>
+                                    </Link>
+                                ))}
+                            </HStack>
                         </Box>
 
                         {/* Featured Flashcards */}
@@ -189,7 +222,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                                     shadow: "md",
                                                 }}
                                             >
-                                                <Image
+                                                <LazyImage
                                                     src={
                                                         collection.imageUrl ||
                                                         "/images/bangkok-rainbow.jpeg"
@@ -199,6 +232,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                                     h="100px"
                                                     objectFit="cover"
                                                     flexShrink={0}
+                                                    loading="lazy"
                                                 />
                                                 <Box p={4} flex="1">
                                                     <Heading size="sm" mb={2}>
@@ -243,50 +277,6 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                 </Stack>
                             </Box>
                         )}
-
-                        {/* Flashcards by Language */}
-                        <Box>
-                            <Heading size="sm" mb={3}>
-                                By Language
-                            </Heading>
-                            <SimpleGrid columns={2} spacing={3}>
-                                {collectionsByLanguage.map((group) => (
-                                    <Link
-                                        to={flashcardListPath()}
-                                        key={group.fieldValue}
-                                        state={{ language: group.fieldValue }}
-                                    >
-                                        <Box
-                                            bg={boxBg}
-                                            borderWidth="1px"
-                                            borderColor={borderColor}
-                                            borderRadius="md"
-                                            p={3}
-                                            textAlign="center"
-                                            transition="all 0.2s"
-                                            _hover={{ bg: flashcardHoverBg }}
-                                        >
-                                            <Text
-                                                fontWeight="bold"
-                                                fontSize="sm"
-                                                mb={1}
-                                            >
-                                                {group.fieldValue}
-                                            </Text>
-                                            <Text
-                                                fontSize="xs"
-                                                color="gray.500"
-                                            >
-                                                {group.totalCount} collection
-                                                {group.totalCount !== 1
-                                                    ? "s"
-                                                    : ""}
-                                            </Text>
-                                        </Box>
-                                    </Link>
-                                ))}
-                            </SimpleGrid>
-                        </Box>
                     </Box>
 
                     {/* Reading Column */}
@@ -300,7 +290,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                         color="green.500"
                                     />
                                     <Heading as="h2" size="lg">
-                                        Reading
+                                        Reading Practice
                                     </Heading>
                                 </HStack>
                                 <Button
@@ -313,20 +303,47 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                     Browse All
                                 </Button>
                             </Flex>
-                            <Image
-                                src="/images/IMG_5673.jpeg"
+                            <StaticImage
+                                src="../../static/images/IMG_5673.jpeg"
                                 alt="Reading"
-                                borderRadius="md"
-                                h="200px"
-                                w="100%"
+                                style={{
+                                    borderRadius: "0.375rem",
+                                    height: "200px",
+                                    width: "100%",
+                                    marginBottom: "1rem",
+                                }}
                                 objectFit="cover"
-                                mb={4}
+                                loading="lazy"
                             />
                             <Text color="gray.600" mb={4}>
                                 Practice reading with stories that include
                                 phonetics and word-by-word breakdowns. Build
                                 comprehension and learn grammar in context.
                             </Text>
+
+                            {/* Languages */}
+                            <HStack spacing={2} mb={4} flexWrap="wrap">
+                                {booksByLanguage.map((group) => (
+                                    <Link
+                                        to={readingPath()}
+                                        key={group.fieldValue}
+                                        state={{ language: group.fieldValue }}
+                                    >
+                                        <Tag
+                                            size="lg"
+                                            colorScheme="green"
+                                            cursor="pointer"
+                                            _hover={{
+                                                bg: "green.600",
+                                                color: "white",
+                                            }}
+                                        >
+                                            {group.fieldValue.toUpperCase()} (
+                                            {group.totalCount})
+                                        </Tag>
+                                    </Link>
+                                ))}
+                            </HStack>
                         </Box>
 
                         {/* Featured Books */}
@@ -354,7 +371,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                                     shadow: "md",
                                                 }}
                                             >
-                                                <Image
+                                                <LazyImage
                                                     src={
                                                         book.imageUrl ||
                                                         "/images/bangkok-rainbow.jpeg"
@@ -364,6 +381,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                                     h="100px"
                                                     objectFit="cover"
                                                     flexShrink={0}
+                                                    loading="lazy"
                                                 />
                                                 <Box p={4} flex="1">
                                                     <Heading size="sm" mb={2}>
@@ -404,50 +422,6 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                 </Stack>
                             </Box>
                         )}
-
-                        {/* Reading by Language */}
-                        <Box>
-                            <Heading size="sm" mb={3}>
-                                By Language
-                            </Heading>
-                            <SimpleGrid columns={2} spacing={3}>
-                                {booksByLanguage.map((group) => (
-                                    <Link
-                                        to={readingPath()}
-                                        key={group.fieldValue}
-                                        state={{ language: group.fieldValue }}
-                                    >
-                                        <Box
-                                            bg={boxBg}
-                                            borderWidth="1px"
-                                            borderColor={borderColor}
-                                            borderRadius="md"
-                                            p={3}
-                                            textAlign="center"
-                                            transition="all 0.2s"
-                                            _hover={{ bg: readingHoverBg }}
-                                        >
-                                            <Text
-                                                fontWeight="bold"
-                                                fontSize="sm"
-                                                mb={1}
-                                            >
-                                                {group.fieldValue}
-                                            </Text>
-                                            <Text
-                                                fontSize="xs"
-                                                color="gray.500"
-                                            >
-                                                {group.totalCount} book
-                                                {group.totalCount !== 1
-                                                    ? "s"
-                                                    : ""}
-                                            </Text>
-                                        </Box>
-                                    </Link>
-                                ))}
-                            </SimpleGrid>
-                        </Box>
                     </Box>
                 </SimpleGrid>
             </Container>

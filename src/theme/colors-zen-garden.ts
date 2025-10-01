@@ -1,5 +1,5 @@
 /**
- * Zen Garden Theme 🌸
+ * Zen Garden Theme 🪷
  * A calming, nature-inspired palette perfect for learning.
  * Purple (lotus flower) + Teal (water/growth)
  */

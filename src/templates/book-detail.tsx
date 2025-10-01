@@ -11,7 +11,7 @@ import {
     Tag,
     Text,
 } from "@chakra-ui/react";
-import { graphql, Link } from "gatsby";
+import { graphql, HeadFC, Link } from "gatsby";
 import { Library } from "lucide-react";
 
 import { PageHeader } from "../components/PageHeader";
@@ -180,6 +180,21 @@ const BookDetailTemplate: React.FC<BookDetailTemplateProps> = ({ data }) => {
 };
 
 export default BookDetailTemplate;
+
+export const Head: HeadFC<any> = ({ data }) => {
+    const book = data?.book;
+    const bookName = book?.name || "Reading";
+
+    return (
+        <>
+            <title>{bookName} | Lingo Lotus</title>
+            <meta
+                name="description"
+                content={book?.description || `Read ${bookName} on Lingo Lotus`}
+            />
+        </>
+    );
+};
 
 export const query = graphql`
   query BookDetail($bookId: String!, $sourceLanguage: String!) {

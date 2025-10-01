@@ -5,7 +5,7 @@
  *
  * Available themes:
  * - colors-original.ts       - Original blue/orange scheme
- * - colors-zen-garden.ts     - 🌸 Purple/teal (calming, lotus-themed)
+ * - colors-zen-garden.ts     - 🪷 Purple/teal (calming, lotus-themed)
  * - colors-sunset-vibes.ts   - 🌅 Orange/pink (warm, energetic)
  * - colors-ocean-breeze.ts   - 🌊 Blue/cyan (cool, professional)
  * - colors-matcha-latte.ts   - 🍵 Green/yellow (earthy, sophisticated)
@@ -13,4 +13,4 @@
  */
 
 // Change this line to switch themes:
-export { semanticColors, tagColorSchemes } from "./colors-ocean-breeze";
+export { semanticColors, tagColorSchemes } from "./colors-zen-garden";

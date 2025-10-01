@@ -28,7 +28,7 @@ import {
     Tr,
     VStack,
 } from "@chakra-ui/react";
-import { graphql, Link, navigate } from "gatsby";
+import { graphql, HeadFC, Link, navigate } from "gatsby";
 import { ChevronRight, Clock, Eye } from "lucide-react";
 import React, { useState } from "react";
 
@@ -483,6 +483,24 @@ const DeckDetailTemplate: React.FC<DeckDetailTemplateProps> = ({ data }) => {
 };
 
 export default DeckDetailTemplate;
+
+export const Head: HeadFC<any> = ({ data }) => {
+    const deck = data?.decksJson;
+    const deckName = deck?.name || "Flashcard Deck";
+
+    return (
+        <>
+            <title>{deckName} | Lingo Lotus</title>
+            <meta
+                name="description"
+                content={
+                    deck?.description ||
+                    `Study ${deckName} flashcards on Lingo Lotus`
+                }
+            />
+        </>
+    );
+};
 
 export const query = graphql`
   query DeckById($collectionId: String!, $deckId: String!) {

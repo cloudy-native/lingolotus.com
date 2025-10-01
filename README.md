@@ -6,7 +6,7 @@
 </p>
 
 <h1 align="center">
-  🌸 Lingo Lotus
+  🪷 Lingo Lotus
 </h1>
 
 <p align="center">

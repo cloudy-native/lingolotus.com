@@ -8,7 +8,7 @@ import {
     Tooltip,
 } from "@chakra-ui/react";
 import { useLocation } from "@reach/router";
-import { graphql } from "gatsby";
+import { graphql, HeadFC } from "gatsby";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import React, { useEffect, useMemo, useState } from "react";
 
@@ -296,6 +296,21 @@ const DeckStudyTemplate: React.FC<DeckStudyTemplateProps> = ({ data }) => {
 };
 
 export default DeckStudyTemplate;
+
+export const Head: HeadFC<any> = ({ data }) => {
+    const deck = data?.decksJson;
+    const deckName = deck?.name || "Study Session";
+
+    return (
+        <>
+            <title>Study: {deckName} | Lingo Lotus</title>
+            <meta
+                name="description"
+                content={`Practice ${deckName} flashcards with spaced repetition on Lingo Lotus`}
+            />
+        </>
+    );
+};
 
 export const query = graphql`
   query DeckStudyById($deckId: String!, $collectionId: String!) {

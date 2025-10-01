@@ -12,7 +12,7 @@ import {
     Text,
 } from "@chakra-ui/react";
 import { Link as GatsbyLink } from "gatsby";
-import { BookOpen, Flower, Home, LibraryBig } from "lucide-react";
+import { BookOpen, Home, Info, LibraryBig } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
 
 import { semanticColors } from "../theme/colors";
@@ -45,7 +45,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                     <Flex justify="space-between" align="center">
                         {/* Logo/Brand */}
                         <HStack as={GatsbyLink} to="/" spacing={2}>
-                            <Icon as={Flower} size="24px" />
+                            <Text fontSize="2xl">🪷</Text>
                             <Heading size="md">Lingo Lotus</Heading>
                         </HStack>
 
@@ -82,6 +82,16 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                                 <HStack spacing={1}>
                                     <Icon as={BookOpen} size="24px" />
                                     <Text>Reading</Text>
+                                </HStack>
+                            </Link>
+                            <Link
+                                as={GatsbyLink}
+                                to="/about"
+                                _hover={{ textDecoration: "none" }}
+                            >
+                                <HStack spacing={1}>
+                                    <Icon as={Info} size="24px" />
+                                    <Text>About</Text>
                                 </HStack>
                             </Link>
                         </HStack>
@@ -130,7 +140,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                                 justify={{ base: "center", md: "flex-start" }}
                                 mb={2}
                             >
-                                <Icon as={Flower} size="24px" />
+                                <Text fontSize="2xl">🪷</Text>
                                 <Heading size="md">Lingo Lotus</Heading>
                             </HStack>
                             <Box fontSize="sm">
@@ -151,17 +161,49 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                             </Box>
                         </Box>
 
-                        <HStack spacing={6}>
-                            <Link as={GatsbyLink} to="/">
-                                Home
+                        <Box fontSize="sm" color="gray.600">
+                            Built with{" "}
+                            <Link
+                                as="a"
+                                href="https://www.gatsbyjs.com/"
+                                isExternal
+                                color="purple.500"
+                                fontWeight="medium"
+                            >
+                                Gatsby
                             </Link>
-                            <Link as={GatsbyLink} to="/flash-cards">
-                                Flashcards
+                            ,{" "}
+                            <Link
+                                as="a"
+                                href="https://www.typescriptlang.org/"
+                                isExternal
+                                color="blue.500"
+                                fontWeight="medium"
+                            >
+                                TypeScript
                             </Link>
-                            <Link as={GatsbyLink} to="/reading">
-                                Reading
+                            {" "}&{" "}
+                            <Link
+                                as="a"
+                                href="https://chakra-ui.com/"
+                                isExternal
+                                color="teal.500"
+                                fontWeight="medium"
+                            >
+                                Chakra UI
                             </Link>
-                        </HStack>
+                            . Hosted on{" "}
+                            <Link
+                                as="a"
+                                href="https://aws.amazon.com/"
+                                isExternal
+                                color="orange.500"
+                                fontWeight="medium"
+                            >
+                                AWS
+                            </Link>
+                            .
+                        </Box>
                     </Flex>
                 </Container>
             </Box>

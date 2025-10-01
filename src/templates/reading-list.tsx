@@ -13,8 +13,9 @@ import {
     Text,
 } from "@chakra-ui/react";
 import type { PageProps } from "gatsby";
-import { graphql, Link } from "gatsby";
+import { graphql, HeadFC, Link } from "gatsby";
 
+import { LazyImage } from "../components/LazyImage";
 import { semanticColors, tagColorSchemes } from "../theme/colors";
 import type { Book } from "../types";
 import type { LanguageConfig } from "../types/language";
@@ -178,12 +179,13 @@ const ReadingListTemplate = ({ data }: PageProps<ReadingPageData>) => {
                                                     }}
                                                 >
                                                     {book.imageUrl && (
-                                                        <Image
+                                                        <LazyImage
                                                             src={book.imageUrl}
                                                             alt={book.name}
                                                             w="100%"
                                                             h="180px"
                                                             objectFit="cover"
+                                                            loading="lazy"
                                                         />
                                                     )}
                                                     <Box
@@ -271,6 +273,8 @@ const ReadingListTemplate = ({ data }: PageProps<ReadingPageData>) => {
 };
 
 export default ReadingListTemplate;
+
+export const Head: HeadFC = () => <title>Reading | Lingo Lotus</title>;
 
 export const query = graphql`
   query ReadingList {
