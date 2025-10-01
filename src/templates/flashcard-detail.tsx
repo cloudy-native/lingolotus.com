@@ -24,7 +24,7 @@ import { deckDetailPath, flashcardListPath } from "../utils/paths";
 export const Head: HeadFC<any> = ({ data }) => {
     const deck = data?.decksJson;
     const deckName = deck?.name || "Flashcard";
-    
+
     return <title>{deckName} | Lingo Lotus</title>;
 };
 
