@@ -1,12 +1,4 @@
-import {
-    Box,
-    Button,
-    Flex,
-    HStack,
-    Icon,
-    Text,
-    Tooltip,
-} from "@chakra-ui/react";
+import { Button, Flex, HStack, Icon, Text } from "@chakra-ui/react";
 import { navigate } from "gatsby";
 import { ArrowLeft } from "lucide-react";
 import React from "react";

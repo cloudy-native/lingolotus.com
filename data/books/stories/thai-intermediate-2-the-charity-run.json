@@ -1,272 +1,857 @@
 {
-  "storyId": "thai-intermediate-2-the-charity-run",
-  "bookId": "thai-intermediate-2",
-  "language": "th",
-  "title": {
-    "source": "วิ่งการกุศล",
-    "target": "The Charity Run"
-  },
-  "sentences": [
-    {
-      "source": "เดือนหน้า จามาลจะเข้าร่วมการวิ่งการกุศลเพื่อระดมทุนให้โรงพยาบาล",
-      "target": "Next month, Jamal will participate in a charity run to raise money for a hospital.",
-      "phonetic": "dʉʉan nâa jaa-maal jà khâo-rûam gaan wîng gaan-gù-sǒn phʉ̂a rá-dom thun hâi roo ng pha-yaa-baan",
-      "breakdown": [
-        { "source": "เดือนหน้า", "target": "next month", "phonetic": "dʉʉan nâa", "partOfSpeech": "adverb" },
-        { "source": "จามาล", "target": "Jamal", "phonetic": "jaa-maal", "partOfSpeech": "proper_noun" },
-        { "source": "จะเข้าร่วม", "target": "will participate", "phonetic": "jà khâo-rûam", "partOfSpeech": "auxiliary" },
-        { "source": "การวิ่งการกุศล", "target": "a charity run", "phonetic": "gaan wîng gaan-gù-sǒn", "partOfSpeech": "noun" },
-        { "source": "เพื่อ", "target": "to", "phonetic": "phʉ̂a", "partOfSpeech": "preposition" },
-        { "source": "ระดมทุน", "target": "raise funds", "phonetic": "rá-dom thun", "partOfSpeech": "verb" },
-        { "source": "ให้โรงพยาบาล", "target": "for a hospital", "phonetic": "hâi roong-pha-yaa-baan", "partOfSpeech": "preposition" }
-      ]
+    "storyId": "thai-intermediate-2-the-charity-run",
+    "bookId": "thai-intermediate-2",
+    "language": "th",
+    "title": {
+        "source": "วิ่งการกุศล",
+        "target": "The Charity Run"
     },
-    {
-      "source": "เขาฝึกซ้อมมาหลายสัปดาห์ วิ่งระยะไกลขึ้นเพื่อเพิ่มความอึด",
-      "target": "He has been training for weeks, running longer distances to build stamina.",
-      "phonetic": "kháo fʉ̀k-sɔ́ɔm maa lǎai sàp-daa wîng rá-yá glai khʉ̂n phʉ̂a phœ̂œm khwaam ʉ̀t",
-      "breakdown": [
-        { "source": "เขา", "target": "he", "phonetic": "kháo", "partOfSpeech": "pronoun" },
-        { "source": "ฝึกซ้อมมา", "target": "has been training", "phonetic": "fʉ̀k-sɔ́ɔm maa", "partOfSpeech": "verb" },
-        { "source": "หลายสัปดาห์", "target": "for many weeks", "phonetic": "lǎai sàp-daa", "partOfSpeech": "adverb" },
-        { "source": "วิ่งระยะไกลขึ้น", "target": "running longer distances", "phonetic": "wîng rá-yá glai khʉ̂n", "partOfSpeech": "verb" },
-        { "source": "เพื่อ", "target": "to", "phonetic": "phʉ̂a", "partOfSpeech": "preposition" },
-        { "source": "เพิ่มความอึด", "target": "build stamina", "phonetic": "phœ̂œm khwaam ʉ̀t", "partOfSpeech": "verb" }
-      ]
-    },
-    {
-      "source": "ถ้าเขาไม่ลงชื่อไว้ เขาอาจไม่ค้นพบว่าตัวเองรักการวิ่ง",
-      "target": "If he hadn’t signed up, he might not have discovered his love for running.",
-      "phonetic": "thâa khǎo mâi long chʉ̂ʉ wái khǎo àat mâi khón-phóp wâa dtua-eng rák gaan wîng",
-      "breakdown": [
-        { "source": "ถ้า", "target": "if", "phonetic": "thâa", "partOfSpeech": "conjunction" },
-        { "source": "เขา", "target": "he", "phonetic": "khǎo", "partOfSpeech": "pronoun" },
-        { "source": "ไม่ลงชื่อไว้", "target": "didn’t sign up", "phonetic": "mâi long chʉ̂ʉ wái", "partOfSpeech": "verb" },
-        { "source": "เขาอาจ", "target": "he might", "phonetic": "khǎo àat", "partOfSpeech": "auxiliary" },
-        { "source": "ไม่ค้นพบ", "target": "not discover", "phonetic": "mâi khón-phóp", "partOfSpeech": "verb" },
-        { "source": "ว่าตัวเองรักการวิ่ง", "target": "that he loves running", "phonetic": "wâa dtua-eng rák gaan wîng", "partOfSpeech": "clause" }
-      ]
-    },
-    {
-      "source": "โค้ชบอกเขาว่าการยืดเหยียดอย่างถูกต้องจะช่วยป้องกันการบาดเจ็บ",
-      "target": "His coach told him that stretching properly would prevent injuries.",
-      "phonetic": "khôot bɔ̀ɔk khǎo wâa gaan yʉ̂ʉt-yìat yàang thùuk-dtɔ̂ng jà chûai bpɔ̂ng-gan gaan bàat-jèp",
-      "breakdown": [
-        { "source": "โค้ช", "target": "coach", "phonetic": "khôot", "partOfSpeech": "noun" },
-        { "source": "บอกเขาว่า", "target": "told him that", "phonetic": "bɔ̀ɔk khǎo wâa", "partOfSpeech": "verb" },
-        { "source": "การยืดเหยียดอย่างถูกต้อง", "target": "proper stretching", "phonetic": "gaan yʉ̂ʉt-yìat yàang thùuk-dtɔ̂ng", "partOfSpeech": "noun" },
-        { "source": "จะช่วย", "target": "would help", "phonetic": "jà chûai", "partOfSpeech": "auxiliary" },
-        { "source": "ป้องกันการบาดเจ็บ", "target": "prevent injuries", "phonetic": "bpɔ̂ng-gan gaan bàat-jèp", "partOfSpeech": "verb" }
-      ]
-    },
-    {
-      "source": "จามาลวิ่งในสวนทุกเช้า เพลิดเพลินกับลมเย็นและเสียงนกร้อง",
-      "target": "Jamal runs in the park every morning, enjoying the cool breeze and birdsong.",
-      "phonetic": "jaa-maal wîng nai sǔan thúk cháo phlœ̂œt-phlœ̄̒n gàp lom yen láe sǐang nók rɔ́ɔng",
-      "breakdown": [
-        { "source": "จามาล", "target": "Jamal", "phonetic": "jaa-maal", "partOfSpeech": "proper_noun" },
-        { "source": "วิ่งในสวน", "target": "runs in the park", "phonetic": "wîng nai sǔan", "partOfSpeech": "verb" },
-        { "source": "ทุกเช้า", "target": "every morning", "phonetic": "thúk cháo", "partOfSpeech": "adverb" },
-        { "source": "เพลิดเพลิน", "target": "enjoying", "phonetic": "phlœ̂œt-phlœ̄̒n", "partOfSpeech": "verb" },
-        { "source": "กับลมเย็นและเสียงนกร้อง", "target": "the cool breeze and birdsong", "phonetic": "gàp lom yen láe sǐang nók rɔ́ɔng", "partOfSpeech": "preposition" }
-      ]
-    },
-    {
-      "source": "เขาอาจฝึกคนเดียวก็ได้ แต่เขาเข้ากลุ่มเพื่อรับแรงบันดาลใจ",
-      "target": "He could have trained alone, but he joined a group for motivation.",
-      "phonetic": "khǎo àat fʉ̀k khon diao gɔ̂ɔ dâi dtàe khǎo khâo glùm phʉ̂a ráp raaeng ban-daan-jai",
-      "breakdown": [
-        { "source": "เขาอาจฝึกคนเดียวก็ได้", "target": "he could train alone", "phonetic": "khǎo àat fʉ̀k khon diao gɔ̂ɔ dâi", "partOfSpeech": "clause" },
-        { "source": "แต่", "target": "but", "phonetic": "dtàe", "partOfSpeech": "conjunction" },
-        { "source": "เขาเข้ากลุ่ม", "target": "he joined a group", "phonetic": "khǎo khâo glùm", "partOfSpeech": "verb" },
-        { "source": "เพื่อ", "target": "to", "phonetic": "phʉ̂a", "partOfSpeech": "preposition" },
-        { "source": "รับแรงบันดาลใจ", "target": "get motivation", "phonetic": "ráp raaeng ban-daan-jai", "partOfSpeech": "verb" }
-      ]
-    },
-    {
-      "source": "เพื่อนร่วมทีมแบ่งปันเคล็ดลับเรื่องการเพิ่มความเร็วและการดื่มน้ำอย่างพอเพียง",
-      "target": "His teammates share tips on improving speed and staying hydrated.",
-      "phonetic": "phʉ̂an rûam thiim bàeng-bpan khlét-láp rʉ̂ang gaan phœ̂œm khwaam reo láe gaan dʉ̀ʉm náam yàang phɔɔ-piang",
-      "breakdown": [
-        { "source": "เพื่อนร่วมทีม", "target": "teammates", "phonetic": "phʉ̂an rûam thiim", "partOfSpeech": "noun" },
-        { "source": "แบ่งปัน", "target": "share", "phonetic": "bàeng-bpan", "partOfSpeech": "verb" },
-        { "source": "เคล็ดลับ", "target": "tips", "phonetic": "khlét-láp", "partOfSpeech": "noun" },
-        { "source": "เรื่อง", "target": "about", "phonetic": "rʉ̂ang", "partOfSpeech": "preposition" },
-        { "source": "การเพิ่มความเร็ว", "target": "improving speed", "phonetic": "gaan phœ̂œm khwaam reo", "partOfSpeech": "noun" },
-        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
-        { "source": "การดื่มน้ำอย่างพอเพียง", "target": "staying properly hydrated", "phonetic": "gaan dʉ̀ʉm náam yàang phɔɔ-piang", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "ถ้าจามาลบรรลุยอดบริจาค เขาจะช่วยซื้ออุปกรณ์การแพทย์ใหม่",
-      "target": "If Jamal reaches his fundraising goal, he will help buy new medical equipment.",
-      "phonetic": "thâa jaa-maal ban-lú yɔ̂ɔt bɔɔ-rí-jàak khǎo jà chûai súe ùp-bpà-gaawn gaan-phɛ̂ɛt mài",
-      "breakdown": [
-        { "source": "ถ้า", "target": "if", "phonetic": "thâa", "partOfSpeech": "conjunction" },
-        { "source": "จามาล", "target": "Jamal", "phonetic": "jaa-maal", "partOfSpeech": "proper_noun" },
-        { "source": "บรรลุยอดบริจาค", "target": "reaches his fundraising goal", "phonetic": "ban-lú yɔ̂ɔt bɔɔ-rí-jàak", "partOfSpeech": "verb" },
-        { "source": "เขาจะ", "target": "he will", "phonetic": "khǎo jà", "partOfSpeech": "auxiliary" },
-        { "source": "ช่วยซื้อ", "target": "help buy", "phonetic": "chûai súe", "partOfSpeech": "verb" },
-        { "source": "อุปกรณ์การแพทย์ใหม่", "target": "new medical equipment", "phonetic": "ùp-bpà-gaawn gaan-phɛ̂ɛt mài", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "ตอนนี้เขาหาเงินได้ครึ่งหนึ่งแล้ว โดยขอจากเพื่อนและครอบครัว",
-      "target": "He has already raised half the amount by asking friends and family.",
-      "phonetic": "dtɔɔn níi khǎo hǎa ngern dâi khrʉ̂ng nʉ̀ng láeo doi khɔ̌ɔ jàak phʉ̂an láe khrâwp-khrua",
-      "breakdown": [
-        { "source": "ตอนนี้", "target": "now", "phonetic": "dtɔɔn níi", "partOfSpeech": "adverb" },
-        { "source": "เขา", "target": "he", "phonetic": "khǎo", "partOfSpeech": "pronoun" },
-        { "source": "หาเงินได้ครึ่งหนึ่งแล้ว", "target": "has raised half already", "phonetic": "hǎa ngern dâi khrʉ̂ng nʉ̀ng láeo", "partOfSpeech": "clause" },
-        { "source": "โดย", "target": "by", "phonetic": "doi", "partOfSpeech": "preposition" },
-        { "source": "ขอจากเพื่อนและครอบครัว", "target": "asking from friends and family", "phonetic": "khɔ̌ɔ jàak phʉ̂an láe khrâwp-khrua", "partOfSpeech": "clause" }
-      ]
-    },
-    {
-      "source": "การวิ่งระยะไกลเป็นเรื่องท้าทาย แต่จามาลรู้สึกแข็งแรงขึ้นทุกวัน",
-      "target": "Running long distances is challenging, but Jamal feels stronger each day.",
-      "phonetic": "gaan wîng rá-yá glai bpen rʉ̂ang tháa-thaai dtàe jaa-maal rúu-sʉ̀k khǽng-rɛɛng khʉ̂n thúk wan",
-      "breakdown": [
-        { "source": "การวิ่งระยะไกล", "target": "long-distance running", "phonetic": "gaan wîng rá-yá glai", "partOfSpeech": "noun" },
-        { "source": "เป็น", "target": "is", "phonetic": "bpen", "partOfSpeech": "verb" },
-        { "source": "เรื่องท้าทาย", "target": "challenging", "phonetic": "rʉ̂ang tháa-thaai", "partOfSpeech": "adjective" },
-        { "source": "แต่", "target": "but", "phonetic": "dtàe", "partOfSpeech": "conjunction" },
-        { "source": "จามาล", "target": "Jamal", "phonetic": "jaa-maal", "partOfSpeech": "proper_noun" },
-        { "source": "รู้สึกแข็งแรงขึ้น", "target": "feels stronger", "phonetic": "rúu-sʉ̀k khǽng-rɛɛng khʉ̂n", "partOfSpeech": "verb" },
-        { "source": "ทุกวัน", "target": "each day", "phonetic": "thúk wan", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "เขาจินตนาการว่าตัวเองกำลังเข้าเส้นชัย พร้อมเสียงเชียร์จากฝูงชนที่อบอุ่น",
-      "target": "He imagines crossing the finish line, cheered by a supportive crowd.",
-      "phonetic": "khǎo jin-dtà-naa-gaan wâa dtua-eng gam-lang khâo sên-chai phrɔ́ɔm sǐang chia jàak fǔung-chon thîi òp-ùn",
-      "breakdown": [
-        { "source": "เขา", "target": "he", "phonetic": "khǎo", "partOfSpeech": "pronoun" },
-        { "source": "จินตนาการว่า", "target": "imagines that", "phonetic": "jin-dtà-naa-gaan wâa", "partOfSpeech": "verb" },
-        { "source": "ตัวเองกำลังเข้าเส้นชัย", "target": "himself crossing the finish line", "phonetic": "dtua-eng gam-lang khâo sên-chai", "partOfSpeech": "clause" },
-        { "source": "พร้อม", "target": "with", "phonetic": "phrɔ́ɔm", "partOfSpeech": "preposition" },
-        { "source": "เสียงเชียร์", "target": "cheers", "phonetic": "sǐang chia", "partOfSpeech": "noun" },
-        { "source": "จากฝูงชนที่อบอุ่น", "target": "from a supportive crowd", "phonetic": "jàak fǔung-chon thîi òp-ùn", "partOfSpeech": "prepositional_phrase" }
-      ]
-    },
-    {
-      "source": "ถ้าเขาวิ่งจบ เขาจะเลี้ยงตัวเองด้วยอาหารเช้ามื้อใหญ่",
-      "target": "If he finishes the race, he will treat himself to a big breakfast.",
-      "phonetic": "thâa khǎo wîng jòp khǎo jà líang dtua-eng dûai aa-hăan cháo mʉ́e yài",
-      "breakdown": [
-        { "source": "ถ้า", "target": "if", "phonetic": "thâa", "partOfSpeech": "conjunction" },
-        { "source": "เขาวิ่งจบ", "target": "he finishes the race", "phonetic": "khǎo wîng jòp", "partOfSpeech": "clause" },
-        { "source": "เขาจะ", "target": "he will", "phonetic": "khǎo jà", "partOfSpeech": "auxiliary" },
-        { "source": "เลี้ยงตัวเอง", "target": "treat himself", "phonetic": "líang dtua-eng", "partOfSpeech": "verb" },
-        { "source": "ด้วย", "target": "with", "phonetic": "dûai", "partOfSpeech": "preposition" },
-        { "source": "อาหารเช้ามื้อใหญ่", "target": "a big breakfast", "phonetic": "aa-hăan cháo mʉ́e yài", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "พี่สาวของเขาที่วิ่งปีที่แล้วบอกว่างานนี้น่าจดจำไม่รู้ลืม",
-      "target": "His sister, who ran last year, said the event was unforgettable.",
-      "phonetic": "phîi-sǎao khǎwng khǎo thîi wîng bpii thîi láeo bɔ̀ɔk wâa ngaan níi nâa jòt-jam mâi rúu lʉʉm",
-      "breakdown": [
-        { "source": "พี่สาวของเขา", "target": "his older sister", "phonetic": "phîi-sǎao khǎwng khǎo", "partOfSpeech": "noun" },
-        { "source": "ที่วิ่งปีที่แล้ว", "target": "who ran last year", "phonetic": "thîi wîng bpii thîi láeo", "partOfSpeech": "clause" },
-        { "source": "บอกว่า", "target": "said that", "phonetic": "bɔ̀ɔk wâa", "partOfSpeech": "verb" },
-        { "source": "งานนี้", "target": "this event", "phonetic": "ngaan níi", "partOfSpeech": "noun" },
-        { "source": "น่าจดจำ", "target": "memorable", "phonetic": "nâa jòt-jam", "partOfSpeech": "adjective" },
-        { "source": "ไม่รู้ลืม", "target": "unforgettable", "phonetic": "mâi rúu lʉʉm", "partOfSpeech": "adjective" }
-      ]
-    },
-    {
-      "source": "จามาลตรวจรองเท้าวิ่งของตัวเองให้พร้อมใช้งาน",
-      "target": "Jamal checks his running shoes to ensure they’re in good condition.",
-      "phonetic": "jaa-maal trùat rɔɔng-tháao wîng khǎwng dtua-eng hâi phrɔ́ɔm chái-ngaan",
-      "breakdown": [
-        { "source": "จามาล", "target": "Jamal", "phonetic": "jaa-maal", "partOfSpeech": "proper_noun" },
-        { "source": "ตรวจรองเท้าวิ่ง", "target": "checks running shoes", "phonetic": "trùat rɔɔng-tháao wîng", "partOfSpeech": "verb" },
-        { "source": "ของตัวเอง", "target": "his own", "phonetic": "khǎwng dtua-eng", "partOfSpeech": "pronoun" },
-        { "source": "ให้", "target": "to make", "phonetic": "hâi", "partOfSpeech": "particle" },
-        { "source": "พร้อมใช้งาน", "target": "ready to use", "phonetic": "phrɔ́ɔm chái-ngaan", "partOfSpeech": "adjective" }
-      ]
-    },
-    {
-      "source": "เขาวางแผนกินอาหารที่ดีต่อสุขภาพเพื่อคงพลังงานสำหรับการวิ่ง",
-      "target": "He plans to eat healthy meals to stay energized for the race.",
-      "phonetic": "khǎo waang-phǎen gin aa-hăan thîi dii tɔ̀ɔ sùk-khà-phâap phʉ̂a khong pha-lang-ngaan sǎm-ràp gaan wîng",
-      "breakdown": [
-        { "source": "เขา", "target": "he", "phonetic": "khǎo", "partOfSpeech": "pronoun" },
-        { "source": "วางแผน", "target": "plans", "phonetic": "waang-phǎen", "partOfSpeech": "verb" },
-        { "source": "กินอาหารที่ดีต่อสุขภาพ", "target": "eat healthy food", "phonetic": "gin aa-hăan thîi dii tɔ̀ɔ sùk-khà-phâap", "partOfSpeech": "clause" },
-        { "source": "เพื่อ", "target": "to", "phonetic": "phʉ̂a", "partOfSpeech": "preposition" },
-        { "source": "คงพลังงาน", "target": "maintain energy", "phonetic": "khong pha-lang-ngaan", "partOfSpeech": "verb" },
-        { "source": "สำหรับการวิ่ง", "target": "for the run", "phonetic": "sǎm-ràp gaan wîng", "partOfSpeech": "prepositional_phrase" }
-      ]
-    },
-    {
-      "source": "การเป็นอาสาสมัครให้การกุศลสอนเขาให้เห็นคุณค่าของการให้",
-      "target": "Volunteering for the charity has taught him the value of giving back.",
-      "phonetic": "gaan bpen aa-sǎa sà-màk hâi gaan-gù-sǒn sɔ̌ɔn khǎo hâi hěn khun-ná-khâa khǎwng gaan hâi",
-      "breakdown": [
-        { "source": "การเป็นอาสาสมัคร", "target": "volunteering", "phonetic": "gaan bpen aa-sǎa sà-màk", "partOfSpeech": "noun" },
-        { "source": "ให้การกุศล", "target": "for charity", "phonetic": "hâi gaan-gù-sǒn", "partOfSpeech": "prepositional_phrase" },
-        { "source": "สอนเขา", "target": "taught him", "phonetic": "sɔ̌ɔn khǎo", "partOfSpeech": "verb" },
-        { "source": "ให้เห็น", "target": "to see", "phonetic": "hâi hěn", "partOfSpeech": "verb" },
-        { "source": "คุณค่าของการให้", "target": "the value of giving", "phonetic": "khun-ná-khâa khǎwng gaan hâi", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "เขาหวังว่าเขาจะเป็นแรงบันดาลใจให้คนอื่นมาร่วมวิ่งในปีหน้า",
-      "target": "He hopes he can inspire others to join the run next year.",
-      "phonetic": "khǎo wǎng wâa khǎo jà bpen raaeng ban-daan-jai hâi khon ʉ̀ʉn maa rûam wîng nai bpii nâa",
-      "breakdown": [
-        { "source": "เขาหวังว่า", "target": "he hopes that", "phonetic": "khǎo wǎng wâa", "partOfSpeech": "clause" },
-        { "source": "เขาจะเป็นแรงบันดาลใจ", "target": "he will be an inspiration", "phonetic": "khǎo jà bpen raaeng ban-daan-jai", "partOfSpeech": "clause" },
-        { "source": "ให้คนอื่น", "target": "to others", "phonetic": "hâi khon ʉ̀ʉn", "partOfSpeech": "prepositional_phrase" },
-        { "source": "มาร่วมวิ่ง", "target": "to come join the run", "phonetic": "maa rûam wîng", "partOfSpeech": "verb" },
-        { "source": "ในปีหน้า", "target": "next year", "phonetic": "nai bpii nâa", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "สำหรับเขา การวิ่งดีต่อทั้งร่างกายและหัวใจ",
-      "target": "Running, he discovered, is good for both his body and his heart.",
-      "phonetic": "sǎm-ràp khǎo gaan wîng dii tɔ̀ɔ tháng râang-gaai láe hǔa-jai",
-      "breakdown": [
-        { "source": "สำหรับเขา", "target": "for him", "phonetic": "sǎm-ràp khǎo", "partOfSpeech": "prepositional_phrase" },
-        { "source": "การวิ่ง", "target": "running", "phonetic": "gaan wîng", "partOfSpeech": "noun" },
-        { "source": "ดีต่อทั้ง", "target": "is good for both", "phonetic": "dii tɔ̀ɔ tháng", "partOfSpeech": "verb" },
-        { "source": "ร่างกาย", "target": "body", "phonetic": "râang-gaai", "partOfSpeech": "noun" },
-        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
-        { "source": "หัวใจ", "target": "heart", "phonetic": "hǔa-jai", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "จามาลตั้งตารองานวิ่งอย่างตื่นเต้น ดีใจที่ได้มีส่วนร่วมสร้างความแตกต่าง",
-      "target": "Jamal looks forward to the race, excited to make a difference.",
-      "phonetic": "jaa-maal tâng-taa rɔɔ ngaan wîng yàang tʉ̀ʉn-dtên dii-jai thîi dâi mii sùan rûam sâang khwaam dtɛ̀ɛk-dtàang",
-      "breakdown": [
-        { "source": "จามาล", "target": "Jamal", "phonetic": "jaa-maal", "partOfSpeech": "proper_noun" },
-        { "source": "ตั้งตารอ", "target": "looks forward to", "phonetic": "tâng-taa rɔɔ", "partOfSpeech": "verb" },
-        { "source": "งานวิ่ง", "target": "the race", "phonetic": "ngaan wîng", "partOfSpeech": "noun" },
-        { "source": "อย่างตื่นเต้น", "target": "excitedly", "phonetic": "yàang tʉ̀ʉn-dtên", "partOfSpeech": "adverb" },
-        { "source": "ดีใจ", "target": "glad", "phonetic": "dii-jai", "partOfSpeech": "adjective" },
-        { "source": "ที่ได้มีส่วนร่วม", "target": "to be able to take part", "phonetic": "thîi dâi mii sùan rûam", "partOfSpeech": "clause" },
-        { "source": "สร้างความแตกต่าง", "target": "make a difference", "phonetic": "sâang khwaam dtɛ̀ɛk-dtàang", "partOfSpeech": "verb" }
-      ]
-    },
-    {
-      "source": "ไม่ว่าสำเร็จหรือไม่ เขารู้ว่าประสบการณ์ครั้งนี้มีคุณค่า",
-      "target": "No matter the outcome, he knows the experience will be rewarding.",
-      "phonetic": "mâi wâa sǎm-rèt rʉ̌ʉ mâi khǎo rúu wâa bprà-sòp-gaan khráng níi mii khun-ná-khâa",
-      "breakdown": [
-        { "source": "ไม่ว่า", "target": "no matter", "phonetic": "mâi wâa", "partOfSpeech": "conjunction" },
-        { "source": "สำเร็จหรือไม่", "target": "successful or not", "phonetic": "sǎm-rèt rʉ̌ʉ mâi", "partOfSpeech": "phrase" },
-        { "source": "เขา", "target": "he", "phonetic": "khǎo", "partOfSpeech": "pronoun" },
-        { "source": "รู้ว่า", "target": "knows that", "phonetic": "rúu wâa", "partOfSpeech": "verb" },
-        { "source": "ประสบการณ์ครั้งนี้", "target": "this experience", "phonetic": "bprà-sòp-gaan khráng níi", "partOfSpeech": "noun" },
-        { "source": "มีคุณค่า", "target": "has value / is rewarding", "phonetic": "mii khun-ná-khâa", "partOfSpeech": "verb" }
-      ]
-    }
-  ],
-  "createdAt": "2025-09-29T23:39:30Z",
-  "updatedAt": "2025-09-30T02:03:38Z",
-  "difficulty": "intermediate",
-  "summary": "วิ่งการกุศลของจามาล: การฝึกซ้อม ทีม แรงบันดาลใจ เป้าหมายการระดมทุน และสุขภาพ"
+    "sentences": [
+        {
+            "source": "เดือนหน้า จามาลจะเข้าร่วมการวิ่งการกุศลเพื่อระดมทุนให้โรงพยาบาล",
+            "target": "Next month, Jamal will participate in a charity run to raise money for a hospital.",
+            "phonetic": "dʉʉan nâa jaa-maal jà khâo-rûam gaan wîng gaan-gù-sǒn phʉ̂a rá-dom thun hâi roo ng pha-yaa-baan",
+            "breakdown": [
+                {
+                    "source": "เดือนหน้า",
+                    "target": "next month",
+                    "phonetic": "dʉʉan nâa",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "จามาล",
+                    "target": "Jamal",
+                    "phonetic": "jaa-maal",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "จะเข้าร่วม",
+                    "target": "will participate",
+                    "phonetic": "jà khâo-rûam",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "การวิ่งการกุศล",
+                    "target": "a charity run",
+                    "phonetic": "gaan wîng gaan-gù-sǒn",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เพื่อ",
+                    "target": "to",
+                    "phonetic": "phʉ̂a",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ระดมทุน",
+                    "target": "raise funds",
+                    "phonetic": "rá-dom thun",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ให้โรงพยาบาล",
+                    "target": "for a hospital",
+                    "phonetic": "hâi roong-pha-yaa-baan",
+                    "partOfSpeech": "preposition"
+                }
+            ]
+        },
+        {
+            "source": "เขาฝึกซ้อมมาหลายสัปดาห์ วิ่งระยะไกลขึ้นเพื่อเพิ่มความอึด",
+            "target": "He has been training for weeks, running longer distances to build stamina.",
+            "phonetic": "kháo fʉ̀k-sɔ́ɔm maa lǎai sàp-daa wîng rá-yá glai khʉ̂n phʉ̂a phœ̂œm khwaam ʉ̀t",
+            "breakdown": [
+                {
+                    "source": "เขา",
+                    "target": "he",
+                    "phonetic": "kháo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ฝึกซ้อมมา",
+                    "target": "has been training",
+                    "phonetic": "fʉ̀k-sɔ́ɔm maa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "หลายสัปดาห์",
+                    "target": "for many weeks",
+                    "phonetic": "lǎai sàp-daa",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "วิ่งระยะไกลขึ้น",
+                    "target": "running longer distances",
+                    "phonetic": "wîng rá-yá glai khʉ̂n",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เพื่อ",
+                    "target": "to",
+                    "phonetic": "phʉ̂a",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "เพิ่มความอึด",
+                    "target": "build stamina",
+                    "phonetic": "phœ̂œm khwaam ʉ̀t",
+                    "partOfSpeech": "verb"
+                }
+            ]
+        },
+        {
+            "source": "ถ้าเขาไม่ลงชื่อไว้ เขาอาจไม่ค้นพบว่าตัวเองรักการวิ่ง",
+            "target": "If he hadn’t signed up, he might not have discovered his love for running.",
+            "phonetic": "thâa khǎo mâi long chʉ̂ʉ wái khǎo àat mâi khón-phóp wâa dtua-eng rák gaan wîng",
+            "breakdown": [
+                {
+                    "source": "ถ้า",
+                    "target": "if",
+                    "phonetic": "thâa",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "เขา",
+                    "target": "he",
+                    "phonetic": "khǎo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ไม่ลงชื่อไว้",
+                    "target": "didn’t sign up",
+                    "phonetic": "mâi long chʉ̂ʉ wái",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เขาอาจ",
+                    "target": "he might",
+                    "phonetic": "khǎo àat",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "ไม่ค้นพบ",
+                    "target": "not discover",
+                    "phonetic": "mâi khón-phóp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ว่าตัวเองรักการวิ่ง",
+                    "target": "that he loves running",
+                    "phonetic": "wâa dtua-eng rák gaan wîng",
+                    "partOfSpeech": "clause"
+                }
+            ]
+        },
+        {
+            "source": "โค้ชบอกเขาว่าการยืดเหยียดอย่างถูกต้องจะช่วยป้องกันการบาดเจ็บ",
+            "target": "His coach told him that stretching properly would prevent injuries.",
+            "phonetic": "khôot bɔ̀ɔk khǎo wâa gaan yʉ̂ʉt-yìat yàang thùuk-dtɔ̂ng jà chûai bpɔ̂ng-gan gaan bàat-jèp",
+            "breakdown": [
+                {
+                    "source": "โค้ช",
+                    "target": "coach",
+                    "phonetic": "khôot",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "บอกเขาว่า",
+                    "target": "told him that",
+                    "phonetic": "bɔ̀ɔk khǎo wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "การยืดเหยียดอย่างถูกต้อง",
+                    "target": "proper stretching",
+                    "phonetic": "gaan yʉ̂ʉt-yìat yàang thùuk-dtɔ̂ng",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "จะช่วย",
+                    "target": "would help",
+                    "phonetic": "jà chûai",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "ป้องกันการบาดเจ็บ",
+                    "target": "prevent injuries",
+                    "phonetic": "bpɔ̂ng-gan gaan bàat-jèp",
+                    "partOfSpeech": "verb"
+                }
+            ]
+        },
+        {
+            "source": "จามาลวิ่งในสวนทุกเช้า เพลิดเพลินกับลมเย็นและเสียงนกร้อง",
+            "target": "Jamal runs in the park every morning, enjoying the cool breeze and birdsong.",
+            "phonetic": "jaa-maal wîng nai sǔan thúk cháo phlœ̂œt-phlœ̄̒n gàp lom yen láe sǐang nók rɔ́ɔng",
+            "breakdown": [
+                {
+                    "source": "จามาล",
+                    "target": "Jamal",
+                    "phonetic": "jaa-maal",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "วิ่งในสวน",
+                    "target": "runs in the park",
+                    "phonetic": "wîng nai sǔan",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ทุกเช้า",
+                    "target": "every morning",
+                    "phonetic": "thúk cháo",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "เพลิดเพลิน",
+                    "target": "enjoying",
+                    "phonetic": "phlœ̂œt-phlœ̄̒n",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "กับลมเย็นและเสียงนกร้อง",
+                    "target": "the cool breeze and birdsong",
+                    "phonetic": "gàp lom yen láe sǐang nók rɔ́ɔng",
+                    "partOfSpeech": "preposition"
+                }
+            ]
+        },
+        {
+            "source": "เขาอาจฝึกคนเดียวก็ได้ แต่เขาเข้ากลุ่มเพื่อรับแรงบันดาลใจ",
+            "target": "He could have trained alone, but he joined a group for motivation.",
+            "phonetic": "khǎo àat fʉ̀k khon diao gɔ̂ɔ dâi dtàe khǎo khâo glùm phʉ̂a ráp raaeng ban-daan-jai",
+            "breakdown": [
+                {
+                    "source": "เขาอาจฝึกคนเดียวก็ได้",
+                    "target": "he could train alone",
+                    "phonetic": "khǎo àat fʉ̀k khon diao gɔ̂ɔ dâi",
+                    "partOfSpeech": "clause"
+                },
+                {
+                    "source": "แต่",
+                    "target": "but",
+                    "phonetic": "dtàe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "เขาเข้ากลุ่ม",
+                    "target": "he joined a group",
+                    "phonetic": "khǎo khâo glùm",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เพื่อ",
+                    "target": "to",
+                    "phonetic": "phʉ̂a",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "รับแรงบันดาลใจ",
+                    "target": "get motivation",
+                    "phonetic": "ráp raaeng ban-daan-jai",
+                    "partOfSpeech": "verb"
+                }
+            ]
+        },
+        {
+            "source": "เพื่อนร่วมทีมแบ่งปันเคล็ดลับเรื่องการเพิ่มความเร็วและการดื่มน้ำอย่างพอเพียง",
+            "target": "His teammates share tips on improving speed and staying hydrated.",
+            "phonetic": "phʉ̂an rûam thiim bàeng-bpan khlét-láp rʉ̂ang gaan phœ̂œm khwaam reo láe gaan dʉ̀ʉm náam yàang phɔɔ-piang",
+            "breakdown": [
+                {
+                    "source": "เพื่อนร่วมทีม",
+                    "target": "teammates",
+                    "phonetic": "phʉ̂an rûam thiim",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "แบ่งปัน",
+                    "target": "share",
+                    "phonetic": "bàeng-bpan",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เคล็ดลับ",
+                    "target": "tips",
+                    "phonetic": "khlét-láp",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เรื่อง",
+                    "target": "about",
+                    "phonetic": "rʉ̂ang",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "การเพิ่มความเร็ว",
+                    "target": "improving speed",
+                    "phonetic": "gaan phœ̂œm khwaam reo",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "การดื่มน้ำอย่างพอเพียง",
+                    "target": "staying properly hydrated",
+                    "phonetic": "gaan dʉ̀ʉm náam yàang phɔɔ-piang",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "ถ้าจามาลบรรลุยอดบริจาค เขาจะช่วยซื้ออุปกรณ์การแพทย์ใหม่",
+            "target": "If Jamal reaches his fundraising goal, he will help buy new medical equipment.",
+            "phonetic": "thâa jaa-maal ban-lú yɔ̂ɔt bɔɔ-rí-jàak khǎo jà chûai súe ùp-bpà-gaawn gaan-phɛ̂ɛt mài",
+            "breakdown": [
+                {
+                    "source": "ถ้า",
+                    "target": "if",
+                    "phonetic": "thâa",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "จามาล",
+                    "target": "Jamal",
+                    "phonetic": "jaa-maal",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "บรรลุยอดบริจาค",
+                    "target": "reaches his fundraising goal",
+                    "phonetic": "ban-lú yɔ̂ɔt bɔɔ-rí-jàak",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เขาจะ",
+                    "target": "he will",
+                    "phonetic": "khǎo jà",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "ช่วยซื้อ",
+                    "target": "help buy",
+                    "phonetic": "chûai súe",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "อุปกรณ์การแพทย์ใหม่",
+                    "target": "new medical equipment",
+                    "phonetic": "ùp-bpà-gaawn gaan-phɛ̂ɛt mài",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "ตอนนี้เขาหาเงินได้ครึ่งหนึ่งแล้ว โดยขอจากเพื่อนและครอบครัว",
+            "target": "He has already raised half the amount by asking friends and family.",
+            "phonetic": "dtɔɔn níi khǎo hǎa ngern dâi khrʉ̂ng nʉ̀ng láeo doi khɔ̌ɔ jàak phʉ̂an láe khrâwp-khrua",
+            "breakdown": [
+                {
+                    "source": "ตอนนี้",
+                    "target": "now",
+                    "phonetic": "dtɔɔn níi",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "เขา",
+                    "target": "he",
+                    "phonetic": "khǎo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "หาเงินได้ครึ่งหนึ่งแล้ว",
+                    "target": "has raised half already",
+                    "phonetic": "hǎa ngern dâi khrʉ̂ng nʉ̀ng láeo",
+                    "partOfSpeech": "clause"
+                },
+                {
+                    "source": "โดย",
+                    "target": "by",
+                    "phonetic": "doi",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ขอจากเพื่อนและครอบครัว",
+                    "target": "asking from friends and family",
+                    "phonetic": "khɔ̌ɔ jàak phʉ̂an láe khrâwp-khrua",
+                    "partOfSpeech": "clause"
+                }
+            ]
+        },
+        {
+            "source": "การวิ่งระยะไกลเป็นเรื่องท้าทาย แต่จามาลรู้สึกแข็งแรงขึ้นทุกวัน",
+            "target": "Running long distances is challenging, but Jamal feels stronger each day.",
+            "phonetic": "gaan wîng rá-yá glai bpen rʉ̂ang tháa-thaai dtàe jaa-maal rúu-sʉ̀k khǽng-rɛɛng khʉ̂n thúk wan",
+            "breakdown": [
+                {
+                    "source": "การวิ่งระยะไกล",
+                    "target": "long-distance running",
+                    "phonetic": "gaan wîng rá-yá glai",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เป็น",
+                    "target": "is",
+                    "phonetic": "bpen",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เรื่องท้าทาย",
+                    "target": "challenging",
+                    "phonetic": "rʉ̂ang tháa-thaai",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "แต่",
+                    "target": "but",
+                    "phonetic": "dtàe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "จามาล",
+                    "target": "Jamal",
+                    "phonetic": "jaa-maal",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "รู้สึกแข็งแรงขึ้น",
+                    "target": "feels stronger",
+                    "phonetic": "rúu-sʉ̀k khǽng-rɛɛng khʉ̂n",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ทุกวัน",
+                    "target": "each day",
+                    "phonetic": "thúk wan",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "เขาจินตนาการว่าตัวเองกำลังเข้าเส้นชัย พร้อมเสียงเชียร์จากฝูงชนที่อบอุ่น",
+            "target": "He imagines crossing the finish line, cheered by a supportive crowd.",
+            "phonetic": "khǎo jin-dtà-naa-gaan wâa dtua-eng gam-lang khâo sên-chai phrɔ́ɔm sǐang chia jàak fǔung-chon thîi òp-ùn",
+            "breakdown": [
+                {
+                    "source": "เขา",
+                    "target": "he",
+                    "phonetic": "khǎo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "จินตนาการว่า",
+                    "target": "imagines that",
+                    "phonetic": "jin-dtà-naa-gaan wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ตัวเองกำลังเข้าเส้นชัย",
+                    "target": "himself crossing the finish line",
+                    "phonetic": "dtua-eng gam-lang khâo sên-chai",
+                    "partOfSpeech": "clause"
+                },
+                {
+                    "source": "พร้อม",
+                    "target": "with",
+                    "phonetic": "phrɔ́ɔm",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "เสียงเชียร์",
+                    "target": "cheers",
+                    "phonetic": "sǐang chia",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "จากฝูงชนที่อบอุ่น",
+                    "target": "from a supportive crowd",
+                    "phonetic": "jàak fǔung-chon thîi òp-ùn",
+                    "partOfSpeech": "prepositional_phrase"
+                }
+            ]
+        },
+        {
+            "source": "ถ้าเขาวิ่งจบ เขาจะเลี้ยงตัวเองด้วยอาหารเช้ามื้อใหญ่",
+            "target": "If he finishes the race, he will treat himself to a big breakfast.",
+            "phonetic": "thâa khǎo wîng jòp khǎo jà líang dtua-eng dûai aa-hăan cháo mʉ́e yài",
+            "breakdown": [
+                {
+                    "source": "ถ้า",
+                    "target": "if",
+                    "phonetic": "thâa",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "เขาวิ่งจบ",
+                    "target": "he finishes the race",
+                    "phonetic": "khǎo wîng jòp",
+                    "partOfSpeech": "clause"
+                },
+                {
+                    "source": "เขาจะ",
+                    "target": "he will",
+                    "phonetic": "khǎo jà",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "เลี้ยงตัวเอง",
+                    "target": "treat himself",
+                    "phonetic": "líang dtua-eng",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ด้วย",
+                    "target": "with",
+                    "phonetic": "dûai",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "อาหารเช้ามื้อใหญ่",
+                    "target": "a big breakfast",
+                    "phonetic": "aa-hăan cháo mʉ́e yài",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "พี่สาวของเขาที่วิ่งปีที่แล้วบอกว่างานนี้น่าจดจำไม่รู้ลืม",
+            "target": "His sister, who ran last year, said the event was unforgettable.",
+            "phonetic": "phîi-sǎao khǎwng khǎo thîi wîng bpii thîi láeo bɔ̀ɔk wâa ngaan níi nâa jòt-jam mâi rúu lʉʉm",
+            "breakdown": [
+                {
+                    "source": "พี่สาวของเขา",
+                    "target": "his older sister",
+                    "phonetic": "phîi-sǎao khǎwng khǎo",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ที่วิ่งปีที่แล้ว",
+                    "target": "who ran last year",
+                    "phonetic": "thîi wîng bpii thîi láeo",
+                    "partOfSpeech": "clause"
+                },
+                {
+                    "source": "บอกว่า",
+                    "target": "said that",
+                    "phonetic": "bɔ̀ɔk wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "งานนี้",
+                    "target": "this event",
+                    "phonetic": "ngaan níi",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "น่าจดจำ",
+                    "target": "memorable",
+                    "phonetic": "nâa jòt-jam",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ไม่รู้ลืม",
+                    "target": "unforgettable",
+                    "phonetic": "mâi rúu lʉʉm",
+                    "partOfSpeech": "adjective"
+                }
+            ]
+        },
+        {
+            "source": "จามาลตรวจรองเท้าวิ่งของตัวเองให้พร้อมใช้งาน",
+            "target": "Jamal checks his running shoes to ensure they’re in good condition.",
+            "phonetic": "jaa-maal trùat rɔɔng-tháao wîng khǎwng dtua-eng hâi phrɔ́ɔm chái-ngaan",
+            "breakdown": [
+                {
+                    "source": "จามาล",
+                    "target": "Jamal",
+                    "phonetic": "jaa-maal",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "ตรวจรองเท้าวิ่ง",
+                    "target": "checks running shoes",
+                    "phonetic": "trùat rɔɔng-tháao wîng",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ของตัวเอง",
+                    "target": "his own",
+                    "phonetic": "khǎwng dtua-eng",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ให้",
+                    "target": "to make",
+                    "phonetic": "hâi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "พร้อมใช้งาน",
+                    "target": "ready to use",
+                    "phonetic": "phrɔ́ɔm chái-ngaan",
+                    "partOfSpeech": "adjective"
+                }
+            ]
+        },
+        {
+            "source": "เขาวางแผนกินอาหารที่ดีต่อสุขภาพเพื่อคงพลังงานสำหรับการวิ่ง",
+            "target": "He plans to eat healthy meals to stay energized for the race.",
+            "phonetic": "khǎo waang-phǎen gin aa-hăan thîi dii tɔ̀ɔ sùk-khà-phâap phʉ̂a khong pha-lang-ngaan sǎm-ràp gaan wîng",
+            "breakdown": [
+                {
+                    "source": "เขา",
+                    "target": "he",
+                    "phonetic": "khǎo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "วางแผน",
+                    "target": "plans",
+                    "phonetic": "waang-phǎen",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "กินอาหารที่ดีต่อสุขภาพ",
+                    "target": "eat healthy food",
+                    "phonetic": "gin aa-hăan thîi dii tɔ̀ɔ sùk-khà-phâap",
+                    "partOfSpeech": "clause"
+                },
+                {
+                    "source": "เพื่อ",
+                    "target": "to",
+                    "phonetic": "phʉ̂a",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "คงพลังงาน",
+                    "target": "maintain energy",
+                    "phonetic": "khong pha-lang-ngaan",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "สำหรับการวิ่ง",
+                    "target": "for the run",
+                    "phonetic": "sǎm-ràp gaan wîng",
+                    "partOfSpeech": "prepositional_phrase"
+                }
+            ]
+        },
+        {
+            "source": "การเป็นอาสาสมัครให้การกุศลสอนเขาให้เห็นคุณค่าของการให้",
+            "target": "Volunteering for the charity has taught him the value of giving back.",
+            "phonetic": "gaan bpen aa-sǎa sà-màk hâi gaan-gù-sǒn sɔ̌ɔn khǎo hâi hěn khun-ná-khâa khǎwng gaan hâi",
+            "breakdown": [
+                {
+                    "source": "การเป็นอาสาสมัคร",
+                    "target": "volunteering",
+                    "phonetic": "gaan bpen aa-sǎa sà-màk",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ให้การกุศล",
+                    "target": "for charity",
+                    "phonetic": "hâi gaan-gù-sǒn",
+                    "partOfSpeech": "prepositional_phrase"
+                },
+                {
+                    "source": "สอนเขา",
+                    "target": "taught him",
+                    "phonetic": "sɔ̌ɔn khǎo",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ให้เห็น",
+                    "target": "to see",
+                    "phonetic": "hâi hěn",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "คุณค่าของการให้",
+                    "target": "the value of giving",
+                    "phonetic": "khun-ná-khâa khǎwng gaan hâi",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "เขาหวังว่าเขาจะเป็นแรงบันดาลใจให้คนอื่นมาร่วมวิ่งในปีหน้า",
+            "target": "He hopes he can inspire others to join the run next year.",
+            "phonetic": "khǎo wǎng wâa khǎo jà bpen raaeng ban-daan-jai hâi khon ʉ̀ʉn maa rûam wîng nai bpii nâa",
+            "breakdown": [
+                {
+                    "source": "เขาหวังว่า",
+                    "target": "he hopes that",
+                    "phonetic": "khǎo wǎng wâa",
+                    "partOfSpeech": "clause"
+                },
+                {
+                    "source": "เขาจะเป็นแรงบันดาลใจ",
+                    "target": "he will be an inspiration",
+                    "phonetic": "khǎo jà bpen raaeng ban-daan-jai",
+                    "partOfSpeech": "clause"
+                },
+                {
+                    "source": "ให้คนอื่น",
+                    "target": "to others",
+                    "phonetic": "hâi khon ʉ̀ʉn",
+                    "partOfSpeech": "prepositional_phrase"
+                },
+                {
+                    "source": "มาร่วมวิ่ง",
+                    "target": "to come join the run",
+                    "phonetic": "maa rûam wîng",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ในปีหน้า",
+                    "target": "next year",
+                    "phonetic": "nai bpii nâa",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "สำหรับเขา การวิ่งดีต่อทั้งร่างกายและหัวใจ",
+            "target": "Running, he discovered, is good for both his body and his heart.",
+            "phonetic": "sǎm-ràp khǎo gaan wîng dii tɔ̀ɔ tháng râang-gaai láe hǔa-jai",
+            "breakdown": [
+                {
+                    "source": "สำหรับเขา",
+                    "target": "for him",
+                    "phonetic": "sǎm-ràp khǎo",
+                    "partOfSpeech": "prepositional_phrase"
+                },
+                {
+                    "source": "การวิ่ง",
+                    "target": "running",
+                    "phonetic": "gaan wîng",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ดีต่อทั้ง",
+                    "target": "is good for both",
+                    "phonetic": "dii tɔ̀ɔ tháng",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ร่างกาย",
+                    "target": "body",
+                    "phonetic": "râang-gaai",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "หัวใจ",
+                    "target": "heart",
+                    "phonetic": "hǔa-jai",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "จามาลตั้งตารองานวิ่งอย่างตื่นเต้น ดีใจที่ได้มีส่วนร่วมสร้างความแตกต่าง",
+            "target": "Jamal looks forward to the race, excited to make a difference.",
+            "phonetic": "jaa-maal tâng-taa rɔɔ ngaan wîng yàang tʉ̀ʉn-dtên dii-jai thîi dâi mii sùan rûam sâang khwaam dtɛ̀ɛk-dtàang",
+            "breakdown": [
+                {
+                    "source": "จามาล",
+                    "target": "Jamal",
+                    "phonetic": "jaa-maal",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "ตั้งตารอ",
+                    "target": "looks forward to",
+                    "phonetic": "tâng-taa rɔɔ",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "งานวิ่ง",
+                    "target": "the race",
+                    "phonetic": "ngaan wîng",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "อย่างตื่นเต้น",
+                    "target": "excitedly",
+                    "phonetic": "yàang tʉ̀ʉn-dtên",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ดีใจ",
+                    "target": "glad",
+                    "phonetic": "dii-jai",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ที่ได้มีส่วนร่วม",
+                    "target": "to be able to take part",
+                    "phonetic": "thîi dâi mii sùan rûam",
+                    "partOfSpeech": "clause"
+                },
+                {
+                    "source": "สร้างความแตกต่าง",
+                    "target": "make a difference",
+                    "phonetic": "sâang khwaam dtɛ̀ɛk-dtàang",
+                    "partOfSpeech": "verb"
+                }
+            ]
+        },
+        {
+            "source": "ไม่ว่าสำเร็จหรือไม่ เขารู้ว่าประสบการณ์ครั้งนี้มีคุณค่า",
+            "target": "No matter the outcome, he knows the experience will be rewarding.",
+            "phonetic": "mâi wâa sǎm-rèt rʉ̌ʉ mâi khǎo rúu wâa bprà-sòp-gaan khráng níi mii khun-ná-khâa",
+            "breakdown": [
+                {
+                    "source": "ไม่ว่า",
+                    "target": "no matter",
+                    "phonetic": "mâi wâa",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "สำเร็จหรือไม่",
+                    "target": "successful or not",
+                    "phonetic": "sǎm-rèt rʉ̌ʉ mâi",
+                    "partOfSpeech": "phrase"
+                },
+                {
+                    "source": "เขา",
+                    "target": "he",
+                    "phonetic": "khǎo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "รู้ว่า",
+                    "target": "knows that",
+                    "phonetic": "rúu wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ประสบการณ์ครั้งนี้",
+                    "target": "this experience",
+                    "phonetic": "bprà-sòp-gaan khráng níi",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "มีคุณค่า",
+                    "target": "has value / is rewarding",
+                    "phonetic": "mii khun-ná-khâa",
+                    "partOfSpeech": "verb"
+                }
+            ]
+        }
+    ],
+    "createdAt": "2025-09-29T23:39:30Z",
+    "updatedAt": "2025-09-30T02:03:38Z",
+    "difficulty": "intermediate",
+    "summary": "วิ่งการกุศลของจามาล: การฝึกซ้อม ทีม แรงบันดาลใจ เป้าหมายการระดมทุน และสุขภาพ"
 }

@@ -1,13 +1,13 @@
 {
-  "bookId": "thai-beginner-2",
-  "name": "Thai Reading Beginner 2",
-  "description": "Slightly longer sentences with basic conjunctions, simple past tense, and descriptive words",
-  "sourceLanguage": "th",
-  "targetLanguage": "en",
-  "createdAt": "2025-09-29T12:00:00Z",
-  "updatedAt": "2025-09-29T12:00:00Z",
-  "category": "language-learning",
-  "difficulty": "Beginner",
-  "imageUrl": "/images/IMG_3515.jpeg",
-  "featured": false
+    "bookId": "thai-beginner-2",
+    "name": "Thai Reading Beginner 2",
+    "description": "Slightly longer sentences with basic conjunctions, simple past tense, and descriptive words",
+    "sourceLanguage": "th",
+    "targetLanguage": "en",
+    "createdAt": "2025-09-29T12:00:00Z",
+    "updatedAt": "2025-09-29T12:00:00Z",
+    "category": "language-learning",
+    "difficulty": "Beginner",
+    "imageUrl": "/images/IMG_3515.jpeg",
+    "featured": false
 }

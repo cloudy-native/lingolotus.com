@@ -1,9 +1,4 @@
-import {
-    Deck,
-    Flashcard,
-    SessionProgress,
-    TranslationFlashcard,
-} from "../types";
+import { Deck, Flashcard, TranslationFlashcard } from "../types";
 
 // Factory function to create a new translation flashcard
 export function createTranslationCard(

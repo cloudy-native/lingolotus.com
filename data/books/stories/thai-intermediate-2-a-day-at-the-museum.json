@@ -1,1331 +1,1331 @@
 {
-  "storyId": "thai-intermediate-2-a-day-at-the-museum",
-  "bookId": "thai-intermediate-2",
-  "language": "th",
-  "title": {
-    "source": "หนึ่งวันที่พิพิธภัณฑ์ศิลปะ",
-    "target": "A Day at the Museum"
-  },
-  "sentences": [
-    {
-      "source": "ก่อนมาเยี่ยมชมพิพิธภัณฑ์ศิลปะประจำเมือง คาร์ลอสได้อ่านเกี่ยวกับนิทรรศการชื่อดังของที่นี่มาก่อน",
-      "target": "Before visiting the city’s art museum, Carlos had read about its famous exhibits.",
-      "phonetic": "gɔ̀ɔn maa yîam-chom phi-phít-tha-phan sǐn-là-bpà bprà-jam mʉang khaa-lót dâi àan gìeow-gàp ní-thát-sa-gan chʉ̂ʉ-dang khǎwng thîi-nîi maa-gɔ̀ɔn",
-      "breakdown": [
-        {
-          "source": "ก่อน",
-          "target": "before",
-          "phonetic": "gɔ̀ɔn",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "มาเยี่ยมชม",
-          "target": "to visit",
-          "phonetic": "maa yîam-chom",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "พิพิธภัณฑ์ศิลปะ",
-          "target": "art museum",
-          "phonetic": "phi-phít-tha-phan sǐn-là-bpà",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ประจำเมือง",
-          "target": "of the city",
-          "phonetic": "bprà-jam mʉang",
-          "partOfSpeech": "adjectival"
-        },
-        {
-          "source": "คาร์ลอส",
-          "target": "Carlos",
-          "phonetic": "khaa-lót",
-          "partOfSpeech": "proper_noun"
-        },
-        {
-          "source": "ได้",
-          "target": "had (aux)",
-          "phonetic": "dâi",
-          "partOfSpeech": "auxiliary"
-        },
-        {
-          "source": "อ่าน",
-          "target": "read",
-          "phonetic": "àan",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "เกี่ยวกับ",
-          "target": "about",
-          "phonetic": "gìeow-gàp",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "นิทรรศการ",
-          "target": "exhibits",
-          "phonetic": "ní-thát-sa-gan",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ชื่อดัง",
-          "target": "famous",
-          "phonetic": "chʉ̂ʉ-dang",
-          "partOfSpeech": "adjective"
-        },
-        {
-          "source": "ของ",
-          "target": "of",
-          "phonetic": "khǎwng",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "ที่นี่",
-          "target": "here",
-          "phonetic": "thîi-nîi",
-          "partOfSpeech": "adverb"
-        },
-        {
-          "source": "มาก่อน",
-          "target": "previously",
-          "phonetic": "maa-gɔ̀ɔn",
-          "partOfSpeech": "adverb"
-        }
-      ]
+    "storyId": "thai-intermediate-2-a-day-at-the-museum",
+    "bookId": "thai-intermediate-2",
+    "language": "th",
+    "title": {
+        "source": "หนึ่งวันที่พิพิธภัณฑ์ศิลปะ",
+        "target": "A Day at the Museum"
     },
-    {
-      "source": "ก่อนหน้านั้นเขาไม่เคยเห็นภาพวาดมากมายในที่เดียวจนถึงวันนั้น",
-      "target": "He had never seen so many paintings in one place until that day.",
-      "phonetic": "gɔ̀ɔn nâa-nán kháo mâi koei hěn phâap-wâat mâak-maai nai thîi diao jon thʉ̌ng wan-nán",
-      "breakdown": [
+    "sentences": [
         {
-          "source": "ก่อนหน้านั้น",
-          "target": "before that",
-          "phonetic": "gɔ̀ɔn nâa-nán",
-          "partOfSpeech": "adverb"
+            "source": "ก่อนมาเยี่ยมชมพิพิธภัณฑ์ศิลปะประจำเมือง คาร์ลอสได้อ่านเกี่ยวกับนิทรรศการชื่อดังของที่นี่มาก่อน",
+            "target": "Before visiting the city’s art museum, Carlos had read about its famous exhibits.",
+            "phonetic": "gɔ̀ɔn maa yîam-chom phi-phít-tha-phan sǐn-là-bpà bprà-jam mʉang khaa-lót dâi àan gìeow-gàp ní-thát-sa-gan chʉ̂ʉ-dang khǎwng thîi-nîi maa-gɔ̀ɔn",
+            "breakdown": [
+                {
+                    "source": "ก่อน",
+                    "target": "before",
+                    "phonetic": "gɔ̀ɔn",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "มาเยี่ยมชม",
+                    "target": "to visit",
+                    "phonetic": "maa yîam-chom",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "พิพิธภัณฑ์ศิลปะ",
+                    "target": "art museum",
+                    "phonetic": "phi-phít-tha-phan sǐn-là-bpà",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ประจำเมือง",
+                    "target": "of the city",
+                    "phonetic": "bprà-jam mʉang",
+                    "partOfSpeech": "adjectival"
+                },
+                {
+                    "source": "คาร์ลอส",
+                    "target": "Carlos",
+                    "phonetic": "khaa-lót",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "ได้",
+                    "target": "had (aux)",
+                    "phonetic": "dâi",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "อ่าน",
+                    "target": "read",
+                    "phonetic": "àan",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เกี่ยวกับ",
+                    "target": "about",
+                    "phonetic": "gìeow-gàp",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "นิทรรศการ",
+                    "target": "exhibits",
+                    "phonetic": "ní-thát-sa-gan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ชื่อดัง",
+                    "target": "famous",
+                    "phonetic": "chʉ̂ʉ-dang",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ของ",
+                    "target": "of",
+                    "phonetic": "khǎwng",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ที่นี่",
+                    "target": "here",
+                    "phonetic": "thîi-nîi",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "มาก่อน",
+                    "target": "previously",
+                    "phonetic": "maa-gɔ̀ɔn",
+                    "partOfSpeech": "adverb"
+                }
+            ]
         },
         {
-          "source": "เขา",
-          "target": "he",
-          "phonetic": "kháo",
-          "partOfSpeech": "pronoun"
+            "source": "ก่อนหน้านั้นเขาไม่เคยเห็นภาพวาดมากมายในที่เดียวจนถึงวันนั้น",
+            "target": "He had never seen so many paintings in one place until that day.",
+            "phonetic": "gɔ̀ɔn nâa-nán kháo mâi koei hěn phâap-wâat mâak-maai nai thîi diao jon thʉ̌ng wan-nán",
+            "breakdown": [
+                {
+                    "source": "ก่อนหน้านั้น",
+                    "target": "before that",
+                    "phonetic": "gɔ̀ɔn nâa-nán",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "เขา",
+                    "target": "he",
+                    "phonetic": "kháo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ไม่เคย",
+                    "target": "never",
+                    "phonetic": "mâi koei",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "เห็น",
+                    "target": "seen",
+                    "phonetic": "hěn",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ภาพวาด",
+                    "target": "paintings",
+                    "phonetic": "phâap-wâat",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "มากมาย",
+                    "target": "so many",
+                    "phonetic": "mâak-maai",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ใน",
+                    "target": "in",
+                    "phonetic": "nai",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ที่เดียว",
+                    "target": "one place",
+                    "phonetic": "thîi diao",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "จนถึง",
+                    "target": "until",
+                    "phonetic": "jon thʉ̌ng",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "วันนั้น",
+                    "target": "that day",
+                    "phonetic": "wan-nán",
+                    "partOfSpeech": "noun"
+                }
+            ]
         },
         {
-          "source": "ไม่เคย",
-          "target": "never",
-          "phonetic": "mâi koei",
-          "partOfSpeech": "adverb"
+            "source": "ทางเข้าที่โอ่อ่าของพิพิธภัณฑ์ซึ่งมีเสาหินอ่อนทำให้เขาตกตะลึง",
+            "target": "The museum’s grand entrance, with its marble columns, left him in awe.",
+            "phonetic": "thaang-khâo thîi ʔôo-àa khǎwng phi-phít-tha-phan sʉ̂ng mii săo hǐn-ɔ̀ɔn tham hâi kháo tòk-tà-lʉng",
+            "breakdown": [
+                {
+                    "source": "ทางเข้า",
+                    "target": "entrance",
+                    "phonetic": "thaang-khâo",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ที่",
+                    "target": "that/which",
+                    "phonetic": "thîi",
+                    "partOfSpeech": "relative_pronoun"
+                },
+                {
+                    "source": "โอ่อ่า",
+                    "target": "grand",
+                    "phonetic": "ʔôo-àa",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ของ",
+                    "target": "of",
+                    "phonetic": "khǎwng",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "พิพิธภัณฑ์",
+                    "target": "museum",
+                    "phonetic": "phi-phít-tha-phan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ซึ่ง",
+                    "target": "which",
+                    "phonetic": "sʉ̂ng",
+                    "partOfSpeech": "relative_pronoun"
+                },
+                {
+                    "source": "มี",
+                    "target": "has",
+                    "phonetic": "mii",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เสาหินอ่อน",
+                    "target": "marble columns",
+                    "phonetic": "sǎo hǐn-ɔ̀ɔn",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ทำให้",
+                    "target": "made",
+                    "phonetic": "tham hâi",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เขา",
+                    "target": "him",
+                    "phonetic": "kháo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ตกตะลึง",
+                    "target": "in awe",
+                    "phonetic": "tòk-tà-lʉng",
+                    "partOfSpeech": "verb"
+                }
+            ]
         },
         {
-          "source": "เห็น",
-          "target": "seen",
-          "phonetic": "hěn",
-          "partOfSpeech": "verb"
+            "source": "เขาเริ่มจากโซนเรอเนซองส์ ซึ่งสีสันอันสดใสดึงดูดสายตาของเขา",
+            "target": "He started with the Renaissance section, where vibrant colors caught his eye.",
+            "phonetic": "kháo rœ̂œm jàak soon rœ̄-né-sɔ́ɔng sʉ̂ng sǐi-sǎn an sòt-sǎi dʉng-dùut sǎai-taa khǎwng kháo",
+            "breakdown": [
+                {
+                    "source": "เขา",
+                    "target": "he",
+                    "phonetic": "kháo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "เริ่ม",
+                    "target": "started",
+                    "phonetic": "rœ̂œm",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "จาก",
+                    "target": "with/from",
+                    "phonetic": "jàak",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "โซนเรอเนซองส์",
+                    "target": "Renaissance section",
+                    "phonetic": "soon rœ̄-né-sɔ́ɔng",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ซึ่ง",
+                    "target": "where/which",
+                    "phonetic": "sʉ̂ng",
+                    "partOfSpeech": "relative_pronoun"
+                },
+                {
+                    "source": "สีสัน",
+                    "target": "colors",
+                    "phonetic": "sǐi-sǎn",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "อันสดใส",
+                    "target": "vibrant",
+                    "phonetic": "an sòt-sǎi",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ดึงดูด",
+                    "target": "caught (attracted)",
+                    "phonetic": "dʉng-dùut",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "สายตา",
+                    "target": "eye(s)",
+                    "phonetic": "sǎai-taa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ของเขา",
+                    "target": "of his",
+                    "phonetic": "khǎwng kháo",
+                    "partOfSpeech": "preposition"
+                }
+            ]
         },
         {
-          "source": "ภาพวาด",
-          "target": "paintings",
-          "phonetic": "phâap-wâat",
-          "partOfSpeech": "noun"
+            "source": "ถ้าเขามาเร็วกว่านี้ เขาคงได้เข้าร่วมทัวร์แบบมีไกด์เพื่อรายละเอียดเพิ่มเติม",
+            "target": "If he had arrived earlier, he would have joined a guided tour for more details.",
+            "phonetic": "thâa kháo maa reo gwàa níi kháo khong dâi khâo-rûam thua bɛ̀ɛp mii gai dʉ̂ai rai-lá-ìat phœ̂œm-tə̂əm",
+            "breakdown": [
+                {
+                    "source": "ถ้า",
+                    "target": "if",
+                    "phonetic": "thâa",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "เขา",
+                    "target": "he",
+                    "phonetic": "kháo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "มาเร็วกว่า",
+                    "target": "arrived earlier",
+                    "phonetic": "maa reo gwàa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "นี้",
+                    "target": "than this",
+                    "phonetic": "níi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "เขาคงได้",
+                    "target": "he would have",
+                    "phonetic": "kháo khong dâi",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "เข้าร่วม",
+                    "target": "joined",
+                    "phonetic": "khâo-rûam",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ทัวร์",
+                    "target": "tour",
+                    "phonetic": "thua",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "แบบมีไกด์",
+                    "target": "guided",
+                    "phonetic": "bɛ̀ɛp mii gai",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "เพื่อ",
+                    "target": "for",
+                    "phonetic": "phʉ̂a",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "รายละเอียด",
+                    "target": "details",
+                    "phonetic": "rai-lá-ìat",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เพิ่มเติม",
+                    "target": "additional",
+                    "phonetic": "phœ̂œm-tə̂əm",
+                    "partOfSpeech": "adjective"
+                }
+            ]
         },
         {
-          "source": "มากมาย",
-          "target": "so many",
-          "phonetic": "mâak-maai",
-          "partOfSpeech": "adverb"
+            "source": "ภาพวาดหนึ่ง ภาพเหมือนสตรี ทำให้รู้สึกเหมือนเธอกำลังเล่าเรื่องด้วยสายตา",
+            "target": "One painting, a portrait of a woman, seemed to tell a story through her eyes.",
+            "phonetic": "phâap-wâat nʉ̀ng phâap mʉ̄an sà-trii tham hâi rúu-sʉ̀k mʉ̌an thoe gam-lang lâo-rʉ̂ang dûai sǎai-taa",
+            "breakdown": [
+                {
+                    "source": "ภาพวาด",
+                    "target": "painting",
+                    "phonetic": "phâap-wâat",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "หนึ่ง",
+                    "target": "one",
+                    "phonetic": "nʉ̀ng",
+                    "partOfSpeech": "numeral"
+                },
+                {
+                    "source": "ภาพเหมือน",
+                    "target": "portrait",
+                    "phonetic": "phâap mʉ̄an",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "สตรี",
+                    "target": "woman",
+                    "phonetic": "sà-trii",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ทำให้",
+                    "target": "made",
+                    "phonetic": "tham hâi",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "รู้สึก",
+                    "target": "feel",
+                    "phonetic": "rúu-sʉ̀k",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เหมือน",
+                    "target": "as if",
+                    "phonetic": "mʉ̌an",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "เธอ",
+                    "target": "she/her",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "กำลัง",
+                    "target": "(progressive)",
+                    "phonetic": "gam-lang",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "เล่าเรื่อง",
+                    "target": "tell a story",
+                    "phonetic": "lâo-rʉ̂ang",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ด้วย",
+                    "target": "through",
+                    "phonetic": "dûai",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "สายตา",
+                    "target": "her eyes",
+                    "phonetic": "sǎai-taa",
+                    "partOfSpeech": "noun"
+                }
+            ]
         },
         {
-          "source": "ใน",
-          "target": "in",
-          "phonetic": "nai",
-          "partOfSpeech": "preposition"
+            "source": "คาร์ลอสสงสัยว่าชีวิตของเธอเมื่อหลายศตวรรษก่อนเป็นอย่างไร",
+            "target": "Carlos wondered what her life had been like centuries ago.",
+            "phonetic": "khaa-lót sǒng-sǎi wâa chii-wít khǎwng thoe mʉ̂a lǎai sàt-dtà-wát gɔ̀ɔn bpen yàang-rai",
+            "breakdown": [
+                {
+                    "source": "คาร์ลอส",
+                    "target": "Carlos",
+                    "phonetic": "khaa-lót",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "สงสัยว่า",
+                    "target": "wondered",
+                    "phonetic": "sǒng-sǎi wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ชีวิต",
+                    "target": "life",
+                    "phonetic": "chii-wít",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ของ",
+                    "target": "of",
+                    "phonetic": "khǎwng",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "เธอ",
+                    "target": "her",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "เมื่อ",
+                    "target": "when",
+                    "phonetic": "mʉ̂a",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "หลายศตวรรษ",
+                    "target": "centuries",
+                    "phonetic": "lǎai sàt-dtà-wát",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ก่อน",
+                    "target": "ago/before",
+                    "phonetic": "gɔ̀ɔn",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "เป็นอย่างไร",
+                    "target": "was like?",
+                    "phonetic": "bpen yàang-rai",
+                    "partOfSpeech": "verb"
+                }
+            ]
         },
         {
-          "source": "ที่เดียว",
-          "target": "one place",
-          "phonetic": "thîi diao",
-          "partOfSpeech": "noun"
+            "source": "เขาพบภัณฑารักษ์คนหนึ่งซึ่งอธิบายว่า ศิลปินคนนี้เคยอาศัยอยู่ที่เมืองฟลอเรนซ์",
+            "target": "He met a docent who explained that the artist had lived in Florence.",
+            "phonetic": "kháo phóp phan-thaa-rák khon nʉ̀ng sʉ̂ng à-thí-baai wâa sǐn-lá-bpin khon níi khoei aa-sǎi yùu thîi mʉang flɔɔ-rén",
+            "breakdown": [
+                {
+                    "source": "เขา",
+                    "target": "he",
+                    "phonetic": "kháo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "พบ",
+                    "target": "met",
+                    "phonetic": "phóp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ภัณฑารักษ์",
+                    "target": "docent/curator",
+                    "phonetic": "phan-thaa-rák",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "คนหนึ่ง",
+                    "target": "one person",
+                    "phonetic": "khon nʉ̀ng",
+                    "partOfSpeech": "classifier"
+                },
+                {
+                    "source": "ซึ่ง",
+                    "target": "who",
+                    "phonetic": "sʉ̂ng",
+                    "partOfSpeech": "relative_pronoun"
+                },
+                {
+                    "source": "อธิบายว่า",
+                    "target": "explained that",
+                    "phonetic": "à-thí-baai wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ศิลปิน",
+                    "target": "artist",
+                    "phonetic": "sǐn-lá-bpin",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "คนนี้",
+                    "target": "this (person)",
+                    "phonetic": "khon níi",
+                    "partOfSpeech": "determiner"
+                },
+                {
+                    "source": "เคยอาศัยอยู่",
+                    "target": "had lived",
+                    "phonetic": "khoei aa-sǎi yùu",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ที่",
+                    "target": "at/in",
+                    "phonetic": "thîi",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "เมืองฟลอเรนซ์",
+                    "target": "Florence",
+                    "phonetic": "mʉang flɔɔ-rén",
+                    "partOfSpeech": "proper_noun"
+                }
+            ]
         },
         {
-          "source": "จนถึง",
-          "target": "until",
-          "phonetic": "jon thʉ̌ng",
-          "partOfSpeech": "preposition"
+            "source": "ความหลงใหลในศิลปะของภัณฑารักษ์ทำให้คาร์ลอสรักภาพวาดมากขึ้น",
+            "target": "The docent’s passion for art made Carlos appreciate the paintings even more.",
+            "phonetic": "khwaam lǒng-lǎi nai sǐn-là-bpà khǎwng phan-thaa-rák tham hâi khaa-lót rák phâap-wâat mâak khʉ̂n",
+            "breakdown": [
+                {
+                    "source": "ความหลงใหล",
+                    "target": "passion",
+                    "phonetic": "khwaam lǒng-lǎi",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ใน",
+                    "target": "in",
+                    "phonetic": "nai",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ศิลปะ",
+                    "target": "art",
+                    "phonetic": "sǐn-là-bpà",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ของ",
+                    "target": "of",
+                    "phonetic": "khǎwng",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ภัณฑารักษ์",
+                    "target": "the docent",
+                    "phonetic": "phan-thaa-rák",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ทำให้",
+                    "target": "made",
+                    "phonetic": "tham hâi",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "คาร์ลอส",
+                    "target": "Carlos",
+                    "phonetic": "khaa-lót",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "รัก",
+                    "target": "appreciate/love",
+                    "phonetic": "rák",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ภาพวาด",
+                    "target": "paintings",
+                    "phonetic": "phâap-wâat",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "มากขึ้น",
+                    "target": "even more",
+                    "phonetic": "mâak khʉ̂n",
+                    "partOfSpeech": "adverb"
+                }
+            ]
         },
         {
-          "source": "วันนั้น",
-          "target": "that day",
-          "phonetic": "wan-nán",
-          "partOfSpeech": "noun"
+            "source": "เขาอาจใช้เวลาหลายชั่วโมงศึกษาทุกเส้นแปรงได้ แต่เวลาก็มีจำกัด",
+            "target": "He could have spent hours studying each brushstroke, but time was limited.",
+            "phonetic": "kháo àat chái wee-laa lǎai chûa-moong sʉ̀k-sǎa thúk sên-bprɛɛng dâi dtàe wee-laa gɔ̂ɔ mii jam-gàt",
+            "breakdown": [
+                {
+                    "source": "เขา",
+                    "target": "he",
+                    "phonetic": "kháo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "อาจ",
+                    "target": "could",
+                    "phonetic": "àat",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "ใช้เวลา",
+                    "target": "spend time",
+                    "phonetic": "chái wee-laa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "หลายชั่วโมง",
+                    "target": "hours",
+                    "phonetic": "lǎai chûa-moong",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ศึกษา",
+                    "target": "studying",
+                    "phonetic": "sʉ̀k-sǎa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ทุก",
+                    "target": "each",
+                    "phonetic": "thúk",
+                    "partOfSpeech": "determiner"
+                },
+                {
+                    "source": "เส้นแปรง",
+                    "target": "brushstroke",
+                    "phonetic": "sên-bprɛɛng",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ได้",
+                    "target": "(possibility)",
+                    "phonetic": "dâi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "แต่",
+                    "target": "but",
+                    "phonetic": "dtàe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "เวลา",
+                    "target": "time",
+                    "phonetic": "wee-laa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ก็มีจำกัด",
+                    "target": "was limited",
+                    "phonetic": "gɔ̂ɔ mii jam-gàt",
+                    "partOfSpeech": "verb"
+                }
+            ]
+        },
+        {
+            "source": "ในโซนศิลปะสมัยใหม่ ประติมากรรมเชิงนามธรรมทำให้เขางุนงงแต่ก็หลงใหล",
+            "target": "In the modern art wing, abstract sculptures puzzled and fascinated him.",
+            "phonetic": "nai soon sǐn-là-bpà sà-măi mài bprà-dti-maa-gam choeng naam-tham tham hâi kháo ngun-ngong dtàe gɔ̂ɔ lǒng-lǎi",
+            "breakdown": [
+                {
+                    "source": "ใน",
+                    "target": "in",
+                    "phonetic": "nai",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "โซนศิลปะสมัยใหม่",
+                    "target": "modern art wing",
+                    "phonetic": "soon sǐn-là-bpà sà-măi mài",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ประติมากรรม",
+                    "target": "sculptures",
+                    "phonetic": "bprà-dti-maa-gam",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เชิงนามธรรม",
+                    "target": "abstract",
+                    "phonetic": "choeng naam-tham",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ทำให้",
+                    "target": "made",
+                    "phonetic": "tham hâi",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เขา",
+                    "target": "him",
+                    "phonetic": "kháo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "งุนงง",
+                    "target": "puzzled",
+                    "phonetic": "ngun-ngong",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "แต่ก็",
+                    "target": "but also",
+                    "phonetic": "dtàe gɔ̂ɔ",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "หลงใหล",
+                    "target": "fascinated",
+                    "phonetic": "lǒng-lǎi",
+                    "partOfSpeech": "verb"
+                }
+            ]
+        },
+        {
+            "source": "เขาได้ยินผู้มาเยือนสองคนถกเถียงกันเรื่องความหมายของประติมากรรมสีแดงสด",
+            "target": "He overheard two visitors debating the meaning of a bright red statue.",
+            "phonetic": "kháo dâi-yin phûu maa-yʉ̄an sɔ̌ɔng khon thòk-thǐang gan rʉ̂ang khwaam-mǎai khǎwng bprà-dti-maa-gam sǐi dɛɛng sòt",
+            "breakdown": [
+                {
+                    "source": "เขาได้ยิน",
+                    "target": "he overheard",
+                    "phonetic": "kháo dâi-yin",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ผู้มาเยือน",
+                    "target": "visitors",
+                    "phonetic": "phûu maa-yʉ̄an",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "สองคน",
+                    "target": "two (people)",
+                    "phonetic": "sɔ̌ɔng khon",
+                    "partOfSpeech": "numeral"
+                },
+                {
+                    "source": "ถกเถียงกัน",
+                    "target": "debating",
+                    "phonetic": "thòk-thǐang gan",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เรื่อง",
+                    "target": "about",
+                    "phonetic": "rʉ̂ang",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ความหมาย",
+                    "target": "the meaning",
+                    "phonetic": "khwaam-mǎai",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ของ",
+                    "target": "of",
+                    "phonetic": "khǎwng",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ประติมากรรม",
+                    "target": "statue/sculpture",
+                    "phonetic": "bprà-dti-maa-gam",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "สีแดงสด",
+                    "target": "bright red",
+                    "phonetic": "sǐi dɛɛng sòt",
+                    "partOfSpeech": "adjective"
+                }
+            ]
+        },
+        {
+            "source": "คาร์ลอสร่วมวงสนทนา แบ่งปันความคิดของตนเกี่ยวกับผลงานศิลปะ",
+            "target": "Carlos joined their conversation, sharing his own thoughts about the artwork.",
+            "phonetic": "khaa-lót rûam wong sǒn-thá-naa bàeng-bpan khwaam-khít khǎwng ton gìeow-gàp phǒn-ngaan sǐn-là-bpà",
+            "breakdown": [
+                {
+                    "source": "คาร์ลอส",
+                    "target": "Carlos",
+                    "phonetic": "khaa-lót",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "ร่วมวงสนทนา",
+                    "target": "joined the conversation",
+                    "phonetic": "rûam wong sǒn-thá-naa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "แบ่งปัน",
+                    "target": "sharing",
+                    "phonetic": "bàeng-bpan",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ความคิด",
+                    "target": "thoughts",
+                    "phonetic": "khwaam-khít",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ของตน",
+                    "target": "his own",
+                    "phonetic": "khǎwng ton",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "เกี่ยวกับ",
+                    "target": "about",
+                    "phonetic": "gìeow-gàp",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ผลงานศิลปะ",
+                    "target": "the artwork",
+                    "phonetic": "phǒn-ngaan sǐn-là-bpà",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "พวกเขาแนะนำให้เขาไปชมแกลเลอรีเล็กๆ ใกล้ๆ ซึ่งเขายังไม่เคยรู้จัก",
+            "target": "They suggested he visit a smaller gallery nearby, which he hadn’t known about.",
+            "phonetic": "phûak-kháo náe-nam hâi kháo bpai chom gɛɛ-ləə-rîi lék-lék glâi-glâi sʉ̂ng kháo yang mâi koei rúu-jak",
+            "breakdown": [
+                {
+                    "source": "พวกเขา",
+                    "target": "they",
+                    "phonetic": "phûak-kháo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "แนะนำ",
+                    "target": "suggested",
+                    "phonetic": "náe-nam",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ให้เขาไปชม",
+                    "target": "that he visit",
+                    "phonetic": "hâi kháo bpai chom",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "แกลเลอรีเล็กๆ",
+                    "target": "a small gallery",
+                    "phonetic": "gɛɛ-ləə-rîi lék-lék",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ใกล้ๆ",
+                    "target": "nearby",
+                    "phonetic": "glâi-glâi",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ซึ่ง",
+                    "target": "which",
+                    "phonetic": "sʉ̂ng",
+                    "partOfSpeech": "relative_pronoun"
+                },
+                {
+                    "source": "เขา",
+                    "target": "he",
+                    "phonetic": "kháo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ยังไม่เคยรู้จัก",
+                    "target": "hadn’t known",
+                    "phonetic": "yang mâi koei rúu-jak",
+                    "partOfSpeech": "verb"
+                }
+            ]
+        },
+        {
+            "source": "หลังจากเดินชม เขาแวะคาเฟ่ของพิพิธภัณฑ์เพื่อดื่มกาแฟหนึ่งแก้ว",
+            "target": "After exploring, he stopped at the museum café for a cup of coffee.",
+            "phonetic": "lǎng-jàak doen-chom kháo wɛ́ khaa-fê khǎwng phi-phít-tha-phan phʉ̂a dʉ̀ʉm gaa-fɛɛ nʉ̀ng gɛ̂ɛo",
+            "breakdown": [
+                {
+                    "source": "หลังจาก",
+                    "target": "after",
+                    "phonetic": "lǎng-jàak",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "เดินชม",
+                    "target": "exploring",
+                    "phonetic": "doen-chom",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เขา",
+                    "target": "he",
+                    "phonetic": "kháo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "แวะ",
+                    "target": "stopped by",
+                    "phonetic": "wɛ́",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "คาเฟ่",
+                    "target": "café",
+                    "phonetic": "khaa-fê",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ของ",
+                    "target": "of",
+                    "phonetic": "khǎwng",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "พิพิธภัณฑ์",
+                    "target": "museum",
+                    "phonetic": "phi-phít-tha-phan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เพื่อ",
+                    "target": "to",
+                    "phonetic": "phʉ̂a",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ดื่ม",
+                    "target": "drink",
+                    "phonetic": "dʉ̀ʉm",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "กาแฟ",
+                    "target": "coffee",
+                    "phonetic": "gaa-fɛɛ",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "หนึ่งแก้ว",
+                    "target": "one cup",
+                    "phonetic": "nʉ̀ng gɛ̂ɛo",
+                    "partOfSpeech": "classifier"
+                }
+            ]
+        },
+        {
+            "source": "วิวเส้นขอบฟ้าของเมืองจากคาเฟ่นั้นสวยงามตระการตา",
+            "target": "The view of the city skyline from the café was breathtakingly beautiful.",
+            "phonetic": "wiw sên-khɔ̀ɔp-fáa khǎwng mʉang jàak khaa-fê nán sǔai ngaam trà-gaan-dtaa",
+            "breakdown": [
+                {
+                    "source": "วิว",
+                    "target": "view",
+                    "phonetic": "wiw",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เส้นขอบฟ้า",
+                    "target": "skyline",
+                    "phonetic": "sên-khɔ̀ɔp-fáa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ของเมือง",
+                    "target": "of the city",
+                    "phonetic": "khǎwng mʉang",
+                    "partOfSpeech": "prepositional"
+                },
+                {
+                    "source": "จาก",
+                    "target": "from",
+                    "phonetic": "jàak",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "คาเฟ่นั้น",
+                    "target": "that café",
+                    "phonetic": "khaa-fê nán",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "สวยงาม",
+                    "target": "beautiful",
+                    "phonetic": "sǔai ngaam",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ตระการตา",
+                    "target": "breathtaking",
+                    "phonetic": "trà-gaan-dtaa",
+                    "partOfSpeech": "adjective"
+                }
+            ]
+        },
+        {
+            "source": "คาร์ลอสตัดสินใจว่าจะกลับมาที่พิพิธภัณฑ์พร้อมสมุดสเก็ตช์คราวหน้า",
+            "target": "Carlos decided he would return to the museum with his sketchbook next time.",
+            "phonetic": "khaa-lót dtàt-sǐn-jai wâa jà glàp maa thîi phi-phít-tha-phan phrɔ́ɔm sà-mùt sà-gét khraao nâa",
+            "breakdown": [
+                {
+                    "source": "คาร์ลอส",
+                    "target": "Carlos",
+                    "phonetic": "khaa-lót",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "ตัดสินใจว่า",
+                    "target": "decided that",
+                    "phonetic": "dtàt-sǐn-jai wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "จะกลับมา",
+                    "target": "would return",
+                    "phonetic": "jà glàp maa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ที่พิพิธภัณฑ์",
+                    "target": "to the museum",
+                    "phonetic": "thîi phi-phít-tha-phan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "พร้อม",
+                    "target": "with",
+                    "phonetic": "phrɔ́ɔm",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "สมุดสเก็ตช์",
+                    "target": "sketchbook",
+                    "phonetic": "sà-mùt sà-gét",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "คราวหน้า",
+                    "target": "next time",
+                    "phonetic": "khraao nâa",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "ศิลปะ เขาค้นพบว่า เป็นวิธีที่เชื่อมผู้คนข้ามกาลเวลาและวัฒนธรรม",
+            "target": "Art, he realized, had a way of connecting people across time and cultures.",
+            "phonetic": "sǐn-là-bpà kháo khón-phóp wâa bpen wí-thii thîi chʉ̂am phûu-khon khâam gaan-wee-laa láe wát-thá-na-tham",
+            "breakdown": [
+                {
+                    "source": "ศิลปะ",
+                    "target": "art",
+                    "phonetic": "sǐn-là-bpà",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เขา",
+                    "target": "he",
+                    "phonetic": "kháo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ค้นพบว่า",
+                    "target": "realized/discovered that",
+                    "phonetic": "khón-phóp wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เป็น",
+                    "target": "was/is",
+                    "phonetic": "bpen",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "วิธี",
+                    "target": "way/method",
+                    "phonetic": "wí-thii",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ที่",
+                    "target": "that",
+                    "phonetic": "thîi",
+                    "partOfSpeech": "relative_pronoun"
+                },
+                {
+                    "source": "เชื่อม",
+                    "target": "connecting",
+                    "phonetic": "chʉ̂am",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ผู้คน",
+                    "target": "people",
+                    "phonetic": "phûu-khon",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ข้าม",
+                    "target": "across",
+                    "phonetic": "khâam",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "กาลเวลา",
+                    "target": "time",
+                    "phonetic": "gaan-wee-laa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "วัฒนธรรม",
+                    "target": "cultures",
+                    "phonetic": "wát-thá-na-tham",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "เขาจากไปพร้อมแรงบันดาลใจที่จะเรียนรู้มรดกศิลปะของโลกมากขึ้น",
+            "target": "He left feeling inspired to learn more about the world’s artistic heritage.",
+            "phonetic": "kháo jàak-bpai phráwm raaeng ban-daan-jai thîi jà rian-rúu mɔ̌ɔ-rá-dòk sǐn-là-bpà khǎwng lôok mâak khʉ̂n",
+            "breakdown": [
+                {
+                    "source": "เขา",
+                    "target": "he",
+                    "phonetic": "kháo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "จากไป",
+                    "target": "left",
+                    "phonetic": "jàak-bpai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "พร้อม",
+                    "target": "with",
+                    "phonetic": "phráwm",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "แรงบันดาลใจ",
+                    "target": "inspiration",
+                    "phonetic": "raaeng ban-daan-jai",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ที่จะ",
+                    "target": "to",
+                    "phonetic": "thîi jà",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "เรียนรู้",
+                    "target": "learn",
+                    "phonetic": "rian-rúu",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "มรดกศิลปะ",
+                    "target": "artistic heritage",
+                    "phonetic": "mɔ̌ɔ-rá-dòk sǐn-là-bpà",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ของโลก",
+                    "target": "of the world",
+                    "phonetic": "khǎwng lôok",
+                    "partOfSpeech": "prepositional"
+                },
+                {
+                    "source": "มากขึ้น",
+                    "target": "more",
+                    "phonetic": "mâak khʉ̂n",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "ถ้าเขาเรียนประวัติศาสตร์ศิลปะ อนาคตเขาอาจเป็นภัณฑารักษ์ได้",
+            "target": "If he studies art history, he might pursue a career in curation someday.",
+            "phonetic": "thâa kháo rian bprà-wàt-sàat sǐn-là-bpà a-naa-khót kháo àat bpen phan-thaa-rák dâi",
+            "breakdown": [
+                {
+                    "source": "ถ้า",
+                    "target": "if",
+                    "phonetic": "thâa",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "เขา",
+                    "target": "he",
+                    "phonetic": "kháo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "เรียน",
+                    "target": "studies",
+                    "phonetic": "rian",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ประวัติศาสตร์ศิลปะ",
+                    "target": "art history",
+                    "phonetic": "bprà-wàt-sàat sǐn-là-bpà",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "อนาคต",
+                    "target": "in the future",
+                    "phonetic": "a-naa-khót",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "เขาอาจ",
+                    "target": "he might",
+                    "phonetic": "kháo àat",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "เป็น",
+                    "target": "become",
+                    "phonetic": "bpen",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ภัณฑารักษ์",
+                    "target": "curator",
+                    "phonetic": "phan-thaa-rák",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ได้",
+                    "target": "(possibility)",
+                    "phonetic": "dâi",
+                    "partOfSpeech": "particle"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "source": "ทางเข้าที่โอ่อ่าของพิพิธภัณฑ์ซึ่งมีเสาหินอ่อนทำให้เขาตกตะลึง",
-      "target": "The museum’s grand entrance, with its marble columns, left him in awe.",
-      "phonetic": "thaang-khâo thîi ʔôo-àa khǎwng phi-phít-tha-phan sʉ̂ng mii săo hǐn-ɔ̀ɔn tham hâi kháo tòk-tà-lʉng",
-      "breakdown": [
-        {
-          "source": "ทางเข้า",
-          "target": "entrance",
-          "phonetic": "thaang-khâo",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ที่",
-          "target": "that/which",
-          "phonetic": "thîi",
-          "partOfSpeech": "relative_pronoun"
-        },
-        {
-          "source": "โอ่อ่า",
-          "target": "grand",
-          "phonetic": "ʔôo-àa",
-          "partOfSpeech": "adjective"
-        },
-        {
-          "source": "ของ",
-          "target": "of",
-          "phonetic": "khǎwng",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "พิพิธภัณฑ์",
-          "target": "museum",
-          "phonetic": "phi-phít-tha-phan",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ซึ่ง",
-          "target": "which",
-          "phonetic": "sʉ̂ng",
-          "partOfSpeech": "relative_pronoun"
-        },
-        {
-          "source": "มี",
-          "target": "has",
-          "phonetic": "mii",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "เสาหินอ่อน",
-          "target": "marble columns",
-          "phonetic": "sǎo hǐn-ɔ̀ɔn",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ทำให้",
-          "target": "made",
-          "phonetic": "tham hâi",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "เขา",
-          "target": "him",
-          "phonetic": "kháo",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "ตกตะลึง",
-          "target": "in awe",
-          "phonetic": "tòk-tà-lʉng",
-          "partOfSpeech": "verb"
-        }
-      ]
-    },
-    {
-      "source": "เขาเริ่มจากโซนเรอเนซองส์ ซึ่งสีสันอันสดใสดึงดูดสายตาของเขา",
-      "target": "He started with the Renaissance section, where vibrant colors caught his eye.",
-      "phonetic": "kháo rœ̂œm jàak soon rœ̄-né-sɔ́ɔng sʉ̂ng sǐi-sǎn an sòt-sǎi dʉng-dùut sǎai-taa khǎwng kháo",
-      "breakdown": [
-        {
-          "source": "เขา",
-          "target": "he",
-          "phonetic": "kháo",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "เริ่ม",
-          "target": "started",
-          "phonetic": "rœ̂œm",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "จาก",
-          "target": "with/from",
-          "phonetic": "jàak",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "โซนเรอเนซองส์",
-          "target": "Renaissance section",
-          "phonetic": "soon rœ̄-né-sɔ́ɔng",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ซึ่ง",
-          "target": "where/which",
-          "phonetic": "sʉ̂ng",
-          "partOfSpeech": "relative_pronoun"
-        },
-        {
-          "source": "สีสัน",
-          "target": "colors",
-          "phonetic": "sǐi-sǎn",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "อันสดใส",
-          "target": "vibrant",
-          "phonetic": "an sòt-sǎi",
-          "partOfSpeech": "adjective"
-        },
-        {
-          "source": "ดึงดูด",
-          "target": "caught (attracted)",
-          "phonetic": "dʉng-dùut",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "สายตา",
-          "target": "eye(s)",
-          "phonetic": "sǎai-taa",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ของเขา",
-          "target": "of his",
-          "phonetic": "khǎwng kháo",
-          "partOfSpeech": "preposition"
-        }
-      ]
-    },
-    {
-      "source": "ถ้าเขามาเร็วกว่านี้ เขาคงได้เข้าร่วมทัวร์แบบมีไกด์เพื่อรายละเอียดเพิ่มเติม",
-      "target": "If he had arrived earlier, he would have joined a guided tour for more details.",
-      "phonetic": "thâa kháo maa reo gwàa níi kháo khong dâi khâo-rûam thua bɛ̀ɛp mii gai dʉ̂ai rai-lá-ìat phœ̂œm-tə̂əm",
-      "breakdown": [
-        {
-          "source": "ถ้า",
-          "target": "if",
-          "phonetic": "thâa",
-          "partOfSpeech": "conjunction"
-        },
-        {
-          "source": "เขา",
-          "target": "he",
-          "phonetic": "kháo",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "มาเร็วกว่า",
-          "target": "arrived earlier",
-          "phonetic": "maa reo gwàa",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "นี้",
-          "target": "than this",
-          "phonetic": "níi",
-          "partOfSpeech": "particle"
-        },
-        {
-          "source": "เขาคงได้",
-          "target": "he would have",
-          "phonetic": "kháo khong dâi",
-          "partOfSpeech": "auxiliary"
-        },
-        {
-          "source": "เข้าร่วม",
-          "target": "joined",
-          "phonetic": "khâo-rûam",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ทัวร์",
-          "target": "tour",
-          "phonetic": "thua",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "แบบมีไกด์",
-          "target": "guided",
-          "phonetic": "bɛ̀ɛp mii gai",
-          "partOfSpeech": "adjective"
-        },
-        {
-          "source": "เพื่อ",
-          "target": "for",
-          "phonetic": "phʉ̂a",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "รายละเอียด",
-          "target": "details",
-          "phonetic": "rai-lá-ìat",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "เพิ่มเติม",
-          "target": "additional",
-          "phonetic": "phœ̂œm-tə̂əm",
-          "partOfSpeech": "adjective"
-        }
-      ]
-    },
-    {
-      "source": "ภาพวาดหนึ่ง ภาพเหมือนสตรี ทำให้รู้สึกเหมือนเธอกำลังเล่าเรื่องด้วยสายตา",
-      "target": "One painting, a portrait of a woman, seemed to tell a story through her eyes.",
-      "phonetic": "phâap-wâat nʉ̀ng phâap mʉ̄an sà-trii tham hâi rúu-sʉ̀k mʉ̌an thoe gam-lang lâo-rʉ̂ang dûai sǎai-taa",
-      "breakdown": [
-        {
-          "source": "ภาพวาด",
-          "target": "painting",
-          "phonetic": "phâap-wâat",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "หนึ่ง",
-          "target": "one",
-          "phonetic": "nʉ̀ng",
-          "partOfSpeech": "numeral"
-        },
-        {
-          "source": "ภาพเหมือน",
-          "target": "portrait",
-          "phonetic": "phâap mʉ̄an",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "สตรี",
-          "target": "woman",
-          "phonetic": "sà-trii",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ทำให้",
-          "target": "made",
-          "phonetic": "tham hâi",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "รู้สึก",
-          "target": "feel",
-          "phonetic": "rúu-sʉ̀k",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "เหมือน",
-          "target": "as if",
-          "phonetic": "mʉ̌an",
-          "partOfSpeech": "conjunction"
-        },
-        {
-          "source": "เธอ",
-          "target": "she/her",
-          "phonetic": "thoe",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "กำลัง",
-          "target": "(progressive)",
-          "phonetic": "gam-lang",
-          "partOfSpeech": "auxiliary"
-        },
-        {
-          "source": "เล่าเรื่อง",
-          "target": "tell a story",
-          "phonetic": "lâo-rʉ̂ang",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ด้วย",
-          "target": "through",
-          "phonetic": "dûai",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "สายตา",
-          "target": "her eyes",
-          "phonetic": "sǎai-taa",
-          "partOfSpeech": "noun"
-        }
-      ]
-    },
-    {
-      "source": "คาร์ลอสสงสัยว่าชีวิตของเธอเมื่อหลายศตวรรษก่อนเป็นอย่างไร",
-      "target": "Carlos wondered what her life had been like centuries ago.",
-      "phonetic": "khaa-lót sǒng-sǎi wâa chii-wít khǎwng thoe mʉ̂a lǎai sàt-dtà-wát gɔ̀ɔn bpen yàang-rai",
-      "breakdown": [
-        {
-          "source": "คาร์ลอส",
-          "target": "Carlos",
-          "phonetic": "khaa-lót",
-          "partOfSpeech": "proper_noun"
-        },
-        {
-          "source": "สงสัยว่า",
-          "target": "wondered",
-          "phonetic": "sǒng-sǎi wâa",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ชีวิต",
-          "target": "life",
-          "phonetic": "chii-wít",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ของ",
-          "target": "of",
-          "phonetic": "khǎwng",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "เธอ",
-          "target": "her",
-          "phonetic": "thoe",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "เมื่อ",
-          "target": "when",
-          "phonetic": "mʉ̂a",
-          "partOfSpeech": "conjunction"
-        },
-        {
-          "source": "หลายศตวรรษ",
-          "target": "centuries",
-          "phonetic": "lǎai sàt-dtà-wát",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ก่อน",
-          "target": "ago/before",
-          "phonetic": "gɔ̀ɔn",
-          "partOfSpeech": "adverb"
-        },
-        {
-          "source": "เป็นอย่างไร",
-          "target": "was like?",
-          "phonetic": "bpen yàang-rai",
-          "partOfSpeech": "verb"
-        }
-      ]
-    },
-    {
-      "source": "เขาพบภัณฑารักษ์คนหนึ่งซึ่งอธิบายว่า ศิลปินคนนี้เคยอาศัยอยู่ที่เมืองฟลอเรนซ์",
-      "target": "He met a docent who explained that the artist had lived in Florence.",
-      "phonetic": "kháo phóp phan-thaa-rák khon nʉ̀ng sʉ̂ng à-thí-baai wâa sǐn-lá-bpin khon níi khoei aa-sǎi yùu thîi mʉang flɔɔ-rén",
-      "breakdown": [
-        {
-          "source": "เขา",
-          "target": "he",
-          "phonetic": "kháo",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "พบ",
-          "target": "met",
-          "phonetic": "phóp",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ภัณฑารักษ์",
-          "target": "docent/curator",
-          "phonetic": "phan-thaa-rák",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "คนหนึ่ง",
-          "target": "one person",
-          "phonetic": "khon nʉ̀ng",
-          "partOfSpeech": "classifier"
-        },
-        {
-          "source": "ซึ่ง",
-          "target": "who",
-          "phonetic": "sʉ̂ng",
-          "partOfSpeech": "relative_pronoun"
-        },
-        {
-          "source": "อธิบายว่า",
-          "target": "explained that",
-          "phonetic": "à-thí-baai wâa",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ศิลปิน",
-          "target": "artist",
-          "phonetic": "sǐn-lá-bpin",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "คนนี้",
-          "target": "this (person)",
-          "phonetic": "khon níi",
-          "partOfSpeech": "determiner"
-        },
-        {
-          "source": "เคยอาศัยอยู่",
-          "target": "had lived",
-          "phonetic": "khoei aa-sǎi yùu",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ที่",
-          "target": "at/in",
-          "phonetic": "thîi",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "เมืองฟลอเรนซ์",
-          "target": "Florence",
-          "phonetic": "mʉang flɔɔ-rén",
-          "partOfSpeech": "proper_noun"
-        }
-      ]
-    },
-    {
-      "source": "ความหลงใหลในศิลปะของภัณฑารักษ์ทำให้คาร์ลอสรักภาพวาดมากขึ้น",
-      "target": "The docent’s passion for art made Carlos appreciate the paintings even more.",
-      "phonetic": "khwaam lǒng-lǎi nai sǐn-là-bpà khǎwng phan-thaa-rák tham hâi khaa-lót rák phâap-wâat mâak khʉ̂n",
-      "breakdown": [
-        {
-          "source": "ความหลงใหล",
-          "target": "passion",
-          "phonetic": "khwaam lǒng-lǎi",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ใน",
-          "target": "in",
-          "phonetic": "nai",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "ศิลปะ",
-          "target": "art",
-          "phonetic": "sǐn-là-bpà",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ของ",
-          "target": "of",
-          "phonetic": "khǎwng",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "ภัณฑารักษ์",
-          "target": "the docent",
-          "phonetic": "phan-thaa-rák",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ทำให้",
-          "target": "made",
-          "phonetic": "tham hâi",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "คาร์ลอส",
-          "target": "Carlos",
-          "phonetic": "khaa-lót",
-          "partOfSpeech": "proper_noun"
-        },
-        {
-          "source": "รัก",
-          "target": "appreciate/love",
-          "phonetic": "rák",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ภาพวาด",
-          "target": "paintings",
-          "phonetic": "phâap-wâat",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "มากขึ้น",
-          "target": "even more",
-          "phonetic": "mâak khʉ̂n",
-          "partOfSpeech": "adverb"
-        }
-      ]
-    },
-    {
-      "source": "เขาอาจใช้เวลาหลายชั่วโมงศึกษาทุกเส้นแปรงได้ แต่เวลาก็มีจำกัด",
-      "target": "He could have spent hours studying each brushstroke, but time was limited.",
-      "phonetic": "kháo àat chái wee-laa lǎai chûa-moong sʉ̀k-sǎa thúk sên-bprɛɛng dâi dtàe wee-laa gɔ̂ɔ mii jam-gàt",
-      "breakdown": [
-        {
-          "source": "เขา",
-          "target": "he",
-          "phonetic": "kháo",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "อาจ",
-          "target": "could",
-          "phonetic": "àat",
-          "partOfSpeech": "auxiliary"
-        },
-        {
-          "source": "ใช้เวลา",
-          "target": "spend time",
-          "phonetic": "chái wee-laa",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "หลายชั่วโมง",
-          "target": "hours",
-          "phonetic": "lǎai chûa-moong",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ศึกษา",
-          "target": "studying",
-          "phonetic": "sʉ̀k-sǎa",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ทุก",
-          "target": "each",
-          "phonetic": "thúk",
-          "partOfSpeech": "determiner"
-        },
-        {
-          "source": "เส้นแปรง",
-          "target": "brushstroke",
-          "phonetic": "sên-bprɛɛng",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ได้",
-          "target": "(possibility)",
-          "phonetic": "dâi",
-          "partOfSpeech": "particle"
-        },
-        {
-          "source": "แต่",
-          "target": "but",
-          "phonetic": "dtàe",
-          "partOfSpeech": "conjunction"
-        },
-        {
-          "source": "เวลา",
-          "target": "time",
-          "phonetic": "wee-laa",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ก็มีจำกัด",
-          "target": "was limited",
-          "phonetic": "gɔ̂ɔ mii jam-gàt",
-          "partOfSpeech": "verb"
-        }
-      ]
-    },
-    {
-      "source": "ในโซนศิลปะสมัยใหม่ ประติมากรรมเชิงนามธรรมทำให้เขางุนงงแต่ก็หลงใหล",
-      "target": "In the modern art wing, abstract sculptures puzzled and fascinated him.",
-      "phonetic": "nai soon sǐn-là-bpà sà-măi mài bprà-dti-maa-gam choeng naam-tham tham hâi kháo ngun-ngong dtàe gɔ̂ɔ lǒng-lǎi",
-      "breakdown": [
-        {
-          "source": "ใน",
-          "target": "in",
-          "phonetic": "nai",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "โซนศิลปะสมัยใหม่",
-          "target": "modern art wing",
-          "phonetic": "soon sǐn-là-bpà sà-măi mài",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ประติมากรรม",
-          "target": "sculptures",
-          "phonetic": "bprà-dti-maa-gam",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "เชิงนามธรรม",
-          "target": "abstract",
-          "phonetic": "choeng naam-tham",
-          "partOfSpeech": "adjective"
-        },
-        {
-          "source": "ทำให้",
-          "target": "made",
-          "phonetic": "tham hâi",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "เขา",
-          "target": "him",
-          "phonetic": "kháo",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "งุนงง",
-          "target": "puzzled",
-          "phonetic": "ngun-ngong",
-          "partOfSpeech": "adjective"
-        },
-        {
-          "source": "แต่ก็",
-          "target": "but also",
-          "phonetic": "dtàe gɔ̂ɔ",
-          "partOfSpeech": "conjunction"
-        },
-        {
-          "source": "หลงใหล",
-          "target": "fascinated",
-          "phonetic": "lǒng-lǎi",
-          "partOfSpeech": "verb"
-        }
-      ]
-    },
-    {
-      "source": "เขาได้ยินผู้มาเยือนสองคนถกเถียงกันเรื่องความหมายของประติมากรรมสีแดงสด",
-      "target": "He overheard two visitors debating the meaning of a bright red statue.",
-      "phonetic": "kháo dâi-yin phûu maa-yʉ̄an sɔ̌ɔng khon thòk-thǐang gan rʉ̂ang khwaam-mǎai khǎwng bprà-dti-maa-gam sǐi dɛɛng sòt",
-      "breakdown": [
-        {
-          "source": "เขาได้ยิน",
-          "target": "he overheard",
-          "phonetic": "kháo dâi-yin",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ผู้มาเยือน",
-          "target": "visitors",
-          "phonetic": "phûu maa-yʉ̄an",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "สองคน",
-          "target": "two (people)",
-          "phonetic": "sɔ̌ɔng khon",
-          "partOfSpeech": "numeral"
-        },
-        {
-          "source": "ถกเถียงกัน",
-          "target": "debating",
-          "phonetic": "thòk-thǐang gan",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "เรื่อง",
-          "target": "about",
-          "phonetic": "rʉ̂ang",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "ความหมาย",
-          "target": "the meaning",
-          "phonetic": "khwaam-mǎai",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ของ",
-          "target": "of",
-          "phonetic": "khǎwng",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "ประติมากรรม",
-          "target": "statue/sculpture",
-          "phonetic": "bprà-dti-maa-gam",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "สีแดงสด",
-          "target": "bright red",
-          "phonetic": "sǐi dɛɛng sòt",
-          "partOfSpeech": "adjective"
-        }
-      ]
-    },
-    {
-      "source": "คาร์ลอสร่วมวงสนทนา แบ่งปันความคิดของตนเกี่ยวกับผลงานศิลปะ",
-      "target": "Carlos joined their conversation, sharing his own thoughts about the artwork.",
-      "phonetic": "khaa-lót rûam wong sǒn-thá-naa bàeng-bpan khwaam-khít khǎwng ton gìeow-gàp phǒn-ngaan sǐn-là-bpà",
-      "breakdown": [
-        {
-          "source": "คาร์ลอส",
-          "target": "Carlos",
-          "phonetic": "khaa-lót",
-          "partOfSpeech": "proper_noun"
-        },
-        {
-          "source": "ร่วมวงสนทนา",
-          "target": "joined the conversation",
-          "phonetic": "rûam wong sǒn-thá-naa",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "แบ่งปัน",
-          "target": "sharing",
-          "phonetic": "bàeng-bpan",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ความคิด",
-          "target": "thoughts",
-          "phonetic": "khwaam-khít",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ของตน",
-          "target": "his own",
-          "phonetic": "khǎwng ton",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "เกี่ยวกับ",
-          "target": "about",
-          "phonetic": "gìeow-gàp",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "ผลงานศิลปะ",
-          "target": "the artwork",
-          "phonetic": "phǒn-ngaan sǐn-là-bpà",
-          "partOfSpeech": "noun"
-        }
-      ]
-    },
-    {
-      "source": "พวกเขาแนะนำให้เขาไปชมแกลเลอรีเล็กๆ ใกล้ๆ ซึ่งเขายังไม่เคยรู้จัก",
-      "target": "They suggested he visit a smaller gallery nearby, which he hadn’t known about.",
-      "phonetic": "phûak-kháo náe-nam hâi kháo bpai chom gɛɛ-ləə-rîi lék-lék glâi-glâi sʉ̂ng kháo yang mâi koei rúu-jak",
-      "breakdown": [
-        {
-          "source": "พวกเขา",
-          "target": "they",
-          "phonetic": "phûak-kháo",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "แนะนำ",
-          "target": "suggested",
-          "phonetic": "náe-nam",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ให้เขาไปชม",
-          "target": "that he visit",
-          "phonetic": "hâi kháo bpai chom",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "แกลเลอรีเล็กๆ",
-          "target": "a small gallery",
-          "phonetic": "gɛɛ-ləə-rîi lék-lék",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ใกล้ๆ",
-          "target": "nearby",
-          "phonetic": "glâi-glâi",
-          "partOfSpeech": "adverb"
-        },
-        {
-          "source": "ซึ่ง",
-          "target": "which",
-          "phonetic": "sʉ̂ng",
-          "partOfSpeech": "relative_pronoun"
-        },
-        {
-          "source": "เขา",
-          "target": "he",
-          "phonetic": "kháo",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "ยังไม่เคยรู้จัก",
-          "target": "hadn’t known",
-          "phonetic": "yang mâi koei rúu-jak",
-          "partOfSpeech": "verb"
-        }
-      ]
-    },
-    {
-      "source": "หลังจากเดินชม เขาแวะคาเฟ่ของพิพิธภัณฑ์เพื่อดื่มกาแฟหนึ่งแก้ว",
-      "target": "After exploring, he stopped at the museum café for a cup of coffee.",
-      "phonetic": "lǎng-jàak doen-chom kháo wɛ́ khaa-fê khǎwng phi-phít-tha-phan phʉ̂a dʉ̀ʉm gaa-fɛɛ nʉ̀ng gɛ̂ɛo",
-      "breakdown": [
-        {
-          "source": "หลังจาก",
-          "target": "after",
-          "phonetic": "lǎng-jàak",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "เดินชม",
-          "target": "exploring",
-          "phonetic": "doen-chom",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "เขา",
-          "target": "he",
-          "phonetic": "kháo",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "แวะ",
-          "target": "stopped by",
-          "phonetic": "wɛ́",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "คาเฟ่",
-          "target": "café",
-          "phonetic": "khaa-fê",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ของ",
-          "target": "of",
-          "phonetic": "khǎwng",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "พิพิธภัณฑ์",
-          "target": "museum",
-          "phonetic": "phi-phít-tha-phan",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "เพื่อ",
-          "target": "to",
-          "phonetic": "phʉ̂a",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "ดื่ม",
-          "target": "drink",
-          "phonetic": "dʉ̀ʉm",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "กาแฟ",
-          "target": "coffee",
-          "phonetic": "gaa-fɛɛ",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "หนึ่งแก้ว",
-          "target": "one cup",
-          "phonetic": "nʉ̀ng gɛ̂ɛo",
-          "partOfSpeech": "classifier"
-        }
-      ]
-    },
-    {
-      "source": "วิวเส้นขอบฟ้าของเมืองจากคาเฟ่นั้นสวยงามตระการตา",
-      "target": "The view of the city skyline from the café was breathtakingly beautiful.",
-      "phonetic": "wiw sên-khɔ̀ɔp-fáa khǎwng mʉang jàak khaa-fê nán sǔai ngaam trà-gaan-dtaa",
-      "breakdown": [
-        {
-          "source": "วิว",
-          "target": "view",
-          "phonetic": "wiw",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "เส้นขอบฟ้า",
-          "target": "skyline",
-          "phonetic": "sên-khɔ̀ɔp-fáa",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ของเมือง",
-          "target": "of the city",
-          "phonetic": "khǎwng mʉang",
-          "partOfSpeech": "prepositional"
-        },
-        {
-          "source": "จาก",
-          "target": "from",
-          "phonetic": "jàak",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "คาเฟ่นั้น",
-          "target": "that café",
-          "phonetic": "khaa-fê nán",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "สวยงาม",
-          "target": "beautiful",
-          "phonetic": "sǔai ngaam",
-          "partOfSpeech": "adjective"
-        },
-        {
-          "source": "ตระการตา",
-          "target": "breathtaking",
-          "phonetic": "trà-gaan-dtaa",
-          "partOfSpeech": "adjective"
-        }
-      ]
-    },
-    {
-      "source": "คาร์ลอสตัดสินใจว่าจะกลับมาที่พิพิธภัณฑ์พร้อมสมุดสเก็ตช์คราวหน้า",
-      "target": "Carlos decided he would return to the museum with his sketchbook next time.",
-      "phonetic": "khaa-lót dtàt-sǐn-jai wâa jà glàp maa thîi phi-phít-tha-phan phrɔ́ɔm sà-mùt sà-gét khraao nâa",
-      "breakdown": [
-        {
-          "source": "คาร์ลอส",
-          "target": "Carlos",
-          "phonetic": "khaa-lót",
-          "partOfSpeech": "proper_noun"
-        },
-        {
-          "source": "ตัดสินใจว่า",
-          "target": "decided that",
-          "phonetic": "dtàt-sǐn-jai wâa",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "จะกลับมา",
-          "target": "would return",
-          "phonetic": "jà glàp maa",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ที่พิพิธภัณฑ์",
-          "target": "to the museum",
-          "phonetic": "thîi phi-phít-tha-phan",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "พร้อม",
-          "target": "with",
-          "phonetic": "phrɔ́ɔm",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "สมุดสเก็ตช์",
-          "target": "sketchbook",
-          "phonetic": "sà-mùt sà-gét",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "คราวหน้า",
-          "target": "next time",
-          "phonetic": "khraao nâa",
-          "partOfSpeech": "adverb"
-        }
-      ]
-    },
-    {
-      "source": "ศิลปะ เขาค้นพบว่า เป็นวิธีที่เชื่อมผู้คนข้ามกาลเวลาและวัฒนธรรม",
-      "target": "Art, he realized, had a way of connecting people across time and cultures.",
-      "phonetic": "sǐn-là-bpà kháo khón-phóp wâa bpen wí-thii thîi chʉ̂am phûu-khon khâam gaan-wee-laa láe wát-thá-na-tham",
-      "breakdown": [
-        {
-          "source": "ศิลปะ",
-          "target": "art",
-          "phonetic": "sǐn-là-bpà",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "เขา",
-          "target": "he",
-          "phonetic": "kháo",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "ค้นพบว่า",
-          "target": "realized/discovered that",
-          "phonetic": "khón-phóp wâa",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "เป็น",
-          "target": "was/is",
-          "phonetic": "bpen",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "วิธี",
-          "target": "way/method",
-          "phonetic": "wí-thii",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ที่",
-          "target": "that",
-          "phonetic": "thîi",
-          "partOfSpeech": "relative_pronoun"
-        },
-        {
-          "source": "เชื่อม",
-          "target": "connecting",
-          "phonetic": "chʉ̂am",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ผู้คน",
-          "target": "people",
-          "phonetic": "phûu-khon",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ข้าม",
-          "target": "across",
-          "phonetic": "khâam",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "กาลเวลา",
-          "target": "time",
-          "phonetic": "gaan-wee-laa",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "และ",
-          "target": "and",
-          "phonetic": "láe",
-          "partOfSpeech": "conjunction"
-        },
-        {
-          "source": "วัฒนธรรม",
-          "target": "cultures",
-          "phonetic": "wát-thá-na-tham",
-          "partOfSpeech": "noun"
-        }
-      ]
-    },
-    {
-      "source": "เขาจากไปพร้อมแรงบันดาลใจที่จะเรียนรู้มรดกศิลปะของโลกมากขึ้น",
-      "target": "He left feeling inspired to learn more about the world’s artistic heritage.",
-      "phonetic": "kháo jàak-bpai phráwm raaeng ban-daan-jai thîi jà rian-rúu mɔ̌ɔ-rá-dòk sǐn-là-bpà khǎwng lôok mâak khʉ̂n",
-      "breakdown": [
-        {
-          "source": "เขา",
-          "target": "he",
-          "phonetic": "kháo",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "จากไป",
-          "target": "left",
-          "phonetic": "jàak-bpai",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "พร้อม",
-          "target": "with",
-          "phonetic": "phráwm",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "แรงบันดาลใจ",
-          "target": "inspiration",
-          "phonetic": "raaeng ban-daan-jai",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ที่จะ",
-          "target": "to",
-          "phonetic": "thîi jà",
-          "partOfSpeech": "particle"
-        },
-        {
-          "source": "เรียนรู้",
-          "target": "learn",
-          "phonetic": "rian-rúu",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "มรดกศิลปะ",
-          "target": "artistic heritage",
-          "phonetic": "mɔ̌ɔ-rá-dòk sǐn-là-bpà",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ของโลก",
-          "target": "of the world",
-          "phonetic": "khǎwng lôok",
-          "partOfSpeech": "prepositional"
-        },
-        {
-          "source": "มากขึ้น",
-          "target": "more",
-          "phonetic": "mâak khʉ̂n",
-          "partOfSpeech": "adverb"
-        }
-      ]
-    },
-    {
-      "source": "ถ้าเขาเรียนประวัติศาสตร์ศิลปะ อนาคตเขาอาจเป็นภัณฑารักษ์ได้",
-      "target": "If he studies art history, he might pursue a career in curation someday.",
-      "phonetic": "thâa kháo rian bprà-wàt-sàat sǐn-là-bpà a-naa-khót kháo àat bpen phan-thaa-rák dâi",
-      "breakdown": [
-        {
-          "source": "ถ้า",
-          "target": "if",
-          "phonetic": "thâa",
-          "partOfSpeech": "conjunction"
-        },
-        {
-          "source": "เขา",
-          "target": "he",
-          "phonetic": "kháo",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "เรียน",
-          "target": "studies",
-          "phonetic": "rian",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ประวัติศาสตร์ศิลปะ",
-          "target": "art history",
-          "phonetic": "bprà-wàt-sàat sǐn-là-bpà",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "อนาคต",
-          "target": "in the future",
-          "phonetic": "a-naa-khót",
-          "partOfSpeech": "adverb"
-        },
-        {
-          "source": "เขาอาจ",
-          "target": "he might",
-          "phonetic": "kháo àat",
-          "partOfSpeech": "auxiliary"
-        },
-        {
-          "source": "เป็น",
-          "target": "become",
-          "phonetic": "bpen",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ภัณฑารักษ์",
-          "target": "curator",
-          "phonetic": "phan-thaa-rák",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ได้",
-          "target": "(possibility)",
-          "phonetic": "dâi",
-          "partOfSpeech": "particle"
-        }
-      ]
-    }
-  ],
-  "createdAt": "2025-09-29T23:29:53Z",
-  "updatedAt": "2025-09-29T23:45:00Z",
-  "difficulty": "intermediate",
-  "summary": "หนึ่งวันที่พิพิธภัณฑ์ศิลปะ: การค้นพบผลงานชื่อดัง บทสนทนา การมองศิลปะสมัยใหม่ วิวสวยจากคาเฟ่ และแรงบันดาลใจกลับมาอีกครั้ง"
+    ],
+    "createdAt": "2025-09-29T23:29:53Z",
+    "updatedAt": "2025-09-29T23:45:00Z",
+    "difficulty": "intermediate",
+    "summary": "หนึ่งวันที่พิพิธภัณฑ์ศิลปะ: การค้นพบผลงานชื่อดัง บทสนทนา การมองศิลปะสมัยใหม่ วิวสวยจากคาเฟ่ และแรงบันดาลใจกลับมาอีกครั้ง"
 }

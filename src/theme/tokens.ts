@@ -56,6 +56,23 @@ export const tokens = {
         lg: 6, // 24px
         xl: 7, // 28px
     },
+
+    // Font sizes (common values)
+    fontSize: {
+        xs: "xs",
+        sm: "sm",
+        md: "md",
+        lg: "lg",
+        xl: "xl",
+        "2xl": "2xl",
+    },
+
+    // Common z-index values
+    zIndex: {
+        header: 10,
+        dropdown: 1000,
+        modal: 1300,
+    },
 } as const;
 
 // Type-safe token access

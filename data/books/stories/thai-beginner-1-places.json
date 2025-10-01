@@ -1,323 +1,323 @@
 {
-  "storyId": "thai-beginner-1-places",
-  "bookId": "thai-beginner-1",
-  "language": "th",
-  "title": {
-    "source": "สถานที่",
-    "target": "Places"
-  },
-  "sentences": [
-    {
-      "source": "คุณอาศัยอยู่ที่ไหนครับ",
-      "target": "Where do you live?",
-      "phonetic": "khun aa-săi yùu thîi năi khráp",
-      "breakdown": [
-        {
-          "source": "คุณ",
-          "target": "you",
-          "phonetic": "khun",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "อาศัย",
-          "target": "to reside",
-          "phonetic": "aa-săi",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "อยู่",
-          "target": "to be",
-          "phonetic": "yùu",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ที่",
-          "target": "at",
-          "phonetic": "thîi",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "ไหน",
-          "target": "where",
-          "phonetic": "năi",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "ครับ",
-          "target": "male polite particle",
-          "phonetic": "khráp",
-          "partOfSpeech": "particle"
-        }
-      ]
+    "storyId": "thai-beginner-1-places",
+    "bookId": "thai-beginner-1",
+    "language": "th",
+    "title": {
+        "source": "สถานที่",
+        "target": "Places"
     },
-    {
-      "source": "ผมอาศัยอยู่ในบ้านครับ",
-      "target": "I live in a house.",
-      "phonetic": "phǒm aa-săi yùu nai bâan khráp",
-      "breakdown": [
+    "sentences": [
         {
-          "source": "ผม",
-          "target": "I (male)",
-          "phonetic": "phǒm",
-          "partOfSpeech": "pronoun"
+            "source": "คุณอาศัยอยู่ที่ไหนครับ",
+            "target": "Where do you live?",
+            "phonetic": "khun aa-săi yùu thîi năi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "อาศัย",
+                    "target": "to reside",
+                    "phonetic": "aa-săi",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "อยู่",
+                    "target": "to be",
+                    "phonetic": "yùu",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ที่",
+                    "target": "at",
+                    "phonetic": "thîi",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ไหน",
+                    "target": "where",
+                    "phonetic": "năi",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
         },
         {
-          "source": "อาศัย",
-          "target": "to reside",
-          "phonetic": "aa-săi",
-          "partOfSpeech": "verb"
+            "source": "ผมอาศัยอยู่ในบ้านครับ",
+            "target": "I live in a house.",
+            "phonetic": "phǒm aa-săi yùu nai bâan khráp",
+            "breakdown": [
+                {
+                    "source": "ผม",
+                    "target": "I (male)",
+                    "phonetic": "phǒm",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "อาศัย",
+                    "target": "to reside",
+                    "phonetic": "aa-săi",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "อยู่",
+                    "target": "to be",
+                    "phonetic": "yùu",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ใน",
+                    "target": "in",
+                    "phonetic": "nai",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "บ้าน",
+                    "target": "house",
+                    "phonetic": "bâan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
         },
         {
-          "source": "อยู่",
-          "target": "to be",
-          "phonetic": "yùu",
-          "partOfSpeech": "verb"
+            "source": "บ้านของคุณใหญ่ไหมครับ",
+            "target": "Is your house big?",
+            "phonetic": "bâan khǎwng khun yài măi khráp",
+            "breakdown": [
+                {
+                    "source": "บ้าน",
+                    "target": "house",
+                    "phonetic": "bâan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ของ",
+                    "target": "of",
+                    "phonetic": "khǎwng",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "คุณ",
+                    "target": "you",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ใหญ่",
+                    "target": "big",
+                    "phonetic": "yài",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "or not",
+                    "phonetic": "măi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
         },
         {
-          "source": "ใน",
-          "target": "in",
-          "phonetic": "nai",
-          "partOfSpeech": "preposition"
+            "source": "ใช่ บ้านของผมใหญ่ครับ",
+            "target": "Yes, my house is big.",
+            "phonetic": "châi bâan khǎwng phǒm yài khráp",
+            "breakdown": [
+                {
+                    "source": "ใช่",
+                    "target": "yes",
+                    "phonetic": "châi",
+                    "partOfSpeech": "interjection"
+                },
+                {
+                    "source": "บ้าน",
+                    "target": "house",
+                    "phonetic": "bâan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ของ",
+                    "target": "of",
+                    "phonetic": "khǎwng",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ผม",
+                    "target": "I (male)",
+                    "phonetic": "phǒm",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ใหญ่",
+                    "target": "big",
+                    "phonetic": "yài",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
         },
         {
-          "source": "บ้าน",
-          "target": "house",
-          "phonetic": "bâan",
-          "partOfSpeech": "noun"
+            "source": "คุณไปสวนสาธารณะไหมครับ",
+            "target": "Do you go to the park?",
+            "phonetic": "khun bpai sǔan sǎa-tha-ra-ná măi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ไป",
+                    "target": "to go",
+                    "phonetic": "bpai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "สวนสาธารณะ",
+                    "target": "park",
+                    "phonetic": "sǔan sǎa-tha-ra-ná",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "or not",
+                    "phonetic": "măi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
         },
         {
-          "source": "ครับ",
-          "target": "male polite particle",
-          "phonetic": "khráp",
-          "partOfSpeech": "particle"
+            "source": "ใช่ ผมไปสวนสาธารณะครับ",
+            "target": "Yes, I go to the park.",
+            "phonetic": "châi phǒm bpai sǔan sǎa-tha-ra-ná khráp",
+            "breakdown": [
+                {
+                    "source": "ใช่",
+                    "target": "yes",
+                    "phonetic": "châi",
+                    "partOfSpeech": "interjection"
+                },
+                {
+                    "source": "ผม",
+                    "target": "I (male)",
+                    "phonetic": "phǒm",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ไป",
+                    "target": "to go",
+                    "phonetic": "bpai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "สวนสาธารณะ",
+                    "target": "park",
+                    "phonetic": "sǔan sǎa-tha-ra-ná",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "สวนสาธารณะสนุกไหมครับ",
+            "target": "Is the park fun?",
+            "phonetic": "sǔan sǎa-tha-ra-ná sà-nùk măi khráp",
+            "breakdown": [
+                {
+                    "source": "สวนสาธารณะ",
+                    "target": "park",
+                    "phonetic": "sǔan sǎa-tha-ra-ná",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "สนุก",
+                    "target": "fun",
+                    "phonetic": "sà-nùk",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "or not",
+                    "phonetic": "măi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ใช่ สวนสาธารณะสนุกครับ",
+            "target": "Yes, the park is fun!",
+            "phonetic": "châi sǔan sǎa-tha-ra-ná sà-nùk khráp",
+            "breakdown": [
+                {
+                    "source": "ใช่",
+                    "target": "yes",
+                    "phonetic": "châi",
+                    "partOfSpeech": "interjection"
+                },
+                {
+                    "source": "สวนสาธารณะ",
+                    "target": "park",
+                    "phonetic": "sǔan sǎa-tha-ra-ná",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "สนุก",
+                    "target": "fun",
+                    "phonetic": "sà-nùk",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "source": "บ้านของคุณใหญ่ไหมครับ",
-      "target": "Is your house big?",
-      "phonetic": "bâan khǎwng khun yài măi khráp",
-      "breakdown": [
-        {
-          "source": "บ้าน",
-          "target": "house",
-          "phonetic": "bâan",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ของ",
-          "target": "of",
-          "phonetic": "khǎwng",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "คุณ",
-          "target": "you",
-          "phonetic": "khun",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "ใหญ่",
-          "target": "big",
-          "phonetic": "yài",
-          "partOfSpeech": "adjective"
-        },
-        {
-          "source": "ไหม",
-          "target": "or not",
-          "phonetic": "măi",
-          "partOfSpeech": "particle"
-        },
-        {
-          "source": "ครับ",
-          "target": "male polite particle",
-          "phonetic": "khráp",
-          "partOfSpeech": "particle"
-        }
-      ]
-    },
-    {
-      "source": "ใช่ บ้านของผมใหญ่ครับ",
-      "target": "Yes, my house is big.",
-      "phonetic": "châi bâan khǎwng phǒm yài khráp",
-      "breakdown": [
-        {
-          "source": "ใช่",
-          "target": "yes",
-          "phonetic": "châi",
-          "partOfSpeech": "interjection"
-        },
-        {
-          "source": "บ้าน",
-          "target": "house",
-          "phonetic": "bâan",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ของ",
-          "target": "of",
-          "phonetic": "khǎwng",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "ผม",
-          "target": "I (male)",
-          "phonetic": "phǒm",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "ใหญ่",
-          "target": "big",
-          "phonetic": "yài",
-          "partOfSpeech": "adjective"
-        },
-        {
-          "source": "ครับ",
-          "target": "male polite particle",
-          "phonetic": "khráp",
-          "partOfSpeech": "particle"
-        }
-      ]
-    },
-    {
-      "source": "คุณไปสวนสาธารณะไหมครับ",
-      "target": "Do you go to the park?",
-      "phonetic": "khun bpai sǔan sǎa-tha-ra-ná măi khráp",
-      "breakdown": [
-        {
-          "source": "คุณ",
-          "target": "you",
-          "phonetic": "khun",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "ไป",
-          "target": "to go",
-          "phonetic": "bpai",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "สวนสาธารณะ",
-          "target": "park",
-          "phonetic": "sǔan sǎa-tha-ra-ná",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ไหม",
-          "target": "or not",
-          "phonetic": "măi",
-          "partOfSpeech": "particle"
-        },
-        {
-          "source": "ครับ",
-          "target": "male polite particle",
-          "phonetic": "khráp",
-          "partOfSpeech": "particle"
-        }
-      ]
-    },
-    {
-      "source": "ใช่ ผมไปสวนสาธารณะครับ",
-      "target": "Yes, I go to the park.",
-      "phonetic": "châi phǒm bpai sǔan sǎa-tha-ra-ná khráp",
-      "breakdown": [
-        {
-          "source": "ใช่",
-          "target": "yes",
-          "phonetic": "châi",
-          "partOfSpeech": "interjection"
-        },
-        {
-          "source": "ผม",
-          "target": "I (male)",
-          "phonetic": "phǒm",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "ไป",
-          "target": "to go",
-          "phonetic": "bpai",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "สวนสาธารณะ",
-          "target": "park",
-          "phonetic": "sǔan sǎa-tha-ra-ná",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ครับ",
-          "target": "male polite particle",
-          "phonetic": "khráp",
-          "partOfSpeech": "particle"
-        }
-      ]
-    },
-    {
-      "source": "สวนสาธารณะสนุกไหมครับ",
-      "target": "Is the park fun?",
-      "phonetic": "sǔan sǎa-tha-ra-ná sà-nùk măi khráp",
-      "breakdown": [
-        {
-          "source": "สวนสาธารณะ",
-          "target": "park",
-          "phonetic": "sǔan sǎa-tha-ra-ná",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "สนุก",
-          "target": "fun",
-          "phonetic": "sà-nùk",
-          "partOfSpeech": "adjective"
-        },
-        {
-          "source": "ไหม",
-          "target": "or not",
-          "phonetic": "măi",
-          "partOfSpeech": "particle"
-        },
-        {
-          "source": "ครับ",
-          "target": "male polite particle",
-          "phonetic": "khráp",
-          "partOfSpeech": "particle"
-        }
-      ]
-    },
-    {
-      "source": "ใช่ สวนสาธารณะสนุกครับ",
-      "target": "Yes, the park is fun!",
-      "phonetic": "châi sǔan sǎa-tha-ra-ná sà-nùk khráp",
-      "breakdown": [
-        {
-          "source": "ใช่",
-          "target": "yes",
-          "phonetic": "châi",
-          "partOfSpeech": "interjection"
-        },
-        {
-          "source": "สวนสาธารณะ",
-          "target": "park",
-          "phonetic": "sǔan sǎa-tha-ra-ná",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "สนุก",
-          "target": "fun",
-          "phonetic": "sà-nùk",
-          "partOfSpeech": "adjective"
-        },
-        {
-          "source": "ครับ",
-          "target": "male polite particle",
-          "phonetic": "khráp",
-          "partOfSpeech": "particle"
-        }
-      ]
-    }
-  ],
-  "createdAt": "2025-09-28T10:45:00Z",
-  "updatedAt": "2025-09-28T10:45:00Z",
-  "difficulty": "beginner",
-  "summary": "การสนทนาเกี่ยวกับสถานที่"
+    ],
+    "createdAt": "2025-09-28T10:45:00Z",
+    "updatedAt": "2025-09-28T10:45:00Z",
+    "difficulty": "beginner",
+    "summary": "การสนทนาเกี่ยวกับสถานที่"
 }

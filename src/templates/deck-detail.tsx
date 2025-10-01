@@ -105,7 +105,7 @@ const FlashcardPreview: React.FC<{ card: TranslationFlashcard }> = ({
 
             {card.tags.length > 0 && (
                 <HStack spacing={2} mb={2} wrap="wrap">
-                    {card.tags.map((tag, idx) => (
+                    {card.tags.map((tag, _idx) => (
                         <Tag key={tag} size="sm" colorScheme="blue">
                             {tag}
                         </Tag>

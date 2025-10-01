@@ -6,7 +6,6 @@ import {
     Flex,
     Heading,
     HStack,
-    Image,
     SimpleGrid,
     Stack,
     Tag,
@@ -36,8 +35,8 @@ const ReadingListTemplate = ({ data }: PageProps<ReadingPageData>) => {
     const heroBg = semanticColors.hero.reading;
     const sectionBg = semanticColors.section.bg;
     const borderColor = semanticColors.border.default;
-    const cardBg = semanticColors.card.bg;
-    const cardBorderColor = semanticColors.card.border;
+    const _cardBg = semanticColors.card.bg;
+    const _cardBorderColor = semanticColors.card.border;
     const supportingTextColor = semanticColors.text.supporting;
 
     const books = data.allBookJson.nodes;

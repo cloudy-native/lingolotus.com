@@ -1,674 +1,594 @@
 {
-  "collectionId": "thai-english",
-  "deckId": "thai-medical",
-  "name": "Thai Medical Phrases: At the Doctor",
-  "description": "Essential Thai vocabulary and phrases for medical appointments and health situations",
-  "sourceLanguage": "th",
-  "targetLanguage": "en",
-  "cards": [
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ฉันไม่สบาย"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "I am not feeling well"
-      },
-      "tags": [
-        "medical",
-        "symptom",
-        "basic"
-      ],
-      "difficulty": "easy",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "chan mai sa-bai",
-      "partOfSpeech": "phrase",
-      "context": "Basic phrase to state that you're feeling unwell",
-      "examples": [
+    "collectionId": "thai-english",
+    "deckId": "thai-medical",
+    "name": "Thai Medical Phrases: At the Doctor",
+    "description": "Essential Thai vocabulary and phrases for medical appointments and health situations",
+    "sourceLanguage": "th",
+    "targetLanguage": "en",
+    "cards": [
         {
-          "original": "ผมไม่สบายมาสองวันแล้วครับ",
-          "translation": "I have been feeling unwell for two days (♂)",
-          "phonetic": "pom mai sa-bai ma song wan laew krap"
+            "frontContent": {
+                "type": "text",
+                "text": "ฉันไม่สบาย"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "I am not feeling well"
+            },
+            "tags": ["medical", "symptom", "basic"],
+            "difficulty": "easy",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "chan mai sa-bai",
+            "partOfSpeech": "phrase",
+            "context": "Basic phrase to state that you're feeling unwell",
+            "examples": [
+                {
+                    "original": "ผมไม่สบายมาสองวันแล้วครับ",
+                    "translation": "I have been feeling unwell for two days (♂)",
+                    "phonetic": "pom mai sa-bai ma song wan laew krap"
+                },
+                {
+                    "original": "ฉันรู้สึกไม่สบายค่ะ",
+                    "translation": "I feel unwell (♀)",
+                    "phonetic": "chan roo-suek mai sa-bai ka"
+                }
+            ]
         },
         {
-          "original": "ฉันรู้สึกไม่สบายค่ะ",
-          "translation": "I feel unwell (♀)",
-          "phonetic": "chan roo-suek mai sa-bai ka"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ฉันปวดหัว"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "I have a headache"
-      },
-      "tags": [
-        "medical",
-        "symptom",
-        "pain"
-      ],
-      "difficulty": "easy",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "chan puad hua",
-      "partOfSpeech": "phrase",
-      "context": "Describing head pain or discomfort",
-      "examples": [
-        {
-          "original": "ผมปวดหัวมากครับ",
-          "translation": "I have a severe headache (♂)",
-          "phonetic": "pom puad hua mak krap"
+            "frontContent": {
+                "type": "text",
+                "text": "ฉันปวดหัว"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "I have a headache"
+            },
+            "tags": ["medical", "symptom", "pain"],
+            "difficulty": "easy",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "chan puad hua",
+            "partOfSpeech": "phrase",
+            "context": "Describing head pain or discomfort",
+            "examples": [
+                {
+                    "original": "ผมปวดหัวมากครับ",
+                    "translation": "I have a severe headache (♂)",
+                    "phonetic": "pom puad hua mak krap"
+                },
+                {
+                    "original": "ฉันปวดหัวข้างเดียวค่ะ",
+                    "translation": "I have a headache on one side (♀)",
+                    "phonetic": "chan puad hua kang diao ka"
+                }
+            ]
         },
         {
-          "original": "ฉันปวดหัวข้างเดียวค่ะ",
-          "translation": "I have a headache on one side (♀)",
-          "phonetic": "chan puad hua kang diao ka"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ฉันปวดท้อง"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "I have a stomachache"
-      },
-      "tags": [
-        "medical",
-        "symptom",
-        "pain"
-      ],
-      "difficulty": "easy",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "chan puad tong",
-      "partOfSpeech": "phrase",
-      "context": "Describing stomach pain or discomfort",
-      "examples": [
-        {
-          "original": "ผมปวดท้องมากครับ",
-          "translation": "I have a severe stomachache (♂)",
-          "phonetic": "pom puad tong mak krap"
+            "frontContent": {
+                "type": "text",
+                "text": "ฉันปวดท้อง"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "I have a stomachache"
+            },
+            "tags": ["medical", "symptom", "pain"],
+            "difficulty": "easy",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "chan puad tong",
+            "partOfSpeech": "phrase",
+            "context": "Describing stomach pain or discomfort",
+            "examples": [
+                {
+                    "original": "ผมปวดท้องมากครับ",
+                    "translation": "I have a severe stomachache (♂)",
+                    "phonetic": "pom puad tong mak krap"
+                },
+                {
+                    "original": "ฉันปวดท้องและรู้สึกคลื่นไส้ค่ะ",
+                    "translation": "I have a stomachache and feel nauseous (♀)",
+                    "phonetic": "chan puad tong lae roo-suek kluen-sai ka"
+                }
+            ]
         },
         {
-          "original": "ฉันปวดท้องและรู้สึกคลื่นไส้ค่ะ",
-          "translation": "I have a stomachache and feel nauseous (♀)",
-          "phonetic": "chan puad tong lae roo-suek kluen-sai ka"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ฉันมีไข้"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "I have a fever"
-      },
-      "tags": [
-        "medical",
-        "symptom",
-        "basic"
-      ],
-      "difficulty": "easy",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "chan mee kai",
-      "partOfSpeech": "phrase",
-      "context": "Stating that you have an elevated body temperature",
-      "examples": [
-        {
-          "original": "ผมมีไข้สูงมาก",
-          "translation": "I have a very high fever (♂)",
-          "phonetic": "pom mee kai soong mak"
+            "frontContent": {
+                "type": "text",
+                "text": "ฉันมีไข้"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "I have a fever"
+            },
+            "tags": ["medical", "symptom", "basic"],
+            "difficulty": "easy",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "chan mee kai",
+            "partOfSpeech": "phrase",
+            "context": "Stating that you have an elevated body temperature",
+            "examples": [
+                {
+                    "original": "ผมมีไข้สูงมาก",
+                    "translation": "I have a very high fever (♂)",
+                    "phonetic": "pom mee kai soong mak"
+                },
+                {
+                    "original": "ฉันมีไข้ตั้งแต่เมื่อวานค่ะ",
+                    "translation": "I've had a fever since yesterday (♀)",
+                    "phonetic": "chan mee kai tang tae meu-a-wan ka"
+                }
+            ]
         },
         {
-          "original": "ฉันมีไข้ตั้งแต่เมื่อวานค่ะ",
-          "translation": "I've had a fever since yesterday (♀)",
-          "phonetic": "chan mee kai tang tae meu-a-wan ka"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ฉันมีอาการไอ"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "I have a cough"
-      },
-      "tags": [
-        "medical",
-        "symptom",
-        "respiratory"
-      ],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "chan mee a-garn ai",
-      "partOfSpeech": "phrase",
-      "context": "Describing respiratory symptoms involving coughing",
-      "examples": [
-        {
-          "original": "ผมมีอาการไอแห้งๆ",
-          "translation": "I have a dry cough (♂)",
-          "phonetic": "pom mee a-garn ai haeng-haeng"
+            "frontContent": {
+                "type": "text",
+                "text": "ฉันมีอาการไอ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "I have a cough"
+            },
+            "tags": ["medical", "symptom", "respiratory"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "chan mee a-garn ai",
+            "partOfSpeech": "phrase",
+            "context": "Describing respiratory symptoms involving coughing",
+            "examples": [
+                {
+                    "original": "ผมมีอาการไอแห้งๆ",
+                    "translation": "I have a dry cough (♂)",
+                    "phonetic": "pom mee a-garn ai haeng-haeng"
+                },
+                {
+                    "original": "ฉันไอมีเสมหะค่ะ",
+                    "translation": "I have a cough with phlegm (♀)",
+                    "phonetic": "chan ai mee sa-ma-ha ka"
+                }
+            ]
         },
         {
-          "original": "ฉันไอมีเสมหะค่ะ",
-          "translation": "I have a cough with phlegm (♀)",
-          "phonetic": "chan ai mee sa-ma-ha ka"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ฉันมีผื่นขึ้น"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "I have a rash"
-      },
-      "tags": [
-        "medical",
-        "symptom",
-        "skin"
-      ],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "chan mee peun keun",
-      "partOfSpeech": "phrase",
-      "context": "Describing skin conditions or allergic reactions",
-      "examples": [
-        {
-          "original": "ผมมีผื่นขึ้นที่แขนครับ",
-          "translation": "I have a rash on my arm (♂)",
-          "phonetic": "pom mee peun keun tee kaen krap"
+            "frontContent": {
+                "type": "text",
+                "text": "ฉันมีผื่นขึ้น"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "I have a rash"
+            },
+            "tags": ["medical", "symptom", "skin"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "chan mee peun keun",
+            "partOfSpeech": "phrase",
+            "context": "Describing skin conditions or allergic reactions",
+            "examples": [
+                {
+                    "original": "ผมมีผื่นขึ้นที่แขนครับ",
+                    "translation": "I have a rash on my arm (♂)",
+                    "phonetic": "pom mee peun keun tee kaen krap"
+                },
+                {
+                    "original": "ฉันมีผื่นคันทั่วตัวค่ะ",
+                    "translation": "I have an itchy rash all over my body (♀)",
+                    "phonetic": "chan mee peun kan tua tua ka"
+                }
+            ]
         },
         {
-          "original": "ฉันมีผื่นคันทั่วตัวค่ะ",
-          "translation": "I have an itchy rash all over my body (♀)",
-          "phonetic": "chan mee peun kan tua tua ka"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ฉันเป็นภูมิแพ้"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "I have allergies"
-      },
-      "tags": [
-        "medical",
-        "condition",
-        "allergy"
-      ],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "chan pen poom-pae",
-      "partOfSpeech": "phrase",
-      "context": "Stating that you have allergies",
-      "examples": [
-        {
-          "original": "ผมเป็นภูมิแพ้ฝุ่นครับ",
-          "translation": "I am allergic to dust (♂)",
-          "phonetic": "pom pen poom-pae fun krap"
+            "frontContent": {
+                "type": "text",
+                "text": "ฉันเป็นภูมิแพ้"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "I have allergies"
+            },
+            "tags": ["medical", "condition", "allergy"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "chan pen poom-pae",
+            "partOfSpeech": "phrase",
+            "context": "Stating that you have allergies",
+            "examples": [
+                {
+                    "original": "ผมเป็นภูมิแพ้ฝุ่นครับ",
+                    "translation": "I am allergic to dust (♂)",
+                    "phonetic": "pom pen poom-pae fun krap"
+                },
+                {
+                    "original": "ฉันเป็นภูมิแพ้อากาศค่ะ",
+                    "translation": "I have seasonal allergies (♀)",
+                    "phonetic": "chan pen poom-pae a-kat ka"
+                }
+            ]
         },
         {
-          "original": "ฉันเป็นภูมิแพ้อากาศค่ะ",
-          "translation": "I have seasonal allergies (♀)",
-          "phonetic": "chan pen poom-pae a-kat ka"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ฉันแพ้ยา"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "I am allergic to medication"
-      },
-      "tags": [
-        "medical",
-        "allergy",
-        "medication"
-      ],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "chan pae ya",
-      "partOfSpeech": "phrase",
-      "context": "Important health information about medication allergies",
-      "examples": [
-        {
-          "original": "ผมแพ้ยาเพนิซิลินครับ",
-          "translation": "I am allergic to penicillin (♂)",
-          "phonetic": "pom pae ya pe-ni-si-lin krap"
+            "frontContent": {
+                "type": "text",
+                "text": "ฉันแพ้ยา"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "I am allergic to medication"
+            },
+            "tags": ["medical", "allergy", "medication"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "chan pae ya",
+            "partOfSpeech": "phrase",
+            "context": "Important health information about medication allergies",
+            "examples": [
+                {
+                    "original": "ผมแพ้ยาเพนิซิลินครับ",
+                    "translation": "I am allergic to penicillin (♂)",
+                    "phonetic": "pom pae ya pe-ni-si-lin krap"
+                },
+                {
+                    "original": "ฉันแพ้ยาแก้ปวดบางชนิดค่ะ",
+                    "translation": "I am allergic to certain pain medications (♀)",
+                    "phonetic": "chan pae ya kae-puad bang cha-nit ka"
+                }
+            ]
         },
         {
-          "original": "ฉันแพ้ยาแก้ปวดบางชนิดค่ะ",
-          "translation": "I am allergic to certain pain medications (♀)",
-          "phonetic": "chan pae ya kae-puad bang cha-nit ka"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ฉันเจ็บตรงนี้"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "It hurts here"
-      },
-      "tags": [
-        "medical",
-        "pain",
-        "locating"
-      ],
-      "difficulty": "easy",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "chan jep trong nee",
-      "partOfSpeech": "phrase",
-      "context": "Used to point out the location of pain",
-      "examples": [
-        {
-          "original": "ผมเจ็บตรงนี้เวลาหายใจเข้าลึกๆ",
-          "translation": "It hurts here when I breathe deeply (♂)",
-          "phonetic": "pom jep trong nee we-la hai-jai kao luek-luek"
+            "frontContent": {
+                "type": "text",
+                "text": "ฉันเจ็บตรงนี้"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "It hurts here"
+            },
+            "tags": ["medical", "pain", "locating"],
+            "difficulty": "easy",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "chan jep trong nee",
+            "partOfSpeech": "phrase",
+            "context": "Used to point out the location of pain",
+            "examples": [
+                {
+                    "original": "ผมเจ็บตรงนี้เวลาหายใจเข้าลึกๆ",
+                    "translation": "It hurts here when I breathe deeply (♂)",
+                    "phonetic": "pom jep trong nee we-la hai-jai kao luek-luek"
+                },
+                {
+                    "original": "ฉันรู้สึกเจ็บบริเวณนี้เมื่อกดค่ะ",
+                    "translation": "I feel pain in this area when pressed (♀)",
+                    "phonetic": "chan roo-suek jep bo-ri-wen nee meu-a kot ka"
+                }
+            ]
         },
         {
-          "original": "ฉันรู้สึกเจ็บบริเวณนี้เมื่อกดค่ะ",
-          "translation": "I feel pain in this area when pressed (♀)",
-          "phonetic": "chan roo-suek jep bo-ri-wen nee meu-a kot ka"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ฉันเป็นเบาหวาน"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "I have diabetes"
-      },
-      "tags": [
-        "medical",
-        "condition",
-        "chronic"
-      ],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "chan pen bao-wan",
-      "partOfSpeech": "phrase",
-      "context": "Important health information about chronic conditions",
-      "examples": [
-        {
-          "original": "ผมเป็นเบาหวานมานานแล้วครับ",
-          "translation": "I have had diabetes for a long time (♂)",
-          "phonetic": "pom pen bao-wan ma naan laew krap"
+            "frontContent": {
+                "type": "text",
+                "text": "ฉันเป็นเบาหวาน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "I have diabetes"
+            },
+            "tags": ["medical", "condition", "chronic"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "chan pen bao-wan",
+            "partOfSpeech": "phrase",
+            "context": "Important health information about chronic conditions",
+            "examples": [
+                {
+                    "original": "ผมเป็นเบาหวานมานานแล้วครับ",
+                    "translation": "I have had diabetes for a long time (♂)",
+                    "phonetic": "pom pen bao-wan ma naan laew krap"
+                },
+                {
+                    "original": "ฉันเป็นเบาหวานชนิดที่หนึ่งค่ะ",
+                    "translation": "I have Type 1 diabetes (♀)",
+                    "phonetic": "chan pen bao-wan cha-nit tee neung ka"
+                }
+            ]
         },
         {
-          "original": "ฉันเป็นเบาหวานชนิดที่หนึ่งค่ะ",
-          "translation": "I have Type 1 diabetes (♀)",
-          "phonetic": "chan pen bao-wan cha-nit tee neung ka"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ฉันมีความดันโลหิตสูง"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "I have high blood pressure"
-      },
-      "tags": [
-        "medical",
-        "condition",
-        "chronic"
-      ],
-      "difficulty": "hard",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "chan mee kwam dan lo-hit soong",
-      "partOfSpeech": "phrase",
-      "context": "Important health information about cardiovascular conditions",
-      "examples": [
-        {
-          "original": "ผมมีความดันโลหิตสูงและต้องกินยาประจำ",
-          "translation": "I have high blood pressure and need to take regular medication (♂)",
-          "phonetic": "pom mee kwam dan lo-hit soong lae tong gin ya pra-jam"
+            "frontContent": {
+                "type": "text",
+                "text": "ฉันมีความดันโลหิตสูง"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "I have high blood pressure"
+            },
+            "tags": ["medical", "condition", "chronic"],
+            "difficulty": "hard",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "chan mee kwam dan lo-hit soong",
+            "partOfSpeech": "phrase",
+            "context": "Important health information about cardiovascular conditions",
+            "examples": [
+                {
+                    "original": "ผมมีความดันโลหิตสูงและต้องกินยาประจำ",
+                    "translation": "I have high blood pressure and need to take regular medication (♂)",
+                    "phonetic": "pom mee kwam dan lo-hit soong lae tong gin ya pra-jam"
+                },
+                {
+                    "original": "ฉันมีปัญหาความดันโลหิตสูงค่ะ",
+                    "translation": "I have problems with high blood pressure (♀)",
+                    "phonetic": "chan mee pan-ha kwam dan lo-hit soong ka"
+                }
+            ]
         },
         {
-          "original": "ฉันมีปัญหาความดันโลหิตสูงค่ะ",
-          "translation": "I have problems with high blood pressure (♀)",
-          "phonetic": "chan mee pan-ha kwam dan lo-hit soong ka"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ฉันต้องการพบหมอ"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "I need to see a doctor"
-      },
-      "tags": [
-        "medical",
-        "request",
-        "basic"
-      ],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "chan tong-garn pop mor",
-      "partOfSpeech": "phrase",
-      "context": "Basic phrase for requesting medical attention",
-      "examples": [
-        {
-          "original": "ผมต้องการพบหมอโดยด่วนครับ",
-          "translation": "I need to see a doctor urgently (♂)",
-          "phonetic": "pom tong-garn pop mor doi duan krap"
+            "frontContent": {
+                "type": "text",
+                "text": "ฉันต้องการพบหมอ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "I need to see a doctor"
+            },
+            "tags": ["medical", "request", "basic"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "chan tong-garn pop mor",
+            "partOfSpeech": "phrase",
+            "context": "Basic phrase for requesting medical attention",
+            "examples": [
+                {
+                    "original": "ผมต้องการพบหมอโดยด่วนครับ",
+                    "translation": "I need to see a doctor urgently (♂)",
+                    "phonetic": "pom tong-garn pop mor doi duan krap"
+                },
+                {
+                    "original": "ฉันต้องการพบหมอผิวหนังค่ะ",
+                    "translation": "I need to see a dermatologist (♀)",
+                    "phonetic": "chan tong-garn pop mor piw-nang ka"
+                }
+            ]
         },
         {
-          "original": "ฉันต้องการพบหมอผิวหนังค่ะ",
-          "translation": "I need to see a dermatologist (♀)",
-          "phonetic": "chan tong-garn pop mor piw-nang ka"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ฉันมีนัดกับหมอ"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "I have an appointment with the doctor"
-      },
-      "tags": [
-        "medical",
-        "appointment",
-        "basic"
-      ],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "chan mee nat gap mor",
-      "partOfSpeech": "phrase",
-      "context": "Used when arriving at a scheduled doctor appointment",
-      "examples": [
-        {
-          "original": "ผมมีนัดกับหมอเวลา 10 โมงครับ",
-          "translation": "I have an appointment with the doctor at 10 o'clock (male speaker)",
-          "phonetic": "pom mee nat gap mor we-la sip mong krap"
+            "frontContent": {
+                "type": "text",
+                "text": "ฉันมีนัดกับหมอ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "I have an appointment with the doctor"
+            },
+            "tags": ["medical", "appointment", "basic"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "chan mee nat gap mor",
+            "partOfSpeech": "phrase",
+            "context": "Used when arriving at a scheduled doctor appointment",
+            "examples": [
+                {
+                    "original": "ผมมีนัดกับหมอเวลา 10 โมงครับ",
+                    "translation": "I have an appointment with the doctor at 10 o'clock (male speaker)",
+                    "phonetic": "pom mee nat gap mor we-la sip mong krap"
+                },
+                {
+                    "original": "ฉันมีนัดตรวจสุขภาพประจำปีค่ะ",
+                    "translation": "I have an appointment for my annual check-up (female speaker)",
+                    "phonetic": "chan mee nat truat su-ka-pap pra-jam pee ka"
+                }
+            ]
         },
         {
-          "original": "ฉันมีนัดตรวจสุขภาพประจำปีค่ะ",
-          "translation": "I have an appointment for my annual check-up (female speaker)",
-          "phonetic": "chan mee nat truat su-ka-pap pra-jam pee ka"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ฉันมียาประจำตัว"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "I take regular medication"
-      },
-      "tags": [
-        "medical",
-        "medication",
-        "important"
-      ],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "chan mee ya pra-jam tua",
-      "partOfSpeech": "phrase",
-      "context": "Important information about current medications",
-      "examples": [
-        {
-          "original": "ผมมียาประจำตัวหลายชนิดครับ",
-          "translation": "I take several regular medications (♂)",
-          "phonetic": "pom mee ya pra-jam tua lai cha-nit krap"
+            "frontContent": {
+                "type": "text",
+                "text": "ฉันมียาประจำตัว"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "I take regular medication"
+            },
+            "tags": ["medical", "medication", "important"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "chan mee ya pra-jam tua",
+            "partOfSpeech": "phrase",
+            "context": "Important information about current medications",
+            "examples": [
+                {
+                    "original": "ผมมียาประจำตัวหลายชนิดครับ",
+                    "translation": "I take several regular medications (♂)",
+                    "phonetic": "pom mee ya pra-jam tua lai cha-nit krap"
+                },
+                {
+                    "original": "นี่คือยาที่ฉันทานประจำค่ะ",
+                    "translation": "These are the medications I take regularly (♀)",
+                    "phonetic": "nee keu ya tee chan tan pra-jam ka"
+                }
+            ]
         },
         {
-          "original": "นี่คือยาที่ฉันทานประจำค่ะ",
-          "translation": "These are the medications I take regularly (♀)",
-          "phonetic": "nee keu ya tee chan tan pra-jam ka"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ทานยานี้อย่างไร"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "How do I take this medicine?"
-      },
-      "tags": [
-        "medical",
-        "medication",
-        "question"
-      ],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "tan ya nee yang-rai",
-      "partOfSpeech": "question",
-      "context": "Used when asking for instructions about medication",
-      "examples": [
-        {
-          "original": "ผมควรทานยานี้วันละกี่ครั้งครับ",
-          "translation": "How many times per day should I take this medicine? (male speaker)",
-          "phonetic": "pom kuan tan ya nee wan la gee krang krap"
+            "frontContent": {
+                "type": "text",
+                "text": "ทานยานี้อย่างไร"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "How do I take this medicine?"
+            },
+            "tags": ["medical", "medication", "question"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "tan ya nee yang-rai",
+            "partOfSpeech": "question",
+            "context": "Used when asking for instructions about medication",
+            "examples": [
+                {
+                    "original": "ผมควรทานยานี้วันละกี่ครั้งครับ",
+                    "translation": "How many times per day should I take this medicine? (male speaker)",
+                    "phonetic": "pom kuan tan ya nee wan la gee krang krap"
+                },
+                {
+                    "original": "ทานยานี้ก่อนหรือหลังอาหารคะ",
+                    "translation": "Should I take this medicine before or after meals? (female speaker)",
+                    "phonetic": "tan ya nee gorn rue lang a-han ka"
+                }
+            ]
         },
         {
-          "original": "ทานยานี้ก่อนหรือหลังอาหารคะ",
-          "translation": "Should I take this medicine before or after meals? (female speaker)",
-          "phonetic": "tan ya nee gorn rue lang a-han ka"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ฉันต้องงดน้ำงดอาหารไหม"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "Do I need to fast?"
-      },
-      "tags": [
-        "medical",
-        "procedure",
-        "question"
-      ],
-      "difficulty": "hard",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "chan tong ngot nam ngot a-han mai",
-      "partOfSpeech": "question",
-      "context": "Used when asking about preparation for medical tests",
-      "examples": [
-        {
-          "original": "ผมต้องงดน้ำงดอาหารก่อนตรวจเลือดไหมครับ",
-          "translation": "Do I need to fast before the blood test? (♂)",
-          "phonetic": "pom tong ngot nam ngot a-han gorn truat lueat mai krap"
+            "frontContent": {
+                "type": "text",
+                "text": "ฉันต้องงดน้ำงดอาหารไหม"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Do I need to fast?"
+            },
+            "tags": ["medical", "procedure", "question"],
+            "difficulty": "hard",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "chan tong ngot nam ngot a-han mai",
+            "partOfSpeech": "question",
+            "context": "Used when asking about preparation for medical tests",
+            "examples": [
+                {
+                    "original": "ผมต้องงดน้ำงดอาหารก่อนตรวจเลือดไหมครับ",
+                    "translation": "Do I need to fast before the blood test? (♂)",
+                    "phonetic": "pom tong ngot nam ngot a-han gorn truat lueat mai krap"
+                },
+                {
+                    "original": "ฉันต้องงดอาหารกี่ชั่วโมงก่อนการตรวจคะ",
+                    "translation": "How many hours should I fast before the examination? (♀)",
+                    "phonetic": "chan tong ngot a-han gee chua-mong gorn garn truat ka"
+                }
+            ]
         },
         {
-          "original": "ฉันต้องงดอาหารกี่ชั่วโมงก่อนการตรวจคะ",
-          "translation": "How many hours should I fast before the examination? (♀)",
-          "phonetic": "chan tong ngot a-han gee chua-mong gorn garn truat ka"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ฉันกำลังตั้งครรภ์"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "I am pregnant"
-      },
-      "tags": [
-        "medical",
-        "condition",
-        "important"
-      ],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "chan gam-lang tang kan",
-      "partOfSpeech": "phrase",
-      "context": "Important health information that may affect treatment",
-      "examples": [
-        {
-          "original": "ฉันกำลังตั้งครรภ์ได้ 3 เดือนค่ะ",
-          "translation": "I am 3 months pregnant (♀)",
-          "phonetic": "chan gam-lang tang kan dai sam deuan ka"
+            "frontContent": {
+                "type": "text",
+                "text": "ฉันกำลังตั้งครรภ์"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "I am pregnant"
+            },
+            "tags": ["medical", "condition", "important"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "chan gam-lang tang kan",
+            "partOfSpeech": "phrase",
+            "context": "Important health information that may affect treatment",
+            "examples": [
+                {
+                    "original": "ฉันกำลังตั้งครรภ์ได้ 3 เดือนค่ะ",
+                    "translation": "I am 3 months pregnant (♀)",
+                    "phonetic": "chan gam-lang tang kan dai sam deuan ka"
+                },
+                {
+                    "original": "ฉันตั้งครรภ์ ยานี้ปลอดภัยไหมคะ",
+                    "translation": "I am pregnant, is this medicine safe? (♀)",
+                    "phonetic": "chan tang kan, ya nee plod-pai mai ka"
+                }
+            ]
         },
         {
-          "original": "ฉันตั้งครรภ์ ยานี้ปลอดภัยไหมคะ",
-          "translation": "I am pregnant, is this medicine safe? (♀)",
-          "phonetic": "chan tang kan, ya nee plod-pai mai ka"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "อาการเป็นมากี่วันแล้ว"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "How many days have you had these symptoms?"
-      },
-      "tags": [
-        "medical",
-        "question",
-        "doctor"
-      ],
-      "difficulty": "hard",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "a-garn pen ma gee wan laew",
-      "partOfSpeech": "question",
-      "context": "Question a doctor might ask about symptom duration",
-      "examples": [
-        {
-          "original": "คุณหมอถามว่าอาการไข้เป็นมากี่วันแล้ว",
-          "translation": "The doctor asks how many days you have had the fever (♂)",
-          "phonetic": "khun mor tam wa a-garn kai pen ma gee wan laew"
+            "frontContent": {
+                "type": "text",
+                "text": "อาการเป็นมากี่วันแล้ว"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "How many days have you had these symptoms?"
+            },
+            "tags": ["medical", "question", "doctor"],
+            "difficulty": "hard",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "a-garn pen ma gee wan laew",
+            "partOfSpeech": "question",
+            "context": "Question a doctor might ask about symptom duration",
+            "examples": [
+                {
+                    "original": "คุณหมอถามว่าอาการไข้เป็นมากี่วันแล้ว",
+                    "translation": "The doctor asks how many days you have had the fever (♂)",
+                    "phonetic": "khun mor tam wa a-garn kai pen ma gee wan laew"
+                },
+                {
+                    "original": "อาการปวดท้องเป็นมานานแค่ไหนแล้วครับ",
+                    "translation": "How long have you had the stomachache? (♂)",
+                    "phonetic": "a-garn puad tong pen ma naan kae nai laew krap"
+                }
+            ]
         },
         {
-          "original": "อาการปวดท้องเป็นมานานแค่ไหนแล้วครับ",
-          "translation": "How long have you had the stomachache? (♂)",
-          "phonetic": "a-garn puad tong pen ma naan kae nai laew krap"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ฉันต้องเสียค่าใช้จ่ายเท่าไร"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "How much do I need to pay?"
-      },
-      "tags": [
-        "medical",
-        "payment",
-        "question"
-      ],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "chan tong sia ka chai-jai tao-rai",
-      "partOfSpeech": "question",
-      "context": "Used when asking about medical fees",
-      "examples": [
-        {
-          "original": "ผมต้องเสียค่ารักษาเท่าไรครับ",
-          "translation": "How much do I need to pay for the treatment? (♂)",
-          "phonetic": "pom tong sia ka rak-sa tao-rai krap"
+            "frontContent": {
+                "type": "text",
+                "text": "ฉันต้องเสียค่าใช้จ่ายเท่าไร"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "How much do I need to pay?"
+            },
+            "tags": ["medical", "payment", "question"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "chan tong sia ka chai-jai tao-rai",
+            "partOfSpeech": "question",
+            "context": "Used when asking about medical fees",
+            "examples": [
+                {
+                    "original": "ผมต้องเสียค่ารักษาเท่าไรครับ",
+                    "translation": "How much do I need to pay for the treatment? (♂)",
+                    "phonetic": "pom tong sia ka rak-sa tao-rai krap"
+                },
+                {
+                    "original": "ค่าหมอและค่ายารวมเท่าไรคะ",
+                    "translation": "How much is the total for the doctor's fee and medicine? (♀)",
+                    "phonetic": "ka mor lae ka ya ruam tao-rai ka"
+                }
+            ]
         },
         {
-          "original": "ค่าหมอและค่ายารวมเท่าไรคะ",
-          "translation": "How much is the total for the doctor's fee and medicine? (♀)",
-          "phonetic": "ka mor lae ka ya ruam tao-rai ka"
+            "frontContent": {
+                "type": "text",
+                "text": "ฉันมีประกันสุขภาพ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "I have health insurance"
+            },
+            "tags": ["medical", "payment", "insurance"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "chan mee pra-gan su-ka-pap",
+            "partOfSpeech": "phrase",
+            "context": "Important information related to payment for medical services",
+            "examples": [
+                {
+                    "original": "ผมมีประกันสุขภาพระหว่างการเดินทางครับ",
+                    "translation": "I have travel health insurance (♂)",
+                    "phonetic": "pom mee pra-gan su-ka-pap ra-wang garn dern tang krap"
+                },
+                {
+                    "original": "นี่คือบัตรประกันสุขภาพของฉันค่ะ",
+                    "translation": "This is my health insurance card (♀)",
+                    "phonetic": "nee keu bat pra-gan su-ka-pap kong chan ka"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ฉันมีประกันสุขภาพ"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "I have health insurance"
-      },
-      "tags": [
-        "medical",
-        "payment",
-        "insurance"
-      ],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "chan mee pra-gan su-ka-pap",
-      "partOfSpeech": "phrase",
-      "context": "Important information related to payment for medical services",
-      "examples": [
-        {
-          "original": "ผมมีประกันสุขภาพระหว่างการเดินทางครับ",
-          "translation": "I have travel health insurance (♂)",
-          "phonetic": "pom mee pra-gan su-ka-pap ra-wang garn dern tang krap"
-        },
-        {
-          "original": "นี่คือบัตรประกันสุขภาพของฉันค่ะ",
-          "translation": "This is my health insurance card (♀)",
-          "phonetic": "nee keu bat pra-gan su-ka-pap kong chan ka"
-        }
-      ]
-    }
-  ],
-  "createdAt": "2025-04-30T10:30:00Z",
-  "updatedAt": "2025-04-30T10:30:00Z",
-  "theme": "medical",
-  "difficulty": "intermediate"
+    ],
+    "createdAt": "2025-04-30T10:30:00Z",
+    "updatedAt": "2025-04-30T10:30:00Z",
+    "theme": "medical",
+    "difficulty": "intermediate"
 }

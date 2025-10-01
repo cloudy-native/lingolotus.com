@@ -23,6 +23,7 @@ const Examples: React.FC<ExamplesProps> = ({
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={4}>
             {examples.map((example) => (
                 <Box
+                    key={`${example.original}-${example.translation}`}
                     w="100%"
                     borderRadius="lg"
                     p={4}

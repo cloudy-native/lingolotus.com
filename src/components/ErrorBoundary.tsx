@@ -6,7 +6,7 @@ import {
     Text,
     VStack,
 } from "@chakra-ui/react";
-import React, { Component, ErrorInfo, ReactNode } from "react";
+import { Component, ErrorInfo, ReactNode } from "react";
 
 interface ErrorBoundaryProps {
     children: ReactNode;
@@ -111,7 +111,9 @@ class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
                             </Button>
                             <Button
                                 variant="ghost"
-                                onClick={() => (window.location.href = "/")}
+                                onClick={() => {
+                                    window.location.href = "/";
+                                }}
                             >
                                 Go to Homepage
                             </Button>

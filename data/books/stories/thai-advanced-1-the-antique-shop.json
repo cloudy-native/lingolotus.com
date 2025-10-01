@@ -1,135 +1,135 @@
 {
-  "storyId": "thai-advanced-1-the-antique-shop",
-  "bookId": "thai-advanced-1",
-  "language": "th",
-  "title": {
-    "source": "ร้านของเก่า",
-    "target": "The Antique Shop"
-  },
-  "sentences": [
-    {
-      "source": "ร้านของเก่าบนถนนเมเปิลเป็นคลังสมบัติของเรื่องราวที่ถูกลืม",
-      "target": "The antique shop on Maple Street was a treasure trove of forgotten stories.",
-      "phonetic": "ráan khɔ̌ɔng-gào bon thà-nǒn mee-bpə̀ən bpen khlang-sǒm-bàt khɔ̌ɔng rʉ̂ang-raao thîi thùuk-lʉʉm",
-      "breakdown": []
+    "storyId": "thai-advanced-1-the-antique-shop",
+    "bookId": "thai-advanced-1",
+    "language": "th",
+    "title": {
+        "source": "ร้านของเก่า",
+        "target": "The Antique Shop"
     },
-    {
-      "source": "เอเลนา นักเขียนที่มีความทะเยอทะยาน มาเยี่ยมชมทุกสัปดาห์ ถูกดึงดูดด้วยเสน่ห์ที่รกรุงรังของร้าน",
-      "target": "Elena, an aspiring writer, visited weekly, drawn to the shop's cluttered charm.",
-      "phonetic": "ee-lee-naa nák-khǐan thîi mii khwaam-thá-yəə-thá-yaan maa yîiam-chom thúk sàp-daa thùuk dʉng-dùut dûai sà-nèe thîi rók-rung-rang khɔ̌ɔng ráan",
-      "breakdown": []
-    },
-    {
-      "source": "แต่ละสิ่งของ—ถ้วยชาที่แตก นาฬิกาทองเหลือง โปสการ์ดที่จางจาง—เก็บชิ้นส่วนของประวัติศาสตร์",
-      "target": "Each item—a chipped teacup, a brass clock, a faded postcard—held a piece of history.",
-      "phonetic": "dtɛ̀ɛ-lá-sìng-khɔ̌ɔng—thûai-chaa thîi dtɛ̀ɛk naa-lí-gaa thɔɔng-lʉ̌ang bpòot-gàat thîi jaang-jaang—gèp chín-sùan khɔ̌ɔng bprà-wàt-sàat",
-      "breakdown": []
-    },
-    {
-      "source": "เจ้าของร้าน คุณทอมป์สัน แบ่งปันเรื่องราวเกี่ยวกับทุกสิ่ง",
-      "target": "The shop's owner, Mr. Thompson, shared tales about every object.",
-      "phonetic": "jâo-khɔ̌ɔng-ráan khun thɔ́m-sàn bɛ̀ng-bpan rʉ̂ang-raao gìeow-gàp thúk-sìng",
-      "breakdown": []
-    },
-    {
-      "source": "เขาชี้ไปที่จี้ อธิบายว่ามันเป็นของพยาบาลในช่วงสงครามโลกครั้งที่สอง",
-      "target": "He pointed to a locket, explaining it belonged to a nurse during World War II.",
-      "phonetic": "kháo chíi bpai thîi jîi à-thí-baai wâa man bpen khɔ̌ɔng phá-yaa-baan nai chûang sǒng-khraam-lôok khráng-thîi sɔ̌ɔng",
-      "breakdown": []
-    },
-    {
-      "source": "เอเลนาจินตนาการถึงชีวิตของพยาบาล ทอเรื่องราวในใจของเธอ",
-      "target": "Elena imagined the nurse's life, weaving a story in her mind.",
-      "phonetic": "ee-lee-naa jin-dtà-naa-gaan thʉ̌ng chii-wít khɔ̌ɔng phá-yaa-baan thɔɔ rʉ̂ang-raao nai jai khɔ̌ɔng thəə",
-      "breakdown": []
-    },
-    {
-      "source": "เธอซื้อจี้ หวังว่ามันจะสร้างแรงบันดาลใจให้นวนิยายเรื่องต่อไปของเธอ",
-      "target": "She bought the locket, hoping it would inspire her next novel.",
-      "phonetic": "thəə sʉ́ʉ jîi wǎng wâa man jà sâang rɛɛng-ban-daan-jai hâi na-wá-ní-yaai rʉ̂ang-dtɔ̀ɔ-bpai khɔ̌ɔng thəə",
-      "breakdown": []
-    },
-    {
-      "source": "ที่บ้าน เธอค้นคว้าเกี่ยวกับสงคราม ค้นพบรายละเอียดเกี่ยวกับบทบาทของผู้หญิง",
-      "target": "At home, she researched the war, uncovering details about women's roles.",
-      "phonetic": "thîi bâan thəə khón-khwáa gìeow-gàp sǒng-khraam khón-phóp raai-lá-ìat gìeow-gàp bòt-bàat khɔ̌ɔng phûu-yǐng",
-      "breakdown": []
-    },
-    {
-      "source": "การเขียนของเธอไหลลื่น เต็มไปด้วยคำบรรยายที่ชัดเจนของความกล้าหาญและการสูญเสีย",
-      "target": "Her writing flowed, filled with vivid descriptions of courage and loss.",
-      "phonetic": "gaan khǐan khɔ̌ɔng thəə lǎi-lʉ̂ʉn dtèm bpai dûai kham-ban-yaai thîi chát-jeen khɔ̌ɔng khwaam-glâa-hǎan láe gaan sǔun-sǐia",
-      "breakdown": []
-    },
-    {
-      "source": "เธอกลับไปที่ร้าน กระตือรือร้นที่จะได้เรื่องราวเพิ่มเติม",
-      "target": "She returned to the shop, eager for more stories.",
-      "phonetic": "thəə glàp-bpai thîi ráan grà-dtʉʉ-rʉʉ-rɔ́ɔn thîi jà dâi rʉ̂ang-raao phə̂əm-dtə̀əm",
-      "breakdown": []
-    },
-    {
-      "source": "คุณทอมป์สันแสดงไวโอลินให้เธอดู ซึ่งเคยเล่นโดยนักดนตรีเร่ร่อน",
-      "target": "Mr. Thompson showed her a violin, once played by a traveling musician.",
-      "phonetic": "khun thɔ́m-sàn sà-dɛɛng wai-oo-lin hâi thəə duu sʉ̂ng khəəi lên doi nák-don-dtrii rêe-rɔ̂ɔn",
-      "breakdown": []
-    },
-    {
-      "source": "เอเลนาสัมผัสสายที่สึกหรอ จินตนาการถึงห้องคอนเสิร์ตและถนนที่เต็มไปด้วยฝุ่น",
-      "target": "Elena touched its worn strings, imagining concert halls and dusty roads.",
-      "phonetic": "ee-lee-naa sǎm-phàt sǎai thîi sʉ̀k-rɔ̌ɔ jin-dtà-naa-gaan thʉ̌ng hɔ̂ɔng-khɔɔn-sə̀ət láe thà-nǒn thîi dtèm bpai dûai fǔn",
-      "breakdown": []
-    },
-    {
-      "source": "เธอเริ่มสะสมของเล็กๆ แต่ละชิ้นจุดประกายความคิดใหม่",
-      "target": "She began collecting small items, each sparking a new idea.",
-      "phonetic": "thəə rə̂əm sà-sǒm khɔ̌ɔng lék-lék dtɛ̀ɛ-lá-chín jùt-bprà-gaai khwaam-khít mài",
-      "breakdown": []
-    },
-    {
-      "source": "เรื่องราวของเธอได้รับความลึกซึ้ง ได้รับคำชมจากกลุ่มเขียนของเธอ",
-      "target": "Her stories gained depth, earning praise from her writing group.",
-      "phonetic": "rʉ̂ang-raao khɔ̌ɔng thəə dâi ráp khwaam-lʉ́k-sʉ́ng dâi ráp kham-chom jàak glùm-khǐan khɔ̌ɔng thəə",
-      "breakdown": []
-    },
-    {
-      "source": "ร้านกลายเป็นสถานที่ศักดิ์สิทธิ์ของเธอ สถานที่เชื่อมโยงกับอดีต",
-      "target": "The shop became her sanctuary, a place to connect with the past.",
-      "phonetic": "ráan glaai-bpen sà-thǎan-thîi sàk-sìt khɔ̌ɔng thəə sà-thǎan-thîi chʉ̂am-yoong gàp à-dìit",
-      "breakdown": []
-    },
-    {
-      "source": "คุณทอมป์สันเชิญเธอไปงานประวัติศาสตร์ท้องถิ่น ที่ซึ่งเธอแบ่งปันผลงานของเธอ",
-      "target": "Mr. Thompson invited her to a local history event, where she shared her work.",
-      "phonetic": "khun thɔ́m-sàn chəən thəə bpai ngaan bprà-wàt-sàat thɔ́ɔng-thìn thîi sʉ̂ng thəə bɛ̀ng-bpan phǒn-ngaan khɔ̌ɔng thəə",
-      "breakdown": []
-    },
-    {
-      "source": "ผู้ชมชื่นชอบเรื่องราวของเธอ ได้รับแรงบันดาลใจจากสมบัติของร้าน",
-      "target": "The audience loved her tales, inspired by the shop's treasures.",
-      "phonetic": "phûu-chom chʉ̂ən-chɔɔp rʉ̂ang-raao khɔ̌ɔng thəə dâi ráp rɛɛng-ban-daan-jai jàak sǒm-bàt khɔ̌ɔng ráan",
-      "breakdown": []
-    },
-    {
-      "source": "เอเลนารู้สึกถึงจุดประสงค์ ผสมผสานประวัติศาสตร์กับความคิดสร้างสรรค์",
-      "target": "Elena felt a sense of purpose, blending history with creativity.",
-      "phonetic": "ee-lee-naa rúu-sʉ̀k thʉ̌ng jùt-bprà-sǒng phà-sǒm-phà-sǎan bprà-wàt-sàat gàp khwaam-khít-sâang-sǎn",
-      "breakdown": []
-    },
-    {
-      "source": "เธอขอบคุณคุณทอมป์สัน ซึ่งส่งสิ่งประดิษฐ์ใหม่ให้เธอ",
-      "target": "She thanked Mr. Thompson, who handed her a new artifact.",
-      "phonetic": "thəə khɔ̀ɔp-khun khun thɔ́m-sàn sʉ̂ng sɔ̀ng sìng-bprà-dìt mài hâi thəə",
-      "breakdown": []
-    },
-    {
-      "source": "ร้านเป็นมากกว่าร้านค้า—มันเป็นประตูสู่จินตนาการ",
-      "target": "The shop was more than a store—it was a gateway to imagination.",
-      "phonetic": "ráan bpen mâak-gwàa ráan-kháa—man bpen bprà-dtuu sùu jin-dtà-naa-gaan",
-      "breakdown": []
-    }
-  ],
-  "createdAt": "2025-09-30T20:31:00Z",
-  "updatedAt": "2025-09-30T20:31:00Z",
-  "difficulty": "advanced",
-  "summary": "การค้นพบแรงบันดาลใจของเอเลนาผ่านร้านของเก่าและสิ่งของโบราณ"
+    "sentences": [
+        {
+            "source": "ร้านของเก่าบนถนนเมเปิลเป็นคลังสมบัติของเรื่องราวที่ถูกลืม",
+            "target": "The antique shop on Maple Street was a treasure trove of forgotten stories.",
+            "phonetic": "ráan khɔ̌ɔng-gào bon thà-nǒn mee-bpə̀ən bpen khlang-sǒm-bàt khɔ̌ɔng rʉ̂ang-raao thîi thùuk-lʉʉm",
+            "breakdown": []
+        },
+        {
+            "source": "เอเลนา นักเขียนที่มีความทะเยอทะยาน มาเยี่ยมชมทุกสัปดาห์ ถูกดึงดูดด้วยเสน่ห์ที่รกรุงรังของร้าน",
+            "target": "Elena, an aspiring writer, visited weekly, drawn to the shop's cluttered charm.",
+            "phonetic": "ee-lee-naa nák-khǐan thîi mii khwaam-thá-yəə-thá-yaan maa yîiam-chom thúk sàp-daa thùuk dʉng-dùut dûai sà-nèe thîi rók-rung-rang khɔ̌ɔng ráan",
+            "breakdown": []
+        },
+        {
+            "source": "แต่ละสิ่งของ—ถ้วยชาที่แตก นาฬิกาทองเหลือง โปสการ์ดที่จางจาง—เก็บชิ้นส่วนของประวัติศาสตร์",
+            "target": "Each item—a chipped teacup, a brass clock, a faded postcard—held a piece of history.",
+            "phonetic": "dtɛ̀ɛ-lá-sìng-khɔ̌ɔng—thûai-chaa thîi dtɛ̀ɛk naa-lí-gaa thɔɔng-lʉ̌ang bpòot-gàat thîi jaang-jaang—gèp chín-sùan khɔ̌ɔng bprà-wàt-sàat",
+            "breakdown": []
+        },
+        {
+            "source": "เจ้าของร้าน คุณทอมป์สัน แบ่งปันเรื่องราวเกี่ยวกับทุกสิ่ง",
+            "target": "The shop's owner, Mr. Thompson, shared tales about every object.",
+            "phonetic": "jâo-khɔ̌ɔng-ráan khun thɔ́m-sàn bɛ̀ng-bpan rʉ̂ang-raao gìeow-gàp thúk-sìng",
+            "breakdown": []
+        },
+        {
+            "source": "เขาชี้ไปที่จี้ อธิบายว่ามันเป็นของพยาบาลในช่วงสงครามโลกครั้งที่สอง",
+            "target": "He pointed to a locket, explaining it belonged to a nurse during World War II.",
+            "phonetic": "kháo chíi bpai thîi jîi à-thí-baai wâa man bpen khɔ̌ɔng phá-yaa-baan nai chûang sǒng-khraam-lôok khráng-thîi sɔ̌ɔng",
+            "breakdown": []
+        },
+        {
+            "source": "เอเลนาจินตนาการถึงชีวิตของพยาบาล ทอเรื่องราวในใจของเธอ",
+            "target": "Elena imagined the nurse's life, weaving a story in her mind.",
+            "phonetic": "ee-lee-naa jin-dtà-naa-gaan thʉ̌ng chii-wít khɔ̌ɔng phá-yaa-baan thɔɔ rʉ̂ang-raao nai jai khɔ̌ɔng thəə",
+            "breakdown": []
+        },
+        {
+            "source": "เธอซื้อจี้ หวังว่ามันจะสร้างแรงบันดาลใจให้นวนิยายเรื่องต่อไปของเธอ",
+            "target": "She bought the locket, hoping it would inspire her next novel.",
+            "phonetic": "thəə sʉ́ʉ jîi wǎng wâa man jà sâang rɛɛng-ban-daan-jai hâi na-wá-ní-yaai rʉ̂ang-dtɔ̀ɔ-bpai khɔ̌ɔng thəə",
+            "breakdown": []
+        },
+        {
+            "source": "ที่บ้าน เธอค้นคว้าเกี่ยวกับสงคราม ค้นพบรายละเอียดเกี่ยวกับบทบาทของผู้หญิง",
+            "target": "At home, she researched the war, uncovering details about women's roles.",
+            "phonetic": "thîi bâan thəə khón-khwáa gìeow-gàp sǒng-khraam khón-phóp raai-lá-ìat gìeow-gàp bòt-bàat khɔ̌ɔng phûu-yǐng",
+            "breakdown": []
+        },
+        {
+            "source": "การเขียนของเธอไหลลื่น เต็มไปด้วยคำบรรยายที่ชัดเจนของความกล้าหาญและการสูญเสีย",
+            "target": "Her writing flowed, filled with vivid descriptions of courage and loss.",
+            "phonetic": "gaan khǐan khɔ̌ɔng thəə lǎi-lʉ̂ʉn dtèm bpai dûai kham-ban-yaai thîi chát-jeen khɔ̌ɔng khwaam-glâa-hǎan láe gaan sǔun-sǐia",
+            "breakdown": []
+        },
+        {
+            "source": "เธอกลับไปที่ร้าน กระตือรือร้นที่จะได้เรื่องราวเพิ่มเติม",
+            "target": "She returned to the shop, eager for more stories.",
+            "phonetic": "thəə glàp-bpai thîi ráan grà-dtʉʉ-rʉʉ-rɔ́ɔn thîi jà dâi rʉ̂ang-raao phə̂əm-dtə̀əm",
+            "breakdown": []
+        },
+        {
+            "source": "คุณทอมป์สันแสดงไวโอลินให้เธอดู ซึ่งเคยเล่นโดยนักดนตรีเร่ร่อน",
+            "target": "Mr. Thompson showed her a violin, once played by a traveling musician.",
+            "phonetic": "khun thɔ́m-sàn sà-dɛɛng wai-oo-lin hâi thəə duu sʉ̂ng khəəi lên doi nák-don-dtrii rêe-rɔ̂ɔn",
+            "breakdown": []
+        },
+        {
+            "source": "เอเลนาสัมผัสสายที่สึกหรอ จินตนาการถึงห้องคอนเสิร์ตและถนนที่เต็มไปด้วยฝุ่น",
+            "target": "Elena touched its worn strings, imagining concert halls and dusty roads.",
+            "phonetic": "ee-lee-naa sǎm-phàt sǎai thîi sʉ̀k-rɔ̌ɔ jin-dtà-naa-gaan thʉ̌ng hɔ̂ɔng-khɔɔn-sə̀ət láe thà-nǒn thîi dtèm bpai dûai fǔn",
+            "breakdown": []
+        },
+        {
+            "source": "เธอเริ่มสะสมของเล็กๆ แต่ละชิ้นจุดประกายความคิดใหม่",
+            "target": "She began collecting small items, each sparking a new idea.",
+            "phonetic": "thəə rə̂əm sà-sǒm khɔ̌ɔng lék-lék dtɛ̀ɛ-lá-chín jùt-bprà-gaai khwaam-khít mài",
+            "breakdown": []
+        },
+        {
+            "source": "เรื่องราวของเธอได้รับความลึกซึ้ง ได้รับคำชมจากกลุ่มเขียนของเธอ",
+            "target": "Her stories gained depth, earning praise from her writing group.",
+            "phonetic": "rʉ̂ang-raao khɔ̌ɔng thəə dâi ráp khwaam-lʉ́k-sʉ́ng dâi ráp kham-chom jàak glùm-khǐan khɔ̌ɔng thəə",
+            "breakdown": []
+        },
+        {
+            "source": "ร้านกลายเป็นสถานที่ศักดิ์สิทธิ์ของเธอ สถานที่เชื่อมโยงกับอดีต",
+            "target": "The shop became her sanctuary, a place to connect with the past.",
+            "phonetic": "ráan glaai-bpen sà-thǎan-thîi sàk-sìt khɔ̌ɔng thəə sà-thǎan-thîi chʉ̂am-yoong gàp à-dìit",
+            "breakdown": []
+        },
+        {
+            "source": "คุณทอมป์สันเชิญเธอไปงานประวัติศาสตร์ท้องถิ่น ที่ซึ่งเธอแบ่งปันผลงานของเธอ",
+            "target": "Mr. Thompson invited her to a local history event, where she shared her work.",
+            "phonetic": "khun thɔ́m-sàn chəən thəə bpai ngaan bprà-wàt-sàat thɔ́ɔng-thìn thîi sʉ̂ng thəə bɛ̀ng-bpan phǒn-ngaan khɔ̌ɔng thəə",
+            "breakdown": []
+        },
+        {
+            "source": "ผู้ชมชื่นชอบเรื่องราวของเธอ ได้รับแรงบันดาลใจจากสมบัติของร้าน",
+            "target": "The audience loved her tales, inspired by the shop's treasures.",
+            "phonetic": "phûu-chom chʉ̂ən-chɔɔp rʉ̂ang-raao khɔ̌ɔng thəə dâi ráp rɛɛng-ban-daan-jai jàak sǒm-bàt khɔ̌ɔng ráan",
+            "breakdown": []
+        },
+        {
+            "source": "เอเลนารู้สึกถึงจุดประสงค์ ผสมผสานประวัติศาสตร์กับความคิดสร้างสรรค์",
+            "target": "Elena felt a sense of purpose, blending history with creativity.",
+            "phonetic": "ee-lee-naa rúu-sʉ̀k thʉ̌ng jùt-bprà-sǒng phà-sǒm-phà-sǎan bprà-wàt-sàat gàp khwaam-khít-sâang-sǎn",
+            "breakdown": []
+        },
+        {
+            "source": "เธอขอบคุณคุณทอมป์สัน ซึ่งส่งสิ่งประดิษฐ์ใหม่ให้เธอ",
+            "target": "She thanked Mr. Thompson, who handed her a new artifact.",
+            "phonetic": "thəə khɔ̀ɔp-khun khun thɔ́m-sàn sʉ̂ng sɔ̀ng sìng-bprà-dìt mài hâi thəə",
+            "breakdown": []
+        },
+        {
+            "source": "ร้านเป็นมากกว่าร้านค้า—มันเป็นประตูสู่จินตนาการ",
+            "target": "The shop was more than a store—it was a gateway to imagination.",
+            "phonetic": "ráan bpen mâak-gwàa ráan-kháa—man bpen bprà-dtuu sùu jin-dtà-naa-gaan",
+            "breakdown": []
+        }
+    ],
+    "createdAt": "2025-09-30T20:31:00Z",
+    "updatedAt": "2025-09-30T20:31:00Z",
+    "difficulty": "advanced",
+    "summary": "การค้นพบแรงบันดาลใจของเอเลนาผ่านร้านของเก่าและสิ่งของโบราณ"
 }

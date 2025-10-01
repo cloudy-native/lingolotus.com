@@ -1,4 +1,4 @@
-import React, { useId, useMemo, useState } from "react";
+import React, { useId, useState } from "react";
 
 import {
     Box,
@@ -68,7 +68,7 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
     const translateToggleId = useId();
     const phoneticToggleId = useId();
     const breakdownToggleId = useId();
-    const fontChoiceId = useId();
+    const _fontChoiceId = useId();
 
     // Check if any sentence has breakdown data
     const hasBreakdowns = story.sentences?.some(

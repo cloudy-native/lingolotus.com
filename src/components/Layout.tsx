@@ -25,6 +25,7 @@ import { BookOpen, Home, Info, LibraryBig, Menu } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
 
 import { semanticColors } from "../theme/colors";
+import { tokens } from "../theme/tokens";
 
 interface LayoutProps {
     children: React.ReactNode;
@@ -48,14 +49,21 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 borderColor={borderColor}
                 position="sticky"
                 top={0}
-                zIndex={10}
+                zIndex={tokens.zIndex.header}
                 boxShadow="sm"
             >
                 <Container maxW="container.xl">
                     <Flex justify="space-between" align="center">
                         {/* Logo/Brand */}
-                        <HStack as={GatsbyLink} to="/" spacing={2}>
-                            <Text fontSize="2xl">🪷</Text>
+                        <HStack
+                            as={GatsbyLink}
+                            to="/"
+                            spacing={2}
+                            aria-label="Lingo Lotus home"
+                        >
+                            <Text fontSize="2xl" aria-hidden="true">
+                                🪷
+                            </Text>
                             <Heading size="md">Lingo Lotus</Heading>
                         </HStack>
 
@@ -77,9 +85,14 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                                 as={GatsbyLink}
                                 to="/"
                                 _hover={{ textDecoration: "none" }}
+                                aria-label="Go to home page"
                             >
                                 <HStack spacing={1}>
-                                    <Icon as={Home} size="24px" />
+                                    <Icon
+                                        as={Home}
+                                        boxSize={tokens.iconSize.lg}
+                                        aria-hidden="true"
+                                    />
                                     <Text fontSize="md">Home</Text>
                                 </HStack>
                             </Link>
@@ -87,9 +100,14 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                                 as={GatsbyLink}
                                 to="/flash-cards"
                                 _hover={{ textDecoration: "none" }}
+                                aria-label="Go to flashcards"
                             >
                                 <HStack spacing={1}>
-                                    <Icon as={LibraryBig} size="24px" />
+                                    <Icon
+                                        as={LibraryBig}
+                                        boxSize={tokens.iconSize.lg}
+                                        aria-hidden="true"
+                                    />
                                     <Text>Flash Cards</Text>
                                 </HStack>
                             </Link>
@@ -97,9 +115,14 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                                 as={GatsbyLink}
                                 to="/reading"
                                 _hover={{ textDecoration: "none" }}
+                                aria-label="Go to reading materials"
                             >
                                 <HStack spacing={1}>
-                                    <Icon as={BookOpen} size="24px" />
+                                    <Icon
+                                        as={BookOpen}
+                                        boxSize={tokens.iconSize.lg}
+                                        aria-hidden="true"
+                                    />
                                     <Text>Reading</Text>
                                 </HStack>
                             </Link>
@@ -107,9 +130,14 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                                 as={GatsbyLink}
                                 to="/about"
                                 _hover={{ textDecoration: "none" }}
+                                aria-label="Go to about page"
                             >
                                 <HStack spacing={1}>
-                                    <Icon as={Info} size="24px" />
+                                    <Icon
+                                        as={Info}
+                                        boxSize={tokens.iconSize.lg}
+                                        aria-hidden="true"
+                                    />
                                     <Text>About</Text>
                                 </HStack>
                             </Link>
@@ -152,6 +180,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                                 to="/"
                                 onClick={onClose}
                                 _hover={{ textDecoration: "none" }}
+                                aria-label="Go to home page"
                             >
                                 <HStack
                                     spacing={3}
@@ -159,7 +188,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                                     borderRadius="md"
                                     _hover={{ bg: "gray.100" }}
                                 >
-                                    <Icon as={Home} boxSize={5} />
+                                    <Icon
+                                        as={Home}
+                                        boxSize={tokens.iconSize.md}
+                                        aria-hidden="true"
+                                    />
                                     <Text fontSize="lg">Home</Text>
                                 </HStack>
                             </Link>
@@ -168,6 +201,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                                 to="/flash-cards"
                                 onClick={onClose}
                                 _hover={{ textDecoration: "none" }}
+                                aria-label="Go to flashcards"
                             >
                                 <HStack
                                     spacing={3}
@@ -175,7 +209,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                                     borderRadius="md"
                                     _hover={{ bg: "gray.100" }}
                                 >
-                                    <Icon as={LibraryBig} boxSize={5} />
+                                    <Icon
+                                        as={LibraryBig}
+                                        boxSize={tokens.iconSize.md}
+                                        aria-hidden="true"
+                                    />
                                     <Text fontSize="lg">Flash Cards</Text>
                                 </HStack>
                             </Link>
@@ -184,6 +222,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                                 to="/reading"
                                 onClick={onClose}
                                 _hover={{ textDecoration: "none" }}
+                                aria-label="Go to reading materials"
                             >
                                 <HStack
                                     spacing={3}
@@ -191,7 +230,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                                     borderRadius="md"
                                     _hover={{ bg: "gray.100" }}
                                 >
-                                    <Icon as={BookOpen} boxSize={5} />
+                                    <Icon
+                                        as={BookOpen}
+                                        boxSize={tokens.iconSize.md}
+                                        aria-hidden="true"
+                                    />
                                     <Text fontSize="lg">Reading</Text>
                                 </HStack>
                             </Link>
@@ -200,6 +243,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                                 to="/about"
                                 onClick={onClose}
                                 _hover={{ textDecoration: "none" }}
+                                aria-label="Go to about page"
                             >
                                 <HStack
                                     spacing={3}
@@ -207,7 +251,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                                     borderRadius="md"
                                     _hover={{ bg: "gray.100" }}
                                 >
-                                    <Icon as={Info} boxSize={5} />
+                                    <Icon
+                                        as={Info}
+                                        boxSize={tokens.iconSize.md}
+                                        aria-hidden="true"
+                                    />
                                     <Text fontSize="lg">About</Text>
                                 </HStack>
                             </Link>

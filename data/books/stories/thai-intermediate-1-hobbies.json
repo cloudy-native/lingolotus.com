@@ -1,286 +1,941 @@
 {
-  "storyId": "thai-intermediate-1-hobbies",
-  "bookId": "thai-intermediate-1",
-  "language": "th",
-  "title": {
-    "source": "งานอดิเรก",
-    "target": "Hobbies"
-  },
-  "sentences": [
-    {
-      "source": "คุณทำอะไรในเวลาว่างครับ",
-      "target": "What do you do in your free time?",
-      "phonetic": "khun tham à-rai nai way-laa wâang khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "ทำ", "target": "to do", "phonetic": "tham", "partOfSpeech": "verb" },
-        { "source": "อะไร", "target": "what", "phonetic": "à-rai", "partOfSpeech": "pronoun" },
-        { "source": "ใน", "target": "in", "phonetic": "nai", "partOfSpeech": "preposition" },
-        { "source": "เวลา", "target": "time", "phonetic": "way-laa", "partOfSpeech": "noun" },
-        { "source": "ว่าง", "target": "free", "phonetic": "wâang", "partOfSpeech": "adjective" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
+    "storyId": "thai-intermediate-1-hobbies",
+    "bookId": "thai-intermediate-1",
+    "language": "th",
+    "title": {
+        "source": "งานอดิเรก",
+        "target": "Hobbies"
     },
-    {
-      "source": "ฉันชอบวาดรูปและเล่นฟุตบอลค่ะ",
-      "target": "I like painting and playing soccer.",
-      "phonetic": "chăn chôrp wâat-rûup láe lên fut-bawn khâ",
-      "breakdown": [
-        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "ชอบ", "target": "to like", "phonetic": "chôrp", "partOfSpeech": "verb" },
-        { "source": "วาดรูป", "target": "to paint/draw", "phonetic": "wâat-rûup", "partOfSpeech": "verb" },
-        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
-        { "source": "เล่น", "target": "to play", "phonetic": "lên", "partOfSpeech": "verb" },
-        { "source": "ฟุตบอล", "target": "soccer", "phonetic": "fut-bawn", "partOfSpeech": "noun" },
-        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "คุณวาดรูปเก่งไหมครับ",
-      "target": "Are you good at painting?",
-      "phonetic": "khun wâat-rûup gèng mǎi khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "วาดรูป", "target": "to paint/draw", "phonetic": "wâat-rûup", "partOfSpeech": "verb" },
-        { "source": "เก่ง", "target": "good/skilled", "phonetic": "gèng", "partOfSpeech": "adjective" },
-        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "ไม่เก่งค่ะ แต่ก็สนุกกับมัน",
-      "target": "I’m not great, but I enjoy it.",
-      "phonetic": "mâi gèng khâ dtàe gôr sà-nùk gàp man",
-      "breakdown": [
-        { "source": "ไม่", "target": "not", "phonetic": "mâi", "partOfSpeech": "adverb" },
-        { "source": "เก่ง", "target": "great/skilled", "phonetic": "gèng", "partOfSpeech": "adjective" },
-        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
-        { "source": "แต่", "target": "but", "phonetic": "dtàe", "partOfSpeech": "conjunction" },
-        { "source": "ก็", "target": "emphasizing particle", "phonetic": "gôr", "partOfSpeech": "particle" },
-        { "source": "สนุก", "target": "enjoy/fun", "phonetic": "sà-nùk", "partOfSpeech": "verb" },
-        { "source": "กับ", "target": "with", "phonetic": "gàp", "partOfSpeech": "preposition" },
-        { "source": "มัน", "target": "it", "phonetic": "man", "partOfSpeech": "pronoun" }
-      ]
-    },
-    {
-      "source": "คุณวาดอะไรครับ",
-      "target": "What do you paint?",
-      "phonetic": "khun wâat à-rai khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "วาด", "target": "to paint/draw", "phonetic": "wâat", "partOfSpeech": "verb" },
-        { "source": "อะไร", "target": "what", "phonetic": "à-rai", "partOfSpeech": "pronoun" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "ฉันวาดดอกไม้และทิวทัศน์",
-      "target": "I paint flowers and landscapes.",
-      "phonetic": "chăn wâat dòk-máai láe thiw-thát",
-      "breakdown": [
-        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "วาด", "target": "to paint/draw", "phonetic": "wâat", "partOfSpeech": "verb" },
-        { "source": "ดอกไม้", "target": "flowers", "phonetic": "dòk-máai", "partOfSpeech": "noun" },
-        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
-        { "source": "ทิวทัศน์", "target": "landscapes", "phonetic": "thiw-thát", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "คุณแสดงภาพวาดให้คนอื่นดูไหมครับ",
-      "target": "Do you show your paintings to others?",
-      "phonetic": "khun sà-daaeng phâap-wâat hâi khon-ùeun duu mǎi khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "แสดง", "target": "to show", "phonetic": "sà-daaeng", "partOfSpeech": "verb" },
-        { "source": "ภาพวาด", "target": "paintings", "phonetic": "phâap-wâat", "partOfSpeech": "noun" },
-        { "source": "ให้", "target": "to/for", "phonetic": "hâi", "partOfSpeech": "preposition" },
-        { "source": "คนอื่น", "target": "others", "phonetic": "khon-ùeun", "partOfSpeech": "noun" },
-        { "source": "ดู", "target": "to look", "phonetic": "duu", "partOfSpeech": "verb" },
-        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "บางครั้งฉันก็แสดงให้ครอบครัวดูค่ะ",
-      "target": "Sometimes I show them to my family.",
-      "phonetic": "baang-khráng chăn gôr sà-daaeng hâi khrâwp-khrua duu khâ",
-      "breakdown": [
-        { "source": "บางครั้ง", "target": "sometimes", "phonetic": "baang-khráng", "partOfSpeech": "adverb" },
-        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "ก็", "target": "emphasizing particle", "phonetic": "gôr", "partOfSpeech": "particle" },
-        { "source": "แสดง", "target": "to show", "phonetic": "sà-daaeng", "partOfSpeech": "verb" },
-        { "source": "ให้", "target": "to/for", "phonetic": "hâi", "partOfSpeech": "preposition" },
-        { "source": "ครอบครัว", "target": "family", "phonetic": "khrâwp-khrua", "partOfSpeech": "noun" },
-        { "source": "ดู", "target": "to look", "phonetic": "duu", "partOfSpeech": "verb" },
-        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "แล้วฟุตบอลล่ะ คุณเล่นบ่อยไหมครับ",
-      "target": "What about soccer? Do you play often?",
-      "phonetic": "láew fut-bawn lâ khun lên bòi mǎi khráp",
-      "breakdown": [
-        { "source": "แล้ว", "target": "and then/what about", "phonetic": "láew", "partOfSpeech": "discourse" },
-        { "source": "ฟุตบอล", "target": "soccer", "phonetic": "fut-bawn", "partOfSpeech": "noun" },
-        { "source": "ล่ะ", "target": "topic particle", "phonetic": "lâ", "partOfSpeech": "particle" },
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "เล่น", "target": "to play", "phonetic": "lên", "partOfSpeech": "verb" },
-        { "source": "บ่อย", "target": "often", "phonetic": "bòi", "partOfSpeech": "adverb" },
-        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "ใช่ค่ะ ฉันเล่นฟุตบอลทุกสุดสัปดาห์",
-      "target": "Yes, I play soccer every weekend.",
-      "phonetic": "châi khâ chăn lên fut-bawn thúk sùt-sàp-daa",
-      "breakdown": [
-        { "source": "ใช่", "target": "yes", "phonetic": "châi", "partOfSpeech": "interjection" },
-        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
-        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "เล่น", "target": "to play", "phonetic": "lên", "partOfSpeech": "verb" },
-        { "source": "ฟุตบอล", "target": "soccer", "phonetic": "fut-bawn", "partOfSpeech": "noun" },
-        { "source": "ทุก", "target": "every", "phonetic": "thúk", "partOfSpeech": "determiner" },
-        { "source": "สุดสัปดาห์", "target": "weekend", "phonetic": "sùt-sàp-daa", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "คุณมีทีมไหมครับ",
-      "target": "Do you have a team?",
-      "phonetic": "khun mii theem mǎi khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "มี", "target": "to have", "phonetic": "mii", "partOfSpeech": "verb" },
-        { "source": "ทีม", "target": "team", "phonetic": "theem", "partOfSpeech": "noun" },
-        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "มีค่ะ ฉันเล่นกับทีมโรงเรียน",
-      "target": "Yes, I play with my school team.",
-      "phonetic": "mii khâ chăn lên gàp theem rohng-riian",
-      "breakdown": [
-        { "source": "มี", "target": "to have/yes", "phonetic": "mii", "partOfSpeech": "verb" },
-        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
-        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "เล่น", "target": "to play", "phonetic": "lên", "partOfSpeech": "verb" },
-        { "source": "กับ", "target": "with", "phonetic": "gàp", "partOfSpeech": "preposition" },
-        { "source": "ทีม", "target": "team", "phonetic": "theem", "partOfSpeech": "noun" },
-        { "source": "โรงเรียน", "target": "school", "phonetic": "rohng-riian", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "ฟุตบอลยากไหมครับ",
-      "target": "Is soccer difficult?",
-      "phonetic": "fut-bawn yâak mǎi khráp",
-      "breakdown": [
-        { "source": "ฟุตบอล", "target": "soccer", "phonetic": "fut-bawn", "partOfSpeech": "noun" },
-        { "source": "ยาก", "target": "difficult", "phonetic": "yâak", "partOfSpeech": "adjective" },
-        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "มันยาก แต่สนุกมากค่ะ",
-      "target": "It’s hard, but it’s very fun!",
-      "phonetic": "man yâak dtàe sà-nùk mâak khâ",
-      "breakdown": [
-        { "source": "มัน", "target": "it", "phonetic": "man", "partOfSpeech": "pronoun" },
-        { "source": "ยาก", "target": "hard", "phonetic": "yâak", "partOfSpeech": "adjective" },
-        { "source": "แต่", "target": "but", "phonetic": "dtàe", "partOfSpeech": "conjunction" },
-        { "source": "สนุก", "target": "fun", "phonetic": "sà-nùk", "partOfSpeech": "adjective" },
-        { "source": "มาก", "target": "very", "phonetic": "mâak", "partOfSpeech": "adverb" },
-        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "คุณดูการแข่งขันฟุตบอลไหมครับ",
-      "target": "Do you watch soccer games?",
-      "phonetic": "khun duu gaan-kàeng-khan fut-bawn mǎi khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "ดู", "target": "to watch", "phonetic": "duu", "partOfSpeech": "verb" },
-        { "source": "การแข่งขัน", "target": "competition/game", "phonetic": "gaan-kàeng-khan", "partOfSpeech": "noun" },
-        { "source": "ฟุตบอล", "target": "soccer", "phonetic": "fut-bawn", "partOfSpeech": "noun" },
-        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "ใช่ค่ะ ฉันดูการแข่งขันทางทีวี",
-      "target": "Yes, I watch games on TV.",
-      "phonetic": "châi khâ chăn duu gaan-kàeng-khan thaang thee-wee",
-      "breakdown": [
-        { "source": "ใช่", "target": "yes", "phonetic": "châi", "partOfSpeech": "interjection" },
-        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
-        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "ดู", "target": "to watch", "phonetic": "duu", "partOfSpeech": "verb" },
-        { "source": "การแข่งขัน", "target": "competition/game", "phonetic": "gaan-kàeng-khan", "partOfSpeech": "noun" },
-        { "source": "ทาง", "target": "via/on", "phonetic": "thaang", "partOfSpeech": "preposition" },
-        { "source": "ทีวี", "target": "TV", "phonetic": "thee-wee", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "ทีมโปรดของคุณคือทีมอะไรครับ",
-      "target": "Who is your favorite team?",
-      "phonetic": "theem bpròot khǎwng khun kheuu theem à-rai khráp",
-      "breakdown": [
-        { "source": "ทีม", "target": "team", "phonetic": "theem", "partOfSpeech": "noun" },
-        { "source": "โปรด", "target": "favorite", "phonetic": "bpròot", "partOfSpeech": "adjective" },
-        { "source": "ของ", "target": "of", "phonetic": "khǎwng", "partOfSpeech": "preposition" },
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "คือ", "target": "is/are", "phonetic": "kheuu", "partOfSpeech": "verb" },
-        { "source": "ทีม", "target": "team", "phonetic": "theem", "partOfSpeech": "noun" },
-        { "source": "อะไร", "target": "what", "phonetic": "à-rai", "partOfSpeech": "pronoun" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "ทีมโปรดของฉันคือแมนเชสเตอร์ ยูไนเต็ด",
-      "target": "My favorite team is Manchester United.",
-      "phonetic": "theem bpròot khǎwng chăn kheuu man-chet-dter yoo-nai-tèt",
-      "breakdown": [
-        { "source": "ทีม", "target": "team", "phonetic": "theem", "partOfSpeech": "noun" },
-        { "source": "โปรด", "target": "favorite", "phonetic": "bpròot", "partOfSpeech": "adjective" },
-        { "source": "ของ", "target": "of", "phonetic": "khǎwng", "partOfSpeech": "preposition" },
-        { "source": "ฉัน", "target": "my", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "คือ", "target": "is", "phonetic": "kheuu", "partOfSpeech": "verb" },
-        { "source": "แมนเชสเตอร์ ยูไนเต็ด", "target": "Manchester United", "phonetic": "man-chet-dter yoo-nai-tèt", "partOfSpeech": "proper noun" }
-      ]
-    },
-    {
-      "source": "คุณมีงานอดิเรกอย่างอื่นไหมครับ",
-      "target": "Do you have other hobbies?",
-      "phonetic": "khun mii ngaan-à-dì-rèk yàang-ùeun mǎi khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "มี", "target": "to have", "phonetic": "mii", "partOfSpeech": "verb" },
-        { "source": "งานอดิเรก", "target": "hobby", "phonetic": "ngaan-à-dì-rèk", "partOfSpeech": "noun" },
-        { "source": "อย่าง", "target": "kind/type", "phonetic": "yàang", "partOfSpeech": "classifier" },
-        { "source": "อื่น", "target": "other", "phonetic": "ùeun", "partOfSpeech": "adjective" },
-        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "มีค่ะ ฉันก็ชอบฟังเพลงด้วย",
-      "target": "Yes, I also like listening to music.",
-      "phonetic": "mii khâ chăn gôr chôrp fang phleng dûai",
-      "breakdown": [
-        { "source": "มี", "target": "to have/yes", "phonetic": "mii", "partOfSpeech": "verb" },
-        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
-        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "ก็", "target": "also/too", "phonetic": "gôr", "partOfSpeech": "particle" },
-        { "source": "ชอบ", "target": "to like", "phonetic": "chôrp", "partOfSpeech": "verb" },
-        { "source": "ฟัง", "target": "to listen", "phonetic": "fang", "partOfSpeech": "verb" },
-        { "source": "เพลง", "target": "music", "phonetic": "phleng", "partOfSpeech": "noun" },
-        { "source": "ด้วย", "target": "also/as well", "phonetic": "dûai", "partOfSpeech": "adverb" }
-      ]
-    }
-  ],
-  "createdAt": "2025-09-29T15:15:30Z",
-  "updatedAt": "2025-09-29T15:16:30Z",
-  "difficulty": "intermediate",
-  "summary": "บทสนทนาเกี่ยวกับงานอดิเรก การวาดรูป ฟุตบอล ทีมโปรด และการฟังเพลง"
+    "sentences": [
+        {
+            "source": "คุณทำอะไรในเวลาว่างครับ",
+            "target": "What do you do in your free time?",
+            "phonetic": "khun tham à-rai nai way-laa wâang khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ทำ",
+                    "target": "to do",
+                    "phonetic": "tham",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "อะไร",
+                    "target": "what",
+                    "phonetic": "à-rai",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ใน",
+                    "target": "in",
+                    "phonetic": "nai",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "เวลา",
+                    "target": "time",
+                    "phonetic": "way-laa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ว่าง",
+                    "target": "free",
+                    "phonetic": "wâang",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ฉันชอบวาดรูปและเล่นฟุตบอลค่ะ",
+            "target": "I like painting and playing soccer.",
+            "phonetic": "chăn chôrp wâat-rûup láe lên fut-bawn khâ",
+            "breakdown": [
+                {
+                    "source": "ฉัน",
+                    "target": "I (female)",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ชอบ",
+                    "target": "to like",
+                    "phonetic": "chôrp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "วาดรูป",
+                    "target": "to paint/draw",
+                    "phonetic": "wâat-rûup",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "เล่น",
+                    "target": "to play",
+                    "phonetic": "lên",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ฟุตบอล",
+                    "target": "soccer",
+                    "phonetic": "fut-bawn",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "female polite particle",
+                    "phonetic": "khâ",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "คุณวาดรูปเก่งไหมครับ",
+            "target": "Are you good at painting?",
+            "phonetic": "khun wâat-rûup gèng mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "วาดรูป",
+                    "target": "to paint/draw",
+                    "phonetic": "wâat-rûup",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เก่ง",
+                    "target": "good/skilled",
+                    "phonetic": "gèng",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ไม่เก่งค่ะ แต่ก็สนุกกับมัน",
+            "target": "I’m not great, but I enjoy it.",
+            "phonetic": "mâi gèng khâ dtàe gôr sà-nùk gàp man",
+            "breakdown": [
+                {
+                    "source": "ไม่",
+                    "target": "not",
+                    "phonetic": "mâi",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "เก่ง",
+                    "target": "great/skilled",
+                    "phonetic": "gèng",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "female polite particle",
+                    "phonetic": "khâ",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "แต่",
+                    "target": "but",
+                    "phonetic": "dtàe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ก็",
+                    "target": "emphasizing particle",
+                    "phonetic": "gôr",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "สนุก",
+                    "target": "enjoy/fun",
+                    "phonetic": "sà-nùk",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "กับ",
+                    "target": "with",
+                    "phonetic": "gàp",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "มัน",
+                    "target": "it",
+                    "phonetic": "man",
+                    "partOfSpeech": "pronoun"
+                }
+            ]
+        },
+        {
+            "source": "คุณวาดอะไรครับ",
+            "target": "What do you paint?",
+            "phonetic": "khun wâat à-rai khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "วาด",
+                    "target": "to paint/draw",
+                    "phonetic": "wâat",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "อะไร",
+                    "target": "what",
+                    "phonetic": "à-rai",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ฉันวาดดอกไม้และทิวทัศน์",
+            "target": "I paint flowers and landscapes.",
+            "phonetic": "chăn wâat dòk-máai láe thiw-thát",
+            "breakdown": [
+                {
+                    "source": "ฉัน",
+                    "target": "I (female)",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "วาด",
+                    "target": "to paint/draw",
+                    "phonetic": "wâat",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ดอกไม้",
+                    "target": "flowers",
+                    "phonetic": "dòk-máai",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ทิวทัศน์",
+                    "target": "landscapes",
+                    "phonetic": "thiw-thát",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "คุณแสดงภาพวาดให้คนอื่นดูไหมครับ",
+            "target": "Do you show your paintings to others?",
+            "phonetic": "khun sà-daaeng phâap-wâat hâi khon-ùeun duu mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "แสดง",
+                    "target": "to show",
+                    "phonetic": "sà-daaeng",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ภาพวาด",
+                    "target": "paintings",
+                    "phonetic": "phâap-wâat",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ให้",
+                    "target": "to/for",
+                    "phonetic": "hâi",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "คนอื่น",
+                    "target": "others",
+                    "phonetic": "khon-ùeun",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ดู",
+                    "target": "to look",
+                    "phonetic": "duu",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "บางครั้งฉันก็แสดงให้ครอบครัวดูค่ะ",
+            "target": "Sometimes I show them to my family.",
+            "phonetic": "baang-khráng chăn gôr sà-daaeng hâi khrâwp-khrua duu khâ",
+            "breakdown": [
+                {
+                    "source": "บางครั้ง",
+                    "target": "sometimes",
+                    "phonetic": "baang-khráng",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I (female)",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ก็",
+                    "target": "emphasizing particle",
+                    "phonetic": "gôr",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "แสดง",
+                    "target": "to show",
+                    "phonetic": "sà-daaeng",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ให้",
+                    "target": "to/for",
+                    "phonetic": "hâi",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ครอบครัว",
+                    "target": "family",
+                    "phonetic": "khrâwp-khrua",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ดู",
+                    "target": "to look",
+                    "phonetic": "duu",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "female polite particle",
+                    "phonetic": "khâ",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "แล้วฟุตบอลล่ะ คุณเล่นบ่อยไหมครับ",
+            "target": "What about soccer? Do you play often?",
+            "phonetic": "láew fut-bawn lâ khun lên bòi mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "แล้ว",
+                    "target": "and then/what about",
+                    "phonetic": "láew",
+                    "partOfSpeech": "discourse"
+                },
+                {
+                    "source": "ฟุตบอล",
+                    "target": "soccer",
+                    "phonetic": "fut-bawn",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ล่ะ",
+                    "target": "topic particle",
+                    "phonetic": "lâ",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "เล่น",
+                    "target": "to play",
+                    "phonetic": "lên",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "บ่อย",
+                    "target": "often",
+                    "phonetic": "bòi",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ใช่ค่ะ ฉันเล่นฟุตบอลทุกสุดสัปดาห์",
+            "target": "Yes, I play soccer every weekend.",
+            "phonetic": "châi khâ chăn lên fut-bawn thúk sùt-sàp-daa",
+            "breakdown": [
+                {
+                    "source": "ใช่",
+                    "target": "yes",
+                    "phonetic": "châi",
+                    "partOfSpeech": "interjection"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "female polite particle",
+                    "phonetic": "khâ",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I (female)",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "เล่น",
+                    "target": "to play",
+                    "phonetic": "lên",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ฟุตบอล",
+                    "target": "soccer",
+                    "phonetic": "fut-bawn",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ทุก",
+                    "target": "every",
+                    "phonetic": "thúk",
+                    "partOfSpeech": "determiner"
+                },
+                {
+                    "source": "สุดสัปดาห์",
+                    "target": "weekend",
+                    "phonetic": "sùt-sàp-daa",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "คุณมีทีมไหมครับ",
+            "target": "Do you have a team?",
+            "phonetic": "khun mii theem mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "มี",
+                    "target": "to have",
+                    "phonetic": "mii",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ทีม",
+                    "target": "team",
+                    "phonetic": "theem",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "มีค่ะ ฉันเล่นกับทีมโรงเรียน",
+            "target": "Yes, I play with my school team.",
+            "phonetic": "mii khâ chăn lên gàp theem rohng-riian",
+            "breakdown": [
+                {
+                    "source": "มี",
+                    "target": "to have/yes",
+                    "phonetic": "mii",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "female polite particle",
+                    "phonetic": "khâ",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I (female)",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "เล่น",
+                    "target": "to play",
+                    "phonetic": "lên",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "กับ",
+                    "target": "with",
+                    "phonetic": "gàp",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ทีม",
+                    "target": "team",
+                    "phonetic": "theem",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "โรงเรียน",
+                    "target": "school",
+                    "phonetic": "rohng-riian",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "ฟุตบอลยากไหมครับ",
+            "target": "Is soccer difficult?",
+            "phonetic": "fut-bawn yâak mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "ฟุตบอล",
+                    "target": "soccer",
+                    "phonetic": "fut-bawn",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ยาก",
+                    "target": "difficult",
+                    "phonetic": "yâak",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "มันยาก แต่สนุกมากค่ะ",
+            "target": "It’s hard, but it’s very fun!",
+            "phonetic": "man yâak dtàe sà-nùk mâak khâ",
+            "breakdown": [
+                {
+                    "source": "มัน",
+                    "target": "it",
+                    "phonetic": "man",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ยาก",
+                    "target": "hard",
+                    "phonetic": "yâak",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "แต่",
+                    "target": "but",
+                    "phonetic": "dtàe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "สนุก",
+                    "target": "fun",
+                    "phonetic": "sà-nùk",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "มาก",
+                    "target": "very",
+                    "phonetic": "mâak",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "female polite particle",
+                    "phonetic": "khâ",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "คุณดูการแข่งขันฟุตบอลไหมครับ",
+            "target": "Do you watch soccer games?",
+            "phonetic": "khun duu gaan-kàeng-khan fut-bawn mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ดู",
+                    "target": "to watch",
+                    "phonetic": "duu",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "การแข่งขัน",
+                    "target": "competition/game",
+                    "phonetic": "gaan-kàeng-khan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ฟุตบอล",
+                    "target": "soccer",
+                    "phonetic": "fut-bawn",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ใช่ค่ะ ฉันดูการแข่งขันทางทีวี",
+            "target": "Yes, I watch games on TV.",
+            "phonetic": "châi khâ chăn duu gaan-kàeng-khan thaang thee-wee",
+            "breakdown": [
+                {
+                    "source": "ใช่",
+                    "target": "yes",
+                    "phonetic": "châi",
+                    "partOfSpeech": "interjection"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "female polite particle",
+                    "phonetic": "khâ",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I (female)",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ดู",
+                    "target": "to watch",
+                    "phonetic": "duu",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "การแข่งขัน",
+                    "target": "competition/game",
+                    "phonetic": "gaan-kàeng-khan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ทาง",
+                    "target": "via/on",
+                    "phonetic": "thaang",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ทีวี",
+                    "target": "TV",
+                    "phonetic": "thee-wee",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "ทีมโปรดของคุณคือทีมอะไรครับ",
+            "target": "Who is your favorite team?",
+            "phonetic": "theem bpròot khǎwng khun kheuu theem à-rai khráp",
+            "breakdown": [
+                {
+                    "source": "ทีม",
+                    "target": "team",
+                    "phonetic": "theem",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "โปรด",
+                    "target": "favorite",
+                    "phonetic": "bpròot",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ของ",
+                    "target": "of",
+                    "phonetic": "khǎwng",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "คือ",
+                    "target": "is/are",
+                    "phonetic": "kheuu",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ทีม",
+                    "target": "team",
+                    "phonetic": "theem",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "อะไร",
+                    "target": "what",
+                    "phonetic": "à-rai",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ทีมโปรดของฉันคือแมนเชสเตอร์ ยูไนเต็ด",
+            "target": "My favorite team is Manchester United.",
+            "phonetic": "theem bpròot khǎwng chăn kheuu man-chet-dter yoo-nai-tèt",
+            "breakdown": [
+                {
+                    "source": "ทีม",
+                    "target": "team",
+                    "phonetic": "theem",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "โปรด",
+                    "target": "favorite",
+                    "phonetic": "bpròot",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ของ",
+                    "target": "of",
+                    "phonetic": "khǎwng",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "my",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "คือ",
+                    "target": "is",
+                    "phonetic": "kheuu",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "แมนเชสเตอร์ ยูไนเต็ด",
+                    "target": "Manchester United",
+                    "phonetic": "man-chet-dter yoo-nai-tèt",
+                    "partOfSpeech": "proper noun"
+                }
+            ]
+        },
+        {
+            "source": "คุณมีงานอดิเรกอย่างอื่นไหมครับ",
+            "target": "Do you have other hobbies?",
+            "phonetic": "khun mii ngaan-à-dì-rèk yàang-ùeun mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "มี",
+                    "target": "to have",
+                    "phonetic": "mii",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "งานอดิเรก",
+                    "target": "hobby",
+                    "phonetic": "ngaan-à-dì-rèk",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "อย่าง",
+                    "target": "kind/type",
+                    "phonetic": "yàang",
+                    "partOfSpeech": "classifier"
+                },
+                {
+                    "source": "อื่น",
+                    "target": "other",
+                    "phonetic": "ùeun",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "มีค่ะ ฉันก็ชอบฟังเพลงด้วย",
+            "target": "Yes, I also like listening to music.",
+            "phonetic": "mii khâ chăn gôr chôrp fang phleng dûai",
+            "breakdown": [
+                {
+                    "source": "มี",
+                    "target": "to have/yes",
+                    "phonetic": "mii",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "female polite particle",
+                    "phonetic": "khâ",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I (female)",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ก็",
+                    "target": "also/too",
+                    "phonetic": "gôr",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ชอบ",
+                    "target": "to like",
+                    "phonetic": "chôrp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ฟัง",
+                    "target": "to listen",
+                    "phonetic": "fang",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เพลง",
+                    "target": "music",
+                    "phonetic": "phleng",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ด้วย",
+                    "target": "also/as well",
+                    "phonetic": "dûai",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        }
+    ],
+    "createdAt": "2025-09-29T15:15:30Z",
+    "updatedAt": "2025-09-29T15:16:30Z",
+    "difficulty": "intermediate",
+    "summary": "บทสนทนาเกี่ยวกับงานอดิเรก การวาดรูป ฟุตบอล ทีมโปรด และการฟังเพลง"
 }

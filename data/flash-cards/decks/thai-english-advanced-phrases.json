@@ -1,594 +1,594 @@
 {
-  "collectionId": "thai-english",
-  "deckId": "advanced-phrases",
-  "name": "Thai Advanced Phrases",
-  "description": "Advanced Thai phrases and expressions for intermediate to advanced learners",
-  "sourceLanguage": "th",
-  "targetLanguage": "en",
-  "cards": [
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ไม่เป็นไร"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "It's okay/It doesn't matter/No problem"
-      },
-      "tags": ["expression", "social", "intermediate"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "mai pen rai",
-      "partOfSpeech": "expression",
-      "context": "A very common and versatile phrase used to express that something is not a problem",
-      "examples": [
+    "collectionId": "thai-english",
+    "deckId": "advanced-phrases",
+    "name": "Thai Advanced Phrases",
+    "description": "Advanced Thai phrases and expressions for intermediate to advanced learners",
+    "sourceLanguage": "th",
+    "targetLanguage": "en",
+    "cards": [
         {
-          "original": "ขอโทษที่มาสาย – ไม่เป็นไรครับ",
-          "translation": "Sorry I'm late – No problem",
-          "phonetic": "kor tode tee ma sai – mai pen rai krap"
+            "frontContent": {
+                "type": "text",
+                "text": "ไม่เป็นไร"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "It's okay/It doesn't matter/No problem"
+            },
+            "tags": ["expression", "social", "intermediate"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "mai pen rai",
+            "partOfSpeech": "expression",
+            "context": "A very common and versatile phrase used to express that something is not a problem",
+            "examples": [
+                {
+                    "original": "ขอโทษที่มาสาย – ไม่เป็นไรครับ",
+                    "translation": "Sorry I'm late – No problem",
+                    "phonetic": "kor tode tee ma sai – mai pen rai krap"
+                },
+                {
+                    "original": "ขอบคุณค่ะ – ไม่เป็นไรค่ะ",
+                    "translation": "Thank you – You're welcome (lit: It's nothing)",
+                    "phonetic": "kop kun ka – mai pen rai ka"
+                }
+            ]
         },
         {
-          "original": "ขอบคุณค่ะ – ไม่เป็นไรค่ะ",
-          "translation": "Thank you – You're welcome (lit: It's nothing)",
-          "phonetic": "kop kun ka – mai pen rai ka"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "เกรงใจจัง"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "I feel bad for troubling you/I feel embarrassed to impose"
-      },
-      "tags": ["expression", "cultural", "advanced"],
-      "difficulty": "hard",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "kreng jai jang",
-      "partOfSpeech": "expression",
-      "context": "Expresses the feeling of not wanting to burden someone, a key Thai cultural concept",
-      "examples": [
-        {
-          "original": "ให้คุณมารับฉันที่สนามบิน เกรงใจจังเลย",
-          "translation": "Having you pick me up at the airport, I feel bad for troubling you",
-          "phonetic": "hai kun ma rap chan tee sa-naam bin, kreng jai jang loei"
+            "frontContent": {
+                "type": "text",
+                "text": "เกรงใจจัง"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "I feel bad for troubling you/I feel embarrassed to impose"
+            },
+            "tags": ["expression", "cultural", "advanced"],
+            "difficulty": "hard",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "kreng jai jang",
+            "partOfSpeech": "expression",
+            "context": "Expresses the feeling of not wanting to burden someone, a key Thai cultural concept",
+            "examples": [
+                {
+                    "original": "ให้คุณมารับฉันที่สนามบิน เกรงใจจังเลย",
+                    "translation": "Having you pick me up at the airport, I feel bad for troubling you",
+                    "phonetic": "hai kun ma rap chan tee sa-naam bin, kreng jai jang loei"
+                },
+                {
+                    "original": "ไม่ต้องเกรงใจ ยินดีช่วยครับ",
+                    "translation": "Don't feel bad, I'm happy to help",
+                    "phonetic": "mai tong kreng jai, yin dee chuay krap"
+                }
+            ]
         },
         {
-          "original": "ไม่ต้องเกรงใจ ยินดีช่วยครับ",
-          "translation": "Don't feel bad, I'm happy to help",
-          "phonetic": "mai tong kreng jai, yin dee chuay krap"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "เป็นห่วงนะ"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "I'm worried about you/I care about you"
-      },
-      "tags": ["expression", "emotional", "intermediate"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "pen huang na",
-      "partOfSpeech": "expression",
-      "context": "Used to express concern for someone's well-being",
-      "examples": [
-        {
-          "original": "ระวังตัวด้วยนะ เป็นห่วง",
-          "translation": "Be careful, I'm worried about you",
-          "phonetic": "ra-wang tua duay na, pen huang"
+            "frontContent": {
+                "type": "text",
+                "text": "เป็นห่วงนะ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "I'm worried about you/I care about you"
+            },
+            "tags": ["expression", "emotional", "intermediate"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "pen huang na",
+            "partOfSpeech": "expression",
+            "context": "Used to express concern for someone's well-being",
+            "examples": [
+                {
+                    "original": "ระวังตัวด้วยนะ เป็นห่วง",
+                    "translation": "Be careful, I'm worried about you",
+                    "phonetic": "ra-wang tua duay na, pen huang"
+                },
+                {
+                    "original": "อย่าลืมกินยาด้วยนะ เป็นห่วง",
+                    "translation": "Don't forget to take your medicine, I care about you",
+                    "phonetic": "yaa leum gin yaa duay na, pen huang"
+                }
+            ]
         },
         {
-          "original": "อย่าลืมกินยาด้วยนะ เป็นห่วง",
-          "translation": "Don't forget to take your medicine, I care about you",
-          "phonetic": "yaa leum gin yaa duay na, pen huang"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ทำใจ"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "To accept/come to terms with something difficult"
-      },
-      "tags": ["expression", "emotional", "advanced"],
-      "difficulty": "hard",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "tam jai",
-      "partOfSpeech": "verb phrase",
-      "context": "Used when advising someone to accept a difficult situation or loss",
-      "examples": [
-        {
-          "original": "คุณต้องทำใจ เขาจะไม่กลับมาแล้ว",
-          "translation": "You need to accept it, they won't come back",
-          "phonetic": "kun tong tam jai, kao ja mai klap ma laew"
+            "frontContent": {
+                "type": "text",
+                "text": "ทำใจ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "To accept/come to terms with something difficult"
+            },
+            "tags": ["expression", "emotional", "advanced"],
+            "difficulty": "hard",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "tam jai",
+            "partOfSpeech": "verb phrase",
+            "context": "Used when advising someone to accept a difficult situation or loss",
+            "examples": [
+                {
+                    "original": "คุณต้องทำใจ เขาจะไม่กลับมาแล้ว",
+                    "translation": "You need to accept it, they won't come back",
+                    "phonetic": "kun tong tam jai, kao ja mai klap ma laew"
+                },
+                {
+                    "original": "ฉันกำลังพยายามทำใจกับเรื่องนี้",
+                    "translation": "I'm trying to come to terms with this situation",
+                    "phonetic": "chan kam-lang pa-ya-yaam tam jai kap reuang nee"
+                }
+            ]
         },
         {
-          "original": "ฉันกำลังพยายามทำใจกับเรื่องนี้",
-          "translation": "I'm trying to come to terms with this situation",
-          "phonetic": "chan kam-lang pa-ya-yaam tam jai kap reuang nee"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "คิดถึงจัง"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "I miss you so much"
-      },
-      "tags": ["expression", "emotional", "intermediate"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "kit teung jang",
-      "partOfSpeech": "expression",
-      "context": "Used to express strong feelings of missing someone",
-      "examples": [
-        {
-          "original": "คิดถึงจังเลย ไม่ได้เจอกันนานแล้ว",
-          "translation": "I miss you so much, we haven't seen each other for a long time",
-          "phonetic": "kit teung jang loei, mai dai jer kan naan laew"
+            "frontContent": {
+                "type": "text",
+                "text": "คิดถึงจัง"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "I miss you so much"
+            },
+            "tags": ["expression", "emotional", "intermediate"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "kit teung jang",
+            "partOfSpeech": "expression",
+            "context": "Used to express strong feelings of missing someone",
+            "examples": [
+                {
+                    "original": "คิดถึงจังเลย ไม่ได้เจอกันนานแล้ว",
+                    "translation": "I miss you so much, we haven't seen each other for a long time",
+                    "phonetic": "kit teung jang loei, mai dai jer kan naan laew"
+                },
+                {
+                    "original": "แม่คิดถึงลูกมากเลยนะ",
+                    "translation": "Mom misses you very much",
+                    "phonetic": "mae kit teung look maak loei na"
+                }
+            ]
         },
         {
-          "original": "แม่คิดถึงลูกมากเลยนะ",
-          "translation": "Mom misses you very much",
-          "phonetic": "mae kit teung look maak loei na"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ตามใจ"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "Up to you/As you wish/Whatever you want"
-      },
-      "tags": ["expression", "social", "intermediate"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "taam jai",
-      "partOfSpeech": "expression",
-      "context": "Used when you want to let someone else decide",
-      "examples": [
-        {
-          "original": "จะไปกินข้าวที่ไหนดี? – ตามใจคุณเลย",
-          "translation": "Where should we eat? – Wherever you want",
-          "phonetic": "ja pai gin kaow tee nai dee? – taam jai kun loei"
+            "frontContent": {
+                "type": "text",
+                "text": "ตามใจ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Up to you/As you wish/Whatever you want"
+            },
+            "tags": ["expression", "social", "intermediate"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "taam jai",
+            "partOfSpeech": "expression",
+            "context": "Used when you want to let someone else decide",
+            "examples": [
+                {
+                    "original": "จะไปกินข้าวที่ไหนดี? – ตามใจคุณเลย",
+                    "translation": "Where should we eat? – Wherever you want",
+                    "phonetic": "ja pai gin kaow tee nai dee? – taam jai kun loei"
+                },
+                {
+                    "original": "ตามใจเธอ ฉันโอเคกับทุกอย่าง",
+                    "translation": "It's up to you, I'm okay with anything",
+                    "phonetic": "taam jai ter, chan o-kay kap took yang"
+                }
+            ]
         },
         {
-          "original": "ตามใจเธอ ฉันโอเคกับทุกอย่าง",
-          "translation": "It's up to you, I'm okay with anything",
-          "phonetic": "taam jai ter, chan o-kay kap took yang"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ใจเย็นๆ"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "Calm down/Take it easy/Be patient"
-      },
-      "tags": ["expression", "advice", "intermediate"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "jai yen yen",
-      "partOfSpeech": "expression",
-      "context": "Used to tell someone to calm down or be patient in a stressful situation",
-      "examples": [
-        {
-          "original": "ใจเย็นๆ นะ เดี๋ยวทุกอย่างจะดีขึ้น",
-          "translation": "Take it easy, everything will get better",
-          "phonetic": "jai yen yen na, dieow took yang ja dee keun"
+            "frontContent": {
+                "type": "text",
+                "text": "ใจเย็นๆ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Calm down/Take it easy/Be patient"
+            },
+            "tags": ["expression", "advice", "intermediate"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "jai yen yen",
+            "partOfSpeech": "expression",
+            "context": "Used to tell someone to calm down or be patient in a stressful situation",
+            "examples": [
+                {
+                    "original": "ใจเย็นๆ นะ เดี๋ยวทุกอย่างจะดีขึ้น",
+                    "translation": "Take it easy, everything will get better",
+                    "phonetic": "jai yen yen na, dieow took yang ja dee keun"
+                },
+                {
+                    "original": "ใจเย็นๆ ไม่ต้องรีบ",
+                    "translation": "Be patient, no need to hurry",
+                    "phonetic": "jai yen yen, mai tong reep"
+                }
+            ]
         },
         {
-          "original": "ใจเย็นๆ ไม่ต้องรีบ",
-          "translation": "Be patient, no need to hurry",
-          "phonetic": "jai yen yen, mai tong reep"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "เอาไว้ก่อน"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "Let's save it for later/I'll postpone it"
-      },
-      "tags": ["expression", "time management", "intermediate"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "ao wai gorn",
-      "partOfSpeech": "expression",
-      "context": "Used when deciding to postpone something",
-      "examples": [
-        {
-          "original": "จะซื้อวันนี้ไหม? – เอาไว้ก่อนดีกว่า",
-          "translation": "Will you buy it today? – Better save it for later",
-          "phonetic": "ja seu wan-nee mai? – ao wai gorn dee kwa"
+            "frontContent": {
+                "type": "text",
+                "text": "เอาไว้ก่อน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Let's save it for later/I'll postpone it"
+            },
+            "tags": ["expression", "time management", "intermediate"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "ao wai gorn",
+            "partOfSpeech": "expression",
+            "context": "Used when deciding to postpone something",
+            "examples": [
+                {
+                    "original": "จะซื้อวันนี้ไหม? – เอาไว้ก่อนดีกว่า",
+                    "translation": "Will you buy it today? – Better save it for later",
+                    "phonetic": "ja seu wan-nee mai? – ao wai gorn dee kwa"
+                },
+                {
+                    "original": "เรื่องนี้เอาไว้ก่อนนะ ค่อยคุยกันพรุ่งนี้",
+                    "translation": "Let's postpone this matter and talk about it tomorrow",
+                    "phonetic": "reuang nee ao wai gorn na, koi kui kan proong-nee"
+                }
+            ]
         },
         {
-          "original": "เรื่องนี้เอาไว้ก่อนนะ ค่อยคุยกันพรุ่งนี้",
-          "translation": "Let's postpone this matter and talk about it tomorrow",
-          "phonetic": "reuang nee ao wai gorn na, koi kui kan proong-nee"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ไม่ไหวแล้ว"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "I can't take it anymore/I've had enough"
-      },
-      "tags": ["expression", "emotional", "intermediate"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "mai wai laew",
-      "partOfSpeech": "expression",
-      "context": "Used when feeling overwhelmed or at your limit",
-      "examples": [
-        {
-          "original": "งานหนักมาก ไม่ไหวแล้ว",
-          "translation": "The work is too hard, I can't take it anymore",
-          "phonetic": "ngaan nak maak, mai wai laew"
+            "frontContent": {
+                "type": "text",
+                "text": "ไม่ไหวแล้ว"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "I can't take it anymore/I've had enough"
+            },
+            "tags": ["expression", "emotional", "intermediate"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "mai wai laew",
+            "partOfSpeech": "expression",
+            "context": "Used when feeling overwhelmed or at your limit",
+            "examples": [
+                {
+                    "original": "งานหนักมาก ไม่ไหวแล้ว",
+                    "translation": "The work is too hard, I can't take it anymore",
+                    "phonetic": "ngaan nak maak, mai wai laew"
+                },
+                {
+                    "original": "ร้อนจัง ไม่ไหวแล้ว",
+                    "translation": "It's so hot, I can't stand it anymore",
+                    "phonetic": "ron jang, mai wai laew"
+                }
+            ]
         },
         {
-          "original": "ร้อนจัง ไม่ไหวแล้ว",
-          "translation": "It's so hot, I can't stand it anymore",
-          "phonetic": "ron jang, mai wai laew"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "พูดตามตรง"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "To be honest/Frankly speaking"
-      },
-      "tags": ["expression", "communication", "intermediate"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "pood taam trong",
-      "partOfSpeech": "expression",
-      "context": "Used when you want to express your honest opinion",
-      "examples": [
-        {
-          "original": "พูดตามตรงนะ ฉันไม่ชอบความคิดนี้",
-          "translation": "To be honest, I don't like this idea",
-          "phonetic": "pood taam trong na, chan mai chob kwaam kit nee"
+            "frontContent": {
+                "type": "text",
+                "text": "พูดตามตรง"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "To be honest/Frankly speaking"
+            },
+            "tags": ["expression", "communication", "intermediate"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "pood taam trong",
+            "partOfSpeech": "expression",
+            "context": "Used when you want to express your honest opinion",
+            "examples": [
+                {
+                    "original": "พูดตามตรงนะ ฉันไม่ชอบความคิดนี้",
+                    "translation": "To be honest, I don't like this idea",
+                    "phonetic": "pood taam trong na, chan mai chob kwaam kit nee"
+                },
+                {
+                    "original": "พูดตามตรง ราคานี้แพงเกินไป",
+                    "translation": "Frankly speaking, this price is too expensive",
+                    "phonetic": "pood taam trong, ra-ka nee paeng gern pai"
+                }
+            ]
         },
         {
-          "original": "พูดตามตรง ราคานี้แพงเกินไป",
-          "translation": "Frankly speaking, this price is too expensive",
-          "phonetic": "pood taam trong, ra-ka nee paeng gern pai"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ขอเวลาคิดดูก่อน"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "Let me think about it first/I need time to consider"
-      },
-      "tags": ["expression", "decision making", "intermediate"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "kor way-la kit doo gorn",
-      "partOfSpeech": "expression",
-      "context": "Used when you need time to think before making a decision",
-      "examples": [
-        {
-          "original": "คุณจะไปกับเราไหม? – ขอเวลาคิดดูก่อนนะ",
-          "translation": "Will you go with us? – Let me think about it first",
-          "phonetic": "kun ja pai kap rao mai? – kor way-la kit doo gorn na"
+            "frontContent": {
+                "type": "text",
+                "text": "ขอเวลาคิดดูก่อน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Let me think about it first/I need time to consider"
+            },
+            "tags": ["expression", "decision making", "intermediate"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "kor way-la kit doo gorn",
+            "partOfSpeech": "expression",
+            "context": "Used when you need time to think before making a decision",
+            "examples": [
+                {
+                    "original": "คุณจะไปกับเราไหม? – ขอเวลาคิดดูก่อนนะ",
+                    "translation": "Will you go with us? – Let me think about it first",
+                    "phonetic": "kun ja pai kap rao mai? – kor way-la kit doo gorn na"
+                },
+                {
+                    "original": "ขอเวลาคิดดูก่อน แล้วจะให้คำตอบพรุ่งนี้",
+                    "translation": "I need time to consider, I'll give you an answer tomorrow",
+                    "phonetic": "kor way-la kit doo gorn, laew ja hai kam top proong-nee"
+                }
+            ]
         },
         {
-          "original": "ขอเวลาคิดดูก่อน แล้วจะให้คำตอบพรุ่งนี้",
-          "translation": "I need time to consider, I'll give you an answer tomorrow",
-          "phonetic": "kor way-la kit doo gorn, laew ja hai kam top proong-nee"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "เอาอยู่"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "I can handle it/I've got this"
-      },
-      "tags": ["expression", "confidence", "advanced"],
-      "difficulty": "hard",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "ao yoo",
-      "partOfSpeech": "expression",
-      "context": "Used to express confidence in handling a situation",
-      "examples": [
-        {
-          "original": "คุณจัดการได้ไหม? – เอาอยู่ครับ ไม่ต้องห่วง",
-          "translation": "Can you handle it? – I've got this, don't worry",
-          "phonetic": "kun jat kaan dai mai? – ao yoo krap, mai tong huang"
+            "frontContent": {
+                "type": "text",
+                "text": "เอาอยู่"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "I can handle it/I've got this"
+            },
+            "tags": ["expression", "confidence", "advanced"],
+            "difficulty": "hard",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "ao yoo",
+            "partOfSpeech": "expression",
+            "context": "Used to express confidence in handling a situation",
+            "examples": [
+                {
+                    "original": "คุณจัดการได้ไหม? – เอาอยู่ครับ ไม่ต้องห่วง",
+                    "translation": "Can you handle it? – I've got this, don't worry",
+                    "phonetic": "kun jat kaan dai mai? – ao yoo krap, mai tong huang"
+                },
+                {
+                    "original": "งานยากแต่ฉันเอาอยู่",
+                    "translation": "The work is difficult but I can handle it",
+                    "phonetic": "ngaan yaak tae chan ao yoo"
+                }
+            ]
         },
         {
-          "original": "งานยากแต่ฉันเอาอยู่",
-          "translation": "The work is difficult but I can handle it",
-          "phonetic": "ngaan yaak tae chan ao yoo"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "เรื่องมันเยอะ"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "It's complicated/There's a lot going on"
-      },
-      "tags": ["expression", "explanation", "advanced"],
-      "difficulty": "hard",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "reuang man yer",
-      "partOfSpeech": "expression",
-      "context": "Used to indicate that a situation is complex or has many aspects",
-      "examples": [
-        {
-          "original": "ทำไมคุณไม่คุยกับเขา? – เรื่องมันเยอะ",
-          "translation": "Why don't you talk to them? – It's complicated",
-          "phonetic": "tam-mai kun mai kui kap kao? – reuang man yer"
+            "frontContent": {
+                "type": "text",
+                "text": "เรื่องมันเยอะ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "It's complicated/There's a lot going on"
+            },
+            "tags": ["expression", "explanation", "advanced"],
+            "difficulty": "hard",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "reuang man yer",
+            "partOfSpeech": "expression",
+            "context": "Used to indicate that a situation is complex or has many aspects",
+            "examples": [
+                {
+                    "original": "ทำไมคุณไม่คุยกับเขา? – เรื่องมันเยอะ",
+                    "translation": "Why don't you talk to them? – It's complicated",
+                    "phonetic": "tam-mai kun mai kui kap kao? – reuang man yer"
+                },
+                {
+                    "original": "จะเล่าให้ฟังทั้งหมดไม่ได้ เรื่องมันเยอะ",
+                    "translation": "I can't tell you everything, there's a lot going on",
+                    "phonetic": "ja lao hai fang tang mot mai dai, reuang man yer"
+                }
+            ]
         },
         {
-          "original": "จะเล่าให้ฟังทั้งหมดไม่ได้ เรื่องมันเยอะ",
-          "translation": "I can't tell you everything, there's a lot going on",
-          "phonetic": "ja lao hai fang tang mot mai dai, reuang man yer"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ดูแลตัวเองด้วยนะ"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "Take care of yourself"
-      },
-      "tags": ["expression", "well-wishes", "intermediate"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "doo lae tua eng duay na",
-      "partOfSpeech": "expression",
-      "context": "Used when saying goodbye or expressing care for someone",
-      "examples": [
-        {
-          "original": "ต้องไปแล้ว ดูแลตัวเองด้วยนะ",
-          "translation": "I have to go now, take care of yourself",
-          "phonetic": "tong pai laew, doo lae tua eng duay na"
+            "frontContent": {
+                "type": "text",
+                "text": "ดูแลตัวเองด้วยนะ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Take care of yourself"
+            },
+            "tags": ["expression", "well-wishes", "intermediate"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "doo lae tua eng duay na",
+            "partOfSpeech": "expression",
+            "context": "Used when saying goodbye or expressing care for someone",
+            "examples": [
+                {
+                    "original": "ต้องไปแล้ว ดูแลตัวเองด้วยนะ",
+                    "translation": "I have to go now, take care of yourself",
+                    "phonetic": "tong pai laew, doo lae tua eng duay na"
+                },
+                {
+                    "original": "อย่าทำงานหนักเกินไป ดูแลตัวเองด้วยนะครับ",
+                    "translation": "Don't work too hard, take care of yourself",
+                    "phonetic": "yaa tam ngaan nak gern pai, doo lae tua eng duay na krap"
+                }
+            ]
         },
         {
-          "original": "อย่าทำงานหนักเกินไป ดูแลตัวเองด้วยนะครับ",
-          "translation": "Don't work too hard, take care of yourself",
-          "phonetic": "yaa tam ngaan nak gern pai, doo lae tua eng duay na krap"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "เข้าใจผิด"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "Misunderstand/Have a misunderstanding"
-      },
-      "tags": ["expression", "communication", "intermediate"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "kao jai pit",
-      "partOfSpeech": "verb phrase",
-      "context": "Used when there has been a misunderstanding",
-      "examples": [
-        {
-          "original": "คุณเข้าใจผิดแล้ว ผมไม่ได้พูดแบบนั้น",
-          "translation": "You misunderstood, I didn't say that",
-          "phonetic": "kun kao jai pit laew, pom mai dai pood baep nan"
+            "frontContent": {
+                "type": "text",
+                "text": "เข้าใจผิด"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Misunderstand/Have a misunderstanding"
+            },
+            "tags": ["expression", "communication", "intermediate"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "kao jai pit",
+            "partOfSpeech": "verb phrase",
+            "context": "Used when there has been a misunderstanding",
+            "examples": [
+                {
+                    "original": "คุณเข้าใจผิดแล้ว ผมไม่ได้พูดแบบนั้น",
+                    "translation": "You misunderstood, I didn't say that",
+                    "phonetic": "kun kao jai pit laew, pom mai dai pood baep nan"
+                },
+                {
+                    "original": "ฉันขอโทษสำหรับความเข้าใจผิด",
+                    "translation": "I apologize for the misunderstanding",
+                    "phonetic": "chan kor tode sam-rap kwaam kao jai pit"
+                }
+            ]
         },
         {
-          "original": "ฉันขอโทษสำหรับความเข้าใจผิด",
-          "translation": "I apologize for the misunderstanding",
-          "phonetic": "chan kor tode sam-rap kwaam kao jai pit"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "เป็นกำลังใจให้"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "To support/To cheer for/To encourage"
-      },
-      "tags": ["expression", "emotional support", "advanced"],
-      "difficulty": "hard",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "pen kam-lang jai hai",
-      "partOfSpeech": "expression",
-      "context": "Used to express support and encouragement for someone",
-      "examples": [
-        {
-          "original": "เป็นกำลังใจให้คุณเสมอนะคะ",
-          "translation": "I'll always support you",
-          "phonetic": "pen kam-lang jai hai kun sa-mer na ka"
+            "frontContent": {
+                "type": "text",
+                "text": "เป็นกำลังใจให้"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "To support/To cheer for/To encourage"
+            },
+            "tags": ["expression", "emotional support", "advanced"],
+            "difficulty": "hard",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "pen kam-lang jai hai",
+            "partOfSpeech": "expression",
+            "context": "Used to express support and encouragement for someone",
+            "examples": [
+                {
+                    "original": "เป็นกำลังใจให้คุณเสมอนะคะ",
+                    "translation": "I'll always support you",
+                    "phonetic": "pen kam-lang jai hai kun sa-mer na ka"
+                },
+                {
+                    "original": "พวกเราเป็นกำลังใจให้คุณในการสอบ",
+                    "translation": "We're cheering for you in your exam",
+                    "phonetic": "puak rao pen kam-lang jai hai kun nai kaan sop"
+                }
+            ]
         },
         {
-          "original": "พวกเราเป็นกำลังใจให้คุณในการสอบ",
-          "translation": "We're cheering for you in your exam",
-          "phonetic": "puak rao pen kam-lang jai hai kun nai kaan sop"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ไว้โอกาสหน้า"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "Next time/On another occasion"
-      },
-      "tags": ["expression", "time", "intermediate"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "wai o-kaat naa",
-      "partOfSpeech": "expression",
-      "context": "Used when postponing something to a future time",
-      "examples": [
-        {
-          "original": "วันนี้ผมไปไม่ได้ครับ ไว้โอกาสหน้านะ",
-          "translation": "I can't go today, next time perhaps",
-          "phonetic": "wan-nee pom pai mai dai krap, wai o-kaat naa na"
+            "frontContent": {
+                "type": "text",
+                "text": "ไว้โอกาสหน้า"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Next time/On another occasion"
+            },
+            "tags": ["expression", "time", "intermediate"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "wai o-kaat naa",
+            "partOfSpeech": "expression",
+            "context": "Used when postponing something to a future time",
+            "examples": [
+                {
+                    "original": "วันนี้ผมไปไม่ได้ครับ ไว้โอกาสหน้านะ",
+                    "translation": "I can't go today, next time perhaps",
+                    "phonetic": "wan-nee pom pai mai dai krap, wai o-kaat naa na"
+                },
+                {
+                    "original": "ขอบคุณสำหรับคำเชิญ แต่ไว้โอกาสหน้านะคะ",
+                    "translation": "Thank you for the invitation, but maybe another time",
+                    "phonetic": "kop kun sam-rap kam chern, tae wai o-kaat naa na ka"
+                }
+            ]
         },
         {
-          "original": "ขอบคุณสำหรับคำเชิญ แต่ไว้โอกาสหน้านะคะ",
-          "translation": "Thank you for the invitation, but maybe another time",
-          "phonetic": "kop kun sam-rap kam chern, tae wai o-kaat naa na ka"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "งานเข้า"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "In trouble/Having a problem/Something bad happened"
-      },
-      "tags": ["expression", "slang", "advanced"],
-      "difficulty": "hard",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "ngaan kao",
-      "partOfSpeech": "expression",
-      "context": "Colloquial expression used when facing a problem or trouble",
-      "examples": [
-        {
-          "original": "เจอเจ้านายตอนกำลังเล่นเกม งานเข้าแน่ๆ",
-          "translation": "My boss saw me while I was playing games, I'm in trouble for sure",
-          "phonetic": "jer jao-naai ton kam-lang len game, ngaan kao nae-nae"
+            "frontContent": {
+                "type": "text",
+                "text": "งานเข้า"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "In trouble/Having a problem/Something bad happened"
+            },
+            "tags": ["expression", "slang", "advanced"],
+            "difficulty": "hard",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "ngaan kao",
+            "partOfSpeech": "expression",
+            "context": "Colloquial expression used when facing a problem or trouble",
+            "examples": [
+                {
+                    "original": "เจอเจ้านายตอนกำลังเล่นเกม งานเข้าแน่ๆ",
+                    "translation": "My boss saw me while I was playing games, I'm in trouble for sure",
+                    "phonetic": "jer jao-naai ton kam-lang len game, ngaan kao nae-nae"
+                },
+                {
+                    "original": "โทรศัพท์หาย งานเข้าแล้ว",
+                    "translation": "My phone is missing, I'm in trouble now",
+                    "phonetic": "to-ra-sap haai, ngaan kao laew"
+                }
+            ]
         },
         {
-          "original": "โทรศัพท์หาย งานเข้าแล้ว",
-          "translation": "My phone is missing, I'm in trouble now",
-          "phonetic": "to-ra-sap haai, ngaan kao laew"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ขอโทษที่รบกวน"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "Sorry to bother you/Excuse the interruption"
-      },
-      "tags": ["expression", "politeness", "intermediate"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "kor tode tee rop-kuan",
-      "partOfSpeech": "expression",
-      "context": "Polite expression used when interrupting or asking for help",
-      "examples": [
-        {
-          "original": "ขอโทษที่รบกวนครับ ช่วยบอกทางไปห้องน้ำหน่อยได้ไหม",
-          "translation": "Sorry to bother you, could you tell me the way to the restroom?",
-          "phonetic": "kor tode tee rop-kuan krap, chuay bok taang pai hong nam noi dai mai"
+            "frontContent": {
+                "type": "text",
+                "text": "ขอโทษที่รบกวน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Sorry to bother you/Excuse the interruption"
+            },
+            "tags": ["expression", "politeness", "intermediate"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "kor tode tee rop-kuan",
+            "partOfSpeech": "expression",
+            "context": "Polite expression used when interrupting or asking for help",
+            "examples": [
+                {
+                    "original": "ขอโทษที่รบกวนครับ ช่วยบอกทางไปห้องน้ำหน่อยได้ไหม",
+                    "translation": "Sorry to bother you, could you tell me the way to the restroom?",
+                    "phonetic": "kor tode tee rop-kuan krap, chuay bok taang pai hong nam noi dai mai"
+                },
+                {
+                    "original": "ขอโทษที่รบกวนค่ะ คุณช่วยถ่ายรูปให้ฉันได้ไหม",
+                    "translation": "Excuse the interruption, could you take a photo for me?",
+                    "phonetic": "kor tode tee rop-kuan ka, kun chuay tai roop hai chan dai mai"
+                }
+            ]
         },
         {
-          "original": "ขอโทษที่รบกวนค่ะ คุณช่วยถ่ายรูปให้ฉันได้ไหม",
-          "translation": "Excuse the interruption, could you take a photo for me?",
-          "phonetic": "kor tode tee rop-kuan ka, kun chuay tai roop hai chan dai mai"
+            "frontContent": {
+                "type": "text",
+                "text": "เอาจริงดิ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Are you serious?/Really?"
+            },
+            "tags": ["expression", "slang", "intermediate"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "ao jing di",
+            "partOfSpeech": "expression",
+            "context": "Casual expression used to express surprise or disbelief",
+            "examples": [
+                {
+                    "original": "ฉันได้งานใหม่แล้ว – เอาจริงดิ ยินดีด้วยนะ",
+                    "translation": "I got a new job – Really? Congratulations!",
+                    "phonetic": "chan dai ngaan mai laew – ao jing di, yin dee duay na"
+                },
+                {
+                    "original": "เขาชนะรางวัลที่หนึ่ง – เอาจริงดิ โชคดีมาก",
+                    "translation": "They won first prize – Are you serious? That's so lucky",
+                    "phonetic": "kao cha-na raang-wan tee neung – ao jing di, chok dee maak"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "เอาจริงดิ"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "Are you serious?/Really?"
-      },
-      "tags": ["expression", "slang", "intermediate"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "ao jing di",
-      "partOfSpeech": "expression",
-      "context": "Casual expression used to express surprise or disbelief",
-      "examples": [
-        {
-          "original": "ฉันได้งานใหม่แล้ว – เอาจริงดิ ยินดีด้วยนะ",
-          "translation": "I got a new job – Really? Congratulations!",
-          "phonetic": "chan dai ngaan mai laew – ao jing di, yin dee duay na"
-        },
-        {
-          "original": "เขาชนะรางวัลที่หนึ่ง – เอาจริงดิ โชคดีมาก",
-          "translation": "They won first prize – Are you serious? That's so lucky",
-          "phonetic": "kao cha-na raang-wan tee neung – ao jing di, chok dee maak"
-        }
-      ]
-    }
-  ],
-  "createdAt": "2025-05-09T16:30:00Z",
-  "updatedAt": "2025-05-09T16:30:00Z",
-  "theme": "expressions",
-  "difficulty": "advanced"
+    ],
+    "createdAt": "2025-05-09T16:30:00Z",
+    "updatedAt": "2025-05-09T16:30:00Z",
+    "theme": "expressions",
+    "difficulty": "advanced"
 }

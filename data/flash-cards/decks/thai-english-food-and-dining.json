@@ -1,594 +1,594 @@
 {
-  "collectionId": "thai-english",
-  "deckId": "food-dining",
-  "name": "Thai Food & Dining",
-  "description": "Essential Thai vocabulary and phrases for ordering food, describing dishes, and dining out",
-  "sourceLanguage": "th",
-  "targetLanguage": "en",
-  "cards": [
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "เมนูอาหาร"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "Food menu"
-      },
-      "tags": ["food", "restaurant", "basic"],
-      "difficulty": "easy",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "me-noo aa-haan",
-      "partOfSpeech": "noun",
-      "context": "Used when asking for or referring to a restaurant menu",
-      "examples": [
+    "collectionId": "thai-english",
+    "deckId": "food-dining",
+    "name": "Thai Food & Dining",
+    "description": "Essential Thai vocabulary and phrases for ordering food, describing dishes, and dining out",
+    "sourceLanguage": "th",
+    "targetLanguage": "en",
+    "cards": [
         {
-          "original": "ขอเมนูอาหารหน่อยครับ",
-          "translation": "May I have the menu, please? (♂)",
-          "phonetic": "kor me-noo aa-haan noi krap"
+            "frontContent": {
+                "type": "text",
+                "text": "เมนูอาหาร"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Food menu"
+            },
+            "tags": ["food", "restaurant", "basic"],
+            "difficulty": "easy",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "me-noo aa-haan",
+            "partOfSpeech": "noun",
+            "context": "Used when asking for or referring to a restaurant menu",
+            "examples": [
+                {
+                    "original": "ขอเมนูอาหารหน่อยครับ",
+                    "translation": "May I have the menu, please? (♂)",
+                    "phonetic": "kor me-noo aa-haan noi krap"
+                },
+                {
+                    "original": "มีเมนูภาษาอังกฤษไหมคะ",
+                    "translation": "Do you have an English menu? (♀)",
+                    "phonetic": "mee me-noo pa-sa ang-krit mai ka"
+                }
+            ]
         },
         {
-          "original": "มีเมนูภาษาอังกฤษไหมคะ",
-          "translation": "Do you have an English menu? (♀)",
-          "phonetic": "mee me-noo pa-sa ang-krit mai ka"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ผัดไทย"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "Pad Thai (stir-fried rice noodles)"
-      },
-      "tags": ["food", "dish", "basic"],
-      "difficulty": "easy",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "pad thai",
-      "partOfSpeech": "noun",
-      "context": "A famous Thai stir-fried noodle dish with eggs, tofu, bean sprouts, and peanuts",
-      "examples": [
-        {
-          "original": "ขอผัดไทยกุ้งหนึ่งจาน",
-          "translation": "I'd like one plate of Pad Thai with shrimp",
-          "phonetic": "kor pad thai kung neung jaan"
+            "frontContent": {
+                "type": "text",
+                "text": "ผัดไทย"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Pad Thai (stir-fried rice noodles)"
+            },
+            "tags": ["food", "dish", "basic"],
+            "difficulty": "easy",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "pad thai",
+            "partOfSpeech": "noun",
+            "context": "A famous Thai stir-fried noodle dish with eggs, tofu, bean sprouts, and peanuts",
+            "examples": [
+                {
+                    "original": "ขอผัดไทยกุ้งหนึ่งจาน",
+                    "translation": "I'd like one plate of Pad Thai with shrimp",
+                    "phonetic": "kor pad thai kung neung jaan"
+                },
+                {
+                    "original": "ผัดไทยร้านนี้อร่อยมาก",
+                    "translation": "The Pad Thai at this restaurant is very delicious",
+                    "phonetic": "pad thai raan nee a-roi maak"
+                }
+            ]
         },
         {
-          "original": "ผัดไทยร้านนี้อร่อยมาก",
-          "translation": "The Pad Thai at this restaurant is very delicious",
-          "phonetic": "pad thai raan nee a-roi maak"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ต้มยำกุ้ง"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "Tom Yum Goong (spicy shrimp soup)"
-      },
-      "tags": ["food", "dish", "basic"],
-      "difficulty": "easy",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "tom yam kung",
-      "partOfSpeech": "noun",
-      "context": "A famous spicy and sour Thai soup with shrimp, lemongrass, and herbs",
-      "examples": [
-        {
-          "original": "อยากสั่งต้มยำกุ้งครับ",
-          "translation": "I'd like to order Tom Yum Goong (♂)",
-          "phonetic": "yaak sang tom yam kung krap"
+            "frontContent": {
+                "type": "text",
+                "text": "ต้มยำกุ้ง"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Tom Yum Goong (spicy shrimp soup)"
+            },
+            "tags": ["food", "dish", "basic"],
+            "difficulty": "easy",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "tom yam kung",
+            "partOfSpeech": "noun",
+            "context": "A famous spicy and sour Thai soup with shrimp, lemongrass, and herbs",
+            "examples": [
+                {
+                    "original": "อยากสั่งต้มยำกุ้งครับ",
+                    "translation": "I'd like to order Tom Yum Goong (♂)",
+                    "phonetic": "yaak sang tom yam kung krap"
+                },
+                {
+                    "original": "ต้มยำกุ้ง ไม่เผ็ดได้ไหมคะ",
+                    "translation": "Tom Yum Goong, not spicy please? (♀)",
+                    "phonetic": "tom yam kung, mai pet dai mai ka"
+                }
+            ]
         },
         {
-          "original": "ต้มยำกุ้ง ไม่เผ็ดได้ไหมคะ",
-          "translation": "Tom Yum Goong, not spicy please? (♀)",
-          "phonetic": "tom yam kung, mai pet dai mai ka"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ส้มตำ"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "Som Tam (green papaya salad)"
-      },
-      "tags": ["food", "dish", "basic"],
-      "difficulty": "easy",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "som tam",
-      "partOfSpeech": "noun",
-      "context": "A spicy salad made from shredded unripe papaya, popular in Northeastern Thai cuisine",
-      "examples": [
-        {
-          "original": "ส้มตำไทยใส่ถั่ว",
-          "translation": "Thai-style papaya salad with peanuts",
-          "phonetic": "som tam thai sai tua"
+            "frontContent": {
+                "type": "text",
+                "text": "ส้มตำ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Som Tam (green papaya salad)"
+            },
+            "tags": ["food", "dish", "basic"],
+            "difficulty": "easy",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "som tam",
+            "partOfSpeech": "noun",
+            "context": "A spicy salad made from shredded unripe papaya, popular in Northeastern Thai cuisine",
+            "examples": [
+                {
+                    "original": "ส้มตำไทยใส่ถั่ว",
+                    "translation": "Thai-style papaya salad with peanuts",
+                    "phonetic": "som tam thai sai tua"
+                },
+                {
+                    "original": "ส้มตำปูปลาร้า",
+                    "translation": "Papaya salad with crab and fermented fish",
+                    "phonetic": "som tam poo pla-raa"
+                }
+            ]
         },
         {
-          "original": "ส้มตำปูปลาร้า",
-          "translation": "Papaya salad with crab and fermented fish",
-          "phonetic": "som tam poo pla-raa"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "กระเพราไก่"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "Pad Kra Prao Gai (stir-fried chicken with holy basil)"
-      },
-      "tags": ["food", "dish", "basic"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "kra-prao kai",
-      "partOfSpeech": "noun",
-      "context": "A popular stir-fried dish with chicken, holy basil, and chili, usually served over rice",
-      "examples": [
-        {
-          "original": "ขอกระเพราไก่ราดข้าว ไข่ดาวหนึ่งฟอง",
-          "translation": "I'd like basil chicken over rice with one fried egg",
-          "phonetic": "kor kra-prao kai raat kaow, kai dao neung fong"
+            "frontContent": {
+                "type": "text",
+                "text": "กระเพราไก่"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Pad Kra Prao Gai (stir-fried chicken with holy basil)"
+            },
+            "tags": ["food", "dish", "basic"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "kra-prao kai",
+            "partOfSpeech": "noun",
+            "context": "A popular stir-fried dish with chicken, holy basil, and chili, usually served over rice",
+            "examples": [
+                {
+                    "original": "ขอกระเพราไก่ราดข้าว ไข่ดาวหนึ่งฟอง",
+                    "translation": "I'd like basil chicken over rice with one fried egg",
+                    "phonetic": "kor kra-prao kai raat kaow, kai dao neung fong"
+                },
+                {
+                    "original": "กระเพราไก่เผ็ดกลาง",
+                    "translation": "Basil chicken with medium spiciness",
+                    "phonetic": "kra-prao kai pet klaang"
+                }
+            ]
         },
         {
-          "original": "กระเพราไก่เผ็ดกลาง",
-          "translation": "Basil chicken with medium spiciness",
-          "phonetic": "kra-prao kai pet klaang"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ข้าวมันไก่"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "Khao Man Gai (chicken rice)"
-      },
-      "tags": ["food", "dish", "basic"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "kaow man kai",
-      "partOfSpeech": "noun",
-      "context": "A Thai version of Hainanese chicken rice: boiled chicken with rice cooked in chicken stock",
-      "examples": [
-        {
-          "original": "ข้าวมันไก่หนึ่งจาน",
-          "translation": "One plate of chicken rice",
-          "phonetic": "kaow man kai neung jaan"
+            "frontContent": {
+                "type": "text",
+                "text": "ข้าวมันไก่"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Khao Man Gai (chicken rice)"
+            },
+            "tags": ["food", "dish", "basic"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "kaow man kai",
+            "partOfSpeech": "noun",
+            "context": "A Thai version of Hainanese chicken rice: boiled chicken with rice cooked in chicken stock",
+            "examples": [
+                {
+                    "original": "ข้าวมันไก่หนึ่งจาน",
+                    "translation": "One plate of chicken rice",
+                    "phonetic": "kaow man kai neung jaan"
+                },
+                {
+                    "original": "ขอน้ำซุปข้าวมันไก่เพิ่มหน่อยครับ",
+                    "translation": "Could I have more chicken rice soup, please? (♂)",
+                    "phonetic": "kor nam soup kaow man kai perm noi krap"
+                }
+            ]
         },
         {
-          "original": "ขอน้ำซุปข้าวมันไก่เพิ่มหน่อยครับ",
-          "translation": "Could I have more chicken rice soup, please? (♂)",
-          "phonetic": "kor nam soup kaow man kai perm noi krap"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "เผ็ด"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "Spicy"
-      },
-      "tags": ["food", "taste", "basic"],
-      "difficulty": "easy",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "pet",
-      "partOfSpeech": "adjective",
-      "context": "Used to describe spicy food or to specify spiciness level when ordering",
-      "examples": [
-        {
-          "original": "ไม่เผ็ด",
-          "translation": "Not spicy",
-          "phonetic": "mai pet"
+            "frontContent": {
+                "type": "text",
+                "text": "เผ็ด"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Spicy"
+            },
+            "tags": ["food", "taste", "basic"],
+            "difficulty": "easy",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "pet",
+            "partOfSpeech": "adjective",
+            "context": "Used to describe spicy food or to specify spiciness level when ordering",
+            "examples": [
+                {
+                    "original": "ไม่เผ็ด",
+                    "translation": "Not spicy",
+                    "phonetic": "mai pet"
+                },
+                {
+                    "original": "เผ็ดน้อย เผ็ดกลาง เผ็ดมาก",
+                    "translation": "Mild spicy, medium spicy, very spicy",
+                    "phonetic": "pet noi, pet klaang, pet maak"
+                }
+            ]
         },
         {
-          "original": "เผ็ดน้อย เผ็ดกลาง เผ็ดมาก",
-          "translation": "Mild spicy, medium spicy, very spicy",
-          "phonetic": "pet noi, pet klaang, pet maak"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "อร่อย"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "Delicious, tasty"
-      },
-      "tags": ["food", "taste", "basic"],
-      "difficulty": "easy",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "a-roi",
-      "partOfSpeech": "adjective",
-      "context": "Used to describe food that tastes good or to compliment a meal",
-      "examples": [
-        {
-          "original": "อาหารอร่อยมากครับ",
-          "translation": "The food is very delicious (♂)",
-          "phonetic": "aa-haan a-roi maak krap"
+            "frontContent": {
+                "type": "text",
+                "text": "อร่อย"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Delicious, tasty"
+            },
+            "tags": ["food", "taste", "basic"],
+            "difficulty": "easy",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "a-roi",
+            "partOfSpeech": "adjective",
+            "context": "Used to describe food that tastes good or to compliment a meal",
+            "examples": [
+                {
+                    "original": "อาหารอร่อยมากครับ",
+                    "translation": "The food is very delicious (♂)",
+                    "phonetic": "aa-haan a-roi maak krap"
+                },
+                {
+                    "original": "ร้านนี้ขายของอร่อย",
+                    "translation": "This shop sells delicious food",
+                    "phonetic": "raan nee kai kong a-roi"
+                }
+            ]
         },
         {
-          "original": "ร้านนี้ขายของอร่อย",
-          "translation": "This shop sells delicious food",
-          "phonetic": "raan nee kai kong a-roi"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "เครื่องดื่ม"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "Drinks, beverages"
-      },
-      "tags": ["food", "drinks", "basic"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "kreuang-deum",
-      "partOfSpeech": "noun",
-      "context": "General term for all types of beverages",
-      "examples": [
-        {
-          "original": "สั่งเครื่องดื่มหรือยังครับ",
-          "translation": "Have you ordered drinks yet? (♂)",
-          "phonetic": "sang kreuang-deum rue yang krap"
+            "frontContent": {
+                "type": "text",
+                "text": "เครื่องดื่ม"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Drinks, beverages"
+            },
+            "tags": ["food", "drinks", "basic"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "kreuang-deum",
+            "partOfSpeech": "noun",
+            "context": "General term for all types of beverages",
+            "examples": [
+                {
+                    "original": "สั่งเครื่องดื่มหรือยังครับ",
+                    "translation": "Have you ordered drinks yet? (♂)",
+                    "phonetic": "sang kreuang-deum rue yang krap"
+                },
+                {
+                    "original": "มีเครื่องดื่มอะไรบ้างคะ",
+                    "translation": "What drinks do you have? (♀)",
+                    "phonetic": "mee kreuang-deum a-rai bang ka"
+                }
+            ]
         },
         {
-          "original": "มีเครื่องดื่มอะไรบ้างคะ",
-          "translation": "What drinks do you have? (♀)",
-          "phonetic": "mee kreuang-deum a-rai bang ka"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "กาแฟ"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "Coffee"
-      },
-      "tags": ["food", "drinks", "basic"],
-      "difficulty": "easy",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "ka-fae",
-      "partOfSpeech": "noun",
-      "context": "Used when ordering or talking about coffee",
-      "examples": [
-        {
-          "original": "กาแฟร้อนหนึ่งแก้ว",
-          "translation": "One hot coffee",
-          "phonetic": "ka-fae ron neung kaew"
+            "frontContent": {
+                "type": "text",
+                "text": "กาแฟ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Coffee"
+            },
+            "tags": ["food", "drinks", "basic"],
+            "difficulty": "easy",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "ka-fae",
+            "partOfSpeech": "noun",
+            "context": "Used when ordering or talking about coffee",
+            "examples": [
+                {
+                    "original": "กาแฟร้อนหนึ่งแก้ว",
+                    "translation": "One hot coffee",
+                    "phonetic": "ka-fae ron neung kaew"
+                },
+                {
+                    "original": "กาแฟเย็น ไม่หวาน",
+                    "translation": "Iced coffee, not sweet",
+                    "phonetic": "ka-fae yen, mai waan"
+                }
+            ]
         },
         {
-          "original": "กาแฟเย็น ไม่หวาน",
-          "translation": "Iced coffee, not sweet",
-          "phonetic": "ka-fae yen, mai waan"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ชาเย็น"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "Iced tea"
-      },
-      "tags": ["food", "drinks", "basic"],
-      "difficulty": "easy",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "cha yen",
-      "partOfSpeech": "noun",
-      "context": "Traditional Thai iced tea, often made with sweetened condensed milk",
-      "examples": [
-        {
-          "original": "ขอชาเย็นหนึ่งแก้วครับ",
-          "translation": "I'd like one glass of iced tea, please (♂)",
-          "phonetic": "kor cha yen neung kaew krap"
+            "frontContent": {
+                "type": "text",
+                "text": "ชาเย็น"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Iced tea"
+            },
+            "tags": ["food", "drinks", "basic"],
+            "difficulty": "easy",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "cha yen",
+            "partOfSpeech": "noun",
+            "context": "Traditional Thai iced tea, often made with sweetened condensed milk",
+            "examples": [
+                {
+                    "original": "ขอชาเย็นหนึ่งแก้วครับ",
+                    "translation": "I'd like one glass of iced tea, please (♂)",
+                    "phonetic": "kor cha yen neung kaew krap"
+                },
+                {
+                    "original": "ชาเย็นใส่นมนิดหน่อย",
+                    "translation": "Iced tea with a little milk",
+                    "phonetic": "cha yen sai nom nit-noi"
+                }
+            ]
         },
         {
-          "original": "ชาเย็นใส่นมนิดหน่อย",
-          "translation": "Iced tea with a little milk",
-          "phonetic": "cha yen sai nom nit-noi"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ข้าวสวย"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "Plain steamed rice"
-      },
-      "tags": ["food", "basic", "staple"],
-      "difficulty": "easy",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "kaow suay",
-      "partOfSpeech": "noun",
-      "context": "Plain cooked rice served with most Thai meals",
-      "examples": [
-        {
-          "original": "ขอข้าวสวยเพิ่มหน่อยครับ",
-          "translation": "Could I have some more rice, please? (♂)",
-          "phonetic": "kor kaow suay perm noi krap"
+            "frontContent": {
+                "type": "text",
+                "text": "ข้าวสวย"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Plain steamed rice"
+            },
+            "tags": ["food", "basic", "staple"],
+            "difficulty": "easy",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "kaow suay",
+            "partOfSpeech": "noun",
+            "context": "Plain cooked rice served with most Thai meals",
+            "examples": [
+                {
+                    "original": "ขอข้าวสวยเพิ่มหน่อยครับ",
+                    "translation": "Could I have some more rice, please? (♂)",
+                    "phonetic": "kor kaow suay perm noi krap"
+                },
+                {
+                    "original": "ต้องการข้าวสวยไหมคะ",
+                    "translation": "Would you like steamed rice? (♀)",
+                    "phonetic": "tong-kaan kaow suay mai ka"
+                }
+            ]
         },
         {
-          "original": "ต้องการข้าวสวยไหมคะ",
-          "translation": "Would you like steamed rice? (♀)",
-          "phonetic": "tong-kaan kaow suay mai ka"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "บิล"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "Bill, check"
-      },
-      "tags": ["food", "restaurant", "basic"],
-      "difficulty": "easy",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "bin",
-      "partOfSpeech": "noun",
-      "context": "Used when asking for the bill at a restaurant",
-      "examples": [
-        {
-          "original": "ขอบิลครับ",
-          "translation": "Bill please (♂)",
-          "phonetic": "kor bin krap"
+            "frontContent": {
+                "type": "text",
+                "text": "บิล"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Bill, check"
+            },
+            "tags": ["food", "restaurant", "basic"],
+            "difficulty": "easy",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "bin",
+            "partOfSpeech": "noun",
+            "context": "Used when asking for the bill at a restaurant",
+            "examples": [
+                {
+                    "original": "ขอบิลครับ",
+                    "translation": "Bill please (♂)",
+                    "phonetic": "kor bin krap"
+                },
+                {
+                    "original": "คิดเงินด้วยค่ะ",
+                    "translation": "Check, please (♀)",
+                    "phonetic": "kit ngern duay ka"
+                }
+            ]
         },
         {
-          "original": "คิดเงินด้วยค่ะ",
-          "translation": "Check, please (♀)",
-          "phonetic": "kit ngern duay ka"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "น้ำเปล่า"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "Plain water"
-      },
-      "tags": ["food", "drinks", "basic"],
-      "difficulty": "easy",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "nam plao",
-      "partOfSpeech": "noun",
-      "context": "Used when ordering plain drinking water",
-      "examples": [
-        {
-          "original": "ขอน้ำเปล่าหนึ่งแก้วครับ",
-          "translation": "One glass of water, please (♂)",
-          "phonetic": "kor nam plao neung kaew krap"
+            "frontContent": {
+                "type": "text",
+                "text": "น้ำเปล่า"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Plain water"
+            },
+            "tags": ["food", "drinks", "basic"],
+            "difficulty": "easy",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "nam plao",
+            "partOfSpeech": "noun",
+            "context": "Used when ordering plain drinking water",
+            "examples": [
+                {
+                    "original": "ขอน้ำเปล่าหนึ่งแก้วครับ",
+                    "translation": "One glass of water, please (♂)",
+                    "phonetic": "kor nam plao neung kaew krap"
+                },
+                {
+                    "original": "น้ำเปล่าฟรีไหมคะ",
+                    "translation": "Is the water free? (♀)",
+                    "phonetic": "nam plao free mai ka"
+                }
+            ]
         },
         {
-          "original": "น้ำเปล่าฟรีไหมคะ",
-          "translation": "Is the water free? (♀)",
-          "phonetic": "nam plao free mai ka"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ทานที่นี่"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "Eat here/Dine in"
-      },
-      "tags": ["food", "restaurant", "basic"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "taan tee-nee",
-      "partOfSpeech": "phrase",
-      "context": "Used when specifying that you want to eat at the restaurant",
-      "examples": [
-        {
-          "original": "ทานที่นี่หรือใส่ถุงครับ",
-          "translation": "For here or to go? (♂)",
-          "phonetic": "taan tee-nee rue sai tung krap"
+            "frontContent": {
+                "type": "text",
+                "text": "ทานที่นี่"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Eat here/Dine in"
+            },
+            "tags": ["food", "restaurant", "basic"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "taan tee-nee",
+            "partOfSpeech": "phrase",
+            "context": "Used when specifying that you want to eat at the restaurant",
+            "examples": [
+                {
+                    "original": "ทานที่นี่หรือใส่ถุงครับ",
+                    "translation": "For here or to go? (♂)",
+                    "phonetic": "taan tee-nee rue sai tung krap"
+                },
+                {
+                    "original": "ทานที่นี่ค่ะ",
+                    "translation": "I'll eat here (♀)",
+                    "phonetic": "taan tee-nee ka"
+                }
+            ]
         },
         {
-          "original": "ทานที่นี่ค่ะ",
-          "translation": "I'll eat here (♀)",
-          "phonetic": "taan tee-nee ka"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ใส่ถุง"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "To go/Takeaway"
-      },
-      "tags": ["food", "restaurant", "basic"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "sai tung",
-      "partOfSpeech": "phrase",
-      "context": "Used when ordering food to take away",
-      "examples": [
-        {
-          "original": "ใส่ถุงไปกินที่บ้านค่ะ",
-          "translation": "Put it in a bag to eat at home (♀)",
-          "phonetic": "sai tung pai gin tee baan ka"
+            "frontContent": {
+                "type": "text",
+                "text": "ใส่ถุง"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "To go/Takeaway"
+            },
+            "tags": ["food", "restaurant", "basic"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "sai tung",
+            "partOfSpeech": "phrase",
+            "context": "Used when ordering food to take away",
+            "examples": [
+                {
+                    "original": "ใส่ถุงไปกินที่บ้านค่ะ",
+                    "translation": "Put it in a bag to eat at home (♀)",
+                    "phonetic": "sai tung pai gin tee baan ka"
+                },
+                {
+                    "original": "ขอใส่ถุงครับ",
+                    "translation": "I'd like it to go (♂)",
+                    "phonetic": "kor sai tung krap"
+                }
+            ]
         },
         {
-          "original": "ขอใส่ถุงครับ",
-          "translation": "I'd like it to go (♂)",
-          "phonetic": "kor sai tung krap"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ขอเติมน้ำ"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "Water refill, please"
-      },
-      "tags": ["food", "restaurant", "basic"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "kor term nam",
-      "partOfSpeech": "phrase",
-      "context": "Used when asking for a water refill at a restaurant",
-      "examples": [
-        {
-          "original": "ขอเติมน้ำหน่อยครับ",
-          "translation": "Could I have a water refill, please? (♂)",
-          "phonetic": "kor term nam noi krap"
+            "frontContent": {
+                "type": "text",
+                "text": "ขอเติมน้ำ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Water refill, please"
+            },
+            "tags": ["food", "restaurant", "basic"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "kor term nam",
+            "partOfSpeech": "phrase",
+            "context": "Used when asking for a water refill at a restaurant",
+            "examples": [
+                {
+                    "original": "ขอเติมน้ำหน่อยครับ",
+                    "translation": "Could I have a water refill, please? (♂)",
+                    "phonetic": "kor term nam noi krap"
+                },
+                {
+                    "original": "ขอน้ำเติมอีกหน่อยค่ะ",
+                    "translation": "Could I have some more water, please? (♀)",
+                    "phonetic": "kor nam term eek noi ka"
+                }
+            ]
         },
         {
-          "original": "ขอน้ำเติมอีกหน่อยค่ะ",
-          "translation": "Could I have some more water, please? (♀)",
-          "phonetic": "kor nam term eek noi ka"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ไม่ใส่ผงชูรส"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "No MSG"
-      },
-      "tags": ["food", "restaurant", "intermediate"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "mai sai pong-choo-rot",
-      "partOfSpeech": "phrase",
-      "context": "Used when requesting food without monosodium glutamate",
-      "examples": [
-        {
-          "original": "ไม่ใส่ผงชูรสนะครับ",
-          "translation": "No MSG, please (♂)",
-          "phonetic": "mai sai pong-choo-rot na krap"
+            "frontContent": {
+                "type": "text",
+                "text": "ไม่ใส่ผงชูรส"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "No MSG"
+            },
+            "tags": ["food", "restaurant", "intermediate"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "mai sai pong-choo-rot",
+            "partOfSpeech": "phrase",
+            "context": "Used when requesting food without monosodium glutamate",
+            "examples": [
+                {
+                    "original": "ไม่ใส่ผงชูรสนะครับ",
+                    "translation": "No MSG, please (♂)",
+                    "phonetic": "mai sai pong-choo-rot na krap"
+                },
+                {
+                    "original": "ขอไม่ใส่ผงชูรสได้ไหมคะ",
+                    "translation": "Could you please not add MSG? (♀)",
+                    "phonetic": "kor mai sai pong-choo-rot dai mai ka"
+                }
+            ]
         },
         {
-          "original": "ขอไม่ใส่ผงชูรสได้ไหมคะ",
-          "translation": "Could you please not add MSG? (♀)",
-          "phonetic": "kor mai sai pong-choo-rot dai mai ka"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ส้อม"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "Fork"
-      },
-      "tags": ["food", "utensils", "basic"],
-      "difficulty": "easy",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "som",
-      "partOfSpeech": "noun",
-      "context": "Used when asking for or referring to a fork",
-      "examples": [
-        {
-          "original": "ขอส้อมหน่อยครับ",
-          "translation": "May I have a fork, please? (♂)",
-          "phonetic": "kor som noi krap"
+            "frontContent": {
+                "type": "text",
+                "text": "ส้อม"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Fork"
+            },
+            "tags": ["food", "utensils", "basic"],
+            "difficulty": "easy",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "som",
+            "partOfSpeech": "noun",
+            "context": "Used when asking for or referring to a fork",
+            "examples": [
+                {
+                    "original": "ขอส้อมหน่อยครับ",
+                    "translation": "May I have a fork, please? (♂)",
+                    "phonetic": "kor som noi krap"
+                },
+                {
+                    "original": "ส้อมอยู่ในลิ้นชักค่ะ",
+                    "translation": "The forks are in the drawer (♀)",
+                    "phonetic": "som yoo nai lin-chak ka"
+                }
+            ]
         },
         {
-          "original": "ส้อมอยู่ในลิ้นชักค่ะ",
-          "translation": "The forks are in the drawer (♀)",
-          "phonetic": "som yoo nai lin-chak ka"
+            "frontContent": {
+                "type": "text",
+                "text": "ช้อน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Spoon"
+            },
+            "tags": ["food", "utensils", "basic"],
+            "difficulty": "easy",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "chon",
+            "partOfSpeech": "noun",
+            "context": "Used when asking for or referring to a spoon",
+            "examples": [
+                {
+                    "original": "ขอช้อนเพิ่มหน่อยครับ",
+                    "translation": "Could I have another spoon, please? (♂)",
+                    "phonetic": "kor chon perm noi krap"
+                },
+                {
+                    "original": "ไม่มีช้อนค่ะ",
+                    "translation": "There's no spoon (♀)",
+                    "phonetic": "mai mee chon ka"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ช้อน"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "Spoon"
-      },
-      "tags": ["food", "utensils", "basic"],
-      "difficulty": "easy",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "chon",
-      "partOfSpeech": "noun",
-      "context": "Used when asking for or referring to a spoon",
-      "examples": [
-        {
-          "original": "ขอช้อนเพิ่มหน่อยครับ",
-          "translation": "Could I have another spoon, please? (♂)",
-          "phonetic": "kor chon perm noi krap"
-        },
-        {
-          "original": "ไม่มีช้อนค่ะ",
-          "translation": "There's no spoon (♀)",
-          "phonetic": "mai mee chon ka"
-        }
-      ]
-    }
-  ],
-  "createdAt": "2025-05-09T17:30:00Z",
-  "updatedAt": "2025-05-09T17:30:00Z",
-  "theme": "food",
-  "difficulty": "beginner-intermediate"
+    ],
+    "createdAt": "2025-05-09T17:30:00Z",
+    "updatedAt": "2025-05-09T17:30:00Z",
+    "theme": "food",
+    "difficulty": "beginner-intermediate"
 }

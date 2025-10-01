@@ -1,25 +1,6 @@
-import {
-    Box,
-    Breadcrumb,
-    BreadcrumbItem,
-    BreadcrumbLink,
-    Button,
-    Container,
-    Flex,
-    Heading,
-    Icon,
-    Image,
-    SimpleGrid,
-    Stack,
-    Tag,
-    Text,
-} from "@chakra-ui/react";
-import { graphql, HeadFC, Link } from "gatsby";
-import { ChevronRight, Clock, Star } from "lucide-react";
 import React from "react";
 
-import type { Collection, Deck } from "../types";
-import { deckDetailPath, flashcardListPath } from "../utils/paths";
+import { HeadFC } from "gatsby";
 
 export const Head: HeadFC<any> = ({ data }) => {
     const deck = data?.decksJson;

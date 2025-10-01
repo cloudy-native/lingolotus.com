@@ -6,7 +6,6 @@ import {
     Heading,
     HStack,
     Icon,
-    Image,
     SimpleGrid,
     Stack,
     Tag,
@@ -18,6 +17,7 @@ import { BookOpen, ChevronRight, CreditCard } from "lucide-react";
 import React from "react";
 
 import { LazyImage } from "../components/LazyImage";
+import { tokens } from "../theme/tokens";
 import type { Book, Collection } from "../types";
 import {
     bookDetailPath,
@@ -58,8 +58,6 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
     const boxBg = "white";
     const borderColor = "gray.200";
     const heroBg = "blue.50";
-    const flashcardHoverBg = "blue.50";
-    const readingHoverBg = "green.50";
 
     return (
         <>
@@ -93,12 +91,21 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                 fontSize={{ base: "md", md: "lg" }}
                                 textAlign={{ base: "center", md: "left" }}
                                 color="gray.700"
+                                mb={4}
                             >
                                 Master vocabulary with spaced repetition
                                 flashcards and build reading comprehension with
                                 stories that include phonetics and word-by-word
                                 breakdowns. Everything you need to learn
                                 naturally and effectively.
+                            </Text>
+                            <Text
+                                fontSize={{ base: "md", md: "lg" }}
+                                fontWeight="bold"
+                                textAlign={{ base: "center", md: "left" }}
+                                color="blue.700"
+                            >
+                                ✨ Free forever. No subscriptions, no paywalls.
                             </Text>
                         </Box>
                         <Box
@@ -134,7 +141,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                 <HStack spacing={3}>
                                     <Icon
                                         as={CreditCard}
-                                        boxSize={7}
+                                        boxSize={tokens.iconSize.xl}
                                         color="blue.500"
                                     />
                                     <Heading as="h2" size="lg">
@@ -286,7 +293,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                 <HStack spacing={3}>
                                     <Icon
                                         as={BookOpen}
-                                        boxSize={7}
+                                        boxSize={tokens.iconSize.xl}
                                         color="green.500"
                                     />
                                     <Heading as="h2" size="lg">

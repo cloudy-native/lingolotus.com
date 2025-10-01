@@ -1,278 +1,893 @@
 {
-  "storyId": "thai-intermediate-1-shopping-for-clothes",
-  "bookId": "thai-intermediate-1",
-  "language": "th",
-  "title": {
-    "source": "ช้อปปิ้งเสื้อผ้า",
-    "target": "Shopping for Clothes"
-  },
-  "sentences": [
-    {
-      "source": "คุณชอบซื้อเสื้อผ้าไหมครับ",
-      "target": "Do you like shopping for clothes?",
-      "phonetic": "khun chôrp súe sûea-phâa mǎi khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "ชอบ", "target": "to like", "phonetic": "chôrp", "partOfSpeech": "verb" },
-        { "source": "ซื้อ", "target": "to buy", "phonetic": "súe", "partOfSpeech": "verb" },
-        { "source": "เสื้อผ้า", "target": "clothes", "phonetic": "sûea-phâa", "partOfSpeech": "noun" },
-        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
+    "storyId": "thai-intermediate-1-shopping-for-clothes",
+    "bookId": "thai-intermediate-1",
+    "language": "th",
+    "title": {
+        "source": "ช้อปปิ้งเสื้อผ้า",
+        "target": "Shopping for Clothes"
     },
-    {
-      "source": "ชอบค่ะ สนุกมาก!",
-      "target": "Yes, I enjoy it!",
-      "phonetic": "chôrp khâ sà-nùk mâak",
-      "breakdown": [
-        { "source": "ชอบ", "target": "yes/like", "phonetic": "chôrp", "partOfSpeech": "verb" },
-        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
-        { "source": "สนุก", "target": "fun/enjoy", "phonetic": "sà-nùk", "partOfSpeech": "adjective" },
-        { "source": "มาก", "target": "very", "phonetic": "mâak", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "คุณซื้อเสื้อผ้าที่ไหนครับ",
-      "target": "Where do you shop?",
-      "phonetic": "khun súe sûea-phâa thîi năi khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "ซื้อ", "target": "to buy", "phonetic": "súe", "partOfSpeech": "verb" },
-        { "source": "เสื้อผ้า", "target": "clothes", "phonetic": "sûea-phâa", "partOfSpeech": "noun" },
-        { "source": "ที่", "target": "at", "phonetic": "thîi", "partOfSpeech": "preposition" },
-        { "source": "ไหน", "target": "where", "phonetic": "năi", "partOfSpeech": "pronoun" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "ฉันซื้อเสื้อผ้าที่ห้างสรรพสินค้าหรือออนไลน์",
-      "target": "I shop at the mall or online.",
-      "phonetic": "chăn súe sûea-phâa thîi hâang sàp-phá-sǐn-kháa rǔe on-line",
-      "breakdown": [
-        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "ซื้อ", "target": "to buy", "phonetic": "súe", "partOfSpeech": "verb" },
-        { "source": "เสื้อผ้า", "target": "clothes", "phonetic": "sûea-phâa", "partOfSpeech": "noun" },
-        { "source": "ที่", "target": "at", "phonetic": "thîi", "partOfSpeech": "preposition" },
-        { "source": "ห้างสรรพสินค้า", "target": "shopping mall", "phonetic": "hâang sàp-phá-sǐn-kháa", "partOfSpeech": "noun" },
-        { "source": "หรือ", "target": "or", "phonetic": "rǔe", "partOfSpeech": "conjunction" },
-        { "source": "ออนไลน์", "target": "online", "phonetic": "on-line", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "คุณซื้อเสื้อผ้าแบบไหนครับ",
-      "target": "What kind of clothes do you buy?",
-      "phonetic": "khun súe sûea-phâa bàep năi khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "ซื้อ", "target": "to buy", "phonetic": "súe", "partOfSpeech": "verb" },
-        { "source": "เสื้อผ้า", "target": "clothes", "phonetic": "sûea-phâa", "partOfSpeech": "noun" },
-        { "source": "แบบ", "target": "kind/type", "phonetic": "bàep", "partOfSpeech": "classifier" },
-        { "source": "ไหน", "target": "which", "phonetic": "năi", "partOfSpeech": "pronoun" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "ฉันซื้อกางเกงยีนส์ เสื้อเชิ้ต และเสื้อแจ็กเก็ต",
-      "target": "I buy jeans, shirts, and jackets.",
-      "phonetic": "chăn súe gaang-geng yiin sêuua-chért láe sêuua jáek-gèt",
-      "breakdown": [
-        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "ซื้อ", "target": "to buy", "phonetic": "súe", "partOfSpeech": "verb" },
-        { "source": "กางเกงยีนส์", "target": "jeans", "phonetic": "gaang-geng yiin", "partOfSpeech": "noun" },
-        { "source": "เสื้อเชิ้ต", "target": "shirts", "phonetic": "sêuua-chért", "partOfSpeech": "noun" },
-        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
-        { "source": "เสื้อแจ็กเก็ต", "target": "jackets", "phonetic": "sêuua jáek-gèt", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "คุณชอบสีสันสดไหมครับ",
-      "target": "Do you like bright colors?",
-      "phonetic": "khun chôrp sĭi-săn sòt mǎi khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "ชอบ", "target": "to like", "phonetic": "chôrp", "partOfSpeech": "verb" },
-        { "source": "สีสัน", "target": "colors", "phonetic": "sĭi-săn", "partOfSpeech": "noun" },
-        { "source": "สด", "target": "bright/vivid", "phonetic": "sòt", "partOfSpeech": "adjective" },
-        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "ไม่ค่ะ ฉันชอบสีเข้มอย่างสีกรมท่าและสีดำ",
-      "target": "No, I like dark colors like blue and black.",
-      "phonetic": "mâi khâ chăn chôrp sĭi khêm yàang sĭi grom-thâa láe sĭi dam",
-      "breakdown": [
-        { "source": "ไม่", "target": "no/not", "phonetic": "mâi", "partOfSpeech": "adverb" },
-        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
-        { "source": "ฉัน", "target": "I", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "ชอบ", "target": "to like", "phonetic": "chôrp", "partOfSpeech": "verb" },
-        { "source": "สีเข้ม", "target": "dark colors", "phonetic": "sĭi khêm", "partOfSpeech": "noun" },
-        { "source": "อย่าง", "target": "like/such as", "phonetic": "yàang", "partOfSpeech": "preposition" },
-        { "source": "สีกรมท่า", "target": "navy blue", "phonetic": "sĭi grom-thâa", "partOfSpeech": "noun" },
-        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
-        { "source": "สีดำ", "target": "black", "phonetic": "sĭi dam", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "คุณลองเสื้อผ้าก่อนไหมครับ",
-      "target": "Do you try clothes on?",
-      "phonetic": "khun long sûea-phâa gòn mǎi khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "ลอง", "target": "to try", "phonetic": "long", "partOfSpeech": "verb" },
-        { "source": "เสื้อผ้า", "target": "clothes", "phonetic": "sûea-phâa", "partOfSpeech": "noun" },
-        { "source": "ก่อน", "target": "before/first", "phonetic": "gòn", "partOfSpeech": "adverb" },
-        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "ใช่ค่ะ ฉันมักลองก่อนเสมอ",
-      "target": "Yes, I always try them on first.",
-      "phonetic": "châi khâ chăn mák long gòn sà-mǒe",
-      "breakdown": [
-        { "source": "ใช่", "target": "yes", "phonetic": "châi", "partOfSpeech": "interjection" },
-        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
-        { "source": "ฉัน", "target": "I", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "มัก", "target": "usually/always", "phonetic": "mák", "partOfSpeech": "adverb" },
-        { "source": "ลอง", "target": "to try", "phonetic": "long", "partOfSpeech": "verb" },
-        { "source": "ก่อน", "target": "first/before", "phonetic": "gòn", "partOfSpeech": "adverb" },
-        { "source": "เสมอ", "target": "always", "phonetic": "sà-mǒe", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "เสื้อผ้าแพงไหมครับ",
-      "target": "Are clothes expensive?",
-      "phonetic": "sûea-phâa phaaeng mǎi khráp",
-      "breakdown": [
-        { "source": "เสื้อผ้า", "target": "clothes", "phonetic": "sûea-phâa", "partOfSpeech": "noun" },
-        { "source": "แพง", "target": "expensive", "phonetic": "phaaeng", "partOfSpeech": "adjective" },
-        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "บางอย่างก็แพง แต่ฉันหาของลดราคาได้",
-      "target": "Some are expensive, but I find sales.",
-      "phonetic": "baang yàang gôr phaaeng dtàe chăn hăa khǎwng lót raa-khaa dâi",
-      "breakdown": [
-        { "source": "บางอย่าง", "target": "some", "phonetic": "baang yàang", "partOfSpeech": "determiner" },
-        { "source": "ก็", "target": "emphasizer", "phonetic": "gôr", "partOfSpeech": "particle" },
-        { "source": "แพง", "target": "expensive", "phonetic": "phaaeng", "partOfSpeech": "adjective" },
-        { "source": "แต่", "target": "but", "phonetic": "dtàe", "partOfSpeech": "conjunction" },
-        { "source": "ฉัน", "target": "I", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "หา", "target": "to find", "phonetic": "hăa", "partOfSpeech": "verb" },
-        { "source": "ของ", "target": "things/items", "phonetic": "khǎwng", "partOfSpeech": "noun" },
-        { "source": "ลดราคา", "target": "on sale/discount", "phonetic": "lót raa-khaa", "partOfSpeech": "verb" },
-        { "source": "ได้", "target": "can", "phonetic": "dâi", "partOfSpeech": "auxiliary" }
-      ]
-    },
-    {
-      "source": "คุณใส่ไซซ์อะไรครับ",
-      "target": "What size do you wear?",
-      "phonetic": "khun sài sái à-rai khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "ใส่", "target": "to wear", "phonetic": "sài", "partOfSpeech": "verb" },
-        { "source": "ไซซ์", "target": "size", "phonetic": "sái", "partOfSpeech": "noun" },
-        { "source": "อะไร", "target": "what", "phonetic": "à-rai", "partOfSpeech": "pronoun" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "ฉันใส่ไซซ์ M หรือขนาดกลาง",
-      "target": "I wear medium-sized clothes.",
-      "phonetic": "chăn sài sái em rǔe khà-nàat glaang",
-      "breakdown": [
-        { "source": "ฉัน", "target": "I", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "ใส่", "target": "to wear", "phonetic": "sài", "partOfSpeech": "verb" },
-        { "source": "ไซซ์", "target": "size", "phonetic": "sái", "partOfSpeech": "noun" },
-        { "source": "M", "target": "M", "phonetic": "em", "partOfSpeech": "classifier" },
-        { "source": "หรือ", "target": "or", "phonetic": "rǔe", "partOfSpeech": "conjunction" },
-        { "source": "ขนาดกลาง", "target": "medium", "phonetic": "khà-nàat glaang", "partOfSpeech": "adjective" }
-      ]
-    },
-    {
-      "source": "คุณไปซื้อของคนเดียวไหมครับ",
-      "target": "Do you shop alone?",
-      "phonetic": "khun bpai súe khǎwng khon-diao mǎi khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "ไป", "target": "to go", "phonetic": "bpai", "partOfSpeech": "verb" },
-        { "source": "ซื้อของ", "target": "to shop/buy things", "phonetic": "súe khǎwng", "partOfSpeech": "verb" },
-        { "source": "คนเดียว", "target": "alone", "phonetic": "khon-diao", "partOfSpeech": "adverb" },
-        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "บางครั้งฉันไปกับพี่สาว",
-      "target": "Sometimes I shop with my sister.",
-      "phonetic": "baang-khráng chăn bpai gàp phîi-săao",
-      "breakdown": [
-        { "source": "บางครั้ง", "target": "sometimes", "phonetic": "baang-khráng", "partOfSpeech": "adverb" },
-        { "source": "ฉัน", "target": "I", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "ไป", "target": "to go", "phonetic": "bpai", "partOfSpeech": "verb" },
-        { "source": "กับ", "target": "with", "phonetic": "gàp", "partOfSpeech": "preposition" },
-        { "source": "พี่สาว", "target": "older sister", "phonetic": "phîi-săao", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "เธอชอบช้อปปิ้งไหมครับ",
-      "target": "Does she like shopping?",
-      "phonetic": "thoe chôrp chóhp-bpîng mǎi khráp",
-      "breakdown": [
-        { "source": "เธอ", "target": "she/her", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "ชอบ", "target": "to like", "phonetic": "chôrp", "partOfSpeech": "verb" },
-        { "source": "ช้อปปิ้ง", "target": "shopping", "phonetic": "chóhp-bpîng", "partOfSpeech": "noun" },
-        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "ชอบค่ะ เธอชอบมากกว่าฉันอีก",
-      "target": "Yes, she loves it more than me!",
-      "phonetic": "chôrp khâ thoe chôrp mâak gwàa chăn ìik",
-      "breakdown": [
-        { "source": "ชอบ", "target": "yes/like", "phonetic": "chôrp", "partOfSpeech": "verb" },
-        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
-        { "source": "เธอ", "target": "she", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "ชอบ", "target": "likes", "phonetic": "chôrp", "partOfSpeech": "verb" },
-        { "source": "มากกว่า", "target": "more than", "phonetic": "mâak gwàa", "partOfSpeech": "adverb" },
-        { "source": "ฉัน", "target": "me", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "อีก", "target": "even/still", "phonetic": "ìik", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "คุณซื้อรองเท้าด้วยไหมครับ",
-      "target": "Do you buy shoes too?",
-      "phonetic": "khun súe rong-tháo dûai mǎi khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "ซื้อ", "target": "to buy", "phonetic": "súe", "partOfSpeech": "verb" },
-        { "source": "รองเท้า", "target": "shoes", "phonetic": "rong-tháo", "partOfSpeech": "noun" },
-        { "source": "ด้วย", "target": "too/as well", "phonetic": "dûai", "partOfSpeech": "adverb" },
-        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "ใช่ค่ะ ฉันซื้อรองเท้าผ้าใบและรองเท้าบูท",
-      "target": "Yes, I buy sneakers and boots.",
-      "phonetic": "châi khâ chăn súe rong-tháo phâa-bai láe rong-tháo bût",
-      "breakdown": [
-        { "source": "ใช่", "target": "yes", "phonetic": "châi", "partOfSpeech": "interjection" },
-        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
-        { "source": "ฉัน", "target": "I", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "ซื้อ", "target": "to buy", "phonetic": "súe", "partOfSpeech": "verb" },
-        { "source": "รองเท้าผ้าใบ", "target": "sneakers", "phonetic": "rong-tháo phâa-bai", "partOfSpeech": "noun" },
-        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
-        { "source": "รองเท้าบูท", "target": "boots", "phonetic": "rong-tháo bût", "partOfSpeech": "noun" }
-      ]
-    }
-  ],
-  "createdAt": "2025-09-29T15:35:30Z",
-  "updatedAt": "2025-09-29T15:36:30Z",
-  "difficulty": "intermediate",
-  "summary": "บทสนทนาเรื่องการช้อปปิ้งเสื้อผ้า: สถานที่ซื้อ ประเภทเสื้อผ้า สีสัน การลอง ราคา ไซซ์ ไปกับใคร ความชอบการช้อปปิ้ง และรองเท้า"
+    "sentences": [
+        {
+            "source": "คุณชอบซื้อเสื้อผ้าไหมครับ",
+            "target": "Do you like shopping for clothes?",
+            "phonetic": "khun chôrp súe sûea-phâa mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ชอบ",
+                    "target": "to like",
+                    "phonetic": "chôrp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ซื้อ",
+                    "target": "to buy",
+                    "phonetic": "súe",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เสื้อผ้า",
+                    "target": "clothes",
+                    "phonetic": "sûea-phâa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ชอบค่ะ สนุกมาก!",
+            "target": "Yes, I enjoy it!",
+            "phonetic": "chôrp khâ sà-nùk mâak",
+            "breakdown": [
+                {
+                    "source": "ชอบ",
+                    "target": "yes/like",
+                    "phonetic": "chôrp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "female polite particle",
+                    "phonetic": "khâ",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "สนุก",
+                    "target": "fun/enjoy",
+                    "phonetic": "sà-nùk",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "มาก",
+                    "target": "very",
+                    "phonetic": "mâak",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "คุณซื้อเสื้อผ้าที่ไหนครับ",
+            "target": "Where do you shop?",
+            "phonetic": "khun súe sûea-phâa thîi năi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ซื้อ",
+                    "target": "to buy",
+                    "phonetic": "súe",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เสื้อผ้า",
+                    "target": "clothes",
+                    "phonetic": "sûea-phâa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ที่",
+                    "target": "at",
+                    "phonetic": "thîi",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ไหน",
+                    "target": "where",
+                    "phonetic": "năi",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ฉันซื้อเสื้อผ้าที่ห้างสรรพสินค้าหรือออนไลน์",
+            "target": "I shop at the mall or online.",
+            "phonetic": "chăn súe sûea-phâa thîi hâang sàp-phá-sǐn-kháa rǔe on-line",
+            "breakdown": [
+                {
+                    "source": "ฉัน",
+                    "target": "I (female)",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ซื้อ",
+                    "target": "to buy",
+                    "phonetic": "súe",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เสื้อผ้า",
+                    "target": "clothes",
+                    "phonetic": "sûea-phâa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ที่",
+                    "target": "at",
+                    "phonetic": "thîi",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ห้างสรรพสินค้า",
+                    "target": "shopping mall",
+                    "phonetic": "hâang sàp-phá-sǐn-kháa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "หรือ",
+                    "target": "or",
+                    "phonetic": "rǔe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ออนไลน์",
+                    "target": "online",
+                    "phonetic": "on-line",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "คุณซื้อเสื้อผ้าแบบไหนครับ",
+            "target": "What kind of clothes do you buy?",
+            "phonetic": "khun súe sûea-phâa bàep năi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ซื้อ",
+                    "target": "to buy",
+                    "phonetic": "súe",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เสื้อผ้า",
+                    "target": "clothes",
+                    "phonetic": "sûea-phâa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "แบบ",
+                    "target": "kind/type",
+                    "phonetic": "bàep",
+                    "partOfSpeech": "classifier"
+                },
+                {
+                    "source": "ไหน",
+                    "target": "which",
+                    "phonetic": "năi",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ฉันซื้อกางเกงยีนส์ เสื้อเชิ้ต และเสื้อแจ็กเก็ต",
+            "target": "I buy jeans, shirts, and jackets.",
+            "phonetic": "chăn súe gaang-geng yiin sêuua-chért láe sêuua jáek-gèt",
+            "breakdown": [
+                {
+                    "source": "ฉัน",
+                    "target": "I (female)",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ซื้อ",
+                    "target": "to buy",
+                    "phonetic": "súe",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "กางเกงยีนส์",
+                    "target": "jeans",
+                    "phonetic": "gaang-geng yiin",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เสื้อเชิ้ต",
+                    "target": "shirts",
+                    "phonetic": "sêuua-chért",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "เสื้อแจ็กเก็ต",
+                    "target": "jackets",
+                    "phonetic": "sêuua jáek-gèt",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "คุณชอบสีสันสดไหมครับ",
+            "target": "Do you like bright colors?",
+            "phonetic": "khun chôrp sĭi-săn sòt mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ชอบ",
+                    "target": "to like",
+                    "phonetic": "chôrp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "สีสัน",
+                    "target": "colors",
+                    "phonetic": "sĭi-săn",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "สด",
+                    "target": "bright/vivid",
+                    "phonetic": "sòt",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ไม่ค่ะ ฉันชอบสีเข้มอย่างสีกรมท่าและสีดำ",
+            "target": "No, I like dark colors like blue and black.",
+            "phonetic": "mâi khâ chăn chôrp sĭi khêm yàang sĭi grom-thâa láe sĭi dam",
+            "breakdown": [
+                {
+                    "source": "ไม่",
+                    "target": "no/not",
+                    "phonetic": "mâi",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "female polite particle",
+                    "phonetic": "khâ",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ชอบ",
+                    "target": "to like",
+                    "phonetic": "chôrp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "สีเข้ม",
+                    "target": "dark colors",
+                    "phonetic": "sĭi khêm",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "อย่าง",
+                    "target": "like/such as",
+                    "phonetic": "yàang",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "สีกรมท่า",
+                    "target": "navy blue",
+                    "phonetic": "sĭi grom-thâa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "สีดำ",
+                    "target": "black",
+                    "phonetic": "sĭi dam",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "คุณลองเสื้อผ้าก่อนไหมครับ",
+            "target": "Do you try clothes on?",
+            "phonetic": "khun long sûea-phâa gòn mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ลอง",
+                    "target": "to try",
+                    "phonetic": "long",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เสื้อผ้า",
+                    "target": "clothes",
+                    "phonetic": "sûea-phâa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ก่อน",
+                    "target": "before/first",
+                    "phonetic": "gòn",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ใช่ค่ะ ฉันมักลองก่อนเสมอ",
+            "target": "Yes, I always try them on first.",
+            "phonetic": "châi khâ chăn mák long gòn sà-mǒe",
+            "breakdown": [
+                {
+                    "source": "ใช่",
+                    "target": "yes",
+                    "phonetic": "châi",
+                    "partOfSpeech": "interjection"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "female polite particle",
+                    "phonetic": "khâ",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "มัก",
+                    "target": "usually/always",
+                    "phonetic": "mák",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ลอง",
+                    "target": "to try",
+                    "phonetic": "long",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ก่อน",
+                    "target": "first/before",
+                    "phonetic": "gòn",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "เสมอ",
+                    "target": "always",
+                    "phonetic": "sà-mǒe",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "เสื้อผ้าแพงไหมครับ",
+            "target": "Are clothes expensive?",
+            "phonetic": "sûea-phâa phaaeng mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "เสื้อผ้า",
+                    "target": "clothes",
+                    "phonetic": "sûea-phâa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "แพง",
+                    "target": "expensive",
+                    "phonetic": "phaaeng",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "บางอย่างก็แพง แต่ฉันหาของลดราคาได้",
+            "target": "Some are expensive, but I find sales.",
+            "phonetic": "baang yàang gôr phaaeng dtàe chăn hăa khǎwng lót raa-khaa dâi",
+            "breakdown": [
+                {
+                    "source": "บางอย่าง",
+                    "target": "some",
+                    "phonetic": "baang yàang",
+                    "partOfSpeech": "determiner"
+                },
+                {
+                    "source": "ก็",
+                    "target": "emphasizer",
+                    "phonetic": "gôr",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "แพง",
+                    "target": "expensive",
+                    "phonetic": "phaaeng",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "แต่",
+                    "target": "but",
+                    "phonetic": "dtàe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "หา",
+                    "target": "to find",
+                    "phonetic": "hăa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ของ",
+                    "target": "things/items",
+                    "phonetic": "khǎwng",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ลดราคา",
+                    "target": "on sale/discount",
+                    "phonetic": "lót raa-khaa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ได้",
+                    "target": "can",
+                    "phonetic": "dâi",
+                    "partOfSpeech": "auxiliary"
+                }
+            ]
+        },
+        {
+            "source": "คุณใส่ไซซ์อะไรครับ",
+            "target": "What size do you wear?",
+            "phonetic": "khun sài sái à-rai khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ใส่",
+                    "target": "to wear",
+                    "phonetic": "sài",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ไซซ์",
+                    "target": "size",
+                    "phonetic": "sái",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "อะไร",
+                    "target": "what",
+                    "phonetic": "à-rai",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ฉันใส่ไซซ์ M หรือขนาดกลาง",
+            "target": "I wear medium-sized clothes.",
+            "phonetic": "chăn sài sái em rǔe khà-nàat glaang",
+            "breakdown": [
+                {
+                    "source": "ฉัน",
+                    "target": "I",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ใส่",
+                    "target": "to wear",
+                    "phonetic": "sài",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ไซซ์",
+                    "target": "size",
+                    "phonetic": "sái",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "M",
+                    "target": "M",
+                    "phonetic": "em",
+                    "partOfSpeech": "classifier"
+                },
+                {
+                    "source": "หรือ",
+                    "target": "or",
+                    "phonetic": "rǔe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ขนาดกลาง",
+                    "target": "medium",
+                    "phonetic": "khà-nàat glaang",
+                    "partOfSpeech": "adjective"
+                }
+            ]
+        },
+        {
+            "source": "คุณไปซื้อของคนเดียวไหมครับ",
+            "target": "Do you shop alone?",
+            "phonetic": "khun bpai súe khǎwng khon-diao mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ไป",
+                    "target": "to go",
+                    "phonetic": "bpai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ซื้อของ",
+                    "target": "to shop/buy things",
+                    "phonetic": "súe khǎwng",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "คนเดียว",
+                    "target": "alone",
+                    "phonetic": "khon-diao",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "บางครั้งฉันไปกับพี่สาว",
+            "target": "Sometimes I shop with my sister.",
+            "phonetic": "baang-khráng chăn bpai gàp phîi-săao",
+            "breakdown": [
+                {
+                    "source": "บางครั้ง",
+                    "target": "sometimes",
+                    "phonetic": "baang-khráng",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ไป",
+                    "target": "to go",
+                    "phonetic": "bpai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "กับ",
+                    "target": "with",
+                    "phonetic": "gàp",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "พี่สาว",
+                    "target": "older sister",
+                    "phonetic": "phîi-săao",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "เธอชอบช้อปปิ้งไหมครับ",
+            "target": "Does she like shopping?",
+            "phonetic": "thoe chôrp chóhp-bpîng mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "เธอ",
+                    "target": "she/her",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ชอบ",
+                    "target": "to like",
+                    "phonetic": "chôrp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ช้อปปิ้ง",
+                    "target": "shopping",
+                    "phonetic": "chóhp-bpîng",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ชอบค่ะ เธอชอบมากกว่าฉันอีก",
+            "target": "Yes, she loves it more than me!",
+            "phonetic": "chôrp khâ thoe chôrp mâak gwàa chăn ìik",
+            "breakdown": [
+                {
+                    "source": "ชอบ",
+                    "target": "yes/like",
+                    "phonetic": "chôrp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "female polite particle",
+                    "phonetic": "khâ",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "เธอ",
+                    "target": "she",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ชอบ",
+                    "target": "likes",
+                    "phonetic": "chôrp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "มากกว่า",
+                    "target": "more than",
+                    "phonetic": "mâak gwàa",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "me",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "อีก",
+                    "target": "even/still",
+                    "phonetic": "ìik",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "คุณซื้อรองเท้าด้วยไหมครับ",
+            "target": "Do you buy shoes too?",
+            "phonetic": "khun súe rong-tháo dûai mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ซื้อ",
+                    "target": "to buy",
+                    "phonetic": "súe",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "รองเท้า",
+                    "target": "shoes",
+                    "phonetic": "rong-tháo",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ด้วย",
+                    "target": "too/as well",
+                    "phonetic": "dûai",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ใช่ค่ะ ฉันซื้อรองเท้าผ้าใบและรองเท้าบูท",
+            "target": "Yes, I buy sneakers and boots.",
+            "phonetic": "châi khâ chăn súe rong-tháo phâa-bai láe rong-tháo bût",
+            "breakdown": [
+                {
+                    "source": "ใช่",
+                    "target": "yes",
+                    "phonetic": "châi",
+                    "partOfSpeech": "interjection"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "female polite particle",
+                    "phonetic": "khâ",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ซื้อ",
+                    "target": "to buy",
+                    "phonetic": "súe",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "รองเท้าผ้าใบ",
+                    "target": "sneakers",
+                    "phonetic": "rong-tháo phâa-bai",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "รองเท้าบูท",
+                    "target": "boots",
+                    "phonetic": "rong-tháo bût",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        }
+    ],
+    "createdAt": "2025-09-29T15:35:30Z",
+    "updatedAt": "2025-09-29T15:36:30Z",
+    "difficulty": "intermediate",
+    "summary": "บทสนทนาเรื่องการช้อปปิ้งเสื้อผ้า: สถานที่ซื้อ ประเภทเสื้อผ้า สีสัน การลอง ราคา ไซซ์ ไปกับใคร ความชอบการช้อปปิ้ง และรองเท้า"
 }
