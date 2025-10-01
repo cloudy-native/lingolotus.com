@@ -5,7 +5,6 @@ import {
     Container,
     Flex,
     Heading,
-    Image,
     SimpleGrid,
     Stack,
     Tag,
@@ -13,6 +12,7 @@ import {
 } from "@chakra-ui/react";
 import { graphql, HeadFC, Link } from "gatsby";
 
+import { LazyImage } from "../components/LazyImage";
 import { semanticColors, tagColorSchemes } from "../theme/colors";
 import type { Collection } from "../types";
 import { collectionDetailPath } from "../utils/paths";
@@ -43,12 +43,13 @@ const CollectionCard: React.FC<{ collection: Collection }> = ({
                 _hover={{ transform: "translateY(-4px)", shadow: "md" }}
             >
                 {collection.imageUrl && (
-                    <Image
+                    <LazyImage
                         src={collection.imageUrl}
                         alt={collection.name}
                         height="200px"
                         width="100%"
                         objectFit="cover"
+                        loading="lazy"
                     />
                 )}
                 <Box p={5}>

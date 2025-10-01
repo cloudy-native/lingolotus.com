@@ -21,7 +21,12 @@ import React from "react";
 import type { Collection, Deck } from "../types";
 import { deckDetailPath, flashcardListPath } from "../utils/paths";
 
-export const Head: HeadFC = () => <title>Flashcard | Lingo Lotus</title>;
+export const Head: HeadFC<any> = ({ data }) => {
+    const deck = data?.decksJson;
+    const deckName = deck?.name || "Flashcard";
+    
+    return <title>{deckName} | Lingo Lotus</title>;
+};
 
 /*
 export const query = graphql`

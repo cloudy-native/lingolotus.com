@@ -10,7 +10,6 @@ import {
     Flex,
     Heading,
     Icon,
-    Image,
     SimpleGrid,
     Stack,
     Tag,
@@ -19,6 +18,7 @@ import {
 import { graphql, HeadFC, Link } from "gatsby";
 import { ChevronRight, Clock, Star } from "lucide-react";
 
+import { LazyImage } from "../components/LazyImage";
 import { semanticColors } from "../theme/colors";
 import type { Collection, Deck } from "../types";
 import { deckDetailPath, flashcardListPath } from "../utils/paths";
@@ -136,12 +136,13 @@ const CollectionDetailTemplate: React.FC<CollectionDetailTemplateProps> = ({
                         gap={6}
                     >
                         {collection.imageUrl && (
-                            <Image
+                            <LazyImage
                                 src={collection.imageUrl}
                                 alt={collection.name}
                                 borderRadius="lg"
                                 boxSize={{ base: "100%", md: "180px" }}
                                 objectFit="cover"
+                                loading="lazy"
                             />
                         )}
 

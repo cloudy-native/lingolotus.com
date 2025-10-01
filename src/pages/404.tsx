@@ -1,50 +1,32 @@
 import * as React from "react";
 import { Link, HeadFC, PageProps } from "gatsby";
-import {
-    Box,
-    Code,
-    Heading,
-    Link as ChakraLink,
-    Text,
-    Button,
-} from "@chakra-ui/react";
+import { Button, Container, Heading, Text, VStack } from "@chakra-ui/react";
+
+import Layout from "../components/Layout";
 
 const NotFoundPage: React.FC<PageProps> = () => {
     return (
-        <Box p={24} fontFamily="-apple-system, Roboto, sans-serif, serif">
-            <Heading as="h1" mt={0} mb={16} maxW="container.sm">
-                Page not found
-            </Heading>
-            <Text mb={12}>
-                Sorry 😔, we couldn’t find what you were looking for.
-                <br />
-                {process.env.NODE_ENV === "development" ? (
-                    <>
-                        <br />
-                        Try creating a page in{" "}
-                        <Code
-                            colorScheme="yellow"
-                            p={1}
-                            fontSize="lg"
-                            borderRadius="base"
-                        >
-                            src/pages/
-                        </Code>
-                        .
-                        <br />
-                    </>
-                ) : null}
-                <br />
-                <Button>
-                    <ChakraLink as={Link} to="/">
-                        Go home
-                    </ChakraLink>
-                </Button>
-            </Text>
-        </Box>
+        <Layout>
+            <Container maxW="container.md" py={16}>
+                <VStack spacing={6} textAlign="center">
+                    <Heading as="h1" size="2xl">
+                        404
+                    </Heading>
+                    <Heading as="h2" size="lg">
+                        Page Not Found
+                    </Heading>
+                    <Text fontSize="lg" color="gray.600">
+                        Sorry, we couldn't find what you were looking for.
+                    </Text>
+                    <Button as={Link} to="/" colorScheme="blue" size="lg">
+                        Return Home
+                    </Button>
+                </VStack>
+            </Container>
+        </Layout>
     );
 };
 
 export default NotFoundPage;
 
-export const Head: HeadFC = () => <title>Not found</title>;
+export const Head: HeadFC = () => <title>Not found | Lingo Lotus</title>;

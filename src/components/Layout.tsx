@@ -181,8 +181,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                                 fontWeight="medium"
                             >
                                 TypeScript
-                            </Link>
-                            {" "}&{" "}
+                            </Link>{" "}
+                            &{" "}
                             <Link
                                 as="a"
                                 href="https://chakra-ui.com/"

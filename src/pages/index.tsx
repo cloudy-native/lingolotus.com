@@ -12,7 +12,7 @@ import {
     Tag,
     Text,
 } from "@chakra-ui/react";
-import { graphql, Link } from "gatsby";
+import { graphql, HeadFC, Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import { BookOpen, ChevronRight, CreditCard } from "lucide-react";
 import React from "react";
@@ -430,6 +430,10 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
 };
 
 export default HomePage;
+
+export const Head: HeadFC = () => (
+    <title>🪷 Lingo Lotus - Learn Languages Naturally</title>
+);
 
 export const query = graphql`
   query HomePage {
