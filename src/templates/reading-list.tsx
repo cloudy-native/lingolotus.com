@@ -196,7 +196,9 @@ const ReadingListTemplate = ({ data }: PageProps<ReadingPageData>) => {
                                                                 as="h4"
                                                                 size="md"
                                                                 mb={2}
-                                                            ></Heading>
+                                                            >
+                                                                {book.name}
+                                                            </Heading>
                                                             <Text
                                                                 color={
                                                                     supportingTextColor
@@ -278,7 +280,7 @@ export const Head: HeadFC = () => <title>Reading | Lingo Lotus</title>;
 
 export const query = graphql`
   query ReadingList {
-    allBookJson {
+    allBookJson(sort: { bookId: ASC }) {
       nodes {
         bookId
         name

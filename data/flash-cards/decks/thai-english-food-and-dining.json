@@ -15,7 +15,11 @@
                 "type": "text",
                 "text": "Food menu"
             },
-            "tags": ["food", "restaurant", "basic"],
+            "tags": [
+                "food",
+                "restaurant",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -44,7 +48,11 @@
                 "type": "text",
                 "text": "Pad Thai (stir-fried rice noodles)"
             },
-            "tags": ["food", "dish", "basic"],
+            "tags": [
+                "food",
+                "dish",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -73,7 +81,11 @@
                 "type": "text",
                 "text": "Tom Yum Goong (spicy shrimp soup)"
             },
-            "tags": ["food", "dish", "basic"],
+            "tags": [
+                "food",
+                "dish",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -102,7 +114,11 @@
                 "type": "text",
                 "text": "Som Tam (green papaya salad)"
             },
-            "tags": ["food", "dish", "basic"],
+            "tags": [
+                "food",
+                "dish",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -131,7 +147,11 @@
                 "type": "text",
                 "text": "Pad Kra Prao Gai (stir-fried chicken with holy basil)"
             },
-            "tags": ["food", "dish", "basic"],
+            "tags": [
+                "food",
+                "dish",
+                "basic"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -160,7 +180,11 @@
                 "type": "text",
                 "text": "Khao Man Gai (chicken rice)"
             },
-            "tags": ["food", "dish", "basic"],
+            "tags": [
+                "food",
+                "dish",
+                "basic"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -189,7 +213,11 @@
                 "type": "text",
                 "text": "Spicy"
             },
-            "tags": ["food", "taste", "basic"],
+            "tags": [
+                "food",
+                "taste",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -218,7 +246,11 @@
                 "type": "text",
                 "text": "Delicious, tasty"
             },
-            "tags": ["food", "taste", "basic"],
+            "tags": [
+                "food",
+                "taste",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -247,7 +279,11 @@
                 "type": "text",
                 "text": "Drinks, beverages"
             },
-            "tags": ["food", "drinks", "basic"],
+            "tags": [
+                "food",
+                "drinks",
+                "basic"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -276,7 +312,11 @@
                 "type": "text",
                 "text": "Coffee"
             },
-            "tags": ["food", "drinks", "basic"],
+            "tags": [
+                "food",
+                "drinks",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -305,7 +345,11 @@
                 "type": "text",
                 "text": "Iced tea"
             },
-            "tags": ["food", "drinks", "basic"],
+            "tags": [
+                "food",
+                "drinks",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -334,7 +378,11 @@
                 "type": "text",
                 "text": "Plain steamed rice"
             },
-            "tags": ["food", "basic", "staple"],
+            "tags": [
+                "food",
+                "basic",
+                "staple"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -363,7 +411,11 @@
                 "type": "text",
                 "text": "Bill, check"
             },
-            "tags": ["food", "restaurant", "basic"],
+            "tags": [
+                "food",
+                "restaurant",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -392,7 +444,11 @@
                 "type": "text",
                 "text": "Plain water"
             },
-            "tags": ["food", "drinks", "basic"],
+            "tags": [
+                "food",
+                "drinks",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -421,7 +477,11 @@
                 "type": "text",
                 "text": "Eat here/Dine in"
             },
-            "tags": ["food", "restaurant", "basic"],
+            "tags": [
+                "food",
+                "restaurant",
+                "basic"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -450,7 +510,11 @@
                 "type": "text",
                 "text": "To go/Takeaway"
             },
-            "tags": ["food", "restaurant", "basic"],
+            "tags": [
+                "food",
+                "restaurant",
+                "basic"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -479,7 +543,11 @@
                 "type": "text",
                 "text": "Water refill, please"
             },
-            "tags": ["food", "restaurant", "basic"],
+            "tags": [
+                "food",
+                "restaurant",
+                "basic"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -508,7 +576,11 @@
                 "type": "text",
                 "text": "No MSG"
             },
-            "tags": ["food", "restaurant", "intermediate"],
+            "tags": [
+                "food",
+                "restaurant",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -537,7 +609,11 @@
                 "type": "text",
                 "text": "Fork"
             },
-            "tags": ["food", "utensils", "basic"],
+            "tags": [
+                "food",
+                "utensils",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -566,7 +642,11 @@
                 "type": "text",
                 "text": "Spoon"
             },
-            "tags": ["food", "utensils", "basic"],
+            "tags": [
+                "food",
+                "utensils",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -587,8 +667,8 @@
             ]
         }
     ],
-    "createdAt": "2025-05-09T17:30:00Z",
-    "updatedAt": "2025-05-09T17:30:00Z",
+    "createdAt": "2024-11-12T14:13:58Z",
+    "updatedAt": "2025-08-29T06:57:00Z",
     "theme": "food",
     "difficulty": "beginner-intermediate"
 }

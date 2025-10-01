@@ -15,7 +15,11 @@
                 "type": "text",
                 "text": "What is your occupation? / What do you do for work?"
             },
-            "tags": ["question", "occupation", "common phrase"],
+            "tags": [
+                "question",
+                "occupation",
+                "common phrase"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -44,7 +48,11 @@
                 "type": "text",
                 "text": "I am a teacher"
             },
-            "tags": ["teacher", "occupation", "statement"],
+            "tags": [
+                "teacher",
+                "occupation",
+                "statement"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -73,7 +81,11 @@
                 "type": "text",
                 "text": "He/she is a doctor"
             },
-            "tags": ["doctor", "medical", "occupation"],
+            "tags": [
+                "doctor",
+                "medical",
+                "occupation"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -102,7 +114,11 @@
                 "type": "text",
                 "text": "I work as an engineer"
             },
-            "tags": ["engineer", "occupation", "statement"],
+            "tags": [
+                "engineer",
+                "occupation",
+                "statement"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -131,7 +147,11 @@
                 "type": "text",
                 "text": "She is a nurse"
             },
-            "tags": ["nurse", "medical", "occupation"],
+            "tags": [
+                "nurse",
+                "medical",
+                "occupation"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -147,7 +167,7 @@
                 {
                     "original": "พยาบาลคนนั้นใจดีมาก",
                     "translation": "That nurse is very kind",
-                    "phonetic": "pa-ya-ban kon nan jai dee mak"
+                    "phonetic": "pa-ya-ban kon nan jai dee maak"
                 }
             ]
         },
@@ -160,7 +180,11 @@
                 "type": "text",
                 "text": "He works as a police officer"
             },
-            "tags": ["police", "law enforcement", "occupation"],
+            "tags": [
+                "police",
+                "law enforcement",
+                "occupation"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -189,7 +213,11 @@
                 "type": "text",
                 "text": "I am a company employee"
             },
-            "tags": ["office worker", "employee", "occupation"],
+            "tags": [
+                "office worker",
+                "employee",
+                "occupation"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -218,7 +246,11 @@
                 "type": "text",
                 "text": "She is an actor/actress"
             },
-            "tags": ["actor", "entertainment", "occupation"],
+            "tags": [
+                "actor",
+                "entertainment",
+                "occupation"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -247,7 +279,11 @@
                 "type": "text",
                 "text": "He/she is a writer"
             },
-            "tags": ["writer", "author", "occupation"],
+            "tags": [
+                "writer",
+                "author",
+                "occupation"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -276,7 +312,11 @@
                 "type": "text",
                 "text": "I am a student (university level)"
             },
-            "tags": ["student", "education", "occupation"],
+            "tags": [
+                "student",
+                "education",
+                "occupation"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -305,7 +345,11 @@
                 "type": "text",
                 "text": "She is a specialist doctor"
             },
-            "tags": ["doctor", "specialist", "medical"],
+            "tags": [
+                "doctor",
+                "specialist",
+                "medical"
+            ],
             "difficulty": "hard",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -334,7 +378,11 @@
                 "type": "text",
                 "text": "He is a chef/cook"
             },
-            "tags": ["chef", "cooking", "occupation"],
+            "tags": [
+                "chef",
+                "cooking",
+                "occupation"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -363,7 +411,11 @@
                 "type": "text",
                 "text": "She is a chef/cook"
             },
-            "tags": ["chef", "cooking", "occupation"],
+            "tags": [
+                "chef",
+                "cooking",
+                "occupation"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -392,7 +444,11 @@
                 "type": "text",
                 "text": "My older brother is a businessman"
             },
-            "tags": ["business", "entrepreneur", "occupation"],
+            "tags": [
+                "business",
+                "entrepreneur",
+                "occupation"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -408,7 +464,7 @@
                 {
                     "original": "เธอเป็นนักธุรกิจที่เก่งมาก",
                     "translation": "She is a very talented businesswoman",
-                    "phonetic": "ter pen nak-tu-ra-kit tee geng mak"
+                    "phonetic": "ter pen nak-tu-ra-kit tee geng maak"
                 }
             ]
         },
@@ -421,7 +477,11 @@
                 "type": "text",
                 "text": "I am a lawyer"
             },
-            "tags": ["lawyer", "legal", "occupation"],
+            "tags": [
+                "lawyer",
+                "legal",
+                "occupation"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -450,7 +510,11 @@
                 "type": "text",
                 "text": "My younger sister is an architect"
             },
-            "tags": ["architect", "design", "occupation"],
+            "tags": [
+                "architect",
+                "design",
+                "occupation"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -479,7 +543,11 @@
                 "type": "text",
                 "text": "He is a photographer"
             },
-            "tags": ["photographer", "creative", "occupation"],
+            "tags": [
+                "photographer",
+                "creative",
+                "occupation"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -508,7 +576,11 @@
                 "type": "text",
                 "text": "She works as a journalist/reporter"
             },
-            "tags": ["journalist", "media", "occupation"],
+            "tags": [
+                "journalist",
+                "media",
+                "occupation"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -537,7 +609,11 @@
                 "type": "text",
                 "text": "He is a farmer"
             },
-            "tags": ["farmer", "agriculture", "occupation"],
+            "tags": [
+                "farmer",
+                "agriculture",
+                "occupation"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -566,7 +642,11 @@
                 "type": "text",
                 "text": "She is a university professor"
             },
-            "tags": ["professor", "education", "occupation"],
+            "tags": [
+                "professor",
+                "education",
+                "occupation"
+            ],
             "difficulty": "hard",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -587,8 +667,8 @@
             ]
         }
     ],
-    "createdAt": "2025-04-30T15:30:00Z",
-    "updatedAt": "2025-04-30T15:30:00Z",
+    "createdAt": "2024-11-28T13:48:06Z",
+    "updatedAt": "2024-12-05T07:12:56Z",
     "theme": "occupations",
     "difficulty": "intermediate"
 }

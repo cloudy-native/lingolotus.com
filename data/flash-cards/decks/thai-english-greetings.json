@@ -15,7 +15,11 @@
                 "type": "text",
                 "text": "Hello"
             },
-            "tags": ["greeting", "basic", "everyday"],
+            "tags": [
+                "greeting",
+                "basic",
+                "everyday"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -44,7 +48,11 @@
                 "type": "text",
                 "text": "Thank you"
             },
-            "tags": ["politeness", "basic", "everyday"],
+            "tags": [
+                "politeness",
+                "basic",
+                "everyday"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -54,7 +62,7 @@
                 {
                     "original": "ขอบคุณมาก",
                     "translation": "Thank you very much",
-                    "phonetic": "khop-khun mak"
+                    "phonetic": "khop-khun maak"
                 },
                 {
                     "original": "ขอบคุณครับ",
@@ -72,7 +80,11 @@
                 "type": "text",
                 "text": "Goodbye"
             },
-            "tags": ["farewell", "basic", "everyday"],
+            "tags": [
+                "farewell",
+                "basic",
+                "everyday"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -101,7 +113,11 @@
                 "type": "text",
                 "text": "How are you?"
             },
-            "tags": ["greeting", "basic", "question"],
+            "tags": [
+                "greeting",
+                "basic",
+                "question"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -130,7 +146,11 @@
                 "type": "text",
                 "text": "I'm fine"
             },
-            "tags": ["greeting", "basic", "response"],
+            "tags": [
+                "greeting",
+                "basic",
+                "response"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -159,7 +179,11 @@
                 "type": "text",
                 "text": "Nice to meet you"
             },
-            "tags": ["greeting", "introduction", "polite"],
+            "tags": [
+                "greeting",
+                "introduction",
+                "polite"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -188,7 +212,11 @@
                 "type": "text",
                 "text": "Likewise"
             },
-            "tags": ["response", "polite", "introduction"],
+            "tags": [
+                "response",
+                "polite",
+                "introduction"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -217,7 +245,11 @@
                 "type": "text",
                 "text": "What is your name?"
             },
-            "tags": ["question", "introduction", "basic"],
+            "tags": [
+                "question",
+                "introduction",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -246,7 +278,11 @@
                 "type": "text",
                 "text": "My name is..."
             },
-            "tags": ["introduction", "basic", "response"],
+            "tags": [
+                "introduction",
+                "basic",
+                "response"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -275,7 +311,11 @@
                 "type": "text",
                 "text": "See you later"
             },
-            "tags": ["farewell", "casual", "everyday"],
+            "tags": [
+                "farewell",
+                "casual",
+                "everyday"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -304,7 +344,11 @@
                 "type": "text",
                 "text": "I'm leaving now"
             },
-            "tags": ["farewell", "casual", "everyday"],
+            "tags": [
+                "farewell",
+                "casual",
+                "everyday"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -333,7 +377,11 @@
                 "type": "text",
                 "text": "Excuse me/Sorry"
             },
-            "tags": ["politeness", "basic", "everyday"],
+            "tags": [
+                "politeness",
+                "basic",
+                "everyday"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -362,7 +410,11 @@
                 "type": "text",
                 "text": "It's okay/No problem"
             },
-            "tags": ["response", "basic", "everyday"],
+            "tags": [
+                "response",
+                "basic",
+                "everyday"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -391,7 +443,11 @@
                 "type": "text",
                 "text": "How have you been?"
             },
-            "tags": ["greeting", "question", "casual"],
+            "tags": [
+                "greeting",
+                "question",
+                "casual"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -420,7 +476,11 @@
                 "type": "text",
                 "text": "Glad to see you"
             },
-            "tags": ["greeting", "polite", "reunion"],
+            "tags": [
+                "greeting",
+                "polite",
+                "reunion"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -449,7 +509,11 @@
                 "type": "text",
                 "text": "Where are you from?"
             },
-            "tags": ["question", "introduction", "conversation"],
+            "tags": [
+                "question",
+                "introduction",
+                "conversation"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -478,7 +542,11 @@
                 "type": "text",
                 "text": "I am from..."
             },
-            "tags": ["response", "introduction", "conversation"],
+            "tags": [
+                "response",
+                "introduction",
+                "conversation"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -507,7 +575,11 @@
                 "type": "text",
                 "text": "See you again"
             },
-            "tags": ["farewell", "polite", "formal"],
+            "tags": [
+                "farewell",
+                "polite",
+                "formal"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -536,7 +608,11 @@
                 "type": "text",
                 "text": "Do you speak English?"
             },
-            "tags": ["question", "language", "travel"],
+            "tags": [
+                "question",
+                "language",
+                "travel"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -565,7 +641,11 @@
                 "type": "text",
                 "text": "I speak a little Thai"
             },
-            "tags": ["language", "travel", "introduction"],
+            "tags": [
+                "language",
+                "travel",
+                "introduction"
+            ],
             "difficulty": "hard",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -586,8 +666,8 @@
             ]
         }
     ],
-    "createdAt": "2023-04-15T10:30:00Z",
-    "updatedAt": "2025-04-30T10:30:00Z",
+    "createdAt": "2025-02-05T13:37:24Z",
+    "updatedAt": "2025-04-21T16:49:36Z",
     "theme": "greetings",
     "difficulty": "beginner"
 }

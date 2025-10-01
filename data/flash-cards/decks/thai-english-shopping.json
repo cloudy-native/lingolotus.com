@@ -15,7 +15,11 @@
                 "type": "text",
                 "text": "How much is this?"
             },
-            "tags": ["shopping", "price", "question"],
+            "tags": [
+                "shopping",
+                "price",
+                "question"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -44,7 +48,11 @@
                 "type": "text",
                 "text": "Can you give me a discount?"
             },
-            "tags": ["shopping", "bargaining", "question"],
+            "tags": [
+                "shopping",
+                "bargaining",
+                "question"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -73,7 +81,11 @@
                 "type": "text",
                 "text": "This price is too expensive"
             },
-            "tags": ["shopping", "bargaining", "statement"],
+            "tags": [
+                "shopping",
+                "bargaining",
+                "statement"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -102,7 +114,11 @@
                 "type": "text",
                 "text": "Do you have other sizes?"
             },
-            "tags": ["shopping", "clothing", "question"],
+            "tags": [
+                "shopping",
+                "clothing",
+                "question"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -131,7 +147,11 @@
                 "type": "text",
                 "text": "Do you have other colors?"
             },
-            "tags": ["shopping", "clothing", "question"],
+            "tags": [
+                "shopping",
+                "clothing",
+                "question"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -160,7 +180,11 @@
                 "type": "text",
                 "text": "Can I try it on?"
             },
-            "tags": ["shopping", "clothing", "question"],
+            "tags": [
+                "shopping",
+                "clothing",
+                "question"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -189,7 +213,11 @@
                 "type": "text",
                 "text": "Where is the fitting room?"
             },
-            "tags": ["shopping", "clothing", "question"],
+            "tags": [
+                "shopping",
+                "clothing",
+                "question"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -218,7 +246,11 @@
                 "type": "text",
                 "text": "Do you accept credit cards?"
             },
-            "tags": ["shopping", "payment", "question"],
+            "tags": [
+                "shopping",
+                "payment",
+                "question"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -247,7 +279,11 @@
                 "type": "text",
                 "text": "I'd like to pay"
             },
-            "tags": ["shopping", "payment", "phrase"],
+            "tags": [
+                "shopping",
+                "payment",
+                "phrase"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -276,7 +312,11 @@
                 "type": "text",
                 "text": "Is there a free gift?"
             },
-            "tags": ["shopping", "promotion", "question"],
+            "tags": [
+                "shopping",
+                "promotion",
+                "question"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -305,7 +345,11 @@
                 "type": "text",
                 "text": "Is there a discount?"
             },
-            "tags": ["shopping", "promotion", "question"],
+            "tags": [
+                "shopping",
+                "promotion",
+                "question"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -334,7 +378,11 @@
                 "type": "text",
                 "text": "I'll take this one"
             },
-            "tags": ["shopping", "decision", "phrase"],
+            "tags": [
+                "shopping",
+                "decision",
+                "phrase"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -363,7 +411,11 @@
                 "type": "text",
                 "text": "Please put it in a bag"
             },
-            "tags": ["shopping", "request", "phrase"],
+            "tags": [
+                "shopping",
+                "request",
+                "phrase"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -392,7 +444,11 @@
                 "type": "text",
                 "text": "Do you have a receipt?"
             },
-            "tags": ["shopping", "payment", "question"],
+            "tags": [
+                "shopping",
+                "payment",
+                "question"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -421,7 +477,11 @@
                 "type": "text",
                 "text": "Here's your change"
             },
-            "tags": ["shopping", "payment", "phrase"],
+            "tags": [
+                "shopping",
+                "payment",
+                "phrase"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -450,7 +510,11 @@
                 "type": "text",
                 "text": "Where is this department?"
             },
-            "tags": ["shopping", "location", "question"],
+            "tags": [
+                "shopping",
+                "location",
+                "question"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -479,7 +543,11 @@
                 "type": "text",
                 "text": "Do you have this product?"
             },
-            "tags": ["shopping", "inquiry", "question"],
+            "tags": [
+                "shopping",
+                "inquiry",
+                "question"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -508,7 +576,11 @@
                 "type": "text",
                 "text": "Until what time are you open?"
             },
-            "tags": ["shopping", "time", "question"],
+            "tags": [
+                "shopping",
+                "time",
+                "question"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -537,7 +609,11 @@
                 "type": "text",
                 "text": "Can I return this item?"
             },
-            "tags": ["shopping", "return", "question"],
+            "tags": [
+                "shopping",
+                "return",
+                "question"
+            ],
             "difficulty": "hard",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -566,7 +642,11 @@
                 "type": "text",
                 "text": "Can I see the item first?"
             },
-            "tags": ["shopping", "examination", "question"],
+            "tags": [
+                "shopping",
+                "examination",
+                "question"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -582,13 +662,13 @@
                 {
                     "original": "ฉันขอดูคุณภาพก่อนได้ไหมคะ",
                     "translation": "Can I check the quality first? (♀)",
-                    "phonetic": "chan kor doo kun-na-pap gorn dai mai ka"
+                    "phonetic": "chan kor doo khun-na-pap gorn dai mai ka"
                 }
             ]
         }
     ],
-    "createdAt": "2025-04-30T10:30:00Z",
-    "updatedAt": "2025-04-30T10:30:00Z",
+    "createdAt": "2025-05-10T17:17:44Z",
+    "updatedAt": "2025-09-02T06:13:41Z",
     "theme": "shopping",
     "difficulty": "intermediate"
 }

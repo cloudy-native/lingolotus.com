@@ -15,7 +15,11 @@
                 "type": "text",
                 "text": "I am not feeling well"
             },
-            "tags": ["medical", "symptom", "basic"],
+            "tags": [
+                "medical",
+                "symptom",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -44,7 +48,11 @@
                 "type": "text",
                 "text": "I have a headache"
             },
-            "tags": ["medical", "symptom", "pain"],
+            "tags": [
+                "medical",
+                "symptom",
+                "pain"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -55,7 +63,7 @@
                 {
                     "original": "ผมปวดหัวมากครับ",
                     "translation": "I have a severe headache (♂)",
-                    "phonetic": "pom puad hua mak krap"
+                    "phonetic": "pom puad hua maak krap"
                 },
                 {
                     "original": "ฉันปวดหัวข้างเดียวค่ะ",
@@ -73,7 +81,11 @@
                 "type": "text",
                 "text": "I have a stomachache"
             },
-            "tags": ["medical", "symptom", "pain"],
+            "tags": [
+                "medical",
+                "symptom",
+                "pain"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -84,7 +96,7 @@
                 {
                     "original": "ผมปวดท้องมากครับ",
                     "translation": "I have a severe stomachache (♂)",
-                    "phonetic": "pom puad tong mak krap"
+                    "phonetic": "pom puad tong maak krap"
                 },
                 {
                     "original": "ฉันปวดท้องและรู้สึกคลื่นไส้ค่ะ",
@@ -102,7 +114,11 @@
                 "type": "text",
                 "text": "I have a fever"
             },
-            "tags": ["medical", "symptom", "basic"],
+            "tags": [
+                "medical",
+                "symptom",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -113,7 +129,7 @@
                 {
                     "original": "ผมมีไข้สูงมาก",
                     "translation": "I have a very high fever (♂)",
-                    "phonetic": "pom mee kai soong mak"
+                    "phonetic": "pom mee kai soong maak"
                 },
                 {
                     "original": "ฉันมีไข้ตั้งแต่เมื่อวานค่ะ",
@@ -131,7 +147,11 @@
                 "type": "text",
                 "text": "I have a cough"
             },
-            "tags": ["medical", "symptom", "respiratory"],
+            "tags": [
+                "medical",
+                "symptom",
+                "respiratory"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -160,7 +180,11 @@
                 "type": "text",
                 "text": "I have a rash"
             },
-            "tags": ["medical", "symptom", "skin"],
+            "tags": [
+                "medical",
+                "symptom",
+                "skin"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -189,7 +213,11 @@
                 "type": "text",
                 "text": "I have allergies"
             },
-            "tags": ["medical", "condition", "allergy"],
+            "tags": [
+                "medical",
+                "condition",
+                "allergy"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -218,7 +246,11 @@
                 "type": "text",
                 "text": "I am allergic to medication"
             },
-            "tags": ["medical", "allergy", "medication"],
+            "tags": [
+                "medical",
+                "allergy",
+                "medication"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -247,7 +279,11 @@
                 "type": "text",
                 "text": "It hurts here"
             },
-            "tags": ["medical", "pain", "locating"],
+            "tags": [
+                "medical",
+                "pain",
+                "locating"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -276,7 +312,11 @@
                 "type": "text",
                 "text": "I have diabetes"
             },
-            "tags": ["medical", "condition", "chronic"],
+            "tags": [
+                "medical",
+                "condition",
+                "chronic"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -305,7 +345,11 @@
                 "type": "text",
                 "text": "I have high blood pressure"
             },
-            "tags": ["medical", "condition", "chronic"],
+            "tags": [
+                "medical",
+                "condition",
+                "chronic"
+            ],
             "difficulty": "hard",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -334,7 +378,11 @@
                 "type": "text",
                 "text": "I need to see a doctor"
             },
-            "tags": ["medical", "request", "basic"],
+            "tags": [
+                "medical",
+                "request",
+                "basic"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -363,7 +411,11 @@
                 "type": "text",
                 "text": "I have an appointment with the doctor"
             },
-            "tags": ["medical", "appointment", "basic"],
+            "tags": [
+                "medical",
+                "appointment",
+                "basic"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -392,7 +444,11 @@
                 "type": "text",
                 "text": "I take regular medication"
             },
-            "tags": ["medical", "medication", "important"],
+            "tags": [
+                "medical",
+                "medication",
+                "important"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -421,7 +477,11 @@
                 "type": "text",
                 "text": "How do I take this medicine?"
             },
-            "tags": ["medical", "medication", "question"],
+            "tags": [
+                "medical",
+                "medication",
+                "question"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -450,7 +510,11 @@
                 "type": "text",
                 "text": "Do I need to fast?"
             },
-            "tags": ["medical", "procedure", "question"],
+            "tags": [
+                "medical",
+                "procedure",
+                "question"
+            ],
             "difficulty": "hard",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -479,7 +543,11 @@
                 "type": "text",
                 "text": "I am pregnant"
             },
-            "tags": ["medical", "condition", "important"],
+            "tags": [
+                "medical",
+                "condition",
+                "important"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -508,7 +576,11 @@
                 "type": "text",
                 "text": "How many days have you had these symptoms?"
             },
-            "tags": ["medical", "question", "doctor"],
+            "tags": [
+                "medical",
+                "question",
+                "doctor"
+            ],
             "difficulty": "hard",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -537,7 +609,11 @@
                 "type": "text",
                 "text": "How much do I need to pay?"
             },
-            "tags": ["medical", "payment", "question"],
+            "tags": [
+                "medical",
+                "payment",
+                "question"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -566,7 +642,11 @@
                 "type": "text",
                 "text": "I have health insurance"
             },
-            "tags": ["medical", "payment", "insurance"],
+            "tags": [
+                "medical",
+                "payment",
+                "insurance"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -587,8 +667,8 @@
             ]
         }
     ],
-    "createdAt": "2025-04-30T10:30:00Z",
-    "updatedAt": "2025-04-30T10:30:00Z",
+    "createdAt": "2024-12-01T11:55:16Z",
+    "updatedAt": "2025-03-25T00:30:05Z",
     "theme": "medical",
     "difficulty": "intermediate"
 }

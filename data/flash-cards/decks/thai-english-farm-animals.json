@@ -15,7 +15,11 @@
                 "type": "text",
                 "text": "Cow"
             },
-            "tags": ["farm", "mammals", "livestock"],
+            "tags": [
+                "farm",
+                "mammals",
+                "livestock"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -44,7 +48,11 @@
                 "type": "text",
                 "text": "Horse"
             },
-            "tags": ["farm", "mammals", "working animal"],
+            "tags": [
+                "farm",
+                "mammals",
+                "working animal"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -73,7 +81,11 @@
                 "type": "text",
                 "text": "Chicken"
             },
-            "tags": ["farm", "birds", "poultry"],
+            "tags": [
+                "farm",
+                "birds",
+                "poultry"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -102,7 +114,11 @@
                 "type": "text",
                 "text": "Pig"
             },
-            "tags": ["farm", "mammals", "livestock"],
+            "tags": [
+                "farm",
+                "mammals",
+                "livestock"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -131,7 +147,11 @@
                 "type": "text",
                 "text": "Duck"
             },
-            "tags": ["farm", "birds", "poultry"],
+            "tags": [
+                "farm",
+                "birds",
+                "poultry"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -160,7 +180,11 @@
                 "type": "text",
                 "text": "Goat"
             },
-            "tags": ["farm", "mammals", "livestock"],
+            "tags": [
+                "farm",
+                "mammals",
+                "livestock"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -189,7 +213,11 @@
                 "type": "text",
                 "text": "Sheep"
             },
-            "tags": ["farm", "mammals", "livestock"],
+            "tags": [
+                "farm",
+                "mammals",
+                "livestock"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -218,7 +246,11 @@
                 "type": "text",
                 "text": "Rabbit"
             },
-            "tags": ["farm", "mammals", "small animals"],
+            "tags": [
+                "farm",
+                "mammals",
+                "small animals"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -247,7 +279,11 @@
                 "type": "text",
                 "text": "Buffalo"
             },
-            "tags": ["farm", "mammals", "working animal"],
+            "tags": [
+                "farm",
+                "mammals",
+                "working animal"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -276,7 +312,11 @@
                 "type": "text",
                 "text": "Rooster"
             },
-            "tags": ["farm", "birds", "poultry"],
+            "tags": [
+                "farm",
+                "birds",
+                "poultry"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -297,8 +337,8 @@
             ]
         }
     ],
-    "createdAt": "2025-04-30T10:30:00Z",
-    "updatedAt": "2025-04-30T10:30:00Z",
+    "createdAt": "2025-04-23T03:32:52Z",
+    "updatedAt": "2025-06-15T00:04:54Z",
     "theme": "animals",
     "difficulty": "beginner"
 }

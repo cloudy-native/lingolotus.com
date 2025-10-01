@@ -15,7 +15,11 @@
                 "type": "text",
                 "text": "good"
             },
-            "tags": ["adjective", "quality", "basic"],
+            "tags": [
+                "adjective",
+                "quality",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -44,7 +48,11 @@
                 "type": "text",
                 "text": "big, large"
             },
-            "tags": ["adjective", "size", "basic"],
+            "tags": [
+                "adjective",
+                "size",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -73,7 +81,11 @@
                 "type": "text",
                 "text": "small, little"
             },
-            "tags": ["adjective", "size", "basic"],
+            "tags": [
+                "adjective",
+                "size",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -102,7 +114,11 @@
                 "type": "text",
                 "text": "beautiful, pretty"
             },
-            "tags": ["adjective", "appearance", "basic"],
+            "tags": [
+                "adjective",
+                "appearance",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -131,7 +147,11 @@
                 "type": "text",
                 "text": "handsome (for men)"
             },
-            "tags": ["adjective", "appearance", "basic"],
+            "tags": [
+                "adjective",
+                "appearance",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -160,7 +180,11 @@
                 "type": "text",
                 "text": "old (for objects), ancient"
             },
-            "tags": ["adjective", "age", "basic"],
+            "tags": [
+                "adjective",
+                "age",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -189,7 +213,11 @@
                 "type": "text",
                 "text": "new, recent"
             },
-            "tags": ["adjective", "age", "basic"],
+            "tags": [
+                "adjective",
+                "age",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -218,7 +246,11 @@
                 "type": "text",
                 "text": "old (for people or animals)"
             },
-            "tags": ["adjective", "age", "basic"],
+            "tags": [
+                "adjective",
+                "age",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -229,7 +261,7 @@
                 {
                     "original": "คุณยายแก่แล้ว",
                     "translation": "Grandmother is old now",
-                    "phonetic": "kun yaai kae laew"
+                    "phonetic": "khun yaai kae laew"
                 },
                 {
                     "original": "สุนัขตัวนี้แก่มาก",
@@ -247,7 +279,11 @@
                 "type": "text",
                 "text": "young (for men)"
             },
-            "tags": ["adjective", "age", "gender-specific"],
+            "tags": [
+                "adjective",
+                "age",
+                "gender-specific"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -276,7 +312,11 @@
                 "type": "text",
                 "text": "young (for women)"
             },
-            "tags": ["adjective", "age", "gender-specific"],
+            "tags": [
+                "adjective",
+                "age",
+                "gender-specific"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -305,7 +345,11 @@
                 "type": "text",
                 "text": "hot"
             },
-            "tags": ["adjective", "temperature", "basic"],
+            "tags": [
+                "adjective",
+                "temperature",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -334,7 +378,11 @@
                 "type": "text",
                 "text": "cool, cold"
             },
-            "tags": ["adjective", "temperature", "basic"],
+            "tags": [
+                "adjective",
+                "temperature",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -363,7 +411,11 @@
                 "type": "text",
                 "text": "very cold, freezing"
             },
-            "tags": ["adjective", "temperature", "basic"],
+            "tags": [
+                "adjective",
+                "temperature",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -392,7 +444,11 @@
                 "type": "text",
                 "text": "sweet"
             },
-            "tags": ["adjective", "taste", "basic"],
+            "tags": [
+                "adjective",
+                "taste",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -421,7 +477,11 @@
                 "type": "text",
                 "text": "spicy, hot (taste)"
             },
-            "tags": ["adjective", "taste", "basic"],
+            "tags": [
+                "adjective",
+                "taste",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -450,7 +510,11 @@
                 "type": "text",
                 "text": "sour"
             },
-            "tags": ["adjective", "taste", "basic"],
+            "tags": [
+                "adjective",
+                "taste",
+                "basic"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -479,7 +543,11 @@
                 "type": "text",
                 "text": "salty"
             },
-            "tags": ["adjective", "taste", "basic"],
+            "tags": [
+                "adjective",
+                "taste",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -508,7 +576,11 @@
                 "type": "text",
                 "text": "expensive"
             },
-            "tags": ["adjective", "price", "basic"],
+            "tags": [
+                "adjective",
+                "price",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -537,7 +609,11 @@
                 "type": "text",
                 "text": "cheap, inexpensive"
             },
-            "tags": ["adjective", "price", "basic"],
+            "tags": [
+                "adjective",
+                "price",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -566,7 +642,11 @@
                 "type": "text",
                 "text": "difficult, hard"
             },
-            "tags": ["adjective", "quality", "basic"],
+            "tags": [
+                "adjective",
+                "quality",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -595,7 +675,11 @@
                 "type": "text",
                 "text": "easy, simple"
             },
-            "tags": ["adjective", "quality", "basic"],
+            "tags": [
+                "adjective",
+                "quality",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -616,8 +700,8 @@
             ]
         }
     ],
-    "createdAt": "2025-05-09T15:30:00Z",
-    "updatedAt": "2025-05-09T15:30:00Z",
+    "createdAt": "2025-08-06T22:17:43Z",
+    "updatedAt": "2025-09-03T07:33:27Z",
     "theme": "vocabulary",
     "difficulty": "beginner-intermediate"
 }

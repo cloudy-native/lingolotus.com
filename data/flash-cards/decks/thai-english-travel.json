@@ -15,7 +15,11 @@
                 "type": "text",
                 "text": "Where is the airport?"
             },
-            "tags": ["travel", "location", "question"],
+            "tags": [
+                "travel",
+                "location",
+                "question"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -44,7 +48,11 @@
                 "type": "text",
                 "text": "Where is the train station?"
             },
-            "tags": ["travel", "transportation", "question"],
+            "tags": [
+                "travel",
+                "transportation",
+                "question"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -73,7 +81,11 @@
                 "type": "text",
                 "text": "Can you take me to this hotel?"
             },
-            "tags": ["travel", "accommodation", "question"],
+            "tags": [
+                "travel",
+                "accommodation",
+                "question"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -102,7 +114,11 @@
                 "type": "text",
                 "text": "How much is the ticket?"
             },
-            "tags": ["travel", "transportation", "question"],
+            "tags": [
+                "travel",
+                "transportation",
+                "question"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -131,7 +147,11 @@
                 "type": "text",
                 "text": "Where is the bathroom?"
             },
-            "tags": ["travel", "basic need", "question"],
+            "tags": [
+                "travel",
+                "basic need",
+                "question"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -160,7 +180,11 @@
                 "type": "text",
                 "text": "Do you have any vacant rooms?"
             },
-            "tags": ["travel", "accommodation", "question"],
+            "tags": [
+                "travel",
+                "accommodation",
+                "question"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -189,7 +213,11 @@
                 "type": "text",
                 "text": "How much to go here?"
             },
-            "tags": ["travel", "transportation", "question"],
+            "tags": [
+                "travel",
+                "transportation",
+                "question"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -218,7 +246,11 @@
                 "type": "text",
                 "text": "What time does it open?"
             },
-            "tags": ["travel", "time", "question"],
+            "tags": [
+                "travel",
+                "time",
+                "question"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -247,7 +279,11 @@
                 "type": "text",
                 "text": "How much is the entrance fee?"
             },
-            "tags": ["travel", "attraction", "question"],
+            "tags": [
+                "travel",
+                "attraction",
+                "question"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -276,7 +312,11 @@
                 "type": "text",
                 "text": "I am lost"
             },
-            "tags": ["travel", "emergency", "phrase"],
+            "tags": [
+                "travel",
+                "emergency",
+                "phrase"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -305,7 +345,11 @@
                 "type": "text",
                 "text": "Which bus number goes here?"
             },
-            "tags": ["travel", "transportation", "question"],
+            "tags": [
+                "travel",
+                "transportation",
+                "question"
+            ],
             "difficulty": "hard",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -334,7 +378,11 @@
                 "type": "text",
                 "text": "What time does the train to Chiang Mai leave?"
             },
-            "tags": ["travel", "transportation", "question"],
+            "tags": [
+                "travel",
+                "transportation",
+                "question"
+            ],
             "difficulty": "hard",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -363,7 +411,11 @@
                 "type": "text",
                 "text": "Do you have vegetarian food?"
             },
-            "tags": ["travel", "food", "question"],
+            "tags": [
+                "travel",
+                "food",
+                "question"
+            ],
             "difficulty": "hard",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -392,7 +444,11 @@
                 "type": "text",
                 "text": "Which one is delicious?"
             },
-            "tags": ["travel", "food", "question"],
+            "tags": [
+                "travel",
+                "food",
+                "question"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -421,7 +477,11 @@
                 "type": "text",
                 "text": "Not spicy, please"
             },
-            "tags": ["travel", "food", "request"],
+            "tags": [
+                "travel",
+                "food",
+                "request"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -450,7 +510,11 @@
                 "type": "text",
                 "text": "I am allergic to seafood"
             },
-            "tags": ["travel", "health", "phrase"],
+            "tags": [
+                "travel",
+                "health",
+                "phrase"
+            ],
             "difficulty": "hard",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -479,7 +543,11 @@
                 "type": "text",
                 "text": "Please call a taxi for me"
             },
-            "tags": ["travel", "transportation", "request"],
+            "tags": [
+                "travel",
+                "transportation",
+                "request"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -508,7 +576,11 @@
                 "type": "text",
                 "text": "I need help"
             },
-            "tags": ["travel", "emergency", "phrase"],
+            "tags": [
+                "travel",
+                "emergency",
+                "phrase"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -537,7 +609,11 @@
                 "type": "text",
                 "text": "I am from America"
             },
-            "tags": ["travel", "introduction", "phrase"],
+            "tags": [
+                "travel",
+                "introduction",
+                "phrase"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -566,7 +642,11 @@
                 "type": "text",
                 "text": "May I take a photo?"
             },
-            "tags": ["travel", "tourism", "question"],
+            "tags": [
+                "travel",
+                "tourism",
+                "question"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -587,8 +667,8 @@
             ]
         }
     ],
-    "createdAt": "2025-04-30T10:30:00Z",
-    "updatedAt": "2025-04-30T10:30:00Z",
+    "createdAt": "2024-11-15T12:15:10Z",
+    "updatedAt": "2025-07-07T06:41:10Z",
     "theme": "travel",
     "difficulty": "intermediate"
 }

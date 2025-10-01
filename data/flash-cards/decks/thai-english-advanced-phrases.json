@@ -15,7 +15,11 @@
                 "type": "text",
                 "text": "It's okay/It doesn't matter/No problem"
             },
-            "tags": ["expression", "social", "intermediate"],
+            "tags": [
+                "expression",
+                "social",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -31,7 +35,7 @@
                 {
                     "original": "ขอบคุณค่ะ – ไม่เป็นไรค่ะ",
                     "translation": "Thank you – You're welcome (lit: It's nothing)",
-                    "phonetic": "kop kun ka – mai pen rai ka"
+                    "phonetic": "kop khun ka – mai pen rai ka"
                 }
             ]
         },
@@ -44,7 +48,11 @@
                 "type": "text",
                 "text": "I feel bad for troubling you/I feel embarrassed to impose"
             },
-            "tags": ["expression", "cultural", "advanced"],
+            "tags": [
+                "expression",
+                "cultural",
+                "advanced"
+            ],
             "difficulty": "hard",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -55,7 +63,7 @@
                 {
                     "original": "ให้คุณมารับฉันที่สนามบิน เกรงใจจังเลย",
                     "translation": "Having you pick me up at the airport, I feel bad for troubling you",
-                    "phonetic": "hai kun ma rap chan tee sa-naam bin, kreng jai jang loei"
+                    "phonetic": "hai khun ma rap chan tee sa-naam bin, kreng jai jang loei"
                 },
                 {
                     "original": "ไม่ต้องเกรงใจ ยินดีช่วยครับ",
@@ -73,7 +81,11 @@
                 "type": "text",
                 "text": "I'm worried about you/I care about you"
             },
-            "tags": ["expression", "emotional", "intermediate"],
+            "tags": [
+                "expression",
+                "emotional",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -102,7 +114,11 @@
                 "type": "text",
                 "text": "To accept/come to terms with something difficult"
             },
-            "tags": ["expression", "emotional", "advanced"],
+            "tags": [
+                "expression",
+                "emotional",
+                "advanced"
+            ],
             "difficulty": "hard",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -113,7 +129,7 @@
                 {
                     "original": "คุณต้องทำใจ เขาจะไม่กลับมาแล้ว",
                     "translation": "You need to accept it, they won't come back",
-                    "phonetic": "kun tong tam jai, kao ja mai klap ma laew"
+                    "phonetic": "khun tong tam jai, kao ja mai klap ma laew"
                 },
                 {
                     "original": "ฉันกำลังพยายามทำใจกับเรื่องนี้",
@@ -131,7 +147,11 @@
                 "type": "text",
                 "text": "I miss you so much"
             },
-            "tags": ["expression", "emotional", "intermediate"],
+            "tags": [
+                "expression",
+                "emotional",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -160,7 +180,11 @@
                 "type": "text",
                 "text": "Up to you/As you wish/Whatever you want"
             },
-            "tags": ["expression", "social", "intermediate"],
+            "tags": [
+                "expression",
+                "social",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -171,7 +195,7 @@
                 {
                     "original": "จะไปกินข้าวที่ไหนดี? – ตามใจคุณเลย",
                     "translation": "Where should we eat? – Wherever you want",
-                    "phonetic": "ja pai gin kaow tee nai dee? – taam jai kun loei"
+                    "phonetic": "ja pai gin kaow tee nai dee? – taam jai khun loei"
                 },
                 {
                     "original": "ตามใจเธอ ฉันโอเคกับทุกอย่าง",
@@ -189,7 +213,11 @@
                 "type": "text",
                 "text": "Calm down/Take it easy/Be patient"
             },
-            "tags": ["expression", "advice", "intermediate"],
+            "tags": [
+                "expression",
+                "advice",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -218,7 +246,11 @@
                 "type": "text",
                 "text": "Let's save it for later/I'll postpone it"
             },
-            "tags": ["expression", "time management", "intermediate"],
+            "tags": [
+                "expression",
+                "time management",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -247,7 +279,11 @@
                 "type": "text",
                 "text": "I can't take it anymore/I've had enough"
             },
-            "tags": ["expression", "emotional", "intermediate"],
+            "tags": [
+                "expression",
+                "emotional",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -276,7 +312,11 @@
                 "type": "text",
                 "text": "To be honest/Frankly speaking"
             },
-            "tags": ["expression", "communication", "intermediate"],
+            "tags": [
+                "expression",
+                "communication",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -305,7 +345,11 @@
                 "type": "text",
                 "text": "Let me think about it first/I need time to consider"
             },
-            "tags": ["expression", "decision making", "intermediate"],
+            "tags": [
+                "expression",
+                "decision making",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -316,7 +360,7 @@
                 {
                     "original": "คุณจะไปกับเราไหม? – ขอเวลาคิดดูก่อนนะ",
                     "translation": "Will you go with us? – Let me think about it first",
-                    "phonetic": "kun ja pai kap rao mai? – kor way-la kit doo gorn na"
+                    "phonetic": "khun ja pai kap rao mai? – kor way-la kit doo gorn na"
                 },
                 {
                     "original": "ขอเวลาคิดดูก่อน แล้วจะให้คำตอบพรุ่งนี้",
@@ -334,7 +378,11 @@
                 "type": "text",
                 "text": "I can handle it/I've got this"
             },
-            "tags": ["expression", "confidence", "advanced"],
+            "tags": [
+                "expression",
+                "confidence",
+                "advanced"
+            ],
             "difficulty": "hard",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -345,7 +393,7 @@
                 {
                     "original": "คุณจัดการได้ไหม? – เอาอยู่ครับ ไม่ต้องห่วง",
                     "translation": "Can you handle it? – I've got this, don't worry",
-                    "phonetic": "kun jat kaan dai mai? – ao yoo krap, mai tong huang"
+                    "phonetic": "khun jat kaan dai mai? – ao yoo krap, mai tong huang"
                 },
                 {
                     "original": "งานยากแต่ฉันเอาอยู่",
@@ -363,7 +411,11 @@
                 "type": "text",
                 "text": "It's complicated/There's a lot going on"
             },
-            "tags": ["expression", "explanation", "advanced"],
+            "tags": [
+                "expression",
+                "explanation",
+                "advanced"
+            ],
             "difficulty": "hard",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -374,7 +426,7 @@
                 {
                     "original": "ทำไมคุณไม่คุยกับเขา? – เรื่องมันเยอะ",
                     "translation": "Why don't you talk to them? – It's complicated",
-                    "phonetic": "tam-mai kun mai kui kap kao? – reuang man yer"
+                    "phonetic": "tam-mai khun mai kui kap kao? – reuang man yer"
                 },
                 {
                     "original": "จะเล่าให้ฟังทั้งหมดไม่ได้ เรื่องมันเยอะ",
@@ -392,7 +444,11 @@
                 "type": "text",
                 "text": "Take care of yourself"
             },
-            "tags": ["expression", "well-wishes", "intermediate"],
+            "tags": [
+                "expression",
+                "well-wishes",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -421,7 +477,11 @@
                 "type": "text",
                 "text": "Misunderstand/Have a misunderstanding"
             },
-            "tags": ["expression", "communication", "intermediate"],
+            "tags": [
+                "expression",
+                "communication",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -432,7 +492,7 @@
                 {
                     "original": "คุณเข้าใจผิดแล้ว ผมไม่ได้พูดแบบนั้น",
                     "translation": "You misunderstood, I didn't say that",
-                    "phonetic": "kun kao jai pit laew, pom mai dai pood baep nan"
+                    "phonetic": "khun kao jai pit laew, pom mai dai pood baep nan"
                 },
                 {
                     "original": "ฉันขอโทษสำหรับความเข้าใจผิด",
@@ -450,7 +510,11 @@
                 "type": "text",
                 "text": "To support/To cheer for/To encourage"
             },
-            "tags": ["expression", "emotional support", "advanced"],
+            "tags": [
+                "expression",
+                "emotional support",
+                "advanced"
+            ],
             "difficulty": "hard",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -461,12 +525,12 @@
                 {
                     "original": "เป็นกำลังใจให้คุณเสมอนะคะ",
                     "translation": "I'll always support you",
-                    "phonetic": "pen kam-lang jai hai kun sa-mer na ka"
+                    "phonetic": "pen kam-lang jai hai khun sa-mer na ka"
                 },
                 {
                     "original": "พวกเราเป็นกำลังใจให้คุณในการสอบ",
                     "translation": "We're cheering for you in your exam",
-                    "phonetic": "puak rao pen kam-lang jai hai kun nai kaan sop"
+                    "phonetic": "puak rao pen kam-lang jai hai khun nai kaan sop"
                 }
             ]
         },
@@ -479,7 +543,11 @@
                 "type": "text",
                 "text": "Next time/On another occasion"
             },
-            "tags": ["expression", "time", "intermediate"],
+            "tags": [
+                "expression",
+                "time",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -495,7 +563,7 @@
                 {
                     "original": "ขอบคุณสำหรับคำเชิญ แต่ไว้โอกาสหน้านะคะ",
                     "translation": "Thank you for the invitation, but maybe another time",
-                    "phonetic": "kop kun sam-rap kam chern, tae wai o-kaat naa na ka"
+                    "phonetic": "kop khun sam-rap kam chern, tae wai o-kaat naa na ka"
                 }
             ]
         },
@@ -508,7 +576,11 @@
                 "type": "text",
                 "text": "In trouble/Having a problem/Something bad happened"
             },
-            "tags": ["expression", "slang", "advanced"],
+            "tags": [
+                "expression",
+                "slang",
+                "advanced"
+            ],
             "difficulty": "hard",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -537,7 +609,11 @@
                 "type": "text",
                 "text": "Sorry to bother you/Excuse the interruption"
             },
-            "tags": ["expression", "politeness", "intermediate"],
+            "tags": [
+                "expression",
+                "politeness",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -553,7 +629,7 @@
                 {
                     "original": "ขอโทษที่รบกวนค่ะ คุณช่วยถ่ายรูปให้ฉันได้ไหม",
                     "translation": "Excuse the interruption, could you take a photo for me?",
-                    "phonetic": "kor tode tee rop-kuan ka, kun chuay tai roop hai chan dai mai"
+                    "phonetic": "kor tode tee rop-kuan ka, khun chuay tai roop hai chan dai mai"
                 }
             ]
         },
@@ -566,7 +642,11 @@
                 "type": "text",
                 "text": "Are you serious?/Really?"
             },
-            "tags": ["expression", "slang", "intermediate"],
+            "tags": [
+                "expression",
+                "slang",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -587,8 +667,8 @@
             ]
         }
     ],
-    "createdAt": "2025-05-09T16:30:00Z",
-    "updatedAt": "2025-05-09T16:30:00Z",
+    "createdAt": "2025-01-11T23:08:00Z",
+    "updatedAt": "2025-05-29T07:13:43Z",
     "theme": "expressions",
     "difficulty": "advanced"
 }

@@ -15,7 +15,11 @@
                 "type": "text",
                 "text": "Zero"
             },
-            "tags": ["numbers", "basic", "digit"],
+            "tags": [
+                "numbers",
+                "basic",
+                "digit"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -44,7 +48,11 @@
                 "type": "text",
                 "text": "One"
             },
-            "tags": ["numbers", "basic", "digit"],
+            "tags": [
+                "numbers",
+                "basic",
+                "digit"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -73,7 +81,11 @@
                 "type": "text",
                 "text": "Two"
             },
-            "tags": ["numbers", "basic", "digit"],
+            "tags": [
+                "numbers",
+                "basic",
+                "digit"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -102,7 +114,11 @@
                 "type": "text",
                 "text": "Three"
             },
-            "tags": ["numbers", "basic", "digit"],
+            "tags": [
+                "numbers",
+                "basic",
+                "digit"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -118,7 +134,7 @@
                 {
                     "original": "ฉันรอคุณสามชั่วโมงแล้ว",
                     "translation": "I've been waiting for you for three hours",
-                    "phonetic": "chan ror kun saam chua-mong laew"
+                    "phonetic": "chan ror khun saam chua-mong laew"
                 }
             ]
         },
@@ -131,7 +147,11 @@
                 "type": "text",
                 "text": "Ten"
             },
-            "tags": ["numbers", "basic", "digit"],
+            "tags": [
+                "numbers",
+                "basic",
+                "digit"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -160,7 +180,11 @@
                 "type": "text",
                 "text": "Twenty"
             },
-            "tags": ["numbers", "basic", "tens"],
+            "tags": [
+                "numbers",
+                "basic",
+                "tens"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -189,7 +213,11 @@
                 "type": "text",
                 "text": "Hundred"
             },
-            "tags": ["numbers", "basic", "large"],
+            "tags": [
+                "numbers",
+                "basic",
+                "large"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -218,7 +246,11 @@
                 "type": "text",
                 "text": "Thousand"
             },
-            "tags": ["numbers", "basic", "large"],
+            "tags": [
+                "numbers",
+                "basic",
+                "large"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -247,7 +279,11 @@
                 "type": "text",
                 "text": "Million"
             },
-            "tags": ["numbers", "basic", "large"],
+            "tags": [
+                "numbers",
+                "basic",
+                "large"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -276,7 +312,11 @@
                 "type": "text",
                 "text": "Eleven"
             },
-            "tags": ["numbers", "teens", "intermediate"],
+            "tags": [
+                "numbers",
+                "teens",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -305,7 +345,11 @@
                 "type": "text",
                 "text": "Person (classifier for people)"
             },
-            "tags": ["classifier", "people", "basic"],
+            "tags": [
+                "classifier",
+                "people",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -334,7 +378,11 @@
                 "type": "text",
                 "text": "Classifier for animals and some objects"
             },
-            "tags": ["classifier", "animals", "intermediate"],
+            "tags": [
+                "classifier",
+                "animals",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -363,7 +411,11 @@
                 "type": "text",
                 "text": "Pair, couple (classifier for pairs)"
             },
-            "tags": ["classifier", "pairs", "intermediate"],
+            "tags": [
+                "classifier",
+                "pairs",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -392,7 +444,11 @@
                 "type": "text",
                 "text": "Classifier for flat objects, leaves, papers"
             },
-            "tags": ["classifier", "objects", "intermediate"],
+            "tags": [
+                "classifier",
+                "objects",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -421,7 +477,11 @@
                 "type": "text",
                 "text": "Classifier for books, notebooks, magazines"
             },
-            "tags": ["classifier", "books", "intermediate"],
+            "tags": [
+                "classifier",
+                "books",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -450,7 +510,11 @@
                 "type": "text",
                 "text": "Classifier for small objects"
             },
-            "tags": ["classifier", "objects", "basic"],
+            "tags": [
+                "classifier",
+                "objects",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -479,7 +543,11 @@
                 "type": "text",
                 "text": "Classifier for round objects and offspring"
             },
-            "tags": ["classifier", "objects", "intermediate"],
+            "tags": [
+                "classifier",
+                "objects",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -508,7 +576,11 @@
                 "type": "text",
                 "text": "Classifier for pieces, portions"
             },
-            "tags": ["classifier", "objects", "intermediate"],
+            "tags": [
+                "classifier",
+                "objects",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -537,7 +609,11 @@
                 "type": "text",
                 "text": "Classifier for glasses, cups"
             },
-            "tags": ["classifier", "drinks", "basic"],
+            "tags": [
+                "classifier",
+                "drinks",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -566,7 +642,11 @@
                 "type": "text",
                 "text": "Classifier for plates, dishes"
             },
-            "tags": ["classifier", "food", "basic"],
+            "tags": [
+                "classifier",
+                "food",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -587,8 +667,8 @@
             ]
         }
     ],
-    "createdAt": "2025-05-09T18:30:00Z",
-    "updatedAt": "2025-05-09T18:30:00Z",
+    "createdAt": "2025-09-16T06:43:33Z",
+    "updatedAt": "2025-09-26T22:07:02Z",
     "theme": "numbers",
     "difficulty": "beginner-intermediate"
 }

@@ -15,7 +15,11 @@
                 "type": "text",
                 "text": "white / news"
             },
-            "tags": ["minimal pairs", "tones", "basic"],
+            "tags": [
+                "minimal pairs",
+                "tones",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -44,7 +48,11 @@
                 "type": "text",
                 "text": "tiger / mat"
             },
-            "tags": ["minimal pairs", "tones", "basic"],
+            "tags": [
+                "minimal pairs",
+                "tones",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -73,7 +81,11 @@
                 "type": "text",
                 "text": "come / horse"
             },
-            "tags": ["minimal pairs", "tones", "basic"],
+            "tags": [
+                "minimal pairs",
+                "tones",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -102,7 +114,11 @@
                 "type": "text",
                 "text": "question particle / to burn"
             },
-            "tags": ["minimal pairs", "tones", "basic"],
+            "tags": [
+                "minimal pairs",
+                "tones",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -131,7 +147,10 @@
                 "type": "text",
                 "text": "skilled / to be in awe of"
             },
-            "tags": ["similar pronunciation", "intermediate"],
+            "tags": [
+                "similar pronunciation",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -160,7 +179,11 @@
                 "type": "text",
                 "text": "glue / step"
             },
-            "tags": ["minimal pairs", "tones", "basic"],
+            "tags": [
+                "minimal pairs",
+                "tones",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -189,7 +212,10 @@
                 "type": "text",
                 "text": "near / far"
             },
-            "tags": ["similar pronunciation", "intermediate"],
+            "tags": [
+                "similar pronunciation",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -218,7 +244,10 @@
                 "type": "text",
                 "text": "to speak / Wednesday"
             },
-            "tags": ["vowel length", "intermediate"],
+            "tags": [
+                "vowel length",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -247,7 +276,10 @@
                 "type": "text",
                 "text": "to tie / appearance/ambition"
             },
-            "tags": ["vowel length", "intermediate"],
+            "tags": [
+                "vowel length",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -276,7 +308,11 @@
                 "type": "text",
                 "text": "to find, seek / five"
             },
-            "tags": ["minimal pairs", "tones", "basic"],
+            "tags": [
+                "minimal pairs",
+                "tones",
+                "basic"
+            ],
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -305,7 +341,10 @@
                 "type": "text",
                 "text": "rice field / interesting / aunt/uncle"
             },
-            "tags": ["tone triple", "advanced"],
+            "tags": [
+                "tone triple",
+                "advanced"
+            ],
             "difficulty": "hard",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -339,7 +378,10 @@
                 "type": "text",
                 "text": "older sibling / ghost"
             },
-            "tags": ["initial consonants", "intermediate"],
+            "tags": [
+                "initial consonants",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -368,7 +410,10 @@
                 "type": "text",
                 "text": "fish / spicy salad"
             },
-            "tags": ["initial consonants", "intermediate"],
+            "tags": [
+                "initial consonants",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -397,7 +442,10 @@
                 "type": "text",
                 "text": "to choose / to remain"
             },
-            "tags": ["initial consonants", "intermediate"],
+            "tags": [
+                "initial consonants",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -426,7 +474,11 @@
                 "type": "text",
                 "text": "to play / nit (louse egg)"
             },
-            "tags": ["minimal pairs", "tones", "intermediate"],
+            "tags": [
+                "minimal pairs",
+                "tones",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -455,7 +507,10 @@
                 "type": "text",
                 "text": "to catch, grab / to offend"
             },
-            "tags": ["vowel length", "intermediate"],
+            "tags": [
+                "vowel length",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -484,7 +539,10 @@
                 "type": "text",
                 "text": "to close / beetle"
             },
-            "tags": ["vowel length", "intermediate"],
+            "tags": [
+                "vowel length",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -513,7 +571,10 @@
                 "type": "text",
                 "text": "expensive / panel, stall"
             },
-            "tags": ["initial consonants", "intermediate"],
+            "tags": [
+                "initial consonants",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -542,7 +603,10 @@
                 "type": "text",
                 "text": "light (not heavy) / empty"
             },
-            "tags": ["consonant clusters", "intermediate"],
+            "tags": [
+                "consonant clusters",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -571,7 +635,10 @@
                 "type": "text",
                 "text": "canal / to possess, reign"
             },
-            "tags": ["consonant clusters", "intermediate"],
+            "tags": [
+                "consonant clusters",
+                "intermediate"
+            ],
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
@@ -592,8 +659,8 @@
             ]
         }
     ],
-    "createdAt": "2025-05-09T20:30:00Z",
-    "updatedAt": "2025-05-09T20:30:00Z",
+    "createdAt": "2025-01-08T22:08:03Z",
+    "updatedAt": "2025-01-24T01:28:07Z",
     "theme": "pronunciation",
     "difficulty": "intermediate"
 }
