@@ -374,13 +374,6 @@ export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] 
 
     type Language implements Node {
       languageCode: String!
-      fonts: LanguageFonts
-    }
-
-    type LanguageFonts {
-      label: String!
-      variants: JSON
-      default: String
     }
   `;
 
