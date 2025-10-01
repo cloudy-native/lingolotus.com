@@ -1,288 +1,953 @@
 {
-  "storyId": "thai-intermediate-1-at-the-market",
-  "bookId": "thai-intermediate-1",
-  "language": "th",
-  "title": {
-    "source": "ที่ตลาด",
-    "target": "At the Market"
-  },
-  "sentences": [
-    {
-      "source": "คุณชอบไปตลาดไหมครับ",
-      "target": "Do you like going to the market?",
-      "phonetic": "khun chôrp bpai dtà-làat mǎi khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "ชอบ", "target": "to like", "phonetic": "chôrp", "partOfSpeech": "verb" },
-        { "source": "ไป", "target": "to go", "phonetic": "bpai", "partOfSpeech": "verb" },
-        { "source": "ตลาด", "target": "market", "phonetic": "dtà-làat", "partOfSpeech": "noun" },
-        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
+    "storyId": "thai-intermediate-1-at-the-market",
+    "bookId": "thai-intermediate-1",
+    "language": "th",
+    "title": {
+        "source": "ที่ตลาด",
+        "target": "At the Market"
     },
-    {
-      "source": "ใช่ค่ะ ฉันไปตลาดทุกวันเสาร์",
-      "target": "Yes, I go to the market every Saturday.",
-      "phonetic": "châi khâ chăn bpai dtà-làat thúk wan sǎo",
-      "breakdown": [
-        { "source": "ใช่", "target": "yes", "phonetic": "châi", "partOfSpeech": "interjection" },
-        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
-        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "ไป", "target": "to go", "phonetic": "bpai", "partOfSpeech": "verb" },
-        { "source": "ตลาด", "target": "market", "phonetic": "dtà-làat", "partOfSpeech": "noun" },
-        { "source": "ทุก", "target": "every", "phonetic": "thúk", "partOfSpeech": "determiner" },
-        { "source": "วัน", "target": "day", "phonetic": "wan", "partOfSpeech": "noun" },
-        { "source": "เสาร์", "target": "Saturday", "phonetic": "sǎo", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "คุณซื้ออะไรที่นั่นบ้างครับ",
-      "target": "What do you buy there?",
-      "phonetic": "khun súe à-rai thîi nân bâang khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "ซื้อ", "target": "to buy", "phonetic": "súe", "partOfSpeech": "verb" },
-        { "source": "อะไร", "target": "what", "phonetic": "à-rai", "partOfSpeech": "pronoun" },
-        { "source": "ที่", "target": "at/that", "phonetic": "thîi", "partOfSpeech": "preposition" },
-        { "source": "นั่น", "target": "there/that", "phonetic": "nân", "partOfSpeech": "pronoun" },
-        { "source": "บ้าง", "target": "(some/any) particle", "phonetic": "bâang", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "ฉันซื้อผัก ผลไม้ และขนมปังสด",
-      "target": "I buy fresh vegetables, fruits, and bread.",
-      "phonetic": "chăn súe phàk phŏn-lá-mái láe khà-nŏm-bpang sòt",
-      "breakdown": [
-        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "ซื้อ", "target": "to buy", "phonetic": "súe", "partOfSpeech": "verb" },
-        { "source": "ผัก", "target": "vegetables", "phonetic": "phàk", "partOfSpeech": "noun" },
-        { "source": "ผลไม้", "target": "fruits", "phonetic": "phŏn-lá-mái", "partOfSpeech": "noun" },
-        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
-        { "source": "ขนมปัง", "target": "bread", "phonetic": "khà-nŏm-bpang", "partOfSpeech": "noun" },
-        { "source": "สด", "target": "fresh", "phonetic": "sòt", "partOfSpeech": "adjective" }
-      ]
-    },
-    {
-      "source": "คุณชอบผักอะไรบ้างครับ",
-      "target": "What vegetables do you like?",
-      "phonetic": "khun chôrp phàk à-rai bâang khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "ชอบ", "target": "to like", "phonetic": "chôrp", "partOfSpeech": "verb" },
-        { "source": "ผัก", "target": "vegetables", "phonetic": "phàk", "partOfSpeech": "noun" },
-        { "source": "อะไร", "target": "what", "phonetic": "à-rai", "partOfSpeech": "pronoun" },
-        { "source": "บ้าง", "target": "(some/any) particle", "phonetic": "bâang", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "ฉันชอบแครอท มะเขือเทศ และผักโขม",
-      "target": "I like carrots, tomatoes, and spinach.",
-      "phonetic": "chăn chôrp khae-ròt má-khǔea-thêt láe phàk-khǒm",
-      "breakdown": [
-        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "ชอบ", "target": "to like", "phonetic": "chôrp", "partOfSpeech": "verb" },
-        { "source": "แครอท", "target": "carrot", "phonetic": "khae-ròt", "partOfSpeech": "noun" },
-        { "source": "มะเขือเทศ", "target": "tomato", "phonetic": "má-khǔea-thêt", "partOfSpeech": "noun" },
-        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
-        { "source": "ผักโขม", "target": "spinach", "phonetic": "phàk-khǒm", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "ราคาแพงไหมคะ",
-      "target": "Are they expensive?",
-      "phonetic": "raa-khaa phaaeng mǎi khá",
-      "breakdown": [
-        { "source": "ราคา", "target": "price", "phonetic": "raa-khaa", "partOfSpeech": "noun" },
-        { "source": "แพง", "target": "expensive", "phonetic": "phaaeng", "partOfSpeech": "adjective" },
-        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
-        { "source": "คะ", "target": "female question particle", "phonetic": "khá", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "ไม่ครับ ปกติจะถูกที่ตลาด",
-      "target": "No, they are usually cheap at the market.",
-      "phonetic": "mâi khráp bpòk-gà-tì jà thùuk thîi dtà-làat",
-      "breakdown": [
-        { "source": "ไม่", "target": "no/not", "phonetic": "mâi", "partOfSpeech": "adverb" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" },
-        { "source": "ปกติ", "target": "usually", "phonetic": "bpòk-gà-tì", "partOfSpeech": "adverb" },
-        { "source": "จะ", "target": "will/tend to", "phonetic": "jà", "partOfSpeech": "auxiliary" },
-        { "source": "ถูก", "target": "cheap", "phonetic": "thùuk", "partOfSpeech": "adjective" },
-        { "source": "ที่", "target": "at", "phonetic": "thîi", "partOfSpeech": "preposition" },
-        { "source": "ตลาด", "target": "market", "phonetic": "dtà-làat", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "คุณซื้อเนื้อด้วยไหมครับ",
-      "target": "Do you buy meat too?",
-      "phonetic": "khun súe núea dûai mǎi khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "ซื้อ", "target": "to buy", "phonetic": "súe", "partOfSpeech": "verb" },
-        { "source": "เนื้อ", "target": "meat", "phonetic": "núea", "partOfSpeech": "noun" },
-        { "source": "ด้วย", "target": "also/too", "phonetic": "dûai", "partOfSpeech": "adverb" },
-        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "บางครั้งฉันก็ซื้อไก่หรือปลา",
-      "target": "Sometimes I buy chicken or fish.",
-      "phonetic": "baang-khráng chăn gôr súe gài rǔe bplaa",
-      "breakdown": [
-        { "source": "บางครั้ง", "target": "sometimes", "phonetic": "baang-khráng", "partOfSpeech": "adverb" },
-        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "ก็", "target": "emphasizing particle", "phonetic": "gôr", "partOfSpeech": "particle" },
-        { "source": "ซื้อ", "target": "to buy", "phonetic": "súe", "partOfSpeech": "verb" },
-        { "source": "ไก่", "target": "chicken", "phonetic": "gài", "partOfSpeech": "noun" },
-        { "source": "หรือ", "target": "or", "phonetic": "rǔe", "partOfSpeech": "conjunction" },
-        { "source": "ปลา", "target": "fish", "phonetic": "bplaa", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "คุณชอบผลไม้อะไรครับ",
-      "target": "What kind of fruit do you get?",
-      "phonetic": "khun chôrp phŏn-lá-mái à-rai khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "ชอบ", "target": "to like", "phonetic": "chôrp", "partOfSpeech": "verb" },
-        { "source": "ผลไม้", "target": "fruit", "phonetic": "phŏn-lá-mái", "partOfSpeech": "noun" },
-        { "source": "อะไร", "target": "what", "phonetic": "à-rai", "partOfSpeech": "pronoun" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "ฉันชอบแอปเปิล กล้วย และส้ม",
-      "target": "I love apples, bananas, and oranges.",
-      "phonetic": "chăn chôrp áep-bpêrn glûai láe sôm",
-      "breakdown": [
-        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "ชอบ", "target": "to love/like", "phonetic": "chôrp", "partOfSpeech": "verb" },
-        { "source": "แอปเปิล", "target": "apple", "phonetic": "áep-bpêrn", "partOfSpeech": "noun" },
-        { "source": "กล้วย", "target": "banana", "phonetic": "glûai", "partOfSpeech": "noun" },
-        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
-        { "source": "ส้ม", "target": "orange", "phonetic": "sôm", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "คุณทำอาหารด้วยของพวกนี้ไหมครับ",
-      "target": "Do you cook with these foods?",
-      "phonetic": "khun tham aa-hăan dûai khŏng phûak-níi mǎi khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "ทำ", "target": "to make/do", "phonetic": "tham", "partOfSpeech": "verb" },
-        { "source": "อาหาร", "target": "food", "phonetic": "aa-hăan", "partOfSpeech": "noun" },
-        { "source": "ด้วย", "target": "with", "phonetic": "dûai", "partOfSpeech": "preposition" },
-        { "source": "ของ", "target": "things/of", "phonetic": "khŏng", "partOfSpeech": "noun/prep" },
-        { "source": "พวกนี้", "target": "these", "phonetic": "phûak-níi", "partOfSpeech": "determiner" },
-        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "ใช่ค่ะ ฉันทำสลัดและซุปที่บ้าน",
-      "target": "Yes, I make salads and soups at home.",
-      "phonetic": "châi khâ chăn tham sà-làt láe súp thîi bâan",
-      "breakdown": [
-        { "source": "ใช่", "target": "yes", "phonetic": "châi", "partOfSpeech": "interjection" },
-        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
-        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "ทำ", "target": "to make/do", "phonetic": "tham", "partOfSpeech": "verb" },
-        { "source": "สลัด", "target": "salad", "phonetic": "sà-làt", "partOfSpeech": "noun" },
-        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
-        { "source": "ซุป", "target": "soup", "phonetic": "súp", "partOfSpeech": "noun" },
-        { "source": "ที่", "target": "at/that", "phonetic": "thîi", "partOfSpeech": "preposition" },
-        { "source": "บ้าน", "target": "home", "phonetic": "bâan", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "คุณสนุกกับการทำอาหารไหมครับ",
-      "target": "Do you enjoy cooking?",
-      "phonetic": "khun sà-nùk gàp gaan tham aa-hăan mǎi khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "สนุก", "target": "to enjoy/have fun", "phonetic": "sà-nùk", "partOfSpeech": "verb" },
-        { "source": "กับ", "target": "with", "phonetic": "gàp", "partOfSpeech": "preposition" },
-        { "source": "การ", "target": "nominalizer", "phonetic": "gaan", "partOfSpeech": "prefix" },
-        { "source": "ทำ", "target": "to make/do", "phonetic": "tham", "partOfSpeech": "verb" },
-        { "source": "อาหาร", "target": "food", "phonetic": "aa-hăan", "partOfSpeech": "noun" },
-        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "สนุกค่ะ แต่ก็ใช้เวลา",
-      "target": "I enjoy it, but it takes time.",
-      "phonetic": "sà-nùk khâ dtàe gôr chái way-laa",
-      "breakdown": [
-        { "source": "สนุก", "target": "enjoy/fun", "phonetic": "sà-nùk", "partOfSpeech": "verb" },
-        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
-        { "source": "แต่", "target": "but", "phonetic": "dtàe", "partOfSpeech": "conjunction" },
-        { "source": "ก็", "target": "emphasizing particle", "phonetic": "gôr", "partOfSpeech": "particle" },
-        { "source": "ใช้", "target": "to take/use", "phonetic": "chái", "partOfSpeech": "verb" },
-        { "source": "เวลา", "target": "time", "phonetic": "way-laa", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "คุณไปตลาดคนเดียวไหมครับ",
-      "target": "Do you go to the market alone?",
-      "phonetic": "khun bpai dtà-làat khon-diao mǎi khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "ไป", "target": "to go", "phonetic": "bpai", "partOfSpeech": "verb" },
-        { "source": "ตลาด", "target": "market", "phonetic": "dtà-làat", "partOfSpeech": "noun" },
-        { "source": "คนเดียว", "target": "alone", "phonetic": "khon-diao", "partOfSpeech": "adverb" },
-        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "ไม่ค่ะ พี่สาวไปกับฉัน",
-      "target": "No, my sister comes with me.",
-      "phonetic": "mâi khâ phîi-sǎao bpai gàp chăn",
-      "breakdown": [
-        { "source": "ไม่", "target": "no/not", "phonetic": "mâi", "partOfSpeech": "adverb" },
-        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
-        { "source": "พี่สาว", "target": "older sister", "phonetic": "phîi-sǎao", "partOfSpeech": "noun" },
-        { "source": "ไป", "target": "to go", "phonetic": "bpai", "partOfSpeech": "verb" },
-        { "source": "กับ", "target": "with", "phonetic": "gàp", "partOfSpeech": "preposition" },
-        { "source": "ฉัน", "target": "me/I", "phonetic": "chăn", "partOfSpeech": "pronoun" }
-      ]
-    },
-    {
-      "source": "ตลาดไกลจากบ้านของคุณไหมครับ",
-      "target": "Is the market far from your house?",
-      "phonetic": "dtà-làat glai jàak bâan khǎwng khun mǎi khráp",
-      "breakdown": [
-        { "source": "ตลาด", "target": "market", "phonetic": "dtà-làat", "partOfSpeech": "noun" },
-        { "source": "ไกล", "target": "far", "phonetic": "glai", "partOfSpeech": "adjective" },
-        { "source": "จาก", "target": "from", "phonetic": "jàak", "partOfSpeech": "preposition" },
-        { "source": "บ้าน", "target": "house/home", "phonetic": "bâan", "partOfSpeech": "noun" },
-        { "source": "ของ", "target": "of", "phonetic": "khǎwng", "partOfSpeech": "preposition" },
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "เดินไปไม่นาน แค่ประมาณสิบนาที",
-      "target": "It’s a short walk, about ten minutes.",
-      "phonetic": "dooen bpai mâi naan khâe bprà-maan sìp naa-thee",
-      "breakdown": [
-        { "source": "เดิน", "target": "to walk", "phonetic": "dooen", "partOfSpeech": "verb" },
-        { "source": "ไป", "target": "go", "phonetic": "bpai", "partOfSpeech": "verb" },
-        { "source": "ไม่นาน", "target": "not long", "phonetic": "mâi naan", "partOfSpeech": "adverb" },
-        { "source": "แค่", "target": "only/just", "phonetic": "khâe", "partOfSpeech": "adverb" },
-        { "source": "ประมาณ", "target": "about/approximately", "phonetic": "bprà-maan", "partOfSpeech": "adverb" },
-        { "source": "สิบ", "target": "ten", "phonetic": "sìp", "partOfSpeech": "numeral" },
-        { "source": "นาที", "target": "minutes", "phonetic": "naa-thee", "partOfSpeech": "noun" }
-      ]
-    }
-  ],
-  "createdAt": "2025-09-29T14:15:00Z",
-  "updatedAt": "2025-09-29T14:16:00Z",
-  "difficulty": "intermediate",
-  "summary": "บทสนทนาเรื่องการไปตลาด ซื้อของสด ความชอบเรื่องอาหาร และการเดินทางไปตลาด"
+    "sentences": [
+        {
+            "source": "คุณชอบไปตลาดไหมครับ",
+            "target": "Do you like going to the market?",
+            "phonetic": "khun chôrp bpai dtà-làat mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ชอบ",
+                    "target": "to like",
+                    "phonetic": "chôrp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ไป",
+                    "target": "to go",
+                    "phonetic": "bpai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ตลาด",
+                    "target": "market",
+                    "phonetic": "dtà-làat",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ใช่ค่ะ ฉันไปตลาดทุกวันเสาร์",
+            "target": "Yes, I go to the market every Saturday.",
+            "phonetic": "châi khâ chăn bpai dtà-làat thúk wan sǎo",
+            "breakdown": [
+                {
+                    "source": "ใช่",
+                    "target": "yes",
+                    "phonetic": "châi",
+                    "partOfSpeech": "interjection"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "female polite particle",
+                    "phonetic": "khâ",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I (female)",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ไป",
+                    "target": "to go",
+                    "phonetic": "bpai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ตลาด",
+                    "target": "market",
+                    "phonetic": "dtà-làat",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ทุก",
+                    "target": "every",
+                    "phonetic": "thúk",
+                    "partOfSpeech": "determiner"
+                },
+                {
+                    "source": "วัน",
+                    "target": "day",
+                    "phonetic": "wan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เสาร์",
+                    "target": "Saturday",
+                    "phonetic": "sǎo",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "คุณซื้ออะไรที่นั่นบ้างครับ",
+            "target": "What do you buy there?",
+            "phonetic": "khun súe à-rai thîi nân bâang khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ซื้อ",
+                    "target": "to buy",
+                    "phonetic": "súe",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "อะไร",
+                    "target": "what",
+                    "phonetic": "à-rai",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ที่",
+                    "target": "at/that",
+                    "phonetic": "thîi",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "นั่น",
+                    "target": "there/that",
+                    "phonetic": "nân",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "บ้าง",
+                    "target": "(some/any) particle",
+                    "phonetic": "bâang",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ฉันซื้อผัก ผลไม้ และขนมปังสด",
+            "target": "I buy fresh vegetables, fruits, and bread.",
+            "phonetic": "chăn súe phàk phŏn-lá-mái láe khà-nŏm-bpang sòt",
+            "breakdown": [
+                {
+                    "source": "ฉัน",
+                    "target": "I (female)",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ซื้อ",
+                    "target": "to buy",
+                    "phonetic": "súe",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ผัก",
+                    "target": "vegetables",
+                    "phonetic": "phàk",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ผลไม้",
+                    "target": "fruits",
+                    "phonetic": "phŏn-lá-mái",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ขนมปัง",
+                    "target": "bread",
+                    "phonetic": "khà-nŏm-bpang",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "สด",
+                    "target": "fresh",
+                    "phonetic": "sòt",
+                    "partOfSpeech": "adjective"
+                }
+            ]
+        },
+        {
+            "source": "คุณชอบผักอะไรบ้างครับ",
+            "target": "What vegetables do you like?",
+            "phonetic": "khun chôrp phàk à-rai bâang khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ชอบ",
+                    "target": "to like",
+                    "phonetic": "chôrp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ผัก",
+                    "target": "vegetables",
+                    "phonetic": "phàk",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "อะไร",
+                    "target": "what",
+                    "phonetic": "à-rai",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "บ้าง",
+                    "target": "(some/any) particle",
+                    "phonetic": "bâang",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ฉันชอบแครอท มะเขือเทศ และผักโขม",
+            "target": "I like carrots, tomatoes, and spinach.",
+            "phonetic": "chăn chôrp khae-ròt má-khǔea-thêt láe phàk-khǒm",
+            "breakdown": [
+                {
+                    "source": "ฉัน",
+                    "target": "I (female)",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ชอบ",
+                    "target": "to like",
+                    "phonetic": "chôrp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "แครอท",
+                    "target": "carrot",
+                    "phonetic": "khae-ròt",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "มะเขือเทศ",
+                    "target": "tomato",
+                    "phonetic": "má-khǔea-thêt",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ผักโขม",
+                    "target": "spinach",
+                    "phonetic": "phàk-khǒm",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "ราคาแพงไหมคะ",
+            "target": "Are they expensive?",
+            "phonetic": "raa-khaa phaaeng mǎi khá",
+            "breakdown": [
+                {
+                    "source": "ราคา",
+                    "target": "price",
+                    "phonetic": "raa-khaa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "แพง",
+                    "target": "expensive",
+                    "phonetic": "phaaeng",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "คะ",
+                    "target": "female question particle",
+                    "phonetic": "khá",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ไม่ครับ ปกติจะถูกที่ตลาด",
+            "target": "No, they are usually cheap at the market.",
+            "phonetic": "mâi khráp bpòk-gà-tì jà thùuk thîi dtà-làat",
+            "breakdown": [
+                {
+                    "source": "ไม่",
+                    "target": "no/not",
+                    "phonetic": "mâi",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ปกติ",
+                    "target": "usually",
+                    "phonetic": "bpòk-gà-tì",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "จะ",
+                    "target": "will/tend to",
+                    "phonetic": "jà",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "ถูก",
+                    "target": "cheap",
+                    "phonetic": "thùuk",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ที่",
+                    "target": "at",
+                    "phonetic": "thîi",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ตลาด",
+                    "target": "market",
+                    "phonetic": "dtà-làat",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "คุณซื้อเนื้อด้วยไหมครับ",
+            "target": "Do you buy meat too?",
+            "phonetic": "khun súe núea dûai mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ซื้อ",
+                    "target": "to buy",
+                    "phonetic": "súe",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เนื้อ",
+                    "target": "meat",
+                    "phonetic": "núea",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ด้วย",
+                    "target": "also/too",
+                    "phonetic": "dûai",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "บางครั้งฉันก็ซื้อไก่หรือปลา",
+            "target": "Sometimes I buy chicken or fish.",
+            "phonetic": "baang-khráng chăn gôr súe gài rǔe bplaa",
+            "breakdown": [
+                {
+                    "source": "บางครั้ง",
+                    "target": "sometimes",
+                    "phonetic": "baang-khráng",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I (female)",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ก็",
+                    "target": "emphasizing particle",
+                    "phonetic": "gôr",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ซื้อ",
+                    "target": "to buy",
+                    "phonetic": "súe",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ไก่",
+                    "target": "chicken",
+                    "phonetic": "gài",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "หรือ",
+                    "target": "or",
+                    "phonetic": "rǔe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ปลา",
+                    "target": "fish",
+                    "phonetic": "bplaa",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "คุณชอบผลไม้อะไรครับ",
+            "target": "What kind of fruit do you get?",
+            "phonetic": "khun chôrp phŏn-lá-mái à-rai khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ชอบ",
+                    "target": "to like",
+                    "phonetic": "chôrp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ผลไม้",
+                    "target": "fruit",
+                    "phonetic": "phŏn-lá-mái",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "อะไร",
+                    "target": "what",
+                    "phonetic": "à-rai",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ฉันชอบแอปเปิล กล้วย และส้ม",
+            "target": "I love apples, bananas, and oranges.",
+            "phonetic": "chăn chôrp áep-bpêrn glûai láe sôm",
+            "breakdown": [
+                {
+                    "source": "ฉัน",
+                    "target": "I (female)",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ชอบ",
+                    "target": "to love/like",
+                    "phonetic": "chôrp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "แอปเปิล",
+                    "target": "apple",
+                    "phonetic": "áep-bpêrn",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "กล้วย",
+                    "target": "banana",
+                    "phonetic": "glûai",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ส้ม",
+                    "target": "orange",
+                    "phonetic": "sôm",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "คุณทำอาหารด้วยของพวกนี้ไหมครับ",
+            "target": "Do you cook with these foods?",
+            "phonetic": "khun tham aa-hăan dûai khŏng phûak-níi mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ทำ",
+                    "target": "to make/do",
+                    "phonetic": "tham",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "อาหาร",
+                    "target": "food",
+                    "phonetic": "aa-hăan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ด้วย",
+                    "target": "with",
+                    "phonetic": "dûai",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ของ",
+                    "target": "things/of",
+                    "phonetic": "khŏng",
+                    "partOfSpeech": "noun/prep"
+                },
+                {
+                    "source": "พวกนี้",
+                    "target": "these",
+                    "phonetic": "phûak-níi",
+                    "partOfSpeech": "determiner"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ใช่ค่ะ ฉันทำสลัดและซุปที่บ้าน",
+            "target": "Yes, I make salads and soups at home.",
+            "phonetic": "châi khâ chăn tham sà-làt láe súp thîi bâan",
+            "breakdown": [
+                {
+                    "source": "ใช่",
+                    "target": "yes",
+                    "phonetic": "châi",
+                    "partOfSpeech": "interjection"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "female polite particle",
+                    "phonetic": "khâ",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I (female)",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ทำ",
+                    "target": "to make/do",
+                    "phonetic": "tham",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "สลัด",
+                    "target": "salad",
+                    "phonetic": "sà-làt",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ซุป",
+                    "target": "soup",
+                    "phonetic": "súp",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ที่",
+                    "target": "at/that",
+                    "phonetic": "thîi",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "บ้าน",
+                    "target": "home",
+                    "phonetic": "bâan",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "คุณสนุกกับการทำอาหารไหมครับ",
+            "target": "Do you enjoy cooking?",
+            "phonetic": "khun sà-nùk gàp gaan tham aa-hăan mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "สนุก",
+                    "target": "to enjoy/have fun",
+                    "phonetic": "sà-nùk",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "กับ",
+                    "target": "with",
+                    "phonetic": "gàp",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "การ",
+                    "target": "nominalizer",
+                    "phonetic": "gaan",
+                    "partOfSpeech": "prefix"
+                },
+                {
+                    "source": "ทำ",
+                    "target": "to make/do",
+                    "phonetic": "tham",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "อาหาร",
+                    "target": "food",
+                    "phonetic": "aa-hăan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "สนุกค่ะ แต่ก็ใช้เวลา",
+            "target": "I enjoy it, but it takes time.",
+            "phonetic": "sà-nùk khâ dtàe gôr chái way-laa",
+            "breakdown": [
+                {
+                    "source": "สนุก",
+                    "target": "enjoy/fun",
+                    "phonetic": "sà-nùk",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "female polite particle",
+                    "phonetic": "khâ",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "แต่",
+                    "target": "but",
+                    "phonetic": "dtàe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ก็",
+                    "target": "emphasizing particle",
+                    "phonetic": "gôr",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ใช้",
+                    "target": "to take/use",
+                    "phonetic": "chái",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เวลา",
+                    "target": "time",
+                    "phonetic": "way-laa",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "คุณไปตลาดคนเดียวไหมครับ",
+            "target": "Do you go to the market alone?",
+            "phonetic": "khun bpai dtà-làat khon-diao mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ไป",
+                    "target": "to go",
+                    "phonetic": "bpai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ตลาด",
+                    "target": "market",
+                    "phonetic": "dtà-làat",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "คนเดียว",
+                    "target": "alone",
+                    "phonetic": "khon-diao",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ไม่ค่ะ พี่สาวไปกับฉัน",
+            "target": "No, my sister comes with me.",
+            "phonetic": "mâi khâ phîi-sǎao bpai gàp chăn",
+            "breakdown": [
+                {
+                    "source": "ไม่",
+                    "target": "no/not",
+                    "phonetic": "mâi",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "female polite particle",
+                    "phonetic": "khâ",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "พี่สาว",
+                    "target": "older sister",
+                    "phonetic": "phîi-sǎao",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ไป",
+                    "target": "to go",
+                    "phonetic": "bpai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "กับ",
+                    "target": "with",
+                    "phonetic": "gàp",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "me/I",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                }
+            ]
+        },
+        {
+            "source": "ตลาดไกลจากบ้านของคุณไหมครับ",
+            "target": "Is the market far from your house?",
+            "phonetic": "dtà-làat glai jàak bâan khǎwng khun mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "ตลาด",
+                    "target": "market",
+                    "phonetic": "dtà-làat",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ไกล",
+                    "target": "far",
+                    "phonetic": "glai",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "จาก",
+                    "target": "from",
+                    "phonetic": "jàak",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "บ้าน",
+                    "target": "house/home",
+                    "phonetic": "bâan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ของ",
+                    "target": "of",
+                    "phonetic": "khǎwng",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "เดินไปไม่นาน แค่ประมาณสิบนาที",
+            "target": "It’s a short walk, about ten minutes.",
+            "phonetic": "dooen bpai mâi naan khâe bprà-maan sìp naa-thee",
+            "breakdown": [
+                {
+                    "source": "เดิน",
+                    "target": "to walk",
+                    "phonetic": "dooen",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ไป",
+                    "target": "go",
+                    "phonetic": "bpai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ไม่นาน",
+                    "target": "not long",
+                    "phonetic": "mâi naan",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "แค่",
+                    "target": "only/just",
+                    "phonetic": "khâe",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ประมาณ",
+                    "target": "about/approximately",
+                    "phonetic": "bprà-maan",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "สิบ",
+                    "target": "ten",
+                    "phonetic": "sìp",
+                    "partOfSpeech": "numeral"
+                },
+                {
+                    "source": "นาที",
+                    "target": "minutes",
+                    "phonetic": "naa-thee",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        }
+    ],
+    "createdAt": "2025-09-29T14:15:00Z",
+    "updatedAt": "2025-09-29T14:16:00Z",
+    "difficulty": "intermediate",
+    "summary": "บทสนทนาเรื่องการไปตลาด ซื้อของสด ความชอบเรื่องอาหาร และการเดินทางไปตลาด"
 }

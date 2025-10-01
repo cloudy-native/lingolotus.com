@@ -10,7 +10,6 @@ import {
     Flex,
     Heading,
     Icon,
-    Image,
     SimpleGrid,
     Stack,
     Tag,
@@ -19,7 +18,10 @@ import {
 import { graphql, HeadFC, Link } from "gatsby";
 import { ChevronRight, Clock, Star } from "lucide-react";
 
+import { LanguageCard } from "../components/LanguageCard";
+import { LazyImage } from "../components/LazyImage";
 import { semanticColors } from "../theme/colors";
+import { tokens } from "../theme/tokens";
 import type { Collection, Deck } from "../types";
 import { deckDetailPath, flashcardListPath } from "../utils/paths";
 
@@ -33,22 +35,10 @@ interface CollectionDetailTemplateProps {
 }
 
 const DeckCard: React.FC<{ deck: Deck }> = ({ deck }) => {
-    const cardBg = semanticColors.card.bg;
-    const cardBorder = semanticColors.card.border;
-
     return (
         <Link to={deckDetailPath(deck.collectionId, deck.deckId)}>
-            <Box
-                borderWidth="1px"
-                borderRadius="lg"
-                borderColor={cardBorder}
-                overflow="hidden"
-                bg={cardBg}
-                transition="all 0.3s"
-                _hover={{ transform: "translateY(-4px)", shadow: "md" }}
-                height="100%"
-            >
-                <Box p={5}>
+            <LanguageCard height="100%">
+                <Box p={tokens.card.padding}>
                     <Heading as="h3" size="md" fontWeight="semibold" mb={2}>
                         {deck.name}
                     </Heading>
@@ -77,17 +67,15 @@ const DeckCard: React.FC<{ deck: Deck }> = ({ deck }) => {
                             </Text>
                         </Flex>
 
-                        <Button
-                            colorScheme="primary"
-                            size="sm"
-                            width="100%"
-                            mt={2}
-                        >
-                            Study Deck
+                        <Button size="sm" width="100%" mt={2}>
+                            <Flex align="center">
+                                <Icon as={Star} mr={1} color="yellow.400" />
+                                Study Deck
+                            </Flex>
                         </Button>
                     </Stack>
                 </Box>
-            </Box>
+            </LanguageCard>
         </Link>
     );
 };
@@ -136,12 +124,13 @@ const CollectionDetailTemplate: React.FC<CollectionDetailTemplateProps> = ({
                         gap={6}
                     >
                         {collection.imageUrl && (
-                            <Image
+                            <LazyImage
                                 src={collection.imageUrl}
                                 alt={collection.name}
                                 borderRadius="lg"
                                 boxSize={{ base: "100%", md: "180px" }}
                                 objectFit="cover"
+                                loading="lazy"
                             />
                         )}
 

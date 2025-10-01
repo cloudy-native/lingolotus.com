@@ -1,599 +1,599 @@
 {
-  "collectionId": "thai-english",
-  "deckId": "tones-pronunciation-revised",
-  "name": "Thai Tones & Pronunciation - Minimal Pairs",
-  "description": "Thai words and phrases with similar pronunciation but different meanings due to tones or vowel length",
-  "sourceLanguage": "th",
-  "targetLanguage": "en",
-  "cards": [
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ขาว / ข่าว"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "white / news"
-      },
-      "tags": ["minimal pairs", "tones", "basic"],
-      "difficulty": "easy",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "khaao (mid tone) / khàao (low tone)",
-      "partOfSpeech": "adjective/noun",
-      "context": "These common words differ only in tone - mid vs low",
-      "examples": [
+    "collectionId": "thai-english",
+    "deckId": "tones-pronunciation-revised",
+    "name": "Thai Tones & Pronunciation - Minimal Pairs",
+    "description": "Thai words and phrases with similar pronunciation but different meanings due to tones or vowel length",
+    "sourceLanguage": "th",
+    "targetLanguage": "en",
+    "cards": [
         {
-          "original": "เสื้อขาว",
-          "translation": "White shirt",
-          "phonetic": "seua khaao"
+            "frontContent": {
+                "type": "text",
+                "text": "ขาว / ข่าว"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "white / news"
+            },
+            "tags": ["minimal pairs", "tones", "basic"],
+            "difficulty": "easy",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "khaao (mid tone) / khàao (low tone)",
+            "partOfSpeech": "adjective/noun",
+            "context": "These common words differ only in tone - mid vs low",
+            "examples": [
+                {
+                    "original": "เสื้อขาว",
+                    "translation": "White shirt",
+                    "phonetic": "seua khaao"
+                },
+                {
+                    "original": "ข่าวเช้า",
+                    "translation": "Morning news",
+                    "phonetic": "khàao chao"
+                }
+            ]
         },
         {
-          "original": "ข่าวเช้า",
-          "translation": "Morning news",
-          "phonetic": "khàao chao"
+            "frontContent": {
+                "type": "text",
+                "text": "เสือ / เสื่อ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "tiger / mat"
+            },
+            "tags": ["minimal pairs", "tones", "basic"],
+            "difficulty": "easy",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "seua (mid tone) / sèua (low tone)",
+            "partOfSpeech": "noun/noun",
+            "context": "These words differ only in tone - mid vs low",
+            "examples": [
+                {
+                    "original": "เสือดุร้าย",
+                    "translation": "Fierce tiger",
+                    "phonetic": "seua du-raai"
+                },
+                {
+                    "original": "เสื่อผืนนี้",
+                    "translation": "This mat",
+                    "phonetic": "sèua pheun nee"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "มา / ม้า"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "come / horse"
+            },
+            "tags": ["minimal pairs", "tones", "basic"],
+            "difficulty": "easy",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "maa (mid tone) / máa (falling tone)",
+            "partOfSpeech": "verb/noun",
+            "context": "These words differ only in tone - mid vs falling",
+            "examples": [
+                {
+                    "original": "เขามาแล้ว",
+                    "translation": "He has come",
+                    "phonetic": "khao maa laew"
+                },
+                {
+                    "original": "ม้าสีขาว",
+                    "translation": "White horse",
+                    "phonetic": "máa see khaao"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ไหม / ไหม้"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "question particle / to burn"
+            },
+            "tags": ["minimal pairs", "tones", "basic"],
+            "difficulty": "easy",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "mǎi (rising tone) / mâi (falling tone)",
+            "partOfSpeech": "particle/verb",
+            "context": "These words differ only in tone - rising vs falling",
+            "examples": [
+                {
+                    "original": "ไปด้วยกันไหม",
+                    "translation": "Will you go together?",
+                    "phonetic": "pai duay kan mǎi"
+                },
+                {
+                    "original": "บ้านไหม้หมด",
+                    "translation": "The house completely burned",
+                    "phonetic": "baan mâi mot"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เก่ง / เกรง"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "skilled / to be in awe of"
+            },
+            "tags": ["similar pronunciation", "intermediate"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "kèng / kreng",
+            "partOfSpeech": "adjective/verb",
+            "context": "These words differ in the presence of an 'r' sound",
+            "examples": [
+                {
+                    "original": "เขาเก่งมาก",
+                    "translation": "He is very skilled",
+                    "phonetic": "khao kèng maak"
+                },
+                {
+                    "original": "เกรงใจเขา",
+                    "translation": "To be considerate of him",
+                    "phonetic": "kreng jai khao"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "กาว / ก้าว"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "glue / step"
+            },
+            "tags": ["minimal pairs", "tones", "basic"],
+            "difficulty": "easy",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "kaao (mid tone) / káao (falling tone)",
+            "partOfSpeech": "noun/verb",
+            "context": "These words differ only in tone - mid vs falling",
+            "examples": [
+                {
+                    "original": "ซื้อกาวมา",
+                    "translation": "Bought glue",
+                    "phonetic": "seu kaao maa"
+                },
+                {
+                    "original": "ก้าวเดิน",
+                    "translation": "Take steps",
+                    "phonetic": "káao dern"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ใกล้ / ไกล"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "near / far"
+            },
+            "tags": ["similar pronunciation", "intermediate"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "klâi / klai",
+            "partOfSpeech": "adverb/adverb",
+            "context": "These opposite words sound very similar and are often confused",
+            "examples": [
+                {
+                    "original": "บ้านใกล้ตลาด",
+                    "translation": "House near the market",
+                    "phonetic": "baan klâi talaat"
+                },
+                {
+                    "original": "ไกลจากที่นี่",
+                    "translation": "Far from here",
+                    "phonetic": "klai jaak tee-nee"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "พูด / พุธ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to speak / Wednesday"
+            },
+            "tags": ["vowel length", "intermediate"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "pûut (long vowel) / pút (short vowel)",
+            "partOfSpeech": "verb/noun",
+            "context": "These words differ in vowel length - long vs short u sound",
+            "examples": [
+                {
+                    "original": "พูดให้ดังๆ",
+                    "translation": "Speak louder",
+                    "phonetic": "pûut hâi dang-dang"
+                },
+                {
+                    "original": "วันพุธหน้า",
+                    "translation": "Next Wednesday",
+                    "phonetic": "wan pút nâa"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "มัด / มาด"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to tie / appearance/ambition"
+            },
+            "tags": ["vowel length", "intermediate"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "mát (short vowel) / mâat (long vowel)",
+            "partOfSpeech": "verb/noun",
+            "context": "These words differ in vowel length - short vs long a sound",
+            "examples": [
+                {
+                    "original": "มัดกล่อง",
+                    "translation": "Tie the box",
+                    "phonetic": "mát klàwng"
+                },
+                {
+                    "original": "มาดเท่",
+                    "translation": "Cool appearance",
+                    "phonetic": "mâat tâe"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "หา / ห้า"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to find, seek / five"
+            },
+            "tags": ["minimal pairs", "tones", "basic"],
+            "difficulty": "easy",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "hǎa (rising tone) / hâa (falling tone)",
+            "partOfSpeech": "verb/numeral",
+            "context": "These common words differ only in tone - rising vs falling",
+            "examples": [
+                {
+                    "original": "หาของ",
+                    "translation": "Look for things",
+                    "phonetic": "hǎa khǒng"
+                },
+                {
+                    "original": "ห้าคน",
+                    "translation": "Five people",
+                    "phonetic": "hâa kon"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "นา / น่า / น้า"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "rice field / interesting / aunt/uncle"
+            },
+            "tags": ["tone triple", "advanced"],
+            "difficulty": "hard",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "naa (mid) / nâa (low) / náa (falling)",
+            "partOfSpeech": "noun/adjective/noun",
+            "context": "Three common words differentiated only by tone",
+            "examples": [
+                {
+                    "original": "ทำนา",
+                    "translation": "Farming rice fields",
+                    "phonetic": "tam naa"
+                },
+                {
+                    "original": "น่าสนใจ",
+                    "translation": "Interesting",
+                    "phonetic": "nâa sǒn-jai"
+                },
+                {
+                    "original": "บ้านน้า",
+                    "translation": "Aunt's/uncle's house",
+                    "phonetic": "bâan náa"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "พี่ / ผี"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "older sibling / ghost"
+            },
+            "tags": ["initial consonants", "intermediate"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "pîi / phǐi",
+            "partOfSpeech": "noun/noun",
+            "context": "These words differ in initial consonant (p vs ph) but both have long vowels",
+            "examples": [
+                {
+                    "original": "พี่ชาย",
+                    "translation": "Older brother",
+                    "phonetic": "pîi chaai"
+                },
+                {
+                    "original": "ผีดิบ",
+                    "translation": "Zombie",
+                    "phonetic": "phǐi dìp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ปลา / พลา"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "fish / spicy salad"
+            },
+            "tags": ["initial consonants", "intermediate"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "plaa / phlaa",
+            "partOfSpeech": "noun/noun",
+            "context": "These words differ in initial consonant (p vs ph) in a consonant cluster",
+            "examples": [
+                {
+                    "original": "ปลาทอด",
+                    "translation": "Fried fish",
+                    "phonetic": "plaa thôt"
+                },
+                {
+                    "original": "พลากุ้ง",
+                    "translation": "Spicy shrimp salad",
+                    "phonetic": "phlaa kûng"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เลือก / เหลือ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to choose / to remain"
+            },
+            "tags": ["initial consonants", "intermediate"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "lêuak / lěua",
+            "partOfSpeech": "verb/verb",
+            "context": "Similar-sounding words with different initial consonants and final sounds",
+            "examples": [
+                {
+                    "original": "เลือกซื้อของ",
+                    "translation": "Choose to buy things",
+                    "phonetic": "lêuak séu khǒng"
+                },
+                {
+                    "original": "เหลือเยอะ",
+                    "translation": "A lot remains",
+                    "phonetic": "lěua yə́"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เล่น / เล็น"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to play / nit (louse egg)"
+            },
+            "tags": ["minimal pairs", "tones", "intermediate"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "lên (falling tone) / lén (high tone)",
+            "partOfSpeech": "verb/noun",
+            "context": "These words differ in tone but have similar spelling",
+            "examples": [
+                {
+                    "original": "เล่นเกม",
+                    "translation": "Play games",
+                    "phonetic": "lên geem"
+                },
+                {
+                    "original": "เล็นในผม",
+                    "translation": "Nits in hair",
+                    "phonetic": "lén nai pǒm"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "จับ / จาบ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to catch, grab / to offend"
+            },
+            "tags": ["vowel length", "intermediate"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "jàp (short vowel) / jàap (long vowel)",
+            "partOfSpeech": "verb/verb",
+            "context": "These words differ in vowel length - short vs long a sound",
+            "examples": [
+                {
+                    "original": "จับมือ",
+                    "translation": "Hold hands",
+                    "phonetic": "jàp meu"
+                },
+                {
+                    "original": "จาบจ้วง",
+                    "translation": "To be disrespectful",
+                    "phonetic": "jàap júang"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ปิด / ปีด"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to close / beetle"
+            },
+            "tags": ["vowel length", "intermediate"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "pìt (short vowel) / pìit (long vowel)",
+            "partOfSpeech": "verb/noun",
+            "context": "These words differ in vowel length - short vs long i sound",
+            "examples": [
+                {
+                    "original": "ปิดประตู",
+                    "translation": "Close the door",
+                    "phonetic": "pìt pra-too"
+                },
+                {
+                    "original": "แมลงปีด",
+                    "translation": "Beetle",
+                    "phonetic": "ma-leng pìit"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "แพง / แผง"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "expensive / panel, stall"
+            },
+            "tags": ["initial consonants", "intermediate"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "phaeng / phàeng",
+            "partOfSpeech": "adjective/noun",
+            "context": "Words with similar pronunciation that differ in initial consonant and tone",
+            "examples": [
+                {
+                    "original": "ราคาแพงมาก",
+                    "translation": "Very expensive price",
+                    "phonetic": "raa-kaa phaeng mâak"
+                },
+                {
+                    "original": "แผงลอย",
+                    "translation": "Street stall",
+                    "phonetic": "phàeng loi"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เบา / เปล่า"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "light (not heavy) / empty"
+            },
+            "tags": ["consonant clusters", "intermediate"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "bao / plào",
+            "partOfSpeech": "adjective/adjective",
+            "context": "Words that differ in consonant structure but sound somewhat similar",
+            "examples": [
+                {
+                    "original": "กระเป๋าเบามาก",
+                    "translation": "The bag is very light",
+                    "phonetic": "kra-pǎo bao mâak"
+                },
+                {
+                    "original": "แก้วเปล่า",
+                    "translation": "Empty glass",
+                    "phonetic": "kâew plào"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "คลอง / ครอง"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "canal / to possess, reign"
+            },
+            "tags": ["consonant clusters", "intermediate"],
+            "difficulty": "medium",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "klong / krong",
+            "partOfSpeech": "noun/verb",
+            "context": "Words with different consonant clusters kl vs kr",
+            "examples": [
+                {
+                    "original": "เรือในคลอง",
+                    "translation": "Boat in the canal",
+                    "phonetic": "reua nai klong"
+                },
+                {
+                    "original": "ครองราชย์",
+                    "translation": "To reign",
+                    "phonetic": "krong râat"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "เสือ / เสื่อ"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "tiger / mat"
-      },
-      "tags": ["minimal pairs", "tones", "basic"],
-      "difficulty": "easy",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "seua (mid tone) / sèua (low tone)",
-      "partOfSpeech": "noun/noun",
-      "context": "These words differ only in tone - mid vs low",
-      "examples": [
-        {
-          "original": "เสือดุร้าย",
-          "translation": "Fierce tiger",
-          "phonetic": "seua du-raai"
-        },
-        {
-          "original": "เสื่อผืนนี้",
-          "translation": "This mat",
-          "phonetic": "sèua pheun nee"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "มา / ม้า"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "come / horse"
-      },
-      "tags": ["minimal pairs", "tones", "basic"],
-      "difficulty": "easy",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "maa (mid tone) / máa (falling tone)",
-      "partOfSpeech": "verb/noun",
-      "context": "These words differ only in tone - mid vs falling",
-      "examples": [
-        {
-          "original": "เขามาแล้ว",
-          "translation": "He has come",
-          "phonetic": "khao maa laew"
-        },
-        {
-          "original": "ม้าสีขาว",
-          "translation": "White horse",
-          "phonetic": "máa see khaao"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ไหม / ไหม้"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "question particle / to burn"
-      },
-      "tags": ["minimal pairs", "tones", "basic"],
-      "difficulty": "easy",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "mǎi (rising tone) / mâi (falling tone)",
-      "partOfSpeech": "particle/verb",
-      "context": "These words differ only in tone - rising vs falling",
-      "examples": [
-        {
-          "original": "ไปด้วยกันไหม",
-          "translation": "Will you go together?",
-          "phonetic": "pai duay kan mǎi"
-        },
-        {
-          "original": "บ้านไหม้หมด",
-          "translation": "The house completely burned",
-          "phonetic": "baan mâi mot"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "เก่ง / เกรง"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "skilled / to be in awe of"
-      },
-      "tags": ["similar pronunciation", "intermediate"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "kèng / kreng",
-      "partOfSpeech": "adjective/verb",
-      "context": "These words differ in the presence of an 'r' sound",
-      "examples": [
-        {
-          "original": "เขาเก่งมาก",
-          "translation": "He is very skilled",
-          "phonetic": "khao kèng maak"
-        },
-        {
-          "original": "เกรงใจเขา",
-          "translation": "To be considerate of him",
-          "phonetic": "kreng jai khao"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "กาว / ก้าว"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "glue / step"
-      },
-      "tags": ["minimal pairs", "tones", "basic"],
-      "difficulty": "easy",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "kaao (mid tone) / káao (falling tone)",
-      "partOfSpeech": "noun/verb",
-      "context": "These words differ only in tone - mid vs falling",
-      "examples": [
-        {
-          "original": "ซื้อกาวมา",
-          "translation": "Bought glue",
-          "phonetic": "seu kaao maa"
-        },
-        {
-          "original": "ก้าวเดิน",
-          "translation": "Take steps",
-          "phonetic": "káao dern"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ใกล้ / ไกล"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "near / far"
-      },
-      "tags": ["similar pronunciation", "intermediate"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "klâi / klai",
-      "partOfSpeech": "adverb/adverb",
-      "context": "These opposite words sound very similar and are often confused",
-      "examples": [
-        {
-          "original": "บ้านใกล้ตลาด",
-          "translation": "House near the market",
-          "phonetic": "baan klâi talaat"
-        },
-        {
-          "original": "ไกลจากที่นี่",
-          "translation": "Far from here",
-          "phonetic": "klai jaak tee-nee"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "พูด / พุธ"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "to speak / Wednesday"
-      },
-      "tags": ["vowel length", "intermediate"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "pûut (long vowel) / pút (short vowel)",
-      "partOfSpeech": "verb/noun",
-      "context": "These words differ in vowel length - long vs short u sound",
-      "examples": [
-        {
-          "original": "พูดให้ดังๆ",
-          "translation": "Speak louder",
-          "phonetic": "pûut hâi dang-dang"
-        },
-        {
-          "original": "วันพุธหน้า",
-          "translation": "Next Wednesday",
-          "phonetic": "wan pút nâa"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "มัด / มาด"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "to tie / appearance/ambition"
-      },
-      "tags": ["vowel length", "intermediate"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "mát (short vowel) / mâat (long vowel)",
-      "partOfSpeech": "verb/noun",
-      "context": "These words differ in vowel length - short vs long a sound",
-      "examples": [
-        {
-          "original": "มัดกล่อง",
-          "translation": "Tie the box",
-          "phonetic": "mát klàwng"
-        },
-        {
-          "original": "มาดเท่",
-          "translation": "Cool appearance",
-          "phonetic": "mâat tâe"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "หา / ห้า"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "to find, seek / five"
-      },
-      "tags": ["minimal pairs", "tones", "basic"],
-      "difficulty": "easy",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "hǎa (rising tone) / hâa (falling tone)",
-      "partOfSpeech": "verb/numeral",
-      "context": "These common words differ only in tone - rising vs falling",
-      "examples": [
-        {
-          "original": "หาของ",
-          "translation": "Look for things",
-          "phonetic": "hǎa khǒng"
-        },
-        {
-          "original": "ห้าคน",
-          "translation": "Five people",
-          "phonetic": "hâa kon"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "นา / น่า / น้า"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "rice field / interesting / aunt/uncle"
-      },
-      "tags": ["tone triple", "advanced"],
-      "difficulty": "hard",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "naa (mid) / nâa (low) / náa (falling)",
-      "partOfSpeech": "noun/adjective/noun",
-      "context": "Three common words differentiated only by tone",
-      "examples": [
-        {
-          "original": "ทำนา",
-          "translation": "Farming rice fields",
-          "phonetic": "tam naa"
-        },
-        {
-          "original": "น่าสนใจ",
-          "translation": "Interesting",
-          "phonetic": "nâa sǒn-jai"
-        },
-        {
-          "original": "บ้านน้า",
-          "translation": "Aunt's/uncle's house",
-          "phonetic": "bâan náa"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "พี่ / ผี"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "older sibling / ghost"
-      },
-      "tags": ["initial consonants", "intermediate"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "pîi / phǐi",
-      "partOfSpeech": "noun/noun",
-      "context": "These words differ in initial consonant (p vs ph) but both have long vowels",
-      "examples": [
-        {
-          "original": "พี่ชาย",
-          "translation": "Older brother",
-          "phonetic": "pîi chaai"
-        },
-        {
-          "original": "ผีดิบ",
-          "translation": "Zombie",
-          "phonetic": "phǐi dìp"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ปลา / พลา"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "fish / spicy salad"
-      },
-      "tags": ["initial consonants", "intermediate"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "plaa / phlaa",
-      "partOfSpeech": "noun/noun",
-      "context": "These words differ in initial consonant (p vs ph) in a consonant cluster",
-      "examples": [
-        {
-          "original": "ปลาทอด",
-          "translation": "Fried fish",
-          "phonetic": "plaa thôt"
-        },
-        {
-          "original": "พลากุ้ง",
-          "translation": "Spicy shrimp salad",
-          "phonetic": "phlaa kûng"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "เลือก / เหลือ"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "to choose / to remain"
-      },
-      "tags": ["initial consonants", "intermediate"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "lêuak / lěua",
-      "partOfSpeech": "verb/verb",
-      "context": "Similar-sounding words with different initial consonants and final sounds",
-      "examples": [
-        {
-          "original": "เลือกซื้อของ",
-          "translation": "Choose to buy things",
-          "phonetic": "lêuak séu khǒng"
-        },
-        {
-          "original": "เหลือเยอะ",
-          "translation": "A lot remains",
-          "phonetic": "lěua yə́"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "เล่น / เล็น"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "to play / nit (louse egg)"
-      },
-      "tags": ["minimal pairs", "tones", "intermediate"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "lên (falling tone) / lén (high tone)",
-      "partOfSpeech": "verb/noun",
-      "context": "These words differ in tone but have similar spelling",
-      "examples": [
-        {
-          "original": "เล่นเกม",
-          "translation": "Play games",
-          "phonetic": "lên geem"
-        },
-        {
-          "original": "เล็นในผม",
-          "translation": "Nits in hair",
-          "phonetic": "lén nai pǒm"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "จับ / จาบ"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "to catch, grab / to offend"
-      },
-      "tags": ["vowel length", "intermediate"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "jàp (short vowel) / jàap (long vowel)",
-      "partOfSpeech": "verb/verb",
-      "context": "These words differ in vowel length - short vs long a sound",
-      "examples": [
-        {
-          "original": "จับมือ",
-          "translation": "Hold hands",
-          "phonetic": "jàp meu"
-        },
-        {
-          "original": "จาบจ้วง",
-          "translation": "To be disrespectful",
-          "phonetic": "jàap júang"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "ปิด / ปีด"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "to close / beetle"
-      },
-      "tags": ["vowel length", "intermediate"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "pìt (short vowel) / pìit (long vowel)",
-      "partOfSpeech": "verb/noun",
-      "context": "These words differ in vowel length - short vs long i sound",
-      "examples": [
-        {
-          "original": "ปิดประตู",
-          "translation": "Close the door",
-          "phonetic": "pìt pra-too"
-        },
-        {
-          "original": "แมลงปีด",
-          "translation": "Beetle",
-          "phonetic": "ma-leng pìit"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "แพง / แผง"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "expensive / panel, stall"
-      },
-      "tags": ["initial consonants", "intermediate"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "phaeng / phàeng",
-      "partOfSpeech": "adjective/noun",
-      "context": "Words with similar pronunciation that differ in initial consonant and tone",
-      "examples": [
-        {
-          "original": "ราคาแพงมาก",
-          "translation": "Very expensive price",
-          "phonetic": "raa-kaa phaeng mâak"
-        },
-        {
-          "original": "แผงลอย",
-          "translation": "Street stall",
-          "phonetic": "phàeng loi"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "เบา / เปล่า"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "light (not heavy) / empty"
-      },
-      "tags": ["consonant clusters", "intermediate"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "bao / plào",
-      "partOfSpeech": "adjective/adjective",
-      "context": "Words that differ in consonant structure but sound somewhat similar",
-      "examples": [
-        {
-          "original": "กระเป๋าเบามาก",
-          "translation": "The bag is very light",
-          "phonetic": "kra-pǎo bao mâak"
-        },
-        {
-          "original": "แก้วเปล่า",
-          "translation": "Empty glass",
-          "phonetic": "kâew plào"
-        }
-      ]
-    },
-    {
-      "frontContent": {
-        "type": "text",
-        "text": "คลอง / ครอง"
-      },
-      "backContent": {
-        "type": "text",
-        "text": "canal / to possess, reign"
-      },
-      "tags": ["consonant clusters", "intermediate"],
-      "difficulty": "medium",
-      "sourceLanguage": "th",
-      "targetLanguage": "en",
-      "phonetic": "klong / krong",
-      "partOfSpeech": "noun/verb",
-      "context": "Words with different consonant clusters kl vs kr",
-      "examples": [
-        {
-          "original": "เรือในคลอง",
-          "translation": "Boat in the canal",
-          "phonetic": "reua nai klong"
-        },
-        {
-          "original": "ครองราชย์",
-          "translation": "To reign",
-          "phonetic": "krong râat"
-        }
-      ]
-    }
-  ],
-  "createdAt": "2025-05-09T20:30:00Z",
-  "updatedAt": "2025-05-09T20:30:00Z",
-  "theme": "pronunciation",
-  "difficulty": "intermediate"
+    ],
+    "createdAt": "2025-05-09T20:30:00Z",
+    "updatedAt": "2025-05-09T20:30:00Z",
+    "theme": "pronunciation",
+    "difficulty": "intermediate"
 }

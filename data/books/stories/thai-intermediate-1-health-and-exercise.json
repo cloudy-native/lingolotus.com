@@ -1,271 +1,851 @@
 {
-  "storyId": "thai-intermediate-1-health-and-exercise",
-  "bookId": "thai-intermediate-1",
-  "language": "th",
-  "title": {
-    "source": "สุขภาพและการออกกำลังกาย",
-    "target": "Health and Exercise"
-  },
-  "sentences": [
-    {
-      "source": "คุณออกกำลังกายไหมครับ",
-      "target": "Do you exercise?",
-      "phonetic": "khun òk-gam-lang-gaai mǎi khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "ออกกำลังกาย", "target": "to exercise", "phonetic": "òk-gam-lang-gaai", "partOfSpeech": "verb" },
-        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
+    "storyId": "thai-intermediate-1-health-and-exercise",
+    "bookId": "thai-intermediate-1",
+    "language": "th",
+    "title": {
+        "source": "สุขภาพและการออกกำลังกาย",
+        "target": "Health and Exercise"
     },
-    {
-      "source": "ใช่ค่ะ ฉันออกกำลังกายสัปดาห์ละสามครั้ง",
-      "target": "Yes, I exercise three times a week.",
-      "phonetic": "châi khâ chăn òk-gam-lang-gaai sàp-daa lá sǎam khráng",
-      "breakdown": [
-        { "source": "ใช่", "target": "yes", "phonetic": "châi", "partOfSpeech": "interjection" },
-        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
-        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "ออกกำลังกาย", "target": "to exercise", "phonetic": "òk-gam-lang-gaai", "partOfSpeech": "verb" },
-        { "source": "สัปดาห์ละ", "target": "per week", "phonetic": "sàp-daa lá", "partOfSpeech": "adverb" },
-        { "source": "สาม", "target": "three", "phonetic": "sǎam", "partOfSpeech": "numeral" },
-        { "source": "ครั้ง", "target": "times", "phonetic": "khráng", "partOfSpeech": "classifier" }
-      ]
-    },
-    {
-      "source": "คุณออกกำลังกายแบบไหนครับ",
-      "target": "What kind of exercise do you do?",
-      "phonetic": "khun òk-gam-lang-gaai bàep năi khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "ออกกำลังกาย", "target": "to exercise", "phonetic": "òk-gam-lang-gaai", "partOfSpeech": "verb" },
-        { "source": "แบบ", "target": "type/kind", "phonetic": "bàep", "partOfSpeech": "classifier" },
-        { "source": "ไหน", "target": "which", "phonetic": "năi", "partOfSpeech": "pronoun" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "ฉันวิ่งและเล่นโยคะ",
-      "target": "I run and do yoga.",
-      "phonetic": "chăn wîng láe lên yoo-khá",
-      "breakdown": [
-        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "วิ่ง", "target": "to run", "phonetic": "wîng", "partOfSpeech": "verb" },
-        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
-        { "source": "เล่น", "target": "to do/practice", "phonetic": "lên", "partOfSpeech": "verb" },
-        { "source": "โยคะ", "target": "yoga", "phonetic": "yoo-khá", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "คุณวิ่งที่ไหนครับ",
-      "target": "Where do you run?",
-      "phonetic": "khun wîng thîi năi khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "วิ่ง", "target": "to run", "phonetic": "wîng", "partOfSpeech": "verb" },
-        { "source": "ที่", "target": "at", "phonetic": "thîi", "partOfSpeech": "preposition" },
-        { "source": "ไหน", "target": "where", "phonetic": "năi", "partOfSpeech": "pronoun" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "ฉันวิ่งในสวนสาธารณะใกล้บ้าน",
-      "target": "I run in the park near my house.",
-      "phonetic": "chăn wîng nai sŭan sǎa-thaa-rá-ná glâi bâan",
-      "breakdown": [
-        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "วิ่ง", "target": "to run", "phonetic": "wîng", "partOfSpeech": "verb" },
-        { "source": "ใน", "target": "in", "phonetic": "nai", "partOfSpeech": "preposition" },
-        { "source": "สวนสาธารณะ", "target": "public park", "phonetic": "sŭan sǎa-thaa-rá-ná", "partOfSpeech": "noun" },
-        { "source": "ใกล้", "target": "near", "phonetic": "glâi", "partOfSpeech": "preposition" },
-        { "source": "บ้าน", "target": "home/house", "phonetic": "bâan", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "การวิ่งสนุกไหมครับ",
-      "target": "Is running fun?",
-      "phonetic": "gaan wîng sà-nùk mǎi khráp",
-      "breakdown": [
-        { "source": "การ", "target": "nominalizer", "phonetic": "gaan", "partOfSpeech": "prefix" },
-        { "source": "วิ่ง", "target": "running", "phonetic": "wîng", "partOfSpeech": "noun" },
-        { "source": "สนุก", "target": "fun", "phonetic": "sà-nùk", "partOfSpeech": "adjective" },
-        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "สนุกค่ะ แต่บางทีก็เหนื่อย",
-      "target": "Yes, but it’s tiring sometimes!",
-      "phonetic": "sà-nùk khâ dtàe baang-thee gôr nùeai",
-      "breakdown": [
-        { "source": "สนุก", "target": "fun", "phonetic": "sà-nùk", "partOfSpeech": "adjective" },
-        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
-        { "source": "แต่", "target": "but", "phonetic": "dtàe", "partOfSpeech": "conjunction" },
-        { "source": "บางที", "target": "sometimes", "phonetic": "baang-thee", "partOfSpeech": "adverb" },
-        { "source": "ก็", "target": "emphasis/also", "phonetic": "gôr", "partOfSpeech": "particle" },
-        { "source": "เหนื่อย", "target": "tired", "phonetic": "nùeai", "partOfSpeech": "adjective" }
-      ]
-    },
-    {
-      "source": "ทำไมคุณถึงเล่นโยคะครับ",
-      "target": "Why do you do yoga?",
-      "phonetic": "tham-mai khun thǔeng lên yoo-khá khráp",
-      "breakdown": [
-        { "source": "ทำไม", "target": "why", "phonetic": "tham-mai", "partOfSpeech": "adverb" },
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "ถึง", "target": "then/so (emphasis)", "phonetic": "thǔeng", "partOfSpeech": "particle" },
-        { "source": "เล่น", "target": "to do/practice", "phonetic": "lên", "partOfSpeech": "verb" },
-        { "source": "โยคะ", "target": "yoga", "phonetic": "yoo-khá", "partOfSpeech": "noun" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "โยคะช่วยให้ฉันผ่อนคลายและแข็งแรง",
-      "target": "Yoga helps me relax and stay strong.",
-      "phonetic": "yoo-khá chûai hâi chăn phòn-khlaai láe khǎeng-râaeng",
-      "breakdown": [
-        { "source": "โยคะ", "target": "yoga", "phonetic": "yoo-khá", "partOfSpeech": "noun" },
-        { "source": "ช่วย", "target": "helps", "phonetic": "chûai", "partOfSpeech": "verb" },
-        { "source": "ให้", "target": "to make/let", "phonetic": "hâi", "partOfSpeech": "verb" },
-        { "source": "ฉัน", "target": "me", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "ผ่อนคลาย", "target": "relax", "phonetic": "phòn-khlaai", "partOfSpeech": "verb" },
-        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
-        { "source": "แข็งแรง", "target": "strong/healthy", "phonetic": "khǎeng-râaeng", "partOfSpeech": "adjective" }
-      ]
-    },
-    {
-      "source": "คุณกินอาหารเพื่อสุขภาพไหมครับ",
-      "target": "Do you eat healthy food?",
-      "phonetic": "khun gin aa-hăan phûea sùk-khà-phâap mǎi khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "กิน", "target": "to eat", "phonetic": "gin", "partOfSpeech": "verb" },
-        { "source": "อาหาร", "target": "food", "phonetic": "aa-hăan", "partOfSpeech": "noun" },
-        { "source": "เพื่อ", "target": "for", "phonetic": "phûea", "partOfSpeech": "preposition" },
-        { "source": "สุขภาพ", "target": "health", "phonetic": "sùk-khà-phâap", "partOfSpeech": "noun" },
-        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "ใช่ค่ะ ฉันพยายามกินผักและผลไม้",
-      "target": "Yes, I try to eat vegetables and fruit.",
-      "phonetic": "châi khâ chăn phá-yaa-yaam gin phàk láe phŏn-lá-mái",
-      "breakdown": [
-        { "source": "ใช่", "target": "yes", "phonetic": "châi", "partOfSpeech": "interjection" },
-        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
-        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "พยายาม", "target": "to try", "phonetic": "phá-yaa-yaam", "partOfSpeech": "verb" },
-        { "source": "กิน", "target": "to eat", "phonetic": "gin", "partOfSpeech": "verb" },
-        { "source": "ผัก", "target": "vegetables", "phonetic": "phàk", "partOfSpeech": "noun" },
-        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
-        { "source": "ผลไม้", "target": "fruit", "phonetic": "phŏn-lá-mái", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "คุณดื่มน้ำมากไหมครับ",
-      "target": "Do you drink a lot of water?",
-      "phonetic": "khun dùuem náam mâak mǎi khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "ดื่ม", "target": "to drink", "phonetic": "dùuem", "partOfSpeech": "verb" },
-        { "source": "น้ำ", "target": "water", "phonetic": "náam", "partOfSpeech": "noun" },
-        { "source": "มาก", "target": "a lot", "phonetic": "mâak", "partOfSpeech": "adverb" },
-        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "ใช่ค่ะ ฉันดื่มน้ำทุกวัน",
-      "target": "Yes, I drink water every day.",
-      "phonetic": "châi khâ chăn dùuem náam thúk wan",
-      "breakdown": [
-        { "source": "ใช่", "target": "yes", "phonetic": "châi", "partOfSpeech": "interjection" },
-        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
-        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "ดื่ม", "target": "to drink", "phonetic": "dùuem", "partOfSpeech": "verb" },
-        { "source": "น้ำ", "target": "water", "phonetic": "náam", "partOfSpeech": "noun" },
-        { "source": "ทุกวัน", "target": "every day", "phonetic": "thúk wan", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "คุณรู้สึกสุขภาพดีไหมครับ",
-      "target": "Do you feel healthy?",
-      "phonetic": "khun rúu-sùek sùk-khà-phâap dee mǎi khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "รู้สึก", "target": "to feel", "phonetic": "rúu-sùek", "partOfSpeech": "verb" },
-        { "source": "สุขภาพ", "target": "health", "phonetic": "sùk-khà-phâap", "partOfSpeech": "noun" },
-        { "source": "ดี", "target": "good", "phonetic": "dee", "partOfSpeech": "adjective" },
-        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "ใช่ค่ะ ส่วนใหญ่ฉันรู้สึกดี",
-      "target": "Yes, I feel good most of the time.",
-      "phonetic": "châi khâ sùan-yài chăn rúu-sùek dee",
-      "breakdown": [
-        { "source": "ใช่", "target": "yes", "phonetic": "châi", "partOfSpeech": "interjection" },
-        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
-        { "source": "ส่วนใหญ่", "target": "most", "phonetic": "sùan-yài", "partOfSpeech": "adverb" },
-        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "รู้สึก", "target": "to feel", "phonetic": "rúu-sùek", "partOfSpeech": "verb" },
-        { "source": "ดี", "target": "good", "phonetic": "dee", "partOfSpeech": "adjective" }
-      ]
-    },
-    {
-      "source": "คุณไปหาหมอไหมครับ",
-      "target": "Do you go to the doctor?",
-      "phonetic": "khun bpai hǎa mŏr mǎi khráp",
-      "breakdown": [
-        { "source": "คุณ", "target": "you (polite)", "phonetic": "khun", "partOfSpeech": "pronoun" },
-        { "source": "ไปหา", "target": "to go to see", "phonetic": "bpai-hǎa", "partOfSpeech": "verb" },
-        { "source": "หมอ", "target": "doctor", "phonetic": "mŏr", "partOfSpeech": "noun" },
-        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "ฉันไปตรวจสุขภาพปีละครั้ง",
-      "target": "I go once a year for a checkup.",
-      "phonetic": "chăn bpai truàt sùk-khà-phâap pii-lá khráng",
-      "breakdown": [
-        { "source": "ฉัน", "target": "I (female)", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "ไป", "target": "to go", "phonetic": "bpai", "partOfSpeech": "verb" },
-        { "source": "ตรวจสุขภาพ", "target": "checkup", "phonetic": "truàt sùk-khà-phâap", "partOfSpeech": "verb/noun" },
-        { "source": "ปีละ", "target": "per year", "phonetic": "pii-lá", "partOfSpeech": "adverb" },
-        { "source": "ครั้ง", "target": "once/time", "phonetic": "khráng", "partOfSpeech": "classifier" }
-      ]
-    },
-    {
-      "source": "หมอใจดีไหมครับ",
-      "target": "Is the doctor nice?",
-      "phonetic": "mŏr jai-dee mǎi khráp",
-      "breakdown": [
-        { "source": "หมอ", "target": "doctor", "phonetic": "mŏr", "partOfSpeech": "noun" },
-        { "source": "ใจดี", "target": "kind", "phonetic": "jai-dee", "partOfSpeech": "adjective" },
-        { "source": "ไหม", "target": "question particle", "phonetic": "mǎi", "partOfSpeech": "particle" },
-        { "source": "ครับ", "target": "male polite particle", "phonetic": "khráp", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "ใช่ค่ะ หมอของฉันใจดีมาก",
-      "target": "Yes, my doctor is very kind.",
-      "phonetic": "châi khâ mŏr khǎwng chăn jai-dee mâak",
-      "breakdown": [
-        { "source": "ใช่", "target": "yes", "phonetic": "châi", "partOfSpeech": "interjection" },
-        { "source": "ค่ะ", "target": "female polite particle", "phonetic": "khâ", "partOfSpeech": "particle" },
-        { "source": "หมอ", "target": "doctor", "phonetic": "mŏr", "partOfSpeech": "noun" },
-        { "source": "ของ", "target": "of", "phonetic": "khǎwng", "partOfSpeech": "preposition" },
-        { "source": "ฉัน", "target": "my", "phonetic": "chăn", "partOfSpeech": "pronoun" },
-        { "source": "ใจดี", "target": "kind", "phonetic": "jai-dee", "partOfSpeech": "adjective" },
-        { "source": "มาก", "target": "very", "phonetic": "mâak", "partOfSpeech": "adverb" }
-      ]
-    }
-  ],
-  "createdAt": "2025-09-29T15:31:30Z",
-  "updatedAt": "2025-09-29T15:31:30Z",
-  "difficulty": "intermediate",
-  "summary": "บทสนทนาเรื่องสุขภาพและการออกกำลังกาย: ประเภทการออกกำลังกาย วิ่ง โยคะ อาหารเพื่อสุขภาพ การดื่มน้ำ ความรู้สึกสุขภาพดี การตรวจสุขภาพ และคุณหมอ"
+    "sentences": [
+        {
+            "source": "คุณออกกำลังกายไหมครับ",
+            "target": "Do you exercise?",
+            "phonetic": "khun òk-gam-lang-gaai mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ออกกำลังกาย",
+                    "target": "to exercise",
+                    "phonetic": "òk-gam-lang-gaai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ใช่ค่ะ ฉันออกกำลังกายสัปดาห์ละสามครั้ง",
+            "target": "Yes, I exercise three times a week.",
+            "phonetic": "châi khâ chăn òk-gam-lang-gaai sàp-daa lá sǎam khráng",
+            "breakdown": [
+                {
+                    "source": "ใช่",
+                    "target": "yes",
+                    "phonetic": "châi",
+                    "partOfSpeech": "interjection"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "female polite particle",
+                    "phonetic": "khâ",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I (female)",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ออกกำลังกาย",
+                    "target": "to exercise",
+                    "phonetic": "òk-gam-lang-gaai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "สัปดาห์ละ",
+                    "target": "per week",
+                    "phonetic": "sàp-daa lá",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "สาม",
+                    "target": "three",
+                    "phonetic": "sǎam",
+                    "partOfSpeech": "numeral"
+                },
+                {
+                    "source": "ครั้ง",
+                    "target": "times",
+                    "phonetic": "khráng",
+                    "partOfSpeech": "classifier"
+                }
+            ]
+        },
+        {
+            "source": "คุณออกกำลังกายแบบไหนครับ",
+            "target": "What kind of exercise do you do?",
+            "phonetic": "khun òk-gam-lang-gaai bàep năi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ออกกำลังกาย",
+                    "target": "to exercise",
+                    "phonetic": "òk-gam-lang-gaai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "แบบ",
+                    "target": "type/kind",
+                    "phonetic": "bàep",
+                    "partOfSpeech": "classifier"
+                },
+                {
+                    "source": "ไหน",
+                    "target": "which",
+                    "phonetic": "năi",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ฉันวิ่งและเล่นโยคะ",
+            "target": "I run and do yoga.",
+            "phonetic": "chăn wîng láe lên yoo-khá",
+            "breakdown": [
+                {
+                    "source": "ฉัน",
+                    "target": "I (female)",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "วิ่ง",
+                    "target": "to run",
+                    "phonetic": "wîng",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "เล่น",
+                    "target": "to do/practice",
+                    "phonetic": "lên",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "โยคะ",
+                    "target": "yoga",
+                    "phonetic": "yoo-khá",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "คุณวิ่งที่ไหนครับ",
+            "target": "Where do you run?",
+            "phonetic": "khun wîng thîi năi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "วิ่ง",
+                    "target": "to run",
+                    "phonetic": "wîng",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ที่",
+                    "target": "at",
+                    "phonetic": "thîi",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ไหน",
+                    "target": "where",
+                    "phonetic": "năi",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ฉันวิ่งในสวนสาธารณะใกล้บ้าน",
+            "target": "I run in the park near my house.",
+            "phonetic": "chăn wîng nai sŭan sǎa-thaa-rá-ná glâi bâan",
+            "breakdown": [
+                {
+                    "source": "ฉัน",
+                    "target": "I (female)",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "วิ่ง",
+                    "target": "to run",
+                    "phonetic": "wîng",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ใน",
+                    "target": "in",
+                    "phonetic": "nai",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "สวนสาธารณะ",
+                    "target": "public park",
+                    "phonetic": "sŭan sǎa-thaa-rá-ná",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ใกล้",
+                    "target": "near",
+                    "phonetic": "glâi",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "บ้าน",
+                    "target": "home/house",
+                    "phonetic": "bâan",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "การวิ่งสนุกไหมครับ",
+            "target": "Is running fun?",
+            "phonetic": "gaan wîng sà-nùk mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "การ",
+                    "target": "nominalizer",
+                    "phonetic": "gaan",
+                    "partOfSpeech": "prefix"
+                },
+                {
+                    "source": "วิ่ง",
+                    "target": "running",
+                    "phonetic": "wîng",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "สนุก",
+                    "target": "fun",
+                    "phonetic": "sà-nùk",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "สนุกค่ะ แต่บางทีก็เหนื่อย",
+            "target": "Yes, but it’s tiring sometimes!",
+            "phonetic": "sà-nùk khâ dtàe baang-thee gôr nùeai",
+            "breakdown": [
+                {
+                    "source": "สนุก",
+                    "target": "fun",
+                    "phonetic": "sà-nùk",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "female polite particle",
+                    "phonetic": "khâ",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "แต่",
+                    "target": "but",
+                    "phonetic": "dtàe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "บางที",
+                    "target": "sometimes",
+                    "phonetic": "baang-thee",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ก็",
+                    "target": "emphasis/also",
+                    "phonetic": "gôr",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "เหนื่อย",
+                    "target": "tired",
+                    "phonetic": "nùeai",
+                    "partOfSpeech": "adjective"
+                }
+            ]
+        },
+        {
+            "source": "ทำไมคุณถึงเล่นโยคะครับ",
+            "target": "Why do you do yoga?",
+            "phonetic": "tham-mai khun thǔeng lên yoo-khá khráp",
+            "breakdown": [
+                {
+                    "source": "ทำไม",
+                    "target": "why",
+                    "phonetic": "tham-mai",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ถึง",
+                    "target": "then/so (emphasis)",
+                    "phonetic": "thǔeng",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "เล่น",
+                    "target": "to do/practice",
+                    "phonetic": "lên",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "โยคะ",
+                    "target": "yoga",
+                    "phonetic": "yoo-khá",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "โยคะช่วยให้ฉันผ่อนคลายและแข็งแรง",
+            "target": "Yoga helps me relax and stay strong.",
+            "phonetic": "yoo-khá chûai hâi chăn phòn-khlaai láe khǎeng-râaeng",
+            "breakdown": [
+                {
+                    "source": "โยคะ",
+                    "target": "yoga",
+                    "phonetic": "yoo-khá",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ช่วย",
+                    "target": "helps",
+                    "phonetic": "chûai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ให้",
+                    "target": "to make/let",
+                    "phonetic": "hâi",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "me",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ผ่อนคลาย",
+                    "target": "relax",
+                    "phonetic": "phòn-khlaai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "แข็งแรง",
+                    "target": "strong/healthy",
+                    "phonetic": "khǎeng-râaeng",
+                    "partOfSpeech": "adjective"
+                }
+            ]
+        },
+        {
+            "source": "คุณกินอาหารเพื่อสุขภาพไหมครับ",
+            "target": "Do you eat healthy food?",
+            "phonetic": "khun gin aa-hăan phûea sùk-khà-phâap mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "กิน",
+                    "target": "to eat",
+                    "phonetic": "gin",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "อาหาร",
+                    "target": "food",
+                    "phonetic": "aa-hăan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เพื่อ",
+                    "target": "for",
+                    "phonetic": "phûea",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "สุขภาพ",
+                    "target": "health",
+                    "phonetic": "sùk-khà-phâap",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ใช่ค่ะ ฉันพยายามกินผักและผลไม้",
+            "target": "Yes, I try to eat vegetables and fruit.",
+            "phonetic": "châi khâ chăn phá-yaa-yaam gin phàk láe phŏn-lá-mái",
+            "breakdown": [
+                {
+                    "source": "ใช่",
+                    "target": "yes",
+                    "phonetic": "châi",
+                    "partOfSpeech": "interjection"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "female polite particle",
+                    "phonetic": "khâ",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I (female)",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "พยายาม",
+                    "target": "to try",
+                    "phonetic": "phá-yaa-yaam",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "กิน",
+                    "target": "to eat",
+                    "phonetic": "gin",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ผัก",
+                    "target": "vegetables",
+                    "phonetic": "phàk",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ผลไม้",
+                    "target": "fruit",
+                    "phonetic": "phŏn-lá-mái",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "คุณดื่มน้ำมากไหมครับ",
+            "target": "Do you drink a lot of water?",
+            "phonetic": "khun dùuem náam mâak mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ดื่ม",
+                    "target": "to drink",
+                    "phonetic": "dùuem",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "น้ำ",
+                    "target": "water",
+                    "phonetic": "náam",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "มาก",
+                    "target": "a lot",
+                    "phonetic": "mâak",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ใช่ค่ะ ฉันดื่มน้ำทุกวัน",
+            "target": "Yes, I drink water every day.",
+            "phonetic": "châi khâ chăn dùuem náam thúk wan",
+            "breakdown": [
+                {
+                    "source": "ใช่",
+                    "target": "yes",
+                    "phonetic": "châi",
+                    "partOfSpeech": "interjection"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "female polite particle",
+                    "phonetic": "khâ",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I (female)",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ดื่ม",
+                    "target": "to drink",
+                    "phonetic": "dùuem",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "น้ำ",
+                    "target": "water",
+                    "phonetic": "náam",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ทุกวัน",
+                    "target": "every day",
+                    "phonetic": "thúk wan",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "คุณรู้สึกสุขภาพดีไหมครับ",
+            "target": "Do you feel healthy?",
+            "phonetic": "khun rúu-sùek sùk-khà-phâap dee mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "รู้สึก",
+                    "target": "to feel",
+                    "phonetic": "rúu-sùek",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "สุขภาพ",
+                    "target": "health",
+                    "phonetic": "sùk-khà-phâap",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ดี",
+                    "target": "good",
+                    "phonetic": "dee",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ใช่ค่ะ ส่วนใหญ่ฉันรู้สึกดี",
+            "target": "Yes, I feel good most of the time.",
+            "phonetic": "châi khâ sùan-yài chăn rúu-sùek dee",
+            "breakdown": [
+                {
+                    "source": "ใช่",
+                    "target": "yes",
+                    "phonetic": "châi",
+                    "partOfSpeech": "interjection"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "female polite particle",
+                    "phonetic": "khâ",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ส่วนใหญ่",
+                    "target": "most",
+                    "phonetic": "sùan-yài",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I (female)",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "รู้สึก",
+                    "target": "to feel",
+                    "phonetic": "rúu-sùek",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ดี",
+                    "target": "good",
+                    "phonetic": "dee",
+                    "partOfSpeech": "adjective"
+                }
+            ]
+        },
+        {
+            "source": "คุณไปหาหมอไหมครับ",
+            "target": "Do you go to the doctor?",
+            "phonetic": "khun bpai hǎa mŏr mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ไปหา",
+                    "target": "to go to see",
+                    "phonetic": "bpai-hǎa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "หมอ",
+                    "target": "doctor",
+                    "phonetic": "mŏr",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ฉันไปตรวจสุขภาพปีละครั้ง",
+            "target": "I go once a year for a checkup.",
+            "phonetic": "chăn bpai truàt sùk-khà-phâap pii-lá khráng",
+            "breakdown": [
+                {
+                    "source": "ฉัน",
+                    "target": "I (female)",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ไป",
+                    "target": "to go",
+                    "phonetic": "bpai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ตรวจสุขภาพ",
+                    "target": "checkup",
+                    "phonetic": "truàt sùk-khà-phâap",
+                    "partOfSpeech": "verb/noun"
+                },
+                {
+                    "source": "ปีละ",
+                    "target": "per year",
+                    "phonetic": "pii-lá",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ครั้ง",
+                    "target": "once/time",
+                    "phonetic": "khráng",
+                    "partOfSpeech": "classifier"
+                }
+            ]
+        },
+        {
+            "source": "หมอใจดีไหมครับ",
+            "target": "Is the doctor nice?",
+            "phonetic": "mŏr jai-dee mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "หมอ",
+                    "target": "doctor",
+                    "phonetic": "mŏr",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ใจดี",
+                    "target": "kind",
+                    "phonetic": "jai-dee",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ใช่ค่ะ หมอของฉันใจดีมาก",
+            "target": "Yes, my doctor is very kind.",
+            "phonetic": "châi khâ mŏr khǎwng chăn jai-dee mâak",
+            "breakdown": [
+                {
+                    "source": "ใช่",
+                    "target": "yes",
+                    "phonetic": "châi",
+                    "partOfSpeech": "interjection"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "female polite particle",
+                    "phonetic": "khâ",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "หมอ",
+                    "target": "doctor",
+                    "phonetic": "mŏr",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ของ",
+                    "target": "of",
+                    "phonetic": "khǎwng",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "my",
+                    "phonetic": "chăn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ใจดี",
+                    "target": "kind",
+                    "phonetic": "jai-dee",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "มาก",
+                    "target": "very",
+                    "phonetic": "mâak",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        }
+    ],
+    "createdAt": "2025-09-29T15:31:30Z",
+    "updatedAt": "2025-09-29T15:31:30Z",
+    "difficulty": "intermediate",
+    "summary": "บทสนทนาเรื่องสุขภาพและการออกกำลังกาย: ประเภทการออกกำลังกาย วิ่ง โยคะ อาหารเพื่อสุขภาพ การดื่มน้ำ ความรู้สึกสุขภาพดี การตรวจสุขภาพ และคุณหมอ"
 }

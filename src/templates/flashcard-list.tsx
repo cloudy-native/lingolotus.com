@@ -5,7 +5,6 @@ import {
     Container,
     Flex,
     Heading,
-    Image,
     SimpleGrid,
     Stack,
     Tag,
@@ -13,7 +12,10 @@ import {
 } from "@chakra-ui/react";
 import { graphql, HeadFC, Link } from "gatsby";
 
+import { LanguageCard } from "../components/LanguageCard";
+import { LazyImage } from "../components/LazyImage";
 import { semanticColors, tagColorSchemes } from "../theme/colors";
+import { tokens } from "../theme/tokens";
 import type { Collection } from "../types";
 import { collectionDetailPath } from "../utils/paths";
 
@@ -28,30 +30,20 @@ interface CollectionListTemplateProps {
 const CollectionCard: React.FC<{ collection: Collection }> = ({
     collection,
 }) => {
-    const cardBg = semanticColors.card.bg;
-    const cardBorder = semanticColors.card.border;
-
     return (
         <Link to={collectionDetailPath(collection.collectionId)}>
-            <Box
-                borderWidth="1px"
-                borderRadius="lg"
-                borderColor={cardBorder}
-                overflow="hidden"
-                bg={cardBg}
-                transition="all 0.3s"
-                _hover={{ transform: "translateY(-4px)", shadow: "md" }}
-            >
+            <LanguageCard>
                 {collection.imageUrl && (
-                    <Image
+                    <LazyImage
                         src={collection.imageUrl}
                         alt={collection.name}
-                        height="200px"
+                        height={tokens.card.imageHeight}
                         width="100%"
                         objectFit="cover"
+                        loading="lazy"
                     />
                 )}
-                <Box p={5}>
+                <Box p={tokens.card.padding}>
                     <Flex justify="space-between" align="center" mb={2}>
                         <Heading as="h3" size="md" fontWeight="semibold">
                             {collection.name}
@@ -83,7 +75,7 @@ const CollectionCard: React.FC<{ collection: Collection }> = ({
                         </Flex>
                     </Stack>
                 </Box>
-            </Box>
+            </LanguageCard>
         </Link>
     );
 };

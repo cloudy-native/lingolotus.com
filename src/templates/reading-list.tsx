@@ -6,7 +6,6 @@ import {
     Flex,
     Heading,
     HStack,
-    Image,
     SimpleGrid,
     Stack,
     Tag,
@@ -15,8 +14,10 @@ import {
 import type { PageProps } from "gatsby";
 import { graphql, HeadFC, Link } from "gatsby";
 
+import { LanguageCard } from "../components/LanguageCard";
 import { LazyImage } from "../components/LazyImage";
 import { semanticColors, tagColorSchemes } from "../theme/colors";
+import { tokens } from "../theme/tokens";
 import type { Book } from "../types";
 import type { LanguageConfig } from "../types/language";
 import { bookDetailPath } from "../utils/paths";
@@ -34,8 +35,8 @@ const ReadingListTemplate = ({ data }: PageProps<ReadingPageData>) => {
     const heroBg = semanticColors.hero.reading;
     const sectionBg = semanticColors.section.bg;
     const borderColor = semanticColors.border.default;
-    const cardBg = semanticColors.card.bg;
-    const cardBorderColor = semanticColors.card.border;
+    const _cardBg = semanticColors.card.bg;
+    const _cardBorderColor = semanticColors.card.border;
     const supportingTextColor = semanticColors.text.supporting;
 
     const books = data.allBookJson.nodes;
@@ -155,110 +156,109 @@ const ReadingListTemplate = ({ data }: PageProps<ReadingPageData>) => {
                                     >
                                         {booksByLanguage[languageCode].map(
                                             (book: Book) => (
-                                                <Box
-                                                    as={Link}
+                                                <Link
                                                     to={bookDetailPath(
                                                         book.bookId,
                                                     )}
                                                     key={book.bookId}
-                                                    bg={cardBg}
-                                                    borderWidth="1px"
-                                                    borderColor={
-                                                        cardBorderColor
-                                                    }
-                                                    borderRadius="lg"
-                                                    overflow="hidden"
-                                                    boxShadow="sm"
-                                                    display="flex"
-                                                    flexDirection="column"
-                                                    transition="all 0.2s"
-                                                    _hover={{
-                                                        transform:
-                                                            "translateY(-4px)",
-                                                        boxShadow: "md",
-                                                    }}
+                                                    style={{ height: "100%" }}
                                                 >
-                                                    {book.imageUrl && (
-                                                        <LazyImage
-                                                            src={book.imageUrl}
-                                                            alt={book.name}
-                                                            w="100%"
-                                                            h="180px"
-                                                            objectFit="cover"
-                                                            loading="lazy"
-                                                        />
-                                                    )}
-                                                    <Box
-                                                        p={6}
-                                                        flex="1"
+                                                    <LanguageCard
                                                         display="flex"
                                                         flexDirection="column"
+                                                        height="100%"
                                                     >
-                                                        <Heading
-                                                            as="h4"
-                                                            size="md"
-                                                            mb={2}
-                                                        >
-                                                            {book.name}
-                                                        </Heading>
-                                                        <Text
-                                                            color={
-                                                                supportingTextColor
-                                                            }
-                                                            mb={4}
-                                                        >
-                                                            {book.description}
-                                                        </Text>
-                                                        <HStack
-                                                            spacing={2}
-                                                            flexWrap="wrap"
-                                                            mt="auto"
-                                                        >
-                                                            <Tag
-                                                                colorScheme={
-                                                                    tagColorSchemes.language
+                                                        {book.imageUrl && (
+                                                            <LazyImage
+                                                                src={
+                                                                    book.imageUrl
                                                                 }
-                                                                textTransform="uppercase"
+                                                                alt={book.name}
+                                                                w="100%"
+                                                                h={
+                                                                    tokens.card
+                                                                        .imageHeight
+                                                                }
+                                                                objectFit="cover"
+                                                                loading="lazy"
+                                                            />
+                                                        )}
+                                                        <Box
+                                                            p={
+                                                                tokens.card
+                                                                    .padding
+                                                            }
+                                                            flex="1"
+                                                            display="flex"
+                                                            flexDirection="column"
+                                                        >
+                                                            <Heading
+                                                                as="h4"
+                                                                size="md"
+                                                                mb={2}
+                                                            ></Heading>
+                                                            <Text
+                                                                color={
+                                                                    supportingTextColor
+                                                                }
+                                                                mb={4}
+                                                                flex="1"
                                                             >
                                                                 {
-                                                                    book.sourceLanguage
+                                                                    book.description
                                                                 }
-                                                            </Tag>
-                                                            {book.targetLanguage && (
+                                                            </Text>
+                                                            <HStack
+                                                                spacing={2}
+                                                                flexWrap="wrap"
+                                                                mt="auto"
+                                                            >
                                                                 <Tag
                                                                     colorScheme={
-                                                                        tagColorSchemes.targetLanguage
+                                                                        tagColorSchemes.language
                                                                     }
                                                                     textTransform="uppercase"
                                                                 >
                                                                     {
-                                                                        book.targetLanguage
+                                                                        book.sourceLanguage
                                                                     }
                                                                 </Tag>
-                                                            )}
-                                                            {book.difficulty && (
-                                                                <Tag
-                                                                    colorScheme={
-                                                                        tagColorSchemes.difficulty
-                                                                    }
-                                                                >
-                                                                    {
-                                                                        book.difficulty
-                                                                    }
-                                                                </Tag>
-                                                            )}
-                                                            {book.featured && (
-                                                                <Tag
-                                                                    colorScheme={
-                                                                        tagColorSchemes.featured
-                                                                    }
-                                                                >
-                                                                    Featured
-                                                                </Tag>
-                                                            )}
-                                                        </HStack>
-                                                    </Box>
-                                                </Box>
+                                                                {book.targetLanguage && (
+                                                                    <Tag
+                                                                        colorScheme={
+                                                                            tagColorSchemes.targetLanguage
+                                                                        }
+                                                                        textTransform="uppercase"
+                                                                    >
+                                                                        {
+                                                                            book.targetLanguage
+                                                                        }
+                                                                    </Tag>
+                                                                )}
+                                                                {book.difficulty && (
+                                                                    <Tag
+                                                                        colorScheme={
+                                                                            tagColorSchemes.difficulty
+                                                                        }
+                                                                    >
+                                                                        {
+                                                                            book.difficulty
+                                                                        }
+                                                                    </Tag>
+                                                                )}
+                                                                {book.featured && (
+                                                                    <Tag
+                                                                        colorScheme={
+                                                                            tagColorSchemes.featured
+                                                                        }
+                                                                    >
+                                                                        Featured
+                                                                    </Tag>
+                                                                )}
+                                                            </HStack>
+                                                        </Box>
+                                                    </LanguageCard>
+                                                </Link>
                                             ),
                                         )}
                                     </SimpleGrid>

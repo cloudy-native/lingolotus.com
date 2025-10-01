@@ -1,14 +1,14 @@
 {
-  "hosted-zone:account=607477397669:domainName=handycomputerbloke.com:region=us-east-1": {
-    "Id": "/hostedzone/Z04300052FTHFSSX72YZO",
-    "Name": "handycomputerbloke.com."
-  },
-  "hosted-zone:account=607477397669:domainName=emigratethailand.com:region=us-east-1": {
-    "Id": "/hostedzone/Z0611863H785A1PEZBVO",
-    "Name": "emigratethailand.com."
-  },
-  "hosted-zone:account=607477397669:domainName=lingolotus.com:region=us-east-1": {
-    "Id": "/hostedzone/Z00986202UM3UIONI1FQN",
-    "Name": "lingolotus.com."
-  }
+    "hosted-zone:account=607477397669:domainName=handycomputerbloke.com:region=us-east-1": {
+        "Id": "/hostedzone/Z04300052FTHFSSX72YZO",
+        "Name": "handycomputerbloke.com."
+    },
+    "hosted-zone:account=607477397669:domainName=emigratethailand.com:region=us-east-1": {
+        "Id": "/hostedzone/Z0611863H785A1PEZBVO",
+        "Name": "emigratethailand.com."
+    },
+    "hosted-zone:account=607477397669:domainName=lingolotus.com:region=us-east-1": {
+        "Id": "/hostedzone/Z00986202UM3UIONI1FQN",
+        "Name": "lingolotus.com."
+    }
 }

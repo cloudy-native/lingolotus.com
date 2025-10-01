@@ -1,13 +1,13 @@
 {
-  "bookId": "thai-advanced-1",
-  "name": "Thai Reading Advanced Book 1",
-  "description": "Advanced 1 stories for learners to master complex narratives with sophisticated vocabulary, nuanced expressions, cultural themes, and advanced grammar structures including conditionals, passive voice, and literary devices.",
-  "sourceLanguage": "th",
-  "targetLanguage": "en",
-  "createdAt": "2025-09-30T20:19:00Z",
-  "updatedAt": "2025-09-30T20:19:00Z",
-  "category": "language-learning",
-  "difficulty": "Advanced",
-  "imageUrl": "/images/IMG_5673.jpeg",
-  "featured": false
+    "bookId": "thai-advanced-1",
+    "name": "Thai Reading Advanced Book 1",
+    "description": "Advanced 1 stories for learners to master complex narratives with sophisticated vocabulary, nuanced expressions, cultural themes, and advanced grammar structures including conditionals, passive voice, and literary devices.",
+    "sourceLanguage": "th",
+    "targetLanguage": "en",
+    "createdAt": "2025-09-30T20:19:00Z",
+    "updatedAt": "2025-09-30T20:19:00Z",
+    "category": "language-learning",
+    "difficulty": "Advanced",
+    "imageUrl": "/images/IMG_5673.jpeg",
+    "featured": false
 }

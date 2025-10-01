@@ -1,306 +1,1061 @@
 {
-  "storyId": "thai-intermediate-2-the-book-club",
-  "bookId": "thai-intermediate-2",
-  "language": "th",
-  "title": {
-    "source": "ชมรมหนังสือ",
-    "target": "The Book Club"
-  },
-  "sentences": [
-    {
-      "source": "เมื่อเลนาเข้าชมรมหนังสือ เธอหวังว่าจะได้พบคนรักการอ่านเหมือนกัน",
-      "target": "When Lena joined a book club, she had hoped to meet people who loved reading.",
-      "phonetic": "mʉ̂a le-naa khâo chom-rom năng-sʉ̌ʉ thoe wǎng wâa jà dâi phóp khon rák gaan-àan mʉ̌an gan",
-      "breakdown": [
-        { "source": "เมื่อ", "target": "when", "phonetic": "mʉ̂a", "partOfSpeech": "conjunction" },
-        { "source": "เลนา", "target": "Lena", "phonetic": "le-naa", "partOfSpeech": "proper_noun" },
-        { "source": "เข้าชมรมหนังสือ", "target": "joined a book club", "phonetic": "khâo chom-rom năng-sʉ̌ʉ", "partOfSpeech": "verb" },
-        { "source": "เธอหวังว่า", "target": "she hoped that", "phonetic": "thoe wǎng wâa", "partOfSpeech": "verb" },
-        { "source": "จะได้พบ", "target": "to meet", "phonetic": "jà dâi phóp", "partOfSpeech": "auxiliary" },
-        { "source": "คนรักการอ่าน", "target": "people who loved reading", "phonetic": "khon rák gaan-àan", "partOfSpeech": "noun" },
-        { "source": "เหมือนกัน", "target": "as well", "phonetic": "mʉ̌an gan", "partOfSpeech": "adverb" }
-      ]
+    "storyId": "thai-intermediate-2-the-book-club",
+    "bookId": "thai-intermediate-2",
+    "language": "th",
+    "title": {
+        "source": "ชมรมหนังสือ",
+        "target": "The Book Club"
     },
-    {
-      "source": "กลุ่มพบกันทุกเดือนเพื่อพูดคุยนิยายเล่มใหม่ที่โหวตเลือก",
-      "target": "The group met every month to discuss a new novel, chosen by vote.",
-      "phonetic": "glùm phóp gan thúk dʉʉan phʉ̂a phûut-khui ní-yaai lêmm mài thîi hòot lʉ̂ak",
-      "breakdown": [
-        { "source": "กลุ่ม", "target": "the group", "phonetic": "glùm", "partOfSpeech": "noun" },
-        { "source": "พบกันทุกเดือน", "target": "met every month", "phonetic": "phóp gan thúk dʉʉan", "partOfSpeech": "verb" },
-        { "source": "เพื่อ", "target": "to", "phonetic": "phʉ̂a", "partOfSpeech": "preposition" },
-        { "source": "พูดคุย", "target": "discuss", "phonetic": "phûut-khui", "partOfSpeech": "verb" },
-        { "source": "นิยายเล่มใหม่", "target": "a new novel", "phonetic": "ní-yaai lêm mài", "partOfSpeech": "noun" },
-        { "source": "ที่โหวตเลือก", "target": "chosen by vote", "phonetic": "thîi hòot lʉ̂ak", "partOfSpeech": "clause" }
-      ]
-    },
-    {
-      "source": "หนังสือเล่มล่าสุดซึ่งเป็นแนวสืบสวน ทำให้เลนานอนไม่หลับจนดึก",
-      "target": "Their latest book, a mystery, had kept Lena awake late at night.",
-      "phonetic": "năng-sʉ̌ʉ lêm lâa-sùt sʉ̂ng bpen naeow sʉ̀ʉp-sǔan tham hâi le-naa nɔɔn mâi làp jon dʉk",
-      "breakdown": [
-        { "source": "หนังสือเล่มล่าสุด", "target": "latest book", "phonetic": "nâng-sʉ̌ʉ lêm lâa-sùt", "partOfSpeech": "noun" },
-        { "source": "ซึ่งเป็นแนวสืบสวน", "target": "which was a mystery", "phonetic": "sʉ̂ng bpen naeow sʉ̀ʉp-sǔan", "partOfSpeech": "clause" },
-        { "source": "ทำให้", "target": "made/kept", "phonetic": "tham hâi", "partOfSpeech": "verb" },
-        { "source": "เลนา", "target": "Lena", "phonetic": "le-naa", "partOfSpeech": "proper_noun" },
-        { "source": "นอนไม่หลับ", "target": "unable to sleep", "phonetic": "nɔɔn mâi làp", "partOfSpeech": "verb" },
-        { "source": "จนดึก", "target": "until late", "phonetic": "jon dʉk", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "เธอบอกกับกลุ่มว่าเธออ่านจบภายในสองวัน เพราะมันน่าตื่นเต้นมาก",
-      "target": "She told the group she had finished it in just two days because it was so exciting.",
-      "phonetic": "thoe bɔ̀ɔk gàp glùm wâa thoe àan jòp phaa nai sɔ̌ɔng wan phráw man nâa tʉ̀ʉn-dtên mâak",
-      "breakdown": [
-        { "source": "เธอบอกกับกลุ่มว่า", "target": "she told the group that", "phonetic": "thoe bɔ̀ɔk gàp glùm wâa", "partOfSpeech": "verb" },
-        { "source": "เธออ่านจบ", "target": "she finished reading", "phonetic": "thoe àan jòp", "partOfSpeech": "verb" },
-        { "source": "ภายในสองวัน", "target": "within two days", "phonetic": "phaa nai sɔ̌ɔng wan", "partOfSpeech": "adverb" },
-        { "source": "เพราะ", "target": "because", "phonetic": "phráw", "partOfSpeech": "conjunction" },
-        { "source": "มันน่าตื่นเต้นมาก", "target": "it was very exciting", "phonetic": "man nâa tʉ̀ʉn-dtên mâak", "partOfSpeech": "clause" }
-      ]
-    },
-    {
-      "source": "สมาชิกอีกคนชื่อแซมบอกว่า ตอนจบชวนประหลาดใจแต่ก็น่าพอใจ",
-      "target": "Another member, Sam, said he had found the ending surprising but satisfying.",
-      "phonetic": "sà-maa-chík ìik khon chʉ̂ʉ sɛɛm bɔ̀ɔk wâa dtawn jòp chuan bprà-làat-jai dtàe gɔ̂ɔ nâa phɔɔ-jai",
-      "breakdown": [
-        { "source": "สมาชิกอีกคนชื่อแซม", "target": "another member named Sam", "phonetic": "sà-maa-chík ìik khon chʉ̂ʉ sɛɛm", "partOfSpeech": "noun" },
-        { "source": "บอกว่า", "target": "said that", "phonetic": "bɔ̀ɔk wâa", "partOfSpeech": "verb" },
-        { "source": "ตอนจบ", "target": "the ending", "phonetic": "dtawn jòp", "partOfSpeech": "noun" },
-        { "source": "ชวนประหลาดใจ", "target": "surprising", "phonetic": "chuan bprà-làat-jai", "partOfSpeech": "adjective" },
-        { "source": "แต่ก็", "target": "but also", "phonetic": "dtàe gɔ̂ɔ", "partOfSpeech": "conjunction" },
-        { "source": "น่าพอใจ", "target": "satisfying", "phonetic": "nâa phɔɔ-jai", "partOfSpeech": "adjective" }
-      ]
-    },
-    {
-      "source": "พวกเขาถกเถียงกันว่าตัวละครเอกควรตัดสินใจต่างออกไปหรือไม่",
-      "target": "They debated whether the main character should have made different choices.",
-      "phonetic": "phûak-kháo thòk-thǐang gan wâa tua-lá-kɔɔn èek khuan dtàt-sǐn-jai tàang òrk bpai rʉ̌ʉ mâi",
-      "breakdown": [
-        { "source": "พวกเขาถกเถียงกันว่า", "target": "they debated whether", "phonetic": "phûak-kháo thòk-thǐang gan wâa", "partOfSpeech": "verb" },
-        { "source": "ตัวละครเอก", "target": "the main character", "phonetic": "tua-lá-kɔɔn èek", "partOfSpeech": "noun" },
-        { "source": "ควรตัดสินใจ", "target": "should decide", "phonetic": "khuan dtàt-sǐn-jai", "partOfSpeech": "verb" },
-        { "source": "ต่างออกไปหรือไม่", "target": "differently or not", "phonetic": "tàang òrk bpai rʉ̌ʉ mâi", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "เลนาเสนอว่าครั้งหน้าควรอ่านนวนิยายอิงประวัติศาสตร์",
-      "target": "Lena suggested they could read a historical novel next time.",
-      "phonetic": "le-naa sà-nǒe wâa khráng nâa khuan àan na-waa-ní-yaai ing bprà-wàt-sàat",
-      "breakdown": [
-        { "source": "เลนา", "target": "Lena", "phonetic": "le-naa", "partOfSpeech": "proper_noun" },
-        { "source": "เสนอว่า", "target": "suggested that", "phonetic": "sà-nǒe wâa", "partOfSpeech": "verb" },
-        { "source": "ครั้งหน้า", "target": "next time", "phonetic": "khráng nâa", "partOfSpeech": "adverb" },
-        { "source": "ควร", "target": "should", "phonetic": "khuan", "partOfSpeech": "auxiliary" },
-        { "source": "อ่าน", "target": "read", "phonetic": "àan", "partOfSpeech": "verb" },
-        { "source": "นวนิยาย", "target": "novel", "phonetic": "na-waa-ní-yaai", "partOfSpeech": "noun" },
-        { "source": "อิงประวัติศาสตร์", "target": "historical", "phonetic": "ing bprà-wàt-sàat", "partOfSpeech": "adjective" }
-      ]
-    },
-    {
-      "source": "ถ้าเธอไม่เข้าชมรม เธอคงไม่ได้รู้จักนักเขียนใหม่ๆ",
-      "target": "If she hadn’t joined the club, she wouldn’t have discovered new authors.",
-      "phonetic": "thâa thoe mâi khâo chom-rom thoe khong mâi dâi rúu-jak nák-khǐan mài-mài",
-      "breakdown": [
-        { "source": "ถ้า", "target": "if", "phonetic": "thâa", "partOfSpeech": "conjunction" },
-        { "source": "เธอ", "target": "she", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "ไม่", "target": "not", "phonetic": "mâi", "partOfSpeech": "negative" },
-        { "source": "เข้าชมรม", "target": "joined the club", "phonetic": "khâo chom-rom", "partOfSpeech": "verb" },
-        { "source": "เธอคงไม่ได้", "target": "she wouldn't have", "phonetic": "thoe khong mâi dâi", "partOfSpeech": "auxiliary" },
-        { "source": "รู้จัก", "target": "known/discovered", "phonetic": "rúu-jak", "partOfSpeech": "verb" },
-        { "source": "นักเขียน", "target": "authors", "phonetic": "nák-khǐan", "partOfSpeech": "noun" },
-        { "source": "ใหม่ๆ", "target": "new", "phonetic": "mài-mài", "partOfSpeech": "adjective" }
-      ]
-    },
-    {
-      "source": "การอ่านหนังสือที่ท้าทายช่วยพัฒนาคำศัพท์และความเข้าใจของเธอ",
-      "target": "Reading challenging books improved her vocabulary and comprehension.",
-      "phonetic": "gaan-àan năng-sʉ̌ʉ thîi tháa-thaai chûai phát-thá-naa kham-sàp láe khwaam khâo-jai khǎwng thoe",
-      "breakdown": [
-        { "source": "การอ่าน", "target": "reading", "phonetic": "gaan-àan", "partOfSpeech": "noun" },
-        { "source": "หนังสือ", "target": "books", "phonetic": "năng-sʉ̌ʉ", "partOfSpeech": "noun" },
-        { "source": "ที่ท้าทาย", "target": "challenging", "phonetic": "thîi tháa-thaai", "partOfSpeech": "adjective" },
-        { "source": "ช่วย", "target": "helped/improved", "phonetic": "chûai", "partOfSpeech": "verb" },
-        { "source": "พัฒนา", "target": "develop", "phonetic": "phát-thá-naa", "partOfSpeech": "verb" },
-        { "source": "คำศัพท์", "target": "vocabulary", "phonetic": "kham-sàp", "partOfSpeech": "noun" },
-        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
-        { "source": "ความเข้าใจ", "target": "comprehension", "phonetic": "khwaam khâo-jai", "partOfSpeech": "noun" },
-        { "source": "ของเธอ", "target": "her", "phonetic": "khǎwng thoe", "partOfSpeech": "pronoun" }
-      ]
-    },
-    {
-      "source": "ผู้นำกลุ่ม คุณคาร์เตอร์ กระตุ้นให้ทุกคนแสดงความคิดเห็นของตน",
-      "target": "The group’s leader, Ms. Carter, encouraged everyone to share their opinions.",
-      "phonetic": "phûu-nam glùm khun khaa-dtôe krà-tûn hâi thúk khon sà-dɛɛng khwaam-khít khǎwng ton",
-      "breakdown": [
-        { "source": "ผู้นำกลุ่ม", "target": "group's leader", "phonetic": "phûu-nam glùm", "partOfSpeech": "noun" },
-        { "source": "คุณคาร์เตอร์", "target": "Ms. Carter", "phonetic": "khun khaa-dtôe", "partOfSpeech": "proper_noun" },
-        { "source": "กระตุ้นให้", "target": "encouraged", "phonetic": "krà-tûn hâi", "partOfSpeech": "verb" },
-        { "source": "ทุกคน", "target": "everyone", "phonetic": "thúk khon", "partOfSpeech": "pronoun" },
-        { "source": "แสดง", "target": "share/express", "phonetic": "sà-dɛɛng", "partOfSpeech": "verb" },
-        { "source": "ความคิดเห็น", "target": "opinions", "phonetic": "khwaam-khít", "partOfSpeech": "noun" },
-        { "source": "ของตน", "target": "their own", "phonetic": "khǎwng ton", "partOfSpeech": "pronoun" }
-      ]
-    },
-    {
-      "source": "เลนาบอกว่าเธอได้เรียนรู้มากจากการฟังมุมมองที่แตกต่าง",
-      "target": "Lena said she had learned a lot from hearing different perspectives.",
-      "phonetic": "le-naa bɔ̀ɔk wâa thoe dâi rian-rúu mâak jàak gaan fang mum-maawng thîi dtɛ̀ɛk-dtàang",
-      "breakdown": [
-        { "source": "เลนา", "target": "Lena", "phonetic": "le-naa", "partOfSpeech": "proper_noun" },
-        { "source": "บอกว่า", "target": "said that", "phonetic": "bɔ̀ɔk wâa", "partOfSpeech": "verb" },
-        { "source": "เธอ", "target": "she", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "ได้เรียนรู้", "target": "had learned", "phonetic": "dâi rian-rúu", "partOfSpeech": "verb" },
-        { "source": "มาก", "target": "a lot", "phonetic": "mâak", "partOfSpeech": "adverb" },
-        { "source": "จาก", "target": "from", "phonetic": "jàak", "partOfSpeech": "preposition" },
-        { "source": "การฟัง", "target": "hearing", "phonetic": "gaan fang", "partOfSpeech": "noun" },
-        { "source": "มุมมอง", "target": "perspectives", "phonetic": "mum-maawng", "partOfSpeech": "noun" },
-        { "source": "ที่แตกต่าง", "target": "different", "phonetic": "thîi dtɛ̀ɛk-dtàang", "partOfSpeech": "adjective" }
-      ]
-    },
-    {
-      "source": "แซมอธิบายว่าเขาชอบนิยายวิทยาศาสตร์ แต่ก็สนุกกับเรื่องสืบสวนนี้เหมือนกัน",
-      "target": "Sam explained that he preferred science fiction but enjoyed the mystery too.",
-      "phonetic": "sɛɛm à-thí-baai wâa khǎo chɔ̂ɔp ní-yaai wít-thá-yaa-sàat dtàe gɔ̂ɔ sà-nùk gàp rʉ̂ang sʉ̀ʉp-sǔan níi mʉ̌an gan",
-      "breakdown": [
-        { "source": "แซม", "target": "Sam", "phonetic": "sɛɛm", "partOfSpeech": "proper_noun" },
-        { "source": "อธิบายว่า", "target": "explained that", "phonetic": "à-thí-baai wâa", "partOfSpeech": "verb" },
-        { "source": "เขา", "target": "he", "phonetic": "khǎo", "partOfSpeech": "pronoun" },
-        { "source": "ชอบ", "target": "preferred", "phonetic": "chɔ̂ɔp", "partOfSpeech": "verb" },
-        { "source": "นิยายวิทยาศาสตร์", "target": "science fiction", "phonetic": "ní-yaai wít-thá-yaa-sàat", "partOfSpeech": "noun" },
-        { "source": "แต่ก็", "target": "but also", "phonetic": "dtàe gɔ̂ɔ", "partOfSpeech": "conjunction" },
-        { "source": "สนุกกับ", "target": "enjoyed", "phonetic": "sà-nùk gàp", "partOfSpeech": "verb" },
-        { "source": "เรื่องสืบสวนนี้", "target": "the mystery", "phonetic": "rʉ̂ang sʉ̀ʉp-sǔan níi", "partOfSpeech": "noun" },
-        { "source": "เหมือนกัน", "target": "too", "phonetic": "mʉ̌an gan", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "ถ้าชมรมอ่านนิยายไซไฟ เลนาอาจลองแนวนั้นเป็นครั้งแรก",
-      "target": "If the club reads a sci-fi book, Lena might try the genre for the first time.",
-      "phonetic": "thâa chom-rom àan ní-yaai sai-fai le-naa àat long naeow nán bpen khráng râek",
-      "breakdown": [
-        { "source": "ถ้า", "target": "if", "phonetic": "thâa", "partOfSpeech": "conjunction" },
-        { "source": "ชมรม", "target": "the club", "phonetic": "chom-rom", "partOfSpeech": "noun" },
-        { "source": "อ่าน", "target": "reads", "phonetic": "àan", "partOfSpeech": "verb" },
-        { "source": "นิยายไซไฟ", "target": "sci-fi book", "phonetic": "ní-yaai sai-fai", "partOfSpeech": "noun" },
-        { "source": "เลนา", "target": "Lena", "phonetic": "le-naa", "partOfSpeech": "proper_noun" },
-        { "source": "อาจ", "target": "might", "phonetic": "àat", "partOfSpeech": "auxiliary" },
-        { "source": "ลอง", "target": "try", "phonetic": "long", "partOfSpeech": "verb" },
-        { "source": "แนวนั้น", "target": "the genre", "phonetic": "naeow nán", "partOfSpeech": "noun" },
-        { "source": "เป็นครั้งแรก", "target": "for the first time", "phonetic": "bpen khráng râek", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "พวกเขานัดพบกันที่คาเฟ่อบอุ่น จิบกาแฟและคุยกันเรื่องธีม",
-      "target": "They met at a cozy café, where they sipped coffee and discussed themes.",
-      "phonetic": "phûak-kháo nát phóp gan thîi khaa-fê òp-ùn jìp gaa-fɛɛ láe khui gan rʉ̂ang thiim",
-      "breakdown": [
-        { "source": "พวก", "target": "they", "phonetic": "phûak", "partOfSpeech": "pronoun" },
-        { "source": "เขานัดพบกัน", "target": "met", "phonetic": "kháo nát phóp gan", "partOfSpeech": "verb" },
-        { "source": "ที่", "target": "at", "phonetic": "thîi", "partOfSpeech": "preposition" },
-        { "source": "คาเฟ่อบอุ่น", "target": "cozy café", "phonetic": "ka-fê òp-ùn", "partOfSpeech": "noun" },
-        { "source": "จิบ", "target": "sipped", "phonetic": "jìp", "partOfSpeech": "verb" },
-        { "source": "กาแฟ", "target": "coffee", "phonetic": "gaa-fɛɛ", "partOfSpeech": "noun" },
-        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
-        { "source": "คุยกัน", "target": "discussed", "phonetic": "khui gan", "partOfSpeech": "verb" },
-        { "source": "เรื่องธีม", "target": "themes", "phonetic": "rʉ̂ang thiim", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "เลนารักที่ชมรมทำให้เธอขบคิดอย่างลึกซึ้งเกี่ยวกับเรื่องเล่า",
-      "target": "Lena loved how the club made her think deeply about stories.",
-      "phonetic": "le-naa rák thîi chom-rom tham hâi thoe khòp-khít yàang lʉ́k-sʉ́eng gìeow-gàp rʉ̂ang-lâo",
-      "breakdown": [
-        { "source": "เลนา", "target": "Lena", "phonetic": "le-naa", "partOfSpeech": "proper_noun" },
-        { "source": "รัก", "target": "loved", "phonetic": "rák", "partOfSpeech": "verb" },
-        { "source": "ที่", "target": "how", "phonetic": "thîi", "partOfSpeech": "conjunction" },
-        { "source": "ชมรม", "target": "the club", "phonetic": "chom-rom", "partOfSpeech": "noun" },
-        { "source": "ทำให้", "target": "made", "phonetic": "tham hâi", "partOfSpeech": "verb" },
-        { "source": "เธอ", "target": "her", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "ขบคิด", "target": "think", "phonetic": "khòp-khít", "partOfSpeech": "verb" },
-        { "source": "อย่างลึกซึ้ง", "target": "deeply", "phonetic": "yàang lʉ́k-sʉ́eng", "partOfSpeech": "adverb" },
-        { "source": "เกี่ยวกับ", "target": "about", "phonetic": "gìeow-gàp", "partOfSpeech": "preposition" },
-        { "source": "เรื่องเล่า", "target": "stories", "phonetic": "rʉ̂ang-lâo", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "ก่อนเข้าชมรม เธอไม่เคยวิเคราะห์หนังสืออย่างใกล้ชิดขนาดนี้",
-      "target": "She had never analyzed books so closely before joining the group.",
-      "phonetic": "gɔ̀ɔn khâo chom-rom thoe mâi khoei wí-ró́k năng-sʉ̌ʉ yàang glâi-chít khà-nàat níi",
-      "breakdown": [
-        { "source": "ก่อน", "target": "before", "phonetic": "gɔ̀ɔn", "partOfSpeech": "preposition" },
-        { "source": "เข้าชมรม", "target": "joined the group", "phonetic": "khâo chom-rom", "partOfSpeech": "verb" },
-        { "source": "เธอ", "target": "she", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "ไม่เคยวิเคราะห์", "target": "had never analyzed", "phonetic": "mâi khoei wí-ró́k", "partOfSpeech": "verb" },
-        { "source": "หนังสือ", "target": "books", "phonetic": "náng-sʉ̌ʉ", "partOfSpeech": "noun" },
-        { "source": "อย่าง", "target": "so", "phonetic": "yàang", "partOfSpeech": "adverb" },
-        { "source": "ใกล้ชิด", "target": "closely", "phonetic": "glâi-chít", "partOfSpeech": "adverb" },
-        { "source": "ขนาดนี้", "target": "before", "phonetic": "khà-nàat níi", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "คุณคาร์เตอร์ประกาศว่าจะเชิญนักเขียนมาพูดคุยในเดือนหน้า",
-      "target": "Ms. Carter announced they would host an author talk next month.",
-      "phonetic": "khun khaa-dtôe bprà-gàat wâa jà choeen nák-khǐan maa phûut-khui nai dʉʉan nâa",
-      "breakdown": [
-        { "source": "คุณคาร์เตอร์", "target": "Ms. Carter", "phonetic": "khun khaa-dtôe", "partOfSpeech": "proper_noun" },
-        { "source": "ประกาศว่า", "target": "announced", "phonetic": "bprà-gàat wâa", "partOfSpeech": "verb" },
-        { "source": "จะ", "target": "they will", "phonetic": "jà", "partOfSpeech": "auxiliary" },
-        { "source": "เชิญ", "target": "invite", "phonetic": "choeen", "partOfSpeech": "verb" },
-        { "source": "นักเขียน", "target": "authors", "phonetic": "nák-khǐan", "partOfSpeech": "noun" },
-        { "source": "มาพูดคุย", "target": "to talk", "phonetic": "maa phûut-khui", "partOfSpeech": "verb" },
-        { "source": "ในเดือนหน้า", "target": "next month", "phonetic": "nai dʉʉan nâa", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "เลนาหวังว่าเธอจะได้ถามถึงกระบวนการเขียนของนักเขียน",
-      "target": "Lena hoped she could ask the author about their writing process.",
-      "phonetic": "le-naa wǎng wâa thoe jà dâi thǎam thʉ̌ng grà-buuan-gaan khǐan khǎwng nák-khǐan",
-      "breakdown": [
-        { "source": "เลนา", "target": "Lena", "phonetic": "le-naa", "partOfSpeech": "proper_noun" },
-        { "source": "หวังว่า", "target": "hoped", "phonetic": "wǎng wâa", "partOfSpeech": "verb" },
-        { "source": "เธอ", "target": "she", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "จะ", "target": "they will", "phonetic": "jà", "partOfSpeech": "auxiliary" },
-        { "source": "ได้", "target": "could", "phonetic": "dâi", "partOfSpeech": "auxiliary" },
-        { "source": "ถาม", "target": "ask", "phonetic": "thǎam", "partOfSpeech": "verb" },
-        { "source": "ถึง", "target": "about", "phonetic": "thʉ̌ng", "partOfSpeech": "preposition" },
-        { "source": "กระบวนการ", "target": "process", "phonetic": "grà-buuan-gaan", "partOfSpeech": "noun" },
-        { "source": "เขียน", "target": "writing", "phonetic": "khǐan", "partOfSpeech": "noun" },
-        { "source": "ของ", "target": "of", "phonetic": "khǎwng", "partOfSpeech": "preposition" },
-        { "source": "นักเขียน", "target": "authors", "phonetic": "nák-khǐan", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "ชมรมหนังสือกลายเป็นไฮไลต์ประจำเดือน เต็มไปด้วยไอเดีย",
-      "target": "The book club had become a highlight of her month, full of ideas.",
-      "phonetic": "chom-rom năng-sʉ̌ʉ glaai bpen hai-lai bprà-jam dʉʉan dtem bpai dûai ai-dia",
-      "breakdown": [
-        { "source": "ชมรมหนังสือ", "target": "the book club", "phonetic": "chom-rom năng-sʉ̌ʉ", "partOfSpeech": "noun" },
-        { "source": "กลายเป็น", "target": "had become", "phonetic": "glàai bpen", "partOfSpeech": "verb" },
-        { "source": "ไฮไลต์", "target": "highlight", "phonetic": "hai-lai", "partOfSpeech": "noun" },
-        { "source": "ประจำเดือน", "target": "of her month", "phonetic": "bprà-jam dʉʉan", "partOfSpeech": "adverb" },
-        { "source": "เต็มไปด้วย", "target": "full of", "phonetic": "dtem bpai dûai", "partOfSpeech": "verb" },
-        { "source": "ไอเดีย", "target": "ideas", "phonetic": "ai-dia", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "การอ่าน เขา/เธอค้นพบว่า ยิ่งดีขึ้นเมื่อแบ่งปันกับผู้อื่น",
-      "target": "Reading, she realized, was even better when shared with others.",
-      "phonetic": "gaan-àan tháoe khón-phóp wâa yîng dii khʉ̂n mʉ̂a bàeng-bpan gàp phûu-ʉ̀ʉn",
-      "breakdown": [
-        { "source": "การอ่าน", "target": "reading", "phonetic": "gaan-àan", "partOfSpeech": "noun" },
-        { "source": "เขา/เธอ", "target": "he/she", "phonetic": "kháo/thoe", "partOfSpeech": "pronoun" },
-        { "source": "ค้นพบว่า", "target": "realized", "phonetic": "khón-phóp wâa", "partOfSpeech": "verb" },
-        { "source": "ยิ่งดีขึ้น", "target": "even better", "phonetic": "yîng dii khʉ̂n", "partOfSpeech": "adverb" },
-        { "source": "เมื่อ", "target": "when", "phonetic": "mʉ̂a", "partOfSpeech": "conjunction" },
-        { "source": "แบ่งปัน", "target": "shared", "phonetic": "bàeng-bpan", "partOfSpeech": "verb" },
-        { "source": "กับ", "target": "with", "phonetic": "gàp", "partOfSpeech": "preposition" },
-        { "source": "ผู้อื่น", "target": "others", "phonetic": "phûu-ʉ̀ʉn", "partOfSpeech": "noun" }
-      ]
-    }
-  ],
-  "createdAt": "2025-09-29T23:39:00Z",
-  "updatedAt": "2025-09-30T00:12:00Z",
-  "difficulty": "intermediate",
-  "summary": "ชมรมหนังสือของเลนา: การอภิปราย นิยายลึกลับ มุมมองต่างๆ นักเขียนรับเชิญ และคุณค่าของการอ่านร่วมกัน"
+    "sentences": [
+        {
+            "source": "เมื่อเลนาเข้าชมรมหนังสือ เธอหวังว่าจะได้พบคนรักการอ่านเหมือนกัน",
+            "target": "When Lena joined a book club, she had hoped to meet people who loved reading.",
+            "phonetic": "mʉ̂a le-naa khâo chom-rom năng-sʉ̌ʉ thoe wǎng wâa jà dâi phóp khon rák gaan-àan mʉ̌an gan",
+            "breakdown": [
+                {
+                    "source": "เมื่อ",
+                    "target": "when",
+                    "phonetic": "mʉ̂a",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "เลนา",
+                    "target": "Lena",
+                    "phonetic": "le-naa",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "เข้าชมรมหนังสือ",
+                    "target": "joined a book club",
+                    "phonetic": "khâo chom-rom năng-sʉ̌ʉ",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เธอหวังว่า",
+                    "target": "she hoped that",
+                    "phonetic": "thoe wǎng wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "จะได้พบ",
+                    "target": "to meet",
+                    "phonetic": "jà dâi phóp",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "คนรักการอ่าน",
+                    "target": "people who loved reading",
+                    "phonetic": "khon rák gaan-àan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เหมือนกัน",
+                    "target": "as well",
+                    "phonetic": "mʉ̌an gan",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "กลุ่มพบกันทุกเดือนเพื่อพูดคุยนิยายเล่มใหม่ที่โหวตเลือก",
+            "target": "The group met every month to discuss a new novel, chosen by vote.",
+            "phonetic": "glùm phóp gan thúk dʉʉan phʉ̂a phûut-khui ní-yaai lêmm mài thîi hòot lʉ̂ak",
+            "breakdown": [
+                {
+                    "source": "กลุ่ม",
+                    "target": "the group",
+                    "phonetic": "glùm",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "พบกันทุกเดือน",
+                    "target": "met every month",
+                    "phonetic": "phóp gan thúk dʉʉan",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เพื่อ",
+                    "target": "to",
+                    "phonetic": "phʉ̂a",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "พูดคุย",
+                    "target": "discuss",
+                    "phonetic": "phûut-khui",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "นิยายเล่มใหม่",
+                    "target": "a new novel",
+                    "phonetic": "ní-yaai lêm mài",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ที่โหวตเลือก",
+                    "target": "chosen by vote",
+                    "phonetic": "thîi hòot lʉ̂ak",
+                    "partOfSpeech": "clause"
+                }
+            ]
+        },
+        {
+            "source": "หนังสือเล่มล่าสุดซึ่งเป็นแนวสืบสวน ทำให้เลนานอนไม่หลับจนดึก",
+            "target": "Their latest book, a mystery, had kept Lena awake late at night.",
+            "phonetic": "năng-sʉ̌ʉ lêm lâa-sùt sʉ̂ng bpen naeow sʉ̀ʉp-sǔan tham hâi le-naa nɔɔn mâi làp jon dʉk",
+            "breakdown": [
+                {
+                    "source": "หนังสือเล่มล่าสุด",
+                    "target": "latest book",
+                    "phonetic": "nâng-sʉ̌ʉ lêm lâa-sùt",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ซึ่งเป็นแนวสืบสวน",
+                    "target": "which was a mystery",
+                    "phonetic": "sʉ̂ng bpen naeow sʉ̀ʉp-sǔan",
+                    "partOfSpeech": "clause"
+                },
+                {
+                    "source": "ทำให้",
+                    "target": "made/kept",
+                    "phonetic": "tham hâi",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เลนา",
+                    "target": "Lena",
+                    "phonetic": "le-naa",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "นอนไม่หลับ",
+                    "target": "unable to sleep",
+                    "phonetic": "nɔɔn mâi làp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "จนดึก",
+                    "target": "until late",
+                    "phonetic": "jon dʉk",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "เธอบอกกับกลุ่มว่าเธออ่านจบภายในสองวัน เพราะมันน่าตื่นเต้นมาก",
+            "target": "She told the group she had finished it in just two days because it was so exciting.",
+            "phonetic": "thoe bɔ̀ɔk gàp glùm wâa thoe àan jòp phaa nai sɔ̌ɔng wan phráw man nâa tʉ̀ʉn-dtên mâak",
+            "breakdown": [
+                {
+                    "source": "เธอบอกกับกลุ่มว่า",
+                    "target": "she told the group that",
+                    "phonetic": "thoe bɔ̀ɔk gàp glùm wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เธออ่านจบ",
+                    "target": "she finished reading",
+                    "phonetic": "thoe àan jòp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ภายในสองวัน",
+                    "target": "within two days",
+                    "phonetic": "phaa nai sɔ̌ɔng wan",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "เพราะ",
+                    "target": "because",
+                    "phonetic": "phráw",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "มันน่าตื่นเต้นมาก",
+                    "target": "it was very exciting",
+                    "phonetic": "man nâa tʉ̀ʉn-dtên mâak",
+                    "partOfSpeech": "clause"
+                }
+            ]
+        },
+        {
+            "source": "สมาชิกอีกคนชื่อแซมบอกว่า ตอนจบชวนประหลาดใจแต่ก็น่าพอใจ",
+            "target": "Another member, Sam, said he had found the ending surprising but satisfying.",
+            "phonetic": "sà-maa-chík ìik khon chʉ̂ʉ sɛɛm bɔ̀ɔk wâa dtawn jòp chuan bprà-làat-jai dtàe gɔ̂ɔ nâa phɔɔ-jai",
+            "breakdown": [
+                {
+                    "source": "สมาชิกอีกคนชื่อแซม",
+                    "target": "another member named Sam",
+                    "phonetic": "sà-maa-chík ìik khon chʉ̂ʉ sɛɛm",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "บอกว่า",
+                    "target": "said that",
+                    "phonetic": "bɔ̀ɔk wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ตอนจบ",
+                    "target": "the ending",
+                    "phonetic": "dtawn jòp",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ชวนประหลาดใจ",
+                    "target": "surprising",
+                    "phonetic": "chuan bprà-làat-jai",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "แต่ก็",
+                    "target": "but also",
+                    "phonetic": "dtàe gɔ̂ɔ",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "น่าพอใจ",
+                    "target": "satisfying",
+                    "phonetic": "nâa phɔɔ-jai",
+                    "partOfSpeech": "adjective"
+                }
+            ]
+        },
+        {
+            "source": "พวกเขาถกเถียงกันว่าตัวละครเอกควรตัดสินใจต่างออกไปหรือไม่",
+            "target": "They debated whether the main character should have made different choices.",
+            "phonetic": "phûak-kháo thòk-thǐang gan wâa tua-lá-kɔɔn èek khuan dtàt-sǐn-jai tàang òrk bpai rʉ̌ʉ mâi",
+            "breakdown": [
+                {
+                    "source": "พวกเขาถกเถียงกันว่า",
+                    "target": "they debated whether",
+                    "phonetic": "phûak-kháo thòk-thǐang gan wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ตัวละครเอก",
+                    "target": "the main character",
+                    "phonetic": "tua-lá-kɔɔn èek",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ควรตัดสินใจ",
+                    "target": "should decide",
+                    "phonetic": "khuan dtàt-sǐn-jai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ต่างออกไปหรือไม่",
+                    "target": "differently or not",
+                    "phonetic": "tàang òrk bpai rʉ̌ʉ mâi",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "เลนาเสนอว่าครั้งหน้าควรอ่านนวนิยายอิงประวัติศาสตร์",
+            "target": "Lena suggested they could read a historical novel next time.",
+            "phonetic": "le-naa sà-nǒe wâa khráng nâa khuan àan na-waa-ní-yaai ing bprà-wàt-sàat",
+            "breakdown": [
+                {
+                    "source": "เลนา",
+                    "target": "Lena",
+                    "phonetic": "le-naa",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "เสนอว่า",
+                    "target": "suggested that",
+                    "phonetic": "sà-nǒe wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ครั้งหน้า",
+                    "target": "next time",
+                    "phonetic": "khráng nâa",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ควร",
+                    "target": "should",
+                    "phonetic": "khuan",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "อ่าน",
+                    "target": "read",
+                    "phonetic": "àan",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "นวนิยาย",
+                    "target": "novel",
+                    "phonetic": "na-waa-ní-yaai",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "อิงประวัติศาสตร์",
+                    "target": "historical",
+                    "phonetic": "ing bprà-wàt-sàat",
+                    "partOfSpeech": "adjective"
+                }
+            ]
+        },
+        {
+            "source": "ถ้าเธอไม่เข้าชมรม เธอคงไม่ได้รู้จักนักเขียนใหม่ๆ",
+            "target": "If she hadn’t joined the club, she wouldn’t have discovered new authors.",
+            "phonetic": "thâa thoe mâi khâo chom-rom thoe khong mâi dâi rúu-jak nák-khǐan mài-mài",
+            "breakdown": [
+                {
+                    "source": "ถ้า",
+                    "target": "if",
+                    "phonetic": "thâa",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "เธอ",
+                    "target": "she",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ไม่",
+                    "target": "not",
+                    "phonetic": "mâi",
+                    "partOfSpeech": "negative"
+                },
+                {
+                    "source": "เข้าชมรม",
+                    "target": "joined the club",
+                    "phonetic": "khâo chom-rom",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เธอคงไม่ได้",
+                    "target": "she wouldn't have",
+                    "phonetic": "thoe khong mâi dâi",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "รู้จัก",
+                    "target": "known/discovered",
+                    "phonetic": "rúu-jak",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "นักเขียน",
+                    "target": "authors",
+                    "phonetic": "nák-khǐan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ใหม่ๆ",
+                    "target": "new",
+                    "phonetic": "mài-mài",
+                    "partOfSpeech": "adjective"
+                }
+            ]
+        },
+        {
+            "source": "การอ่านหนังสือที่ท้าทายช่วยพัฒนาคำศัพท์และความเข้าใจของเธอ",
+            "target": "Reading challenging books improved her vocabulary and comprehension.",
+            "phonetic": "gaan-àan năng-sʉ̌ʉ thîi tháa-thaai chûai phát-thá-naa kham-sàp láe khwaam khâo-jai khǎwng thoe",
+            "breakdown": [
+                {
+                    "source": "การอ่าน",
+                    "target": "reading",
+                    "phonetic": "gaan-àan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "หนังสือ",
+                    "target": "books",
+                    "phonetic": "năng-sʉ̌ʉ",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ที่ท้าทาย",
+                    "target": "challenging",
+                    "phonetic": "thîi tháa-thaai",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ช่วย",
+                    "target": "helped/improved",
+                    "phonetic": "chûai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "พัฒนา",
+                    "target": "develop",
+                    "phonetic": "phát-thá-naa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "คำศัพท์",
+                    "target": "vocabulary",
+                    "phonetic": "kham-sàp",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ความเข้าใจ",
+                    "target": "comprehension",
+                    "phonetic": "khwaam khâo-jai",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ของเธอ",
+                    "target": "her",
+                    "phonetic": "khǎwng thoe",
+                    "partOfSpeech": "pronoun"
+                }
+            ]
+        },
+        {
+            "source": "ผู้นำกลุ่ม คุณคาร์เตอร์ กระตุ้นให้ทุกคนแสดงความคิดเห็นของตน",
+            "target": "The group’s leader, Ms. Carter, encouraged everyone to share their opinions.",
+            "phonetic": "phûu-nam glùm khun khaa-dtôe krà-tûn hâi thúk khon sà-dɛɛng khwaam-khít khǎwng ton",
+            "breakdown": [
+                {
+                    "source": "ผู้นำกลุ่ม",
+                    "target": "group's leader",
+                    "phonetic": "phûu-nam glùm",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "คุณคาร์เตอร์",
+                    "target": "Ms. Carter",
+                    "phonetic": "khun khaa-dtôe",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "กระตุ้นให้",
+                    "target": "encouraged",
+                    "phonetic": "krà-tûn hâi",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ทุกคน",
+                    "target": "everyone",
+                    "phonetic": "thúk khon",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "แสดง",
+                    "target": "share/express",
+                    "phonetic": "sà-dɛɛng",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ความคิดเห็น",
+                    "target": "opinions",
+                    "phonetic": "khwaam-khít",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ของตน",
+                    "target": "their own",
+                    "phonetic": "khǎwng ton",
+                    "partOfSpeech": "pronoun"
+                }
+            ]
+        },
+        {
+            "source": "เลนาบอกว่าเธอได้เรียนรู้มากจากการฟังมุมมองที่แตกต่าง",
+            "target": "Lena said she had learned a lot from hearing different perspectives.",
+            "phonetic": "le-naa bɔ̀ɔk wâa thoe dâi rian-rúu mâak jàak gaan fang mum-maawng thîi dtɛ̀ɛk-dtàang",
+            "breakdown": [
+                {
+                    "source": "เลนา",
+                    "target": "Lena",
+                    "phonetic": "le-naa",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "บอกว่า",
+                    "target": "said that",
+                    "phonetic": "bɔ̀ɔk wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เธอ",
+                    "target": "she",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ได้เรียนรู้",
+                    "target": "had learned",
+                    "phonetic": "dâi rian-rúu",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "มาก",
+                    "target": "a lot",
+                    "phonetic": "mâak",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "จาก",
+                    "target": "from",
+                    "phonetic": "jàak",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "การฟัง",
+                    "target": "hearing",
+                    "phonetic": "gaan fang",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "มุมมอง",
+                    "target": "perspectives",
+                    "phonetic": "mum-maawng",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ที่แตกต่าง",
+                    "target": "different",
+                    "phonetic": "thîi dtɛ̀ɛk-dtàang",
+                    "partOfSpeech": "adjective"
+                }
+            ]
+        },
+        {
+            "source": "แซมอธิบายว่าเขาชอบนิยายวิทยาศาสตร์ แต่ก็สนุกกับเรื่องสืบสวนนี้เหมือนกัน",
+            "target": "Sam explained that he preferred science fiction but enjoyed the mystery too.",
+            "phonetic": "sɛɛm à-thí-baai wâa khǎo chɔ̂ɔp ní-yaai wít-thá-yaa-sàat dtàe gɔ̂ɔ sà-nùk gàp rʉ̂ang sʉ̀ʉp-sǔan níi mʉ̌an gan",
+            "breakdown": [
+                {
+                    "source": "แซม",
+                    "target": "Sam",
+                    "phonetic": "sɛɛm",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "อธิบายว่า",
+                    "target": "explained that",
+                    "phonetic": "à-thí-baai wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เขา",
+                    "target": "he",
+                    "phonetic": "khǎo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ชอบ",
+                    "target": "preferred",
+                    "phonetic": "chɔ̂ɔp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "นิยายวิทยาศาสตร์",
+                    "target": "science fiction",
+                    "phonetic": "ní-yaai wít-thá-yaa-sàat",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "แต่ก็",
+                    "target": "but also",
+                    "phonetic": "dtàe gɔ̂ɔ",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "สนุกกับ",
+                    "target": "enjoyed",
+                    "phonetic": "sà-nùk gàp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เรื่องสืบสวนนี้",
+                    "target": "the mystery",
+                    "phonetic": "rʉ̂ang sʉ̀ʉp-sǔan níi",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เหมือนกัน",
+                    "target": "too",
+                    "phonetic": "mʉ̌an gan",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "ถ้าชมรมอ่านนิยายไซไฟ เลนาอาจลองแนวนั้นเป็นครั้งแรก",
+            "target": "If the club reads a sci-fi book, Lena might try the genre for the first time.",
+            "phonetic": "thâa chom-rom àan ní-yaai sai-fai le-naa àat long naeow nán bpen khráng râek",
+            "breakdown": [
+                {
+                    "source": "ถ้า",
+                    "target": "if",
+                    "phonetic": "thâa",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ชมรม",
+                    "target": "the club",
+                    "phonetic": "chom-rom",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "อ่าน",
+                    "target": "reads",
+                    "phonetic": "àan",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "นิยายไซไฟ",
+                    "target": "sci-fi book",
+                    "phonetic": "ní-yaai sai-fai",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เลนา",
+                    "target": "Lena",
+                    "phonetic": "le-naa",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "อาจ",
+                    "target": "might",
+                    "phonetic": "àat",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "ลอง",
+                    "target": "try",
+                    "phonetic": "long",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "แนวนั้น",
+                    "target": "the genre",
+                    "phonetic": "naeow nán",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เป็นครั้งแรก",
+                    "target": "for the first time",
+                    "phonetic": "bpen khráng râek",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "พวกเขานัดพบกันที่คาเฟ่อบอุ่น จิบกาแฟและคุยกันเรื่องธีม",
+            "target": "They met at a cozy café, where they sipped coffee and discussed themes.",
+            "phonetic": "phûak-kháo nát phóp gan thîi khaa-fê òp-ùn jìp gaa-fɛɛ láe khui gan rʉ̂ang thiim",
+            "breakdown": [
+                {
+                    "source": "พวก",
+                    "target": "they",
+                    "phonetic": "phûak",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "เขานัดพบกัน",
+                    "target": "met",
+                    "phonetic": "kháo nát phóp gan",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ที่",
+                    "target": "at",
+                    "phonetic": "thîi",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "คาเฟ่อบอุ่น",
+                    "target": "cozy café",
+                    "phonetic": "ka-fê òp-ùn",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "จิบ",
+                    "target": "sipped",
+                    "phonetic": "jìp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "กาแฟ",
+                    "target": "coffee",
+                    "phonetic": "gaa-fɛɛ",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "คุยกัน",
+                    "target": "discussed",
+                    "phonetic": "khui gan",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เรื่องธีม",
+                    "target": "themes",
+                    "phonetic": "rʉ̂ang thiim",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "เลนารักที่ชมรมทำให้เธอขบคิดอย่างลึกซึ้งเกี่ยวกับเรื่องเล่า",
+            "target": "Lena loved how the club made her think deeply about stories.",
+            "phonetic": "le-naa rák thîi chom-rom tham hâi thoe khòp-khít yàang lʉ́k-sʉ́eng gìeow-gàp rʉ̂ang-lâo",
+            "breakdown": [
+                {
+                    "source": "เลนา",
+                    "target": "Lena",
+                    "phonetic": "le-naa",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "รัก",
+                    "target": "loved",
+                    "phonetic": "rák",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ที่",
+                    "target": "how",
+                    "phonetic": "thîi",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ชมรม",
+                    "target": "the club",
+                    "phonetic": "chom-rom",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ทำให้",
+                    "target": "made",
+                    "phonetic": "tham hâi",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เธอ",
+                    "target": "her",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ขบคิด",
+                    "target": "think",
+                    "phonetic": "khòp-khít",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "อย่างลึกซึ้ง",
+                    "target": "deeply",
+                    "phonetic": "yàang lʉ́k-sʉ́eng",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "เกี่ยวกับ",
+                    "target": "about",
+                    "phonetic": "gìeow-gàp",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "เรื่องเล่า",
+                    "target": "stories",
+                    "phonetic": "rʉ̂ang-lâo",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "ก่อนเข้าชมรม เธอไม่เคยวิเคราะห์หนังสืออย่างใกล้ชิดขนาดนี้",
+            "target": "She had never analyzed books so closely before joining the group.",
+            "phonetic": "gɔ̀ɔn khâo chom-rom thoe mâi khoei wí-ró́k năng-sʉ̌ʉ yàang glâi-chít khà-nàat níi",
+            "breakdown": [
+                {
+                    "source": "ก่อน",
+                    "target": "before",
+                    "phonetic": "gɔ̀ɔn",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "เข้าชมรม",
+                    "target": "joined the group",
+                    "phonetic": "khâo chom-rom",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เธอ",
+                    "target": "she",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ไม่เคยวิเคราะห์",
+                    "target": "had never analyzed",
+                    "phonetic": "mâi khoei wí-ró́k",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "หนังสือ",
+                    "target": "books",
+                    "phonetic": "náng-sʉ̌ʉ",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "อย่าง",
+                    "target": "so",
+                    "phonetic": "yàang",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ใกล้ชิด",
+                    "target": "closely",
+                    "phonetic": "glâi-chít",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ขนาดนี้",
+                    "target": "before",
+                    "phonetic": "khà-nàat níi",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "คุณคาร์เตอร์ประกาศว่าจะเชิญนักเขียนมาพูดคุยในเดือนหน้า",
+            "target": "Ms. Carter announced they would host an author talk next month.",
+            "phonetic": "khun khaa-dtôe bprà-gàat wâa jà choeen nák-khǐan maa phûut-khui nai dʉʉan nâa",
+            "breakdown": [
+                {
+                    "source": "คุณคาร์เตอร์",
+                    "target": "Ms. Carter",
+                    "phonetic": "khun khaa-dtôe",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "ประกาศว่า",
+                    "target": "announced",
+                    "phonetic": "bprà-gàat wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "จะ",
+                    "target": "they will",
+                    "phonetic": "jà",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "เชิญ",
+                    "target": "invite",
+                    "phonetic": "choeen",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "นักเขียน",
+                    "target": "authors",
+                    "phonetic": "nák-khǐan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "มาพูดคุย",
+                    "target": "to talk",
+                    "phonetic": "maa phûut-khui",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ในเดือนหน้า",
+                    "target": "next month",
+                    "phonetic": "nai dʉʉan nâa",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "เลนาหวังว่าเธอจะได้ถามถึงกระบวนการเขียนของนักเขียน",
+            "target": "Lena hoped she could ask the author about their writing process.",
+            "phonetic": "le-naa wǎng wâa thoe jà dâi thǎam thʉ̌ng grà-buuan-gaan khǐan khǎwng nák-khǐan",
+            "breakdown": [
+                {
+                    "source": "เลนา",
+                    "target": "Lena",
+                    "phonetic": "le-naa",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "หวังว่า",
+                    "target": "hoped",
+                    "phonetic": "wǎng wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เธอ",
+                    "target": "she",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "จะ",
+                    "target": "they will",
+                    "phonetic": "jà",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "ได้",
+                    "target": "could",
+                    "phonetic": "dâi",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "ถาม",
+                    "target": "ask",
+                    "phonetic": "thǎam",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ถึง",
+                    "target": "about",
+                    "phonetic": "thʉ̌ng",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "กระบวนการ",
+                    "target": "process",
+                    "phonetic": "grà-buuan-gaan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เขียน",
+                    "target": "writing",
+                    "phonetic": "khǐan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ของ",
+                    "target": "of",
+                    "phonetic": "khǎwng",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "นักเขียน",
+                    "target": "authors",
+                    "phonetic": "nák-khǐan",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "ชมรมหนังสือกลายเป็นไฮไลต์ประจำเดือน เต็มไปด้วยไอเดีย",
+            "target": "The book club had become a highlight of her month, full of ideas.",
+            "phonetic": "chom-rom năng-sʉ̌ʉ glaai bpen hai-lai bprà-jam dʉʉan dtem bpai dûai ai-dia",
+            "breakdown": [
+                {
+                    "source": "ชมรมหนังสือ",
+                    "target": "the book club",
+                    "phonetic": "chom-rom năng-sʉ̌ʉ",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "กลายเป็น",
+                    "target": "had become",
+                    "phonetic": "glàai bpen",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ไฮไลต์",
+                    "target": "highlight",
+                    "phonetic": "hai-lai",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ประจำเดือน",
+                    "target": "of her month",
+                    "phonetic": "bprà-jam dʉʉan",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "เต็มไปด้วย",
+                    "target": "full of",
+                    "phonetic": "dtem bpai dûai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ไอเดีย",
+                    "target": "ideas",
+                    "phonetic": "ai-dia",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "การอ่าน เขา/เธอค้นพบว่า ยิ่งดีขึ้นเมื่อแบ่งปันกับผู้อื่น",
+            "target": "Reading, she realized, was even better when shared with others.",
+            "phonetic": "gaan-àan tháoe khón-phóp wâa yîng dii khʉ̂n mʉ̂a bàeng-bpan gàp phûu-ʉ̀ʉn",
+            "breakdown": [
+                {
+                    "source": "การอ่าน",
+                    "target": "reading",
+                    "phonetic": "gaan-àan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เขา/เธอ",
+                    "target": "he/she",
+                    "phonetic": "kháo/thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ค้นพบว่า",
+                    "target": "realized",
+                    "phonetic": "khón-phóp wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ยิ่งดีขึ้น",
+                    "target": "even better",
+                    "phonetic": "yîng dii khʉ̂n",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "เมื่อ",
+                    "target": "when",
+                    "phonetic": "mʉ̂a",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "แบ่งปัน",
+                    "target": "shared",
+                    "phonetic": "bàeng-bpan",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "กับ",
+                    "target": "with",
+                    "phonetic": "gàp",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ผู้อื่น",
+                    "target": "others",
+                    "phonetic": "phûu-ʉ̀ʉn",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        }
+    ],
+    "createdAt": "2025-09-29T23:39:00Z",
+    "updatedAt": "2025-09-30T00:12:00Z",
+    "difficulty": "intermediate",
+    "summary": "ชมรมหนังสือของเลนา: การอภิปราย นิยายลึกลับ มุมมองต่างๆ นักเขียนรับเชิญ และคุณค่าของการอ่านร่วมกัน"
 }

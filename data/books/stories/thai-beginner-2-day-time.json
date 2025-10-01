@@ -1,705 +1,705 @@
 {
-  "storyId": "thai-beginner-2-day-time",
-  "bookId": "thai-beginner-2",
-  "language": "th",
-  "title": {
-    "source": "วันของฉันและเวลา",
-    "target": "My Day and Time"
-  },
-  "sentences": [
-    {
-      "source": "ทุกวัน ฉันตื่นแต่เช้าและแปรงฟัน",
-      "target": "Every day, I wake up early and brush my teeth.",
-      "phonetic": "thúk wan chǎn dtûen dtae châao láe bpràeng fan",
-      "breakdown": [
-        {
-          "source": "ทุก",
-          "target": "every",
-          "phonetic": "thúk",
-          "partOfSpeech": "determiner"
-        },
-        {
-          "source": "วัน",
-          "target": "day",
-          "phonetic": "wan",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ฉัน",
-          "target": "I",
-          "phonetic": "chǎn",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "ตื่น",
-          "target": "to wake up",
-          "phonetic": "dtûen",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "แต่",
-          "target": "early",
-          "phonetic": "dae",
-          "partOfSpeech": "adverb"
-        },
-        {
-          "source": "เช้า",
-          "target": "morning",
-          "phonetic": "châao",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "และ",
-          "target": "and",
-          "phonetic": "láe",
-          "partOfSpeech": "conjunction"
-        },
-        {
-          "source": "แปรง",
-          "target": "to brush",
-          "phonetic": "bpràeng",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ฟัน",
-          "target": "teeth",
-          "phonetic": "fan",
-          "partOfSpeech": "noun"
-        }
-      ]
+    "storyId": "thai-beginner-2-day-time",
+    "bookId": "thai-beginner-2",
+    "language": "th",
+    "title": {
+        "source": "วันของฉันและเวลา",
+        "target": "My Day and Time"
     },
-    {
-      "source": "คุณทานข้าวเช้าเวลาไหนครับ",
-      "target": "What time do you eat breakfast?",
-      "phonetic": "khun thaan khâao châao wa-la nǎi khráp",
-      "breakdown": [
+    "sentences": [
         {
-          "source": "คุณ",
-          "target": "you (polite)",
-          "phonetic": "khun",
-          "partOfSpeech": "pronoun"
+            "source": "ทุกวัน ฉันตื่นแต่เช้าและแปรงฟัน",
+            "target": "Every day, I wake up early and brush my teeth.",
+            "phonetic": "thúk wan chǎn dtûen dtae châao láe bpràeng fan",
+            "breakdown": [
+                {
+                    "source": "ทุก",
+                    "target": "every",
+                    "phonetic": "thúk",
+                    "partOfSpeech": "determiner"
+                },
+                {
+                    "source": "วัน",
+                    "target": "day",
+                    "phonetic": "wan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I",
+                    "phonetic": "chǎn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ตื่น",
+                    "target": "to wake up",
+                    "phonetic": "dtûen",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "แต่",
+                    "target": "early",
+                    "phonetic": "dae",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "เช้า",
+                    "target": "morning",
+                    "phonetic": "châao",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "แปรง",
+                    "target": "to brush",
+                    "phonetic": "bpràeng",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ฟัน",
+                    "target": "teeth",
+                    "phonetic": "fan",
+                    "partOfSpeech": "noun"
+                }
+            ]
         },
         {
-          "source": "ทาน",
-          "target": "to eat",
-          "phonetic": "thaan",
-          "partOfSpeech": "verb"
+            "source": "คุณทานข้าวเช้าเวลาไหนครับ",
+            "target": "What time do you eat breakfast?",
+            "phonetic": "khun thaan khâao châao wa-la nǎi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ทาน",
+                    "target": "to eat",
+                    "phonetic": "thaan",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ข้าว",
+                    "target": "rice/meal",
+                    "phonetic": "khâao",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เช้า",
+                    "target": "morning",
+                    "phonetic": "châao",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เวลา",
+                    "target": "time",
+                    "phonetic": "wa-la",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ไหน",
+                    "target": "what/which",
+                    "phonetic": "nǎi",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
         },
         {
-          "source": "ข้าว",
-          "target": "rice/meal",
-          "phonetic": "khâao",
-          "partOfSpeech": "noun"
+            "source": "ฉันทานข้าวเช้าเวลาเจ็ดสามสิบเพราะฉันหิว",
+            "target": "I eat breakfast at seven thirty because I am hungry.",
+            "phonetic": "chǎn thaan khâao châao wa-la jèt sǎam sìp phaw chǎn hǐu",
+            "breakdown": [
+                {
+                    "source": "ฉัน",
+                    "target": "I",
+                    "phonetic": "chǎn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ทาน",
+                    "target": "to eat",
+                    "phonetic": "thaan",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ข้าว",
+                    "target": "rice/meal",
+                    "phonetic": "khâao",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เช้า",
+                    "target": "morning",
+                    "phonetic": "châao",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เวลา",
+                    "target": "time",
+                    "phonetic": "wa-la",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เจ็ด",
+                    "target": "seven",
+                    "phonetic": "jèt",
+                    "partOfSpeech": "numeral"
+                },
+                {
+                    "source": "สาม",
+                    "target": "three",
+                    "phonetic": "sǎam",
+                    "partOfSpeech": "numeral"
+                },
+                {
+                    "source": "สิบ",
+                    "target": "ten/tenth",
+                    "phonetic": "sìp",
+                    "partOfSpeech": "numeral"
+                },
+                {
+                    "source": "เพราะ",
+                    "target": "because",
+                    "phonetic": "phaw",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I",
+                    "phonetic": "chǎn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "หิว",
+                    "target": "hungry",
+                    "phonetic": "hǐu",
+                    "partOfSpeech": "adjective"
+                }
+            ]
         },
         {
-          "source": "เช้า",
-          "target": "morning",
-          "phonetic": "châao",
-          "partOfSpeech": "noun"
+            "source": "เมื่อวานนี้ ฉันไปโรงเรียนเวลาแปดนาฬิกา",
+            "target": "Yesterday, I went to school at eight o'clock.",
+            "phonetic": "mûea waan níi chǎn bpai rohng rian wa-la bpàaet naa-lí-gaa",
+            "breakdown": [
+                {
+                    "source": "เมื่อวานนี้",
+                    "target": "yesterday",
+                    "phonetic": "mûea waan níi",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I",
+                    "phonetic": "chǎn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ไป",
+                    "target": "to go",
+                    "phonetic": "bpai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "โรงเรียน",
+                    "target": "school",
+                    "phonetic": "rohng rian",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เวลา",
+                    "target": "time",
+                    "phonetic": "wa-la",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "แปด",
+                    "target": "eight",
+                    "phonetic": "bpàaet",
+                    "partOfSpeech": "numeral"
+                },
+                {
+                    "source": "นาฬิกา",
+                    "target": "o'clock",
+                    "phonetic": "naa-lí-gaa",
+                    "partOfSpeech": "noun"
+                }
+            ]
         },
         {
-          "source": "เวลา",
-          "target": "time",
-          "phonetic": "wa-la",
-          "partOfSpeech": "noun"
+            "source": "คุณเรียนหนักไหมครับ",
+            "target": "Do you study a lot?",
+            "phonetic": "khun rian nák mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "เรียน",
+                    "target": "to study",
+                    "phonetic": "rian",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "หนัก",
+                    "target": "a lot/intensely",
+                    "phonetic": "nák",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "(question particle)",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
         },
         {
-          "source": "ไหน",
-          "target": "what/which",
-          "phonetic": "nǎi",
-          "partOfSpeech": "pronoun"
+            "source": "ใช่ ฉันเรียนคณิตศาสตร์และภาษาอังกฤษ แต่ฉันชอบภาษาอังกฤษมากกว่า",
+            "target": "Yes, I study math and English, but I like English more.",
+            "phonetic": "châi chǎn rian kà-nít sàat dtàa láe phaa-sǎa ang-grìt dtàae chǎn châwp phaa-sǎa ang-grìt mâak kwàa",
+            "breakdown": [
+                {
+                    "source": "ใช่",
+                    "target": "yes",
+                    "phonetic": "châi",
+                    "partOfSpeech": "interjection"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I",
+                    "phonetic": "chǎn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "เรียน",
+                    "target": "to study",
+                    "phonetic": "rian",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "คณิตศาสตร์",
+                    "target": "mathematics",
+                    "phonetic": "kà-nít sàat dtàa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ภาษา",
+                    "target": "language",
+                    "phonetic": "phaa-sǎa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "อังกฤษ",
+                    "target": "English",
+                    "phonetic": "ang-grìt",
+                    "partOfSpeech": "proper noun"
+                },
+                {
+                    "source": "แต่",
+                    "target": "but",
+                    "phonetic": "dtàae",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I",
+                    "phonetic": "chǎn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ชอบ",
+                    "target": "to like",
+                    "phonetic": "châwp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ภาษา",
+                    "target": "language",
+                    "phonetic": "phaa-sǎa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "อังกฤษ",
+                    "target": "English",
+                    "phonetic": "ang-grìt",
+                    "partOfSpeech": "proper noun"
+                },
+                {
+                    "source": "มากกว่า",
+                    "target": "more than",
+                    "phonetic": "mâak kwàa",
+                    "partOfSpeech": "adverb"
+                }
+            ]
         },
         {
-          "source": "ครับ",
-          "target": "male polite particle",
-          "phonetic": "khráp",
-          "partOfSpeech": "particle"
+            "source": "คุณเล่นกีฬาเวลาไหนครับ",
+            "target": "What time do you play?",
+            "phonetic": "khun lèn gîl-daa wa-la nǎi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "เล่น",
+                    "target": "to play",
+                    "phonetic": "lèn",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "กีฬา",
+                    "target": "sports",
+                    "phonetic": "gîl-daa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เวลา",
+                    "target": "time",
+                    "phonetic": "wa-la",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ไหน",
+                    "target": "what/which",
+                    "phonetic": "nǎi",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ฉันเล่นเวลาสี่บ่ายกับเพื่อนๆ",
+            "target": "I play at four in the afternoon with my friends.",
+            "phonetic": "chǎn lèn wa-la sìi bàai kàp pûeon pûeon",
+            "breakdown": [
+                {
+                    "source": "ฉัน",
+                    "target": "I",
+                    "phonetic": "chǎn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "เล่น",
+                    "target": "to play",
+                    "phonetic": "lèn",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เวลา",
+                    "target": "time",
+                    "phonetic": "wa-la",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "สี่",
+                    "target": "four",
+                    "phonetic": "sìi",
+                    "partOfSpeech": "numeral"
+                },
+                {
+                    "source": "บ่าย",
+                    "target": "afternoon",
+                    "phonetic": "bàai",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "กับ",
+                    "target": "with",
+                    "phonetic": "kàp",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "เพื่อน",
+                    "target": "friends",
+                    "phonetic": "pûeon",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ๆ",
+                    "target": "(plural marker)",
+                    "phonetic": "pûeon",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "เมื่อคืน ฉันดูโทรทัศน์เวลาเจ็ดและหัวเราะ",
+            "target": "Last night, I watched TV at seven and laughed.",
+            "phonetic": "mûea khùn chǎn duu dtoh-thàat wa-la jèt láe hǔa rao",
+            "breakdown": [
+                {
+                    "source": "เมื่อ",
+                    "target": "when",
+                    "phonetic": "mûea",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "คืน",
+                    "target": "night",
+                    "phonetic": "khùn",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I",
+                    "phonetic": "chǎn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ดู",
+                    "target": "to watch",
+                    "phonetic": "duu",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "โทรทัศน์",
+                    "target": "TV",
+                    "phonetic": "dtoh-thàat",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เวลา",
+                    "target": "time",
+                    "phonetic": "wa-la",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เจ็ด",
+                    "target": "seven",
+                    "phonetic": "jèt",
+                    "partOfSpeech": "numeral"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "หัวเราะ",
+                    "target": "to laugh",
+                    "phonetic": "hǔa rao",
+                    "partOfSpeech": "verb"
+                }
+            ]
+        },
+        {
+            "source": "คุณเข้านอนเวลาไหนครับ",
+            "target": "When do you sleep?",
+            "phonetic": "khun khâo nɔɔn wa-la nǎi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "เข้า",
+                    "target": "to enter/go",
+                    "phonetic": "khâo",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "นอน",
+                    "target": "to sleep",
+                    "phonetic": "nɔɔn",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เวลา",
+                    "target": "time",
+                    "phonetic": "wa-la",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ไหน",
+                    "target": "when",
+                    "phonetic": "nǎi",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ฉันเข้านอนเวลาเก้าเพราะฉันต้องพักผ่อน",
+            "target": "I sleep at nine because I need to rest.",
+            "phonetic": "chǎn khâo nɔɔn wa-la gâao phaw chǎn dtɔ̂ng phák phǒn",
+            "breakdown": [
+                {
+                    "source": "ฉัน",
+                    "target": "I",
+                    "phonetic": "chǎn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "เข้า",
+                    "target": "to enter/go",
+                    "phonetic": "khâo",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "นอน",
+                    "target": "to sleep",
+                    "phonetic": "nɔɔn",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เวลา",
+                    "target": "time",
+                    "phonetic": "wa-la",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เก้า",
+                    "target": "nine",
+                    "phonetic": "gâao",
+                    "partOfSpeech": "numeral"
+                },
+                {
+                    "source": "เพราะ",
+                    "target": "because",
+                    "phonetic": "phaw",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I",
+                    "phonetic": "chǎn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ต้อง",
+                    "target": "must/need to",
+                    "phonetic": "dtɔ̂ng",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "พักผ่อน",
+                    "target": "to rest",
+                    "phonetic": "phák phǒn",
+                    "partOfSpeech": "verb"
+                }
+            ]
+        },
+        {
+            "source": "เวลาสำคัญเพราะมันช่วยให้ฉันวางแผนวันของฉัน",
+            "target": "Time is important because it helps me plan my day.",
+            "phonetic": "wa-la sàm-khan phaw mạn chûai hâi chǎn ràen waae wan khǎwng chǎn",
+            "breakdown": [
+                {
+                    "source": "เวลา",
+                    "target": "time",
+                    "phonetic": "wa-la",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "สำคัญ",
+                    "target": "important",
+                    "phonetic": "sàm-khan",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "เพราะ",
+                    "target": "because",
+                    "phonetic": "phaw",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "มัน",
+                    "target": "it",
+                    "phonetic": "mạn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ช่วย",
+                    "target": "to help",
+                    "phonetic": "chûai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ให้",
+                    "target": "(to cause)",
+                    "phonetic": "hâi",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I",
+                    "phonetic": "chǎn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "วางแผน",
+                    "target": "to plan",
+                    "phonetic": "ràen waae",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "วัน",
+                    "target": "day",
+                    "phonetic": "wan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ของ",
+                    "target": "of",
+                    "phonetic": "khǎwng",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I",
+                    "phonetic": "chǎn",
+                    "partOfSpeech": "pronoun"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "source": "ฉันทานข้าวเช้าเวลาเจ็ดสามสิบเพราะฉันหิว",
-      "target": "I eat breakfast at seven thirty because I am hungry.",
-      "phonetic": "chǎn thaan khâao châao wa-la jèt sǎam sìp phaw chǎn hǐu",
-      "breakdown": [
-        {
-          "source": "ฉัน",
-          "target": "I",
-          "phonetic": "chǎn",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "ทาน",
-          "target": "to eat",
-          "phonetic": "thaan",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ข้าว",
-          "target": "rice/meal",
-          "phonetic": "khâao",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "เช้า",
-          "target": "morning",
-          "phonetic": "châao",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "เวลา",
-          "target": "time",
-          "phonetic": "wa-la",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "เจ็ด",
-          "target": "seven",
-          "phonetic": "jèt",
-          "partOfSpeech": "numeral"
-        },
-        {
-          "source": "สาม",
-          "target": "three",
-          "phonetic": "sǎam",
-          "partOfSpeech": "numeral"
-        },
-        {
-          "source": "สิบ",
-          "target": "ten/tenth",
-          "phonetic": "sìp",
-          "partOfSpeech": "numeral"
-        },
-        {
-          "source": "เพราะ",
-          "target": "because",
-          "phonetic": "phaw",
-          "partOfSpeech": "conjunction"
-        },
-        {
-          "source": "ฉัน",
-          "target": "I",
-          "phonetic": "chǎn",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "หิว",
-          "target": "hungry",
-          "phonetic": "hǐu",
-          "partOfSpeech": "adjective"
-        }
-      ]
-    },
-    {
-      "source": "เมื่อวานนี้ ฉันไปโรงเรียนเวลาแปดนาฬิกา",
-      "target": "Yesterday, I went to school at eight o'clock.",
-      "phonetic": "mûea waan níi chǎn bpai rohng rian wa-la bpàaet naa-lí-gaa",
-      "breakdown": [
-        {
-          "source": "เมื่อวานนี้",
-          "target": "yesterday",
-          "phonetic": "mûea waan níi",
-          "partOfSpeech": "adverb"
-        },
-        {
-          "source": "ฉัน",
-          "target": "I",
-          "phonetic": "chǎn",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "ไป",
-          "target": "to go",
-          "phonetic": "bpai",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "โรงเรียน",
-          "target": "school",
-          "phonetic": "rohng rian",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "เวลา",
-          "target": "time",
-          "phonetic": "wa-la",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "แปด",
-          "target": "eight",
-          "phonetic": "bpàaet",
-          "partOfSpeech": "numeral"
-        },
-        {
-          "source": "นาฬิกา",
-          "target": "o'clock",
-          "phonetic": "naa-lí-gaa",
-          "partOfSpeech": "noun"
-        }
-      ]
-    },
-    {
-      "source": "คุณเรียนหนักไหมครับ",
-      "target": "Do you study a lot?",
-      "phonetic": "khun rian nák mǎi khráp",
-      "breakdown": [
-        {
-          "source": "คุณ",
-          "target": "you (polite)",
-          "phonetic": "khun",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "เรียน",
-          "target": "to study",
-          "phonetic": "rian",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "หนัก",
-          "target": "a lot/intensely",
-          "phonetic": "nák",
-          "partOfSpeech": "adverb"
-        },
-        {
-          "source": "ไหม",
-          "target": "(question particle)",
-          "phonetic": "mǎi",
-          "partOfSpeech": "particle"
-        },
-        {
-          "source": "ครับ",
-          "target": "male polite particle",
-          "phonetic": "khráp",
-          "partOfSpeech": "particle"
-        }
-      ]
-    },
-    {
-      "source": "ใช่ ฉันเรียนคณิตศาสตร์และภาษาอังกฤษ แต่ฉันชอบภาษาอังกฤษมากกว่า",
-      "target": "Yes, I study math and English, but I like English more.",
-      "phonetic": "châi chǎn rian kà-nít sàat dtàa láe phaa-sǎa ang-grìt dtàae chǎn châwp phaa-sǎa ang-grìt mâak kwàa",
-      "breakdown": [
-        {
-          "source": "ใช่",
-          "target": "yes",
-          "phonetic": "châi",
-          "partOfSpeech": "interjection"
-        },
-        {
-          "source": "ฉัน",
-          "target": "I",
-          "phonetic": "chǎn",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "เรียน",
-          "target": "to study",
-          "phonetic": "rian",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "คณิตศาสตร์",
-          "target": "mathematics",
-          "phonetic": "kà-nít sàat dtàa",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "และ",
-          "target": "and",
-          "phonetic": "láe",
-          "partOfSpeech": "conjunction"
-        },
-        {
-          "source": "ภาษา",
-          "target": "language",
-          "phonetic": "phaa-sǎa",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "อังกฤษ",
-          "target": "English",
-          "phonetic": "ang-grìt",
-          "partOfSpeech": "proper noun"
-        },
-        {
-          "source": "แต่",
-          "target": "but",
-          "phonetic": "dtàae",
-          "partOfSpeech": "conjunction"
-        },
-        {
-          "source": "ฉัน",
-          "target": "I",
-          "phonetic": "chǎn",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "ชอบ",
-          "target": "to like",
-          "phonetic": "châwp",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ภาษา",
-          "target": "language",
-          "phonetic": "phaa-sǎa",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "อังกฤษ",
-          "target": "English",
-          "phonetic": "ang-grìt",
-          "partOfSpeech": "proper noun"
-        },
-        {
-          "source": "มากกว่า",
-          "target": "more than",
-          "phonetic": "mâak kwàa",
-          "partOfSpeech": "adverb"
-        }
-      ]
-    },
-    {
-      "source": "คุณเล่นกีฬาเวลาไหนครับ",
-      "target": "What time do you play?",
-      "phonetic": "khun lèn gîl-daa wa-la nǎi khráp",
-      "breakdown": [
-        {
-          "source": "คุณ",
-          "target": "you (polite)",
-          "phonetic": "khun",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "เล่น",
-          "target": "to play",
-          "phonetic": "lèn",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "กีฬา",
-          "target": "sports",
-          "phonetic": "gîl-daa",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "เวลา",
-          "target": "time",
-          "phonetic": "wa-la",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ไหน",
-          "target": "what/which",
-          "phonetic": "nǎi",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "ครับ",
-          "target": "male polite particle",
-          "phonetic": "khráp",
-          "partOfSpeech": "particle"
-        }
-      ]
-    },
-    {
-      "source": "ฉันเล่นเวลาสี่บ่ายกับเพื่อนๆ",
-      "target": "I play at four in the afternoon with my friends.",
-      "phonetic": "chǎn lèn wa-la sìi bàai kàp pûeon pûeon",
-      "breakdown": [
-        {
-          "source": "ฉัน",
-          "target": "I",
-          "phonetic": "chǎn",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "เล่น",
-          "target": "to play",
-          "phonetic": "lèn",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "เวลา",
-          "target": "time",
-          "phonetic": "wa-la",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "สี่",
-          "target": "four",
-          "phonetic": "sìi",
-          "partOfSpeech": "numeral"
-        },
-        {
-          "source": "บ่าย",
-          "target": "afternoon",
-          "phonetic": "bàai",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "กับ",
-          "target": "with",
-          "phonetic": "kàp",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "เพื่อน",
-          "target": "friends",
-          "phonetic": "pûeon",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ๆ",
-          "target": "(plural marker)",
-          "phonetic": "pûeon",
-          "partOfSpeech": "particle"
-        }
-      ]
-    },
-    {
-      "source": "เมื่อคืน ฉันดูโทรทัศน์เวลาเจ็ดและหัวเราะ",
-      "target": "Last night, I watched TV at seven and laughed.",
-      "phonetic": "mûea khùn chǎn duu dtoh-thàat wa-la jèt láe hǔa rao",
-      "breakdown": [
-        {
-          "source": "เมื่อ",
-          "target": "when",
-          "phonetic": "mûea",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "คืน",
-          "target": "night",
-          "phonetic": "khùn",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ฉัน",
-          "target": "I",
-          "phonetic": "chǎn",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "ดู",
-          "target": "to watch",
-          "phonetic": "duu",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "โทรทัศน์",
-          "target": "TV",
-          "phonetic": "dtoh-thàat",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "เวลา",
-          "target": "time",
-          "phonetic": "wa-la",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "เจ็ด",
-          "target": "seven",
-          "phonetic": "jèt",
-          "partOfSpeech": "numeral"
-        },
-        {
-          "source": "และ",
-          "target": "and",
-          "phonetic": "láe",
-          "partOfSpeech": "conjunction"
-        },
-        {
-          "source": "หัวเราะ",
-          "target": "to laugh",
-          "phonetic": "hǔa rao",
-          "partOfSpeech": "verb"
-        }
-      ]
-    },
-    {
-      "source": "คุณเข้านอนเวลาไหนครับ",
-      "target": "When do you sleep?",
-      "phonetic": "khun khâo nɔɔn wa-la nǎi khráp",
-      "breakdown": [
-        {
-          "source": "คุณ",
-          "target": "you (polite)",
-          "phonetic": "khun",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "เข้า",
-          "target": "to enter/go",
-          "phonetic": "khâo",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "นอน",
-          "target": "to sleep",
-          "phonetic": "nɔɔn",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "เวลา",
-          "target": "time",
-          "phonetic": "wa-la",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ไหน",
-          "target": "when",
-          "phonetic": "nǎi",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "ครับ",
-          "target": "male polite particle",
-          "phonetic": "khráp",
-          "partOfSpeech": "particle"
-        }
-      ]
-    },
-    {
-      "source": "ฉันเข้านอนเวลาเก้าเพราะฉันต้องพักผ่อน",
-      "target": "I sleep at nine because I need to rest.",
-      "phonetic": "chǎn khâo nɔɔn wa-la gâao phaw chǎn dtɔ̂ng phák phǒn",
-      "breakdown": [
-        {
-          "source": "ฉัน",
-          "target": "I",
-          "phonetic": "chǎn",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "เข้า",
-          "target": "to enter/go",
-          "phonetic": "khâo",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "นอน",
-          "target": "to sleep",
-          "phonetic": "nɔɔn",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "เวลา",
-          "target": "time",
-          "phonetic": "wa-la",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "เก้า",
-          "target": "nine",
-          "phonetic": "gâao",
-          "partOfSpeech": "numeral"
-        },
-        {
-          "source": "เพราะ",
-          "target": "because",
-          "phonetic": "phaw",
-          "partOfSpeech": "conjunction"
-        },
-        {
-          "source": "ฉัน",
-          "target": "I",
-          "phonetic": "chǎn",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "ต้อง",
-          "target": "must/need to",
-          "phonetic": "dtɔ̂ng",
-          "partOfSpeech": "auxiliary"
-        },
-        {
-          "source": "พักผ่อน",
-          "target": "to rest",
-          "phonetic": "phák phǒn",
-          "partOfSpeech": "verb"
-        }
-      ]
-    },
-    {
-      "source": "เวลาสำคัญเพราะมันช่วยให้ฉันวางแผนวันของฉัน",
-      "target": "Time is important because it helps me plan my day.",
-      "phonetic": "wa-la sàm-khan phaw mạn chûai hâi chǎn ràen waae wan khǎwng chǎn",
-      "breakdown": [
-        {
-          "source": "เวลา",
-          "target": "time",
-          "phonetic": "wa-la",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "สำคัญ",
-          "target": "important",
-          "phonetic": "sàm-khan",
-          "partOfSpeech": "adjective"
-        },
-        {
-          "source": "เพราะ",
-          "target": "because",
-          "phonetic": "phaw",
-          "partOfSpeech": "conjunction"
-        },
-        {
-          "source": "มัน",
-          "target": "it",
-          "phonetic": "mạn",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "ช่วย",
-          "target": "to help",
-          "phonetic": "chûai",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ให้",
-          "target": "(to cause)",
-          "phonetic": "hâi",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ฉัน",
-          "target": "I",
-          "phonetic": "chǎn",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "วางแผน",
-          "target": "to plan",
-          "phonetic": "ràen waae",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "วัน",
-          "target": "day",
-          "phonetic": "wan",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ของ",
-          "target": "of",
-          "phonetic": "khǎwng",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "ฉัน",
-          "target": "I",
-          "phonetic": "chǎn",
-          "partOfSpeech": "pronoun"
-        }
-      ]
-    }
-  ],
-  "createdAt": "2025-09-29T12:50:00Z",
-  "updatedAt": "2025-09-29T12:50:00Z",
-  "difficulty": "beginner",
-  "summary": "การพูดคุยเกี่ยวกับเวลาและกิจวัตรประจำวัน"
+    ],
+    "createdAt": "2025-09-29T12:50:00Z",
+    "updatedAt": "2025-09-29T12:50:00Z",
+    "difficulty": "beginner",
+    "summary": "การพูดคุยเกี่ยวกับเวลาและกิจวัตรประจำวัน"
 }

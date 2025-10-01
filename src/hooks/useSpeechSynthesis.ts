@@ -90,7 +90,7 @@ export function useSpeechSynthesis(): UseSpeechSynthesisReturn {
         // Match prefix (e.g., "th" for "th-TH")
         const prefix = langCode.split("-")[0].toLowerCase();
         const prefixMatch = voicesForLang.find((v) =>
-            v.lang.toLowerCase().startsWith(prefix + "-"),
+            v.lang.toLowerCase().startsWith(`${prefix}-`),
         );
         if (prefixMatch) return prefixMatch;
 

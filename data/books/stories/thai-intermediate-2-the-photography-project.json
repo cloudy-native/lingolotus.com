@@ -1,240 +1,665 @@
 {
-  "storyId": "thai-intermediate-2-the-photography-project",
-  "bookId": "thai-intermediate-2",
-  "language": "th",
-  "title": {
-    "source": "โครงการถ่ายภาพ",
-    "target": "The Photography Project"
-  },
-  "sentences": [
-    {
-      "source": "ก่อนเริ่มโครงการถ่ายภาพ มิอาศึกษามุมลับๆ ของเมืองอย่างละเอียด",
-      "target": "Before starting her photography project, Mia had researched the city’s hidden corners.",
-      "phonetic": "gɔ̀ɔn rœ̂œm khroong-kaan thàai-phâap mia sʉ̀k-sǎa mum láp-láp khǎwng mʉang yàang lá-ìat",
-      "breakdown": [
-        { "source": "ก่อนเริ่มโครงการถ่ายภาพ", "target": "before starting her photography project", "phonetic": "gɔ̀ɔn rœ̂œm khroong-kaan thàai-phâap", "partOfSpeech": "preposition" },
-        { "source": "มิอาศึกษา", "target": "Mia had researched", "phonetic": "mia sʉ̀k-sǎa", "partOfSpeech": "verb" },
-        { "source": "มุมลับๆ", "target": "hidden corners", "phonetic": "mum láp-láp", "partOfSpeech": "noun" },
-        { "source": "ของเมือง", "target": "of the city", "phonetic": "khǎwng mʉang", "partOfSpeech": "noun" },
-        { "source": "อย่างละเอียด", "target": "thoroughly", "phonetic": "yàang lá-ìat", "partOfSpeech": "adverb" }
-      ]
+    "storyId": "thai-intermediate-2-the-photography-project",
+    "bookId": "thai-intermediate-2",
+    "language": "th",
+    "title": {
+        "source": "โครงการถ่ายภาพ",
+        "target": "The Photography Project"
     },
-    {
-      "source": "เธอรักการเก็บภาพช่วงเวลาที่คนอื่นอาจมองข้ามมาตลอด",
-      "target": "She had always loved capturing moments that others might overlook.",
-      "phonetic": "thoe rák gaan gèp phâap chûang wee-laa thîi khon ʉ̀ʉn àat mawng khâam maa dta-lɔ̀ɔt",
-      "breakdown": [
-        { "source": "เธอรัก", "target": "she loved", "phonetic": "thoe rák", "partOfSpeech": "verb" },
-        { "source": "การเก็บภาพ", "target": "capturing", "phonetic": "gaan gèp phâap", "partOfSpeech": "noun" },
-        { "source": "ช่วงเวลา", "target": "moments", "phonetic": "chûang wee-laa", "partOfSpeech": "noun" },
-        { "source": "ที่คนอื่นอาจมองข้าม", "target": "that others might overlook", "phonetic": "thîi khon ʉ̀ʉn àat mawng khâam", "partOfSpeech": "clause" },
-        { "source": "มาตลอด", "target": "always", "phonetic": "maa dta-lɔ̀ɔt", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "ถ้าเธอไม่ได้ซื้อกล้องใหม่ ภาพของเธอคงไม่ชัดเจนขนาดนี้",
-      "target": "If she hadn’t bought a new camera, her photos wouldn’t have been so clear.",
-      "phonetic": "thâa thoe mâi dâi sʉ́ʉ glɔ̂ng mài phâap khǎwng thoe khong mâi chát-jen khà-nàat níi",
-      "breakdown": [
-        { "source": "ถ้าเธอไม่ได้ซื้อกล้องใหม่", "target": "if she hadn't bought a new camera", "phonetic": "thâa thoe mâi dâi sʉ́ʉ glɔ̂ng mài", "partOfSpeech": "conditional" },
-        { "source": "ภาพของเธอ", "target": "her photos", "phonetic": "phâap khǎwng thoe", "partOfSpeech": "noun" },
-        { "source": "คงไม่ชัดเจน", "target": "wouldn't have been clear", "phonetic": "khong mâi chát-jen", "partOfSpeech": "verb" },
-        { "source": "ขนาดนี้", "target": "so much", "phonetic": "khà-nàat níi", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "โครงการของเธอมุ่งบันทึกชีวิตของพ่อค้าแม่ค้าริมถนนในเมืองของเธอ",
-      "target": "Her project focused on documenting the lives of street vendors in her city.",
-      "phonetic": "khroong-kaan khǎwng thoe mûng ban-thʉ́k chii-wít khǎwng phɔ̂ɔ-khá mê̂e-khá rim tha-nón nai mʉang khǎwng thoe",
-      "breakdown": [
-        { "source": "โครงการของเธอ", "target": "her project", "phonetic": "khroong-kaan khǎwng thoe", "partOfSpeech": "noun" },
-        { "source": "มุ่งบันทึก", "target": "focused on documenting", "phonetic": "mûng ban-thʉ́k", "partOfSpeech": "verb" },
-        { "source": "ชีวิตของ", "target": "the lives of", "phonetic": "chii-wít khǎwng", "partOfSpeech": "noun" },
-        { "source": "พ่อค้าแม่ค้าริมถนน", "target": "street vendors", "phonetic": "phɔ̂ɔ-khá mê̂e-khá rim tha-nón", "partOfSpeech": "noun" },
-        { "source": "ในเมืองของเธอ", "target": "in her city", "phonetic": "nai mʉang khǎwng thoe", "partOfSpeech": "preposition" }
-      ]
-    },
-    {
-      "source": "ทุกเช้าเธอไปตลาดที่พ่อค้าแม่ค้าทักทายเธออย่างอบอุ่น",
-      "target": "Each morning, she visited the market, where vendors greeted her warmly.",
-      "phonetic": "thúk cháo thoe bpai dtaa-làat thîi phɔ̂ɔ-khá mê̂e-khá thák-thaai thoe yàang òp-ùn",
-      "breakdown": [
-        { "source": "ทุกเช้า", "target": "each morning", "phonetic": "thúk cháo", "partOfSpeech": "adverb" },
-        { "source": "เธอไปตลาด", "target": "she visited the market", "phonetic": "thoe bpai dtaa-làat", "partOfSpeech": "verb" },
-        { "source": "ที่พ่อค้าแม่ค้า", "target": "where vendors", "phonetic": "thîi phɔ̂ɔ-khá mê̂e-khá", "partOfSpeech": "noun" },
-        { "source": "ทักทายเธอ", "target": "greeted her", "phonetic": "thák-thaai thoe", "partOfSpeech": "verb" },
-        { "source": "อย่างอบอุ่น", "target": "warmly", "phonetic": "yàang òp-ùn", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "เธอถ่ายรูปชายชราขายดอกไม้ รอยยิ้มของเขาเต็มไปด้วยเรื่องราว",
-      "target": "She photographed an old man selling flowers, his smile full of stories.",
-      "phonetic": "thoe thàai-rûup chaai cha-raa khǎai dɔ̀ɔk-máai rɔɔi-yím khǎwng khǎo dtem bpai dûai rʉ̂ang-raao",
-      "breakdown": [
-        { "source": "เธอถ่ายรูป", "target": "she photographed", "phonetic": "thoe thàai-rûup", "partOfSpeech": "verb" },
-        { "source": "ชายชราขายดอกไม้", "target": "an old man selling flowers", "phonetic": "chaai cha-raa khǎai dɔ̀ɔk-máai", "partOfSpeech": "noun" },
-        { "source": "รอยยิ้มของเขา", "target": "his smile", "phonetic": "rɔɔi-yím khǎwng khǎo", "partOfSpeech": "noun" },
-        { "source": "เต็มไปด้วย", "target": "full of", "phonetic": "dtem bpai dûai", "partOfSpeech": "verb" },
-        { "source": "เรื่องราว", "target": "stories", "phonetic": "rʉ̂ang-raao", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "ถ้าเธอรีบร้อน เธออาจพลาดความงามในรายละเอียดเล็กๆ",
-      "target": "If she had rushed, she might have missed the beauty in small details.",
-      "phonetic": "thâa thoe rîip-rɔ́n thoe àat phlâat khwaam ngaam nai rai-la-ìat lék-lék",
-      "breakdown": [
-        { "source": "ถ้าเธอรีบร้อน", "target": "if she had rushed", "phonetic": "thâa thoe rîip-rɔ́n", "partOfSpeech": "conditional" },
-        { "source": "เธออาจพลาด", "target": "she might have missed", "phonetic": "thoe àat phlâat", "partOfSpeech": "verb" },
-        { "source": "ความงาม", "target": "the beauty", "phonetic": "khwaam ngaam", "partOfSpeech": "noun" },
-        { "source": "ในรายละเอียดเล็กๆ", "target": "in small details", "phonetic": "nai rai-la-ìat lék-lék", "partOfSpeech": "preposition" }
-      ]
-    },
-    {
-      "source": "แม่ค้าคนหนึ่งชื่อมาเรียชวนมิอาไปที่แผง ให้ลองชิมมะม่วงสด",
-      "target": "One vendor, Maria, invited Mia to her stall to try fresh mangoes.",
-      "phonetic": "mê̂e-khá khon nʉ̀ng chʉ̂ʉ maa-ria chuan mia bpai thîi phɛ̌ɛng hâi long chim má-mûang sòt",
-      "breakdown": [
-        { "source": "แม่ค้าคนหนึ่งชื่อมาเรีย", "target": "one vendor, Maria", "phonetic": "mê̂e-khá khon nʉ̀ng chʉ̂ʉ maa-ria", "partOfSpeech": "noun" },
-        { "source": "ชวนมิอาไปที่แผง", "target": "invited Mia to her stall", "phonetic": "chuan mia bpai thîi phɛ̌ɛng", "partOfSpeech": "verb" },
-        { "source": "ให้ลองชิม", "target": "to try", "phonetic": "hâi long chim", "partOfSpeech": "verb" },
-        { "source": "มะม่วงสด", "target": "fresh mangoes", "phonetic": "má-mûang sòt", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "มาเรียบอกว่าเธอขายผลไม้มานานกว่ายี่สิบปี",
-      "target": "Maria said she had been selling fruit for over twenty years.",
-      "phonetic": "maa-ria bɔ̀ɔk wâa thoe khǎai phǒn-lá-máai maa naan gwàa yîi-sìp bpii",
-      "breakdown": [
-        { "source": "มาเรียบอกว่า", "target": "Maria said that", "phonetic": "maa-ria bɔ̀ɔk wâa", "partOfSpeech": "verb" },
-        { "source": "เธอขายผลไม้มา", "target": "she had been selling fruit", "phonetic": "thoe khǎai phǒn-lá-máai maa", "partOfSpeech": "verb" },
-        { "source": "นานกว่า", "target": "for over", "phonetic": "naan gwàa", "partOfSpeech": "adverb" },
-        { "source": "ยี่สิบปี", "target": "twenty years", "phonetic": "yîi-sìp bpii", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "มิอาขอถ่ายภาพเหมือนเพื่อใส่ไว้ในโครงการของเธอ",
-      "target": "Mia asked if she could take a portrait to include in her project.",
-      "phonetic": "mia khɔ̌ɔ thàai phâap mʉ̌ʉan phʉ̂a sài wái nai khroong-kaan khǎwng thoe",
-      "breakdown": [
-        { "source": "มิอาขอถ่ายภาพเหมือน", "target": "Mia asked to take a portrait", "phonetic": "mia khɔ̌ɔ thàai phâap mʉ̌ʉan", "partOfSpeech": "verb" },
-        { "source": "เพื่อใส่ไว้", "target": "to include", "phonetic": "phʉ̂a sài wái", "partOfSpeech": "verb" },
-        { "source": "ในโครงการของเธอ", "target": "in her project", "phonetic": "nai khroong-kaan khǎwng thoe", "partOfSpeech": "preposition" }
-      ]
-    },
-    {
-      "source": "ภาพนั้นจับความเข้มแข็งของมาเรีย รายล้อมด้วยตะกร้าผลไม้สีสัน",
-      "target": "The photo captured Maria’s strength, framed by colorful fruit baskets.",
-      "phonetic": "phâap nán jàp khwaam khêm-khɛ̌ng khǎwng maa-ria raai-lɔ́ɔm dûai dtà-grâa phǒn-lá-máai sǐi-sǎn",
-      "breakdown": [
-        { "source": "ภาพนั้นจับ", "target": "the photo captured", "phonetic": "phâap nán jàp", "partOfSpeech": "verb" },
-        { "source": "ความเข้มแข็งของมาเรีย", "target": "Maria's strength", "phonetic": "khwaam khêm-khɛ̌ng khǎwng maa-ria", "partOfSpeech": "noun" },
-        { "source": "รายล้อมด้วย", "target": "framed by", "phonetic": "raai-lɔ́ɔm dûai", "partOfSpeech": "verb" },
-        { "source": "ตะกร้าผลไม้สีสัน", "target": "colorful fruit baskets", "phonetic": "dtà-grâa phǒn-lá-máai sǐi-sǎn", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "มิอาอาจเลือกหัวข้ออื่น แต่หัวข้อนี้มีความหมายกับเธอมากกว่า",
-      "target": "Mia could have chosen a different topic, but this one felt meaningful.",
-      "phonetic": "mia àat lʉ̂ak hǔa-khɔ̂ʉ ʉ̀ʉn dtàe hǔa-khɔ̂ʉ níi mii khwaam-mǎai gàp thoe mâak gwàa",
-      "breakdown": [
-        { "source": "มิอาอาจเลือกหัวข้ออื่น", "target": "Mia could have chosen a different topic", "phonetic": "mia àat lʉ̂ak hǔa-khɔ̂ʉ ʉ̀ʉn", "partOfSpeech": "verb" },
-        { "source": "แต่หัวข้อนี้", "target": "but this one", "phonetic": "dtàe hǔa-khɔ̂ʉ níi", "partOfSpeech": "conjunction" },
-        { "source": "มีความหมายกับเธอ", "target": "felt meaningful to her", "phonetic": "mii khwaam-mǎai gàp thoe", "partOfSpeech": "verb" },
-        { "source": "มากกว่า", "target": "more", "phonetic": "mâak gwàa", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "เธอแต่งภาพอย่างระมัดระวัง ปรับแสงเพื่อเน้นอารมณ์ของเรื่องราว",
-      "target": "She edited her photos carefully, adjusting light to highlight emotions.",
-      "phonetic": "thoe dtɛ̀ng phâap yàang rá-mát rá-wang bpràp sǎeng phʉ̂a né n aa-rom khǎwng rʉ̂ang-raao",
-      "breakdown": [
-        { "source": "เธอแต่งภาพ", "target": "she edited her photos", "phonetic": "thoe dtɛ̀ng phâap", "partOfSpeech": "verb" },
-        { "source": "อย่างระมัดระวัง", "target": "carefully", "phonetic": "yàang rá-mát rá-wang", "partOfSpeech": "adverb" },
-        { "source": "ปรับแสง", "target": "adjusting light", "phonetic": "bpràp sǎeng", "partOfSpeech": "verb" },
-        { "source": "เพื่อเน้นอารมณ์", "target": "to highlight emotions", "phonetic": "phʉ̂a nén aa-rom", "partOfSpeech": "verb" },
-        { "source": "ของเรื่องราว", "target": "of the stories", "phonetic": "khǎwng rʉ̂ang-raao", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "เพื่อนของเธอชมภาพ บอกว่าภาพเล่าเรื่องได้อย่างทรงพลัง",
-      "target": "Her friends praised the images, saying they told powerful stories.",
-      "phonetic": "phʉ̂an khǎwng thoe chom phâap bɔ̀ɔk wâa phâap lâo rʉ̂ang dâi yàang song-pha-lang",
-      "breakdown": [
-        { "source": "เพื่อนของเธอชมภาพ", "target": "her friends praised the images", "phonetic": "phʉ̂an khǎwng thoe chom phâap", "partOfSpeech": "verb" },
-        { "source": "บอกว่า", "target": "saying that", "phonetic": "bɔ̀ɔk wâa", "partOfSpeech": "conjunction" },
-        { "source": "ภาพเล่าเรื่องได้", "target": "they told stories", "phonetic": "phâap lâo rʉ̂ang dâi", "partOfSpeech": "verb" },
-        { "source": "อย่างทรงพลัง", "target": "powerfully", "phonetic": "yàang song-pha-lang", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "ถ้ามิอยื่นงานให้แกลเลอรี พวกเขาอาจจัดนิทรรศการให้เธอ",
-      "target": "If Mia submits her work to a gallery, she might get an exhibition.",
-      "phonetic": "thâa mia yʉ̂ʉn ngaan hâi gɛɛ-ləə-rîi phûak-kháo àat jàt ní-thát-sa-gan hâi thoe",
-      "breakdown": [
-        { "source": "ถ้ามิอยื่นงานให้แกลเลอรี", "target": "if Mia submits her work to a gallery", "phonetic": "thâa mia yʉ̂ʉn ngaan hâi gɛɛ-ləə-rîi", "partOfSpeech": "conditional" },
-        { "source": "พวกเขาอาจจัด", "target": "they might organize", "phonetic": "phûak-kháo àat jàt", "partOfSpeech": "verb" },
-        { "source": "นิทรรศการให้เธอ", "target": "an exhibition for her", "phonetic": "ní-thát-sa-gan hâi thoe", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "เธอใช้เวลาหลายชั่วโมงจัดระเบียบภาพให้กลายเป็นชุดผลงานที่สมบูรณ์",
-      "target": "She spent hours organizing her photos into a cohesive collection.",
-      "phonetic": "thoe chái wee-laa lǎai chûa-moong jàt rá-bìap phâap hâi glaai bpen chút phǒn-ngaan thîi sǒm-buun",
-      "breakdown": [
-        { "source": "เธอใช้เวลาหลายชั่วโมง", "target": "she spent hours", "phonetic": "thoe chái wee-laa lǎai chûa-moong", "partOfSpeech": "verb" },
-        { "source": "จัดระเบียบภาพ", "target": "organizing her photos", "phonetic": "jàt rá-bìap phâap", "partOfSpeech": "verb" },
-        { "source": "ให้กลายเป็น", "target": "into", "phonetic": "hâi glaai bpen", "partOfSpeech": "verb" },
-        { "source": "ชุดผลงานที่สมบูรณ์", "target": "a cohesive collection", "phonetic": "chút phǒn-ngaan thîi sǒm-buun", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "สำหรับเธอ การถ่ายภาพคือการเก็บรักษาช่วงเวลาที่แสนฉับไว",
-      "target": "Photography, she realized, was a way to preserve fleeting moments.",
-      "phonetic": "sǎm-ràp thoe gaan thàai-phâap khʉʉ gaan gèp-rák-chá chûang wee-laa thîi sǎen chàp-wai",
-      "breakdown": [
-        { "source": "สำหรับเธอ", "target": "for her", "phonetic": "sǎm-ràp thoe", "partOfSpeech": "preposition" },
-        { "source": "การถ่ายภาพ", "target": "photography", "phonetic": "gaan thàai-phâap", "partOfSpeech": "noun" },
-        { "source": "คือการเก็บรักษา", "target": "was a way to preserve", "phonetic": "khʉʉ gaan gèp-rák-chá", "partOfSpeech": "verb" },
-        { "source": "ช่วงเวลาที่แสนฉับไว", "target": "fleeting moments", "phonetic": "chûang wee-laa thîi sǎen chàp-wai", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "มิอาวางแผนจะสัมภาษณ์พ่อค้าแม่ค้าเพิ่ม เพื่อใส่เรื่องราวลงในโครงการ",
-      "target": "Mia planned to interview more vendors to add their stories to her project.",
-      "phonetic": "mia waang-phǎen jà sǎm-phâat phɔ̂ɔ-khá mê̂e-khá phœ̂œm phʉ̂a sài rʉ̂ang-raao long nai khroong-kaan",
-      "breakdown": [
-        { "source": "มิอาวางแผนจะสัมภาษณ์", "target": "Mia planned to interview", "phonetic": "mia waang-phǎen jà sǎm-phâat", "partOfSpeech": "verb" },
-        { "source": "พ่อค้าแม่ค้าเพิ่ม", "target": "more vendors", "phonetic": "phɔ̂ɔ-khá mê̂e-khá phœ̂œm", "partOfSpeech": "noun" },
-        { "source": "เพื่อใส่เรื่องราว", "target": "to add their stories", "phonetic": "phʉ̂a sài rʉ̂ang-raao", "partOfSpeech": "verb" },
-        { "source": "ลงในโครงการ", "target": "to her project", "phonetic": "long nai khroong-kaan", "partOfSpeech": "preposition" }
-      ]
-    },
-    {
-      "source": "เธอหวังว่างานของเธอจะเป็นแรงบันดาลใจให้คนเห็นความงามในชีวิตประจำวัน",
-      "target": "She hoped her work would inspire others to notice everyday beauty.",
-      "phonetic": "thoe wǎng wâa ngaan khǎwng thoe jà bpen raaeng ban-daan-jai hâi khon hěn khwaam ngaam nai chii-wít bprà-jam-wan",
-      "breakdown": [
-        { "source": "เธอหวังว่า", "target": "she hoped that", "phonetic": "thoe wǎng wâa", "partOfSpeech": "verb" },
-        { "source": "งานของเธอจะเป็น", "target": "her work would be", "phonetic": "ngaan khǎwng thoe jà bpen", "partOfSpeech": "verb" },
-        { "source": "แรงบันดาลใจ", "target": "inspiration", "phonetic": "raaeng ban-daan-jai", "partOfSpeech": "noun" },
-        { "source": "ให้คนเห็น", "target": "for others to notice", "phonetic": "hâi khon hěn", "partOfSpeech": "verb" },
-        { "source": "ความงามในชีวิตประจำวัน", "target": "everyday beauty", "phonetic": "khwaam ngaam nai chii-wít bprà-jam-wan", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "เมื่อจบโครงการ มิอารู้สึกว่าตัวเองผูกพันกับเมืองมากขึ้น",
-      "target": "By the end, Mia felt her project had given her a deeper connection to her city.",
-      "phonetic": "mʉ̂a jòp khroong-kaan mia rúu-sʉ̀k wâa dtua-eng phùuk-phan gàp mʉang mâak khʉ̂n",
-      "breakdown": [
-        { "source": "เมื่อจบโครงการ", "target": "by the end", "phonetic": "mʉ̂a jòp khroong-kaan", "partOfSpeech": "preposition" },
-        { "source": "มิอารู้สึกว่า", "target": "Mia felt that", "phonetic": "mia rúu-sʉ̀k wâa", "partOfSpeech": "verb" },
-        { "source": "ตัวเองผูกพันกับเมือง", "target": "she had a connection to her city", "phonetic": "dtua-eng phùuk-phan gàp mʉang", "partOfSpeech": "verb" },
-        { "source": "มากขึ้น", "target": "deeper", "phonetic": "mâak khʉ̂n", "partOfSpeech": "adverb" }
-      ]
-    }
-  ],
-  "createdAt": "2025-09-29T23:36:00Z",
-  "updatedAt": "2025-09-29T23:36:00Z",
-  "difficulty": "intermediate",
-  "summary": "โครงการถ่ายภาพของมิอา: มุมลับของเมือง พ่อค้าแม่ค้า เรื่องเล่าจากตลาด การจัดแสง และแรงบันดาลใจ"
+    "sentences": [
+        {
+            "source": "ก่อนเริ่มโครงการถ่ายภาพ มิอาศึกษามุมลับๆ ของเมืองอย่างละเอียด",
+            "target": "Before starting her photography project, Mia had researched the city’s hidden corners.",
+            "phonetic": "gɔ̀ɔn rœ̂œm khroong-kaan thàai-phâap mia sʉ̀k-sǎa mum láp-láp khǎwng mʉang yàang lá-ìat",
+            "breakdown": [
+                {
+                    "source": "ก่อนเริ่มโครงการถ่ายภาพ",
+                    "target": "before starting her photography project",
+                    "phonetic": "gɔ̀ɔn rœ̂œm khroong-kaan thàai-phâap",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "มิอาศึกษา",
+                    "target": "Mia had researched",
+                    "phonetic": "mia sʉ̀k-sǎa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "มุมลับๆ",
+                    "target": "hidden corners",
+                    "phonetic": "mum láp-láp",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ของเมือง",
+                    "target": "of the city",
+                    "phonetic": "khǎwng mʉang",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "อย่างละเอียด",
+                    "target": "thoroughly",
+                    "phonetic": "yàang lá-ìat",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "เธอรักการเก็บภาพช่วงเวลาที่คนอื่นอาจมองข้ามมาตลอด",
+            "target": "She had always loved capturing moments that others might overlook.",
+            "phonetic": "thoe rák gaan gèp phâap chûang wee-laa thîi khon ʉ̀ʉn àat mawng khâam maa dta-lɔ̀ɔt",
+            "breakdown": [
+                {
+                    "source": "เธอรัก",
+                    "target": "she loved",
+                    "phonetic": "thoe rák",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "การเก็บภาพ",
+                    "target": "capturing",
+                    "phonetic": "gaan gèp phâap",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ช่วงเวลา",
+                    "target": "moments",
+                    "phonetic": "chûang wee-laa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ที่คนอื่นอาจมองข้าม",
+                    "target": "that others might overlook",
+                    "phonetic": "thîi khon ʉ̀ʉn àat mawng khâam",
+                    "partOfSpeech": "clause"
+                },
+                {
+                    "source": "มาตลอด",
+                    "target": "always",
+                    "phonetic": "maa dta-lɔ̀ɔt",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "ถ้าเธอไม่ได้ซื้อกล้องใหม่ ภาพของเธอคงไม่ชัดเจนขนาดนี้",
+            "target": "If she hadn’t bought a new camera, her photos wouldn’t have been so clear.",
+            "phonetic": "thâa thoe mâi dâi sʉ́ʉ glɔ̂ng mài phâap khǎwng thoe khong mâi chát-jen khà-nàat níi",
+            "breakdown": [
+                {
+                    "source": "ถ้าเธอไม่ได้ซื้อกล้องใหม่",
+                    "target": "if she hadn't bought a new camera",
+                    "phonetic": "thâa thoe mâi dâi sʉ́ʉ glɔ̂ng mài",
+                    "partOfSpeech": "conditional"
+                },
+                {
+                    "source": "ภาพของเธอ",
+                    "target": "her photos",
+                    "phonetic": "phâap khǎwng thoe",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "คงไม่ชัดเจน",
+                    "target": "wouldn't have been clear",
+                    "phonetic": "khong mâi chát-jen",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ขนาดนี้",
+                    "target": "so much",
+                    "phonetic": "khà-nàat níi",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "โครงการของเธอมุ่งบันทึกชีวิตของพ่อค้าแม่ค้าริมถนนในเมืองของเธอ",
+            "target": "Her project focused on documenting the lives of street vendors in her city.",
+            "phonetic": "khroong-kaan khǎwng thoe mûng ban-thʉ́k chii-wít khǎwng phɔ̂ɔ-khá mê̂e-khá rim tha-nón nai mʉang khǎwng thoe",
+            "breakdown": [
+                {
+                    "source": "โครงการของเธอ",
+                    "target": "her project",
+                    "phonetic": "khroong-kaan khǎwng thoe",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "มุ่งบันทึก",
+                    "target": "focused on documenting",
+                    "phonetic": "mûng ban-thʉ́k",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ชีวิตของ",
+                    "target": "the lives of",
+                    "phonetic": "chii-wít khǎwng",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "พ่อค้าแม่ค้าริมถนน",
+                    "target": "street vendors",
+                    "phonetic": "phɔ̂ɔ-khá mê̂e-khá rim tha-nón",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ในเมืองของเธอ",
+                    "target": "in her city",
+                    "phonetic": "nai mʉang khǎwng thoe",
+                    "partOfSpeech": "preposition"
+                }
+            ]
+        },
+        {
+            "source": "ทุกเช้าเธอไปตลาดที่พ่อค้าแม่ค้าทักทายเธออย่างอบอุ่น",
+            "target": "Each morning, she visited the market, where vendors greeted her warmly.",
+            "phonetic": "thúk cháo thoe bpai dtaa-làat thîi phɔ̂ɔ-khá mê̂e-khá thák-thaai thoe yàang òp-ùn",
+            "breakdown": [
+                {
+                    "source": "ทุกเช้า",
+                    "target": "each morning",
+                    "phonetic": "thúk cháo",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "เธอไปตลาด",
+                    "target": "she visited the market",
+                    "phonetic": "thoe bpai dtaa-làat",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ที่พ่อค้าแม่ค้า",
+                    "target": "where vendors",
+                    "phonetic": "thîi phɔ̂ɔ-khá mê̂e-khá",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ทักทายเธอ",
+                    "target": "greeted her",
+                    "phonetic": "thák-thaai thoe",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "อย่างอบอุ่น",
+                    "target": "warmly",
+                    "phonetic": "yàang òp-ùn",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "เธอถ่ายรูปชายชราขายดอกไม้ รอยยิ้มของเขาเต็มไปด้วยเรื่องราว",
+            "target": "She photographed an old man selling flowers, his smile full of stories.",
+            "phonetic": "thoe thàai-rûup chaai cha-raa khǎai dɔ̀ɔk-máai rɔɔi-yím khǎwng khǎo dtem bpai dûai rʉ̂ang-raao",
+            "breakdown": [
+                {
+                    "source": "เธอถ่ายรูป",
+                    "target": "she photographed",
+                    "phonetic": "thoe thàai-rûup",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ชายชราขายดอกไม้",
+                    "target": "an old man selling flowers",
+                    "phonetic": "chaai cha-raa khǎai dɔ̀ɔk-máai",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "รอยยิ้มของเขา",
+                    "target": "his smile",
+                    "phonetic": "rɔɔi-yím khǎwng khǎo",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เต็มไปด้วย",
+                    "target": "full of",
+                    "phonetic": "dtem bpai dûai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เรื่องราว",
+                    "target": "stories",
+                    "phonetic": "rʉ̂ang-raao",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "ถ้าเธอรีบร้อน เธออาจพลาดความงามในรายละเอียดเล็กๆ",
+            "target": "If she had rushed, she might have missed the beauty in small details.",
+            "phonetic": "thâa thoe rîip-rɔ́n thoe àat phlâat khwaam ngaam nai rai-la-ìat lék-lék",
+            "breakdown": [
+                {
+                    "source": "ถ้าเธอรีบร้อน",
+                    "target": "if she had rushed",
+                    "phonetic": "thâa thoe rîip-rɔ́n",
+                    "partOfSpeech": "conditional"
+                },
+                {
+                    "source": "เธออาจพลาด",
+                    "target": "she might have missed",
+                    "phonetic": "thoe àat phlâat",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ความงาม",
+                    "target": "the beauty",
+                    "phonetic": "khwaam ngaam",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ในรายละเอียดเล็กๆ",
+                    "target": "in small details",
+                    "phonetic": "nai rai-la-ìat lék-lék",
+                    "partOfSpeech": "preposition"
+                }
+            ]
+        },
+        {
+            "source": "แม่ค้าคนหนึ่งชื่อมาเรียชวนมิอาไปที่แผง ให้ลองชิมมะม่วงสด",
+            "target": "One vendor, Maria, invited Mia to her stall to try fresh mangoes.",
+            "phonetic": "mê̂e-khá khon nʉ̀ng chʉ̂ʉ maa-ria chuan mia bpai thîi phɛ̌ɛng hâi long chim má-mûang sòt",
+            "breakdown": [
+                {
+                    "source": "แม่ค้าคนหนึ่งชื่อมาเรีย",
+                    "target": "one vendor, Maria",
+                    "phonetic": "mê̂e-khá khon nʉ̀ng chʉ̂ʉ maa-ria",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ชวนมิอาไปที่แผง",
+                    "target": "invited Mia to her stall",
+                    "phonetic": "chuan mia bpai thîi phɛ̌ɛng",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ให้ลองชิม",
+                    "target": "to try",
+                    "phonetic": "hâi long chim",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "มะม่วงสด",
+                    "target": "fresh mangoes",
+                    "phonetic": "má-mûang sòt",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "มาเรียบอกว่าเธอขายผลไม้มานานกว่ายี่สิบปี",
+            "target": "Maria said she had been selling fruit for over twenty years.",
+            "phonetic": "maa-ria bɔ̀ɔk wâa thoe khǎai phǒn-lá-máai maa naan gwàa yîi-sìp bpii",
+            "breakdown": [
+                {
+                    "source": "มาเรียบอกว่า",
+                    "target": "Maria said that",
+                    "phonetic": "maa-ria bɔ̀ɔk wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เธอขายผลไม้มา",
+                    "target": "she had been selling fruit",
+                    "phonetic": "thoe khǎai phǒn-lá-máai maa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "นานกว่า",
+                    "target": "for over",
+                    "phonetic": "naan gwàa",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ยี่สิบปี",
+                    "target": "twenty years",
+                    "phonetic": "yîi-sìp bpii",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "มิอาขอถ่ายภาพเหมือนเพื่อใส่ไว้ในโครงการของเธอ",
+            "target": "Mia asked if she could take a portrait to include in her project.",
+            "phonetic": "mia khɔ̌ɔ thàai phâap mʉ̌ʉan phʉ̂a sài wái nai khroong-kaan khǎwng thoe",
+            "breakdown": [
+                {
+                    "source": "มิอาขอถ่ายภาพเหมือน",
+                    "target": "Mia asked to take a portrait",
+                    "phonetic": "mia khɔ̌ɔ thàai phâap mʉ̌ʉan",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เพื่อใส่ไว้",
+                    "target": "to include",
+                    "phonetic": "phʉ̂a sài wái",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ในโครงการของเธอ",
+                    "target": "in her project",
+                    "phonetic": "nai khroong-kaan khǎwng thoe",
+                    "partOfSpeech": "preposition"
+                }
+            ]
+        },
+        {
+            "source": "ภาพนั้นจับความเข้มแข็งของมาเรีย รายล้อมด้วยตะกร้าผลไม้สีสัน",
+            "target": "The photo captured Maria’s strength, framed by colorful fruit baskets.",
+            "phonetic": "phâap nán jàp khwaam khêm-khɛ̌ng khǎwng maa-ria raai-lɔ́ɔm dûai dtà-grâa phǒn-lá-máai sǐi-sǎn",
+            "breakdown": [
+                {
+                    "source": "ภาพนั้นจับ",
+                    "target": "the photo captured",
+                    "phonetic": "phâap nán jàp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ความเข้มแข็งของมาเรีย",
+                    "target": "Maria's strength",
+                    "phonetic": "khwaam khêm-khɛ̌ng khǎwng maa-ria",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "รายล้อมด้วย",
+                    "target": "framed by",
+                    "phonetic": "raai-lɔ́ɔm dûai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ตะกร้าผลไม้สีสัน",
+                    "target": "colorful fruit baskets",
+                    "phonetic": "dtà-grâa phǒn-lá-máai sǐi-sǎn",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "มิอาอาจเลือกหัวข้ออื่น แต่หัวข้อนี้มีความหมายกับเธอมากกว่า",
+            "target": "Mia could have chosen a different topic, but this one felt meaningful.",
+            "phonetic": "mia àat lʉ̂ak hǔa-khɔ̂ʉ ʉ̀ʉn dtàe hǔa-khɔ̂ʉ níi mii khwaam-mǎai gàp thoe mâak gwàa",
+            "breakdown": [
+                {
+                    "source": "มิอาอาจเลือกหัวข้ออื่น",
+                    "target": "Mia could have chosen a different topic",
+                    "phonetic": "mia àat lʉ̂ak hǔa-khɔ̂ʉ ʉ̀ʉn",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "แต่หัวข้อนี้",
+                    "target": "but this one",
+                    "phonetic": "dtàe hǔa-khɔ̂ʉ níi",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "มีความหมายกับเธอ",
+                    "target": "felt meaningful to her",
+                    "phonetic": "mii khwaam-mǎai gàp thoe",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "มากกว่า",
+                    "target": "more",
+                    "phonetic": "mâak gwàa",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "เธอแต่งภาพอย่างระมัดระวัง ปรับแสงเพื่อเน้นอารมณ์ของเรื่องราว",
+            "target": "She edited her photos carefully, adjusting light to highlight emotions.",
+            "phonetic": "thoe dtɛ̀ng phâap yàang rá-mát rá-wang bpràp sǎeng phʉ̂a né n aa-rom khǎwng rʉ̂ang-raao",
+            "breakdown": [
+                {
+                    "source": "เธอแต่งภาพ",
+                    "target": "she edited her photos",
+                    "phonetic": "thoe dtɛ̀ng phâap",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "อย่างระมัดระวัง",
+                    "target": "carefully",
+                    "phonetic": "yàang rá-mát rá-wang",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ปรับแสง",
+                    "target": "adjusting light",
+                    "phonetic": "bpràp sǎeng",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เพื่อเน้นอารมณ์",
+                    "target": "to highlight emotions",
+                    "phonetic": "phʉ̂a nén aa-rom",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ของเรื่องราว",
+                    "target": "of the stories",
+                    "phonetic": "khǎwng rʉ̂ang-raao",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "เพื่อนของเธอชมภาพ บอกว่าภาพเล่าเรื่องได้อย่างทรงพลัง",
+            "target": "Her friends praised the images, saying they told powerful stories.",
+            "phonetic": "phʉ̂an khǎwng thoe chom phâap bɔ̀ɔk wâa phâap lâo rʉ̂ang dâi yàang song-pha-lang",
+            "breakdown": [
+                {
+                    "source": "เพื่อนของเธอชมภาพ",
+                    "target": "her friends praised the images",
+                    "phonetic": "phʉ̂an khǎwng thoe chom phâap",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "บอกว่า",
+                    "target": "saying that",
+                    "phonetic": "bɔ̀ɔk wâa",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ภาพเล่าเรื่องได้",
+                    "target": "they told stories",
+                    "phonetic": "phâap lâo rʉ̂ang dâi",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "อย่างทรงพลัง",
+                    "target": "powerfully",
+                    "phonetic": "yàang song-pha-lang",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "ถ้ามิอยื่นงานให้แกลเลอรี พวกเขาอาจจัดนิทรรศการให้เธอ",
+            "target": "If Mia submits her work to a gallery, she might get an exhibition.",
+            "phonetic": "thâa mia yʉ̂ʉn ngaan hâi gɛɛ-ləə-rîi phûak-kháo àat jàt ní-thát-sa-gan hâi thoe",
+            "breakdown": [
+                {
+                    "source": "ถ้ามิอยื่นงานให้แกลเลอรี",
+                    "target": "if Mia submits her work to a gallery",
+                    "phonetic": "thâa mia yʉ̂ʉn ngaan hâi gɛɛ-ləə-rîi",
+                    "partOfSpeech": "conditional"
+                },
+                {
+                    "source": "พวกเขาอาจจัด",
+                    "target": "they might organize",
+                    "phonetic": "phûak-kháo àat jàt",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "นิทรรศการให้เธอ",
+                    "target": "an exhibition for her",
+                    "phonetic": "ní-thát-sa-gan hâi thoe",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "เธอใช้เวลาหลายชั่วโมงจัดระเบียบภาพให้กลายเป็นชุดผลงานที่สมบูรณ์",
+            "target": "She spent hours organizing her photos into a cohesive collection.",
+            "phonetic": "thoe chái wee-laa lǎai chûa-moong jàt rá-bìap phâap hâi glaai bpen chút phǒn-ngaan thîi sǒm-buun",
+            "breakdown": [
+                {
+                    "source": "เธอใช้เวลาหลายชั่วโมง",
+                    "target": "she spent hours",
+                    "phonetic": "thoe chái wee-laa lǎai chûa-moong",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "จัดระเบียบภาพ",
+                    "target": "organizing her photos",
+                    "phonetic": "jàt rá-bìap phâap",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ให้กลายเป็น",
+                    "target": "into",
+                    "phonetic": "hâi glaai bpen",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ชุดผลงานที่สมบูรณ์",
+                    "target": "a cohesive collection",
+                    "phonetic": "chút phǒn-ngaan thîi sǒm-buun",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "สำหรับเธอ การถ่ายภาพคือการเก็บรักษาช่วงเวลาที่แสนฉับไว",
+            "target": "Photography, she realized, was a way to preserve fleeting moments.",
+            "phonetic": "sǎm-ràp thoe gaan thàai-phâap khʉʉ gaan gèp-rák-chá chûang wee-laa thîi sǎen chàp-wai",
+            "breakdown": [
+                {
+                    "source": "สำหรับเธอ",
+                    "target": "for her",
+                    "phonetic": "sǎm-ràp thoe",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "การถ่ายภาพ",
+                    "target": "photography",
+                    "phonetic": "gaan thàai-phâap",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "คือการเก็บรักษา",
+                    "target": "was a way to preserve",
+                    "phonetic": "khʉʉ gaan gèp-rák-chá",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ช่วงเวลาที่แสนฉับไว",
+                    "target": "fleeting moments",
+                    "phonetic": "chûang wee-laa thîi sǎen chàp-wai",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "มิอาวางแผนจะสัมภาษณ์พ่อค้าแม่ค้าเพิ่ม เพื่อใส่เรื่องราวลงในโครงการ",
+            "target": "Mia planned to interview more vendors to add their stories to her project.",
+            "phonetic": "mia waang-phǎen jà sǎm-phâat phɔ̂ɔ-khá mê̂e-khá phœ̂œm phʉ̂a sài rʉ̂ang-raao long nai khroong-kaan",
+            "breakdown": [
+                {
+                    "source": "มิอาวางแผนจะสัมภาษณ์",
+                    "target": "Mia planned to interview",
+                    "phonetic": "mia waang-phǎen jà sǎm-phâat",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "พ่อค้าแม่ค้าเพิ่ม",
+                    "target": "more vendors",
+                    "phonetic": "phɔ̂ɔ-khá mê̂e-khá phœ̂œm",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เพื่อใส่เรื่องราว",
+                    "target": "to add their stories",
+                    "phonetic": "phʉ̂a sài rʉ̂ang-raao",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ลงในโครงการ",
+                    "target": "to her project",
+                    "phonetic": "long nai khroong-kaan",
+                    "partOfSpeech": "preposition"
+                }
+            ]
+        },
+        {
+            "source": "เธอหวังว่างานของเธอจะเป็นแรงบันดาลใจให้คนเห็นความงามในชีวิตประจำวัน",
+            "target": "She hoped her work would inspire others to notice everyday beauty.",
+            "phonetic": "thoe wǎng wâa ngaan khǎwng thoe jà bpen raaeng ban-daan-jai hâi khon hěn khwaam ngaam nai chii-wít bprà-jam-wan",
+            "breakdown": [
+                {
+                    "source": "เธอหวังว่า",
+                    "target": "she hoped that",
+                    "phonetic": "thoe wǎng wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "งานของเธอจะเป็น",
+                    "target": "her work would be",
+                    "phonetic": "ngaan khǎwng thoe jà bpen",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "แรงบันดาลใจ",
+                    "target": "inspiration",
+                    "phonetic": "raaeng ban-daan-jai",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ให้คนเห็น",
+                    "target": "for others to notice",
+                    "phonetic": "hâi khon hěn",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ความงามในชีวิตประจำวัน",
+                    "target": "everyday beauty",
+                    "phonetic": "khwaam ngaam nai chii-wít bprà-jam-wan",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "เมื่อจบโครงการ มิอารู้สึกว่าตัวเองผูกพันกับเมืองมากขึ้น",
+            "target": "By the end, Mia felt her project had given her a deeper connection to her city.",
+            "phonetic": "mʉ̂a jòp khroong-kaan mia rúu-sʉ̀k wâa dtua-eng phùuk-phan gàp mʉang mâak khʉ̂n",
+            "breakdown": [
+                {
+                    "source": "เมื่อจบโครงการ",
+                    "target": "by the end",
+                    "phonetic": "mʉ̂a jòp khroong-kaan",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "มิอารู้สึกว่า",
+                    "target": "Mia felt that",
+                    "phonetic": "mia rúu-sʉ̀k wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ตัวเองผูกพันกับเมือง",
+                    "target": "she had a connection to her city",
+                    "phonetic": "dtua-eng phùuk-phan gàp mʉang",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "มากขึ้น",
+                    "target": "deeper",
+                    "phonetic": "mâak khʉ̂n",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        }
+    ],
+    "createdAt": "2025-09-29T23:36:00Z",
+    "updatedAt": "2025-09-29T23:36:00Z",
+    "difficulty": "intermediate",
+    "summary": "โครงการถ่ายภาพของมิอา: มุมลับของเมือง พ่อค้าแม่ค้า เรื่องเล่าจากตลาด การจัดแสง และแรงบันดาลใจ"
 }

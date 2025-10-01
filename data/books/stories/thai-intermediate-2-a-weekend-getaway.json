@@ -1,396 +1,1601 @@
 {
-  "storyId": "thai-intermediate-2-a-weekend-getaway",
-  "bookId": "thai-intermediate-2",
-  "language": "th",
-  "title": {
-    "source": "ทริปพักผ่อนสุดสัปดาห์",
-    "target": "A Weekend Getaway"
-  },
-  "sentences": [
-    {
-      "source": "ช่วงฤดูร้อนปีที่แล้ว มาเรียตัดสินใจว่าเธอต้องการพักจากงานที่หนักที่ออฟฟิศ",
-      "target": "Last summer, Maria decided she needed a break from her demanding job at the office.",
-      "phonetic": "chûang rʉ́-duu-rórn bpii thîi-láeo maa-ria dtàt-sǐn-jai wâa thoe dtâwng-gaan pák jàak ngaan thîi nàk thîi òf-fít",
-      "breakdown": [
-        { "source": "ช่วง", "target": "period", "phonetic": "chûang", "partOfSpeech": "noun" },
-        { "source": "ฤดูร้อน", "target": "summer", "phonetic": "rʉ́-duu-rórn", "partOfSpeech": "noun" },
-        { "source": "ปีที่แล้ว", "target": "last year", "phonetic": "bpii thîi-láeo", "partOfSpeech": "adverb" },
-        { "source": "มาเรีย", "target": "Maria", "phonetic": "maa-ria", "partOfSpeech": "proper_noun" },
-        { "source": "ตัดสินใจ", "target": "decided", "phonetic": "dtàt-sǐn-jai", "partOfSpeech": "verb" },
-        { "source": "ว่า", "target": "that", "phonetic": "wâa", "partOfSpeech": "conjunction" },
-        { "source": "เธอ", "target": "she", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "ต้องการ", "target": "needed/wanted", "phonetic": "dtâwng-gaan", "partOfSpeech": "verb" },
-        { "source": "พัก", "target": "a break/rest", "phonetic": "pák", "partOfSpeech": "noun" },
-        { "source": "จาก", "target": "from", "phonetic": "jàak", "partOfSpeech": "preposition" },
-        { "source": "งาน", "target": "job/work", "phonetic": "ngaan", "partOfSpeech": "noun" },
-        { "source": "ที่หนัก", "target": "demanding", "phonetic": "thîi nàk", "partOfSpeech": "adjective" },
-        { "source": "ที่ออฟฟิศ", "target": "at the office", "phonetic": "thîi òf-fít", "partOfSpeech": "adverbial" }
-      ]
+    "storyId": "thai-intermediate-2-a-weekend-getaway",
+    "bookId": "thai-intermediate-2",
+    "language": "th",
+    "title": {
+        "source": "ทริปพักผ่อนสุดสัปดาห์",
+        "target": "A Weekend Getaway"
     },
-    {
-      "source": "เธอจองกระท่อมเล็กๆ ในชนบท โดยหวังว่าจะได้ความสงบและความเงียบ",
-      "target": "She booked a small cabin in the countryside, hoping it would offer some peace and quiet.",
-      "phonetic": "thoe jɔɔng grà-thɔ̂m lék-lék nai chon-na-bòt doi wǎng wâa jà dâi khwaam sa-ngòb láe khwaam ngîap",
-      "breakdown": [
-        { "source": "เธอ", "target": "she", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "จอง", "target": "booked", "phonetic": "jɔɔng", "partOfSpeech": "verb" },
-        { "source": "กระท่อม", "target": "cabin", "phonetic": "grà-thɔ̂m", "partOfSpeech": "noun" },
-        { "source": "เล็กๆ", "target": "small", "phonetic": "lék-lék", "partOfSpeech": "adjective" },
-        { "source": "ใน", "target": "in", "phonetic": "nai", "partOfSpeech": "preposition" },
-        { "source": "ชนบท", "target": "countryside", "phonetic": "chon-na-bòt", "partOfSpeech": "noun" },
-        { "source": "โดย", "target": "by", "phonetic": "doi", "partOfSpeech": "preposition" },
-        { "source": "หวังว่า", "target": "hoping that", "phonetic": "wǎng wâa", "partOfSpeech": "verb" },
-        { "source": "จะได้", "target": "would get/offer", "phonetic": "jà dâi", "partOfSpeech": "auxiliary" },
-        { "source": "ความสงบ", "target": "peace", "phonetic": "khwaam sa-ngòb", "partOfSpeech": "noun" },
-        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
-        { "source": "ความเงียบ", "target": "quiet", "phonetic": "khwaam ngîap", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "ถ้าเธออยู่ในเมือง เธออาจจะรู้สึกท่วมท้นด้วยเสียงดังตลอดเวลา",
-      "target": "If she had stayed in the city, she might have felt overwhelmed by the constant noise.",
-      "phonetic": "thâa thoe yùu nai mʉang thoe àat jà rúu-sʉ̀k thûam-thóhn dûai sǐang dang dtà-lɔ̀ɔt wee-laa",
-      "breakdown": [
-        { "source": "ถ้า", "target": "if", "phonetic": "thâa", "partOfSpeech": "conjunction" },
-        { "source": "เธอ", "target": "she", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "อยู่", "target": "stay/be", "phonetic": "yùu", "partOfSpeech": "verb" },
-        { "source": "ใน", "target": "in", "phonetic": "nai", "partOfSpeech": "preposition" },
-        { "source": "เมือง", "target": "city", "phonetic": "mʉang", "partOfSpeech": "noun" },
-        { "source": "เธอ", "target": "she", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "อาจจะ", "target": "might", "phonetic": "àat jà", "partOfSpeech": "auxiliary" },
-        { "source": "รู้สึก", "target": "feel", "phonetic": "rúu-sʉ̀k", "partOfSpeech": "verb" },
-        { "source": "ท่วมท้น", "target": "overwhelmed", "phonetic": "thûam-thóhn", "partOfSpeech": "adjective" },
-        { "source": "ด้วย", "target": "by/with", "phonetic": "dûai", "partOfSpeech": "preposition" },
-        { "source": "เสียง", "target": "noise/sound", "phonetic": "sǐang", "partOfSpeech": "noun" },
-        { "source": "ดัง", "target": "loud/constant", "phonetic": "dang", "partOfSpeech": "adjective" },
-        { "source": "ตลอดเวลา", "target": "all the time", "phonetic": "dtà-lɔ̀ɔt wee-laa", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "กระท่อมที่ซ่อนอยู่ท่ามกลางต้นสนสูง สวยกว่าที่เธอจินตนาการไว้",
-      "target": "The cabin, nestled among tall pine trees, was more beautiful than she had imagined.",
-      "phonetic": "grà-thɔ̂m thîi sɔ̂ɔn yùu thâam-glaang dtôn sǒn sǔung sǔai gwàa thîi thoe jin-dtà-naa-gaan wái",
-      "breakdown": [
-        { "source": "กระท่อม", "target": "cabin", "phonetic": "grà-thɔ̂m", "partOfSpeech": "noun" },
-        { "source": "ที่", "target": "that/which", "phonetic": "thîi", "partOfSpeech": "relative_pronoun" },
-        { "source": "ซ่อนอยู่", "target": "is nestled/hidden", "phonetic": "sɔ̂ɔn yùu", "partOfSpeech": "verb" },
-        { "source": "ท่ามกลาง", "target": "amid/among", "phonetic": "thâam-glaang", "partOfSpeech": "preposition" },
-        { "source": "ต้นสน", "target": "pine trees", "phonetic": "dtôn sǒn", "partOfSpeech": "noun" },
-        { "source": "สูง", "target": "tall", "phonetic": "sǔung", "partOfSpeech": "adjective" },
-        { "source": "สวยกว่า", "target": "more beautiful than", "phonetic": "sǔai gwàa", "partOfSpeech": "adjective" },
-        { "source": "ที่", "target": "that/which", "phonetic": "thîi", "partOfSpeech": "conjunction" },
-        { "source": "เธอ", "target": "she", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "จินตนาการ", "target": "imagined", "phonetic": "jin-dtà-naa-gaan", "partOfSpeech": "verb" },
-        { "source": "ไว้", "target": "(perfective marker)", "phonetic": "wái", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "เมื่อมาถึง เธอแกะกระเป๋าแล้วออกไปเดินเล่นทันที",
-      "target": "When she arrived, she unpacked her bags and immediately went for a walk.",
-      "phonetic": "mʉ̂a maa-thʉ̆ng thoe gàe grà-bpǎo láeo òrk-bpai doen-lên than-thii",
-      "breakdown": [
-        { "source": "เมื่อ", "target": "when", "phonetic": "mʉ̂a", "partOfSpeech": "conjunction" },
-        { "source": "มาถึง", "target": "arrived", "phonetic": "maa-thʉ̆ng", "partOfSpeech": "verb" },
-        { "source": "เธอ", "target": "she", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "แกะ", "target": "unpacked", "phonetic": "gàe", "partOfSpeech": "verb" },
-        { "source": "กระเป๋า", "target": "bags", "phonetic": "grà-bpǎo", "partOfSpeech": "noun" },
-        { "source": "แล้ว", "target": "then", "phonetic": "láeo", "partOfSpeech": "conjunction" },
-        { "source": "ออกไป", "target": "went out", "phonetic": "òrk-bpai", "partOfSpeech": "verb" },
-        { "source": "เดินเล่น", "target": "for a walk", "phonetic": "doen-lên", "partOfSpeech": "verb" },
-        { "source": "ทันที", "target": "immediately", "phonetic": "than-thii", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "อากาศบริสุทธิ์ที่อบอวลด้วยกลิ่นดอกไม้ป่า ช่วยให้จิตใจที่เหนื่อยล้าของเธอสดชื่นขึ้น",
-      "target": "The fresh air, filled with the scent of wildflowers, refreshed her tired mind.",
-      "phonetic": "aa-gàat bɔɔ-ri-sùt thîi òp-uan dûai glìn dɔ̀ɔk-máai bpàa chûai hâi jìt-jai thîi nʉ̀ai-láa khǎwng thoe sòt-chʉ̂ʉn khʉ̂n",
-      "breakdown": [
-        { "source": "อากาศ", "target": "air", "phonetic": "aa-gàat", "partOfSpeech": "noun" },
-        { "source": "บริสุทธิ์", "target": "fresh/pure", "phonetic": "bɔɔ-ri-sùt", "partOfSpeech": "adjective" },
-        { "source": "ที่", "target": "that/which", "phonetic": "thîi", "partOfSpeech": "relative_pronoun" },
-        { "source": "อบอวล", "target": "filled", "phonetic": "òp-uan", "partOfSpeech": "verb" },
-        { "source": "ด้วย", "target": "with", "phonetic": "dûai", "partOfSpeech": "preposition" },
-        { "source": "กลิ่น", "target": "scent", "phonetic": "glìn", "partOfSpeech": "noun" },
-        { "source": "ดอกไม้ป่า", "target": "wildflowers", "phonetic": "dɔ̀ɔk-máai bpàa", "partOfSpeech": "noun" },
-        { "source": "ช่วยให้", "target": "helped (to)", "phonetic": "chûai hâi", "partOfSpeech": "verb" },
-        { "source": "จิตใจ", "target": "mind", "phonetic": "jìt-jai", "partOfSpeech": "noun" },
-        { "source": "ที่เหนื่อยล้า", "target": "that was tired", "phonetic": "thîi nʉ̀ai-láa", "partOfSpeech": "adjective" },
-        { "source": "ของ", "target": "of", "phonetic": "khǎwng", "partOfSpeech": "preposition" },
-        { "source": "เธอ", "target": "her", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "สดชื่น", "target": "refresh", "phonetic": "sòt-chʉ̂ʉn", "partOfSpeech": "verb" },
-        { "source": "ขึ้น", "target": "more/again", "phonetic": "khʉ̂n", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "เธออาจใช้เวลาทั้งวันนั่งอ่านหนังสือริมทะเลสาบก็ได้ แต่เธอเลือกที่จะออกไปสำรวจ",
-      "target": "She could have spent the entire day reading by the lake, but she chose to explore.",
-      "phonetic": "thoe àat chái wee-laa tháng-wan nâng àan năng-sʉ̌ʉ rim thà-lay-sàap gɔ̂ɔ dâi dtàe thoe lʉ̂ak thîi jà òrk-bpai sǎm-sùat",
-      "breakdown": [
-        { "source": "เธอ", "target": "she", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "อาจ", "target": "could/might", "phonetic": "àat", "partOfSpeech": "auxiliary" },
-        { "source": "ใช้เวลา", "target": "spend time", "phonetic": "chái wee-laa", "partOfSpeech": "verb" },
-        { "source": "ทั้งวัน", "target": "all day", "phonetic": "tháng-wan", "partOfSpeech": "adverb" },
-        { "source": "นั่ง", "target": "sitting", "phonetic": "nâng", "partOfSpeech": "verb" },
-        { "source": "อ่านหนังสือ", "target": "reading", "phonetic": "àan năng-sʉ̌ʉ", "partOfSpeech": "verb" },
-        { "source": "ริม", "target": "by/edge of", "phonetic": "rim", "partOfSpeech": "preposition" },
-        { "source": "ทะเลสาบ", "target": "lake", "phonetic": "thà-lay-sàap", "partOfSpeech": "noun" },
-        { "source": "ก็ได้", "target": "could (have)", "phonetic": "gɔ̂ɔ dâi", "partOfSpeech": "modal" },
-        { "source": "แต่", "target": "but", "phonetic": "dtàe", "partOfSpeech": "conjunction" },
-        { "source": "เธอ", "target": "she", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "เลือก", "target": "chose", "phonetic": "lʉ̂ak", "partOfSpeech": "verb" },
-        { "source": "ที่จะ", "target": "to", "phonetic": "thîi jà", "partOfSpeech": "particle" },
-        { "source": "ออกไป", "target": "go out", "phonetic": "òrk-bpai", "partOfSpeech": "verb" },
-        { "source": "สำรวจ", "target": "explore", "phonetic": "sǎm-sùat", "partOfSpeech": "verb" }
-      ]
-    },
-    {
-      "source": "ชาวบ้านใจดีคนหนึ่งซึ่งกำลังดูแลสวน โบกมือทักและเสนอแอปเปิลสดให้เธอ",
-      "target": "A friendly local, who was tending his garden, waved and offered her fresh apples.",
-      "phonetic": "chaao-bâan jai-dii khon nʉ̀ng sʉ̂ng gam-lang duu-lae sǔan bòok-mʉʉ thák láe sà-nǒe áep-bpên sòt hâi thoe",
-      "breakdown": [
-        { "source": "ชาวบ้าน", "target": "local", "phonetic": "chaao-bâan", "partOfSpeech": "noun" },
-        { "source": "ใจดี", "target": "friendly", "phonetic": "jai-dii", "partOfSpeech": "adjective" },
-        { "source": "คนหนึ่ง", "target": "one person", "phonetic": "khon nʉ̀ng", "partOfSpeech": "classifier" },
-        { "source": "ซึ่ง", "target": "who", "phonetic": "sʉ̂ng", "partOfSpeech": "relative_pronoun" },
-        { "source": "กำลัง", "target": "is (progressive)", "phonetic": "gam-lang", "partOfSpeech": "auxiliary" },
-        { "source": "ดูแล", "target": "tending", "phonetic": "duu-lae", "partOfSpeech": "verb" },
-        { "source": "สวน", "target": "garden", "phonetic": "sǔan", "partOfSpeech": "noun" },
-        { "source": "โบกมือ", "target": "waved", "phonetic": "bòok-mʉʉ", "partOfSpeech": "verb" },
-        { "source": "ทัก", "target": "greeted", "phonetic": "thák", "partOfSpeech": "verb" },
-        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
-        { "source": "เสนอ", "target": "offered", "phonetic": "sà-nǒe", "partOfSpeech": "verb" },
-        { "source": "แอปเปิล", "target": "apples", "phonetic": "áep-bpên", "partOfSpeech": "noun" },
-        { "source": "สด", "target": "fresh", "phonetic": "sòt", "partOfSpeech": "adjective" },
-        { "source": "ให้", "target": "to (give)", "phonetic": "hâi", "partOfSpeech": "preposition" },
-        { "source": "เธอ", "target": "her", "phonetic": "thoe", "partOfSpeech": "pronoun" }
-      ]
-    },
-    {
-      "source": "มาเรียขอบคุณเขาและถามว่าเขารู้ทางเดินป่าดีๆ แถวนี้บ้างไหม",
-      "target": "Maria thanked him and asked if he knew any good hiking trails nearby.",
-      "phonetic": "maa-ria khɔ̀ɔp-khun kháo láe thǎam wâa kháo rúu thaang doen-bpàa dii-dii thǎeo níi bâang mǎi",
-      "breakdown": [
-        { "source": "มาเรีย", "target": "Maria", "phonetic": "maa-ria", "partOfSpeech": "proper_noun" },
-        { "source": "ขอบคุณ", "target": "thanked", "phonetic": "khɔ̀ɔp-khun", "partOfSpeech": "verb" },
-        { "source": "เขา", "target": "him", "phonetic": "kháo", "partOfSpeech": "pronoun" },
-        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
-        { "source": "ถามว่า", "target": "asked if", "phonetic": "thǎam wâa", "partOfSpeech": "verb" },
-        { "source": "เขา", "target": "he", "phonetic": "kháo", "partOfSpeech": "pronoun" },
-        { "source": "รู้", "target": "knew", "phonetic": "rúu", "partOfSpeech": "verb" },
-        { "source": "ทางเดินป่า", "target": "hiking trails", "phonetic": "thaang doen-bpàa", "partOfSpeech": "noun" },
-        { "source": "ดีๆ", "target": "good", "phonetic": "dii-dii", "partOfSpeech": "adjective" },
-        { "source": "แถวนี้", "target": "nearby", "phonetic": "thǎeo níi", "partOfSpeech": "adverb" },
-        { "source": "บ้างไหม", "target": "any?", "phonetic": "bâang mǎi", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "เขาแนะนำเส้นทางที่พาไปยังน้ำตกอันงดงาม ซ่อนอยู่ลึกเข้าไปในป่า",
-      "target": "He suggested a path that led to a stunning waterfall, hidden deep in the forest.",
-      "phonetic": "kháo náe-nam sên-thaang thîi phaa bpai yang náam-dtòk an ngót-ngaa m sɔ̂ɔn yùu lʉ́k khâo bpai nai bpàa",
-      "breakdown": [
-        { "source": "เขา", "target": "he", "phonetic": "kháo", "partOfSpeech": "pronoun" },
-        { "source": "แนะนำ", "target": "suggested", "phonetic": "náe-nam", "partOfSpeech": "verb" },
-        { "source": "เส้นทาง", "target": "path", "phonetic": "sên-thaang", "partOfSpeech": "noun" },
-        { "source": "ที่", "target": "that/which", "phonetic": "thîi", "partOfSpeech": "relative_pronoun" },
-        { "source": "พาไปยัง", "target": "led to", "phonetic": "phaa bpai yang", "partOfSpeech": "verb" },
-        { "source": "น้ำตก", "target": "waterfall", "phonetic": "náam-dtòk", "partOfSpeech": "noun" },
-        { "source": "อัน", "target": "(formal classifier)", "phonetic": "an", "partOfSpeech": "particle" },
-        { "source": "งดงาม", "target": "stunning", "phonetic": "ngót-ngaa m", "partOfSpeech": "adjective" },
-        { "source": "ซ่อนอยู่", "target": "hidden", "phonetic": "sɔ̂ɔn yùu", "partOfSpeech": "verb" },
-        { "source": "ลึก", "target": "deep", "phonetic": "lʉ́k", "partOfSpeech": "adjective" },
-        { "source": "เข้าไป", "target": "into", "phonetic": "khâo bpai", "partOfSpeech": "verb" },
-        { "source": "ในป่า", "target": "the forest", "phonetic": "nai bpàa", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "เช้าวันรุ่งขึ้น เธอออกเดินทางแต่เช้า มุ่งมั่นว่าจะไปถึงน้ำตกก่อนเที่ยง",
-      "target": "The next morning, she set out early, determined to find the waterfall before noon.",
-      "phonetic": "cháo wan rûng-kʉ̂n thoe òrk doen-thaang dtàe cháo mûng-mân wâa jà bpai thʉ̆ng náam-dtòk gɔ̀ɔn thîang",
-      "breakdown": [
-        { "source": "เช้า", "target": "morning", "phonetic": "cháo", "partOfSpeech": "noun" },
-        { "source": "วันรุ่งขึ้น", "target": "the next day", "phonetic": "wan rûng-kʉ̂n", "partOfSpeech": "adverb" },
-        { "source": "เธอ", "target": "she", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "ออกเดินทาง", "target": "set out", "phonetic": "òrk doen-thaang", "partOfSpeech": "verb" },
-        { "source": "แต่เช้า", "target": "early", "phonetic": "dtàe cháo", "partOfSpeech": "adverb" },
-        { "source": "มุ่งมั่น", "target": "determined", "phonetic": "mûng-mân", "partOfSpeech": "adjective" },
-        { "source": "ว่า", "target": "that", "phonetic": "wâa", "partOfSpeech": "conjunction" },
-        { "source": "จะไปถึง", "target": "to reach", "phonetic": "jà bpai thʉ̆ng", "partOfSpeech": "verb" },
-        { "source": "น้ำตก", "target": "waterfall", "phonetic": "náam-dtòk", "partOfSpeech": "noun" },
-        { "source": "ก่อนเที่ยง", "target": "before noon", "phonetic": "gɔ̀ɔn thîang", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "ถ้าเธอไม่ทำตามคำแนะนำของเขา เธออาจพลาดวิวที่สวยจนลมหายใจติดขัด",
-      "target": "If she hadn’t followed his advice, she might have missed the breathtaking view.",
-      "phonetic": "thâa thoe mâi tham-taam kham náe-nam khǎwng kháo thoe àat phlâat wiu thîi sǔai jon lom-hǎai-jai dtìt-khàt",
-      "breakdown": [
-        { "source": "ถ้า", "target": "if", "phonetic": "thâa", "partOfSpeech": "conjunction" },
-        { "source": "เธอ", "target": "she", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "ไม่", "target": "not", "phonetic": "mâi", "partOfSpeech": "adverb" },
-        { "source": "ทำตาม", "target": "follow", "phonetic": "tham-taam", "partOfSpeech": "verb" },
-        { "source": "คำแนะนำ", "target": "advice", "phonetic": "kham náe-nam", "partOfSpeech": "noun" },
-        { "source": "ของ", "target": "of", "phonetic": "khǎwng", "partOfSpeech": "preposition" },
-        { "source": "เขา", "target": "him", "phonetic": "kháo", "partOfSpeech": "pronoun" },
-        { "source": "เธอ", "target": "she", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "อาจ", "target": "might", "phonetic": "àat", "partOfSpeech": "auxiliary" },
-        { "source": "พลาด", "target": "missed", "phonetic": "phlâat", "partOfSpeech": "verb" },
-        { "source": "วิว", "target": "view", "phonetic": "wiu", "partOfSpeech": "noun" },
-        { "source": "ที่สวย", "target": "that is breathtaking", "phonetic": "thîi sǔai", "partOfSpeech": "adjective" },
-        { "source": "จน", "target": "to the point that", "phonetic": "jon", "partOfSpeech": "conjunction" },
-        { "source": "ลมหายใจ", "target": "breath", "phonetic": "lom-hǎai-jai", "partOfSpeech": "noun" },
-        { "source": "ติดขัด", "target": "stops", "phonetic": "dtìt-khàt", "partOfSpeech": "verb" }
-      ]
-    },
-    {
-      "source": "เมื่อเธอเข้าใกล้น้ำตก เสียงสายน้ำที่ไหลหลั่นดังไปทั่วอากาศ",
-      "target": "The sound of cascading water filled the air as she approached the falls.",
-      "phonetic": "mʉ̂a thoe khâo-glâi náam-dtòk sǐang sǎai-náam thîi lǎi-làn dang bpai thûa aa-gàat",
-      "breakdown": [
-        { "source": "เมื่อ", "target": "when", "phonetic": "mʉ̂a", "partOfSpeech": "conjunction" },
-        { "source": "เธอ", "target": "she", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "เข้าใกล้", "target": "approached", "phonetic": "khâo-glâi", "partOfSpeech": "verb" },
-        { "source": "น้ำตก", "target": "waterfall", "phonetic": "náam-dtòk", "partOfSpeech": "noun" },
-        { "source": "เสียง", "target": "sound", "phonetic": "sǐang", "partOfSpeech": "noun" },
-        { "source": "สายน้ำ", "target": "stream of water", "phonetic": "sǎai-náam", "partOfSpeech": "noun" },
-        { "source": "ที่", "target": "that/which", "phonetic": "thîi", "partOfSpeech": "relative_pronoun" },
-        { "source": "ไหลหลั่น", "target": "cascading", "phonetic": "lǎi-làn", "partOfSpeech": "verb" },
-        { "source": "ดัง", "target": "filled (resounded)", "phonetic": "dang", "partOfSpeech": "verb" },
-        { "source": "ไปทั่ว", "target": "throughout", "phonetic": "bpai thûa", "partOfSpeech": "adverb" },
-        { "source": "อากาศ", "target": "air", "phonetic": "aa-gàat", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "เธอนั่งบนโขดหิน พลางสงสัยว่าความงามเช่นนี้จะอยู่ใกล้เมืองของเธอได้อย่างไร",
-      "target": "She sat on a rock, wondering how such beauty could exist so close to her city.",
-      "phonetic": "thoe nâng bon khòt-hǐn phlaang sǒng-sǎi wâa khwaam ngaam chên níi jà yùu glâi mʉang khǎwng thoe dâi yàang-rai",
-      "breakdown": [
-        { "source": "เธอ", "target": "she", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "นั่ง", "target": "sat", "phonetic": "nâng", "partOfSpeech": "verb" },
-        { "source": "บน", "target": "on", "phonetic": "bon", "partOfSpeech": "preposition" },
-        { "source": "โขดหิน", "target": "rock", "phonetic": "khòt-hǐn", "partOfSpeech": "noun" },
-        { "source": "พลาง", "target": "while", "phonetic": "phlaang", "partOfSpeech": "conjunction" },
-        { "source": "สงสัยว่า", "target": "wondering how", "phonetic": "sǒng-sǎi wâa", "partOfSpeech": "verb" },
-        { "source": "ความงาม", "target": "beauty", "phonetic": "khwaam ngaam", "partOfSpeech": "noun" },
-        { "source": "เช่นนี้", "target": "such", "phonetic": "chên níi", "partOfSpeech": "determiner" },
-        { "source": "จะ", "target": "could", "phonetic": "jà", "partOfSpeech": "auxiliary" },
-        { "source": "อยู่", "target": "exist", "phonetic": "yùu", "partOfSpeech": "verb" },
-        { "source": "ใกล้", "target": "close to", "phonetic": "glâi", "partOfSpeech": "preposition" },
-        { "source": "เมือง", "target": "city", "phonetic": "mʉang", "partOfSpeech": "noun" },
-        { "source": "ของเธอ", "target": "of hers", "phonetic": "khǎwng thoe", "partOfSpeech": "preposition" },
-        { "source": "ได้อย่างไร", "target": "how", "phonetic": "dâi yàang-rai", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "ต่อมา เธอพบกับนักเดินป่าคนอื่นๆ ที่ชวนเธอไปปิกนิกด้วยกัน",
-      "target": "Later, she met other hikers who invited her to join them for a picnic.",
-      "phonetic": "dtɔ̀ɔ-maa thoe phóp gàp nák doen-bpàa khon ʉ̀ʉn-ʉ̀ʉn thîi chuan thoe bpai bpik-ník dûai-gan",
-      "breakdown": [
-        { "source": "ต่อมา", "target": "later", "phonetic": "dtɔ̀ɔ-maa", "partOfSpeech": "adverb" },
-        { "source": "เธอ", "target": "she", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "พบกับ", "target": "met", "phonetic": "phóp gàp", "partOfSpeech": "verb" },
-        { "source": "นักเดินป่า", "target": "hikers", "phonetic": "nák doen-bpàa", "partOfSpeech": "noun" },
-        { "source": "คนอื่นๆ", "target": "other people", "phonetic": "khon ʉ̀ʉn-ʉ̀ʉn", "partOfSpeech": "determiner" },
-        { "source": "ที่", "target": "who", "phonetic": "thîi", "partOfSpeech": "relative_pronoun" },
-        { "source": "ชวน", "target": "invited", "phonetic": "chuan", "partOfSpeech": "verb" },
-        { "source": "เธอ", "target": "her", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "ไป", "target": "to go", "phonetic": "bpai", "partOfSpeech": "verb" },
-        { "source": "ปิกนิก", "target": "picnic", "phonetic": "bpik-ník", "partOfSpeech": "noun" },
-        { "source": "ด้วยกัน", "target": "together", "phonetic": "dûai-gan", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "พวกเขาเล่าเรื่องการเดินทางของตน ซึ่งทำให้มาเรียเกิดแรงบันดาลใจจะวางแผนทริปอีกครั้ง",
-      "target": "They shared stories about their travels, which inspired Maria to plan another trip.",
-      "phonetic": "phûak-kháo lâo rʉ̂ang gaan doen-thaang khǎwng ton sʉ̂ng tham hâi maa-ria gèrt raaeng ban-daan-jai jà waang-phǎen thríp ìik khráng",
-      "breakdown": [
-        { "source": "พวกเขา", "target": "they", "phonetic": "phûak-kháo", "partOfSpeech": "pronoun" },
-        { "source": "เล่าเรื่อง", "target": "shared stories", "phonetic": "lâo rʉ̂ang", "partOfSpeech": "verb" },
-        { "source": "การเดินทาง", "target": "travels", "phonetic": "gaan doen-thaang", "partOfSpeech": "noun" },
-        { "source": "ของตน", "target": "of theirs", "phonetic": "khǎwng ton", "partOfSpeech": "preposition" },
-        { "source": "ซึ่ง", "target": "which", "phonetic": "sʉ̂ng", "partOfSpeech": "relative_pronoun" },
-        { "source": "ทำให้", "target": "made/caused", "phonetic": "tham hâi", "partOfSpeech": "verb" },
-        { "source": "มาเรีย", "target": "Maria", "phonetic": "maa-ria", "partOfSpeech": "proper_noun" },
-        { "source": "เกิด", "target": "to feel/experience", "phonetic": "gèrt", "partOfSpeech": "verb" },
-        { "source": "แรงบันดาลใจ", "target": "inspiration", "phonetic": "raaeng ban-daan-jai", "partOfSpeech": "noun" },
-        { "source": "จะ", "target": "to (intend)", "phonetic": "jà", "partOfSpeech": "auxiliary" },
-        { "source": "วางแผน", "target": "plan", "phonetic": "waang-phǎen", "partOfSpeech": "verb" },
-        { "source": "ทริป", "target": "trip", "phonetic": "thríp", "partOfSpeech": "noun" },
-        { "source": "อีกครั้ง", "target": "again", "phonetic": "ìik khráng", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "ถ้าเธอเก็บเงินได้พอ ฤดูร้อนหน้าเธอจะไปเที่ยวชายฝั่ง",
-      "target": "If she saves enough money, she will visit the coast next summer.",
-      "phonetic": "thâa thoe gèp ngern dâi phɔɔ rʉ́-duu-rórn nâa thoe jà bpai thîao chaai-fàng",
-      "breakdown": [
-        { "source": "ถ้า", "target": "if", "phonetic": "thâa", "partOfSpeech": "conjunction" },
-        { "source": "เธอ", "target": "she", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "เก็บเงิน", "target": "save money", "phonetic": "gèp ngern", "partOfSpeech": "verb" },
-        { "source": "ได้พอ", "target": "enough", "phonetic": "dâi phɔɔ", "partOfSpeech": "adverb" },
-        { "source": "ฤดูร้อนหน้า", "target": "next summer", "phonetic": "rʉ́-duu-rórn nâa", "partOfSpeech": "adverb" },
-        { "source": "เธอ", "target": "she", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "จะ", "target": "will", "phonetic": "jà", "partOfSpeech": "auxiliary" },
-        { "source": "ไปเที่ยว", "target": "visit/travel", "phonetic": "bpai thîao", "partOfSpeech": "verb" },
-        { "source": "ชายฝั่ง", "target": "coast", "phonetic": "chaai-fàng", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "เมื่อสุดสัปดาห์สิ้นสุด มาเรียรู้สึกเติมพลังและพร้อมกลับไปทำงานอีกครั้ง",
-      "target": "By the end of the weekend, Maria felt recharged and ready to face work again.",
-      "phonetic": "mʉ̂a sùt-sàp-daa sîn-sùt maa-ria rúu-sʉ̀k dtɤɤm-pha-lang láe phróom glàp bpai tham-ngaan ìik khráng",
-      "breakdown": [
-        { "source": "เมื่อ", "target": "by the time", "phonetic": "mʉ̂a", "partOfSpeech": "conjunction" },
-        { "source": "สุดสัปดาห์", "target": "weekend", "phonetic": "sùt-sàp-daa", "partOfSpeech": "noun" },
-        { "source": "สิ้นสุด", "target": "ended", "phonetic": "sîn-sùt", "partOfSpeech": "verb" },
-        { "source": "มาเรีย", "target": "Maria", "phonetic": "maa-ria", "partOfSpeech": "proper_noun" },
-        { "source": "รู้สึก", "target": "felt", "phonetic": "rúu-sʉ̀k", "partOfSpeech": "verb" },
-        { "source": "เติมพลัง", "target": "recharged", "phonetic": "dtɤɤm-pha-lang", "partOfSpeech": "verb" },
-        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
-        { "source": "พร้อม", "target": "ready", "phonetic": "phróom", "partOfSpeech": "adjective" },
-        { "source": "กลับไป", "target": "to go back", "phonetic": "glàp bpai", "partOfSpeech": "verb" },
-        { "source": "ทำงาน", "target": "work", "phonetic": "tham-ngaan", "partOfSpeech": "noun" },
-        { "source": "อีกครั้ง", "target": "again", "phonetic": "ìik khráng", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "เธอสัญญากับตัวเองว่าจะหาเวลาไปพักผ่อนให้มากขึ้นในอนาคต",
-      "target": "She promised herself she would make time for more getaways in the future.",
-      "phonetic": "thoe sǎn-yaa gàp tua-eng wâa jà hǎa wee-laa bpai pák-phɔ̀n hâi mâak khʉ̂n nai aa-naa-khót",
-      "breakdown": [
-        { "source": "เธอ", "target": "she", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "สัญญา", "target": "promised", "phonetic": "sǎn-yaa", "partOfSpeech": "verb" },
-        { "source": "กับ", "target": "to/with", "phonetic": "gàp", "partOfSpeech": "preposition" },
-        { "source": "ตัวเอง", "target": "herself", "phonetic": "tua-eng", "partOfSpeech": "noun" },
-        { "source": "ว่า", "target": "that", "phonetic": "wâa", "partOfSpeech": "conjunction" },
-        { "source": "จะ", "target": "would", "phonetic": "jà", "partOfSpeech": "auxiliary" },
-        { "source": "หา", "target": "make/find", "phonetic": "hǎa", "partOfSpeech": "verb" },
-        { "source": "เวลา", "target": "time", "phonetic": "wee-laa", "partOfSpeech": "noun" },
-        { "source": "ไปพักผ่อน", "target": "for getaways", "phonetic": "bpai pák-phɔ̀n", "partOfSpeech": "verb" },
-        { "source": "ให้", "target": "to", "phonetic": "hâi", "partOfSpeech": "particle" },
-        { "source": "มากขึ้น", "target": "more", "phonetic": "mâak khʉ̂n", "partOfSpeech": "adverb" },
-        { "source": "ใน", "target": "in", "phonetic": "nai", "partOfSpeech": "preposition" },
-        { "source": "อนาคต", "target": "the future", "phonetic": "aa-naa-khót", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "เธอรู้ตัวว่าชนบทได้มอบมุมมองใหม่ให้กับชีวิตของเธอ",
-      "target": "The countryside, she realized, had given her a new perspective on life.",
-      "phonetic": "thoe rúu-tua wâa chon-na-bòt dâi mɔ̂ɔp mum-maawng mài hâi gàp chii-wít khǎwng thoe",
-      "breakdown": [
-        { "source": "เธอ", "target": "she", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "รู้ตัวว่า", "target": "realized that", "phonetic": "rúu-tua wâa", "partOfSpeech": "verb" },
-        { "source": "ชนบท", "target": "countryside", "phonetic": "chon-na-bòt", "partOfSpeech": "noun" },
-        { "source": "ได้", "target": "had", "phonetic": "dâi", "partOfSpeech": "auxiliary" },
-        { "source": "มอบ", "target": "given", "phonetic": "mɔ̂ɔp", "partOfSpeech": "verb" },
-        { "source": "มุมมองใหม่", "target": "a new perspective", "phonetic": "mum-maawng mài", "partOfSpeech": "noun" },
-        { "source": "ให้กับ", "target": "to", "phonetic": "hâi gàp", "partOfSpeech": "preposition" },
-        { "source": "ชีวิต", "target": "life", "phonetic": "chii-wít", "partOfSpeech": "noun" },
-        { "source": "ของเธอ", "target": "of hers", "phonetic": "khǎwng thoe", "partOfSpeech": "preposition" }
-      ]
-    }
-  ],
-  "createdAt": "2025-09-29T16:22:30Z",
-  "updatedAt": "2025-09-29T16:32:30Z",
-  "difficulty": "intermediate",
-  "summary": "เรื่องราวการพักผ่อนสุดสัปดาห์ของมาเรีย: การหนีงานที่หนัก ความสงบในชนบท น้ำตก การสำรวจ ผู้คนที่พบเจอ และแรงบันดาลใจสำหรับการเดินทางครั้งต่อไป"
+    "sentences": [
+        {
+            "source": "ช่วงฤดูร้อนปีที่แล้ว มาเรียตัดสินใจว่าเธอต้องการพักจากงานที่หนักที่ออฟฟิศ",
+            "target": "Last summer, Maria decided she needed a break from her demanding job at the office.",
+            "phonetic": "chûang rʉ́-duu-rórn bpii thîi-láeo maa-ria dtàt-sǐn-jai wâa thoe dtâwng-gaan pák jàak ngaan thîi nàk thîi òf-fít",
+            "breakdown": [
+                {
+                    "source": "ช่วง",
+                    "target": "period",
+                    "phonetic": "chûang",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ฤดูร้อน",
+                    "target": "summer",
+                    "phonetic": "rʉ́-duu-rórn",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ปีที่แล้ว",
+                    "target": "last year",
+                    "phonetic": "bpii thîi-láeo",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "มาเรีย",
+                    "target": "Maria",
+                    "phonetic": "maa-ria",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "ตัดสินใจ",
+                    "target": "decided",
+                    "phonetic": "dtàt-sǐn-jai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ว่า",
+                    "target": "that",
+                    "phonetic": "wâa",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "เธอ",
+                    "target": "she",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ต้องการ",
+                    "target": "needed/wanted",
+                    "phonetic": "dtâwng-gaan",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "พัก",
+                    "target": "a break/rest",
+                    "phonetic": "pák",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "จาก",
+                    "target": "from",
+                    "phonetic": "jàak",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "งาน",
+                    "target": "job/work",
+                    "phonetic": "ngaan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ที่หนัก",
+                    "target": "demanding",
+                    "phonetic": "thîi nàk",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ที่ออฟฟิศ",
+                    "target": "at the office",
+                    "phonetic": "thîi òf-fít",
+                    "partOfSpeech": "adverbial"
+                }
+            ]
+        },
+        {
+            "source": "เธอจองกระท่อมเล็กๆ ในชนบท โดยหวังว่าจะได้ความสงบและความเงียบ",
+            "target": "She booked a small cabin in the countryside, hoping it would offer some peace and quiet.",
+            "phonetic": "thoe jɔɔng grà-thɔ̂m lék-lék nai chon-na-bòt doi wǎng wâa jà dâi khwaam sa-ngòb láe khwaam ngîap",
+            "breakdown": [
+                {
+                    "source": "เธอ",
+                    "target": "she",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "จอง",
+                    "target": "booked",
+                    "phonetic": "jɔɔng",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "กระท่อม",
+                    "target": "cabin",
+                    "phonetic": "grà-thɔ̂m",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เล็กๆ",
+                    "target": "small",
+                    "phonetic": "lék-lék",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ใน",
+                    "target": "in",
+                    "phonetic": "nai",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ชนบท",
+                    "target": "countryside",
+                    "phonetic": "chon-na-bòt",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "โดย",
+                    "target": "by",
+                    "phonetic": "doi",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "หวังว่า",
+                    "target": "hoping that",
+                    "phonetic": "wǎng wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "จะได้",
+                    "target": "would get/offer",
+                    "phonetic": "jà dâi",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "ความสงบ",
+                    "target": "peace",
+                    "phonetic": "khwaam sa-ngòb",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ความเงียบ",
+                    "target": "quiet",
+                    "phonetic": "khwaam ngîap",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "ถ้าเธออยู่ในเมือง เธออาจจะรู้สึกท่วมท้นด้วยเสียงดังตลอดเวลา",
+            "target": "If she had stayed in the city, she might have felt overwhelmed by the constant noise.",
+            "phonetic": "thâa thoe yùu nai mʉang thoe àat jà rúu-sʉ̀k thûam-thóhn dûai sǐang dang dtà-lɔ̀ɔt wee-laa",
+            "breakdown": [
+                {
+                    "source": "ถ้า",
+                    "target": "if",
+                    "phonetic": "thâa",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "เธอ",
+                    "target": "she",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "อยู่",
+                    "target": "stay/be",
+                    "phonetic": "yùu",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ใน",
+                    "target": "in",
+                    "phonetic": "nai",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "เมือง",
+                    "target": "city",
+                    "phonetic": "mʉang",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เธอ",
+                    "target": "she",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "อาจจะ",
+                    "target": "might",
+                    "phonetic": "àat jà",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "รู้สึก",
+                    "target": "feel",
+                    "phonetic": "rúu-sʉ̀k",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ท่วมท้น",
+                    "target": "overwhelmed",
+                    "phonetic": "thûam-thóhn",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ด้วย",
+                    "target": "by/with",
+                    "phonetic": "dûai",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "เสียง",
+                    "target": "noise/sound",
+                    "phonetic": "sǐang",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ดัง",
+                    "target": "loud/constant",
+                    "phonetic": "dang",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ตลอดเวลา",
+                    "target": "all the time",
+                    "phonetic": "dtà-lɔ̀ɔt wee-laa",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "กระท่อมที่ซ่อนอยู่ท่ามกลางต้นสนสูง สวยกว่าที่เธอจินตนาการไว้",
+            "target": "The cabin, nestled among tall pine trees, was more beautiful than she had imagined.",
+            "phonetic": "grà-thɔ̂m thîi sɔ̂ɔn yùu thâam-glaang dtôn sǒn sǔung sǔai gwàa thîi thoe jin-dtà-naa-gaan wái",
+            "breakdown": [
+                {
+                    "source": "กระท่อม",
+                    "target": "cabin",
+                    "phonetic": "grà-thɔ̂m",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ที่",
+                    "target": "that/which",
+                    "phonetic": "thîi",
+                    "partOfSpeech": "relative_pronoun"
+                },
+                {
+                    "source": "ซ่อนอยู่",
+                    "target": "is nestled/hidden",
+                    "phonetic": "sɔ̂ɔn yùu",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ท่ามกลาง",
+                    "target": "amid/among",
+                    "phonetic": "thâam-glaang",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ต้นสน",
+                    "target": "pine trees",
+                    "phonetic": "dtôn sǒn",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "สูง",
+                    "target": "tall",
+                    "phonetic": "sǔung",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "สวยกว่า",
+                    "target": "more beautiful than",
+                    "phonetic": "sǔai gwàa",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ที่",
+                    "target": "that/which",
+                    "phonetic": "thîi",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "เธอ",
+                    "target": "she",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "จินตนาการ",
+                    "target": "imagined",
+                    "phonetic": "jin-dtà-naa-gaan",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ไว้",
+                    "target": "(perfective marker)",
+                    "phonetic": "wái",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "เมื่อมาถึง เธอแกะกระเป๋าแล้วออกไปเดินเล่นทันที",
+            "target": "When she arrived, she unpacked her bags and immediately went for a walk.",
+            "phonetic": "mʉ̂a maa-thʉ̆ng thoe gàe grà-bpǎo láeo òrk-bpai doen-lên than-thii",
+            "breakdown": [
+                {
+                    "source": "เมื่อ",
+                    "target": "when",
+                    "phonetic": "mʉ̂a",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "มาถึง",
+                    "target": "arrived",
+                    "phonetic": "maa-thʉ̆ng",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เธอ",
+                    "target": "she",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "แกะ",
+                    "target": "unpacked",
+                    "phonetic": "gàe",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "กระเป๋า",
+                    "target": "bags",
+                    "phonetic": "grà-bpǎo",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "แล้ว",
+                    "target": "then",
+                    "phonetic": "láeo",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ออกไป",
+                    "target": "went out",
+                    "phonetic": "òrk-bpai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เดินเล่น",
+                    "target": "for a walk",
+                    "phonetic": "doen-lên",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ทันที",
+                    "target": "immediately",
+                    "phonetic": "than-thii",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "อากาศบริสุทธิ์ที่อบอวลด้วยกลิ่นดอกไม้ป่า ช่วยให้จิตใจที่เหนื่อยล้าของเธอสดชื่นขึ้น",
+            "target": "The fresh air, filled with the scent of wildflowers, refreshed her tired mind.",
+            "phonetic": "aa-gàat bɔɔ-ri-sùt thîi òp-uan dûai glìn dɔ̀ɔk-máai bpàa chûai hâi jìt-jai thîi nʉ̀ai-láa khǎwng thoe sòt-chʉ̂ʉn khʉ̂n",
+            "breakdown": [
+                {
+                    "source": "อากาศ",
+                    "target": "air",
+                    "phonetic": "aa-gàat",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "บริสุทธิ์",
+                    "target": "fresh/pure",
+                    "phonetic": "bɔɔ-ri-sùt",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ที่",
+                    "target": "that/which",
+                    "phonetic": "thîi",
+                    "partOfSpeech": "relative_pronoun"
+                },
+                {
+                    "source": "อบอวล",
+                    "target": "filled",
+                    "phonetic": "òp-uan",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ด้วย",
+                    "target": "with",
+                    "phonetic": "dûai",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "กลิ่น",
+                    "target": "scent",
+                    "phonetic": "glìn",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ดอกไม้ป่า",
+                    "target": "wildflowers",
+                    "phonetic": "dɔ̀ɔk-máai bpàa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ช่วยให้",
+                    "target": "helped (to)",
+                    "phonetic": "chûai hâi",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "จิตใจ",
+                    "target": "mind",
+                    "phonetic": "jìt-jai",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ที่เหนื่อยล้า",
+                    "target": "that was tired",
+                    "phonetic": "thîi nʉ̀ai-láa",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ของ",
+                    "target": "of",
+                    "phonetic": "khǎwng",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "เธอ",
+                    "target": "her",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "สดชื่น",
+                    "target": "refresh",
+                    "phonetic": "sòt-chʉ̂ʉn",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ขึ้น",
+                    "target": "more/again",
+                    "phonetic": "khʉ̂n",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "เธออาจใช้เวลาทั้งวันนั่งอ่านหนังสือริมทะเลสาบก็ได้ แต่เธอเลือกที่จะออกไปสำรวจ",
+            "target": "She could have spent the entire day reading by the lake, but she chose to explore.",
+            "phonetic": "thoe àat chái wee-laa tháng-wan nâng àan năng-sʉ̌ʉ rim thà-lay-sàap gɔ̂ɔ dâi dtàe thoe lʉ̂ak thîi jà òrk-bpai sǎm-sùat",
+            "breakdown": [
+                {
+                    "source": "เธอ",
+                    "target": "she",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "อาจ",
+                    "target": "could/might",
+                    "phonetic": "àat",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "ใช้เวลา",
+                    "target": "spend time",
+                    "phonetic": "chái wee-laa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ทั้งวัน",
+                    "target": "all day",
+                    "phonetic": "tháng-wan",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "นั่ง",
+                    "target": "sitting",
+                    "phonetic": "nâng",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "อ่านหนังสือ",
+                    "target": "reading",
+                    "phonetic": "àan năng-sʉ̌ʉ",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ริม",
+                    "target": "by/edge of",
+                    "phonetic": "rim",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ทะเลสาบ",
+                    "target": "lake",
+                    "phonetic": "thà-lay-sàap",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ก็ได้",
+                    "target": "could (have)",
+                    "phonetic": "gɔ̂ɔ dâi",
+                    "partOfSpeech": "modal"
+                },
+                {
+                    "source": "แต่",
+                    "target": "but",
+                    "phonetic": "dtàe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "เธอ",
+                    "target": "she",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "เลือก",
+                    "target": "chose",
+                    "phonetic": "lʉ̂ak",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ที่จะ",
+                    "target": "to",
+                    "phonetic": "thîi jà",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ออกไป",
+                    "target": "go out",
+                    "phonetic": "òrk-bpai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "สำรวจ",
+                    "target": "explore",
+                    "phonetic": "sǎm-sùat",
+                    "partOfSpeech": "verb"
+                }
+            ]
+        },
+        {
+            "source": "ชาวบ้านใจดีคนหนึ่งซึ่งกำลังดูแลสวน โบกมือทักและเสนอแอปเปิลสดให้เธอ",
+            "target": "A friendly local, who was tending his garden, waved and offered her fresh apples.",
+            "phonetic": "chaao-bâan jai-dii khon nʉ̀ng sʉ̂ng gam-lang duu-lae sǔan bòok-mʉʉ thák láe sà-nǒe áep-bpên sòt hâi thoe",
+            "breakdown": [
+                {
+                    "source": "ชาวบ้าน",
+                    "target": "local",
+                    "phonetic": "chaao-bâan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ใจดี",
+                    "target": "friendly",
+                    "phonetic": "jai-dii",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "คนหนึ่ง",
+                    "target": "one person",
+                    "phonetic": "khon nʉ̀ng",
+                    "partOfSpeech": "classifier"
+                },
+                {
+                    "source": "ซึ่ง",
+                    "target": "who",
+                    "phonetic": "sʉ̂ng",
+                    "partOfSpeech": "relative_pronoun"
+                },
+                {
+                    "source": "กำลัง",
+                    "target": "is (progressive)",
+                    "phonetic": "gam-lang",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "ดูแล",
+                    "target": "tending",
+                    "phonetic": "duu-lae",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "สวน",
+                    "target": "garden",
+                    "phonetic": "sǔan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "โบกมือ",
+                    "target": "waved",
+                    "phonetic": "bòok-mʉʉ",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ทัก",
+                    "target": "greeted",
+                    "phonetic": "thák",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "เสนอ",
+                    "target": "offered",
+                    "phonetic": "sà-nǒe",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "แอปเปิล",
+                    "target": "apples",
+                    "phonetic": "áep-bpên",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "สด",
+                    "target": "fresh",
+                    "phonetic": "sòt",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ให้",
+                    "target": "to (give)",
+                    "phonetic": "hâi",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "เธอ",
+                    "target": "her",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                }
+            ]
+        },
+        {
+            "source": "มาเรียขอบคุณเขาและถามว่าเขารู้ทางเดินป่าดีๆ แถวนี้บ้างไหม",
+            "target": "Maria thanked him and asked if he knew any good hiking trails nearby.",
+            "phonetic": "maa-ria khɔ̀ɔp-khun kháo láe thǎam wâa kháo rúu thaang doen-bpàa dii-dii thǎeo níi bâang mǎi",
+            "breakdown": [
+                {
+                    "source": "มาเรีย",
+                    "target": "Maria",
+                    "phonetic": "maa-ria",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "ขอบคุณ",
+                    "target": "thanked",
+                    "phonetic": "khɔ̀ɔp-khun",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เขา",
+                    "target": "him",
+                    "phonetic": "kháo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ถามว่า",
+                    "target": "asked if",
+                    "phonetic": "thǎam wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เขา",
+                    "target": "he",
+                    "phonetic": "kháo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "รู้",
+                    "target": "knew",
+                    "phonetic": "rúu",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ทางเดินป่า",
+                    "target": "hiking trails",
+                    "phonetic": "thaang doen-bpàa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ดีๆ",
+                    "target": "good",
+                    "phonetic": "dii-dii",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "แถวนี้",
+                    "target": "nearby",
+                    "phonetic": "thǎeo níi",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "บ้างไหม",
+                    "target": "any?",
+                    "phonetic": "bâang mǎi",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "เขาแนะนำเส้นทางที่พาไปยังน้ำตกอันงดงาม ซ่อนอยู่ลึกเข้าไปในป่า",
+            "target": "He suggested a path that led to a stunning waterfall, hidden deep in the forest.",
+            "phonetic": "kháo náe-nam sên-thaang thîi phaa bpai yang náam-dtòk an ngót-ngaa m sɔ̂ɔn yùu lʉ́k khâo bpai nai bpàa",
+            "breakdown": [
+                {
+                    "source": "เขา",
+                    "target": "he",
+                    "phonetic": "kháo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "แนะนำ",
+                    "target": "suggested",
+                    "phonetic": "náe-nam",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เส้นทาง",
+                    "target": "path",
+                    "phonetic": "sên-thaang",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ที่",
+                    "target": "that/which",
+                    "phonetic": "thîi",
+                    "partOfSpeech": "relative_pronoun"
+                },
+                {
+                    "source": "พาไปยัง",
+                    "target": "led to",
+                    "phonetic": "phaa bpai yang",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "น้ำตก",
+                    "target": "waterfall",
+                    "phonetic": "náam-dtòk",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "อัน",
+                    "target": "(formal classifier)",
+                    "phonetic": "an",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "งดงาม",
+                    "target": "stunning",
+                    "phonetic": "ngót-ngaa m",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ซ่อนอยู่",
+                    "target": "hidden",
+                    "phonetic": "sɔ̂ɔn yùu",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ลึก",
+                    "target": "deep",
+                    "phonetic": "lʉ́k",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "เข้าไป",
+                    "target": "into",
+                    "phonetic": "khâo bpai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ในป่า",
+                    "target": "the forest",
+                    "phonetic": "nai bpàa",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "เช้าวันรุ่งขึ้น เธอออกเดินทางแต่เช้า มุ่งมั่นว่าจะไปถึงน้ำตกก่อนเที่ยง",
+            "target": "The next morning, she set out early, determined to find the waterfall before noon.",
+            "phonetic": "cháo wan rûng-kʉ̂n thoe òrk doen-thaang dtàe cháo mûng-mân wâa jà bpai thʉ̆ng náam-dtòk gɔ̀ɔn thîang",
+            "breakdown": [
+                {
+                    "source": "เช้า",
+                    "target": "morning",
+                    "phonetic": "cháo",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "วันรุ่งขึ้น",
+                    "target": "the next day",
+                    "phonetic": "wan rûng-kʉ̂n",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "เธอ",
+                    "target": "she",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ออกเดินทาง",
+                    "target": "set out",
+                    "phonetic": "òrk doen-thaang",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "แต่เช้า",
+                    "target": "early",
+                    "phonetic": "dtàe cháo",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "มุ่งมั่น",
+                    "target": "determined",
+                    "phonetic": "mûng-mân",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ว่า",
+                    "target": "that",
+                    "phonetic": "wâa",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "จะไปถึง",
+                    "target": "to reach",
+                    "phonetic": "jà bpai thʉ̆ng",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "น้ำตก",
+                    "target": "waterfall",
+                    "phonetic": "náam-dtòk",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ก่อนเที่ยง",
+                    "target": "before noon",
+                    "phonetic": "gɔ̀ɔn thîang",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "ถ้าเธอไม่ทำตามคำแนะนำของเขา เธออาจพลาดวิวที่สวยจนลมหายใจติดขัด",
+            "target": "If she hadn’t followed his advice, she might have missed the breathtaking view.",
+            "phonetic": "thâa thoe mâi tham-taam kham náe-nam khǎwng kháo thoe àat phlâat wiu thîi sǔai jon lom-hǎai-jai dtìt-khàt",
+            "breakdown": [
+                {
+                    "source": "ถ้า",
+                    "target": "if",
+                    "phonetic": "thâa",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "เธอ",
+                    "target": "she",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ไม่",
+                    "target": "not",
+                    "phonetic": "mâi",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ทำตาม",
+                    "target": "follow",
+                    "phonetic": "tham-taam",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "คำแนะนำ",
+                    "target": "advice",
+                    "phonetic": "kham náe-nam",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ของ",
+                    "target": "of",
+                    "phonetic": "khǎwng",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "เขา",
+                    "target": "him",
+                    "phonetic": "kháo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "เธอ",
+                    "target": "she",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "อาจ",
+                    "target": "might",
+                    "phonetic": "àat",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "พลาด",
+                    "target": "missed",
+                    "phonetic": "phlâat",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "วิว",
+                    "target": "view",
+                    "phonetic": "wiu",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ที่สวย",
+                    "target": "that is breathtaking",
+                    "phonetic": "thîi sǔai",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "จน",
+                    "target": "to the point that",
+                    "phonetic": "jon",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ลมหายใจ",
+                    "target": "breath",
+                    "phonetic": "lom-hǎai-jai",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ติดขัด",
+                    "target": "stops",
+                    "phonetic": "dtìt-khàt",
+                    "partOfSpeech": "verb"
+                }
+            ]
+        },
+        {
+            "source": "เมื่อเธอเข้าใกล้น้ำตก เสียงสายน้ำที่ไหลหลั่นดังไปทั่วอากาศ",
+            "target": "The sound of cascading water filled the air as she approached the falls.",
+            "phonetic": "mʉ̂a thoe khâo-glâi náam-dtòk sǐang sǎai-náam thîi lǎi-làn dang bpai thûa aa-gàat",
+            "breakdown": [
+                {
+                    "source": "เมื่อ",
+                    "target": "when",
+                    "phonetic": "mʉ̂a",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "เธอ",
+                    "target": "she",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "เข้าใกล้",
+                    "target": "approached",
+                    "phonetic": "khâo-glâi",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "น้ำตก",
+                    "target": "waterfall",
+                    "phonetic": "náam-dtòk",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เสียง",
+                    "target": "sound",
+                    "phonetic": "sǐang",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "สายน้ำ",
+                    "target": "stream of water",
+                    "phonetic": "sǎai-náam",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ที่",
+                    "target": "that/which",
+                    "phonetic": "thîi",
+                    "partOfSpeech": "relative_pronoun"
+                },
+                {
+                    "source": "ไหลหลั่น",
+                    "target": "cascading",
+                    "phonetic": "lǎi-làn",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ดัง",
+                    "target": "filled (resounded)",
+                    "phonetic": "dang",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ไปทั่ว",
+                    "target": "throughout",
+                    "phonetic": "bpai thûa",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "อากาศ",
+                    "target": "air",
+                    "phonetic": "aa-gàat",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "เธอนั่งบนโขดหิน พลางสงสัยว่าความงามเช่นนี้จะอยู่ใกล้เมืองของเธอได้อย่างไร",
+            "target": "She sat on a rock, wondering how such beauty could exist so close to her city.",
+            "phonetic": "thoe nâng bon khòt-hǐn phlaang sǒng-sǎi wâa khwaam ngaam chên níi jà yùu glâi mʉang khǎwng thoe dâi yàang-rai",
+            "breakdown": [
+                {
+                    "source": "เธอ",
+                    "target": "she",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "นั่ง",
+                    "target": "sat",
+                    "phonetic": "nâng",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "บน",
+                    "target": "on",
+                    "phonetic": "bon",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "โขดหิน",
+                    "target": "rock",
+                    "phonetic": "khòt-hǐn",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "พลาง",
+                    "target": "while",
+                    "phonetic": "phlaang",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "สงสัยว่า",
+                    "target": "wondering how",
+                    "phonetic": "sǒng-sǎi wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ความงาม",
+                    "target": "beauty",
+                    "phonetic": "khwaam ngaam",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เช่นนี้",
+                    "target": "such",
+                    "phonetic": "chên níi",
+                    "partOfSpeech": "determiner"
+                },
+                {
+                    "source": "จะ",
+                    "target": "could",
+                    "phonetic": "jà",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "อยู่",
+                    "target": "exist",
+                    "phonetic": "yùu",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ใกล้",
+                    "target": "close to",
+                    "phonetic": "glâi",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "เมือง",
+                    "target": "city",
+                    "phonetic": "mʉang",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ของเธอ",
+                    "target": "of hers",
+                    "phonetic": "khǎwng thoe",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ได้อย่างไร",
+                    "target": "how",
+                    "phonetic": "dâi yàang-rai",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "ต่อมา เธอพบกับนักเดินป่าคนอื่นๆ ที่ชวนเธอไปปิกนิกด้วยกัน",
+            "target": "Later, she met other hikers who invited her to join them for a picnic.",
+            "phonetic": "dtɔ̀ɔ-maa thoe phóp gàp nák doen-bpàa khon ʉ̀ʉn-ʉ̀ʉn thîi chuan thoe bpai bpik-ník dûai-gan",
+            "breakdown": [
+                {
+                    "source": "ต่อมา",
+                    "target": "later",
+                    "phonetic": "dtɔ̀ɔ-maa",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "เธอ",
+                    "target": "she",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "พบกับ",
+                    "target": "met",
+                    "phonetic": "phóp gàp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "นักเดินป่า",
+                    "target": "hikers",
+                    "phonetic": "nák doen-bpàa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "คนอื่นๆ",
+                    "target": "other people",
+                    "phonetic": "khon ʉ̀ʉn-ʉ̀ʉn",
+                    "partOfSpeech": "determiner"
+                },
+                {
+                    "source": "ที่",
+                    "target": "who",
+                    "phonetic": "thîi",
+                    "partOfSpeech": "relative_pronoun"
+                },
+                {
+                    "source": "ชวน",
+                    "target": "invited",
+                    "phonetic": "chuan",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เธอ",
+                    "target": "her",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ไป",
+                    "target": "to go",
+                    "phonetic": "bpai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ปิกนิก",
+                    "target": "picnic",
+                    "phonetic": "bpik-ník",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ด้วยกัน",
+                    "target": "together",
+                    "phonetic": "dûai-gan",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "พวกเขาเล่าเรื่องการเดินทางของตน ซึ่งทำให้มาเรียเกิดแรงบันดาลใจจะวางแผนทริปอีกครั้ง",
+            "target": "They shared stories about their travels, which inspired Maria to plan another trip.",
+            "phonetic": "phûak-kháo lâo rʉ̂ang gaan doen-thaang khǎwng ton sʉ̂ng tham hâi maa-ria gèrt raaeng ban-daan-jai jà waang-phǎen thríp ìik khráng",
+            "breakdown": [
+                {
+                    "source": "พวกเขา",
+                    "target": "they",
+                    "phonetic": "phûak-kháo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "เล่าเรื่อง",
+                    "target": "shared stories",
+                    "phonetic": "lâo rʉ̂ang",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "การเดินทาง",
+                    "target": "travels",
+                    "phonetic": "gaan doen-thaang",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ของตน",
+                    "target": "of theirs",
+                    "phonetic": "khǎwng ton",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ซึ่ง",
+                    "target": "which",
+                    "phonetic": "sʉ̂ng",
+                    "partOfSpeech": "relative_pronoun"
+                },
+                {
+                    "source": "ทำให้",
+                    "target": "made/caused",
+                    "phonetic": "tham hâi",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "มาเรีย",
+                    "target": "Maria",
+                    "phonetic": "maa-ria",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "เกิด",
+                    "target": "to feel/experience",
+                    "phonetic": "gèrt",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "แรงบันดาลใจ",
+                    "target": "inspiration",
+                    "phonetic": "raaeng ban-daan-jai",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "จะ",
+                    "target": "to (intend)",
+                    "phonetic": "jà",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "วางแผน",
+                    "target": "plan",
+                    "phonetic": "waang-phǎen",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ทริป",
+                    "target": "trip",
+                    "phonetic": "thríp",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "อีกครั้ง",
+                    "target": "again",
+                    "phonetic": "ìik khráng",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "ถ้าเธอเก็บเงินได้พอ ฤดูร้อนหน้าเธอจะไปเที่ยวชายฝั่ง",
+            "target": "If she saves enough money, she will visit the coast next summer.",
+            "phonetic": "thâa thoe gèp ngern dâi phɔɔ rʉ́-duu-rórn nâa thoe jà bpai thîao chaai-fàng",
+            "breakdown": [
+                {
+                    "source": "ถ้า",
+                    "target": "if",
+                    "phonetic": "thâa",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "เธอ",
+                    "target": "she",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "เก็บเงิน",
+                    "target": "save money",
+                    "phonetic": "gèp ngern",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ได้พอ",
+                    "target": "enough",
+                    "phonetic": "dâi phɔɔ",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ฤดูร้อนหน้า",
+                    "target": "next summer",
+                    "phonetic": "rʉ́-duu-rórn nâa",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "เธอ",
+                    "target": "she",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "จะ",
+                    "target": "will",
+                    "phonetic": "jà",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "ไปเที่ยว",
+                    "target": "visit/travel",
+                    "phonetic": "bpai thîao",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ชายฝั่ง",
+                    "target": "coast",
+                    "phonetic": "chaai-fàng",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "เมื่อสุดสัปดาห์สิ้นสุด มาเรียรู้สึกเติมพลังและพร้อมกลับไปทำงานอีกครั้ง",
+            "target": "By the end of the weekend, Maria felt recharged and ready to face work again.",
+            "phonetic": "mʉ̂a sùt-sàp-daa sîn-sùt maa-ria rúu-sʉ̀k dtɤɤm-pha-lang láe phróom glàp bpai tham-ngaan ìik khráng",
+            "breakdown": [
+                {
+                    "source": "เมื่อ",
+                    "target": "by the time",
+                    "phonetic": "mʉ̂a",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "สุดสัปดาห์",
+                    "target": "weekend",
+                    "phonetic": "sùt-sàp-daa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "สิ้นสุด",
+                    "target": "ended",
+                    "phonetic": "sîn-sùt",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "มาเรีย",
+                    "target": "Maria",
+                    "phonetic": "maa-ria",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "รู้สึก",
+                    "target": "felt",
+                    "phonetic": "rúu-sʉ̀k",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เติมพลัง",
+                    "target": "recharged",
+                    "phonetic": "dtɤɤm-pha-lang",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "พร้อม",
+                    "target": "ready",
+                    "phonetic": "phróom",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "กลับไป",
+                    "target": "to go back",
+                    "phonetic": "glàp bpai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ทำงาน",
+                    "target": "work",
+                    "phonetic": "tham-ngaan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "อีกครั้ง",
+                    "target": "again",
+                    "phonetic": "ìik khráng",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "เธอสัญญากับตัวเองว่าจะหาเวลาไปพักผ่อนให้มากขึ้นในอนาคต",
+            "target": "She promised herself she would make time for more getaways in the future.",
+            "phonetic": "thoe sǎn-yaa gàp tua-eng wâa jà hǎa wee-laa bpai pák-phɔ̀n hâi mâak khʉ̂n nai aa-naa-khót",
+            "breakdown": [
+                {
+                    "source": "เธอ",
+                    "target": "she",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "สัญญา",
+                    "target": "promised",
+                    "phonetic": "sǎn-yaa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "กับ",
+                    "target": "to/with",
+                    "phonetic": "gàp",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ตัวเอง",
+                    "target": "herself",
+                    "phonetic": "tua-eng",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ว่า",
+                    "target": "that",
+                    "phonetic": "wâa",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "จะ",
+                    "target": "would",
+                    "phonetic": "jà",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "หา",
+                    "target": "make/find",
+                    "phonetic": "hǎa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เวลา",
+                    "target": "time",
+                    "phonetic": "wee-laa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ไปพักผ่อน",
+                    "target": "for getaways",
+                    "phonetic": "bpai pák-phɔ̀n",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ให้",
+                    "target": "to",
+                    "phonetic": "hâi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "มากขึ้น",
+                    "target": "more",
+                    "phonetic": "mâak khʉ̂n",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ใน",
+                    "target": "in",
+                    "phonetic": "nai",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "อนาคต",
+                    "target": "the future",
+                    "phonetic": "aa-naa-khót",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "เธอรู้ตัวว่าชนบทได้มอบมุมมองใหม่ให้กับชีวิตของเธอ",
+            "target": "The countryside, she realized, had given her a new perspective on life.",
+            "phonetic": "thoe rúu-tua wâa chon-na-bòt dâi mɔ̂ɔp mum-maawng mài hâi gàp chii-wít khǎwng thoe",
+            "breakdown": [
+                {
+                    "source": "เธอ",
+                    "target": "she",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "รู้ตัวว่า",
+                    "target": "realized that",
+                    "phonetic": "rúu-tua wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ชนบท",
+                    "target": "countryside",
+                    "phonetic": "chon-na-bòt",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ได้",
+                    "target": "had",
+                    "phonetic": "dâi",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "มอบ",
+                    "target": "given",
+                    "phonetic": "mɔ̂ɔp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "มุมมองใหม่",
+                    "target": "a new perspective",
+                    "phonetic": "mum-maawng mài",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ให้กับ",
+                    "target": "to",
+                    "phonetic": "hâi gàp",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ชีวิต",
+                    "target": "life",
+                    "phonetic": "chii-wít",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ของเธอ",
+                    "target": "of hers",
+                    "phonetic": "khǎwng thoe",
+                    "partOfSpeech": "preposition"
+                }
+            ]
+        }
+    ],
+    "createdAt": "2025-09-29T16:22:30Z",
+    "updatedAt": "2025-09-29T16:32:30Z",
+    "difficulty": "intermediate",
+    "summary": "เรื่องราวการพักผ่อนสุดสัปดาห์ของมาเรีย: การหนีงานที่หนัก ความสงบในชนบท น้ำตก การสำรวจ ผู้คนที่พบเจอ และแรงบันดาลใจสำหรับการเดินทางครั้งต่อไป"
 }

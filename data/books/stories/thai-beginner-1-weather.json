@@ -1,317 +1,317 @@
 {
-  "storyId": "thai-beginner-1-weather",
-  "bookId": "thai-beginner-1",
-  "language": "th",
-  "title": {
-    "source": "สภาพอากาศ",
-    "target": "Weather"
-  },
-  "sentences": [
-    {
-      "source": "สภาพอากาศวันนี้เป็นอย่างไรครับ",
-      "target": "What is the weather today?",
-      "phonetic": "sà-phâp aa-gàat wan-níi bpen yàang-rai khráp",
-      "breakdown": [
-        {
-          "source": "สภาพอากาศ",
-          "target": "weather",
-          "phonetic": "sà-phâp aa-gàat",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "วันนี้",
-          "target": "today",
-          "phonetic": "wan-níi",
-          "partOfSpeech": "adverb"
-        },
-        {
-          "source": "เป็น",
-          "target": "is",
-          "phonetic": "bpen",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "อย่างไร",
-          "target": "how",
-          "phonetic": "yàang-rai",
-          "partOfSpeech": "adverb"
-        },
-        {
-          "source": "ครับ",
-          "target": "male polite particle",
-          "phonetic": "khráp",
-          "partOfSpeech": "particle"
-        }
-      ]
+    "storyId": "thai-beginner-1-weather",
+    "bookId": "thai-beginner-1",
+    "language": "th",
+    "title": {
+        "source": "สภาพอากาศ",
+        "target": "Weather"
     },
-    {
-      "source": "วันนี้แดดจัดครับ",
-      "target": "Today is sunny.",
-      "phonetic": "wan-níi dàaet jàt khráp",
-      "breakdown": [
+    "sentences": [
         {
-          "source": "วันนี้",
-          "target": "today",
-          "phonetic": "wan-níi",
-          "partOfSpeech": "adverb"
+            "source": "สภาพอากาศวันนี้เป็นอย่างไรครับ",
+            "target": "What is the weather today?",
+            "phonetic": "sà-phâp aa-gàat wan-níi bpen yàang-rai khráp",
+            "breakdown": [
+                {
+                    "source": "สภาพอากาศ",
+                    "target": "weather",
+                    "phonetic": "sà-phâp aa-gàat",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "วันนี้",
+                    "target": "today",
+                    "phonetic": "wan-níi",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "เป็น",
+                    "target": "is",
+                    "phonetic": "bpen",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "อย่างไร",
+                    "target": "how",
+                    "phonetic": "yàang-rai",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
         },
         {
-          "source": "แดดจัด",
-          "target": "sunny",
-          "phonetic": "dàaet jàt",
-          "partOfSpeech": "adjective"
+            "source": "วันนี้แดดจัดครับ",
+            "target": "Today is sunny.",
+            "phonetic": "wan-níi dàaet jàt khráp",
+            "breakdown": [
+                {
+                    "source": "วันนี้",
+                    "target": "today",
+                    "phonetic": "wan-níi",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "แดดจัด",
+                    "target": "sunny",
+                    "phonetic": "dàaet jàt",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
         },
         {
-          "source": "ครับ",
-          "target": "male polite particle",
-          "phonetic": "khráp",
-          "partOfSpeech": "particle"
+            "source": "คุณชอบวันที่แดดจัดไหมครับ",
+            "target": "Do you like sunny days?",
+            "phonetic": "khun châwp wan-thíi dàaet jàt măi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ชอบ",
+                    "target": "to like",
+                    "phonetic": "châwp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "วัน",
+                    "target": "day",
+                    "phonetic": "wan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ที่",
+                    "target": "that",
+                    "phonetic": "thíi",
+                    "partOfSpeech": "relative pronoun"
+                },
+                {
+                    "source": "แดดจัด",
+                    "target": "sunny",
+                    "phonetic": "dàaet jàt",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "or not",
+                    "phonetic": "măi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ใช่ ผมชอบวันที่แดดจัดครับ",
+            "target": "Yes, I like sunny days!",
+            "phonetic": "châi phǒm châwp wan-thíi dàaet jàt khráp",
+            "breakdown": [
+                {
+                    "source": "ใช่",
+                    "target": "yes",
+                    "phonetic": "châi",
+                    "partOfSpeech": "interjection"
+                },
+                {
+                    "source": "ผม",
+                    "target": "I (male)",
+                    "phonetic": "phǒm",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ชอบ",
+                    "target": "to like",
+                    "phonetic": "châwp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "วัน",
+                    "target": "day",
+                    "phonetic": "wan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ที่",
+                    "target": "that",
+                    "phonetic": "thíi",
+                    "partOfSpeech": "relative pronoun"
+                },
+                {
+                    "source": "แดดจัด",
+                    "target": "sunny",
+                    "phonetic": "dàaet jàt",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "อากาศหนาวหรือร้อนครับ",
+            "target": "Is it cold or hot?",
+            "phonetic": "aa-gàat năao rǔu ráawn khráp",
+            "breakdown": [
+                {
+                    "source": "อากาศ",
+                    "target": "weather",
+                    "phonetic": "aa-gàat",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "หนาว",
+                    "target": "cold",
+                    "phonetic": "năao",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "หรือ",
+                    "target": "or",
+                    "phonetic": "rǔu",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ร้อน",
+                    "target": "hot",
+                    "phonetic": "ráawn",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "อากาศร้อนครับ",
+            "target": "It is hot.",
+            "phonetic": "aa-gàat ráawn khráp",
+            "breakdown": [
+                {
+                    "source": "อากาศ",
+                    "target": "weather",
+                    "phonetic": "aa-gàat",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ร้อน",
+                    "target": "hot",
+                    "phonetic": "ráawn",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "คุณชอบฝนไหมครับ",
+            "target": "Do you like rain?",
+            "phonetic": "khun châwp fǒn măi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ชอบ",
+                    "target": "to like",
+                    "phonetic": "châwp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ฝน",
+                    "target": "rain",
+                    "phonetic": "fǒn",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "or not",
+                    "phonetic": "măi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ไม่ครับ ผมไม่ชอบฝน",
+            "target": "No, I don’t like rain.",
+            "phonetic": "mâi khráp phǒm mâi châwp fǒn",
+            "breakdown": [
+                {
+                    "source": "ไม่",
+                    "target": "not",
+                    "phonetic": "mâi",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ผม",
+                    "target": "I (male)",
+                    "phonetic": "phǒm",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ไม่",
+                    "target": "not",
+                    "phonetic": "mâi",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ชอบ",
+                    "target": "to like",
+                    "phonetic": "châwp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ฝน",
+                    "target": "rain",
+                    "phonetic": "fǒn",
+                    "partOfSpeech": "noun"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "source": "คุณชอบวันที่แดดจัดไหมครับ",
-      "target": "Do you like sunny days?",
-      "phonetic": "khun châwp wan-thíi dàaet jàt măi khráp",
-      "breakdown": [
-        {
-          "source": "คุณ",
-          "target": "you",
-          "phonetic": "khun",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "ชอบ",
-          "target": "to like",
-          "phonetic": "châwp",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "วัน",
-          "target": "day",
-          "phonetic": "wan",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ที่",
-          "target": "that",
-          "phonetic": "thíi",
-          "partOfSpeech": "relative pronoun"
-        },
-        {
-          "source": "แดดจัด",
-          "target": "sunny",
-          "phonetic": "dàaet jàt",
-          "partOfSpeech": "adjective"
-        },
-        {
-          "source": "ไหม",
-          "target": "or not",
-          "phonetic": "măi",
-          "partOfSpeech": "particle"
-        },
-        {
-          "source": "ครับ",
-          "target": "male polite particle",
-          "phonetic": "khráp",
-          "partOfSpeech": "particle"
-        }
-      ]
-    },
-    {
-      "source": "ใช่ ผมชอบวันที่แดดจัดครับ",
-      "target": "Yes, I like sunny days!",
-      "phonetic": "châi phǒm châwp wan-thíi dàaet jàt khráp",
-      "breakdown": [
-        {
-          "source": "ใช่",
-          "target": "yes",
-          "phonetic": "châi",
-          "partOfSpeech": "interjection"
-        },
-        {
-          "source": "ผม",
-          "target": "I (male)",
-          "phonetic": "phǒm",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "ชอบ",
-          "target": "to like",
-          "phonetic": "châwp",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "วัน",
-          "target": "day",
-          "phonetic": "wan",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ที่",
-          "target": "that",
-          "phonetic": "thíi",
-          "partOfSpeech": "relative pronoun"
-        },
-        {
-          "source": "แดดจัด",
-          "target": "sunny",
-          "phonetic": "dàaet jàt",
-          "partOfSpeech": "adjective"
-        },
-        {
-          "source": "ครับ",
-          "target": "male polite particle",
-          "phonetic": "khráp",
-          "partOfSpeech": "particle"
-        }
-      ]
-    },
-    {
-      "source": "อากาศหนาวหรือร้อนครับ",
-      "target": "Is it cold or hot?",
-      "phonetic": "aa-gàat năao rǔu ráawn khráp",
-      "breakdown": [
-        {
-          "source": "อากาศ",
-          "target": "weather",
-          "phonetic": "aa-gàat",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "หนาว",
-          "target": "cold",
-          "phonetic": "năao",
-          "partOfSpeech": "adjective"
-        },
-        {
-          "source": "หรือ",
-          "target": "or",
-          "phonetic": "rǔu",
-          "partOfSpeech": "conjunction"
-        },
-        {
-          "source": "ร้อน",
-          "target": "hot",
-          "phonetic": "ráawn",
-          "partOfSpeech": "adjective"
-        },
-        {
-          "source": "ครับ",
-          "target": "male polite particle",
-          "phonetic": "khráp",
-          "partOfSpeech": "particle"
-        }
-      ]
-    },
-    {
-      "source": "อากาศร้อนครับ",
-      "target": "It is hot.",
-      "phonetic": "aa-gàat ráawn khráp",
-      "breakdown": [
-        {
-          "source": "อากาศ",
-          "target": "weather",
-          "phonetic": "aa-gàat",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ร้อน",
-          "target": "hot",
-          "phonetic": "ráawn",
-          "partOfSpeech": "adjective"
-        },
-        {
-          "source": "ครับ",
-          "target": "male polite particle",
-          "phonetic": "khráp",
-          "partOfSpeech": "particle"
-        }
-      ]
-    },
-    {
-      "source": "คุณชอบฝนไหมครับ",
-      "target": "Do you like rain?",
-      "phonetic": "khun châwp fǒn măi khráp",
-      "breakdown": [
-        {
-          "source": "คุณ",
-          "target": "you",
-          "phonetic": "khun",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "ชอบ",
-          "target": "to like",
-          "phonetic": "châwp",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ฝน",
-          "target": "rain",
-          "phonetic": "fǒn",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ไหม",
-          "target": "or not",
-          "phonetic": "măi",
-          "partOfSpeech": "particle"
-        },
-        {
-          "source": "ครับ",
-          "target": "male polite particle",
-          "phonetic": "khráp",
-          "partOfSpeech": "particle"
-        }
-      ]
-    },
-    {
-      "source": "ไม่ครับ ผมไม่ชอบฝน",
-      "target": "No, I don’t like rain.",
-      "phonetic": "mâi khráp phǒm mâi châwp fǒn",
-      "breakdown": [
-        {
-          "source": "ไม่",
-          "target": "not",
-          "phonetic": "mâi",
-          "partOfSpeech": "adverb"
-        },
-        {
-          "source": "ครับ",
-          "target": "male polite particle",
-          "phonetic": "khráp",
-          "partOfSpeech": "particle"
-        },
-        {
-          "source": "ผม",
-          "target": "I (male)",
-          "phonetic": "phǒm",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "ไม่",
-          "target": "not",
-          "phonetic": "mâi",
-          "partOfSpeech": "adverb"
-        },
-        {
-          "source": "ชอบ",
-          "target": "to like",
-          "phonetic": "châwp",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ฝน",
-          "target": "rain",
-          "phonetic": "fǒn",
-          "partOfSpeech": "noun"
-        }
-      ]
-    }
-  ],
-  "createdAt": "2025-09-28T10:30:00Z",
-  "updatedAt": "2025-09-28T10:30:00Z",
-  "difficulty": "beginner",
-  "summary": "การสนทนาเกี่ยวกับสภาพอากาศ"
+    ],
+    "createdAt": "2025-09-28T10:30:00Z",
+    "updatedAt": "2025-09-28T10:30:00Z",
+    "difficulty": "beginner",
+    "summary": "การสนทนาเกี่ยวกับสภาพอากาศ"
 }

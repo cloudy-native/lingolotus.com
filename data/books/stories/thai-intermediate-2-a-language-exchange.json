@@ -1,321 +1,1151 @@
 {
-  "storyId": "thai-intermediate-2-a-language-exchange",
-  "bookId": "thai-intermediate-2",
-  "language": "th",
-  "title": {
-    "source": "แลกเปลี่ยนภาษา",
-    "target": "A Language Exchange"
-  },
-  "sentences": [
-    {
-      "source": "โซเฟียเรียนภาษาสเปนมาหลายเดือน หวังว่าสักวันจะพูดได้คล่องแคล่ว",
-      "target": "Sofia had been studying Spanish for months, hoping to become fluent someday.",
-      "phonetic": "so-fia rian phaa-sǎa sa-bpen maa lǎai dʉʉan wǎng wâa sák wan jà phûut dâi klông-khlào",
-      "breakdown": [
-        { "source": "โซเฟีย", "target": "Sofia", "phonetic": "so-fia", "partOfSpeech": "proper_noun" },
-        { "source": "เรียน", "target": "study", "phonetic": "rian", "partOfSpeech": "verb" },
-        { "source": "ภาษา", "target": "language", "phonetic": "phaa-sǎa", "partOfSpeech": "noun" },
-        { "source": "สเปน", "target": "Spanish", "phonetic": "sa-bpen", "partOfSpeech": "proper_noun" },
-        { "source": "มาหลายเดือน", "target": "for months", "phonetic": "maa lǎai dʉʉan", "partOfSpeech": "adverb" },
-        { "source": "หวังว่า", "target": "hoping that", "phonetic": "wǎng wâa", "partOfSpeech": "verb" },
-        { "source": "สักวัน", "target": "someday", "phonetic": "sák wan", "partOfSpeech": "adverb" },
-        { "source": "จะพูดได้", "target": "will be able to speak", "phonetic": "jà phûut dâi", "partOfSpeech": "auxiliary" },
-        { "source": "คล่องแคล่ว", "target": "fluently", "phonetic": "klông-khlào", "partOfSpeech": "adverb" }
-      ]
+    "storyId": "thai-intermediate-2-a-language-exchange",
+    "bookId": "thai-intermediate-2",
+    "language": "th",
+    "title": {
+        "source": "แลกเปลี่ยนภาษา",
+        "target": "A Language Exchange"
     },
-    {
-      "source": "เธอเข้าร่วมกลุ่มแลกเปลี่ยนภาษา ที่นั่นเธอได้พบฮวนจากเม็กซิโก",
-      "target": "She joined a language exchange group, where she met Juan from Mexico.",
-      "phonetic": "thoe khâo-rûam glùm lâek-bplìan phaa-sǎa thîi nân thoe dâi phóp huan jàak mék-sí-gôo",
-      "breakdown": [
-        { "source": "เธอ", "target": "she", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "เข้าร่วม", "target": "joined", "phonetic": "khâo-rûam", "partOfSpeech": "verb" },
-        { "source": "กลุ่ม", "target": "group", "phonetic": "glùm", "partOfSpeech": "noun" },
-        { "source": "แลกเปลี่ยนภาษา", "target": "language exchange", "phonetic": "lâek-bplìan phaa-sǎa", "partOfSpeech": "noun" },
-        { "source": "ที่นั่น", "target": "there", "phonetic": "thîi nân", "partOfSpeech": "adverb" },
-        { "source": "เธอได้พบ", "target": "she met", "phonetic": "thoe dâi phóp", "partOfSpeech": "verb" },
-        { "source": "ฮวน", "target": "Juan", "phonetic": "huan", "partOfSpeech": "proper_noun" },
-        { "source": "จาก", "target": "from", "phonetic": "jàak", "partOfSpeech": "preposition" },
-        { "source": "เม็กซิโก", "target": "Mexico", "phonetic": "mék-sí-gôo", "partOfSpeech": "proper_noun" }
-      ]
-    },
-    {
-      "source": "ฮวนบอกเธอว่าการฝึกกับเจ้าของภาษา จะช่วยพัฒนาทักษะได้เร็ว",
-      "target": "Juan told her that practicing with native speakers would improve her skills quickly.",
-      "phonetic": "huan bɔ̀ɔk thoe wâa gaan fʉ̀k gàp jâo-khǎwng phaa-sǎa jà chûai phát-thá-naa thák-sà dâi reo",
-      "breakdown": [
-        { "source": "ฮวน", "target": "Juan", "phonetic": "huan", "partOfSpeech": "proper_noun" },
-        { "source": "บอกเธอว่า", "target": "told her that", "phonetic": "bɔ̀ɔk thoe wâa", "partOfSpeech": "verb" },
-        { "source": "การฝึก", "target": "practicing", "phonetic": "gaan fʉ̀k", "partOfSpeech": "noun" },
-        { "source": "กับ", "target": "with", "phonetic": "gàp", "partOfSpeech": "preposition" },
-        { "source": "เจ้าของภาษา", "target": "native speakers", "phonetic": "jâo-khǎwng phaa-sǎa", "partOfSpeech": "noun" },
-        { "source": "จะช่วย", "target": "would help", "phonetic": "jà chûai", "partOfSpeech": "auxiliary" },
-        { "source": "พัฒนาทักษะ", "target": "improve skills", "phonetic": "phát-thá-naa thák-sà", "partOfSpeech": "verb" },
-        { "source": "ได้เร็ว", "target": "quickly", "phonetic": "dâi reo", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "พวกเขาตกลงจะพบกันทุกสัปดาห์ สลับสนทนาเป็นอังกฤษและสเปน",
-      "target": "They agreed to meet weekly, alternating between English and Spanish conversations.",
-      "phonetic": "phûak-kháo dtòk-long jà phóp gan thúk sàp-daa sà-làp sǒn-tha-naa bpen ang-grìt láe sa-bpen",
-      "breakdown": [
-        { "source": "พวกเขา", "target": "they", "phonetic": "phûak-kháo", "partOfSpeech": "pronoun" },
-        { "source": "ตกลง", "target": "agreed", "phonetic": "dtòk-long", "partOfSpeech": "verb" },
-        { "source": "จะพบกัน", "target": "to meet", "phonetic": "jà phóp gan", "partOfSpeech": "verb" },
-        { "source": "ทุกสัปดาห์", "target": "weekly", "phonetic": "thúk sàp-daa", "partOfSpeech": "adverb" },
-        { "source": "สลับ", "target": "alternating", "phonetic": "sà-làp", "partOfSpeech": "verb" },
-        { "source": "สนทนา", "target": "conversations", "phonetic": "sǒn-tha-naa", "partOfSpeech": "noun" },
-        { "source": "เป็นอังกฤษ", "target": "in English", "phonetic": "bpen ang-grìt", "partOfSpeech": "adverb" },
-        { "source": "และสเปน", "target": "and Spanish", "phonetic": "láe sa-bpen", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "ถ้าโซเฟียไม่เข้ากลุ่ม เธออาจไม่ได้เพื่อนดีๆ แบบนี้",
-      "target": "If Sofia hadn’t joined the group, she might not have made such a good friend.",
-      "phonetic": "thâa so-fia mâi khâo glùm thoe àat mâi dâi phʉ̂an dii-dii bɛ̀ɛp níi",
-      "breakdown": [
-        { "source": "ถ้า", "target": "if", "phonetic": "thâa", "partOfSpeech": "conjunction" },
-        { "source": "โซเฟีย", "target": "Sofia", "phonetic": "so-fia", "partOfSpeech": "proper_noun" },
-        { "source": "ไม่", "target": "not", "phonetic": "mâi", "partOfSpeech": "adverb" },
-        { "source": "เข้ากลุ่ม", "target": "join the group", "phonetic": "khâo glùm", "partOfSpeech": "verb" },
-        { "source": "เธออาจ", "target": "she might", "phonetic": "thoe àat", "partOfSpeech": "auxiliary" },
-        { "source": "ไม่ได้", "target": "not get", "phonetic": "mâi dâi", "partOfSpeech": "auxiliary" },
-        { "source": "เพื่อนดีๆ", "target": "a good friend", "phonetic": "phʉ̂an dii-dii", "partOfSpeech": "noun" },
-        { "source": "แบบนี้", "target": "like this", "phonetic": "bɛ̀ɛp níi", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "ครั้งแรกที่พบกัน ฮวนสอนสำนวนสเปนที่ใช้บ่อยให้เธอ",
-      "target": "During their first meeting, Juan taught her common Spanish idioms.",
-      "phonetic": "khráng râek thîi phóp gan huan sɔ̌ɔn sǎm-nuan sa-bpen thîi chái bɔ̀i hâi thoe",
-      "breakdown": [
-        { "source": "ครั้งแรก", "target": "first time", "phonetic": "khráng râek", "partOfSpeech": "adverb" },
-        { "source": "ที่พบกัน", "target": "meeting", "phonetic": "thîi phóp gan", "partOfSpeech": "noun" },
-        { "source": "ฮวน", "target": "Juan", "phonetic": "huan", "partOfSpeech": "proper_noun" },
-        { "source": "สอน", "target": "taught", "phonetic": "sɔ̌ɔn", "partOfSpeech": "verb" },
-        { "source": "สำนวนสเปน", "target": "Spanish idioms", "phonetic": "sǎm-nuan sa-bpen", "partOfSpeech": "noun" },
-        { "source": "ที่ใช้บ่อย", "target": "common", "phonetic": "thîi chái bɔ̀i", "partOfSpeech": "adjective" },
-        { "source": "ให้เธอ", "target": "to her", "phonetic": "hâi thoe", "partOfSpeech": "preposition" }
-      ]
-    },
-    {
-      "source": "โซเฟียอธิบายว่าเธอฟังสเปนรู้เรื่อง แต่ยังพูดไม่คล่อง",
-      "target": "Sofia explained that she could understand Spanish but struggled to speak fluently.",
-      "phonetic": "so-fia à-thí-baai wâa thoe fang sa-bpen rúu rʉ̂ang dtàe yang phûut mâi klông",
-      "breakdown": [
-        { "source": "โซเฟีย", "target": "Sofia", "phonetic": "so-fia", "partOfSpeech": "proper_noun" },
-        { "source": "อธิบายว่า", "target": "explained that", "phonetic": "à-thí-baai wâa", "partOfSpeech": "verb" },
-        { "source": "เธอฟัง", "target": "she listens/understands", "phonetic": "thoe fang", "partOfSpeech": "verb" },
-        { "source": "สเปน", "target": "Spanish", "phonetic": "sa-bpen", "partOfSpeech": "proper_noun" },
-        { "source": "รู้เรื่อง", "target": "understand", "phonetic": "rúu rʉ̂ang", "partOfSpeech": "verb" },
-        { "source": "แต่ยัง", "target": "but still", "phonetic": "dtàe yang", "partOfSpeech": "conjunction" },
-        { "source": "พูดไม่คล่อง", "target": "not fluent speaking", "phonetic": "phûut mâi klông", "partOfSpeech": "verb" }
-      ]
-    },
-    {
-      "source": "ฮวนแนะนำว่าควรดูภาพยนตร์สเปน เพื่อพัฒนาทักษะการฟัง",
-      "target": "Juan suggested they should watch Spanish movies to improve her listening skills.",
-      "phonetic": "huan nɛ́-nam wâa khuan duu phâap-pha-yon sa-bpen phʉ̂a phát-thá-naa thák-sà gaan fang",
-      "breakdown": [
-        { "source": "ฮวน", "target": "Juan", "phonetic": "huan", "partOfSpeech": "proper_noun" },
-        { "source": "แนะนำว่า", "target": "suggested that", "phonetic": "nɛ́-nam wâa", "partOfSpeech": "verb" },
-        { "source": "ควรดู", "target": "should watch", "phonetic": "khuan duu", "partOfSpeech": "auxiliary" },
-        { "source": "ภาพยนตร์สเปน", "target": "Spanish movies", "phonetic": "phâap-pha-yon sa-bpen", "partOfSpeech": "noun" },
-        { "source": "เพื่อ", "target": "to", "phonetic": "phʉ̂a", "partOfSpeech": "preposition" },
-        { "source": "พัฒนาทักษะการฟัง", "target": "improve listening skills", "phonetic": "phát-thá-naa thák-sà gaan fang", "partOfSpeech": "verb" }
-      ]
-    },
-    {
-      "source": "พวกเขาดูภาพยนตร์ตลกด้วยกัน หัวเราะกับบทสนทนาที่ชาญฉลาด",
-      "target": "They watched a comedy together, laughing at the clever dialogue.",
-      "phonetic": "phûak-kháo duu phâap-pha-yon dtà-lòk dûai gan hǔa-rɔ́ gàp bòt sǒn-tha-naa thîi chaan-chalàat",
-      "breakdown": [
-        { "source": "พวกเขา", "target": "they", "phonetic": "phûak-kháo", "partOfSpeech": "pronoun" },
-        { "source": "ดูภาพยนตร์ตลก", "target": "watched a comedy", "phonetic": "duu phâap-pha-yon dtà-lòk", "partOfSpeech": "verb" },
-        { "source": "ด้วยกัน", "target": "together", "phonetic": "dûai gan", "partOfSpeech": "adverb" },
-        { "source": "หัวเราะ", "target": "laughing", "phonetic": "hǔa-rɔ́", "partOfSpeech": "verb" },
-        { "source": "กับ", "target": "at/with", "phonetic": "gàp", "partOfSpeech": "preposition" },
-        { "source": "บทสนทนา", "target": "dialogue", "phonetic": "bòt sǒn-tha-naa", "partOfSpeech": "noun" },
-        { "source": "ที่", "target": "that/which", "phonetic": "thîi", "partOfSpeech": "relative_pronoun" },
-        { "source": "ชาญฉลาด", "target": "clever", "phonetic": "chaan-chalàat", "partOfSpeech": "adjective" }
-      ]
-    },
-    {
-      "source": "โซเฟียบอกว่าเธออยากไปเม็กซิโกมานานแล้ว เพื่อฝึกภาษาสเปน",
-      "target": "Sofia said she had always wanted to visit Mexico to practice her Spanish.",
-      "phonetic": "so-fia bɔ̀ɔk wâa thoe yàak bpai mék-sí-gôo maa naan láeo phʉ̂a fʉ̀k phaa-sǎa sa-bpen",
-      "breakdown": [
-        { "source": "โซเฟีย", "target": "Sofia", "phonetic": "so-fia", "partOfSpeech": "proper_noun" },
-        { "source": "บอกว่า", "target": "said that", "phonetic": "bɔ̀ɔk wâa", "partOfSpeech": "verb" },
-        { "source": "เธอ", "target": "she", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "อยากไป", "target": "wanted to visit", "phonetic": "yàak bpai", "partOfSpeech": "verb" },
-        { "source": "เม็กซิโก", "target": "Mexico", "phonetic": "mék-sí-gôo", "partOfSpeech": "proper_noun" },
-        { "source": "มานานแล้ว", "target": "for a long time", "phonetic": "maa naan láeo", "partOfSpeech": "adverb" },
-        { "source": "เพื่อ", "target": "to", "phonetic": "phʉ̂a", "partOfSpeech": "preposition" },
-        { "source": "ฝึกภาษา", "target": "practice language", "phonetic": "fʉ̀k phaa-sǎa", "partOfSpeech": "verb" },
-        { "source": "สเปน", "target": "Spanish", "phonetic": "sa-bpen", "partOfSpeech": "proper_noun" }
-      ]
-    },
-    {
-      "source": "ฮวนตอบว่าเขาอยากพาเธอไปเที่ยวบ้านเกิดของเขาสักวันหนึ่ง",
-      "target": "Juan replied that he would love to show her his hometown someday.",
-      "phonetic": "huan dtɔ̀ɔp wâa khǎo yàak phaa thoe bpai thîao bâan-gə̀ət khǎwng khǎo sák wan nʉ̀ng",
-      "breakdown": [
-        { "source": "ฮวน", "target": "Juan", "phonetic": "huan", "partOfSpeech": "proper_noun" },
-        { "source": "ตอบว่า", "target": "replied that", "phonetic": "dtɔ̀ɔp wâa", "partOfSpeech": "verb" },
-        { "source": "เขา", "target": "he", "phonetic": "kháo", "partOfSpeech": "pronoun" },
-        { "source": "อยากพา", "target": "would love to take", "phonetic": "yàak phaa", "partOfSpeech": "verb" },
-        { "source": "เธอ", "target": "her", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "ไปเที่ยว", "target": "to visit", "phonetic": "bpai thîao", "partOfSpeech": "verb" },
-        { "source": "บ้านเกิด", "target": "hometown", "phonetic": "bâan-gə̀ət", "partOfSpeech": "noun" },
-        { "source": "ของเขา", "target": "of his", "phonetic": "khǎwng kháo", "partOfSpeech": "prepositional" },
-        { "source": "สักวันหนึ่ง", "target": "someday", "phonetic": "sák wan nʉ̀ng", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "ถ้าเธอเก็บเงินได้พอ เธออาจได้เดินทางไปที่นั่นปีหน้า",
-      "target": "If she saves enough money, she might travel there next year.",
-      "phonetic": "thâa thoe gèp ngern dâi phɔɔ thoe àat dâi dœœn-thaang bpai thîi nân bpii nâa",
-      "breakdown": [
-        { "source": "ถ้า", "target": "if", "phonetic": "thâa", "partOfSpeech": "conjunction" },
-        { "source": "เธอ", "target": "she", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "เก็บเงิน", "target": "save money", "phonetic": "gèp ngern", "partOfSpeech": "verb" },
-        { "source": "ได้พอ", "target": "enough", "phonetic": "dâi phɔɔ", "partOfSpeech": "adverb" },
-        { "source": "เธออาจ", "target": "she might", "phonetic": "thoe àat", "partOfSpeech": "auxiliary" },
-        { "source": "ได้เดินทาง", "target": "travel", "phonetic": "dâi dœœn-thaang", "partOfSpeech": "verb" },
-        { "source": "ไปที่นั่น", "target": "there", "phonetic": "bpai thîi nân", "partOfSpeech": "adverb" },
-        { "source": "ปีหน้า", "target": "next year", "phonetic": "bpii nâa", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "การฝึกกับฮวนทำให้โซเฟียมั่นใจในความสามารถมากขึ้น",
-      "target": "Practicing with Juan made Sofia feel more confident in her abilities.",
-      "phonetic": "gaan fʉ̀k gàp huan tham hâi so-fia mân-jai nai khwaam sǎa-mâat mâak khʉ̂n",
-      "breakdown": [
-        { "source": "การฝึก", "target": "practicing", "phonetic": "gaan fʉ̀k", "partOfSpeech": "noun" },
-        { "source": "กับ", "target": "with", "phonetic": "gàp", "partOfSpeech": "preposition" },
-        { "source": "ฮวน", "target": "Juan", "phonetic": "huan", "partOfSpeech": "proper_noun" },
-        { "source": "ทำให้", "target": "made", "phonetic": "tham hâi", "partOfSpeech": "verb" },
-        { "source": "โซเฟีย", "target": "Sofia", "phonetic": "so-fia", "partOfSpeech": "proper_noun" },
-        { "source": "มั่นใจ", "target": "confident", "phonetic": "mân-jai", "partOfSpeech": "adjective" },
-        { "source": "ใน", "target": "in", "phonetic": "nai", "partOfSpeech": "preposition" },
-        { "source": "ความสามารถ", "target": "abilities", "phonetic": "khwaam sǎa-mâat", "partOfSpeech": "noun" },
-        { "source": "มากขึ้น", "target": "more", "phonetic": "mâak khʉ̂n", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "เธอสอนฮวนวลีภาษาอังกฤษบางวลี เช่น ‘break the ice’ ซึ่งเขาว่าตลกดี",
-      "target": "She taught Juan some English phrases, like “break the ice,” which he found funny.",
-      "phonetic": "thoe sɔ̌ɔn huan wa-lee phaa-sǎa ang-grìt baang wa-lee chên break the ice sʉ̂ng khǎo wâa dtà-lòk dii",
-      "breakdown": [
-        { "source": "เธอ", "target": "she", "phonetic": "thoe", "partOfSpeech": "pronoun" },
-        { "source": "สอน", "target": "taught", "phonetic": "sɔ̌ɔn", "partOfSpeech": "verb" },
-        { "source": "ฮวน", "target": "Juan", "phonetic": "huan", "partOfSpeech": "proper_noun" },
-        { "source": "วลีภาษาอังกฤษ", "target": "English phrases", "phonetic": "wa-lee phaa-sǎa ang-grìt", "partOfSpeech": "noun" },
-        { "source": "บางวลี", "target": "some phrases", "phonetic": "baang wa-lee", "partOfSpeech": "determiner" },
-        { "source": "เช่น", "target": "like", "phonetic": "chên", "partOfSpeech": "preposition" },
-        { "source": "break the ice", "target": "break the ice", "phonetic": "break the ice", "partOfSpeech": "phrase" },
-        { "source": "ซึ่ง", "target": "which", "phonetic": "sʉ̂ng", "partOfSpeech": "relative_pronoun" },
-        { "source": "เขา", "target": "he", "phonetic": "kháo", "partOfSpeech": "pronoun" },
-        { "source": "ว่าตลก", "target": "found funny", "phonetic": "wâa dtà-lòk", "partOfSpeech": "verb" },
-        { "source": "ดี", "target": "(emphasis)", "phonetic": "dii", "partOfSpeech": "particle" }
-      ]
-    },
-    {
-      "source": "บทสนทนาของพวกเขามักวกไปที่ประเพณีวัฒนธรรม เช่น เทศกาลและอาหาร",
-      "target": "Their conversations often turned to cultural traditions, like festivals and food.",
-      "phonetic": "bòt sǒn-tha-naa khǎwng phûak-kháo mák wók bpai thîi bprà-pee-nii wát-thá-na-tham chên thêt-sà-kaan láe aa-hăan",
-      "breakdown": [
-        { "source": "บทสนทนา", "target": "conversations", "phonetic": "bòt sǒn-tha-naa", "partOfSpeech": "noun" },
-        { "source": "ของพวกเขา", "target": "of theirs", "phonetic": "khǎwng phûak-kháo", "partOfSpeech": "prepositional" },
-        { "source": "มัก", "target": "often", "phonetic": "mák", "partOfSpeech": "adverb" },
-        { "source": "วกไป", "target": "turn to", "phonetic": "wók bpai", "partOfSpeech": "verb" },
-        { "source": "ที่", "target": "to", "phonetic": "thîi", "partOfSpeech": "preposition" },
-        { "source": "ประเพณีวัฒนธรรม", "target": "cultural traditions", "phonetic": "bprà-pee-nii wát-thá-na-tham", "partOfSpeech": "noun" },
-        { "source": "เช่น", "target": "such as", "phonetic": "chên", "partOfSpeech": "preposition" },
-        { "source": "เทศกาล", "target": "festivals", "phonetic": "thêt-sà-kaan", "partOfSpeech": "noun" },
-        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
-        { "source": "อาหาร", "target": "food", "phonetic": "aa-hăan", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "ฮวนเล่าว่าครอบครัวของเขาฉลองวันแห่งผู้ล่วงลับด้วยแท่นบูชาสีสันสดใส",
-      "target": "Juan described how his family celebrates Day of the Dead with colorful altars.",
-      "phonetic": "huan lâo wâa khrâwp-khrua khǎwng khǎo chà-lɔ̌ɔng wan hɛ̀ng phûu lûang-láp dûai thâen buu-chaa sǐi-sǎn sòt-sǎi",
-      "breakdown": [
-        { "source": "ฮวน", "target": "Juan", "phonetic": "huan", "partOfSpeech": "proper_noun" },
-        { "source": "เล่าว่า", "target": "described that", "phonetic": "lâo wâa", "partOfSpeech": "verb" },
-        { "source": "ครอบครัวของเขา", "target": "his family", "phonetic": "khrâwp-khrua khǎwng kháo", "partOfSpeech": "noun" },
-        { "source": "ฉลอง", "target": "celebrates", "phonetic": "chà-lɔ̌ɔng", "partOfSpeech": "verb" },
-        { "source": "วันแห่งผู้ล่วงลับ", "target": "Day of the Dead", "phonetic": "wan hɛ̀ng phûu lûang-láp", "partOfSpeech": "noun" },
-        { "source": "ด้วย", "target": "with", "phonetic": "dûai", "partOfSpeech": "preposition" },
-        { "source": "แท่นบูชา", "target": "altars", "phonetic": "thâen buu-chaa", "partOfSpeech": "noun" },
-        { "source": "สีสันสดใส", "target": "colorful", "phonetic": "sǐi-sǎn sòt-sǎi", "partOfSpeech": "adjective" }
-      ]
-    },
-    {
-      "source": "โซเฟียบอกว่าเธอก็สอนเขาเรื่องประเพณีวันหยุดของประเทศเธอได้เหมือนกัน",
-      "target": "Sofia shared that she could teach him about her country’s holiday traditions too.",
-      "phonetic": "so-fia bɔ̀ɔk wâa thoe gɔ̂ɔ sɔ̌ɔn khǎo rʉ̂ang bprà-pee-nii wan-yùt khǎwng bprà-thêt thoe dâi mʉ̌an gan",
-      "breakdown": [
-        { "source": "โซเฟีย", "target": "Sofia", "phonetic": "so-fia", "partOfSpeech": "proper_noun" },
-        { "source": "บอกว่า", "target": "shared that", "phonetic": "bɔ̀ɔk wâa", "partOfSpeech": "verb" },
-        { "source": "เธอก็", "target": "she also", "phonetic": "thoe gɔ̂ɔ", "partOfSpeech": "adverb" },
-        { "source": "สอนเขา", "target": "teach him", "phonetic": "sɔ̌ɔn khǎo", "partOfSpeech": "verb" },
-        { "source": "เรื่อง", "target": "about", "phonetic": "rʉ̂ang", "partOfSpeech": "preposition" },
-        { "source": "ประเพณีวันหยุด", "target": "holiday traditions", "phonetic": "bprà-pee-nii wan-yùt", "partOfSpeech": "noun" },
-        { "source": "ของประเทศเธอ", "target": "of her country", "phonetic": "khǎwng bprà-thêt thoe", "partOfSpeech": "prepositional" },
-        { "source": "ได้", "target": "could", "phonetic": "dâi", "partOfSpeech": "auxiliary" },
-        { "source": "เหมือนกัน", "target": "too/as well", "phonetic": "mʉ̌an gan", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "การแลกเปลี่ยนภาษาได้กลายเป็นไฮไลต์ของสัปดาห์ เต็มไปด้วยเสียงหัวเราะและการเรียนรู้",
-      "target": "The language exchange became a highlight of her week, full of laughter and learning.",
-      "phonetic": "gaan lâek-bplìan phaa-sǎa dâi glaai bpen hai-lai khǎwng sàp-daa dtem bpai dûai sǐang hǔa-rɔ́ láe gaan rian-rúu",
-      "breakdown": [
-        { "source": "การแลกเปลี่ยนภาษา", "target": "language exchange", "phonetic": "gaan lâek-bplìan phaa-sǎa", "partOfSpeech": "noun" },
-        { "source": "ได้กลายเป็น", "target": "became", "phonetic": "dâi glaai bpen", "partOfSpeech": "verb" },
-        { "source": "ไฮไลต์", "target": "highlight", "phonetic": "hai-lai", "partOfSpeech": "noun" },
-        { "source": "ของสัปดาห์", "target": "of the week", "phonetic": "khǎwng sàp-daa", "partOfSpeech": "prepositional" },
-        { "source": "เต็มไปด้วย", "target": "full of", "phonetic": "dtem bpai dûai", "partOfSpeech": "verb" },
-        { "source": "เสียงหัวเราะ", "target": "laughter", "phonetic": "sǐang hǔa-rɔ́", "partOfSpeech": "noun" },
-        { "source": "และ", "target": "and", "phonetic": "láe", "partOfSpeech": "conjunction" },
-        { "source": "การเรียนรู้", "target": "learning", "phonetic": "gaan rian-rúu", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "เธอเข้าใจว่าการเรียนภาษา คือการสร้างสายสัมพันธ์กับผู้คน",
-      "target": "She realized that learning a language was also about building connections.",
-      "phonetic": "thoe khâo-jai wâa gaan rian phaa-sǎa khʉʉ gaan sâang sǎai-sǎm-phan gàp phûu-khon",
-      "breakdown": [
-        { "source": "เธอเข้าใจว่า", "target": "she realized that", "phonetic": "thoe khâo-jai wâa", "partOfSpeech": "verb" },
-        { "source": "การเรียนภาษา", "target": "learning a language", "phonetic": "gaan rian phaa-sǎa", "partOfSpeech": "noun" },
-        { "source": "คือ", "target": "is", "phonetic": "khʉʉ", "partOfSpeech": "verb" },
-        { "source": "การสร้าง", "target": "building", "phonetic": "gaan sâang", "partOfSpeech": "noun" },
-        { "source": "สายสัมพันธ์", "target": "connections", "phonetic": "sǎai-sǎm-phan", "partOfSpeech": "noun" },
-        { "source": "กับ", "target": "with", "phonetic": "gàp", "partOfSpeech": "preposition" },
-        { "source": "ผู้คน", "target": "people", "phonetic": "phûu-khon", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "โซเฟียหวังว่าเธอกับฮวนจะเป็นเพื่อนกันไปอีกนานหลายปี",
-      "target": "Sofia hoped she and Juan would stay friends for years to come.",
-      "phonetic": "so-fia wǎng wâa thoe gàp huan jà bpen phʉ̂an gan bpai ìik naan lǎai pii",
-      "breakdown": [
-        { "source": "โซเฟีย", "target": "Sofia", "phonetic": "so-fia", "partOfSpeech": "proper_noun" },
-        { "source": "หวังว่า", "target": "hoped that", "phonetic": "wǎng wâa", "partOfSpeech": "verb" },
-        { "source": "เธอกับฮวน", "target": "she and Juan", "phonetic": "thoe gàp huan", "partOfSpeech": "phrase" },
-        { "source": "จะเป็น", "target": "would be", "phonetic": "jà bpen", "partOfSpeech": "auxiliary" },
-        { "source": "เพื่อนกัน", "target": "friends", "phonetic": "phʉ̂an gan", "partOfSpeech": "noun" },
-        { "source": "ไปอีก", "target": "for more", "phonetic": "bpai ìik", "partOfSpeech": "adverb" },
-        { "source": "นาน", "target": "long", "phonetic": "naan", "partOfSpeech": "adverb" },
-        { "source": "หลายปี", "target": "many years", "phonetic": "lǎai pii", "partOfSpeech": "noun" }
-      ]
-    }
-  ],
-  "createdAt": "2025-09-29T23:35:10Z",
-  "updatedAt": "2025-09-29T23:49:10Z",
-  "difficulty": "intermediate",
-  "summary": "การแลกเปลี่ยนภาษาระหว่างโซเฟียและฮวน: ฝึกพูด ฟัง ดูหนัง วัฒนธรรม และมิตรภาพ"
+    "sentences": [
+        {
+            "source": "โซเฟียเรียนภาษาสเปนมาหลายเดือน หวังว่าสักวันจะพูดได้คล่องแคล่ว",
+            "target": "Sofia had been studying Spanish for months, hoping to become fluent someday.",
+            "phonetic": "so-fia rian phaa-sǎa sa-bpen maa lǎai dʉʉan wǎng wâa sák wan jà phûut dâi klông-khlào",
+            "breakdown": [
+                {
+                    "source": "โซเฟีย",
+                    "target": "Sofia",
+                    "phonetic": "so-fia",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "เรียน",
+                    "target": "study",
+                    "phonetic": "rian",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ภาษา",
+                    "target": "language",
+                    "phonetic": "phaa-sǎa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "สเปน",
+                    "target": "Spanish",
+                    "phonetic": "sa-bpen",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "มาหลายเดือน",
+                    "target": "for months",
+                    "phonetic": "maa lǎai dʉʉan",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "หวังว่า",
+                    "target": "hoping that",
+                    "phonetic": "wǎng wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "สักวัน",
+                    "target": "someday",
+                    "phonetic": "sák wan",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "จะพูดได้",
+                    "target": "will be able to speak",
+                    "phonetic": "jà phûut dâi",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "คล่องแคล่ว",
+                    "target": "fluently",
+                    "phonetic": "klông-khlào",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "เธอเข้าร่วมกลุ่มแลกเปลี่ยนภาษา ที่นั่นเธอได้พบฮวนจากเม็กซิโก",
+            "target": "She joined a language exchange group, where she met Juan from Mexico.",
+            "phonetic": "thoe khâo-rûam glùm lâek-bplìan phaa-sǎa thîi nân thoe dâi phóp huan jàak mék-sí-gôo",
+            "breakdown": [
+                {
+                    "source": "เธอ",
+                    "target": "she",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "เข้าร่วม",
+                    "target": "joined",
+                    "phonetic": "khâo-rûam",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "กลุ่ม",
+                    "target": "group",
+                    "phonetic": "glùm",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "แลกเปลี่ยนภาษา",
+                    "target": "language exchange",
+                    "phonetic": "lâek-bplìan phaa-sǎa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ที่นั่น",
+                    "target": "there",
+                    "phonetic": "thîi nân",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "เธอได้พบ",
+                    "target": "she met",
+                    "phonetic": "thoe dâi phóp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ฮวน",
+                    "target": "Juan",
+                    "phonetic": "huan",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "จาก",
+                    "target": "from",
+                    "phonetic": "jàak",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "เม็กซิโก",
+                    "target": "Mexico",
+                    "phonetic": "mék-sí-gôo",
+                    "partOfSpeech": "proper_noun"
+                }
+            ]
+        },
+        {
+            "source": "ฮวนบอกเธอว่าการฝึกกับเจ้าของภาษา จะช่วยพัฒนาทักษะได้เร็ว",
+            "target": "Juan told her that practicing with native speakers would improve her skills quickly.",
+            "phonetic": "huan bɔ̀ɔk thoe wâa gaan fʉ̀k gàp jâo-khǎwng phaa-sǎa jà chûai phát-thá-naa thák-sà dâi reo",
+            "breakdown": [
+                {
+                    "source": "ฮวน",
+                    "target": "Juan",
+                    "phonetic": "huan",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "บอกเธอว่า",
+                    "target": "told her that",
+                    "phonetic": "bɔ̀ɔk thoe wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "การฝึก",
+                    "target": "practicing",
+                    "phonetic": "gaan fʉ̀k",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "กับ",
+                    "target": "with",
+                    "phonetic": "gàp",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "เจ้าของภาษา",
+                    "target": "native speakers",
+                    "phonetic": "jâo-khǎwng phaa-sǎa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "จะช่วย",
+                    "target": "would help",
+                    "phonetic": "jà chûai",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "พัฒนาทักษะ",
+                    "target": "improve skills",
+                    "phonetic": "phát-thá-naa thák-sà",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ได้เร็ว",
+                    "target": "quickly",
+                    "phonetic": "dâi reo",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "พวกเขาตกลงจะพบกันทุกสัปดาห์ สลับสนทนาเป็นอังกฤษและสเปน",
+            "target": "They agreed to meet weekly, alternating between English and Spanish conversations.",
+            "phonetic": "phûak-kháo dtòk-long jà phóp gan thúk sàp-daa sà-làp sǒn-tha-naa bpen ang-grìt láe sa-bpen",
+            "breakdown": [
+                {
+                    "source": "พวกเขา",
+                    "target": "they",
+                    "phonetic": "phûak-kháo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ตกลง",
+                    "target": "agreed",
+                    "phonetic": "dtòk-long",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "จะพบกัน",
+                    "target": "to meet",
+                    "phonetic": "jà phóp gan",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ทุกสัปดาห์",
+                    "target": "weekly",
+                    "phonetic": "thúk sàp-daa",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "สลับ",
+                    "target": "alternating",
+                    "phonetic": "sà-làp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "สนทนา",
+                    "target": "conversations",
+                    "phonetic": "sǒn-tha-naa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เป็นอังกฤษ",
+                    "target": "in English",
+                    "phonetic": "bpen ang-grìt",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "และสเปน",
+                    "target": "and Spanish",
+                    "phonetic": "láe sa-bpen",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "ถ้าโซเฟียไม่เข้ากลุ่ม เธออาจไม่ได้เพื่อนดีๆ แบบนี้",
+            "target": "If Sofia hadn’t joined the group, she might not have made such a good friend.",
+            "phonetic": "thâa so-fia mâi khâo glùm thoe àat mâi dâi phʉ̂an dii-dii bɛ̀ɛp níi",
+            "breakdown": [
+                {
+                    "source": "ถ้า",
+                    "target": "if",
+                    "phonetic": "thâa",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "โซเฟีย",
+                    "target": "Sofia",
+                    "phonetic": "so-fia",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "ไม่",
+                    "target": "not",
+                    "phonetic": "mâi",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "เข้ากลุ่ม",
+                    "target": "join the group",
+                    "phonetic": "khâo glùm",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เธออาจ",
+                    "target": "she might",
+                    "phonetic": "thoe àat",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "ไม่ได้",
+                    "target": "not get",
+                    "phonetic": "mâi dâi",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "เพื่อนดีๆ",
+                    "target": "a good friend",
+                    "phonetic": "phʉ̂an dii-dii",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "แบบนี้",
+                    "target": "like this",
+                    "phonetic": "bɛ̀ɛp níi",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "ครั้งแรกที่พบกัน ฮวนสอนสำนวนสเปนที่ใช้บ่อยให้เธอ",
+            "target": "During their first meeting, Juan taught her common Spanish idioms.",
+            "phonetic": "khráng râek thîi phóp gan huan sɔ̌ɔn sǎm-nuan sa-bpen thîi chái bɔ̀i hâi thoe",
+            "breakdown": [
+                {
+                    "source": "ครั้งแรก",
+                    "target": "first time",
+                    "phonetic": "khráng râek",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ที่พบกัน",
+                    "target": "meeting",
+                    "phonetic": "thîi phóp gan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ฮวน",
+                    "target": "Juan",
+                    "phonetic": "huan",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "สอน",
+                    "target": "taught",
+                    "phonetic": "sɔ̌ɔn",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "สำนวนสเปน",
+                    "target": "Spanish idioms",
+                    "phonetic": "sǎm-nuan sa-bpen",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ที่ใช้บ่อย",
+                    "target": "common",
+                    "phonetic": "thîi chái bɔ̀i",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ให้เธอ",
+                    "target": "to her",
+                    "phonetic": "hâi thoe",
+                    "partOfSpeech": "preposition"
+                }
+            ]
+        },
+        {
+            "source": "โซเฟียอธิบายว่าเธอฟังสเปนรู้เรื่อง แต่ยังพูดไม่คล่อง",
+            "target": "Sofia explained that she could understand Spanish but struggled to speak fluently.",
+            "phonetic": "so-fia à-thí-baai wâa thoe fang sa-bpen rúu rʉ̂ang dtàe yang phûut mâi klông",
+            "breakdown": [
+                {
+                    "source": "โซเฟีย",
+                    "target": "Sofia",
+                    "phonetic": "so-fia",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "อธิบายว่า",
+                    "target": "explained that",
+                    "phonetic": "à-thí-baai wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เธอฟัง",
+                    "target": "she listens/understands",
+                    "phonetic": "thoe fang",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "สเปน",
+                    "target": "Spanish",
+                    "phonetic": "sa-bpen",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "รู้เรื่อง",
+                    "target": "understand",
+                    "phonetic": "rúu rʉ̂ang",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "แต่ยัง",
+                    "target": "but still",
+                    "phonetic": "dtàe yang",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "พูดไม่คล่อง",
+                    "target": "not fluent speaking",
+                    "phonetic": "phûut mâi klông",
+                    "partOfSpeech": "verb"
+                }
+            ]
+        },
+        {
+            "source": "ฮวนแนะนำว่าควรดูภาพยนตร์สเปน เพื่อพัฒนาทักษะการฟัง",
+            "target": "Juan suggested they should watch Spanish movies to improve her listening skills.",
+            "phonetic": "huan nɛ́-nam wâa khuan duu phâap-pha-yon sa-bpen phʉ̂a phát-thá-naa thák-sà gaan fang",
+            "breakdown": [
+                {
+                    "source": "ฮวน",
+                    "target": "Juan",
+                    "phonetic": "huan",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "แนะนำว่า",
+                    "target": "suggested that",
+                    "phonetic": "nɛ́-nam wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ควรดู",
+                    "target": "should watch",
+                    "phonetic": "khuan duu",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "ภาพยนตร์สเปน",
+                    "target": "Spanish movies",
+                    "phonetic": "phâap-pha-yon sa-bpen",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เพื่อ",
+                    "target": "to",
+                    "phonetic": "phʉ̂a",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "พัฒนาทักษะการฟัง",
+                    "target": "improve listening skills",
+                    "phonetic": "phát-thá-naa thák-sà gaan fang",
+                    "partOfSpeech": "verb"
+                }
+            ]
+        },
+        {
+            "source": "พวกเขาดูภาพยนตร์ตลกด้วยกัน หัวเราะกับบทสนทนาที่ชาญฉลาด",
+            "target": "They watched a comedy together, laughing at the clever dialogue.",
+            "phonetic": "phûak-kháo duu phâap-pha-yon dtà-lòk dûai gan hǔa-rɔ́ gàp bòt sǒn-tha-naa thîi chaan-chalàat",
+            "breakdown": [
+                {
+                    "source": "พวกเขา",
+                    "target": "they",
+                    "phonetic": "phûak-kháo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ดูภาพยนตร์ตลก",
+                    "target": "watched a comedy",
+                    "phonetic": "duu phâap-pha-yon dtà-lòk",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ด้วยกัน",
+                    "target": "together",
+                    "phonetic": "dûai gan",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "หัวเราะ",
+                    "target": "laughing",
+                    "phonetic": "hǔa-rɔ́",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "กับ",
+                    "target": "at/with",
+                    "phonetic": "gàp",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "บทสนทนา",
+                    "target": "dialogue",
+                    "phonetic": "bòt sǒn-tha-naa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ที่",
+                    "target": "that/which",
+                    "phonetic": "thîi",
+                    "partOfSpeech": "relative_pronoun"
+                },
+                {
+                    "source": "ชาญฉลาด",
+                    "target": "clever",
+                    "phonetic": "chaan-chalàat",
+                    "partOfSpeech": "adjective"
+                }
+            ]
+        },
+        {
+            "source": "โซเฟียบอกว่าเธออยากไปเม็กซิโกมานานแล้ว เพื่อฝึกภาษาสเปน",
+            "target": "Sofia said she had always wanted to visit Mexico to practice her Spanish.",
+            "phonetic": "so-fia bɔ̀ɔk wâa thoe yàak bpai mék-sí-gôo maa naan láeo phʉ̂a fʉ̀k phaa-sǎa sa-bpen",
+            "breakdown": [
+                {
+                    "source": "โซเฟีย",
+                    "target": "Sofia",
+                    "phonetic": "so-fia",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "บอกว่า",
+                    "target": "said that",
+                    "phonetic": "bɔ̀ɔk wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เธอ",
+                    "target": "she",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "อยากไป",
+                    "target": "wanted to visit",
+                    "phonetic": "yàak bpai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เม็กซิโก",
+                    "target": "Mexico",
+                    "phonetic": "mék-sí-gôo",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "มานานแล้ว",
+                    "target": "for a long time",
+                    "phonetic": "maa naan láeo",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "เพื่อ",
+                    "target": "to",
+                    "phonetic": "phʉ̂a",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ฝึกภาษา",
+                    "target": "practice language",
+                    "phonetic": "fʉ̀k phaa-sǎa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "สเปน",
+                    "target": "Spanish",
+                    "phonetic": "sa-bpen",
+                    "partOfSpeech": "proper_noun"
+                }
+            ]
+        },
+        {
+            "source": "ฮวนตอบว่าเขาอยากพาเธอไปเที่ยวบ้านเกิดของเขาสักวันหนึ่ง",
+            "target": "Juan replied that he would love to show her his hometown someday.",
+            "phonetic": "huan dtɔ̀ɔp wâa khǎo yàak phaa thoe bpai thîao bâan-gə̀ət khǎwng khǎo sák wan nʉ̀ng",
+            "breakdown": [
+                {
+                    "source": "ฮวน",
+                    "target": "Juan",
+                    "phonetic": "huan",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "ตอบว่า",
+                    "target": "replied that",
+                    "phonetic": "dtɔ̀ɔp wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เขา",
+                    "target": "he",
+                    "phonetic": "kháo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "อยากพา",
+                    "target": "would love to take",
+                    "phonetic": "yàak phaa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เธอ",
+                    "target": "her",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ไปเที่ยว",
+                    "target": "to visit",
+                    "phonetic": "bpai thîao",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "บ้านเกิด",
+                    "target": "hometown",
+                    "phonetic": "bâan-gə̀ət",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ของเขา",
+                    "target": "of his",
+                    "phonetic": "khǎwng kháo",
+                    "partOfSpeech": "prepositional"
+                },
+                {
+                    "source": "สักวันหนึ่ง",
+                    "target": "someday",
+                    "phonetic": "sák wan nʉ̀ng",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "ถ้าเธอเก็บเงินได้พอ เธออาจได้เดินทางไปที่นั่นปีหน้า",
+            "target": "If she saves enough money, she might travel there next year.",
+            "phonetic": "thâa thoe gèp ngern dâi phɔɔ thoe àat dâi dœœn-thaang bpai thîi nân bpii nâa",
+            "breakdown": [
+                {
+                    "source": "ถ้า",
+                    "target": "if",
+                    "phonetic": "thâa",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "เธอ",
+                    "target": "she",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "เก็บเงิน",
+                    "target": "save money",
+                    "phonetic": "gèp ngern",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ได้พอ",
+                    "target": "enough",
+                    "phonetic": "dâi phɔɔ",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "เธออาจ",
+                    "target": "she might",
+                    "phonetic": "thoe àat",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "ได้เดินทาง",
+                    "target": "travel",
+                    "phonetic": "dâi dœœn-thaang",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ไปที่นั่น",
+                    "target": "there",
+                    "phonetic": "bpai thîi nân",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ปีหน้า",
+                    "target": "next year",
+                    "phonetic": "bpii nâa",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "การฝึกกับฮวนทำให้โซเฟียมั่นใจในความสามารถมากขึ้น",
+            "target": "Practicing with Juan made Sofia feel more confident in her abilities.",
+            "phonetic": "gaan fʉ̀k gàp huan tham hâi so-fia mân-jai nai khwaam sǎa-mâat mâak khʉ̂n",
+            "breakdown": [
+                {
+                    "source": "การฝึก",
+                    "target": "practicing",
+                    "phonetic": "gaan fʉ̀k",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "กับ",
+                    "target": "with",
+                    "phonetic": "gàp",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ฮวน",
+                    "target": "Juan",
+                    "phonetic": "huan",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "ทำให้",
+                    "target": "made",
+                    "phonetic": "tham hâi",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "โซเฟีย",
+                    "target": "Sofia",
+                    "phonetic": "so-fia",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "มั่นใจ",
+                    "target": "confident",
+                    "phonetic": "mân-jai",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ใน",
+                    "target": "in",
+                    "phonetic": "nai",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ความสามารถ",
+                    "target": "abilities",
+                    "phonetic": "khwaam sǎa-mâat",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "มากขึ้น",
+                    "target": "more",
+                    "phonetic": "mâak khʉ̂n",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "เธอสอนฮวนวลีภาษาอังกฤษบางวลี เช่น ‘break the ice’ ซึ่งเขาว่าตลกดี",
+            "target": "She taught Juan some English phrases, like “break the ice,” which he found funny.",
+            "phonetic": "thoe sɔ̌ɔn huan wa-lee phaa-sǎa ang-grìt baang wa-lee chên break the ice sʉ̂ng khǎo wâa dtà-lòk dii",
+            "breakdown": [
+                {
+                    "source": "เธอ",
+                    "target": "she",
+                    "phonetic": "thoe",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "สอน",
+                    "target": "taught",
+                    "phonetic": "sɔ̌ɔn",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ฮวน",
+                    "target": "Juan",
+                    "phonetic": "huan",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "วลีภาษาอังกฤษ",
+                    "target": "English phrases",
+                    "phonetic": "wa-lee phaa-sǎa ang-grìt",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "บางวลี",
+                    "target": "some phrases",
+                    "phonetic": "baang wa-lee",
+                    "partOfSpeech": "determiner"
+                },
+                {
+                    "source": "เช่น",
+                    "target": "like",
+                    "phonetic": "chên",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "break the ice",
+                    "target": "break the ice",
+                    "phonetic": "break the ice",
+                    "partOfSpeech": "phrase"
+                },
+                {
+                    "source": "ซึ่ง",
+                    "target": "which",
+                    "phonetic": "sʉ̂ng",
+                    "partOfSpeech": "relative_pronoun"
+                },
+                {
+                    "source": "เขา",
+                    "target": "he",
+                    "phonetic": "kháo",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ว่าตลก",
+                    "target": "found funny",
+                    "phonetic": "wâa dtà-lòk",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ดี",
+                    "target": "(emphasis)",
+                    "phonetic": "dii",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "บทสนทนาของพวกเขามักวกไปที่ประเพณีวัฒนธรรม เช่น เทศกาลและอาหาร",
+            "target": "Their conversations often turned to cultural traditions, like festivals and food.",
+            "phonetic": "bòt sǒn-tha-naa khǎwng phûak-kháo mák wók bpai thîi bprà-pee-nii wát-thá-na-tham chên thêt-sà-kaan láe aa-hăan",
+            "breakdown": [
+                {
+                    "source": "บทสนทนา",
+                    "target": "conversations",
+                    "phonetic": "bòt sǒn-tha-naa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ของพวกเขา",
+                    "target": "of theirs",
+                    "phonetic": "khǎwng phûak-kháo",
+                    "partOfSpeech": "prepositional"
+                },
+                {
+                    "source": "มัก",
+                    "target": "often",
+                    "phonetic": "mák",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "วกไป",
+                    "target": "turn to",
+                    "phonetic": "wók bpai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ที่",
+                    "target": "to",
+                    "phonetic": "thîi",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ประเพณีวัฒนธรรม",
+                    "target": "cultural traditions",
+                    "phonetic": "bprà-pee-nii wát-thá-na-tham",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เช่น",
+                    "target": "such as",
+                    "phonetic": "chên",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "เทศกาล",
+                    "target": "festivals",
+                    "phonetic": "thêt-sà-kaan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "อาหาร",
+                    "target": "food",
+                    "phonetic": "aa-hăan",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "ฮวนเล่าว่าครอบครัวของเขาฉลองวันแห่งผู้ล่วงลับด้วยแท่นบูชาสีสันสดใส",
+            "target": "Juan described how his family celebrates Day of the Dead with colorful altars.",
+            "phonetic": "huan lâo wâa khrâwp-khrua khǎwng khǎo chà-lɔ̌ɔng wan hɛ̀ng phûu lûang-láp dûai thâen buu-chaa sǐi-sǎn sòt-sǎi",
+            "breakdown": [
+                {
+                    "source": "ฮวน",
+                    "target": "Juan",
+                    "phonetic": "huan",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "เล่าว่า",
+                    "target": "described that",
+                    "phonetic": "lâo wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ครอบครัวของเขา",
+                    "target": "his family",
+                    "phonetic": "khrâwp-khrua khǎwng kháo",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ฉลอง",
+                    "target": "celebrates",
+                    "phonetic": "chà-lɔ̌ɔng",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "วันแห่งผู้ล่วงลับ",
+                    "target": "Day of the Dead",
+                    "phonetic": "wan hɛ̀ng phûu lûang-láp",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ด้วย",
+                    "target": "with",
+                    "phonetic": "dûai",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "แท่นบูชา",
+                    "target": "altars",
+                    "phonetic": "thâen buu-chaa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "สีสันสดใส",
+                    "target": "colorful",
+                    "phonetic": "sǐi-sǎn sòt-sǎi",
+                    "partOfSpeech": "adjective"
+                }
+            ]
+        },
+        {
+            "source": "โซเฟียบอกว่าเธอก็สอนเขาเรื่องประเพณีวันหยุดของประเทศเธอได้เหมือนกัน",
+            "target": "Sofia shared that she could teach him about her country’s holiday traditions too.",
+            "phonetic": "so-fia bɔ̀ɔk wâa thoe gɔ̂ɔ sɔ̌ɔn khǎo rʉ̂ang bprà-pee-nii wan-yùt khǎwng bprà-thêt thoe dâi mʉ̌an gan",
+            "breakdown": [
+                {
+                    "source": "โซเฟีย",
+                    "target": "Sofia",
+                    "phonetic": "so-fia",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "บอกว่า",
+                    "target": "shared that",
+                    "phonetic": "bɔ̀ɔk wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เธอก็",
+                    "target": "she also",
+                    "phonetic": "thoe gɔ̂ɔ",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "สอนเขา",
+                    "target": "teach him",
+                    "phonetic": "sɔ̌ɔn khǎo",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เรื่อง",
+                    "target": "about",
+                    "phonetic": "rʉ̂ang",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ประเพณีวันหยุด",
+                    "target": "holiday traditions",
+                    "phonetic": "bprà-pee-nii wan-yùt",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ของประเทศเธอ",
+                    "target": "of her country",
+                    "phonetic": "khǎwng bprà-thêt thoe",
+                    "partOfSpeech": "prepositional"
+                },
+                {
+                    "source": "ได้",
+                    "target": "could",
+                    "phonetic": "dâi",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "เหมือนกัน",
+                    "target": "too/as well",
+                    "phonetic": "mʉ̌an gan",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "การแลกเปลี่ยนภาษาได้กลายเป็นไฮไลต์ของสัปดาห์ เต็มไปด้วยเสียงหัวเราะและการเรียนรู้",
+            "target": "The language exchange became a highlight of her week, full of laughter and learning.",
+            "phonetic": "gaan lâek-bplìan phaa-sǎa dâi glaai bpen hai-lai khǎwng sàp-daa dtem bpai dûai sǐang hǔa-rɔ́ láe gaan rian-rúu",
+            "breakdown": [
+                {
+                    "source": "การแลกเปลี่ยนภาษา",
+                    "target": "language exchange",
+                    "phonetic": "gaan lâek-bplìan phaa-sǎa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ได้กลายเป็น",
+                    "target": "became",
+                    "phonetic": "dâi glaai bpen",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ไฮไลต์",
+                    "target": "highlight",
+                    "phonetic": "hai-lai",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ของสัปดาห์",
+                    "target": "of the week",
+                    "phonetic": "khǎwng sàp-daa",
+                    "partOfSpeech": "prepositional"
+                },
+                {
+                    "source": "เต็มไปด้วย",
+                    "target": "full of",
+                    "phonetic": "dtem bpai dûai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เสียงหัวเราะ",
+                    "target": "laughter",
+                    "phonetic": "sǐang hǔa-rɔ́",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "การเรียนรู้",
+                    "target": "learning",
+                    "phonetic": "gaan rian-rúu",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "เธอเข้าใจว่าการเรียนภาษา คือการสร้างสายสัมพันธ์กับผู้คน",
+            "target": "She realized that learning a language was also about building connections.",
+            "phonetic": "thoe khâo-jai wâa gaan rian phaa-sǎa khʉʉ gaan sâang sǎai-sǎm-phan gàp phûu-khon",
+            "breakdown": [
+                {
+                    "source": "เธอเข้าใจว่า",
+                    "target": "she realized that",
+                    "phonetic": "thoe khâo-jai wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "การเรียนภาษา",
+                    "target": "learning a language",
+                    "phonetic": "gaan rian phaa-sǎa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "คือ",
+                    "target": "is",
+                    "phonetic": "khʉʉ",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "การสร้าง",
+                    "target": "building",
+                    "phonetic": "gaan sâang",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "สายสัมพันธ์",
+                    "target": "connections",
+                    "phonetic": "sǎai-sǎm-phan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "กับ",
+                    "target": "with",
+                    "phonetic": "gàp",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ผู้คน",
+                    "target": "people",
+                    "phonetic": "phûu-khon",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "โซเฟียหวังว่าเธอกับฮวนจะเป็นเพื่อนกันไปอีกนานหลายปี",
+            "target": "Sofia hoped she and Juan would stay friends for years to come.",
+            "phonetic": "so-fia wǎng wâa thoe gàp huan jà bpen phʉ̂an gan bpai ìik naan lǎai pii",
+            "breakdown": [
+                {
+                    "source": "โซเฟีย",
+                    "target": "Sofia",
+                    "phonetic": "so-fia",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "หวังว่า",
+                    "target": "hoped that",
+                    "phonetic": "wǎng wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เธอกับฮวน",
+                    "target": "she and Juan",
+                    "phonetic": "thoe gàp huan",
+                    "partOfSpeech": "phrase"
+                },
+                {
+                    "source": "จะเป็น",
+                    "target": "would be",
+                    "phonetic": "jà bpen",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "เพื่อนกัน",
+                    "target": "friends",
+                    "phonetic": "phʉ̂an gan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ไปอีก",
+                    "target": "for more",
+                    "phonetic": "bpai ìik",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "นาน",
+                    "target": "long",
+                    "phonetic": "naan",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "หลายปี",
+                    "target": "many years",
+                    "phonetic": "lǎai pii",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        }
+    ],
+    "createdAt": "2025-09-29T23:35:10Z",
+    "updatedAt": "2025-09-29T23:49:10Z",
+    "difficulty": "intermediate",
+    "summary": "การแลกเปลี่ยนภาษาระหว่างโซเฟียและฮวน: ฝึกพูด ฟัง ดูหนัง วัฒนธรรม และมิตรภาพ"
 }

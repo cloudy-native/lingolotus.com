@@ -10,7 +10,7 @@ import {
 import { useLocation } from "@reach/router";
 import { graphql, HeadFC } from "gatsby";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useCallback, useEffect, useMemo, useState } from "react";
 
 import Flashcard from "../components/study/Flashcard";
 import NavigationHeader from "../components/study/NavigationHeader";
@@ -44,23 +44,18 @@ const DeckStudyTemplate: React.FC<DeckStudyTemplateProps> = ({ data }) => {
         "source" | "target"
     >(initialCardFrontLanguage);
 
-    // Initialize study session
-    useEffect(() => {
-        initStudySession();
-    }, [deck.cards]);
-
     // Helper function to shuffle array
-    const shuffleArray = (array: any[]) => {
+    const shuffleArray = useCallback((array: any[]) => {
         const newArray = [...array];
         for (let i = newArray.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
             [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
         }
         return newArray;
-    };
+    }, []);
 
     // Initialize study session
-    const initStudySession = () => {
+    const initStudySession = useCallback(() => {
         let preferences;
 
         try {
@@ -68,7 +63,7 @@ const DeckStudyTemplate: React.FC<DeckStudyTemplateProps> = ({ data }) => {
                 localStorage.getItem("studyPreferences") ||
                     '{"type":"all","order":"default"}',
             );
-        } catch (e) {
+        } catch (_e) {
             preferences = { type: "all", order: "default" };
         }
 
@@ -100,7 +95,12 @@ const DeckStudyTemplate: React.FC<DeckStudyTemplateProps> = ({ data }) => {
         }
 
         setStudyCards(cardsToStudy);
-    };
+    }, [deck.cards, shuffleArray]);
+
+    // Initialize study session on mount
+    useEffect(() => {
+        initStudySession();
+    }, [initStudySession]);
 
     // Generate unique IDs for cards based on their index
     const cardIds = useMemo(
@@ -161,7 +161,7 @@ const DeckStudyTemplate: React.FC<DeckStudyTemplateProps> = ({ data }) => {
     const currentCard = studyCards[cardIndex];
 
     // Calculate progress (avoid division by zero)
-    const progressValue: number =
+    const _progressValue: number =
         studyCards.length > 0 ? ((cardIndex + 1) / studyCards.length) * 100 : 0;
 
     return (

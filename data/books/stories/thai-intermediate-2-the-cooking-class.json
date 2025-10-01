@@ -1,247 +1,707 @@
 {
-  "storyId": "thai-intermediate-2-the-cooking-class",
-  "bookId": "thai-intermediate-2",
-  "language": "th",
-  "title": {
-    "source": "ชั้นเรียนทำอาหาร",
-    "target": "The Cooking Class"
-  },
-  "sentences": [
-    {
-      "source": "แอนนาอยากเรียนรู้การทำอาหารอิตาเลียนแท้มาตลอด",
-      "target": "Anna had always wanted to learn how to cook authentic Italian dishes.",
-      "phonetic": "aen-naa yàak rian-rúu gaan tham aa-hăan ìt-dtaa-lian thɛ́ɛ maa dta-lɔ̀ɔt",
-      "breakdown": [
-        { "source": "แอนนาอยาก", "target": "Anna wanted", "phonetic": "aen-naa yàak", "partOfSpeech": "verb" },
-        { "source": "เรียนรู้", "target": "to learn", "phonetic": "rian-rúu", "partOfSpeech": "verb" },
-        { "source": "การทำอาหาร", "target": "how to cook", "phonetic": "gaan tham aa-hăan", "partOfSpeech": "noun" },
-        { "source": "อิตาเลียนแท้", "target": "authentic Italian", "phonetic": "ìt-dtaa-lian thɛ́ɛ", "partOfSpeech": "adjective" },
-        { "source": "มาตลอด", "target": "always", "phonetic": "maa dta-lɔ̀ɔt", "partOfSpeech": "adverb" }
-      ]
+    "storyId": "thai-intermediate-2-the-cooking-class",
+    "bookId": "thai-intermediate-2",
+    "language": "th",
+    "title": {
+        "source": "ชั้นเรียนทำอาหาร",
+        "target": "The Cooking Class"
     },
-    {
-      "source": "เธอลงทะเบียนเรียนชั้นเรียนทำอาหาร โดยเชื่อว่าจะทั้งสนุกและให้ความรู้",
-      "target": "She enrolled in a cooking class, believing it would be both fun and educational.",
-      "phonetic": "thoe long-tha-bii-an rian chán-rian tham aa-hăan doi chʉ̂a wâa jà tháng sà-nùk láe hâi khwaam-rúu",
-      "breakdown": [
-        { "source": "เธอลงทะเบียนเรียน", "target": "she enrolled in", "phonetic": "thoe long-tha-bii-an rian", "partOfSpeech": "verb" },
-        { "source": "ชั้นเรียนทำอาหาร", "target": "a cooking class", "phonetic": "chán-rian tham aa-hăan", "partOfSpeech": "noun" },
-        { "source": "โดยเชื่อว่า", "target": "believing that", "phonetic": "doi chʉ̂a wâa", "partOfSpeech": "conjunction" },
-        { "source": "จะทั้งสนุก", "target": "would be fun", "phonetic": "jà tháng sà-nùk", "partOfSpeech": "verb" },
-        { "source": "และให้ความรู้", "target": "and educational", "phonetic": "láe hâi khwaam-rúu", "partOfSpeech": "conjunction" }
-      ]
-    },
-    {
-      "source": "ผู้สอนของเธอ เชฟมาร์โก ยืนยันว่าทุกคนควรฝึกหั่นผักให้ถูกวิธี",
-      "target": "Her instructor, Chef Marco, insisted that everyone should practice chopping vegetables properly.",
-      "phonetic": "phûu-sɔ̌ɔn khǎwng thoe chéf maa-gòo yʉʉn-yan wâa thúk khon khuan fʉ̀k hàn phàk hâi thùuk wí-thii",
-      "breakdown": [
-        { "source": "ผู้สอนของเธอ", "target": "her instructor", "phonetic": "phûu-sɔ̌ɔn khǎwng thoe", "partOfSpeech": "noun" },
-        { "source": "เชฟมาร์โก", "target": "Chef Marco", "phonetic": "chéf maa-gòo", "partOfSpeech": "proper_noun" },
-        { "source": "ยืนยันว่า", "target": "insisted that", "phonetic": "yʉʉn-yan wâa", "partOfSpeech": "verb" },
-        { "source": "ทุกคนควรฝึก", "target": "everyone should practice", "phonetic": "thúk khon khuan fʉ̀k", "partOfSpeech": "verb" },
-        { "source": "หั่นผัก", "target": "chopping vegetables", "phonetic": "hàn phàk", "partOfSpeech": "verb" },
-        { "source": "ให้ถูกวิธี", "target": "properly", "phonetic": "hâi thùuk wí-thii", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "ช่วงแรกแอนนาตื่นเต้น แต่เธอก็สนุกกับการหั่นมะเขือเทศอย่างประณีต",
-      "target": "Anna was nervous at first, but she enjoyed slicing tomatoes with precision.",
-      "phonetic": "chûang rɛ̂ɛk aen-naa tʉ̀ʉn-dtên dtàe thoe gɔ̂ɔ sà-nùk gàp gaan hàn má-kʰʉ̌a-thêt yàang bprà-nîit",
-      "breakdown": [
-        { "source": "ช่วงแรก", "target": "at first", "phonetic": "chûang rɛ̂ɛk", "partOfSpeech": "adverb" },
-        { "source": "แอนนาตื่นเต้น", "target": "Anna was nervous", "phonetic": "aen-naa tʉ̀ʉn-dtên", "partOfSpeech": "verb" },
-        { "source": "แต่เธอก็สนุกกับ", "target": "but she enjoyed", "phonetic": "dtàe thoe gɔ̂ɔ sà-nùk gàp", "partOfSpeech": "conjunction" },
-        { "source": "การหั่นมะเขือเทศ", "target": "slicing tomatoes", "phonetic": "gaan hàn má-kʰʉ̌a-thêt", "partOfSpeech": "noun" },
-        { "source": "อย่างประณีต", "target": "with precision", "phonetic": "yàang bprà-nîit", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "ถ้าเธอไม่มาเรียน เธอคงไม่ค้นพบว่าตัวเองรักการทำอาหาร",
-      "target": "If she hadn’t joined the class, she wouldn’t have discovered her love for cooking.",
-      "phonetic": "thâa thoe mâi maa rian thoe khong mâi khón-phóp wâa tua-eng rák gaan tham aa-hăan",
-      "breakdown": [
-        { "source": "ถ้าเธอไม่มาเรียน", "target": "if she hadn't joined the class", "phonetic": "thâa thoe mâi maa rian", "partOfSpeech": "conditional" },
-        { "source": "เธอคงไม่ค้นพบว่า", "target": "she wouldn't have discovered that", "phonetic": "thoe khong mâi khón-phóp wâa", "partOfSpeech": "verb" },
-        { "source": "ตัวเองรัก", "target": "she loved", "phonetic": "tua-eng rák", "partOfSpeech": "verb" },
-        { "source": "การทำอาหาร", "target": "cooking", "phonetic": "gaan tham aa-hăan", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "ชั้นเรียนเริ่มจากบทเรียนการทำพาสต้าสด ซึ่งฟังดูท้าทาย",
-      "target": "The class began with a lesson on making fresh pasta, which sounded challenging.",
-      "phonetic": "chán-rian rœ̂œm jàak bòt-rian gaan tham pâas-dtâa sòt sʉ̂ng fang duu tháa-thaai",
-      "breakdown": [
-        { "source": "ชั้นเรียนเริ่มจาก", "target": "the class began with", "phonetic": "chán-rian rœ̂œm jàak", "partOfSpeech": "verb" },
-        { "source": "บทเรียน", "target": "a lesson", "phonetic": "bòt-rian", "partOfSpeech": "noun" },
-        { "source": "การทำพาสต้าสด", "target": "on making fresh pasta", "phonetic": "gaan tham pâas-dtâa sòt", "partOfSpeech": "noun" },
-        { "source": "ซึ่งฟังดู", "target": "which sounded", "phonetic": "sʉ̂ng fang duu", "partOfSpeech": "verb" },
-        { "source": "ท้าทาย", "target": "challenging", "phonetic": "tháa-thaai", "partOfSpeech": "adjective" }
-      ]
-    },
-    {
-      "source": "การผสมแป้งกับไข่เลอะเทอะกว่าที่เธอคิด แต่เธอก็พยายามต่อ",
-      "target": "Mixing flour and eggs was messier than she had expected, but she kept trying.",
-      "phonetic": "gaan phà-som pɛ̂ɛng gàp khài lə́-thə́ gwàa thîi thoe khít dtàe thoe gɔ̂ɔ phá-yaa-yaam tɔ̀ɔ",
-      "breakdown": [
-        { "source": "การผสมแป้งกับไข่", "target": "mixing flour and eggs", "phonetic": "gaan phà-som pɛ̂ɛng gàp khài", "partOfSpeech": "noun" },
-        { "source": "เลอะเทอะ", "target": "was messier", "phonetic": "lə́-thə́", "partOfSpeech": "adjective" },
-        { "source": "กว่าที่เธอคิด", "target": "than she had expected", "phonetic": "gwàa thîi thoe khít", "partOfSpeech": "clause" },
-        { "source": "แต่เธอก็พยายามต่อ", "target": "but she kept trying", "phonetic": "dtàe thoe gɔ̂ɔ phá-yaa-yaam tɔ̀ɔ", "partOfSpeech": "conjunction" }
-      ]
-    },
-    {
-      "source": "เชฟมาร์โกอธิบายว่าความอดทนเป็นสิ่งจำเป็นในการฝึกทักษะการทำอาหาร",
-      "target": "Chef Marco explained that patience was essential for mastering culinary skills.",
-      "phonetic": "chéf maa-gòo à-thí-baai wâa khwaam òt-thon bpen sìng jam-pen nai gaan fʉ̀k thák-sà gaan tham aa-hăan",
-      "breakdown": [
-        { "source": "เชฟมาร์โกอธิบายว่า", "target": "Chef Marco explained that", "phonetic": "chéf maa-gòo à-thí-baai wâa", "partOfSpeech": "verb" },
-        { "source": "ความอดทน", "target": "patience", "phonetic": "khwaam òt-thon", "partOfSpeech": "noun" },
-        { "source": "เป็นสิ่งจำเป็น", "target": "was essential", "phonetic": "bpen sìng jam-pen", "partOfSpeech": "verb" },
-        { "source": "ในการฝึกทักษะ", "target": "for mastering skills", "phonetic": "nai gaan fʉ̀k thák-sà", "partOfSpeech": "preposition" },
-        { "source": "การทำอาหาร", "target": "culinary", "phonetic": "gaan tham aa-hăan", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "แอนนาอาจถอดใจ แต่เธออยากทำอาหารเองเพื่อทำให้ครอบครัวประทับใจ",
-      "target": "Anna could have given up, but she wanted to impress her family with a homemade meal.",
-      "phonetic": "aen-naa àat thɔ̀ɔt-jai dtàe thoe yàak tham aa-hăan eng phʉ̂a tham hâi khrâwp-khrua bprà-tháp-jai",
-      "breakdown": [
-        { "source": "แอนนาอาจถอดใจ", "target": "Anna could have given up", "phonetic": "aen-naa àat thɔ̀ɔt-jai", "partOfSpeech": "verb" },
-        { "source": "แต่เธออยาก", "target": "but she wanted", "phonetic": "dtàe thoe yàak", "partOfSpeech": "conjunction" },
-        { "source": "ทำอาหารเอง", "target": "to cook herself", "phonetic": "tham aa-hăan eng", "partOfSpeech": "verb" },
-        { "source": "เพื่อทำให้ครอบครัว", "target": "to make her family", "phonetic": "phʉ̂a tham hâi khrâwp-khrua", "partOfSpeech": "preposition" },
-        { "source": "ประทับใจ", "target": "impressed", "phonetic": "bprà-tháp-jai", "partOfSpeech": "verb" }
-      ]
-    },
-    {
-      "source": "เมื่อจบบทเรียน แป้งพาสต้าของเธอนุ่มเนียนและพร้อมขึ้นรูป",
-      "target": "By the end of the session, her pasta dough was smooth and ready to be shaped.",
-      "phonetic": "mʉ̂a jòp bòt-rian pɛ̂ɛng pâas-dtâa khǎwng thoe nûm niian láe phróom khʉ̂n rûup",
-      "breakdown": [
-        { "source": "เมื่อจบบทเรียน", "target": "by the end of the session", "phonetic": "mʉ̂a jòp bòt-rian", "partOfSpeech": "conjunction" },
-        { "source": "แป้งพาสต้าของเธอ", "target": "her pasta dough", "phonetic": "pɛ̂ɛng pâas-dtâa khǎwng thoe", "partOfSpeech": "noun" },
-        { "source": "นุ่มเนียน", "target": "was smooth", "phonetic": "nûm niian", "partOfSpeech": "adjective" },
-        { "source": "และพร้อมขึ้นรูป", "target": "and ready to be shaped", "phonetic": "láe phróom khʉ̂n rûup", "partOfSpeech": "conjunction" }
-      ]
-    },
-    {
-      "source": "เธอจับคู่กับนักเรียนอีกคน ซึ่งเสนอให้ใส่สมุนไพรลงในซอส",
-      "target": "She teamed up with another student, who suggested adding herbs to the sauce.",
-      "phonetic": "thoe jàp khûu gàp nák-rian ìik khon sʉ̂ng sà-nǒe hâi sài sà-mǔn-phrai long nai sɔ́ɔt",
-      "breakdown": [
-        { "source": "เธอจับคู่กับ", "target": "she teamed up with", "phonetic": "thoe jàp khûu gàp", "partOfSpeech": "verb" },
-        { "source": "นักเรียนอีกคน", "target": "another student", "phonetic": "nák-rian ìik khon", "partOfSpeech": "noun" },
-        { "source": "ซึ่งเสนอให้", "target": "who suggested", "phonetic": "sʉ̂ng sà-nǒe hâi", "partOfSpeech": "verb" },
-        { "source": "ใส่สมุนไพร", "target": "adding herbs", "phonetic": "sài sà-mǔn-phrai", "partOfSpeech": "verb" },
-        { "source": "ลงในซอส", "target": "to the sauce", "phonetic": "long nai sɔ́ɔt", "partOfSpeech": "preposition" }
-      ]
-    },
-    {
-      "source": "การทำอาหารร่วมกับคนอื่น แอนนารู้สึกว่าเป็นประสบการณ์ที่สนุกยิ่งขึ้น",
-      "target": "Cooking with others, Anna realized, made the experience even more enjoyable.",
-      "phonetic": "gaan tham aa-hăan rûam gàp khon ʉ̀ʉn aen-naa rúu-sʉ̀k wâa bpen bprà-sòp-gaan thîi sà-nùk yîng khʉ̂n",
-      "breakdown": [
-        { "source": "การทำอาหารร่วมกับคนอื่น", "target": "cooking with others", "phonetic": "gaan tham aa-hăan rûam gàp khon ʉ̀ʉn", "partOfSpeech": "noun" },
-        { "source": "แอนนารู้สึกว่า", "target": "Anna realized", "phonetic": "aen-naa rúu-sʉ̀k wâa", "partOfSpeech": "verb" },
-        { "source": "เป็นประสบการณ์", "target": "made the experience", "phonetic": "bpen bprà-sòp-gaan", "partOfSpeech": "verb" },
-        { "source": "ที่สนุกยิ่งขึ้น", "target": "even more enjoyable", "phonetic": "thîi sà-nùk yîng khʉ̂n", "partOfSpeech": "adjective" }
-      ]
-    },
-    {
-      "source": "ทุกคนชิมอาหารของตนร่วมกัน และต่างก็ชมผลงานของกันและกัน",
-      "target": "The class tasted their dishes together, praising each other’s efforts.",
-      "phonetic": "thúk khon chim aa-hăan khǎwng ton rûam gan láe tàang gɔ̂ɔ chom phǒn-ngaan khǎwng gan-láe-gan",
-      "breakdown": [
-        { "source": "ทุกคนชิมอาหาร", "target": "the class tasted their dishes", "phonetic": "thúk khon chim aa-hăan", "partOfSpeech": "verb" },
-        { "source": "ของตนร่วมกัน", "target": "together", "phonetic": "khǎwng ton rûam gan", "partOfSpeech": "adverb" },
-        { "source": "และต่างก็ชม", "target": "and praising", "phonetic": "láe tàang gɔ̂ɔ chom", "partOfSpeech": "conjunction" },
-        { "source": "ผลงานของกันและกัน", "target": "each other's efforts", "phonetic": "phǒn-ngaan khǎwng gan-láe-gan", "partOfSpeech": "noun" }
-      ]
-    },
-    {
-      "source": "พาสต้าของแอนนาประสบความสำเร็จ แม้ว่าเธอคิดว่าน่าจะเค็มน้อยกว่านี้",
-      "target": "Anna’s pasta was a success, though she thought it could have been less salty.",
-      "phonetic": "pâas-dtâa khǎwng aen-naa bprà-sòp khwaam sǎm-rèt mā́e wâa thoe khít wâa nâa jà khem nɔ́ɔi gwàa níi",
-      "breakdown": [
-        { "source": "พาสต้าของแอนนา", "target": "Anna's pasta", "phonetic": "pâas-dtâa khǎwng aen-naa", "partOfSpeech": "noun" },
-        { "source": "ประสบความสำเร็จ", "target": "was a success", "phonetic": "bprà-sòp khwaam sǎm-rèt", "partOfSpeech": "verb" },
-        { "source": "แม้ว่าเธอคิดว่า", "target": "though she thought", "phonetic": "mā́e wâa thoe khít wâa", "partOfSpeech": "conjunction" },
-        { "source": "น่าจะเค็มน้อยกว่านี้", "target": "it could have been less salty", "phonetic": "nâa jà khem nɔ́ɔi gwàa níi", "partOfSpeech": "clause" }
-      ]
-    },
-    {
-      "source": "เชฟมาร์โกให้กำลังใจเธอให้ฝึกต่อไป โดยบอกว่าเธอมีศักยภาพที่ดี",
-      "target": "Chef Marco encouraged her to keep practicing, saying she had great potential.",
-      "phonetic": "chéf maa-gòo hâi gam-lang-jai thoe hâi fʉ̀k tɔ̀ɔ-bpai doi bɔ̀ɔk wâa thoe mii sàk-ga-ya-phaâp thîi dii",
-      "breakdown": [
-        { "source": "เชฟมาร์โกให้กำลังใจเธอ", "target": "Chef Marco encouraged her", "phonetic": "chéf maa-gòo hâi gam-lang-jai thoe", "partOfSpeech": "verb" },
-        { "source": "ให้ฝึกต่อไป", "target": "to keep practicing", "phonetic": "hâi fʉ̀k tɔ̀ɔ-bpai", "partOfSpeech": "verb" },
-        { "source": "โดยบอกว่า", "target": "saying that", "phonetic": "doi bɔ̀ɔk wâa", "partOfSpeech": "conjunction" },
-        { "source": "เธอมีศักยภาพที่ดี", "target": "she had great potential", "phonetic": "thoe mii sàk-ga-ya-phaâp thîi dii", "partOfSpeech": "clause" }
-      ]
-    },
-    {
-      "source": "ถ้าเธอเรียนรู้อย่างต่อเนื่อง เธออาจเปิดคาเฟ่ของตัวเองได้สักวันหนึ่ง",
-      "target": "If she continues to learn, she might open her own café someday.",
-      "phonetic": "thâa thoe rian-rúu yàang tɔ̀ɔ-nʉ̂ang thoe àat bpə̀ət kaa-fê khǎwng tua-eng dâi sák wan nʉ̀ng",
-      "breakdown": [
-        { "source": "ถ้าเธอเรียนรู้อย่างต่อเนื่อง", "target": "if she continues to learn", "phonetic": "thâa thoe rian-rúu yàang tɔ̀ɔ-nʉ̂ang", "partOfSpeech": "conditional" },
-        { "source": "เธออาจเปิด", "target": "she might open", "phonetic": "thoe àat bpə̀ət", "partOfSpeech": "verb" },
-        { "source": "คาเฟ่ของตัวเอง", "target": "her own café", "phonetic": "kaa-fê khǎwng tua-eng", "partOfSpeech": "noun" },
-        { "source": "ได้สักวันหนึ่ง", "target": "someday", "phonetic": "dâi sák wan nʉ̀ng", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "แอนนาออกจากชั้นเรียนด้วยความภาคภูมิใจ และตื่นเต้นที่จะลองทำเมนูใหม่ที่บ้าน",
-      "target": "Anna left the class feeling proud and eager to try new recipes at home.",
-      "phonetic": "aen-naa òrk jàak chán-rian dûai khwaam phâak-phuum-jai láe tʉ̀ʉn-dtên thîi jà long tham mee-nuu mài thîi bâan",
-      "breakdown": [
-        { "source": "แอนนาออกจากชั้นเรียน", "target": "Anna left the class", "phonetic": "aen-naa òrk jàak chán-rian", "partOfSpeech": "verb" },
-        { "source": "ด้วยความภาคภูมิใจ", "target": "feeling proud", "phonetic": "dûai khwaam phâak-phuum-jai", "partOfSpeech": "adverb" },
-        { "source": "และตื่นเต้น", "target": "and eager", "phonetic": "láe tʉ̀ʉn-dtên", "partOfSpeech": "conjunction" },
-        { "source": "ที่จะลองทำเมนูใหม่", "target": "to try new recipes", "phonetic": "thîi jà long tham mee-nuu mài", "partOfSpeech": "clause" },
-        { "source": "ที่บ้าน", "target": "at home", "phonetic": "thîi bâan", "partOfSpeech": "preposition" }
-      ]
-    },
-    {
-      "source": "เธอซื้อหนังสือทำอาหารเพื่อสานต่อเส้นทางการทำอาหารด้วยตัวเอง",
-      "target": "She bought a cookbook to continue her culinary journey on her own.",
-      "phonetic": "thoe súe năng-sʉ̌ʉ tham aa-hăan phʉ̂a săan-tɔ̀ɔ sên-thaang gaan tham aa-hăan dûai tua-eng",
-      "breakdown": [
-        { "source": "เธอซื้อหนังสือทำอาหาร", "target": "she bought a cookbook", "phonetic": "thoe súe năng-sʉ̌ʉ tham aa-hăan", "partOfSpeech": "verb" },
-        { "source": "เพื่อสานต่อ", "target": "to continue", "phonetic": "phʉ̂a săan-tɔ̀ɔ", "partOfSpeech": "verb" },
-        { "source": "เส้นทางการทำอาหาร", "target": "her culinary journey", "phonetic": "sên-thaang gaan tham aa-hăan", "partOfSpeech": "noun" },
-        { "source": "ด้วยตัวเอง", "target": "on her own", "phonetic": "dûai tua-eng", "partOfSpeech": "adverb" }
-      ]
-    },
-    {
-      "source": "เธอค้นพบว่าการทำอาหารเป็นวิธีหนึ่งในการแสดงความคิดสร้างสรรค์และแบ่งปันความรัก",
-      "target": "Cooking, she discovered, was a way to express creativity and share love.",
-      "phonetic": "thoe khón-phóp wâa gaan tham aa-hăan bpen wí-thii nʉ̀ng nai gaan sà-dɛɛng khwaam-khít sâang-san láe bàeng-bpan khwaam-rák",
-      "breakdown": [
-        { "source": "เธอค้นพบว่า", "target": "she discovered that", "phonetic": "thoe khón-phóp wâa", "partOfSpeech": "verb" },
-        { "source": "การทำอาหาร", "target": "cooking", "phonetic": "gaan tham aa-hăan", "partOfSpeech": "noun" },
-        { "source": "เป็นวิธีหนึ่ง", "target": "was a way", "phonetic": "bpen wí-thii nʉ̀ng", "partOfSpeech": "verb" },
-        { "source": "ในการแสดงความคิดสร้างสรรค์", "target": "to express creativity", "phonetic": "nai gaan sà-dɛɛng khwaam-khít sâang-san", "partOfSpeech": "preposition" },
-        { "source": "และแบ่งปันความรัก", "target": "and share love", "phonetic": "láe bàeng-bpan khwaam-rák", "partOfSpeech": "conjunction" }
-      ]
-    },
-    {
-      "source": "เธอแทบรอไม่ไหวที่จะเชิญเพื่อนๆ มาทานอาหารอิตาเลียนฝีมือเธอที่บ้าน",
-      "target": "She couldn’t wait to invite her friends for a homemade Italian dinner.",
-      "phonetic": "thoe thɛ̀ɛp rɔɔ mâi wǎi thîi jà choeen phʉ̂an-phʉ̂an maa thaan aa-hăan ìt-dtaa-lian fǐi-mʉʉ thoe thîi bâan",
-      "breakdown": [
-        { "source": "เธอแทบรอไม่ไหว", "target": "she couldn't wait", "phonetic": "thoe thɛ̀ɛp rɔɔ mâi wǎi", "partOfSpeech": "verb" },
-        { "source": "ที่จะเชิญเพื่อนๆ", "target": "to invite her friends", "phonetic": "thîi jà choeen phʉ̂an-phʉ̂an", "partOfSpeech": "clause" },
-        { "source": "มาทานอาหารอิตาเลียน", "target": "for Italian dinner", "phonetic": "maa thaan aa-hăan ìt-dtaa-lian", "partOfSpeech": "verb" },
-        { "source": "ฝีมือเธอ", "target": "homemade", "phonetic": "fǐi-mʉʉ thoe", "partOfSpeech": "noun" },
-        { "source": "ที่บ้าน", "target": "at home", "phonetic": "thîi bâan", "partOfSpeech": "preposition" }
-      ]
-    }
-  ],
-  "createdAt": "2025-09-29T23:25:10Z",
-  "updatedAt": "2025-09-29T23:27:10Z",
-  "difficulty": "intermediate",
-  "summary": "ชั้นเรียนทำอาหารที่แอนนาเริ่มต้นด้วยความตื่นเต้น ฝึกทำพาสต้าสด เรียนรู้ทักษะ ความอดทน การทำงานร่วมกัน และค้นพบความรักในการทำอาหาร"
+    "sentences": [
+        {
+            "source": "แอนนาอยากเรียนรู้การทำอาหารอิตาเลียนแท้มาตลอด",
+            "target": "Anna had always wanted to learn how to cook authentic Italian dishes.",
+            "phonetic": "aen-naa yàak rian-rúu gaan tham aa-hăan ìt-dtaa-lian thɛ́ɛ maa dta-lɔ̀ɔt",
+            "breakdown": [
+                {
+                    "source": "แอนนาอยาก",
+                    "target": "Anna wanted",
+                    "phonetic": "aen-naa yàak",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เรียนรู้",
+                    "target": "to learn",
+                    "phonetic": "rian-rúu",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "การทำอาหาร",
+                    "target": "how to cook",
+                    "phonetic": "gaan tham aa-hăan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "อิตาเลียนแท้",
+                    "target": "authentic Italian",
+                    "phonetic": "ìt-dtaa-lian thɛ́ɛ",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "มาตลอด",
+                    "target": "always",
+                    "phonetic": "maa dta-lɔ̀ɔt",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "เธอลงทะเบียนเรียนชั้นเรียนทำอาหาร โดยเชื่อว่าจะทั้งสนุกและให้ความรู้",
+            "target": "She enrolled in a cooking class, believing it would be both fun and educational.",
+            "phonetic": "thoe long-tha-bii-an rian chán-rian tham aa-hăan doi chʉ̂a wâa jà tháng sà-nùk láe hâi khwaam-rúu",
+            "breakdown": [
+                {
+                    "source": "เธอลงทะเบียนเรียน",
+                    "target": "she enrolled in",
+                    "phonetic": "thoe long-tha-bii-an rian",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ชั้นเรียนทำอาหาร",
+                    "target": "a cooking class",
+                    "phonetic": "chán-rian tham aa-hăan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "โดยเชื่อว่า",
+                    "target": "believing that",
+                    "phonetic": "doi chʉ̂a wâa",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "จะทั้งสนุก",
+                    "target": "would be fun",
+                    "phonetic": "jà tháng sà-nùk",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "และให้ความรู้",
+                    "target": "and educational",
+                    "phonetic": "láe hâi khwaam-rúu",
+                    "partOfSpeech": "conjunction"
+                }
+            ]
+        },
+        {
+            "source": "ผู้สอนของเธอ เชฟมาร์โก ยืนยันว่าทุกคนควรฝึกหั่นผักให้ถูกวิธี",
+            "target": "Her instructor, Chef Marco, insisted that everyone should practice chopping vegetables properly.",
+            "phonetic": "phûu-sɔ̌ɔn khǎwng thoe chéf maa-gòo yʉʉn-yan wâa thúk khon khuan fʉ̀k hàn phàk hâi thùuk wí-thii",
+            "breakdown": [
+                {
+                    "source": "ผู้สอนของเธอ",
+                    "target": "her instructor",
+                    "phonetic": "phûu-sɔ̌ɔn khǎwng thoe",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เชฟมาร์โก",
+                    "target": "Chef Marco",
+                    "phonetic": "chéf maa-gòo",
+                    "partOfSpeech": "proper_noun"
+                },
+                {
+                    "source": "ยืนยันว่า",
+                    "target": "insisted that",
+                    "phonetic": "yʉʉn-yan wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ทุกคนควรฝึก",
+                    "target": "everyone should practice",
+                    "phonetic": "thúk khon khuan fʉ̀k",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "หั่นผัก",
+                    "target": "chopping vegetables",
+                    "phonetic": "hàn phàk",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ให้ถูกวิธี",
+                    "target": "properly",
+                    "phonetic": "hâi thùuk wí-thii",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "ช่วงแรกแอนนาตื่นเต้น แต่เธอก็สนุกกับการหั่นมะเขือเทศอย่างประณีต",
+            "target": "Anna was nervous at first, but she enjoyed slicing tomatoes with precision.",
+            "phonetic": "chûang rɛ̂ɛk aen-naa tʉ̀ʉn-dtên dtàe thoe gɔ̂ɔ sà-nùk gàp gaan hàn má-kʰʉ̌a-thêt yàang bprà-nîit",
+            "breakdown": [
+                {
+                    "source": "ช่วงแรก",
+                    "target": "at first",
+                    "phonetic": "chûang rɛ̂ɛk",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "แอนนาตื่นเต้น",
+                    "target": "Anna was nervous",
+                    "phonetic": "aen-naa tʉ̀ʉn-dtên",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "แต่เธอก็สนุกกับ",
+                    "target": "but she enjoyed",
+                    "phonetic": "dtàe thoe gɔ̂ɔ sà-nùk gàp",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "การหั่นมะเขือเทศ",
+                    "target": "slicing tomatoes",
+                    "phonetic": "gaan hàn má-kʰʉ̌a-thêt",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "อย่างประณีต",
+                    "target": "with precision",
+                    "phonetic": "yàang bprà-nîit",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "ถ้าเธอไม่มาเรียน เธอคงไม่ค้นพบว่าตัวเองรักการทำอาหาร",
+            "target": "If she hadn’t joined the class, she wouldn’t have discovered her love for cooking.",
+            "phonetic": "thâa thoe mâi maa rian thoe khong mâi khón-phóp wâa tua-eng rák gaan tham aa-hăan",
+            "breakdown": [
+                {
+                    "source": "ถ้าเธอไม่มาเรียน",
+                    "target": "if she hadn't joined the class",
+                    "phonetic": "thâa thoe mâi maa rian",
+                    "partOfSpeech": "conditional"
+                },
+                {
+                    "source": "เธอคงไม่ค้นพบว่า",
+                    "target": "she wouldn't have discovered that",
+                    "phonetic": "thoe khong mâi khón-phóp wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ตัวเองรัก",
+                    "target": "she loved",
+                    "phonetic": "tua-eng rák",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "การทำอาหาร",
+                    "target": "cooking",
+                    "phonetic": "gaan tham aa-hăan",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "ชั้นเรียนเริ่มจากบทเรียนการทำพาสต้าสด ซึ่งฟังดูท้าทาย",
+            "target": "The class began with a lesson on making fresh pasta, which sounded challenging.",
+            "phonetic": "chán-rian rœ̂œm jàak bòt-rian gaan tham pâas-dtâa sòt sʉ̂ng fang duu tháa-thaai",
+            "breakdown": [
+                {
+                    "source": "ชั้นเรียนเริ่มจาก",
+                    "target": "the class began with",
+                    "phonetic": "chán-rian rœ̂œm jàak",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "บทเรียน",
+                    "target": "a lesson",
+                    "phonetic": "bòt-rian",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "การทำพาสต้าสด",
+                    "target": "on making fresh pasta",
+                    "phonetic": "gaan tham pâas-dtâa sòt",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ซึ่งฟังดู",
+                    "target": "which sounded",
+                    "phonetic": "sʉ̂ng fang duu",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ท้าทาย",
+                    "target": "challenging",
+                    "phonetic": "tháa-thaai",
+                    "partOfSpeech": "adjective"
+                }
+            ]
+        },
+        {
+            "source": "การผสมแป้งกับไข่เลอะเทอะกว่าที่เธอคิด แต่เธอก็พยายามต่อ",
+            "target": "Mixing flour and eggs was messier than she had expected, but she kept trying.",
+            "phonetic": "gaan phà-som pɛ̂ɛng gàp khài lə́-thə́ gwàa thîi thoe khít dtàe thoe gɔ̂ɔ phá-yaa-yaam tɔ̀ɔ",
+            "breakdown": [
+                {
+                    "source": "การผสมแป้งกับไข่",
+                    "target": "mixing flour and eggs",
+                    "phonetic": "gaan phà-som pɛ̂ɛng gàp khài",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เลอะเทอะ",
+                    "target": "was messier",
+                    "phonetic": "lə́-thə́",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "กว่าที่เธอคิด",
+                    "target": "than she had expected",
+                    "phonetic": "gwàa thîi thoe khít",
+                    "partOfSpeech": "clause"
+                },
+                {
+                    "source": "แต่เธอก็พยายามต่อ",
+                    "target": "but she kept trying",
+                    "phonetic": "dtàe thoe gɔ̂ɔ phá-yaa-yaam tɔ̀ɔ",
+                    "partOfSpeech": "conjunction"
+                }
+            ]
+        },
+        {
+            "source": "เชฟมาร์โกอธิบายว่าความอดทนเป็นสิ่งจำเป็นในการฝึกทักษะการทำอาหาร",
+            "target": "Chef Marco explained that patience was essential for mastering culinary skills.",
+            "phonetic": "chéf maa-gòo à-thí-baai wâa khwaam òt-thon bpen sìng jam-pen nai gaan fʉ̀k thák-sà gaan tham aa-hăan",
+            "breakdown": [
+                {
+                    "source": "เชฟมาร์โกอธิบายว่า",
+                    "target": "Chef Marco explained that",
+                    "phonetic": "chéf maa-gòo à-thí-baai wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ความอดทน",
+                    "target": "patience",
+                    "phonetic": "khwaam òt-thon",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เป็นสิ่งจำเป็น",
+                    "target": "was essential",
+                    "phonetic": "bpen sìng jam-pen",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ในการฝึกทักษะ",
+                    "target": "for mastering skills",
+                    "phonetic": "nai gaan fʉ̀k thák-sà",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "การทำอาหาร",
+                    "target": "culinary",
+                    "phonetic": "gaan tham aa-hăan",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "แอนนาอาจถอดใจ แต่เธออยากทำอาหารเองเพื่อทำให้ครอบครัวประทับใจ",
+            "target": "Anna could have given up, but she wanted to impress her family with a homemade meal.",
+            "phonetic": "aen-naa àat thɔ̀ɔt-jai dtàe thoe yàak tham aa-hăan eng phʉ̂a tham hâi khrâwp-khrua bprà-tháp-jai",
+            "breakdown": [
+                {
+                    "source": "แอนนาอาจถอดใจ",
+                    "target": "Anna could have given up",
+                    "phonetic": "aen-naa àat thɔ̀ɔt-jai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "แต่เธออยาก",
+                    "target": "but she wanted",
+                    "phonetic": "dtàe thoe yàak",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ทำอาหารเอง",
+                    "target": "to cook herself",
+                    "phonetic": "tham aa-hăan eng",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เพื่อทำให้ครอบครัว",
+                    "target": "to make her family",
+                    "phonetic": "phʉ̂a tham hâi khrâwp-khrua",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ประทับใจ",
+                    "target": "impressed",
+                    "phonetic": "bprà-tháp-jai",
+                    "partOfSpeech": "verb"
+                }
+            ]
+        },
+        {
+            "source": "เมื่อจบบทเรียน แป้งพาสต้าของเธอนุ่มเนียนและพร้อมขึ้นรูป",
+            "target": "By the end of the session, her pasta dough was smooth and ready to be shaped.",
+            "phonetic": "mʉ̂a jòp bòt-rian pɛ̂ɛng pâas-dtâa khǎwng thoe nûm niian láe phróom khʉ̂n rûup",
+            "breakdown": [
+                {
+                    "source": "เมื่อจบบทเรียน",
+                    "target": "by the end of the session",
+                    "phonetic": "mʉ̂a jòp bòt-rian",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "แป้งพาสต้าของเธอ",
+                    "target": "her pasta dough",
+                    "phonetic": "pɛ̂ɛng pâas-dtâa khǎwng thoe",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "นุ่มเนียน",
+                    "target": "was smooth",
+                    "phonetic": "nûm niian",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "และพร้อมขึ้นรูป",
+                    "target": "and ready to be shaped",
+                    "phonetic": "láe phróom khʉ̂n rûup",
+                    "partOfSpeech": "conjunction"
+                }
+            ]
+        },
+        {
+            "source": "เธอจับคู่กับนักเรียนอีกคน ซึ่งเสนอให้ใส่สมุนไพรลงในซอส",
+            "target": "She teamed up with another student, who suggested adding herbs to the sauce.",
+            "phonetic": "thoe jàp khûu gàp nák-rian ìik khon sʉ̂ng sà-nǒe hâi sài sà-mǔn-phrai long nai sɔ́ɔt",
+            "breakdown": [
+                {
+                    "source": "เธอจับคู่กับ",
+                    "target": "she teamed up with",
+                    "phonetic": "thoe jàp khûu gàp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "นักเรียนอีกคน",
+                    "target": "another student",
+                    "phonetic": "nák-rian ìik khon",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ซึ่งเสนอให้",
+                    "target": "who suggested",
+                    "phonetic": "sʉ̂ng sà-nǒe hâi",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ใส่สมุนไพร",
+                    "target": "adding herbs",
+                    "phonetic": "sài sà-mǔn-phrai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ลงในซอส",
+                    "target": "to the sauce",
+                    "phonetic": "long nai sɔ́ɔt",
+                    "partOfSpeech": "preposition"
+                }
+            ]
+        },
+        {
+            "source": "การทำอาหารร่วมกับคนอื่น แอนนารู้สึกว่าเป็นประสบการณ์ที่สนุกยิ่งขึ้น",
+            "target": "Cooking with others, Anna realized, made the experience even more enjoyable.",
+            "phonetic": "gaan tham aa-hăan rûam gàp khon ʉ̀ʉn aen-naa rúu-sʉ̀k wâa bpen bprà-sòp-gaan thîi sà-nùk yîng khʉ̂n",
+            "breakdown": [
+                {
+                    "source": "การทำอาหารร่วมกับคนอื่น",
+                    "target": "cooking with others",
+                    "phonetic": "gaan tham aa-hăan rûam gàp khon ʉ̀ʉn",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "แอนนารู้สึกว่า",
+                    "target": "Anna realized",
+                    "phonetic": "aen-naa rúu-sʉ̀k wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เป็นประสบการณ์",
+                    "target": "made the experience",
+                    "phonetic": "bpen bprà-sòp-gaan",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ที่สนุกยิ่งขึ้น",
+                    "target": "even more enjoyable",
+                    "phonetic": "thîi sà-nùk yîng khʉ̂n",
+                    "partOfSpeech": "adjective"
+                }
+            ]
+        },
+        {
+            "source": "ทุกคนชิมอาหารของตนร่วมกัน และต่างก็ชมผลงานของกันและกัน",
+            "target": "The class tasted their dishes together, praising each other’s efforts.",
+            "phonetic": "thúk khon chim aa-hăan khǎwng ton rûam gan láe tàang gɔ̂ɔ chom phǒn-ngaan khǎwng gan-láe-gan",
+            "breakdown": [
+                {
+                    "source": "ทุกคนชิมอาหาร",
+                    "target": "the class tasted their dishes",
+                    "phonetic": "thúk khon chim aa-hăan",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ของตนร่วมกัน",
+                    "target": "together",
+                    "phonetic": "khǎwng ton rûam gan",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "และต่างก็ชม",
+                    "target": "and praising",
+                    "phonetic": "láe tàang gɔ̂ɔ chom",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ผลงานของกันและกัน",
+                    "target": "each other's efforts",
+                    "phonetic": "phǒn-ngaan khǎwng gan-láe-gan",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "พาสต้าของแอนนาประสบความสำเร็จ แม้ว่าเธอคิดว่าน่าจะเค็มน้อยกว่านี้",
+            "target": "Anna’s pasta was a success, though she thought it could have been less salty.",
+            "phonetic": "pâas-dtâa khǎwng aen-naa bprà-sòp khwaam sǎm-rèt mā́e wâa thoe khít wâa nâa jà khem nɔ́ɔi gwàa níi",
+            "breakdown": [
+                {
+                    "source": "พาสต้าของแอนนา",
+                    "target": "Anna's pasta",
+                    "phonetic": "pâas-dtâa khǎwng aen-naa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ประสบความสำเร็จ",
+                    "target": "was a success",
+                    "phonetic": "bprà-sòp khwaam sǎm-rèt",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "แม้ว่าเธอคิดว่า",
+                    "target": "though she thought",
+                    "phonetic": "mā́e wâa thoe khít wâa",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "น่าจะเค็มน้อยกว่านี้",
+                    "target": "it could have been less salty",
+                    "phonetic": "nâa jà khem nɔ́ɔi gwàa níi",
+                    "partOfSpeech": "clause"
+                }
+            ]
+        },
+        {
+            "source": "เชฟมาร์โกให้กำลังใจเธอให้ฝึกต่อไป โดยบอกว่าเธอมีศักยภาพที่ดี",
+            "target": "Chef Marco encouraged her to keep practicing, saying she had great potential.",
+            "phonetic": "chéf maa-gòo hâi gam-lang-jai thoe hâi fʉ̀k tɔ̀ɔ-bpai doi bɔ̀ɔk wâa thoe mii sàk-ga-ya-phaâp thîi dii",
+            "breakdown": [
+                {
+                    "source": "เชฟมาร์โกให้กำลังใจเธอ",
+                    "target": "Chef Marco encouraged her",
+                    "phonetic": "chéf maa-gòo hâi gam-lang-jai thoe",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ให้ฝึกต่อไป",
+                    "target": "to keep practicing",
+                    "phonetic": "hâi fʉ̀k tɔ̀ɔ-bpai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "โดยบอกว่า",
+                    "target": "saying that",
+                    "phonetic": "doi bɔ̀ɔk wâa",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "เธอมีศักยภาพที่ดี",
+                    "target": "she had great potential",
+                    "phonetic": "thoe mii sàk-ga-ya-phaâp thîi dii",
+                    "partOfSpeech": "clause"
+                }
+            ]
+        },
+        {
+            "source": "ถ้าเธอเรียนรู้อย่างต่อเนื่อง เธออาจเปิดคาเฟ่ของตัวเองได้สักวันหนึ่ง",
+            "target": "If she continues to learn, she might open her own café someday.",
+            "phonetic": "thâa thoe rian-rúu yàang tɔ̀ɔ-nʉ̂ang thoe àat bpə̀ət kaa-fê khǎwng tua-eng dâi sák wan nʉ̀ng",
+            "breakdown": [
+                {
+                    "source": "ถ้าเธอเรียนรู้อย่างต่อเนื่อง",
+                    "target": "if she continues to learn",
+                    "phonetic": "thâa thoe rian-rúu yàang tɔ̀ɔ-nʉ̂ang",
+                    "partOfSpeech": "conditional"
+                },
+                {
+                    "source": "เธออาจเปิด",
+                    "target": "she might open",
+                    "phonetic": "thoe àat bpə̀ət",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "คาเฟ่ของตัวเอง",
+                    "target": "her own café",
+                    "phonetic": "kaa-fê khǎwng tua-eng",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ได้สักวันหนึ่ง",
+                    "target": "someday",
+                    "phonetic": "dâi sák wan nʉ̀ng",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "แอนนาออกจากชั้นเรียนด้วยความภาคภูมิใจ และตื่นเต้นที่จะลองทำเมนูใหม่ที่บ้าน",
+            "target": "Anna left the class feeling proud and eager to try new recipes at home.",
+            "phonetic": "aen-naa òrk jàak chán-rian dûai khwaam phâak-phuum-jai láe tʉ̀ʉn-dtên thîi jà long tham mee-nuu mài thîi bâan",
+            "breakdown": [
+                {
+                    "source": "แอนนาออกจากชั้นเรียน",
+                    "target": "Anna left the class",
+                    "phonetic": "aen-naa òrk jàak chán-rian",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ด้วยความภาคภูมิใจ",
+                    "target": "feeling proud",
+                    "phonetic": "dûai khwaam phâak-phuum-jai",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "และตื่นเต้น",
+                    "target": "and eager",
+                    "phonetic": "láe tʉ̀ʉn-dtên",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ที่จะลองทำเมนูใหม่",
+                    "target": "to try new recipes",
+                    "phonetic": "thîi jà long tham mee-nuu mài",
+                    "partOfSpeech": "clause"
+                },
+                {
+                    "source": "ที่บ้าน",
+                    "target": "at home",
+                    "phonetic": "thîi bâan",
+                    "partOfSpeech": "preposition"
+                }
+            ]
+        },
+        {
+            "source": "เธอซื้อหนังสือทำอาหารเพื่อสานต่อเส้นทางการทำอาหารด้วยตัวเอง",
+            "target": "She bought a cookbook to continue her culinary journey on her own.",
+            "phonetic": "thoe súe năng-sʉ̌ʉ tham aa-hăan phʉ̂a săan-tɔ̀ɔ sên-thaang gaan tham aa-hăan dûai tua-eng",
+            "breakdown": [
+                {
+                    "source": "เธอซื้อหนังสือทำอาหาร",
+                    "target": "she bought a cookbook",
+                    "phonetic": "thoe súe năng-sʉ̌ʉ tham aa-hăan",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เพื่อสานต่อ",
+                    "target": "to continue",
+                    "phonetic": "phʉ̂a săan-tɔ̀ɔ",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เส้นทางการทำอาหาร",
+                    "target": "her culinary journey",
+                    "phonetic": "sên-thaang gaan tham aa-hăan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ด้วยตัวเอง",
+                    "target": "on her own",
+                    "phonetic": "dûai tua-eng",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "เธอค้นพบว่าการทำอาหารเป็นวิธีหนึ่งในการแสดงความคิดสร้างสรรค์และแบ่งปันความรัก",
+            "target": "Cooking, she discovered, was a way to express creativity and share love.",
+            "phonetic": "thoe khón-phóp wâa gaan tham aa-hăan bpen wí-thii nʉ̀ng nai gaan sà-dɛɛng khwaam-khít sâang-san láe bàeng-bpan khwaam-rák",
+            "breakdown": [
+                {
+                    "source": "เธอค้นพบว่า",
+                    "target": "she discovered that",
+                    "phonetic": "thoe khón-phóp wâa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "การทำอาหาร",
+                    "target": "cooking",
+                    "phonetic": "gaan tham aa-hăan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เป็นวิธีหนึ่ง",
+                    "target": "was a way",
+                    "phonetic": "bpen wí-thii nʉ̀ng",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ในการแสดงความคิดสร้างสรรค์",
+                    "target": "to express creativity",
+                    "phonetic": "nai gaan sà-dɛɛng khwaam-khít sâang-san",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "และแบ่งปันความรัก",
+                    "target": "and share love",
+                    "phonetic": "láe bàeng-bpan khwaam-rák",
+                    "partOfSpeech": "conjunction"
+                }
+            ]
+        },
+        {
+            "source": "เธอแทบรอไม่ไหวที่จะเชิญเพื่อนๆ มาทานอาหารอิตาเลียนฝีมือเธอที่บ้าน",
+            "target": "She couldn’t wait to invite her friends for a homemade Italian dinner.",
+            "phonetic": "thoe thɛ̀ɛp rɔɔ mâi wǎi thîi jà choeen phʉ̂an-phʉ̂an maa thaan aa-hăan ìt-dtaa-lian fǐi-mʉʉ thoe thîi bâan",
+            "breakdown": [
+                {
+                    "source": "เธอแทบรอไม่ไหว",
+                    "target": "she couldn't wait",
+                    "phonetic": "thoe thɛ̀ɛp rɔɔ mâi wǎi",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ที่จะเชิญเพื่อนๆ",
+                    "target": "to invite her friends",
+                    "phonetic": "thîi jà choeen phʉ̂an-phʉ̂an",
+                    "partOfSpeech": "clause"
+                },
+                {
+                    "source": "มาทานอาหารอิตาเลียน",
+                    "target": "for Italian dinner",
+                    "phonetic": "maa thaan aa-hăan ìt-dtaa-lian",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ฝีมือเธอ",
+                    "target": "homemade",
+                    "phonetic": "fǐi-mʉʉ thoe",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ที่บ้าน",
+                    "target": "at home",
+                    "phonetic": "thîi bâan",
+                    "partOfSpeech": "preposition"
+                }
+            ]
+        }
+    ],
+    "createdAt": "2025-09-29T23:25:10Z",
+    "updatedAt": "2025-09-29T23:27:10Z",
+    "difficulty": "intermediate",
+    "summary": "ชั้นเรียนทำอาหารที่แอนนาเริ่มต้นด้วยความตื่นเต้น ฝึกทำพาสต้าสด เรียนรู้ทักษะ ความอดทน การทำงานร่วมกัน และค้นพบความรักในการทำอาหาร"
 }

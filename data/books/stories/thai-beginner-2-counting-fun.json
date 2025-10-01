@@ -1,681 +1,681 @@
 {
-  "storyId": "thai-beginner-2-counting-fun",
-  "bookId": "thai-beginner-2",
-  "language": "th",
-  "title": {
-    "source": "การนับเลขสนุก",
-    "target": "Counting Fun"
-  },
-  "sentences": [
-    {
-      "source": "ฉันชอบนับเลขเพราะมันสนุกและง่าย",
-      "target": "I like counting because it is fun and easy.",
-      "phonetic": "chǎn châwp nàp lek phaw mạn sà-núk láe ngâai",
-      "breakdown": [
-        {
-          "source": "ฉัน",
-          "target": "I",
-          "phonetic": "chǎn",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "ชอบ",
-          "target": "to like",
-          "phonetic": "châwp",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "นับ",
-          "target": "to count",
-          "phonetic": "nàp",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "เลข",
-          "target": "number",
-          "phonetic": "lek",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "เพราะ",
-          "target": "because",
-          "phonetic": "phaw",
-          "partOfSpeech": "conjunction"
-        },
-        {
-          "source": "มัน",
-          "target": "it",
-          "phonetic": "mạn",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "สนุก",
-          "target": "fun",
-          "phonetic": "sà-núk",
-          "partOfSpeech": "adjective"
-        },
-        {
-          "source": "และ",
-          "target": "and",
-          "phonetic": "láe",
-          "partOfSpeech": "conjunction"
-        },
-        {
-          "source": "ง่าย",
-          "target": "easy",
-          "phonetic": "ngâai",
-          "partOfSpeech": "adjective"
-        }
-      ]
+    "storyId": "thai-beginner-2-counting-fun",
+    "bookId": "thai-beginner-2",
+    "language": "th",
+    "title": {
+        "source": "การนับเลขสนุก",
+        "target": "Counting Fun"
     },
-    {
-      "source": "คุณมีหนังสือกี่เล่มครับ",
-      "target": "How many books do you have?",
-      "phonetic": "khun mee nǎng sǔe gìi lèm khráp",
-      "breakdown": [
+    "sentences": [
         {
-          "source": "คุณ",
-          "target": "you (polite)",
-          "phonetic": "khun",
-          "partOfSpeech": "pronoun"
+            "source": "ฉันชอบนับเลขเพราะมันสนุกและง่าย",
+            "target": "I like counting because it is fun and easy.",
+            "phonetic": "chǎn châwp nàp lek phaw mạn sà-núk láe ngâai",
+            "breakdown": [
+                {
+                    "source": "ฉัน",
+                    "target": "I",
+                    "phonetic": "chǎn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ชอบ",
+                    "target": "to like",
+                    "phonetic": "châwp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "นับ",
+                    "target": "to count",
+                    "phonetic": "nàp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เลข",
+                    "target": "number",
+                    "phonetic": "lek",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เพราะ",
+                    "target": "because",
+                    "phonetic": "phaw",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "มัน",
+                    "target": "it",
+                    "phonetic": "mạn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "สนุก",
+                    "target": "fun",
+                    "phonetic": "sà-núk",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ง่าย",
+                    "target": "easy",
+                    "phonetic": "ngâai",
+                    "partOfSpeech": "adjective"
+                }
+            ]
         },
         {
-          "source": "มี",
-          "target": "to have",
-          "phonetic": "mee",
-          "partOfSpeech": "verb"
+            "source": "คุณมีหนังสือกี่เล่มครับ",
+            "target": "How many books do you have?",
+            "phonetic": "khun mee nǎng sǔe gìi lèm khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "มี",
+                    "target": "to have",
+                    "phonetic": "mee",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "หนังสือ",
+                    "target": "book",
+                    "phonetic": "nǎng sǔe",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "กี่",
+                    "target": "how many",
+                    "phonetic": "gìi",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "เล่ม",
+                    "target": "(classifier for books)",
+                    "phonetic": "lèm",
+                    "partOfSpeech": "classifier"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
         },
         {
-          "source": "หนังสือ",
-          "target": "book",
-          "phonetic": "nǎng sǔe",
-          "partOfSpeech": "noun"
+            "source": "ฉันมีหนังสือหกเล่ม และฉันอ่านบ่อย",
+            "target": "I have six books, and I read them often.",
+            "phonetic": "chǎn mee nǎng sǔe hòk lèm láe chǎn àan bɔ̀ɔi",
+            "breakdown": [
+                {
+                    "source": "ฉัน",
+                    "target": "I",
+                    "phonetic": "chǎn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "มี",
+                    "target": "to have",
+                    "phonetic": "mee",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "หนังสือ",
+                    "target": "book",
+                    "phonetic": "nǎng sǔe",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "หก",
+                    "target": "six",
+                    "phonetic": "hòk",
+                    "partOfSpeech": "numeral"
+                },
+                {
+                    "source": "เล่ม",
+                    "target": "(classifier for books)",
+                    "phonetic": "lèm",
+                    "partOfSpeech": "classifier"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I",
+                    "phonetic": "chǎn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "อ่าน",
+                    "target": "to read",
+                    "phonetic": "àan",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "บ่อย",
+                    "target": "often",
+                    "phonetic": "bɔ̀ɔi",
+                    "partOfSpeech": "adverb"
+                }
+            ]
         },
         {
-          "source": "กี่",
-          "target": "how many",
-          "phonetic": "gìi",
-          "partOfSpeech": "pronoun"
+            "source": "เมื่อวานนี้ ฉันนับนกสิบตัวบนต้นไม้",
+            "target": "Yesterday, I counted ten birds in the tree.",
+            "phonetic": "mûea waan níi chǎn nàp nòk sìp dtua bon dtôn mâai",
+            "breakdown": [
+                {
+                    "source": "เมื่อวานนี้",
+                    "target": "yesterday",
+                    "phonetic": "mûea waan níi",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I",
+                    "phonetic": "chǎn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "นับ",
+                    "target": "to count",
+                    "phonetic": "nàp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "นก",
+                    "target": "bird",
+                    "phonetic": "nòk",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "สิบ",
+                    "target": "ten",
+                    "phonetic": "sìp",
+                    "partOfSpeech": "numeral"
+                },
+                {
+                    "source": "ตัว",
+                    "target": "(classifier for animals)",
+                    "phonetic": "dtua",
+                    "partOfSpeech": "classifier"
+                },
+                {
+                    "source": "บน",
+                    "target": "on/in",
+                    "phonetic": "bon",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ต้นไม้",
+                    "target": "tree",
+                    "phonetic": "dtôn mâai",
+                    "partOfSpeech": "noun"
+                }
+            ]
         },
         {
-          "source": "เล่ม",
-          "target": "(classifier for books)",
-          "phonetic": "lèm",
-          "partOfSpeech": "classifier"
+            "source": "คุณนับถึงยี่สิบได้ไหมครับ",
+            "target": "Can you count to twenty?",
+            "phonetic": "khun nàp thʉng yîi sìp dâai mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "นับ",
+                    "target": "to count",
+                    "phonetic": "nàp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ถึง",
+                    "target": "to/up to",
+                    "phonetic": "thʉng",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ยี่สิบ",
+                    "target": "twenty",
+                    "phonetic": "yîi sìp",
+                    "partOfSpeech": "numeral"
+                },
+                {
+                    "source": "ได้",
+                    "target": "can/able to",
+                    "phonetic": "dâai",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "(question particle)",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
         },
         {
-          "source": "ครับ",
-          "target": "male polite particle",
-          "phonetic": "khráp",
-          "partOfSpeech": "particle"
+            "source": "ใช่ ฉันนับได้ หนึ่ง สอง สาม และอื่นๆ",
+            "target": "Yes, I can! One, two, three, and more!",
+            "phonetic": "châi chǎn nàp dâai nùeng sǎawng sǎam láe ùen ùen",
+            "breakdown": [
+                {
+                    "source": "ใช่",
+                    "target": "yes",
+                    "phonetic": "châi",
+                    "partOfSpeech": "interjection"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I",
+                    "phonetic": "chǎn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "นับ",
+                    "target": "to count",
+                    "phonetic": "nàp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ได้",
+                    "target": "can/able to",
+                    "phonetic": "dâai",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "หนึ่ง",
+                    "target": "one",
+                    "phonetic": "nùeng",
+                    "partOfSpeech": "numeral"
+                },
+                {
+                    "source": "สอง",
+                    "target": "two",
+                    "phonetic": "sǎawng",
+                    "partOfSpeech": "numeral"
+                },
+                {
+                    "source": "สาม",
+                    "target": "three",
+                    "phonetic": "sǎam",
+                    "partOfSpeech": "numeral"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "อื่น",
+                    "target": "other",
+                    "phonetic": "ùen",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ๆ",
+                    "target": "(plural marker)",
+                    "phonetic": "ùen",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "เลขโปรดของคุณคืออะไรครับ",
+            "target": "What is your favorite number?",
+            "phonetic": "lek prɔ̂ɔt khǎwng khun kheuu à-rai khráp",
+            "breakdown": [
+                {
+                    "source": "เลข",
+                    "target": "number",
+                    "phonetic": "lek",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "โปรด",
+                    "target": "favorite",
+                    "phonetic": "prɔ̂ɔt",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ของ",
+                    "target": "of",
+                    "phonetic": "khǎwng",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "คือ",
+                    "target": "is",
+                    "phonetic": "kheuu",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "อะไร",
+                    "target": "what",
+                    "phonetic": "à-rai",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "เลขโปรดของฉันคือเจ็ดเพราะมันเป็นเลขนำโชค",
+            "target": "My favorite number is seven because it is lucky.",
+            "phonetic": "lek prɔ̂ɔt khǎwng chǎn kheuu jèt phaw mạn pen lek naam chôok",
+            "breakdown": [
+                {
+                    "source": "เลข",
+                    "target": "number",
+                    "phonetic": "lek",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "โปรด",
+                    "target": "favorite",
+                    "phonetic": "prɔ̂ɔt",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ของ",
+                    "target": "of",
+                    "phonetic": "khǎwng",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I",
+                    "phonetic": "chǎn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "คือ",
+                    "target": "is",
+                    "phonetic": "kheuu",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เจ็ด",
+                    "target": "seven",
+                    "phonetic": "jèt",
+                    "partOfSpeech": "numeral"
+                },
+                {
+                    "source": "เพราะ",
+                    "target": "because",
+                    "phonetic": "phaw",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "มัน",
+                    "target": "it",
+                    "phonetic": "mạn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "เป็น",
+                    "target": "to be",
+                    "phonetic": "pen",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เลข",
+                    "target": "number",
+                    "phonetic": "lek",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "นำโชค",
+                    "target": "lucky",
+                    "phonetic": "naam chôok",
+                    "partOfSpeech": "adjective"
+                }
+            ]
+        },
+        {
+            "source": "ฉันบวกห้าและสาม ได้แปด",
+            "target": "I added five and three, and it was eight.",
+            "phonetic": "chǎn bùak hâa láe sǎam dâai bpàaet",
+            "breakdown": [
+                {
+                    "source": "ฉัน",
+                    "target": "I",
+                    "phonetic": "chǎn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "บวก",
+                    "target": "to add",
+                    "phonetic": "bùak",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ห้า",
+                    "target": "five",
+                    "phonetic": "hâa",
+                    "partOfSpeech": "numeral"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "láe",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "สาม",
+                    "target": "three",
+                    "phonetic": "sǎam",
+                    "partOfSpeech": "numeral"
+                },
+                {
+                    "source": "ได้",
+                    "target": "(result marker)",
+                    "phonetic": "dâai",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "แปด",
+                    "target": "eight",
+                    "phonetic": "bpàaet",
+                    "partOfSpeech": "numeral"
+                }
+            ]
+        },
+        {
+            "source": "การนับเลขยากสำหรับคุณไหมครับ",
+            "target": "Is counting hard for you?",
+            "phonetic": "gaan nàp lek yaak sàm-ràp khun mǎi khráp",
+            "breakdown": [
+                {
+                    "source": "การ",
+                    "target": "(nominalizer)",
+                    "phonetic": "gaan",
+                    "partOfSpeech": "nominalizer"
+                },
+                {
+                    "source": "นับ",
+                    "target": "to count",
+                    "phonetic": "nàp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เลข",
+                    "target": "number",
+                    "phonetic": "lek",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ยาก",
+                    "target": "difficult",
+                    "phonetic": "yaak",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "สำหรับ",
+                    "target": "for",
+                    "phonetic": "sàm-ràp",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "คุณ",
+                    "target": "you (polite)",
+                    "phonetic": "khun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "(question particle)",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "male polite particle",
+                    "phonetic": "khráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ไม่ ง่าย ฉันชอบมันมาก",
+            "target": "No, it is easy, and I like it a lot.",
+            "phonetic": "mâai ngâai chǎn châwp man mâak",
+            "breakdown": [
+                {
+                    "source": "ไม่",
+                    "target": "no",
+                    "phonetic": "mâai",
+                    "partOfSpeech": "negative particle"
+                },
+                {
+                    "source": "ง่าย",
+                    "target": "easy",
+                    "phonetic": "ngâai",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I",
+                    "phonetic": "chǎn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ชอบ",
+                    "target": "to like",
+                    "phonetic": "châwp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "มัน",
+                    "target": "it",
+                    "phonetic": "man",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "มาก",
+                    "target": "a lot",
+                    "phonetic": "mâak",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "ตัวเลขช่วยให้ฉันเรียนรู้สิ่งใหม่ทุกวัน",
+            "target": "Numbers help me learn new things every day.",
+            "phonetic": "dtua lek chûai hâi chǎn rian rúu sìng mai thúk wan",
+            "breakdown": [
+                {
+                    "source": "ตัวเลข",
+                    "target": "numbers",
+                    "phonetic": "dtua lek",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ช่วย",
+                    "target": "to help",
+                    "phonetic": "chûai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ให้",
+                    "target": "(to cause)",
+                    "phonetic": "hâi",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ฉัน",
+                    "target": "I",
+                    "phonetic": "chǎn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "เรียนรู้",
+                    "target": "to learn",
+                    "phonetic": "rian rúu",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "สิ่ง",
+                    "target": "thing",
+                    "phonetic": "sìng",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ใหม่",
+                    "target": "new",
+                    "phonetic": "mai",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ทุก",
+                    "target": "every",
+                    "phonetic": "thúk",
+                    "partOfSpeech": "determiner"
+                },
+                {
+                    "source": "วัน",
+                    "target": "day",
+                    "phonetic": "wan",
+                    "partOfSpeech": "noun"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "source": "ฉันมีหนังสือหกเล่ม และฉันอ่านบ่อย",
-      "target": "I have six books, and I read them often.",
-      "phonetic": "chǎn mee nǎng sǔe hòk lèm láe chǎn àan bɔ̀ɔi",
-      "breakdown": [
-        {
-          "source": "ฉัน",
-          "target": "I",
-          "phonetic": "chǎn",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "มี",
-          "target": "to have",
-          "phonetic": "mee",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "หนังสือ",
-          "target": "book",
-          "phonetic": "nǎng sǔe",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "หก",
-          "target": "six",
-          "phonetic": "hòk",
-          "partOfSpeech": "numeral"
-        },
-        {
-          "source": "เล่ม",
-          "target": "(classifier for books)",
-          "phonetic": "lèm",
-          "partOfSpeech": "classifier"
-        },
-        {
-          "source": "และ",
-          "target": "and",
-          "phonetic": "láe",
-          "partOfSpeech": "conjunction"
-        },
-        {
-          "source": "ฉัน",
-          "target": "I",
-          "phonetic": "chǎn",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "อ่าน",
-          "target": "to read",
-          "phonetic": "àan",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "บ่อย",
-          "target": "often",
-          "phonetic": "bɔ̀ɔi",
-          "partOfSpeech": "adverb"
-        }
-      ]
-    },
-    {
-      "source": "เมื่อวานนี้ ฉันนับนกสิบตัวบนต้นไม้",
-      "target": "Yesterday, I counted ten birds in the tree.",
-      "phonetic": "mûea waan níi chǎn nàp nòk sìp dtua bon dtôn mâai",
-      "breakdown": [
-        {
-          "source": "เมื่อวานนี้",
-          "target": "yesterday",
-          "phonetic": "mûea waan níi",
-          "partOfSpeech": "adverb"
-        },
-        {
-          "source": "ฉัน",
-          "target": "I",
-          "phonetic": "chǎn",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "นับ",
-          "target": "to count",
-          "phonetic": "nàp",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "นก",
-          "target": "bird",
-          "phonetic": "nòk",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "สิบ",
-          "target": "ten",
-          "phonetic": "sìp",
-          "partOfSpeech": "numeral"
-        },
-        {
-          "source": "ตัว",
-          "target": "(classifier for animals)",
-          "phonetic": "dtua",
-          "partOfSpeech": "classifier"
-        },
-        {
-          "source": "บน",
-          "target": "on/in",
-          "phonetic": "bon",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "ต้นไม้",
-          "target": "tree",
-          "phonetic": "dtôn mâai",
-          "partOfSpeech": "noun"
-        }
-      ]
-    },
-    {
-      "source": "คุณนับถึงยี่สิบได้ไหมครับ",
-      "target": "Can you count to twenty?",
-      "phonetic": "khun nàp thʉng yîi sìp dâai mǎi khráp",
-      "breakdown": [
-        {
-          "source": "คุณ",
-          "target": "you (polite)",
-          "phonetic": "khun",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "นับ",
-          "target": "to count",
-          "phonetic": "nàp",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ถึง",
-          "target": "to/up to",
-          "phonetic": "thʉng",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "ยี่สิบ",
-          "target": "twenty",
-          "phonetic": "yîi sìp",
-          "partOfSpeech": "numeral"
-        },
-        {
-          "source": "ได้",
-          "target": "can/able to",
-          "phonetic": "dâai",
-          "partOfSpeech": "auxiliary"
-        },
-        {
-          "source": "ไหม",
-          "target": "(question particle)",
-          "phonetic": "mǎi",
-          "partOfSpeech": "particle"
-        },
-        {
-          "source": "ครับ",
-          "target": "male polite particle",
-          "phonetic": "khráp",
-          "partOfSpeech": "particle"
-        }
-      ]
-    },
-    {
-      "source": "ใช่ ฉันนับได้ หนึ่ง สอง สาม และอื่นๆ",
-      "target": "Yes, I can! One, two, three, and more!",
-      "phonetic": "châi chǎn nàp dâai nùeng sǎawng sǎam láe ùen ùen",
-      "breakdown": [
-        {
-          "source": "ใช่",
-          "target": "yes",
-          "phonetic": "châi",
-          "partOfSpeech": "interjection"
-        },
-        {
-          "source": "ฉัน",
-          "target": "I",
-          "phonetic": "chǎn",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "นับ",
-          "target": "to count",
-          "phonetic": "nàp",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ได้",
-          "target": "can/able to",
-          "phonetic": "dâai",
-          "partOfSpeech": "auxiliary"
-        },
-        {
-          "source": "หนึ่ง",
-          "target": "one",
-          "phonetic": "nùeng",
-          "partOfSpeech": "numeral"
-        },
-        {
-          "source": "สอง",
-          "target": "two",
-          "phonetic": "sǎawng",
-          "partOfSpeech": "numeral"
-        },
-        {
-          "source": "สาม",
-          "target": "three",
-          "phonetic": "sǎam",
-          "partOfSpeech": "numeral"
-        },
-        {
-          "source": "และ",
-          "target": "and",
-          "phonetic": "láe",
-          "partOfSpeech": "conjunction"
-        },
-        {
-          "source": "อื่น",
-          "target": "other",
-          "phonetic": "ùen",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "ๆ",
-          "target": "(plural marker)",
-          "phonetic": "ùen",
-          "partOfSpeech": "particle"
-        }
-      ]
-    },
-    {
-      "source": "เลขโปรดของคุณคืออะไรครับ",
-      "target": "What is your favorite number?",
-      "phonetic": "lek prɔ̂ɔt khǎwng khun kheuu à-rai khráp",
-      "breakdown": [
-        {
-          "source": "เลข",
-          "target": "number",
-          "phonetic": "lek",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "โปรด",
-          "target": "favorite",
-          "phonetic": "prɔ̂ɔt",
-          "partOfSpeech": "adjective"
-        },
-        {
-          "source": "ของ",
-          "target": "of",
-          "phonetic": "khǎwng",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "คุณ",
-          "target": "you (polite)",
-          "phonetic": "khun",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "คือ",
-          "target": "is",
-          "phonetic": "kheuu",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "อะไร",
-          "target": "what",
-          "phonetic": "à-rai",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "ครับ",
-          "target": "male polite particle",
-          "phonetic": "khráp",
-          "partOfSpeech": "particle"
-        }
-      ]
-    },
-    {
-      "source": "เลขโปรดของฉันคือเจ็ดเพราะมันเป็นเลขนำโชค",
-      "target": "My favorite number is seven because it is lucky.",
-      "phonetic": "lek prɔ̂ɔt khǎwng chǎn kheuu jèt phaw mạn pen lek naam chôok",
-      "breakdown": [
-        {
-          "source": "เลข",
-          "target": "number",
-          "phonetic": "lek",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "โปรด",
-          "target": "favorite",
-          "phonetic": "prɔ̂ɔt",
-          "partOfSpeech": "adjective"
-        },
-        {
-          "source": "ของ",
-          "target": "of",
-          "phonetic": "khǎwng",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "ฉัน",
-          "target": "I",
-          "phonetic": "chǎn",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "คือ",
-          "target": "is",
-          "phonetic": "kheuu",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "เจ็ด",
-          "target": "seven",
-          "phonetic": "jèt",
-          "partOfSpeech": "numeral"
-        },
-        {
-          "source": "เพราะ",
-          "target": "because",
-          "phonetic": "phaw",
-          "partOfSpeech": "conjunction"
-        },
-        {
-          "source": "มัน",
-          "target": "it",
-          "phonetic": "mạn",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "เป็น",
-          "target": "to be",
-          "phonetic": "pen",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "เลข",
-          "target": "number",
-          "phonetic": "lek",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "นำโชค",
-          "target": "lucky",
-          "phonetic": "naam chôok",
-          "partOfSpeech": "adjective"
-        }
-      ]
-    },
-    {
-      "source": "ฉันบวกห้าและสาม ได้แปด",
-      "target": "I added five and three, and it was eight.",
-      "phonetic": "chǎn bùak hâa láe sǎam dâai bpàaet",
-      "breakdown": [
-        {
-          "source": "ฉัน",
-          "target": "I",
-          "phonetic": "chǎn",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "บวก",
-          "target": "to add",
-          "phonetic": "bùak",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ห้า",
-          "target": "five",
-          "phonetic": "hâa",
-          "partOfSpeech": "numeral"
-        },
-        {
-          "source": "และ",
-          "target": "and",
-          "phonetic": "láe",
-          "partOfSpeech": "conjunction"
-        },
-        {
-          "source": "สาม",
-          "target": "three",
-          "phonetic": "sǎam",
-          "partOfSpeech": "numeral"
-        },
-        {
-          "source": "ได้",
-          "target": "(result marker)",
-          "phonetic": "dâai",
-          "partOfSpeech": "auxiliary"
-        },
-        {
-          "source": "แปด",
-          "target": "eight",
-          "phonetic": "bpàaet",
-          "partOfSpeech": "numeral"
-        }
-      ]
-    },
-    {
-      "source": "การนับเลขยากสำหรับคุณไหมครับ",
-      "target": "Is counting hard for you?",
-      "phonetic": "gaan nàp lek yaak sàm-ràp khun mǎi khráp",
-      "breakdown": [
-        {
-          "source": "การ",
-          "target": "(nominalizer)",
-          "phonetic": "gaan",
-          "partOfSpeech": "nominalizer"
-        },
-        {
-          "source": "นับ",
-          "target": "to count",
-          "phonetic": "nàp",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "เลข",
-          "target": "number",
-          "phonetic": "lek",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ยาก",
-          "target": "difficult",
-          "phonetic": "yaak",
-          "partOfSpeech": "adjective"
-        },
-        {
-          "source": "สำหรับ",
-          "target": "for",
-          "phonetic": "sàm-ràp",
-          "partOfSpeech": "preposition"
-        },
-        {
-          "source": "คุณ",
-          "target": "you (polite)",
-          "phonetic": "khun",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "ไหม",
-          "target": "(question particle)",
-          "phonetic": "mǎi",
-          "partOfSpeech": "particle"
-        },
-        {
-          "source": "ครับ",
-          "target": "male polite particle",
-          "phonetic": "khráp",
-          "partOfSpeech": "particle"
-        }
-      ]
-    },
-    {
-      "source": "ไม่ ง่าย ฉันชอบมันมาก",
-      "target": "No, it is easy, and I like it a lot.",
-      "phonetic": "mâai ngâai chǎn châwp man mâak",
-      "breakdown": [
-        {
-          "source": "ไม่",
-          "target": "no",
-          "phonetic": "mâai",
-          "partOfSpeech": "negative particle"
-        },
-        {
-          "source": "ง่าย",
-          "target": "easy",
-          "phonetic": "ngâai",
-          "partOfSpeech": "adjective"
-        },
-        {
-          "source": "ฉัน",
-          "target": "I",
-          "phonetic": "chǎn",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "ชอบ",
-          "target": "to like",
-          "phonetic": "châwp",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "มัน",
-          "target": "it",
-          "phonetic": "man",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "มาก",
-          "target": "a lot",
-          "phonetic": "mâak",
-          "partOfSpeech": "adverb"
-        }
-      ]
-    },
-    {
-      "source": "ตัวเลขช่วยให้ฉันเรียนรู้สิ่งใหม่ทุกวัน",
-      "target": "Numbers help me learn new things every day.",
-      "phonetic": "dtua lek chûai hâi chǎn rian rúu sìng mai thúk wan",
-      "breakdown": [
-        {
-          "source": "ตัวเลข",
-          "target": "numbers",
-          "phonetic": "dtua lek",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ช่วย",
-          "target": "to help",
-          "phonetic": "chûai",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ให้",
-          "target": "(to cause)",
-          "phonetic": "hâi",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "ฉัน",
-          "target": "I",
-          "phonetic": "chǎn",
-          "partOfSpeech": "pronoun"
-        },
-        {
-          "source": "เรียนรู้",
-          "target": "to learn",
-          "phonetic": "rian rúu",
-          "partOfSpeech": "verb"
-        },
-        {
-          "source": "สิ่ง",
-          "target": "thing",
-          "phonetic": "sìng",
-          "partOfSpeech": "noun"
-        },
-        {
-          "source": "ใหม่",
-          "target": "new",
-          "phonetic": "mai",
-          "partOfSpeech": "adjective"
-        },
-        {
-          "source": "ทุก",
-          "target": "every",
-          "phonetic": "thúk",
-          "partOfSpeech": "determiner"
-        },
-        {
-          "source": "วัน",
-          "target": "day",
-          "phonetic": "wan",
-          "partOfSpeech": "noun"
-        }
-      ]
-    }
-  ],
-  "createdAt": "2025-09-29T12:35:00Z",
-  "updatedAt": "2025-09-29T12:35:00Z",
-  "difficulty": "beginner",
-  "summary": "การนับเลขและการใช้ตัวเลขในประโยค"
+    ],
+    "createdAt": "2025-09-29T12:35:00Z",
+    "updatedAt": "2025-09-29T12:35:00Z",
+    "difficulty": "beginner",
+    "summary": "การนับเลขและการใช้ตัวเลขในประโยค"
 }
