@@ -34,12 +34,12 @@
                 {
                     "original": "หนังสืออยู่บนโต๊ะ",
                     "translation": "The book is on the table",
-                    "phonetic": "nang-sue yoo bon to"
+                    "phonetic": "nǎng-sǐu yùu bon dtó"
                 },
                 {
                     "original": "แมวนอนบนเตียง",
                     "translation": "The cat is sleeping on the bed",
-                    "phonetic": "maew non bon tiang"
+                    "phonetic": "mɛɛw nɔɔn bon dtêang"
                 }
             ]
         },
@@ -60,19 +60,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "tai",
+            "phonetic": "dtâai",
             "partOfSpeech": "preposition",
             "context": "Used to indicate something is positioned beneath something else",
             "examples": [
                 {
                     "original": "แมวอยู่ใต้โต๊ะ",
                     "translation": "The cat is under the table",
-                    "phonetic": "maew yoo tai to"
+                    "phonetic": "mɛɛw yùu dtâai dtó"
                 },
                 {
                     "original": "กุญแจอยู่ใต้หมอน",
                     "translation": "The key is under the pillow",
-                    "phonetic": "khun-jae yoo tai mon"
+                    "phonetic": "gun-jɛɛ yùu dtâai mɔɔn"
                 }
             ]
         },
@@ -100,12 +100,12 @@
                 {
                     "original": "เงินอยู่ในกระเป๋า",
                     "translation": "The money is in the bag",
-                    "phonetic": "ngern yoo nai kra-pao"
+                    "phonetic": "ngəən yùu nai grà-bpǎao"
                 },
                 {
                     "original": "มีนมในตู้เย็น",
                     "translation": "There is milk in the refrigerator",
-                    "phonetic": "mee nom nai too yen"
+                    "phonetic": "mii nom nai dtûu yen"
                 }
             ]
         },
@@ -126,19 +126,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "nok",
+            "phonetic": "nɔ̂ɔk",
             "partOfSpeech": "preposition",
             "context": "Used to indicate something is external to something else",
             "examples": [
                 {
                     "original": "เด็กๆ เล่นอยู่นอกบ้าน",
                     "translation": "The children are playing outside the house",
-                    "phonetic": "dek-dek len yoo nok baan"
+                    "phonetic": "dèk-dèk lên yùu nɔ̂ɔk bâan"
                 },
                 {
                     "original": "รถจอดอยู่นอกอาคาร",
                     "translation": "The car is parked outside the building",
-                    "phonetic": "rot jot yoo nok aa-kaan"
+                    "phonetic": "rót jɔ̀ɔt yùu nɔ̂ɔk aa-kaan"
                 }
             ]
         },
@@ -159,19 +159,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "naa",
+            "phonetic": "nâa",
             "partOfSpeech": "preposition",
             "context": "Used to indicate something is positioned in front of something else",
             "examples": [
                 {
                     "original": "รถจอดอยู่หน้าบ้าน",
                     "translation": "The car is parked in front of the house",
-                    "phonetic": "rot jot yoo naa baan"
+                    "phonetic": "rót jɔ̀ɔt yùu nâa bâan"
                 },
                 {
                     "original": "เขายืนอยู่หน้าประตู",
                     "translation": "He is standing in front of the door",
-                    "phonetic": "kao yeun yoo naa pra-too"
+                    "phonetic": "kǎo yʉʉn yùu nâa bprà-dtuu"
                 }
             ]
         },
@@ -192,19 +192,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "lang",
+            "phonetic": "lǎng",
             "partOfSpeech": "preposition",
             "context": "Used to indicate something is positioned behind something else",
             "examples": [
                 {
                     "original": "สวนอยู่หลังบ้าน",
                     "translation": "The garden is behind the house",
-                    "phonetic": "suan yoo lang baan"
+                    "phonetic": "sǔan yùu lǎng bâan"
                 },
                 {
                     "original": "เขาซ่อนอยู่หลังต้นไม้",
                     "translation": "He is hiding behind the tree",
-                    "phonetic": "kao son yoo lang ton-mai"
+                    "phonetic": "kǎo sɔ̌n yùu lǎng dtôn-máai"
                 }
             ]
         },
@@ -225,19 +225,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "kaang",
+            "phonetic": "kâang",
             "partOfSpeech": "preposition",
             "context": "Used to indicate something is positioned beside something else",
             "examples": [
                 {
                     "original": "เขานั่งข้างฉัน",
                     "translation": "He sits beside me",
-                    "phonetic": "kao nang kaang chan"
+                    "phonetic": "kǎo nâng kâang chǎn"
                 },
                 {
                     "original": "ร้านอาหารอยู่ข้างธนาคาร",
                     "translation": "The restaurant is next to the bank",
-                    "phonetic": "raan aa-haan yoo kaang ta-na-kaan"
+                    "phonetic": "ráan aa-hǎan yùu kâang tá-naa-kaan"
                 }
             ]
         },
@@ -258,19 +258,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "ra-wang",
+            "phonetic": "rá-wàang",
             "partOfSpeech": "preposition",
             "context": "Used to indicate something is positioned in the middle of two or more things",
             "examples": [
                 {
                     "original": "บ้านของเขาอยู่ระหว่างโรงเรียนและตลาด",
                     "translation": "His house is between the school and the market",
-                    "phonetic": "baan kong kao yoo ra-wang rong-rian lae ta-lad"
+                    "phonetic": "bâan kɔ̌ɔng kǎo yùu rá-wàang roong-rian lɛ́ dtà-làat"
                 },
                 {
                     "original": "เขานั่งอยู่ระหว่างเพื่อนสองคน",
                     "translation": "He is sitting between two friends",
-                    "phonetic": "kao nang yoo ra-wang peuan song kon"
+                    "phonetic": "kǎo nâng yùu rá-wàang pʉ̂an sɔ̌ɔng kon"
                 }
             ]
         },
@@ -291,19 +291,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "rob",
+            "phonetic": "rɔ̂ɔp",
             "partOfSpeech": "preposition",
             "context": "Used to indicate something encircles or surrounds something else",
             "examples": [
                 {
                     "original": "มีต้นไม้รอบบ้าน",
                     "translation": "There are trees around the house",
-                    "phonetic": "mee ton-mai rob baan"
+                    "phonetic": "mii dtôn-máai rɔ̂ɔp bâan"
                 },
                 {
                     "original": "เขาเดินรอบสวนสาธารณะ",
                     "translation": "He walks around the park",
-                    "phonetic": "kao dern rob suan sa-ta-ra-na"
+                    "phonetic": "kǎo dəən rɔ̂ɔp sǔan sǎa-táa-rá-ná"
                 }
             ]
         },
@@ -331,12 +331,12 @@
                 {
                     "original": "เดินทางไปทางเหนือ",
                     "translation": "Walk towards the north",
-                    "phonetic": "dern taang pai taang neua"
+                    "phonetic": "dəən taang bpai taang nǐua"
                 },
                 {
                     "original": "บ้านของฉันอยู่ทางซ้าย",
                     "translation": "My house is to the left",
-                    "phonetic": "baan kong chan yoo taang sai"
+                    "phonetic": "bâan kɔ̌ɔng chǎn yùu taang sáai"
                 }
             ]
         },
@@ -357,19 +357,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "trong kaam",
+            "phonetic": "dtrong kâam",
             "partOfSpeech": "preposition",
             "context": "Used to indicate something is positioned on the opposite side",
             "examples": [
                 {
                     "original": "โรงเรียนอยู่ตรงข้ามกับธนาคาร",
                     "translation": "The school is opposite the bank",
-                    "phonetic": "rong-rian yoo trong kaam gap ta-na-kaan"
+                    "phonetic": "roong-rian yùu dtrong kâam gàp tá-naa-kaan"
                 },
                 {
                     "original": "เขานั่งตรงข้ามฉัน",
                     "translation": "He sits across from me",
-                    "phonetic": "kao nang trong kaam chan"
+                    "phonetic": "kǎo nâng dtrong kâam chǎn"
                 }
             ]
         },
@@ -390,19 +390,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "paan",
+            "phonetic": "pàan",
             "partOfSpeech": "preposition",
             "context": "Used to indicate movement through or past something",
             "examples": [
                 {
                     "original": "เขาเดินผ่านประตู",
                     "translation": "He walks through the door",
-                    "phonetic": "kao dern paan pra-too"
+                    "phonetic": "kǎo dəən pàan bprà-dtuu"
                 },
                 {
                     "original": "รถวิ่งผ่านสะพาน",
                     "translation": "The car drives across the bridge",
-                    "phonetic": "rot wing paan sa-paan"
+                    "phonetic": "rót wîng pàan sà-paan"
                 }
             ]
         },
@@ -423,19 +423,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "klai",
+            "phonetic": "glâi",
             "partOfSpeech": "preposition",
             "context": "Used to indicate proximity",
             "examples": [
                 {
                     "original": "โรงแรมอยู่ใกล้สนามบิน",
                     "translation": "The hotel is near the airport",
-                    "phonetic": "rong-raem yoo klai sa-naam bin"
+                    "phonetic": "roong-rɛɛm yùu glâi sà-nǎam bin"
                 },
                 {
                     "original": "บ้านของเขาอยู่ใกล้ทะเล",
                     "translation": "His house is close to the sea",
-                    "phonetic": "baan kong kao yoo klai ta-le"
+                    "phonetic": "bâan kɔ̌ɔng kǎo yùu glâi tá-lee"
                 }
             ]
         },
@@ -463,12 +463,12 @@
                 {
                     "original": "บ้านของฉันอยู่ไกลจากที่ทำงาน",
                     "translation": "My house is far from the office",
-                    "phonetic": "baan kong chan yoo klai jaak tee tam-ngaan"
+                    "phonetic": "bâan kɔ̌ɔng chǎn yùu glai jàak têe tam-ngaan"
                 },
                 {
                     "original": "ภูเขาอยู่ไกลจากทะเล",
                     "translation": "The mountain is far from the sea",
-                    "phonetic": "poo-kao yoo klai jaak ta-le"
+                    "phonetic": "pûu-kǎao yùu glai jàak tá-lee"
                 }
             ]
         },
@@ -489,19 +489,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "teung",
+            "phonetic": "tʉ̌ng",
             "partOfSpeech": "preposition",
             "context": "Used to indicate a destination or end point",
             "examples": [
                 {
                     "original": "เดินจากบ้านถึงโรงเรียน",
                     "translation": "Walk from home to school",
-                    "phonetic": "dern jaak baan teung rong-rian"
+                    "phonetic": "dəən jàak bâan tʉ̌ng roong-rian"
                 },
                 {
                     "original": "ทำงานถึงหกโมงเย็น",
                     "translation": "Work until six in the evening",
-                    "phonetic": "tam-ngaan teung hok mong yen"
+                    "phonetic": "tam-ngaan tʉ̌ng hòk moong yen"
                 }
             ]
         },
@@ -522,19 +522,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "jaak",
+            "phonetic": "jàak",
             "partOfSpeech": "preposition",
             "context": "Used to indicate a starting point or origin",
             "examples": [
                 {
                     "original": "เขามาจากประเทศไทย",
                     "translation": "He comes from Thailand",
-                    "phonetic": "kao maa jaak pra-tet thai"
+                    "phonetic": "kǎo maa jàak bprà-têet tai"
                 },
                 {
                     "original": "จดหมายจากเพื่อน",
                     "translation": "A letter from a friend",
-                    "phonetic": "jot-maai jaak peuan"
+                    "phonetic": "jòt-mǎai jàak pʉ̂an"
                 }
             ]
         },
@@ -555,19 +555,19 @@
             "difficulty": "hard",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "soo",
+            "phonetic": "sùu",
             "partOfSpeech": "preposition",
             "context": "Formal preposition used to indicate direction or destination",
             "examples": [
                 {
                     "original": "เดินทางสู่อนาคต",
                     "translation": "Journey towards the future",
-                    "phonetic": "dern-taang soo a-na-kot"
+                    "phonetic": "dəən-taang sùu à-náa-kót"
                 },
                 {
                     "original": "นำไปสู่ความสำเร็จ",
                     "translation": "Lead to success",
-                    "phonetic": "nam pai soo kwaam sam-ret"
+                    "phonetic": "nam bpai sùu kwaam sǎm-rèt"
                 }
             ]
         },
@@ -589,19 +589,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "neua",
+            "phonetic": "nǐua",
             "partOfSpeech": "preposition",
             "context": "Used to indicate a position above something or to the north",
             "examples": [
                 {
                     "original": "เชียงใหม่อยู่เหนือกรุงเทพ",
                     "translation": "Chiang Mai is north of Bangkok",
-                    "phonetic": "chiang-mai yoo neua krung-thep"
+                    "phonetic": "chiang-mài yùu nǐua grung-têep"
                 },
                 {
                     "original": "นกบินเหนือบ้าน",
                     "translation": "Birds fly over the house",
-                    "phonetic": "nok bin neua baan"
+                    "phonetic": "nók bin nǐua bâan"
                 }
             ]
         },
@@ -622,19 +622,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "tang-tae",
+            "phonetic": "dtâng-dtɛ̀ɛ",
             "partOfSpeech": "preposition",
             "context": "Used to indicate the beginning of a time period",
             "examples": [
                 {
                     "original": "ฉันอยู่ที่นี่ตั้งแต่เช้า",
                     "translation": "I have been here since morning",
-                    "phonetic": "chan yoo tee-nee tang-tae chao"
+                    "phonetic": "chǎn yùu têe-née dtâng-dtɛ̀ɛ châao"
                 },
                 {
                     "original": "เขาทำงานที่นี่ตั้งแต่ปีที่แล้ว",
                     "translation": "He has worked here since last year",
-                    "phonetic": "kao tam-ngaan tee-nee tang-tae pee tee laew"
+                    "phonetic": "kǎo tam-ngaan têe-née dtâng-dtɛ̀ɛ bpii têe láew"
                 }
             ]
         },
@@ -655,19 +655,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "taam",
+            "phonetic": "dtaam",
             "partOfSpeech": "preposition",
             "context": "Used to indicate following or according to something",
             "examples": [
                 {
                     "original": "เดินตามถนน",
                     "translation": "Walk along the road",
-                    "phonetic": "dern taam ta-non"
+                    "phonetic": "dəən dtaam tà-nǒn"
                 },
                 {
                     "original": "ทำตามคำแนะนำ",
                     "translation": "Follow the instructions",
-                    "phonetic": "tam taam kam-nae-nam"
+                    "phonetic": "tam dtaam kam-nɛ́-nam"
                 }
             ]
         }

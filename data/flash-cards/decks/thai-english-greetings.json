@@ -23,19 +23,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "sa-wat-dee",
+            "phonetic": "sà-wàt-dii",
             "partOfSpeech": "phrase",
             "context": "General greeting used throughout the day",
             "examples": [
                 {
                     "original": "สวัสดีครับ",
                     "translation": "Hello (♂)",
-                    "phonetic": "sa-wat-dee krap"
+                    "phonetic": "sà-wàt-dii kráp"
                 },
                 {
                     "original": "สวัสดีค่ะ",
                     "translation": "Hello (♀)",
-                    "phonetic": "sa-wat-dee ka"
+                    "phonetic": "sà-wàt-dii kâ"
                 }
             ]
         },
@@ -56,18 +56,18 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "khop-khun",
+            "phonetic": "kɔ̀p-kun",
             "partOfSpeech": "phrase",
             "examples": [
                 {
                     "original": "ขอบคุณมาก",
                     "translation": "Thank you very much",
-                    "phonetic": "khop-khun maak"
+                    "phonetic": "kɔ̀p-kun mâak"
                 },
                 {
                     "original": "ขอบคุณครับ",
                     "translation": "Thank you (♂)",
-                    "phonetic": "khop-khun krap"
+                    "phonetic": "kɔ̀p-kun kráp"
                 }
             ]
         },
@@ -88,19 +88,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "laa-gorn",
+            "phonetic": "laa-gɔ̀ɔn",
             "partOfSpeech": "phrase",
             "context": "Used when parting ways",
             "examples": [
                 {
                     "original": "ลาก่อนนะ",
                     "translation": "Goodbye (with softening particle)",
-                    "phonetic": "laa-gorn na"
+                    "phonetic": "laa-gɔ̀ɔn ná"
                 },
                 {
                     "original": "ลาก่อนแล้วพบกันใหม่",
                     "translation": "Goodbye and see you again",
-                    "phonetic": "laa-gorn laew pop gan mai"
+                    "phonetic": "laa-gɔ̀ɔn láew pɔ́p gan mài"
                 }
             ]
         },
@@ -121,19 +121,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "sa-bai-dee mai",
+            "phonetic": "sà-baai-dii mǎi",
             "partOfSpeech": "phrase",
             "context": "Common greeting after initial hello",
             "examples": [
                 {
                     "original": "สบายดีไหมครับ",
                     "translation": "How are you? (♂)",
-                    "phonetic": "sa-bai-dee mai krap"
+                    "phonetic": "sà-baai-dii mǎi kráp"
                 },
                 {
                     "original": "คุณสบายดีไหม",
                     "translation": "Are you well?",
-                    "phonetic": "khun sa-bai-dee mai"
+                    "phonetic": "kun sà-baai-dii mǎi"
                 }
             ]
         },
@@ -154,19 +154,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "sa-bai-dee",
+            "phonetic": "sà-baai-dii",
             "partOfSpeech": "phrase",
             "context": "Common response to 'How are you?'",
             "examples": [
                 {
                     "original": "สบายดีครับ",
                     "translation": "I'm fine (♂)",
-                    "phonetic": "sa-bai-dee krap"
+                    "phonetic": "sà-baai-dii kráp"
                 },
                 {
                     "original": "สบายดีค่ะ คุณล่ะ",
                     "translation": "I'm fine, and you? (♀)",
-                    "phonetic": "sa-bai-dee ka, khun la"
+                    "phonetic": "sà-baai-dii kâ, kun lâ"
                 }
             ]
         },
@@ -187,19 +187,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "yin-dee tee dai roo-jak",
+            "phonetic": "yin-dii têe dâai rúu-jàk",
             "partOfSpeech": "phrase",
             "context": "Used when meeting someone for the first time",
             "examples": [
                 {
                     "original": "ยินดีที่ได้รู้จักครับ",
                     "translation": "Nice to meet you (♂)",
-                    "phonetic": "yin-dee tee dai roo-jak krap"
+                    "phonetic": "yin-dii têe dâai rúu-jàk kráp"
                 },
                 {
                     "original": "ยินดีที่ได้รู้จักค่ะ",
                     "translation": "Nice to meet you (♀)",
-                    "phonetic": "yin-dee tee dai roo-jak ka"
+                    "phonetic": "yin-dii têe dâai rúu-jàk kâ"
                 }
             ]
         },
@@ -220,19 +220,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "chen-gan",
+            "phonetic": "chên-gan",
             "partOfSpeech": "phrase",
             "context": "Used to respond to 'Nice to meet you'",
             "examples": [
                 {
                     "original": "เช่นกันครับ",
                     "translation": "Likewise (♂)",
-                    "phonetic": "chen-gan krap"
+                    "phonetic": "chên-gan kráp"
                 },
                 {
                     "original": "ยินดีเช่นกันค่ะ",
                     "translation": "Nice to meet you too (♀)",
-                    "phonetic": "yin-dee chen-gan ka"
+                    "phonetic": "yin-dii chên-gan kâ"
                 }
             ]
         },
@@ -253,19 +253,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "cheu a-rai",
+            "phonetic": "chʉ̂ʉ à-rai",
             "partOfSpeech": "phrase",
             "context": "Used when asking someone's name",
             "examples": [
                 {
                     "original": "คุณชื่ออะไรครับ",
                     "translation": "What is your name? (♂)",
-                    "phonetic": "khun cheu a-rai krap"
+                    "phonetic": "kun chʉ̂ʉ à-rai kráp"
                 },
                 {
                     "original": "คุณชื่ออะไรค่ะ",
                     "translation": "What is your name? (♀)",
-                    "phonetic": "khun cheu a-rai ka"
+                    "phonetic": "kun chʉĂʉ à-rai kâ"
                 }
             ]
         },
@@ -286,19 +286,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "pom/chan cheu...",
+            "phonetic": "pǒm/chǎn chʉ̂ʉ...",
             "partOfSpeech": "phrase",
             "context": "Used when introducing yourself",
             "examples": [
                 {
                     "original": "ผมชื่อแจ็ค",
                     "translation": "My name is Jack (♂)",
-                    "phonetic": "pom cheu Jack"
+                    "phonetic": "pǒm chʉ̂ʉ Jack"
                 },
                 {
                     "original": "ฉันชื่อเอมี่",
                     "translation": "My name is Amy (♀)",
-                    "phonetic": "chan cheu Amy"
+                    "phonetic": "chǎn chʉ̂ʉ Amy"
                 }
             ]
         },
@@ -319,19 +319,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "laew jer gan",
+            "phonetic": "láew jəə gan",
             "partOfSpeech": "phrase",
             "context": "Casual way to say goodbye with expectation to meet again",
             "examples": [
                 {
                     "original": "แล้วเจอกันพรุ่งนี้",
                     "translation": "See you tomorrow",
-                    "phonetic": "laew jer gan proong-nee"
+                    "phonetic": "láew jəə gan prûng-née"
                 },
                 {
                     "original": "แล้วเจอกันใหม่นะ",
                     "translation": "See you again sometime",
-                    "phonetic": "laew jer gan mai na"
+                    "phonetic": "láew jəə gan mài ná"
                 }
             ]
         },
@@ -352,19 +352,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "pai gorn na",
+            "phonetic": "bpai gɔ̀ɔn ná",
             "partOfSpeech": "phrase",
             "context": "Casual phrase when departing",
             "examples": [
                 {
                     "original": "ฉันต้องไปก่อนนะ",
                     "translation": "I have to go now",
-                    "phonetic": "chan tong pai gorn na"
+                    "phonetic": "chǎn dtɔ̂ɔng bpai gɔ̀ɔn ná"
                 },
                 {
                     "original": "ไปก่อนนะ เดี๋ยวค่อยคุยกัน",
                     "translation": "I'm leaving now, we'll talk later",
-                    "phonetic": "pai gorn na, diao koi kui gan"
+                    "phonetic": "bpai gɔ̀ɔn ná, dǐao kôi kui gan"
                 }
             ]
         },
@@ -385,19 +385,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "kor-tote",
+            "phonetic": "kɔ̀ɔ-tôot",
             "partOfSpeech": "phrase",
             "context": "Used to apologize or get someone's attention",
             "examples": [
                 {
                     "original": "ขอโทษครับ ทางไปห้องน้ำอยู่ไหน",
                     "translation": "Excuse me, where is the bathroom? (♂)",
-                    "phonetic": "kor-tote krap, tang pai hong nam yu nai"
+                    "phonetic": "kɔ̀ɔ-tôot kráp, taang bpai hɔ̂ɔng náam yùu nǎi"
                 },
                 {
                     "original": "ขอโทษนะคะ ดิฉันมาสาย",
                     "translation": "I'm sorry I'm late (♀)",
-                    "phonetic": "kor-tote na ka, di-chan ma sai"
+                    "phonetic": "kɔ̀ɔ-tôot ná kâ, dì-chǎn maa sǎai"
                 }
             ]
         },
@@ -418,19 +418,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "mai pen rai",
+            "phonetic": "mâi bpen rai",
             "partOfSpeech": "phrase",
             "context": "Common response to an apology",
             "examples": [
                 {
                     "original": "ไม่เป็นไรครับ",
                     "translation": "It's okay (♂)",
-                    "phonetic": "mai pen rai krap"
+                    "phonetic": "mâi bpen rai kráp"
                 },
                 {
                     "original": "ไม่เป็นไรค่ะ ไม่ต้องกังวล",
                     "translation": "No problem, don't worry (♀)",
-                    "phonetic": "mai pen rai ka, mai tong gang-won"
+                    "phonetic": "mâi bpen rai kâ, mâi dtɔ̂ɔng gang-won"
                 }
             ]
         },
@@ -451,19 +451,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "khun pen yang-rai bang",
+            "phonetic": "kun bpen yang-rai bâang",
             "partOfSpeech": "phrase",
             "context": "Used when meeting someone you haven't seen for a while",
             "examples": [
                 {
                     "original": "คุณเป็นอย่างไรบ้างครับ",
                     "translation": "How have you been? (♂)",
-                    "phonetic": "khun pen yang-rai bang krap"
+                    "phonetic": "kun bpen yang-rai bâang kráp"
                 },
                 {
                     "original": "เธอเป็นอย่างไรบ้าง สบายดีไหม",
                     "translation": "How have you been? Are you well?",
-                    "phonetic": "ter pen yang-rai bang, sa-bai-dee mai"
+                    "phonetic": "təə bpen yang-rai bâang, sà-baai-dii mǎi"
                 }
             ]
         },
@@ -484,19 +484,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "dee-jai tee dai pop khun",
+            "phonetic": "dii-jai têe dâai pɔ́p kun",
             "partOfSpeech": "phrase",
             "context": "Used when meeting someone after some time",
             "examples": [
                 {
                     "original": "ดีใจที่ได้พบคุณอีกครั้ง",
                     "translation": "Glad to see you again",
-                    "phonetic": "dee-jai tee dai pop khun eek krang"
+                    "phonetic": "dii-jai têe dâai pɔ́p kun îk kráng"
                 },
                 {
                     "original": "ดีใจที่ได้พบคุณวันนี้",
                     "translation": "Glad to see you today",
-                    "phonetic": "dee-jai tee dai pop khun wan-nee"
+                    "phonetic": "dii-jai têe dâai pɔ́p kun wan-née"
                 }
             ]
         },
@@ -517,19 +517,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "khun ma jak nai",
+            "phonetic": "kun maa jàk nǎi",
             "partOfSpeech": "phrase",
             "context": "Common question when meeting someone new",
             "examples": [
                 {
                     "original": "คุณมาจากประเทศอะไรครับ",
                     "translation": "What country are you from? (♂)",
-                    "phonetic": "khun ma jak pra-tet a-rai krap"
+                    "phonetic": "kun maa jàk bprà-têet à-rai kráp"
                 },
                 {
                     "original": "คุณมาจากไหนคะ",
                     "translation": "Where are you from? (♀)",
-                    "phonetic": "khun ma jak nai ka"
+                    "phonetic": "kun maa jàk nǎi kâ"
                 }
             ]
         },
@@ -550,19 +550,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "pom/chan ma jak...",
+            "phonetic": "pǒm/chǎn maa jàk...",
             "partOfSpeech": "phrase",
             "context": "Response to 'Where are you from?'",
             "examples": [
                 {
                     "original": "ผมมาจากอเมริกา",
                     "translation": "I am from America (♂)",
-                    "phonetic": "pom ma jak a-me-ri-ka"
+                    "phonetic": "pǒm maa jàk à-mee-rí-gaa"
                 },
                 {
                     "original": "ฉันมาจากออสเตรเลีย",
                     "translation": "I am from Australia (♀)",
-                    "phonetic": "chan ma jak aw-sa-tre-lia"
+                    "phonetic": "chǎn maa jàk ɔɔ-sà-dtree-lia"
                 }
             ]
         },
@@ -583,19 +583,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "pop gan mai",
+            "phonetic": "pɔ́p gan mài",
             "partOfSpeech": "phrase",
             "context": "More formal way to say you hope to meet again",
             "examples": [
                 {
                     "original": "หวังว่าจะได้พบกันใหม่",
                     "translation": "Hope to see you again",
-                    "phonetic": "wang wa ja dai pop gan mai"
+                    "phonetic": "wǎng wâa jà dâai pɔ́p gan mài"
                 },
                 {
                     "original": "พบกันใหม่เร็วๆนี้นะ",
                     "translation": "See you again soon",
-                    "phonetic": "pop gan mai reo-reo nee na"
+                    "phonetic": "pɔ́p gan mài reo-reo née ná"
                 }
             ]
         },
@@ -616,19 +616,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "khun pood pa-sa ang-krit dai mai",
+            "phonetic": "kun pût paa-sǎa ang-grìt dâai mǎi",
             "partOfSpeech": "phrase",
             "context": "Useful when trying to communicate in a foreign country",
             "examples": [
                 {
                     "original": "คุณพูดภาษาอังกฤษได้ไหมครับ",
                     "translation": "Do you speak English? (♂)",
-                    "phonetic": "khun pood pa-sa ang-krit dai mai krap"
+                    "phonetic": "kun pût paa-sǎa ang-grìt dâai mǎi kráp"
                 },
                 {
                     "original": "มีใครที่นี่พูดภาษาอังกฤษได้บ้าง",
                     "translation": "Does anyone here speak English?",
-                    "phonetic": "mee krai tee nee pood pa-sa ang-krit dai bang"
+                    "phonetic": "mii krai têe née pût paa-sǎa ang-grìt dâai bâang"
                 }
             ]
         },
@@ -649,19 +649,19 @@
             "difficulty": "hard",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "pom/chan pood pa-sa thai dai nit-noi",
+            "phonetic": "pǒm/chǎn pût paa-sǎa tai dâai nít-nɔ́i",
             "partOfSpeech": "phrase",
             "context": "Useful phrase for tourists in Thailand",
             "examples": [
                 {
                     "original": "ผมพูดภาษาไทยได้นิดหน่อยครับ",
                     "translation": "I speak a little Thai (♂)",
-                    "phonetic": "pom pood pa-sa thai dai nit-noi krap"
+                    "phonetic": "pǒm pût paa-sǎa tai dâai nít-nɔ́i kráp"
                 },
                 {
                     "original": "ฉันพูดภาษาไทยไม่คล่อง",
                     "translation": "I don't speak Thai fluently (♀)",
-                    "phonetic": "chan pood pa-sa thai mai klong"
+                    "phonetic": "chǎn pût paa-sǎa tai mâi klɔ̂ɔng"
                 }
             ]
         }

@@ -23,19 +23,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "khaao (mid tone) / khàao (low tone)",
+            "phonetic": "kǎao (mid tone) / kàao (low tone)",
             "partOfSpeech": "adjective/noun",
             "context": "These common words differ only in tone - mid vs low",
             "examples": [
                 {
                     "original": "เสื้อขาว",
                     "translation": "White shirt",
-                    "phonetic": "seua khaao"
+                    "phonetic": "sʉ̂a kǎao"
                 },
                 {
                     "original": "ข่าวเช้า",
                     "translation": "Morning news",
-                    "phonetic": "khàao chao"
+                    "phonetic": "kàao châao"
                 }
             ]
         },
@@ -56,19 +56,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "seua (mid tone) / sèua (low tone)",
+            "phonetic": "sʉ̌a (mid tone) / sèua (low tone)",
             "partOfSpeech": "noun/noun",
             "context": "These words differ only in tone - mid vs low",
             "examples": [
                 {
                     "original": "เสือดุร้าย",
                     "translation": "Fierce tiger",
-                    "phonetic": "seua du-raai"
+                    "phonetic": "sʉ̌a dù-râai"
                 },
                 {
                     "original": "เสื่อผืนนี้",
                     "translation": "This mat",
-                    "phonetic": "sèua pheun nee"
+                    "phonetic": "sèua pʉ̌ʉn née"
                 }
             ]
         },
@@ -89,19 +89,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "maa (mid tone) / máa (falling tone)",
+            "phonetic": "maa (mid tone) / mâa (falling tone)",
             "partOfSpeech": "verb/noun",
             "context": "These words differ only in tone - mid vs falling",
             "examples": [
                 {
                     "original": "เขามาแล้ว",
                     "translation": "He has come",
-                    "phonetic": "khao maa laew"
+                    "phonetic": "kǎo maa láew"
                 },
                 {
                     "original": "ม้าสีขาว",
                     "translation": "White horse",
-                    "phonetic": "máa see khaao"
+                    "phonetic": "mâa sǐi kǎao"
                 }
             ]
         },
@@ -129,12 +129,12 @@
                 {
                     "original": "ไปด้วยกันไหม",
                     "translation": "Will you go together?",
-                    "phonetic": "pai duay kan mǎi"
+                    "phonetic": "bpai dûay gan mǎi"
                 },
                 {
                     "original": "บ้านไหม้หมด",
                     "translation": "The house completely burned",
-                    "phonetic": "baan mâi mot"
+                    "phonetic": "bâan mâi mòt"
                 }
             ]
         },
@@ -154,19 +154,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "kèng / kreng",
+            "phonetic": "gèng / greeng",
             "partOfSpeech": "adjective/verb",
             "context": "These words differ in the presence of an 'r' sound",
             "examples": [
                 {
                     "original": "เขาเก่งมาก",
                     "translation": "He is very skilled",
-                    "phonetic": "khao kèng maak"
+                    "phonetic": "kǎo gèng mâak"
                 },
                 {
                     "original": "เกรงใจเขา",
                     "translation": "To be considerate of him",
-                    "phonetic": "kreng jai khao"
+                    "phonetic": "greeng jai kǎo"
                 }
             ]
         },
@@ -187,19 +187,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "kaao (mid tone) / káao (falling tone)",
+            "phonetic": "gaao (mid tone) / gâao (falling tone)",
             "partOfSpeech": "noun/verb",
             "context": "These words differ only in tone - mid vs falling",
             "examples": [
                 {
                     "original": "ซื้อกาวมา",
                     "translation": "Bought glue",
-                    "phonetic": "seu kaao maa"
+                    "phonetic": "sǐu gaao maa"
                 },
                 {
                     "original": "ก้าวเดิน",
                     "translation": "Take steps",
-                    "phonetic": "káao dern"
+                    "phonetic": "gâao dəən"
                 }
             ]
         },
@@ -219,19 +219,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "klâi / klai",
+            "phonetic": "glâi / glai",
             "partOfSpeech": "adverb/adverb",
             "context": "These opposite words sound very similar and are often confused",
             "examples": [
                 {
                     "original": "บ้านใกล้ตลาด",
                     "translation": "House near the market",
-                    "phonetic": "baan klâi talaat"
+                    "phonetic": "bâan glâi dtà-làat"
                 },
                 {
                     "original": "ไกลจากที่นี่",
                     "translation": "Far from here",
-                    "phonetic": "klai jaak tee-nee"
+                    "phonetic": "glai jàak têe-née"
                 }
             ]
         },
@@ -251,14 +251,14 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "pûut (long vowel) / pút (short vowel)",
+            "phonetic": "pût (long vowel) / pút (short vowel)",
             "partOfSpeech": "verb/noun",
             "context": "These words differ in vowel length - long vs short u sound",
             "examples": [
                 {
                     "original": "พูดให้ดังๆ",
                     "translation": "Speak louder",
-                    "phonetic": "pûut hâi dang-dang"
+                    "phonetic": "pût hâi dang-dang"
                 },
                 {
                     "original": "วันพุธหน้า",
@@ -290,12 +290,12 @@
                 {
                     "original": "มัดกล่อง",
                     "translation": "Tie the box",
-                    "phonetic": "mát klàwng"
+                    "phonetic": "mát glòng"
                 },
                 {
                     "original": "มาดเท่",
                     "translation": "Cool appearance",
-                    "phonetic": "mâat tâe"
+                    "phonetic": "mâat têe"
                 }
             ]
         },
@@ -323,7 +323,7 @@
                 {
                     "original": "หาของ",
                     "translation": "Look for things",
-                    "phonetic": "hǎa khǒng"
+                    "phonetic": "hǎa kɔ̌ɔng"
                 },
                 {
                     "original": "ห้าคน",
@@ -385,7 +385,7 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "pîi / phǐi",
+            "phonetic": "pîi / pǐi",
             "partOfSpeech": "noun/noun",
             "context": "These words differ in initial consonant (p vs ph) but both have long vowels",
             "examples": [
@@ -397,7 +397,7 @@
                 {
                     "original": "ผีดิบ",
                     "translation": "Zombie",
-                    "phonetic": "phǐi dìp"
+                    "phonetic": "pǐi dìp"
                 }
             ]
         },
@@ -417,19 +417,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "plaa / phlaa",
+            "phonetic": "bplaa / pǐlaa",
             "partOfSpeech": "noun/noun",
             "context": "These words differ in initial consonant (p vs ph) in a consonant cluster",
             "examples": [
                 {
                     "original": "ปลาทอด",
                     "translation": "Fried fish",
-                    "phonetic": "plaa thôt"
+                    "phonetic": "bplaa tôɔt"
                 },
                 {
                     "original": "พลากุ้ง",
                     "translation": "Spicy shrimp salad",
-                    "phonetic": "phlaa kûng"
+                    "phonetic": "pǐlaa gûng"
                 }
             ]
         },
@@ -449,19 +449,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "lêuak / lěua",
+            "phonetic": "lʉ̂ak / lǐua",
             "partOfSpeech": "verb/verb",
             "context": "Similar-sounding words with different initial consonants and final sounds",
             "examples": [
                 {
                     "original": "เลือกซื้อของ",
                     "translation": "Choose to buy things",
-                    "phonetic": "lêuak séu khǒng"
+                    "phonetic": "lʉ̂ak sǐu kɔ̌ɔng"
                 },
                 {
                     "original": "เหลือเยอะ",
                     "translation": "A lot remains",
-                    "phonetic": "lěua yə́"
+                    "phonetic": "lǐua yə́"
                 }
             ]
         },
@@ -521,12 +521,12 @@
                 {
                     "original": "จับมือ",
                     "translation": "Hold hands",
-                    "phonetic": "jàp meu"
+                    "phonetic": "jàp mʉʉ"
                 },
                 {
                     "original": "จาบจ้วง",
                     "translation": "To be disrespectful",
-                    "phonetic": "jàap júang"
+                    "phonetic": "jàap jûang"
                 }
             ]
         },
@@ -546,19 +546,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "pìt (short vowel) / pìit (long vowel)",
+            "phonetic": "bpìt (short vowel) / bpîdt (long vowel)",
             "partOfSpeech": "verb/noun",
             "context": "These words differ in vowel length - short vs long i sound",
             "examples": [
                 {
                     "original": "ปิดประตู",
                     "translation": "Close the door",
-                    "phonetic": "pìt pra-too"
+                    "phonetic": "bpìt bprà-dtuu"
                 },
                 {
                     "original": "แมลงปีด",
                     "translation": "Beetle",
-                    "phonetic": "ma-leng pìit"
+                    "phonetic": "mà-leeng bpîdt"
                 }
             ]
         },
@@ -578,19 +578,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "phaeng / phàeng",
+            "phonetic": "pɛɛng / pɛ̀ɛng",
             "partOfSpeech": "adjective/noun",
             "context": "Words with similar pronunciation that differ in initial consonant and tone",
             "examples": [
                 {
                     "original": "ราคาแพงมาก",
                     "translation": "Very expensive price",
-                    "phonetic": "raa-kaa phaeng mâak"
+                    "phonetic": "raa-kaa pɛɛng mâak"
                 },
                 {
                     "original": "แผงลอย",
                     "translation": "Street stall",
-                    "phonetic": "phàeng loi"
+                    "phonetic": "pɛ̀ɛng loi"
                 }
             ]
         },
@@ -610,19 +610,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "bao / plào",
+            "phonetic": "bao / bplào",
             "partOfSpeech": "adjective/adjective",
             "context": "Words that differ in consonant structure but sound somewhat similar",
             "examples": [
                 {
                     "original": "กระเป๋าเบามาก",
                     "translation": "The bag is very light",
-                    "phonetic": "kra-pǎo bao mâak"
+                    "phonetic": "grà-bpǎao bao mâak"
                 },
                 {
                     "original": "แก้วเปล่า",
                     "translation": "Empty glass",
-                    "phonetic": "kâew plào"
+                    "phonetic": "gɛ̂o bplào"
                 }
             ]
         },
@@ -642,19 +642,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "klong / krong",
+            "phonetic": "klɔɔng / grɔɔng",
             "partOfSpeech": "noun/verb",
             "context": "Words with different consonant clusters kl vs kr",
             "examples": [
                 {
                     "original": "เรือในคลอง",
                     "translation": "Boat in the canal",
-                    "phonetic": "reua nai klong"
+                    "phonetic": "rʉ̌a nai klɔɔng"
                 },
                 {
                     "original": "ครองราชย์",
                     "translation": "To reign",
-                    "phonetic": "krong râat"
+                    "phonetic": "grɔɔng râat"
                 }
             ]
         }

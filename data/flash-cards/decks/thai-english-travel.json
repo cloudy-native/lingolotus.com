@@ -23,19 +23,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "sa-nam-bin yu tee nai",
+            "phonetic": "sà-nǎam-bin yùu têe nǎi",
             "partOfSpeech": "question",
             "context": "Used to ask directions to the airport",
             "examples": [
                 {
                     "original": "สนามบินสุวรรณภูมิอยู่ที่ไหนครับ",
                     "translation": "Where is Suvarnabhumi Airport? (♂)",
-                    "phonetic": "sa-nam-bin su-wan-na-poom yu tee nai krap"
+                    "phonetic": "sà-nǎam-bin sù-wan-ná-puum yùu têe nǎi kráp"
                 },
                 {
                     "original": "ไปสนามบินทางไหนคะ",
                     "translation": "Which way to the airport? (♀)",
-                    "phonetic": "pai sa-nam-bin tang nai ka"
+                    "phonetic": "bpai sà-nǎam-bin taang nǎi kâ"
                 }
             ]
         },
@@ -56,19 +56,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "sa-ta-nee rot-fai yu tee nai",
+            "phonetic": "sà-tǎa-nii rót-fai yùu têe nǎi",
             "partOfSpeech": "question",
             "context": "Used to ask directions to the train station",
             "examples": [
                 {
                     "original": "สถานีรถไฟหัวลำโพงอยู่ที่ไหนครับ",
                     "translation": "Where is Hua Lamphong train station? (♂)",
-                    "phonetic": "sa-ta-nee rot-fai hua-lam-pong yu tee nai krap"
+                    "phonetic": "sà-tǎa-nii rót-fai hǔa-lam-poong yùu têe nǎi kráp"
                 },
                 {
                     "original": "ถามหน่อยค่ะ สถานีรถไฟไปทางไหน",
                     "translation": "Excuse me, which way to the train station? (♀)",
-                    "phonetic": "tam noi ka, sa-ta-nee rot-fai pai tang nai"
+                    "phonetic": "tǎam nɔ̀i kâ, sà-tǎa-nii rót-fai bpai taang nǎi"
                 }
             ]
         },
@@ -89,19 +89,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "pai rong-raem nee dai mai",
+            "phonetic": "bpai roong-rɛɛm née dâai mǎi",
             "partOfSpeech": "question",
             "context": "Used when asking a taxi driver to go to your hotel",
             "examples": [
                 {
                     "original": "คุณขับรถไปโรงแรมนี้ได้ไหมครับ",
                     "translation": "Can you drive to this hotel? (♂)",
-                    "phonetic": "khun kap rot pai rong-raem nee dai mai krap"
+                    "phonetic": "kun kàp rót bpai roong-rɛɛm née dâai mǎi kráp"
                 },
                 {
                     "original": "ช่วยพาฉันไปที่นี่ได้ไหมคะ",
                     "translation": "Can you help take me to this place? (♀)",
-                    "phonetic": "chuay pa chan pai tee nee dai mai ka"
+                    "phonetic": "chûay paa chǎn bpai têe née dâai mǎi kâ"
                 }
             ]
         },
@@ -122,19 +122,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "ra-ka tua tao-rai",
+            "phonetic": "raa-kaa dtǔa tâo-rai",
             "partOfSpeech": "question",
             "context": "Used when asking about ticket prices for transportation",
             "examples": [
                 {
                     "original": "ตั๋วรถไฟไปเชียงใหม่ราคาเท่าไรครับ",
                     "translation": "How much is a train ticket to Chiang Mai? (♂)",
-                    "phonetic": "tua rot-fai pai chiang-mai ra-ka tao-rai krap"
+                    "phonetic": "dtǔa rót-fai bpai chiang-mài raa-kaa tâo-rai kráp"
                 },
                 {
                     "original": "ตั๋วเครื่องบินไป-กลับราคาเท่าไรคะ",
                     "translation": "How much is a round-trip plane ticket? (♀)",
-                    "phonetic": "tua kruang-bin pai-glap ra-ka tao-rai ka"
+                    "phonetic": "dtǔa krʉ̂ang-bin bpai-glàp raa-kaa tâo-rai kâ"
                 }
             ]
         },
@@ -155,19 +155,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "hong-nam yu tee nai",
+            "phonetic": "hɔ̂ɔng-náam yùu têe nǎi",
             "partOfSpeech": "question",
             "context": "Essential phrase for finding restrooms while traveling",
             "examples": [
                 {
                     "original": "ขอโทษครับ ห้องน้ำอยู่ที่ไหน",
                     "translation": "Excuse me, where is the bathroom? (♂)",
-                    "phonetic": "kor-tote krap, hong-nam yu tee nai"
+                    "phonetic": "kɔ̀ɔ-tôot kráp, hɔ̂ɔng-náam yùu têe nǎi"
                 },
                 {
                     "original": "ห้องน้ำหญิงอยู่ทางไหนคะ",
                     "translation": "Which way to the women's restroom? (♀)",
-                    "phonetic": "hong-nam ying yu tang nai ka"
+                    "phonetic": "hɔ̂ɔng-náam yǐng yùu taang nǎi kâ"
                 }
             ]
         },
@@ -188,19 +188,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "mee hong wang mai",
+            "phonetic": "mii hɔ̂ɔng wâang mǎi",
             "partOfSpeech": "question",
             "context": "Used when checking for room availability at hotels",
             "examples": [
                 {
                     "original": "คืนนี้มีห้องว่างไหมครับ",
                     "translation": "Do you have any vacant rooms tonight? (♂)",
-                    "phonetic": "keun nee mee hong wang mai krap"
+                    "phonetic": "kʉʉn née mii hɔ̂ɔng wâang mǎi kráp"
                 },
                 {
                     "original": "มีห้องพักสำหรับสองคนไหมคะ",
                     "translation": "Do you have a room for two people? (♀)",
-                    "phonetic": "mee hong pak sam-rap song kon mai ka"
+                    "phonetic": "mii hɔ̂ɔng pák sǎm-ràp sɔ̌ɔng kon mǎi kâ"
                 }
             ]
         },
@@ -221,19 +221,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "pai tee nee tao-rai",
+            "phonetic": "bpai têe née tâo-rai",
             "partOfSpeech": "question",
             "context": "Used when asking taxi drivers or tuk-tuk drivers about the fare",
             "examples": [
                 {
                     "original": "ไปวัดพระแก้วเท่าไรครับ",
                     "translation": "How much to go to the Emerald Buddha Temple? (♂)",
-                    "phonetic": "pai wat pra-gaew tao-rai krap"
+                    "phonetic": "bpai wát prá-gɛ̂o tâo-rai kráp"
                 },
                 {
                     "original": "ไปตลาดนัดจตุจักรราคาเท่าไรคะ",
                     "translation": "How much is the fare to Chatuchak Market? (♀)",
-                    "phonetic": "pai ta-lat nat ja-tu-jak ra-ka tao-rai ka"
+                    "phonetic": "bpai dtà-làat nát jà-dtù-jàk raa-kaa tâo-rai kâ"
                 }
             ]
         },
@@ -254,19 +254,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "pert gee mong",
+            "phonetic": "bpə̀ət gìi moong",
             "partOfSpeech": "question",
             "context": "Used when asking about opening hours of attractions",
             "examples": [
                 {
                     "original": "พระบรมมหาราชวังเปิดกี่โมงครับ",
                     "translation": "What time does the Grand Palace open? (♂)",
-                    "phonetic": "pra ba-rom ma-ha rat-cha-wang pert gee mong krap"
+                    "phonetic": "prá bà-rɔɔm má-hǎa rát-chá-wang bpə̀ət gìi moong kráp"
                 },
                 {
                     "original": "พิพิธภัณฑ์เปิดถึงกี่โมงคะ",
                     "translation": "Until what time is the museum open? (♀)",
-                    "phonetic": "pi-pit-ta-pan pert teung gee mong ka"
+                    "phonetic": "pí-pít-tà-pan bpə̀ət tʉ̌ng gìi moong kâ"
                 }
             ]
         },
@@ -287,19 +287,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "ka kao chom tao-rai",
+            "phonetic": "kâa kâao chɔɔm tâo-rai",
             "partOfSpeech": "question",
             "context": "Used when asking about admission fees to attractions",
             "examples": [
                 {
                     "original": "ค่าเข้าชมพิพิธภัณฑ์เท่าไรครับ",
                     "translation": "How much is the museum entrance fee? (♂)",
-                    "phonetic": "ka kao chom pi-pit-ta-pan tao-rai krap"
+                    "phonetic": "kâa kâao chɔɔm pí-pít-tà-pan tâo-rai kráp"
                 },
                 {
                     "original": "ชาวต่างชาติค่าเข้าเท่าไรคะ",
                     "translation": "How much is the entrance fee for foreigners? (♀)",
-                    "phonetic": "chao tang-chat ka kao tao-rai ka"
+                    "phonetic": "chaao dtàang-châat kâa kâao tâo-rai kâ"
                 }
             ]
         },
@@ -320,19 +320,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "chan long tang",
+            "phonetic": "chǎn lǒng taang",
             "partOfSpeech": "phrase",
             "context": "Important phrase to use when you are lost",
             "examples": [
                 {
                     "original": "ผมหลงทาง ช่วยบอกทางไปโรงแรมหน่อย",
                     "translation": "I am lost, please help me find the way to my hotel (♂)",
-                    "phonetic": "pom long tang, chuay bok tang pai rong-raem noi"
+                    "phonetic": "pǒm lǒng taang, chûay bɔ̀ɔk taang bpai roong-rɛɛm nɔ̀i"
                 },
                 {
                     "original": "ฉันหลงทางค่ะ ช่วยดูแผนที่นี้หน่อย",
                     "translation": "I am lost, can you help look at this map? (♀)",
-                    "phonetic": "chan long tang ka, chuay doo pan-tee nee noi"
+                    "phonetic": "chǎn lǒng taang kâ, chûay duu pɛ̌n-tîi née nɔ̀i"
                 }
             ]
         },
@@ -353,19 +353,19 @@
             "difficulty": "hard",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "rot-may pai tee nee mai-lek a-rai",
+            "phonetic": "rót-mê bpai têe née mǎai-lîk à-rai",
             "partOfSpeech": "question",
             "context": "Used when asking which bus to take to reach a destination",
             "examples": [
                 {
                     "original": "รถเมล์ไปจตุจักรสายอะไรครับ",
                     "translation": "Which bus line goes to Chatuchak? (♂)",
-                    "phonetic": "rot-may pai ja-tu-jak sai a-rai krap"
+                    "phonetic": "rót-mê bpai jà-dtù-jàk sǎai à-rai kráp"
                 },
                 {
                     "original": "รถเมล์สายไหนไปห้างสยามพารากอนคะ",
                     "translation": "Which bus line goes to Siam Paragon mall? (♀)",
-                    "phonetic": "rot-may sai nai pai hang sa-yam pa-ra-gon ka"
+                    "phonetic": "rót-mê sǎai nǎi bpai hâang sà-yaam páa-ráa-gɔɔn kâ"
                 }
             ]
         },
@@ -386,19 +386,19 @@
             "difficulty": "hard",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "rot-fai pai chiang-mai ork gee mong",
+            "phonetic": "rót-fai bpai chiang-mài ɔ̀ɔk gìi moong",
             "partOfSpeech": "question",
             "context": "Used when asking about train departure times",
             "examples": [
                 {
                     "original": "รถไฟไปหัวหินขบวนถัดไปออกกี่โมงครับ",
                     "translation": "What time does the next train to Hua Hin depart? (♂)",
-                    "phonetic": "rot-fai pai hua-hin ka-buan tat-pai ork gee mong krap"
+                    "phonetic": "rót-fai bpai hǔa-hǐn kà-buan tàt-bpai ɔ̀ɔk gìi moong kráp"
                 },
                 {
                     "original": "รถไฟไปอยุธยาออกเวลาไหนบ้างคะ",
                     "translation": "What are the departure times for trains to Ayutthaya? (♀)",
-                    "phonetic": "rot-fai pai a-yut-ta-ya ork we-la nai bang ka"
+                    "phonetic": "rót-fai bpai à-yút-tà-yaa ɔ̀ɔk wee-laa nǎi bâang kâ"
                 }
             ]
         },
@@ -419,19 +419,19 @@
             "difficulty": "hard",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "mee a-han mang-sa-wi-rat mai",
+            "phonetic": "mii aa-hǎan mang-sà-wí-rát mǎi",
             "partOfSpeech": "question",
             "context": "Used when looking for vegetarian food options",
             "examples": [
                 {
                     "original": "ร้านนี้มีอาหารมังสวิรัติไหมครับ",
                     "translation": "Does this restaurant have vegetarian food? (♂)",
-                    "phonetic": "ran nee mee a-han mang-sa-wi-rat mai krap"
+                    "phonetic": "ráan née mii aa-hǎan mang-sà-wí-rát mǎi kráp"
                 },
                 {
                     "original": "ฉันทานเจ มีอาหารเจไหมคะ",
                     "translation": "I eat vegan food, do you have vegan options? (♀)",
-                    "phonetic": "chan tan jay, mee a-han jay mai ka"
+                    "phonetic": "chǎn taan jee, mii aa-hǎan jee mǎi kâ"
                 }
             ]
         },
@@ -452,19 +452,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "an nai a-roi",
+            "phonetic": "an nǎi à-ròi",
             "partOfSpeech": "question",
             "context": "Used when asking for food recommendations",
             "examples": [
                 {
                     "original": "แนะนำอาหารที่อร่อยหน่อยครับ",
                     "translation": "Please recommend some delicious food (♂)",
-                    "phonetic": "nae-nam a-han tee a-roi noi krap"
+                    "phonetic": "nɛ́-nam aa-hǎan têe à-ròi nɔ̀i kráp"
                 },
                 {
                     "original": "เมนูไหนเป็นอาหารพื้นเมืองที่อร่อยคะ",
                     "translation": "Which menu items are delicious local specialties? (♀)",
-                    "phonetic": "me-nu nai pen a-han peun-muang tee a-roi ka"
+                    "phonetic": "mee-nuu nǎi bpen aa-hǎan pʉ̂ʉn-mʉang têe à-ròi kâ"
                 }
             ]
         },
@@ -485,19 +485,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "ao mai pet",
+            "phonetic": "ao mâi pèt",
             "partOfSpeech": "phrase",
             "context": "Important phrase for those who cannot eat spicy food",
             "examples": [
                 {
                     "original": "ขอไม่เผ็ดนะครับ",
                     "translation": "I'd like it not spicy, please (♂)",
-                    "phonetic": "kor mai pet na krap"
+                    "phonetic": "kɔ̀ɔ mâi pèt ná kráp"
                 },
                 {
                     "original": "ฉันทานเผ็ดไม่ได้ ขอไม่เผ็ดค่ะ",
                     "translation": "I cannot eat spicy food, no spice please (♀)",
-                    "phonetic": "chan tan pet mai dai, kor mai pet ka"
+                    "phonetic": "chǎn taan pèt mâi dâai, kɔ̀ɔ mâi pèt kâ"
                 }
             ]
         },
@@ -518,19 +518,19 @@
             "difficulty": "hard",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "chan pae a-han ta-le",
+            "phonetic": "chǎn pɛ́ aa-hǎan tá-lee",
             "partOfSpeech": "phrase",
             "context": "Important health information for those with allergies",
             "examples": [
                 {
                     "original": "ผมแพ้กุ้ง ปลา และปู",
                     "translation": "I am allergic to shrimp, fish, and crab (♂)",
-                    "phonetic": "pom pae gung, pla lae poo"
+                    "phonetic": "pǒm pɛ́ gûng, bplaa lɛ́ bpuu"
                 },
                 {
                     "original": "ฉันแพ้ถั่วอย่างรุนแรง",
                     "translation": "I have a severe peanut allergy (♀)",
-                    "phonetic": "chan pae tua yang run-raeng"
+                    "phonetic": "chǎn pɛ́ tùa yaang run-rɛɛng"
                 }
             ]
         },
@@ -551,19 +551,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "riak taek-see hai noi",
+            "phonetic": "rîak tɛ́k-sîi hâi nɔ̀i",
             "partOfSpeech": "phrase",
             "context": "Used when asking hotel staff to help get a taxi",
             "examples": [
                 {
                     "original": "ช่วยเรียกแท็กซี่ให้ผมหน่อยครับ",
                     "translation": "Please help call a taxi for me (♂)",
-                    "phonetic": "chuay riak taek-see hai pom noi krap"
+                    "phonetic": "chûay rîak tɛ́k-sîi hâi pǒm nɔ̀i kráp"
                 },
                 {
                     "original": "ขอให้ช่วยจองแท็กซี่ไปสนามบินค่ะ",
                     "translation": "Could you please book a taxi to the airport? (♀)",
-                    "phonetic": "kor hai chuay jong taek-see pai sa-nam-bin ka"
+                    "phonetic": "kɔ̀ɔ hâi chûay jɔɔng tɛ́k-sîi bpai sà-nǎam-bin kâ"
                 }
             ]
         },
@@ -584,19 +584,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "chan tong-gan kwam chuay-lue",
+            "phonetic": "chǎn dtɔ̂ɔng-gaan kwaam chûay-lʉ̌a",
             "partOfSpeech": "phrase",
             "context": "Essential phrase for emergency situations",
             "examples": [
                 {
                     "original": "ผมต้องการความช่วยเหลือ กระเป๋าหาย",
                     "translation": "I need help, my bag is missing (♂)",
-                    "phonetic": "pom tong-gan kwam chuay-lue, kra-pao hai"
+                    "phonetic": "pǒm dtɔ̂ɔng-gaan kwaam chûay-lʉ̌a, grà-bpǎao hǎai"
                 },
                 {
                     "original": "ช่วยด้วยค่ะ ฉันต้องการความช่วยเหลือ",
                     "translation": "Help please, I need assistance (♀)",
-                    "phonetic": "chuay duay ka, chan tong-gan kwam chuay-lue"
+                    "phonetic": "chûay dûay kâ, chǎn dtɔ̂ɔng-gaan kwaam chûay-lʉ̌a"
                 }
             ]
         },
@@ -617,19 +617,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "chan ma jak a-me-ri-ka",
+            "phonetic": "chǎn maa jàk à-mee-rí-gaa",
             "partOfSpeech": "phrase",
             "context": "Used when telling locals where you're from",
             "examples": [
                 {
                     "original": "ผมมาจากแคนาดาครับ",
                     "translation": "I am from Canada (♂)",
-                    "phonetic": "pom ma jak kae-na-da krap"
+                    "phonetic": "pǒm maa jàk kɛɛ-náa-daa kráp"
                 },
                 {
                     "original": "ฉันเป็นนักท่องเที่ยวจากออสเตรเลียค่ะ",
                     "translation": "I am a tourist from Australia (♀)",
-                    "phonetic": "chan pen nak-tong-tiao jak aw-sa-tre-lia ka"
+                    "phonetic": "chǎn bpen nák-tɔ̂ɔng-têao jàk ɔɔ-sà-dtree-lia kâ"
                 }
             ]
         },
@@ -650,19 +650,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "tai roop dai mai",
+            "phonetic": "tàai rûup dâai mǎi",
             "partOfSpeech": "question",
             "context": "Used when asking permission to take photographs",
             "examples": [
                 {
                     "original": "ขอถ่ายรูปกับคุณได้ไหมครับ",
                     "translation": "May I take a photo with you? (♂)",
-                    "phonetic": "kor tai roop gap khun dai mai krap"
+                    "phonetic": "kɔ̀ɔ tàai rûup gàp kun dâai mǎi kráp"
                 },
                 {
                     "original": "ที่นี่ถ่ายรูปได้ไหมคะ",
                     "translation": "Is photography allowed here? (♀)",
-                    "phonetic": "tee nee tai roop dai mai ka"
+                    "phonetic": "têe née tàai rûup dâai mǎi kâ"
                 }
             ]
         }

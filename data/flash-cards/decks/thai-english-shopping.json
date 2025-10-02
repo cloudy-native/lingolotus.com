@@ -23,19 +23,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "nee ra-ka tao-rai",
+            "phonetic": "nîi raa-kaa tâo-rai",
             "partOfSpeech": "question",
             "context": "Basic phrase for asking the price of an item",
             "examples": [
                 {
                     "original": "นี่ราคาเท่าไรครับ",
                     "translation": "How much is this? (♂)",
-                    "phonetic": "nee ra-ka tao-rai krap"
+                    "phonetic": "nîi raa-kaa tâo-rai kráp"
                 },
                 {
                     "original": "อันนี้ราคาเท่าไรคะ",
                     "translation": "How much is this one? (♀)",
-                    "phonetic": "an-nee ra-ka tao-rai ka"
+                    "phonetic": "an-nîi raa-kaa tâo-rai kâ"
                 }
             ]
         },
@@ -56,19 +56,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "lot ra-ka dai mai",
+            "phonetic": "lót raa-kaa dâai mǎi",
             "partOfSpeech": "question",
             "context": "Used for bargaining at markets or stores",
             "examples": [
                 {
                     "original": "ลดราคาให้หน่อยได้ไหมครับ",
                     "translation": "Can you give me a little discount? (♂)",
-                    "phonetic": "lot ra-ka hai noi dai mai krap"
+                    "phonetic": "lót raa-kaa hâi nɔ̀i dâai mǎi kráp"
                 },
                 {
                     "original": "ซื้อสองชิ้น ลดราคาได้ไหมคะ",
                     "translation": "If I buy two pieces, can you give me a discount? (♀)",
-                    "phonetic": "seu song chin, lot ra-ka dai mai ka"
+                    "phonetic": "sǐu sɔ̌ɔng chín, lót raa-kaa dâai mǎi kâ"
                 }
             ]
         },
@@ -89,19 +89,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "ra-ka nee paeng gern pai",
+            "phonetic": "raa-kaa nîi pɛɛng gəən bpai",
             "partOfSpeech": "sentence",
             "context": "Used during bargaining to indicate the price is high",
             "examples": [
                 {
                     "original": "ราคานี้แพงเกินไปสำหรับผม",
                     "translation": "This price is too expensive for me (♂)",
-                    "phonetic": "ra-ka nee paeng gern pai sam-rap pom"
+                    "phonetic": "raa-kaa nîi pɛɛng gəən bpai sǎm-ràp pǒm"
                 },
                 {
                     "original": "ฉันคิดว่าราคานี้แพงไปหน่อย",
                     "translation": "I think this price is a bit too expensive (♀)",
-                    "phonetic": "chan kit wa ra-ka nee paeng pai noi"
+                    "phonetic": "chǎn kít wâa raa-kaa nîi pɛɛng bpai nɔ̀i"
                 }
             ]
         },
@@ -122,19 +122,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "mee ka-nat uen mai",
+            "phonetic": "mii k̀à-nàat ʉ̀ʉn mǎi",
             "partOfSpeech": "question",
             "context": "Used when shopping for clothes or other sized items",
             "examples": [
                 {
                     "original": "มีขนาดใหญ่กว่านี้ไหมครับ",
                     "translation": "Do you have a larger size than this? (♂)",
-                    "phonetic": "mee ka-nat yai gwa nee mai krap"
+                    "phonetic": "mii kà-nàat yài gwàa nîi mǎi kráp"
                 },
                 {
                     "original": "มีไซส์เล็กกว่านี้ไหมคะ",
                     "translation": "Do you have a smaller size than this? (♀)",
-                    "phonetic": "mee size lek gwa nee mai ka"
+                    "phonetic": "mii sái lék gwàa nîi mǎi kâ"
                 }
             ]
         },
@@ -155,19 +155,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "mee see uen mai",
+            "phonetic": "mii sǐi ʉ̀ʉn mǎi",
             "partOfSpeech": "question",
             "context": "Used when looking for different color options",
             "examples": [
                 {
                     "original": "อันนี้มีสีแดงไหมครับ",
                     "translation": "Do you have this in red? (♂)",
-                    "phonetic": "an-nee mee see daeng mai krap"
+                    "phonetic": "an-nîi mii sǐi dɛɛng mǎi kráp"
                 },
                 {
                     "original": "มีสีอื่นให้เลือกไหมคะ",
                     "translation": "Do you have other colors to choose from? (♀)",
-                    "phonetic": "mee see uen hai lueak mai ka"
+                    "phonetic": "mii sǐi ʉ̀ʉn hâi lʉ̂ak mǎi kâ"
                 }
             ]
         },
@@ -188,19 +188,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "chan kor long dai mai",
+            "phonetic": "chǎn kɔ̀ɔ lɔɔng dâai mǎi",
             "partOfSpeech": "question",
             "context": "Used when wanting to try on clothes or test an item",
             "examples": [
                 {
                     "original": "ผมขอลองใส่เสื้อตัวนี้ได้ไหม",
                     "translation": "Can I try on this shirt? (♂)",
-                    "phonetic": "pom kor long sai sua tua nee dai mai"
+                    "phonetic": "pǒm kɔ̀ɔ lɔɔng sài sʉ̂a dtua nîi dâai mǎi"
                 },
                 {
                     "original": "ฉันขอทดลองใช้ก่อนได้ไหม",
                     "translation": "Can I test it before buying? (♀)",
-                    "phonetic": "chan kor tot-long chai gorn dai mai"
+                    "phonetic": "chǎn kɔ̀ɔ tót-lɔɔng chái gɔ̀ɔn dâai mǎi"
                 }
             ]
         },
@@ -221,19 +221,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "hong long yu tee nai",
+            "phonetic": "hɔ̂ɔng lɔɔng yùu têe nǎi",
             "partOfSpeech": "question",
             "context": "Used when looking for a place to try on clothes",
             "examples": [
                 {
                     "original": "ห้องลองเสื้อผ้าอยู่ทางไหน",
                     "translation": "Which way is the fitting room? (♂)",
-                    "phonetic": "hong long sua-pa yu tang nai"
+                    "phonetic": "hɔ̂ɔng lɔɔng sʉ̂a-pâa yùu taang nǎi"
                 },
                 {
                     "original": "ห้องลองอยู่ชั้นไหนคะ",
                     "translation": "On which floor is the fitting room? (♀)",
-                    "phonetic": "hong long yu chan nai ka"
+                    "phonetic": "hɔ̂ɔng lɔɔng yùu chán nǎi kâ"
                 }
             ]
         },
@@ -254,19 +254,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "rap bat kre-dit mai",
+            "phonetic": "ráp bàt kree-dìt mǎi",
             "partOfSpeech": "question",
             "context": "Used when asking about payment methods",
             "examples": [
                 {
                     "original": "ที่นี่รับบัตรเครดิตไหมครับ",
                     "translation": "Does this place accept credit cards? (♂)",
-                    "phonetic": "tee-nee rap bat kre-dit mai krap"
+                    "phonetic": "têe-nîi ráp bàt kree-dìt mǎi kráp"
                 },
                 {
                     "original": "ร้านนี้รับชำระด้วยบัตรไหมคะ",
                     "translation": "Does this shop accept payment by card? (♀)",
-                    "phonetic": "ran nee rap cham-ra duay bat mai ka"
+                    "phonetic": "ráan nîi ráp cham-rá dûay bàt mǎi kâ"
                 }
             ]
         },
@@ -287,19 +287,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "kit ngern duay",
+            "phonetic": "kít ngəən dûay",
             "partOfSpeech": "phrase",
             "context": "Used to indicate you are ready to pay",
             "examples": [
                 {
                     "original": "คิดเงินด้วยครับ",
                     "translation": "I'd like to pay, please (♂)",
-                    "phonetic": "kit ngern duay krap"
+                    "phonetic": "kít ngəən dûay kráp"
                 },
                 {
                     "original": "คิดเงินได้แล้วค่ะ",
                     "translation": "I'm ready to pay now (♀)",
-                    "phonetic": "kit ngern dai laew ka"
+                    "phonetic": "kít ngəən dâai láew kâ"
                 }
             ]
         },
@@ -320,19 +320,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "mee kong taem mai",
+            "phonetic": "mii kɔ̌ɔng tɛ̌ɛm mǎi",
             "partOfSpeech": "question",
             "context": "Used to ask about complimentary items with purchase",
             "examples": [
                 {
                     "original": "ซื้อนี่แล้วมีของแถมไหมครับ",
                     "translation": "If I buy this, is there a free gift? (♂)",
-                    "phonetic": "seu nee laew mee kong taem mai krap"
+                    "phonetic": "sǐu nîi láew mii kɔ̌ɔng tɛ̌ɛm mǎi kráp"
                 },
                 {
                     "original": "มีโปรโมชั่นหรือของแถมอะไรไหมคะ",
                     "translation": "Are there any promotions or free gifts? (♀)",
-                    "phonetic": "mee pro-mo-chan rue kong taem a-rai mai ka"
+                    "phonetic": "mii bproo-moo-chân rǔu kɔ̌ɔng tɛ̌ɛm à-rai mǎi kâ"
                 }
             ]
         },
@@ -353,19 +353,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "mee suan lot mai",
+            "phonetic": "mii sùan lót mǎi",
             "partOfSpeech": "question",
             "context": "Used to ask about available discounts",
             "examples": [
                 {
                     "original": "วันนี้มีส่วนลดพิเศษไหมครับ",
                     "translation": "Is there a special discount today? (♂)",
-                    "phonetic": "wan-nee mee suan lot pi-set mai krap"
+                    "phonetic": "wan-nîi mii sùan lót pì-sèet mǎi kráp"
                 },
                 {
                     "original": "สมาชิกร้านมีส่วนลดไหมคะ",
                     "translation": "Is there a discount for members? (♀)",
-                    "phonetic": "sa-ma-chik ran mee suan lot mai ka"
+                    "phonetic": "sà-mǎa-chík ráan mii sùan lót mǎi kâ"
                 }
             ]
         },
@@ -386,19 +386,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "ao an-nee",
+            "phonetic": "ao an-nîi",
             "partOfSpeech": "phrase",
             "context": "Used to indicate which item you want to buy",
             "examples": [
                 {
                     "original": "ผมเอาอันนี้ครับ",
                     "translation": "I'll take this one (♂)",
-                    "phonetic": "pom ao an-nee krap"
+                    "phonetic": "pǒm ao an-nîi kráp"
                 },
                 {
                     "original": "ฉันจะเอาตัวนี้ค่ะ",
                     "translation": "I'll take this one (♀)",
-                    "phonetic": "chan ja ao tua nee ka"
+                    "phonetic": "chǎn jà ao dtua nîi kâ"
                 }
             ]
         },
@@ -419,19 +419,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "sai tung hai noi",
+            "phonetic": "sài tǔng hâi nɔ̀i",
             "partOfSpeech": "phrase",
             "context": "Used to request your purchases be bagged",
             "examples": [
                 {
                     "original": "ช่วยใส่ถุงให้หน่อยครับ",
                     "translation": "Please help put it in a bag (♂)",
-                    "phonetic": "chuay sai tung hai noi krap"
+                    "phonetic": "chûay sài tǔng hâi nɔ̀i kráp"
                 },
                 {
                     "original": "ใส่ถุงแยกกันได้ไหมคะ",
                     "translation": "Can you put them in separate bags? (♀)",
-                    "phonetic": "sai tung yak gan dai mai ka"
+                    "phonetic": "sài tǔng yɛ̂ɛk gan dâai mǎi kâ"
                 }
             ]
         },
@@ -452,19 +452,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "mee bai-set mai",
+            "phonetic": "mii bai-sèt mǎi",
             "partOfSpeech": "question",
             "context": "Used to ask for a receipt after purchase",
             "examples": [
                 {
                     "original": "ขอใบเสร็จด้วยครับ",
                     "translation": "May I have a receipt, please? (♂)",
-                    "phonetic": "kor bai-set duay krap"
+                    "phonetic": "kɔ̀ɔ bai-sèt dûay kráp"
                 },
                 {
                     "original": "รบกวนขอใบเสร็จด้วยค่ะ",
                     "translation": "I'd like a receipt, please (♀)",
-                    "phonetic": "rob-kuan kor bai-set duay ka"
+                    "phonetic": "róp-guan kɔ̀ɔ bai-sèt dûay kâ"
                 }
             ]
         },
@@ -485,19 +485,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "rap ngern torn",
+            "phonetic": "ráp ngəən tɔɔn",
             "partOfSpeech": "phrase",
             "context": "What a cashier says when giving you change",
             "examples": [
                 {
                     "original": "รับเงินทอนห้าสิบบาทครับ",
                     "translation": "Here's your change of fifty baht (♂)",
-                    "phonetic": "rap ngern torn ha-sip bat krap"
+                    "phonetic": "ráp ngəən tɔɔn hâa-sìp bàat kráp"
                 },
                 {
                     "original": "นี่คือเงินทอนของคุณค่ะ",
                     "translation": "Here is your change (♀)",
-                    "phonetic": "nee keu ngern torn kong khun ka"
+                    "phonetic": "nîi kəə ngəən tɔɔn kɔ̌ɔng kun kâ"
                 }
             ]
         },
@@ -518,19 +518,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "pa-nak nee yu tee nai",
+            "phonetic": "pà-nɛ̀k nîi yùu têe nǎi",
             "partOfSpeech": "question",
             "context": "Used to ask for directions in a store",
             "examples": [
                 {
                     "original": "แผนกอาหารอยู่ชั้นไหนครับ",
                     "translation": "On which floor is the food department? (♂)",
-                    "phonetic": "pa-nak a-han yu chan nai krap"
+                    "phonetic": "pà-nɛ̀k aa-hǎan yùu chán nǎi kráp"
                 },
                 {
                     "original": "แผนกเครื่องสำอางอยู่ทางไหนคะ",
                     "translation": "Which way is the cosmetics department? (♀)",
-                    "phonetic": "pa-nak kruang sam-ang yu tang nai ka"
+                    "phonetic": "pà-nɛ̀k krʉ̂ang sǎm-aang yùu taang nǎi kâ"
                 }
             ]
         },
@@ -551,19 +551,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "khun mee sin-ka nee mai",
+            "phonetic": "kun mii sǐn-káa nîi mǎi",
             "partOfSpeech": "question",
             "context": "Used to ask if a specific product is available",
             "examples": [
                 {
                     "original": "คุณมียี่ห้อนี้ไหมครับ",
                     "translation": "Do you have this brand? (♂)",
-                    "phonetic": "khun mee yee-hor nee mai krap"
+                    "phonetic": "kun mii yîi-hɔ̂ɔ nîi mǎi kráp"
                 },
                 {
                     "original": "ร้านนี้มีรุ่นใหม่ไหมคะ",
                     "translation": "Does this shop have the new model? (♀)",
-                    "phonetic": "ran nee mee run mai mai ka"
+                    "phonetic": "ráan nîi mii rûn mài mǎi kâ"
                 }
             ]
         },
@@ -584,19 +584,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "pert teung gee mong",
+            "phonetic": "bpə̀ət tʉ̌ng gìi moong",
             "partOfSpeech": "question",
             "context": "Used to ask about store hours",
             "examples": [
                 {
                     "original": "ร้านเปิดถึงกี่โมงครับ",
                     "translation": "Until what time is the shop open? (♂)",
-                    "phonetic": "ran pert teung gee mong krap"
+                    "phonetic": "ráan bpə̀ət tʉ̌ng gìi moong kráp"
                 },
                 {
                     "original": "วันอาทิตย์เปิดกี่โมงถึงกี่โมงคะ",
                     "translation": "What are your opening hours on Sunday? (♀)",
-                    "phonetic": "wan ar-tit pert gee mong teung gee mong ka"
+                    "phonetic": "wan aa-tít bpə̀ət gìi moong tʉ̌ng gìi moong kâ"
                 }
             ]
         },
@@ -617,19 +617,19 @@
             "difficulty": "hard",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "rap keun sin-ka dai mai",
+            "phonetic": "ráp kəən sǐn-káa dâai mǎi",
             "partOfSpeech": "question",
             "context": "Used to ask about return policies",
             "examples": [
                 {
                     "original": "ถ้าไม่พอดี รับคืนได้ไหมครับ",
                     "translation": "If it doesn't fit, can I return it? (♂)",
-                    "phonetic": "ta mai por-dee, rap keun dai mai krap"
+                    "phonetic": "tâa mâi pɔɔ-dii, ráp kəən dâai mǎi kráp"
                 },
                 {
                     "original": "มีนโยบายรับคืนสินค้ากี่วันคะ",
                     "translation": "How many days is your return policy? (♀)",
-                    "phonetic": "mee na-yo-bai rap keun sin-ka gee wan ka"
+                    "phonetic": "mii ná-yoo-baai ráp kəən sǐn-káa gìi wan kâ"
                 }
             ]
         },
@@ -650,19 +650,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "kor doo kong gorn dai mai",
+            "phonetic": "kɔ̀ɔ duu kɔ̌ɔng gɔ̀ɔn dâai mǎi",
             "partOfSpeech": "question",
             "context": "Used to ask to examine merchandise before buying",
             "examples": [
                 {
                     "original": "ขอดูสินค้าก่อนตัดสินใจได้ไหม",
                     "translation": "Can I see the product before deciding? (informal)",
-                    "phonetic": "kor doo sin-ka gorn tat-sin-jai dai mai"
+                    "phonetic": "kɔ̀ɔ duu sǐn-káa gɔ̀ɔn dtàt-sǐn-jai dâai mǎi"
                 },
                 {
                     "original": "ฉันขอดูคุณภาพก่อนได้ไหมคะ",
                     "translation": "Can I check the quality first? (♀)",
-                    "phonetic": "chan kor doo khun-na-pap gorn dai mai ka"
+                    "phonetic": "chǎn kɔ̀ɔ duu kun-ná-pâap gɔ̀ɔn dâai mǎi kâ"
                 }
             ]
         }

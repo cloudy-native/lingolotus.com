@@ -23,19 +23,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "soon",
+            "phonetic": "sǔun",
             "partOfSpeech": "numeral",
             "context": "The number zero",
             "examples": [
                 {
                     "original": "เบอร์โทรของฉันมีเลขศูนย์สองตัว",
                     "translation": "My phone number has two zeros",
-                    "phonetic": "ber to kong chan mee lek soon song tua"
+                    "phonetic": "bəə too kɔ̌ɔng chǎn mii lîk sǔun sɔ̌ɔng dtua"
                 },
                 {
                     "original": "อุณหภูมิติดลบศูนย์องศา",
                     "translation": "The temperature is zero degrees below zero",
-                    "phonetic": "u-na-poom tid lob soon ong-sa"
+                    "phonetic": "u-ná-puum dtìt lóp sǔun ong-sǎa"
                 }
             ]
         },
@@ -56,19 +56,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "neung",
+            "phonetic": "nʉ̀ng",
             "partOfSpeech": "numeral",
             "context": "The number one",
             "examples": [
                 {
                     "original": "ขอกาแฟหนึ่งแก้ว",
                     "translation": "One coffee, please",
-                    "phonetic": "kor ka-fae neung kaew"
+                    "phonetic": "kɔ̀ɔ gaa-fɛɛ nʉ̀ng gɛ̂o"
                 },
                 {
                     "original": "หนึ่งบวกหนึ่งเท่ากับสอง",
                     "translation": "One plus one equals two",
-                    "phonetic": "neung buak neung tao-kap song"
+                    "phonetic": "nʉ̀ng bùak nʉ̀ng tâo-gàp sɔ̌ɔng"
                 }
             ]
         },
@@ -89,19 +89,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "song",
+            "phonetic": "sɔ̌ɔng",
             "partOfSpeech": "numeral",
             "context": "The number two",
             "examples": [
                 {
                     "original": "มีสองคนในห้อง",
                     "translation": "There are two people in the room",
-                    "phonetic": "mee song kon nai hong"
+                    "phonetic": "mii sɔ̌ɔng kon nai hɔ̂ɔng"
                 },
                 {
                     "original": "ฉันมีพี่สองคน",
                     "translation": "I have two older siblings",
-                    "phonetic": "chan mee pee song kon"
+                    "phonetic": "chǎn mii pîi sɔ̌ɔng kon"
                 }
             ]
         },
@@ -122,7 +122,7 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "saam",
+            "phonetic": "sǎam",
             "partOfSpeech": "numeral",
             "context": "The number three",
             "examples": [
@@ -134,7 +134,7 @@
                 {
                     "original": "ฉันรอคุณสามชั่วโมงแล้ว",
                     "translation": "I've been waiting for you for three hours",
-                    "phonetic": "chan ror khun saam chua-mong laew"
+                    "phonetic": "chǎn rɔɔ kun sǎam chûa-moong láew"
                 }
             ]
         },
@@ -155,19 +155,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "sip",
+            "phonetic": "sìp",
             "partOfSpeech": "numeral",
             "context": "The number ten",
             "examples": [
                 {
                     "original": "สิบปีที่แล้ว",
                     "translation": "Ten years ago",
-                    "phonetic": "sip pee tee laew"
+                    "phonetic": "sìp bpii têe láew"
                 },
                 {
                     "original": "โต๊ะหมายเลขสิบ",
                     "translation": "Table number ten",
-                    "phonetic": "to maai-lek sip"
+                    "phonetic": "dtó mǎai-lîk sìp"
                 }
             ]
         },
@@ -188,19 +188,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "yee-sip",
+            "phonetic": "yîi-sìp",
             "partOfSpeech": "numeral",
             "context": "The number twenty",
             "examples": [
                 {
                     "original": "เขาอายุยี่สิบปี",
                     "translation": "He is twenty years old",
-                    "phonetic": "kao aa-yu yee-sip pee"
+                    "phonetic": "kǎo aa-yú yîi-sìp bpii"
                 },
                 {
                     "original": "ร้อยละยี่สิบ",
                     "translation": "Twenty percent",
-                    "phonetic": "roi-la yee-sip"
+                    "phonetic": "rɔ́i-lá yîi-sìp"
                 }
             ]
         },
@@ -221,19 +221,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "roi",
+            "phonetic": "rɔ́i",
             "partOfSpeech": "numeral",
             "context": "The number one hundred",
             "examples": [
                 {
                     "original": "ราคาหนึ่งร้อยบาท",
                     "translation": "The price is one hundred baht",
-                    "phonetic": "ra-ka neung roi baht"
+                    "phonetic": "raa-kaa nʉ̀ng rɔ́i bàat"
                 },
                 {
                     "original": "มีคนมาร่วมงานเกือบร้อยคน",
                     "translation": "Almost a hundred people attended the event",
-                    "phonetic": "mee kon maa ruam ngaan keuap roi kon"
+                    "phonetic": "mii kon maa rûam ngaan gʉ̂ap rɔ́i kon"
                 }
             ]
         },
@@ -261,12 +261,12 @@
                 {
                     "original": "โรงแรมนี้ราคาห้องละห้าพันบาท",
                     "translation": "The rooms at this hotel cost five thousand baht each",
-                    "phonetic": "rong-raem nee ra-ka hong la haa pan baht"
+                    "phonetic": "roong-rɛɛm née raa-kaa hɔ̂ɔng lá hâa pan bàat"
                 },
                 {
                     "original": "ฉันซื้อรถในราคาสองแสนสองพันบาท",
                     "translation": "I bought a car for two hundred and two thousand baht",
-                    "phonetic": "chan seu rot nai ra-ka song saen song pan baht"
+                    "phonetic": "chǎn sǐu rót nai raa-kaa sɔ̌ɔng sɛ̌ɛn sɔ̌ɔng pan bàat"
                 }
             ]
         },
@@ -287,19 +287,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "laan",
+            "phonetic": "láan",
             "partOfSpeech": "numeral",
             "context": "The number one million",
             "examples": [
                 {
                     "original": "บ้านหลังนี้ราคาสิบล้านบาท",
                     "translation": "This house costs ten million baht",
-                    "phonetic": "baan lang nee ra-ka sip laan baht"
+                    "phonetic": "bâan lǎng née raa-kaa sìp láan bàat"
                 },
                 {
                     "original": "มีคนอาศัยอยู่ในกรุงเทพฯ กว่าแปดล้านคน",
                     "translation": "More than eight million people live in Bangkok",
-                    "phonetic": "mee kon aa-sai yoo nai krung-thep kwa paet laan kon"
+                    "phonetic": "mii kon àa-sǎi yùu nai grung-têep gwàa bpɛ̀ɛt láan kon"
                 }
             ]
         },
@@ -320,19 +320,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "sip-et",
+            "phonetic": "sìp-èt",
             "partOfSpeech": "numeral",
             "context": "The number eleven, note the special form for 'one' after 'ten'",
             "examples": [
                 {
                     "original": "ตอนนี้เวลาสิบเอ็ดโมงเช้า",
                     "translation": "It's eleven o'clock in the morning now",
-                    "phonetic": "ton-nee way-la sip-et mong chao"
+                    "phonetic": "dtɔɔn-née wee-laa sìp-èt moong châao"
                 },
                 {
                     "original": "ร้านเปิดสิบเอ็ดโมง",
                     "translation": "The shop opens at eleven o'clock",
-                    "phonetic": "raan perd sip-et mong"
+                    "phonetic": "ráan bpə̀ət sìp-èt moong"
                 }
             ]
         },
@@ -360,12 +360,12 @@
                 {
                     "original": "มีนักเรียนสามสิบคนในห้องเรียน",
                     "translation": "There are thirty students in the classroom",
-                    "phonetic": "mee nak-rian saam-sip kon nai hong-rian"
+                    "phonetic": "mii nák-rian sǎam-sìp kon nai hɔ̂ɔng-rian"
                 },
                 {
                     "original": "ฉันเห็นผู้หญิงสองคนและผู้ชายหนึ่งคน",
                     "translation": "I see two women and one man",
-                    "phonetic": "chan hen poo-ying song kon lae poo-chai neung kon"
+                    "phonetic": "chǎn hěn pûu-yǐng sɔ̌ɔng kon lɛ́ pûu-chaai nʉ̀ng kon"
                 }
             ]
         },
@@ -386,19 +386,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "tua",
+            "phonetic": "dtua",
             "partOfSpeech": "classifier",
             "context": "Used as a classifier for animals, clothing, furniture, and some objects",
             "examples": [
                 {
                     "original": "ฉันมีแมวสองตัว",
                     "translation": "I have two cats",
-                    "phonetic": "chan mee maew song tua"
+                    "phonetic": "chǎn mii mɛɛw sɔ̌ɔng dtua"
                 },
                 {
                     "original": "เขาซื้อเสื้อเชิ้ตสามตัว",
                     "translation": "He bought three shirts",
-                    "phonetic": "kao seu seua chert saam tua"
+                    "phonetic": "kǎo sǐu sʉ̂a chə́ət sǎam dtua"
                 }
             ]
         },
@@ -419,19 +419,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "koo",
+            "phonetic": "kûu",
             "partOfSpeech": "classifier",
             "context": "Used as a classifier for items that naturally come in pairs",
             "examples": [
                 {
                     "original": "ฉันซื้อรองเท้าสองคู่",
                     "translation": "I bought two pairs of shoes",
-                    "phonetic": "chan seu rong-tao song koo"
+                    "phonetic": "chǎn sǐu rɔɔng-táao sɔ̌ɔng kûu"
                 },
                 {
                     "original": "ถุงเท้าหนึ่งคู่",
                     "translation": "One pair of socks",
-                    "phonetic": "tung-tao neung koo"
+                    "phonetic": "tǔng-táao nʉ̀ng kûu"
                 }
             ]
         },
@@ -459,12 +459,12 @@
                 {
                     "original": "กระดาษสองใบ",
                     "translation": "Two sheets of paper",
-                    "phonetic": "kra-daat song bai"
+                    "phonetic": "grà-dàat sɔ̌ɔng bai"
                 },
                 {
                     "original": "ตั๋วหนังหนึ่งใบ",
                     "translation": "One movie ticket",
-                    "phonetic": "tua nang neung bai"
+                    "phonetic": "dtǔa nǎng nʉ̀ng bai"
                 }
             ]
         },
@@ -485,19 +485,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "lem",
+            "phonetic": "lêm",
             "partOfSpeech": "classifier",
             "context": "Used as a classifier for books and other bound publications",
             "examples": [
                 {
                     "original": "หนังสือสามเล่ม",
                     "translation": "Three books",
-                    "phonetic": "nang-sue saam lem"
+                    "phonetic": "nǎng-sǐu sǎam lêm"
                 },
                 {
                     "original": "ฉันซื้อนิตยสารหนึ่งเล่ม",
                     "translation": "I bought one magazine",
-                    "phonetic": "chan seu nit-ta-ya-saan neung lem"
+                    "phonetic": "chǎn sǐu nít-dtà-yá-sǎan nʉ̀ng lêm"
                 }
             ]
         },
@@ -525,12 +525,12 @@
                 {
                     "original": "ดินสอสองอัน",
                     "translation": "Two pencils",
-                    "phonetic": "din-so song an"
+                    "phonetic": "din-sɔ̌ɔ sɔ̌ɔng an"
                 },
                 {
                     "original": "ฉันมีคำถามสองสามอัน",
                     "translation": "I have a few questions",
-                    "phonetic": "chan mee kam-taam song-saam an"
+                    "phonetic": "chǎn mii kam-tǎam sɔ̌ɔng-sǎam an"
                 }
             ]
         },
@@ -551,14 +551,14 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "look",
+            "phonetic": "lûuk",
             "partOfSpeech": "classifier",
             "context": "Used as a classifier for round objects like balls, fruits and also for offspring",
             "examples": [
                 {
                     "original": "ส้มสองลูก",
                     "translation": "Two oranges",
-                    "phonetic": "som song look"
+                    "phonetic": "sôm sɔ̌ɔng lûuk"
                 },
                 {
                     "original": "เขามีลูกสามคน",
@@ -584,19 +584,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "chin",
+            "phonetic": "chín",
             "partOfSpeech": "classifier",
             "context": "Used as a classifier for pieces or portions of things",
             "examples": [
                 {
                     "original": "ขนมปังสองชิ้น",
                     "translation": "Two pieces of bread",
-                    "phonetic": "ka-nom pang song chin"
+                    "phonetic": "kà-nǒm bpang sɔ̌ɔng chín"
                 },
                 {
                     "original": "เนื้อสามชิ้น",
                     "translation": "Three pieces of meat",
-                    "phonetic": "neua saam chin"
+                    "phonetic": "nʉ́a sǎam chín"
                 }
             ]
         },
@@ -617,19 +617,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "kaew",
+            "phonetic": "gɛ̂o",
             "partOfSpeech": "classifier",
             "context": "Used as a classifier for drinks in glasses or cups",
             "examples": [
                 {
                     "original": "น้ำสองแก้ว",
                     "translation": "Two glasses of water",
-                    "phonetic": "nam song kaew"
+                    "phonetic": "náam sɔ̌ɔng gɛ̂o"
                 },
                 {
                     "original": "กาแฟร้อนหนึ่งแก้ว",
                     "translation": "One cup of hot coffee",
-                    "phonetic": "ka-fae ron neung kaew"
+                    "phonetic": "gaa-fɛɛ rɔ́ɔn nʉ̀ng gɛ̂o"
                 }
             ]
         },
@@ -657,12 +657,12 @@
                 {
                     "original": "ผัดไทยหนึ่งจาน",
                     "translation": "One plate of Pad Thai",
-                    "phonetic": "pad-thai neung jaan"
+                    "phonetic": "pàt-tai nʉ̀ng jaan"
                 },
                 {
                     "original": "ขอข้าวผัดสองจาน",
                     "translation": "Two plates of fried rice, please",
-                    "phonetic": "kor kaow pad song jaan"
+                    "phonetic": "kɔ̀ɔ kâao pàt sɔ̌ɔng jaan"
                 }
             ]
         }

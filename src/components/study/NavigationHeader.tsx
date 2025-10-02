@@ -45,6 +45,14 @@ const NavigationHeader: React.FC<NavigationHeaderProps> = ({
             </Button>
             <HStack spacing={6}>
                 <Text
+                    fontWeight="semibold"
+                    fontSize="lg"
+                    color="gray.600"
+                    display={{ base: "none", md: "block" }}
+                >
+                    {deck.name}
+                </Text>
+                <Text
                     fontWeight="bold"
                     fontSize="lg"
                     color="blue.600"

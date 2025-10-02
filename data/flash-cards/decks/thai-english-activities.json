@@ -23,19 +23,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "chan chop aan nang-sue",
+            "phonetic": "chǎn châwp àan nǎng-sǔu",
             "partOfSpeech": "sentence",
             "context": "Expressing interest in reading as a hobby",
             "examples": [
                 {
                     "original": "ฉันชอบอ่านหนังสือก่อนนอน",
                     "translation": "I like to read books before sleeping",
-                    "phonetic": "chan chop aan nang-sue gon non"
+                    "phonetic": "chǎn châwp àan nǎng-sǔu gɔ̀ɔn nɔɔn"
                 },
                 {
                     "original": "คุณชอบอ่านหนังสือเล่มไหน",
                     "translation": "What book do you like to read?",
-                    "phonetic": "khun chop aan nang-sue lem nai"
+                    "phonetic": "kun châwp àan nǎng-sǔu lêm nǎi"
                 }
             ]
         },
@@ -56,19 +56,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "chan pai dern len took chao",
+            "phonetic": "chǎn bpai dəən lên túk cháao",
             "partOfSpeech": "sentence",
             "context": "Describing a daily walking routine",
             "examples": [
                 {
                     "original": "ฉันไปเดินเล่นที่สวนสาธารณะทุกเช้า",
                     "translation": "I go for a walk in the park every morning",
-                    "phonetic": "chan pai dern len tee suan sa-ta-ra-na took chao"
+                    "phonetic": "chǎn bpai dəən lên têe sǔan sǎa-taa-rá-ná túk cháao"
                 },
                 {
                     "original": "คุณชอบไปเดินเล่นตอนไหน",
                     "translation": "When do you like to go for a walk?",
-                    "phonetic": "khun chop pai dern len ton nai"
+                    "phonetic": "kun châwp bpai dəən lên dtɔɔn nǎi"
                 }
             ]
         },
@@ -89,19 +89,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "khao gam-lang wing",
+            "phonetic": "kǎo gam-lang wîng",
             "partOfSpeech": "sentence",
             "context": "Describing someone currently running",
             "examples": [
                 {
                     "original": "เขากำลังวิ่งออกกำลังกาย",
                     "translation": "He/she is running for exercise",
-                    "phonetic": "khao gam-lang wing ok gam-lang gai"
+                    "phonetic": "kǎo gam-lang wîng ɔ̀ɔk gam-lang gaai"
                 },
                 {
                     "original": "ฉันชอบวิ่งตอนเย็น",
                     "translation": "I like to run in the evening",
-                    "phonetic": "chan chop wing ton yen"
+                    "phonetic": "chǎn châwp wîng dtɔɔn yen"
                 }
             ]
         },
@@ -122,19 +122,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "khun wai nam pen mai",
+            "phonetic": "kun wâai náam bpen mǎi",
             "partOfSpeech": "question",
             "context": "Asking about someone's ability to swim",
             "examples": [
                 {
                     "original": "คุณว่ายน้ำเป็นไหมครับ",
                     "translation": "Can you swim? (♂)",
-                    "phonetic": "khun wai nam pen mai krap"
+                    "phonetic": "kun wâai náam bpen mǎi kráp"
                 },
                 {
                     "original": "ฉันว่ายน้ำเป็นตั้งแต่เด็ก",
                     "translation": "I've been able to swim since I was a child",
-                    "phonetic": "chan wai nam pen tang tae dek"
+                    "phonetic": "chǎn wâai náam bpen dtâng dtàe dèk"
                 }
             ]
         },
@@ -155,19 +155,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "ter chop fang pleng",
+            "phonetic": "təə châwp fang pleeng",
             "partOfSpeech": "sentence",
             "context": "Describing someone's music listening habit",
             "examples": [
                 {
                     "original": "เธอชอบฟังเพลงตอนทำงาน",
                     "translation": "She likes to listen to music while working",
-                    "phonetic": "ter chop fang pleng ton tam ngan"
+                    "phonetic": "təə châwp fang pleeng dtɔɔn tam ngaan"
                 },
                 {
                     "original": "คุณชอบฟังเพลงแนวไหน",
                     "translation": "What kind of music do you like to listen to?",
-                    "phonetic": "khun chop fang pleng naeo nai"
+                    "phonetic": "kun châwp fang pleeng nɛɛo nǎi"
                 }
             ]
         },
@@ -188,19 +188,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "chan gam-lang rian pa-sa thai",
+            "phonetic": "chǎn gam-lang rian paa-sǎa tai",
             "partOfSpeech": "sentence",
             "context": "Expressing that you're currently learning the Thai language",
             "examples": [
                 {
                     "original": "ฉันกำลังเรียนภาษาไทยออนไลน์",
                     "translation": "I am learning Thai online",
-                    "phonetic": "chan gam-lang rian pa-sa thai on-line"
+                    "phonetic": "chǎn gam-lang rian paa-sǎa tai ɔɔn-lai"
                 },
                 {
                     "original": "คุณกำลังเรียนภาษาอะไรอยู่",
                     "translation": "What language are you learning?",
-                    "phonetic": "khun gam-lang rian pa-sa a-rai yu"
+                    "phonetic": "kun gam-lang rian paa-sǎa à-rai yùu"
                 }
             ]
         },
@@ -221,19 +221,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "khao len gee-la took wan",
+            "phonetic": "kǎo lên gii-laa túk wan",
             "partOfSpeech": "sentence",
             "context": "Describing someone's daily sports activities",
             "examples": [
                 {
                     "original": "เขาเล่นกีฬาเพื่อสุขภาพ",
                     "translation": "He/she plays sports for health",
-                    "phonetic": "khao len gee-la puea suk-ka-pap"
+                    "phonetic": "kǎo lên gii-laa pʉ̂a sùk-kà-pâap"
                 },
                 {
                     "original": "คุณชอบเล่นกีฬาอะไร",
                     "translation": "What sports do you like to play?",
-                    "phonetic": "khun chop len gee-la a-rai"
+                    "phonetic": "kun châwp lên gii-laa à-rai"
                 }
             ]
         },
@@ -254,19 +254,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "rao gam-lang tam a-han",
+            "phonetic": "rao gam-lang tam aa-hǎan",
             "partOfSpeech": "sentence",
             "context": "Describing a current cooking activity",
             "examples": [
                 {
                     "original": "เรากำลังทำอาหารไทย",
                     "translation": "We are cooking Thai food",
-                    "phonetic": "rao gam-lang tam a-han thai"
+                    "phonetic": "rao gam-lang tam aa-hǎan tai"
                 },
                 {
                     "original": "คุณชอบทำอาหารไหม",
                     "translation": "Do you like to cook?",
-                    "phonetic": "khun chop tam a-han mai"
+                    "phonetic": "kun châwp tam aa-hǎan mǎi"
                 }
             ]
         },
@@ -287,19 +287,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "chan chop tai roop",
+            "phonetic": "chǎn châwp tàai rûup",
             "partOfSpeech": "sentence",
             "context": "Expressing interest in photography as a hobby",
             "examples": [
                 {
                     "original": "ฉันชอบถ่ายรูปธรรมชาติ",
                     "translation": "I like taking photos of nature",
-                    "phonetic": "chan chop tai roop tam-ma-chat"
+                    "phonetic": "chǎn châwp tàai rûup tam-má-châat"
                 },
                 {
                     "original": "คุณใช้กล้องอะไรถ่ายรูป",
                     "translation": "What camera do you use to take photos?",
-                    "phonetic": "khun chai klong a-rai tai roop"
+                    "phonetic": "kun chái glɔ̂ɔng à-rai tàai rûup"
                 }
             ]
         },
@@ -320,19 +320,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "ter gam-lang ten ram",
+            "phonetic": "təə gam-lang dtên ram",
             "partOfSpeech": "sentence",
             "context": "Describing someone currently dancing",
             "examples": [
                 {
                     "original": "เธอกำลังเต้นรำกับเพื่อน",
                     "translation": "She is dancing with friends",
-                    "phonetic": "ter gam-lang ten ram gap phuean"
+                    "phonetic": "təə gam-lang dtên ram gàp pʉ̂an"
                 },
                 {
                     "original": "คุณชอบเต้นรำไหม",
                     "translation": "Do you like to dance?",
-                    "phonetic": "khun chop ten ram mai"
+                    "phonetic": "kun châwp dtên ram mǎi"
                 }
             ]
         },
@@ -353,19 +353,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "puak khao gam-lang len don-tree",
+            "phonetic": "pûak kǎo gam-lang lên don-dtrii",
             "partOfSpeech": "sentence",
             "context": "Describing a group of people playing musical instruments",
             "examples": [
                 {
                     "original": "พวกเขากำลังเล่นดนตรีในสวน",
                     "translation": "They are playing music in the garden",
-                    "phonetic": "puak khao gam-lang len don-tree nai suan"
+                    "phonetic": "pûak kǎo gam-lang lên don-dtrii nai sǔan"
                 },
                 {
                     "original": "คุณเล่นเครื่องดนตรีอะไรได้บ้าง",
                     "translation": "What musical instruments can you play?",
-                    "phonetic": "khun len kruang don-tree a-rai dai bang"
+                    "phonetic": "kun lên krʉ̂ang don-dtrii à-rai dâai bâang"
                 }
             ]
         },
@@ -386,19 +386,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "chan chop plook ton mai",
+            "phonetic": "chǎn châwp bplùuk dtôn máai",
             "partOfSpeech": "sentence",
             "context": "Expressing interest in gardening as a hobby",
             "examples": [
                 {
                     "original": "ฉันชอบปลูกต้นไม้ในสวนหลังบ้าน",
                     "translation": "I like to grow plants in the backyard garden",
-                    "phonetic": "chan chop plook ton mai nai suan lang ban"
+                    "phonetic": "chǎn châwp bplùuk dtôn máai nai sǔan lǎng bâan"
                 },
                 {
                     "original": "คุณปลูกต้นไม้อะไรบ้าง",
                     "translation": "What plants do you grow?",
-                    "phonetic": "khun plook ton mai a-rai bang"
+                    "phonetic": "kun bplùuk dtôn máai à-rai bâang"
                 }
             ]
         },
@@ -419,19 +419,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "khao chop wad roop",
+            "phonetic": "kǎo châwp wâat rûup",
             "partOfSpeech": "sentence",
             "context": "Expressing someone's interest in drawing",
             "examples": [
                 {
                     "original": "เขาชอบวาดรูปสัตว์",
                     "translation": "He/she likes to draw animals",
-                    "phonetic": "khao chop wad roop sat"
+                    "phonetic": "kǎo châwp wâat rûup sàt"
                 },
                 {
                     "original": "คุณวาดรูปเป็นไหม",
                     "translation": "Can you draw?",
-                    "phonetic": "khun wad roop pen mai"
+                    "phonetic": "kun wâat rûup bpen mǎi"
                 }
             ]
         },
@@ -452,19 +452,19 @@
             "difficulty": "easy",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "rao gam-lang doo nang",
+            "phonetic": "rao gam-lang duu nǎng",
             "partOfSpeech": "sentence",
             "context": "Describing current activity of watching a film",
             "examples": [
                 {
                     "original": "เรากำลังดูหนังที่บ้าน",
                     "translation": "We are watching a movie at home",
-                    "phonetic": "rao gam-lang doo nang tee ban"
+                    "phonetic": "rao gam-lang duu nǎng têe bâan"
                 },
                 {
                     "original": "คุณชอบดูหนังแนวไหน",
                     "translation": "What kind of movies do you like to watch?",
-                    "phonetic": "khun chop doo nang naeo nai"
+                    "phonetic": "kun châwp duu nǎng nɛɛo nǎi"
                 }
             ]
         },
@@ -485,19 +485,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "chan ja pai tiao ta-le",
+            "phonetic": "chǎn jà bpai tîao tá-lee",
             "partOfSpeech": "sentence",
             "context": "Expressing plans to visit the beach",
             "examples": [
                 {
                     "original": "ฉันจะไปเที่ยวทะเลวันเสาร์นี้",
                     "translation": "I will go to the beach this Saturday",
-                    "phonetic": "chan ja pai tiao ta-le wan sao nee"
+                    "phonetic": "chǎn jà bpai tîao tá-lee wan sǎao née"
                 },
                 {
                     "original": "คุณชอบไปเที่ยวที่ไหน",
                     "translation": "Where do you like to travel?",
-                    "phonetic": "khun chop pai tiao tee nai"
+                    "phonetic": "kun châwp bpai tîao têe nǎi"
                 }
             ]
         },
@@ -518,19 +518,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "ter gam-lang len gap su-nak",
+            "phonetic": "təə gam-lang lên gàp sù-nák",
             "partOfSpeech": "sentence",
             "context": "Describing someone playing with a dog",
             "examples": [
                 {
                     "original": "เธอกำลังเล่นกับสุนัขในสวน",
                     "translation": "She is playing with the dog in the garden",
-                    "phonetic": "ter gam-lang len gap su-nak nai suan"
+                    "phonetic": "təə gam-lang lên gàp sù-nák nai sǔan"
                 },
                 {
                     "original": "คุณมีสัตว์เลี้ยงไหม",
                     "translation": "Do you have pets?",
-                    "phonetic": "khun mee sat liang mai"
+                    "phonetic": "kun mii sàt líang mǎi"
                 }
             ]
         },
@@ -551,19 +551,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "chan chop nang sa-ma-ti",
+            "phonetic": "chǎn châwp nâng sà-maa-dtì",
             "partOfSpeech": "sentence",
             "context": "Expressing interest in meditation as a practice",
             "examples": [
                 {
                     "original": "ฉันชอบนั่งสมาธิตอนเช้า",
                     "translation": "I like to meditate in the morning",
-                    "phonetic": "chan chop nang sa-ma-ti ton chao"
+                    "phonetic": "chǎn châwp nâng sà-maa-dtì dtɔɔn cháao"
                 },
                 {
                     "original": "การนั่งสมาธิช่วยให้ฉันผ่อนคลาย",
                     "translation": "Meditation helps me relax",
-                    "phonetic": "karn nang sa-ma-ti chuay hai chan pon klay"
+                    "phonetic": "gaan nâng sà-maa-dtì chûay hâi chǎn pɔ̀n klaai"
                 }
             ]
         },
@@ -584,19 +584,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "puak rao gam-lang pik-nik",
+            "phonetic": "pûak rao gam-lang bpík-ník",
             "partOfSpeech": "sentence",
             "context": "Describing a current picnic activity",
             "examples": [
                 {
                     "original": "พวกเรากำลังปิกนิกที่สวนสาธารณะ",
                     "translation": "We are having a picnic at the park",
-                    "phonetic": "puak rao gam-lang pik-nik tee suan sa-ta-ra-na"
+                    "phonetic": "pûak rao gam-lang bpík-ník têe sǔan sǎa-taa-rá-ná"
                 },
                 {
                     "original": "คุณชอบปิกนิกไหม",
                     "translation": "Do you like picnics?",
-                    "phonetic": "khun chop pik-nik mai"
+                    "phonetic": "kun châwp bpík-ník mǎi"
                 }
             ]
         },
@@ -617,19 +617,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "chan len game kom-piu-ter",
+            "phonetic": "chǎn lên geem kɔm-piu-dtəə",
             "partOfSpeech": "sentence",
             "context": "Describing gaming as a hobby",
             "examples": [
                 {
                     "original": "ฉันเล่นเกมคอมพิวเตอร์กับเพื่อน",
                     "translation": "I play computer games with friends",
-                    "phonetic": "chan len game kom-piu-ter gap phuean"
+                    "phonetic": "chǎn lên geem kɔm-piu-dtəə gàp pʉ̂an"
                 },
                 {
                     "original": "คุณชอบเล่นเกมอะไร",
                     "translation": "What games do you like to play?",
-                    "phonetic": "khun chop len game a-rai"
+                    "phonetic": "kun châwp lên geem à-rai"
                 }
             ]
         },
@@ -650,19 +650,19 @@
             "difficulty": "medium",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "khao gam-lang rian tam a-han",
+            "phonetic": "kǎo gam-lang rian tam aa-hǎan",
             "partOfSpeech": "sentence",
             "context": "Describing someone who is in the process of learning cooking",
             "examples": [
                 {
                     "original": "เขากำลังเรียนทำอาหารไทย",
                     "translation": "He/she is learning to cook Thai food",
-                    "phonetic": "khao gam-lang rian tam a-han thai"
+                    "phonetic": "kǎo gam-lang rian tam aa-hǎan tai"
                 },
                 {
                     "original": "คุณอยากเรียนทำอาหารไหม",
                     "translation": "Do you want to learn cooking?",
-                    "phonetic": "khun yak rian tam a-han mai"
+                    "phonetic": "kun yàak rian tam aa-hǎan mǎi"
                 }
             ]
         }
