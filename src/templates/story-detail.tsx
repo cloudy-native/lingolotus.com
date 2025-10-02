@@ -263,7 +263,7 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
                                     onClick={() => setSourceTextSize("sm")}
                                     title="Small text"
                                 >
-                                    <Text fontSize="sm">A</Text>
+                                    <Text fontSize="sm">ก</Text>
                                 </Button>
                                 <Button
                                     variant={
@@ -274,7 +274,7 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
                                     onClick={() => setSourceTextSize("md")}
                                     title="Medium text"
                                 >
-                                    <Text fontSize="md">A</Text>
+                                    <Text fontSize="md">ก</Text>
                                 </Button>
                                 <Button
                                     variant={
@@ -285,7 +285,7 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
                                     onClick={() => setSourceTextSize("xl")}
                                     title="Large text"
                                 >
-                                    <Text fontSize="lg">A</Text>
+                                    <Text fontSize="lg">ก</Text>
                                 </Button>
                             </ButtonGroup>
                         </FormControl>
@@ -727,7 +727,7 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
                 onClose={onClose}
             >
                 <DrawerOverlay />
-                <DrawerContent>
+                <DrawerContent onClick={onClose}>
                     <DrawerCloseButton />
                     <DrawerHeader>Grammar Guide</DrawerHeader>
                     <DrawerBody>
