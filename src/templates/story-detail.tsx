@@ -53,7 +53,6 @@ interface StoryDetailPageData {
 const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
     const { book, story } = data;
     const [mode, setMode] = useState<"read" | "translate">("read");
-    const [showTarget, setShowTarget] = useState(true);
     const [showPhonetic, setShowPhonetic] = useState(true);
     const [showBreakdown, setShowBreakdown] = useState(false);
     const [sourceTextSize, setSourceTextSize] = useState<"sm" | "md" | "xl">(
@@ -71,7 +70,6 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
     const breakdownBorderColor = semanticColors.breakdown.border;
     const breakdownAccentColor = semanticColors.breakdown.accent;
 
-    const translateToggleId = useId();
     const phoneticToggleId = useId();
     const breakdownToggleId = useId();
     const fontChoiceId = useId();
@@ -274,7 +272,7 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
                                     onClick={() => setSourceTextSize("md")}
                                     title="Medium text"
                                 >
-                                    <Text fontSize="md">ก</Text>
+                                    <Text fontSize="lg">ก</Text>
                                 </Button>
                                 <Button
                                     variant={
@@ -285,36 +283,30 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
                                     onClick={() => setSourceTextSize("xl")}
                                     title="Large text"
                                 >
-                                    <Text fontSize="lg">ก</Text>
+                                    <Text fontSize="xl">ก</Text>
                                 </Button>
                             </ButtonGroup>
                         </FormControl>
 
                         {mode === "read" && (
                             <>
-                                <FormControl
-                                    display="flex"
-                                    alignItems="center"
-                                    justifyContent="space-between"
-                                    width={{ base: "100%", sm: "auto" }}
-                                    gap={3}
-                                >
-                                    <FormLabel
-                                        htmlFor={translateToggleId}
-                                        mb="0"
-                                        fontWeight="medium"
+                                <Flex gap={3}>
+                                    <Button
+                                        size="sm"
+                                        colorScheme="blue"
+                                        variant="outline"
+                                        onClick={revealAll}
                                     >
-                                        Translate
-                                    </FormLabel>
-                                    <Switch
-                                        id={translateToggleId}
-                                        colorScheme="primary"
-                                        isChecked={showTarget}
-                                        onChange={(event) =>
-                                            setShowTarget(event.target.checked)
-                                        }
-                                    />
-                                </FormControl>
+                                        Reveal All
+                                    </Button>
+                                    <Button
+                                        size="sm"
+                                        variant="outline"
+                                        onClick={hideAll}
+                                    >
+                                        Hide All
+                                    </Button>
+                                </Flex>
 
                                 <FormControl
                                     display="flex"
@@ -623,98 +615,163 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
                                 );
                             }
 
-                            // Read mode (original)
+                            // Read mode
                             return (
-                                <Stack
+                                <Box
                                     key={`${story.storyId}-${index}`}
-                                    spacing={3}
+                                    borderWidth="1px"
+                                    borderColor={
+                                        isRevealed ? "blue.200" : "gray.200"
+                                    }
+                                    borderRadius="md"
+                                    p={4}
+                                    bg={isRevealed ? "blue.50" : "white"}
+                                    transition="all 0.2s"
+                                    _hover={{
+                                        borderColor: isRevealed
+                                            ? "blue.300"
+                                            : "gray.300",
+                                        shadow: "sm",
+                                    }}
                                 >
-                                    <Text fontSize={sourceTextSize}>
-                                        <TextToSpeech
-                                            text={sentence.source}
-                                            lang={story.language}
-                                        />{" "}
-                                        {sentence.source}
-                                    </Text>
-
-                                    {showPhonetic && (
-                                        <Text
-                                            fontSize="sm"
-                                            fontStyle="italic"
-                                            color={phoneticColor}
+                                    <Stack spacing={3}>
+                                        <Flex
+                                            justify="space-between"
+                                            align="center"
+                                            gap={4}
                                         >
-                                            {sentence.phonetic}
-                                        </Text>
-                                    )}
-
-                                    {showTarget && (
-                                        <Text fontSize="lg" color={metaColor}>
-                                            {sentence.target}
-                                        </Text>
-                                    )}
-
-                                    {showBreakdown &&
-                                        sentence.breakdown &&
-                                        sentence.breakdown.length > 0 && (
-                                            <Stack
-                                                spacing={1}
-                                                pl={4}
-                                                borderLeft="2px"
-                                                borderColor={
-                                                    breakdownBorderColor
-                                                }
+                                            <Text
+                                                fontSize={sourceTextSize}
+                                                fontWeight="semibold"
                                             >
-                                                {sentence.breakdown.map(
-                                                    (word, wordIndex) => (
-                                                        <Text
-                                                            key={`${story.storyId}-${index}-${wordIndex}`}
-                                                            fontSize="sm"
-                                                            color={metaColor}
-                                                        >
-                                                            <Text
-                                                                as="span"
-                                                                fontWeight="semibold"
-                                                                color={
-                                                                    breakdownAccentColor
-                                                                }
-                                                            >
-                                                                <TextToSpeech
-                                                                    text={
-                                                                        word.source
-                                                                    }
-                                                                    lang={
-                                                                        story.language
-                                                                    }
-                                                                />{" "}
-                                                                {word.source}
-                                                            </Text>{" "}
-                                                            <Text
-                                                                as="span"
-                                                                fontStyle="italic"
-                                                                color={
-                                                                    phoneticColor
-                                                                }
-                                                            >
-                                                                {word.phonetic}
-                                                            </Text>
-                                                            {" → "}
-                                                            {word.target}
-                                                            {word.partOfSpeech && (
-                                                                <Text
-                                                                    as="span"
-                                                                    color={
-                                                                        phoneticColor
-                                                                    }
-                                                                >
-                                                                    {` (${word.partOfSpeech})`}
-                                                                </Text>
-                                                            )}
-                                                        </Text>
-                                                    ),
-                                                )}
-                                            </Stack>
+                                                <TextToSpeech
+                                                    text={sentence.source}
+                                                    lang={story.language}
+                                                />{" "}
+                                                {sentence.source}
+                                            </Text>
+                                            {isRevealed && (
+                                                <Badge
+                                                    colorScheme="blue"
+                                                    fontSize="sm"
+                                                >
+                                                    ✓
+                                                </Badge>
+                                            )}
+                                        </Flex>
+
+                                        {showPhonetic && (
+                                            <Text
+                                                fontSize="sm"
+                                                fontStyle="italic"
+                                                color={phoneticColor}
+                                            >
+                                                {sentence.phonetic}
+                                            </Text>
                                         )}
-                                </Stack>
+
+                                        {!isRevealed && (
+                                            <Button
+                                                size="sm"
+                                                colorScheme="blue"
+                                                onClick={() =>
+                                                    toggleSentenceReveal(
+                                                        index,
+                                                    )
+                                                }
+                                                width="fit-content"
+                                            >
+                                                Show Answer
+                                            </Button>
+                                        )}
+
+                                        <Collapse
+                                            in={isRevealed}
+                                            animateOpacity
+                                        >
+                                            <Stack spacing={3} pt={2}>
+                                                <Text fontSize="lg" color={metaColor}>
+                                                    {sentence.target}
+                                                </Text>
+
+                                                {showBreakdown &&
+                                                    sentence.breakdown &&
+                                                    sentence.breakdown.length > 0 && (
+                                                        <Stack
+                                                            spacing={1}
+                                                            pl={4}
+                                                            borderLeft="2px"
+                                                            borderColor={
+                                                                breakdownBorderColor
+                                                            }
+                                                        >
+                                                            {sentence.breakdown.map(
+                                                                (word, wordIndex) => (
+                                                                    <Text
+                                                                        key={`${story.storyId}-${index}-${wordIndex}`}
+                                                                        fontSize="sm"
+                                                                        color={metaColor}
+                                                                    >
+                                                                        <Text
+                                                                            as="span"
+                                                                            fontWeight="semibold"
+                                                                            color={
+                                                                                breakdownAccentColor
+                                                                            }
+                                                                        >
+                                                                            <TextToSpeech
+                                                                                text={
+                                                                                    word.source
+                                                                                }
+                                                                                lang={
+                                                                                    story.language
+                                                                                }
+                                                                            />{" "}
+                                                                            {word.source}
+                                                                        </Text>{" "}
+                                                                        <Text
+                                                                            as="span"
+                                                                            fontStyle="italic"
+                                                                            color={
+                                                                                phoneticColor
+                                                                            }
+                                                                        >
+                                                                            {word.phonetic}
+                                                                        </Text>
+                                                                        {" → "}
+                                                                        {word.target}
+                                                                        {word.partOfSpeech && (
+                                                                            <Text
+                                                                                as="span"
+                                                                                color={
+                                                                                    phoneticColor
+                                                                                }
+                                                                            >
+                                                                                {` (${word.partOfSpeech})`}
+                                                                            </Text>
+                                                                        )}
+                                                                    </Text>
+                                                                ),
+                                                            )}
+                                                        </Stack>
+                                                    )}
+
+                                                <Button
+                                                    size="xs"
+                                                    variant="ghost"
+                                                    onClick={() =>
+                                                        toggleSentenceReveal(
+                                                            index,
+                                                        )
+                                                    }
+                                                    width="fit-content"
+                                                >
+                                                    Hide Answer
+                                                </Button>
+                                            </Stack>
+                                        </Collapse>
+                                    </Stack>
+                                </Box>
                             );
                         },
                     )}

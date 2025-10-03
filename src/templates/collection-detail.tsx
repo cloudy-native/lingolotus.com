@@ -23,13 +23,16 @@ import { LazyImage } from "../components/LazyImage";
 import { semanticColors } from "../theme/colors";
 import { tokens } from "../theme/tokens";
 import type { Collection, Deck } from "../types";
-import { deckDetailPath, flashcardListPath } from "../utils/paths";
+import { collectionDetailPath, deckDetailPath, flashcardListPath } from "../utils/paths";
 
 interface CollectionDetailTemplateProps {
     data: {
         collectionsJson: Collection;
         allDecksJson: {
             nodes: Deck[];
+        };
+        otherCollections: {
+            nodes: Collection[];
         };
     };
 }
@@ -80,11 +83,65 @@ const DeckCard: React.FC<{ deck: Deck }> = ({ deck }) => {
     );
 };
 
+const CollectionCard: React.FC<{ collection: Collection }> = ({ collection }) => {
+    return (
+        <Link to={collectionDetailPath(collection.collectionId)}>
+            <LanguageCard height="100%">
+                <Box p={tokens.card.padding}>
+                    {collection.imageUrl && (
+                        <LazyImage
+                            src={collection.imageUrl}
+                            alt={collection.name}
+                            borderRadius="md"
+                            width="100%"
+                            height="120px"
+                            objectFit="cover"
+                            loading="lazy"
+                            mb={3}
+                        />
+                    )}
+
+                    <Flex align="center" mb={2}>
+                        <Heading as="h3" size="md" fontWeight="semibold" mr={2}>
+                            {collection.name}
+                        </Heading>
+                        {collection.featured && (
+                            <Icon as={Star} color="yellow.400" boxSize={4} />
+                        )}
+                    </Flex>
+
+                    <Text fontSize="sm" color="gray.500" noOfLines={2} mb={4}>
+                        {collection.description}
+                    </Text>
+
+                    <Stack spacing={2}>
+                        <Flex gap={2} wrap="wrap">
+                            <Tag size="sm" colorScheme="purple">
+                                {collection.difficulty}
+                            </Tag>
+                            {collection.category && (
+                                <Tag size="sm" colorScheme="blue">
+                                    {collection.category}
+                                </Tag>
+                            )}
+                        </Flex>
+
+                        <Button size="sm" width="100%" mt={2}>
+                            View Collection
+                        </Button>
+                    </Stack>
+                </Box>
+            </LanguageCard>
+        </Link>
+    );
+};
+
 const CollectionDetailTemplate: React.FC<CollectionDetailTemplateProps> = ({
     data,
 }) => {
     const collection = data.collectionsJson;
     const decks = data.allDecksJson.nodes;
+    const otherCollections = data.otherCollections.nodes;
 
     const headerBg = semanticColors.header.flashcards;
     const headerBorder = semanticColors.border.header.flashcards;
@@ -189,6 +246,23 @@ const CollectionDetailTemplate: React.FC<CollectionDetailTemplateProps> = ({
                     ))}
                 </SimpleGrid>
             </Container>
+
+            {otherCollections.length > 0 && (
+                <Container maxW="container.xl" py={8}>
+                    <Heading as="h2" size="lg" mb={6}>
+                        You May Also Like
+                    </Heading>
+
+                    <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={6}>
+                        {otherCollections.map((otherCollection) => (
+                            <CollectionCard
+                                key={otherCollection.id}
+                                collection={otherCollection}
+                            />
+                        ))}
+                    </SimpleGrid>
+                </Container>
+            )}
         </>
     );
 };
@@ -244,6 +318,23 @@ export const query = graphql`
             phonetic
           }
         }
+      }
+    }
+    otherCollections: allCollectionsJson(
+      filter: { collectionId: { ne: $collectionId } }
+      limit: 3
+    ) {
+      nodes {
+        id
+        collectionId
+        name
+        description
+        sourceLanguage
+        targetLanguage
+        category
+        difficulty
+        imageUrl
+        featured
       }
     }
   }

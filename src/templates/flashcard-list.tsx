@@ -31,8 +31,8 @@ const CollectionCard: React.FC<{ collection: Collection }> = ({
     collection,
 }) => {
     return (
-        <Link to={collectionDetailPath(collection.collectionId)}>
-            <LanguageCard>
+        <Link to={collectionDetailPath(collection.collectionId)} style={{ height: "100%" }}>
+            <LanguageCard height="100%" display="flex" flexDirection="column">
                 {collection.imageUrl && (
                     <LazyImage
                         src={collection.imageUrl}
@@ -43,7 +43,7 @@ const CollectionCard: React.FC<{ collection: Collection }> = ({
                         loading="lazy"
                     />
                 )}
-                <Box p={tokens.card.padding}>
+                <Box p={tokens.card.padding} flex="1" display="flex" flexDirection="column">
                     <Flex justify="space-between" align="center" mb={2}>
                         <Heading as="h3" size="md" fontWeight="semibold">
                             {collection.name}
@@ -63,6 +63,7 @@ const CollectionCard: React.FC<{ collection: Collection }> = ({
                         direction="row"
                         align="center"
                         justify="space-between"
+                        mt="auto"
                     >
                         <Flex align="center">
                             <Tag colorScheme={tagColorSchemes.language} mr={2}>
@@ -138,6 +139,7 @@ const CollectionListTemplate: React.FC<CollectionListTemplateProps> = ({
                             columns={{ base: 1, md: 2, lg: 3 }}
                             spacing={6}
                             mb={12}
+                            alignItems="stretch"
                         >
                             {featuredCollections.map((collection) => (
                                 <CollectionCard
@@ -157,6 +159,7 @@ const CollectionListTemplate: React.FC<CollectionListTemplateProps> = ({
                         <SimpleGrid
                             columns={{ base: 1, md: 2, lg: 3 }}
                             spacing={6}
+                            alignItems="stretch"
                         >
                             {regularCollections.map((collection) => (
                                 <CollectionCard

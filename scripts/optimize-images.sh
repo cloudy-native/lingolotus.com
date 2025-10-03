@@ -19,7 +19,7 @@ echo "================================"
 echo ""
 
 # Check if ImageMagick is installed
-if ! command -v convert &> /dev/null; then
+if ! command -v magick &> /dev/null; then
     echo "❌ ImageMagick is not installed!"
     echo "Install with: brew install imagemagick"
     exit 1
@@ -57,14 +57,32 @@ for img in "$IMAGES_DIR"/*.jpg "$IMAGES_DIR"/*.jpeg "$IMAGES_DIR"/*.png "$IMAGES
     extension="${filename##*.}"
     name="${filename%.*}"
     
+    # Get image dimensions
+    dimensions=$(magick identify -format "%wx%h" "$img")
+    width=$(echo "$dimensions" | cut -d'x' -f1)
+    height=$(echo "$dimensions" | cut -d'x' -f2)
+    
     # Get original size
     original_size=$(du -h "$img" | cut -f1)
     
-    echo "Processing: $filename (Original: $original_size)"
+    echo "Processing: $filename (${width}x${height}, $original_size)"
+    
+    # Check if image needs resizing
+    needs_resize=false
+    if [ "$width" -gt "$MAX_WIDTH" ] || [ "$height" -gt "$MAX_HEIGHT" ]; then
+        needs_resize=true
+    fi
+    
+    # Skip if image is already optimized
+    if [ "$needs_resize" = false ]; then
+        echo "  ⏭️  Skipped: Already within target dimensions"
+        echo ""
+        continue
+    fi
     
     # Optimize JPEG/JPG
     if [[ "$extension" =~ ^(jpg|jpeg|JPG|JPEG)$ ]]; then
-        convert "$img" \
+        magick convert "$img" \
             -resize "${MAX_WIDTH}x${MAX_HEIGHT}>" \
             -quality $QUALITY \
             -strip \
@@ -74,7 +92,7 @@ for img in "$IMAGES_DIR"/*.jpg "$IMAGES_DIR"/*.jpeg "$IMAGES_DIR"/*.png "$IMAGES
     
     # Optimize PNG
     if [[ "$extension" =~ ^(png|PNG)$ ]]; then
-        convert "$img" \
+        magick convert "$img" \
             -resize "${MAX_WIDTH}x${MAX_HEIGHT}>" \
             -quality $QUALITY \
             -strip \

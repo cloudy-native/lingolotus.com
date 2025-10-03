@@ -36,8 +36,8 @@ const CardBack: React.FC<CardBackProps> = ({
             <Box borderRadius="md" p={3} bg={contentBg}>
                 <HStack spacing={2} align="center" maxWidth="100%">
                     <TextToSpeech
-                        text={card.frontContent.text}
-                        lang={sourceLanguage}
+                        text={card.backContent.text}
+                        lang={targetLanguage}
                     />
                     <Heading size="lg" mb={0} wordBreak="break-word">
                         {card.backContent.text}

@@ -158,48 +158,55 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                     Browse All
                                 </Button>
                             </Flex>
-                            <StaticImage
-                                src="../../static/images/IMG_5492.jpeg"
-                                alt="Flashcards"
-                                style={{
-                                    borderRadius: "0.375rem",
-                                    height: "200px",
-                                    width: "100%",
-                                    marginBottom: "1rem",
-                                }}
-                                objectFit="cover"
-                                loading="lazy"
-                            />
-                            <Text color="gray.600" mb={4}>
-                                Learn vocabulary with spaced repetition. Each
-                                card includes translations, phonetics, and
-                                example sentences. Perfect for building your
-                                word bank.
-                            </Text>
+                            <Link to={flashcardListPath()}>
+                                <Box
+                                    cursor="pointer"
+                                    transition="all 0.2s"
+                                    borderWidth="1px"
+                                    borderColor="gray.200"
+                                    borderRadius="md"
+                                    overflow="hidden"
+                                    mb={4}
+                                    _hover={{
+                                        transform: "translateY(-2px)",
+                                        shadow: "lg",
+                                        borderColor: "blue.300",
+                                    }}
+                                >
+                                    <StaticImage
+                                        src="../../static/images/IMG_5492.jpeg"
+                                        alt="Flashcards"
+                                        style={{
+                                            height: "200px",
+                                            width: "100%",
+                                        }}
+                                        objectFit="cover"
+                                        loading="lazy"
+                                    />
+                                    <Box p={4}>
+                                        <Text color="gray.600" mb={4}>
+                                            Learn vocabulary with spaced repetition. Each
+                                            card includes translations, phonetics, and
+                                            example sentences. Perfect for building your
+                                            word bank.
+                                        </Text>
 
-                            {/* Languages */}
-                            <HStack spacing={2} mb={4} flexWrap="wrap">
-                                {collectionsByLanguage.map((group) => (
-                                    <Link
-                                        to={flashcardListPath()}
-                                        key={group.fieldValue}
-                                        state={{ language: group.fieldValue }}
-                                    >
-                                        <Tag
-                                            size="lg"
-                                            colorScheme="blue"
-                                            cursor="pointer"
-                                            _hover={{
-                                                bg: "blue.600",
-                                                color: "white",
-                                            }}
-                                        >
-                                            {group.fieldValue.toUpperCase()} (
-                                            {group.totalCount})
-                                        </Tag>
-                                    </Link>
-                                ))}
-                            </HStack>
+                                        {/* Languages */}
+                                        <HStack spacing={2} flexWrap="wrap">
+                                            {collectionsByLanguage.map((group) => (
+                                                <Tag
+                                                    key={group.fieldValue}
+                                                    size="lg"
+                                                    colorScheme="blue"
+                                                >
+                                                    {group.fieldValue.toUpperCase()} (
+                                                    {group.totalCount})
+                                                </Tag>
+                                            ))}
+                                        </HStack>
+                                    </Box>
+                                </Box>
+                            </Link>
                         </Box>
 
                         {/* Featured Flashcards */}
@@ -227,6 +234,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                                     transform:
                                                         "translateY(-2px)",
                                                     shadow: "md",
+                                                    borderColor: "blue.300",
                                                 }}
                                             >
                                                 <LazyImage
@@ -310,47 +318,54 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                     Browse All
                                 </Button>
                             </Flex>
-                            <StaticImage
-                                src="../../static/images/IMG_5673.jpeg"
-                                alt="Reading"
-                                style={{
-                                    borderRadius: "0.375rem",
-                                    height: "200px",
-                                    width: "100%",
-                                    marginBottom: "1rem",
-                                }}
-                                objectFit="cover"
-                                loading="lazy"
-                            />
-                            <Text color="gray.600" mb={4}>
-                                Practice reading with stories that include
-                                phonetics and word-by-word breakdowns. Build
-                                comprehension and learn grammar in context.
-                            </Text>
+                            <Link to={readingPath()}>
+                                <Box
+                                    cursor="pointer"
+                                    transition="all 0.2s"
+                                    borderWidth="1px"
+                                    borderColor="gray.200"
+                                    borderRadius="md"
+                                    overflow="hidden"
+                                    mb={4}
+                                    _hover={{
+                                        transform: "translateY(-2px)",
+                                        shadow: "lg",
+                                        borderColor: "green.300",
+                                    }}
+                                >
+                                    <StaticImage
+                                        src="../../static/images/IMG_5673.jpeg"
+                                        alt="Reading"
+                                        style={{
+                                            height: "200px",
+                                            width: "100%",
+                                        }}
+                                        objectFit="cover"
+                                        loading="lazy"
+                                    />
+                                    <Box p={4}>
+                                        <Text color="gray.600" mb={4}>
+                                            Practice reading with stories that include
+                                            phonetics and word-by-word breakdowns. Build
+                                            comprehension and learn grammar in context.
+                                        </Text>
 
-                            {/* Languages */}
-                            <HStack spacing={2} mb={4} flexWrap="wrap">
-                                {booksByLanguage.map((group) => (
-                                    <Link
-                                        to={readingPath()}
-                                        key={group.fieldValue}
-                                        state={{ language: group.fieldValue }}
-                                    >
-                                        <Tag
-                                            size="lg"
-                                            colorScheme="green"
-                                            cursor="pointer"
-                                            _hover={{
-                                                bg: "green.600",
-                                                color: "white",
-                                            }}
-                                        >
-                                            {group.fieldValue.toUpperCase()} (
-                                            {group.totalCount})
-                                        </Tag>
-                                    </Link>
-                                ))}
-                            </HStack>
+                                        {/* Languages */}
+                                        <HStack spacing={2} flexWrap="wrap">
+                                            {booksByLanguage.map((group) => (
+                                                <Tag
+                                                    key={group.fieldValue}
+                                                    size="lg"
+                                                    colorScheme="green"
+                                                >
+                                                    {group.fieldValue.toUpperCase()} (
+                                                    {group.totalCount})
+                                                </Tag>
+                                            ))}
+                                        </HStack>
+                                    </Box>
+                                </Box>
+                            </Link>
                         </Box>
 
                         {/* Featured Books */}
@@ -376,6 +391,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                                     transform:
                                                         "translateY(-2px)",
                                                     shadow: "md",
+                                                    borderColor: "green.300",
                                                 }}
                                             >
                                                 <LazyImage

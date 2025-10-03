@@ -1,5 +1,5 @@
 {
-    "collectionId": "thai-english",
+    "collectionId": "thai-english-beginner",
     "deckId": "greetings",
     "name": "Basic Thai Greetings",
     "description": "Essential Thai greetings and introductions for beginners",
@@ -20,7 +20,7 @@
                 "basic",
                 "everyday"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "sà-wàt-dii",
@@ -53,7 +53,7 @@
                 "basic",
                 "everyday"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "kɔ̀p-kun",
@@ -85,7 +85,7 @@
                 "basic",
                 "everyday"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "laa-gɔ̀ɔn",
@@ -118,7 +118,7 @@
                 "basic",
                 "question"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "sà-baai-dii mǎi",
@@ -151,7 +151,7 @@
                 "basic",
                 "response"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "sà-baai-dii",
@@ -184,7 +184,7 @@
                 "introduction",
                 "polite"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "yin-dii têe dâai rúu-jàk",
@@ -217,7 +217,7 @@
                 "polite",
                 "introduction"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "chên-gan",
@@ -250,7 +250,7 @@
                 "introduction",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "chʉ̂ʉ à-rai",
@@ -283,7 +283,7 @@
                 "basic",
                 "response"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "pǒm/chǎn chʉ̂ʉ...",
@@ -316,7 +316,7 @@
                 "casual",
                 "everyday"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "láew jəə gan",
@@ -349,7 +349,7 @@
                 "casual",
                 "everyday"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "bpai gɔ̀ɔn ná",
@@ -382,7 +382,7 @@
                 "basic",
                 "everyday"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "kɔ̀ɔ-tôot",
@@ -415,7 +415,7 @@
                 "basic",
                 "everyday"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "mâi bpen rai",
@@ -448,7 +448,7 @@
                 "question",
                 "casual"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "kun bpen yang-rai bâang",
@@ -481,7 +481,7 @@
                 "polite",
                 "reunion"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "dii-jai têe dâai pɔ́p kun",
@@ -514,7 +514,7 @@
                 "introduction",
                 "conversation"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "kun maa jàk nǎi",
@@ -547,7 +547,7 @@
                 "introduction",
                 "conversation"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "pǒm/chǎn maa jàk...",
@@ -580,7 +580,7 @@
                 "polite",
                 "formal"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "pɔ́p gan mài",
@@ -613,7 +613,7 @@
                 "language",
                 "travel"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "kun pût paa-sǎa ang-grìt dâai mǎi",
@@ -646,7 +646,7 @@
                 "travel",
                 "introduction"
             ],
-            "difficulty": "hard",
+            "difficulty": "advanced",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "pǒm/chǎn pût paa-sǎa tai dâai nít-nɔ́i",

@@ -1,5 +1,5 @@
 {
-    "collectionId": "thai-english",
+    "collectionId": "thai-english-elementary",
     "deckId": "prepositions",
     "name": "Thai Prepositions",
     "description": "Comprehensive collection of Thai prepositions and spatial relationship words for English speakers",
@@ -8,7 +8,7 @@
     "createdAt": "2024-10-29T03:43:11Z",
     "updatedAt": "2024-12-26T05:58:27Z",
     "theme": "grammar",
-    "difficulty": "intermediate",
+    "difficulty": "elementary",
     "cards": [
         {
             "frontContent": {
@@ -24,7 +24,7 @@
                 "location",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "bon",
@@ -57,7 +57,7 @@
                 "location",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "dtâai",
@@ -90,7 +90,7 @@
                 "location",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "nai",
@@ -123,7 +123,7 @@
                 "location",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "nɔ̂ɔk",
@@ -156,7 +156,7 @@
                 "location",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "nâa",
@@ -189,7 +189,7 @@
                 "location",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "lǎng",
@@ -222,7 +222,7 @@
                 "location",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "kâang",
@@ -255,7 +255,7 @@
                 "location",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "rá-wàang",
@@ -288,7 +288,7 @@
                 "location",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "rɔ̂ɔp",
@@ -321,7 +321,7 @@
                 "direction",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "taang",
@@ -354,7 +354,7 @@
                 "location",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "dtrong kâam",
@@ -387,7 +387,7 @@
                 "movement",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "pàan",
@@ -420,7 +420,7 @@
                 "location",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "glâi",
@@ -453,7 +453,7 @@
                 "location",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "klai",
@@ -486,7 +486,7 @@
                 "destination",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "tʉ̌ng",
@@ -519,7 +519,7 @@
                 "origin",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "jàak",
@@ -552,7 +552,7 @@
                 "direction",
                 "advanced"
             ],
-            "difficulty": "hard",
+            "difficulty": "advanced",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "sùu",
@@ -586,7 +586,7 @@
                 "direction",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "nǐua",
@@ -619,7 +619,7 @@
                 "time",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "dtâng-dtɛ̀ɛ",
@@ -652,7 +652,7 @@
                 "movement",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "dtaam",

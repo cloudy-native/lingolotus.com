@@ -1,13 +1,13 @@
 {
-    "collectionId": "thai-english",
-    "name": "Thai for English Speakers",
-    "description": "Learn essential Thai vocabulary and phrases for everyday communication.",
+    "collectionId": "thai-english-beginner",
+    "name": "Thai for English Speakers - Beginner",
+    "description": "Essential Thai vocabulary and phrases for absolute beginners.",
     "sourceLanguage": "th",
     "targetLanguage": "en",
     "createdAt": "2023-04-15T10:30:00Z",
     "updatedAt": "2023-04-29T14:45:00Z",
     "category": "language-learning",
     "difficulty": "beginner",
-    "imageUrl": "/images/phuket-beach.jpeg",
+    "imageUrl": "/images/DO01000111.jpeg",
     "featured": true
 }

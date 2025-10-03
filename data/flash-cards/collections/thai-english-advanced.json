@@ -1,0 +1,13 @@
+{
+    "collectionId": "thai-english-advanced",
+    "name": "Thai for English Speakers - Advanced",
+    "description": "Master advanced Thai vocabulary, idioms, and sophisticated expressions.",
+    "sourceLanguage": "th",
+    "targetLanguage": "en",
+    "createdAt": "2023-04-15T10:30:00Z",
+    "updatedAt": "2023-04-29T14:45:00Z",
+    "category": "language-learning",
+    "difficulty": "advanced",
+    "imageUrl": "/images/phuket-beach.jpeg",
+    "featured": false
+}

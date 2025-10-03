@@ -1,5 +1,5 @@
 {
-    "collectionId": "thai-english",
+    "collectionId": "thai-english-beginner",
     "deckId": "common-adjectives",
     "name": "Thai Common Adjectives",
     "description": "Essential Thai adjectives for English speakers, covering qualities, emotions, sizes, and more",
@@ -20,7 +20,7 @@
                 "quality",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "dii",
@@ -53,7 +53,7 @@
                 "size",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "yài",
@@ -86,7 +86,7 @@
                 "size",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "lék",
@@ -119,7 +119,7 @@
                 "appearance",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "sǔay",
@@ -152,7 +152,7 @@
                 "appearance",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "lɔ̀ɔ",
@@ -185,7 +185,7 @@
                 "age",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "gào",
@@ -218,7 +218,7 @@
                 "age",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "mài",
@@ -251,7 +251,7 @@
                 "age",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "gàe",
@@ -284,7 +284,7 @@
                 "age",
                 "gender-specific"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "nùm",
@@ -317,7 +317,7 @@
                 "age",
                 "gender-specific"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "sǎao",
@@ -350,7 +350,7 @@
                 "temperature",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "rɔ́ɔn",
@@ -383,7 +383,7 @@
                 "temperature",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "yen",
@@ -416,7 +416,7 @@
                 "temperature",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "nǎao",
@@ -449,7 +449,7 @@
                 "taste",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "wǎan",
@@ -482,7 +482,7 @@
                 "taste",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "pèt",
@@ -515,7 +515,7 @@
                 "taste",
                 "basic"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "bprîao",
@@ -548,7 +548,7 @@
                 "taste",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "kem",
@@ -581,7 +581,7 @@
                 "price",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "pɛɛng",
@@ -614,7 +614,7 @@
                 "price",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "tùuk",
@@ -647,7 +647,7 @@
                 "quality",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "yâak",
@@ -680,7 +680,7 @@
                 "quality",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "ngâai",
@@ -703,5 +703,5 @@
     "createdAt": "2025-08-06T22:17:43Z",
     "updatedAt": "2025-09-03T07:33:27Z",
     "theme": "vocabulary",
-    "difficulty": "beginner-intermediate"
+    "difficulty": "intermediate"
 }

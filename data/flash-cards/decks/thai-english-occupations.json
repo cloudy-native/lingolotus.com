@@ -1,5 +1,5 @@
 {
-    "collectionId": "thai-english",
+    "collectionId": "thai-english-intermediate",
     "deckId": "occupations",
     "name": "Thai Occupations and Professions",
     "description": "Essential Thai vocabulary and phrases for discussing various occupations and professions",
@@ -20,7 +20,7 @@
                 "occupation",
                 "common phrase"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "kun tam-ngaan à-rai",
@@ -53,7 +53,7 @@
                 "occupation",
                 "statement"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "chǎn bpen kruu",
@@ -86,7 +86,7 @@
                 "medical",
                 "occupation"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "kǎo bpen mɔ̌ɔ",
@@ -119,7 +119,7 @@
                 "occupation",
                 "statement"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "chǎn tam-ngaan bpen wí-sà-wá-gɔɔn",
@@ -152,7 +152,7 @@
                 "medical",
                 "occupation"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "təə bpen pá-yaa-baan",
@@ -185,7 +185,7 @@
                 "law enforcement",
                 "occupation"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "kǎo tam-ngaan bpen dtam-rùat",
@@ -218,7 +218,7 @@
                 "employee",
                 "occupation"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "chǎn bpen pá-nák-ngaan bɔɔ-rí-sàt",
@@ -251,7 +251,7 @@
                 "entertainment",
                 "occupation"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "təə bpen nák-sà-dɛɛng",
@@ -284,7 +284,7 @@
                 "author",
                 "occupation"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "kǎo bpen nák-kǐan",
@@ -317,7 +317,7 @@
                 "education",
                 "occupation"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "chǎn bpen nák-sʉ̀k-sǎa",
@@ -350,7 +350,7 @@
                 "specialist",
                 "medical"
             ],
-            "difficulty": "hard",
+            "difficulty": "advanced",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "təə bpen pɛ̂ɛt chà-pɔ́ taang",
@@ -383,7 +383,7 @@
                 "cooking",
                 "occupation"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "kǎo bpen pɔ̂ɔ-krua",
@@ -416,7 +416,7 @@
                 "cooking",
                 "occupation"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "təə bpen mɛ̂ɛ-krua",
@@ -449,7 +449,7 @@
                 "entrepreneur",
                 "occupation"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "pîi-chaai kɔ̌ɔng chǎn bpen nák-tú-rá-gìt",
@@ -482,7 +482,7 @@
                 "legal",
                 "occupation"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "chǎn bpen tá-naai-kwaam",
@@ -515,7 +515,7 @@
                 "design",
                 "occupation"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "nɔ́ɔng-sǎao chǎn bpen sà-tǎa-bpà-nìk",
@@ -548,7 +548,7 @@
                 "creative",
                 "occupation"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "kǎo bpen châang-pâap",
@@ -581,7 +581,7 @@
                 "media",
                 "occupation"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "təə tam-ngaan bpen nák-kàao",
@@ -614,7 +614,7 @@
                 "agriculture",
                 "occupation"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "kǎo bpen gà-sèet-dtà-gɔɔn",
@@ -647,7 +647,7 @@
                 "education",
                 "occupation"
             ],
-            "difficulty": "hard",
+            "difficulty": "advanced",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "təə bpen aa-jaan má-hǎa-wít-tá-yaa-lai",

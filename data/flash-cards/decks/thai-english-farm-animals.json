@@ -1,5 +1,5 @@
 {
-    "collectionId": "thai-english",
+    "collectionId": "thai-english-elementary",
     "deckId": "farm-animals",
     "name": "Farm Animals",
     "description": "Essential Thai vocabulary for farm animals",
@@ -20,7 +20,7 @@
                 "mammals",
                 "livestock"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "wua",
@@ -53,7 +53,7 @@
                 "mammals",
                 "working animal"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "máa",
@@ -86,7 +86,7 @@
                 "birds",
                 "poultry"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "gài",
@@ -119,7 +119,7 @@
                 "mammals",
                 "livestock"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "mǔu",
@@ -152,7 +152,7 @@
                 "birds",
                 "poultry"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "bpèt",
@@ -185,7 +185,7 @@
                 "mammals",
                 "livestock"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "pɛ́ɛ",
@@ -218,7 +218,7 @@
                 "mammals",
                 "livestock"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "gɛ̀ɛ",
@@ -251,7 +251,7 @@
                 "mammals",
                 "small animals"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "grà-dtàai",
@@ -284,7 +284,7 @@
                 "mammals",
                 "working animal"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "kwaai",
@@ -317,7 +317,7 @@
                 "birds",
                 "poultry"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "gài dtua pûu",
@@ -340,5 +340,5 @@
     "createdAt": "2025-04-23T03:32:52Z",
     "updatedAt": "2025-06-15T00:04:54Z",
     "theme": "animals",
-    "difficulty": "beginner"
+    "difficulty": "elementary"
 }

@@ -127,17 +127,3 @@ export interface ReadingStory {
     summary?: string;
 }
 
-// export interface SessionProgress {
-//   currentCardIndex: number;
-//   correctAnswers: number;
-//   incorrectAnswers: number;
-//   cardsReviewed: Set<string>; // Card IDs that have been reviewed
-//   cardStatistics: {
-//     [id: string]: {
-//       correctCount: number;
-//       incorrectCount: number;
-//       lastReviewed?: Date;
-//       confidenceLevel: 1 | 2 | 3 | 4 | 5; // 1 = lowest, 5 = highest
-//     }
-//   };
-// }

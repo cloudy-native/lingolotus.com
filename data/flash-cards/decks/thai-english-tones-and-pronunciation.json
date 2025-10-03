@@ -1,5 +1,5 @@
 {
-    "collectionId": "thai-english",
+    "collectionId": "thai-english-intermediate",
     "deckId": "tones-pronunciation-revised",
     "name": "Thai Tones & Pronunciation - Minimal Pairs",
     "description": "Thai words and phrases with similar pronunciation but different meanings due to tones or vowel length",
@@ -20,7 +20,7 @@
                 "tones",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "kǎao (mid tone) / kàao (low tone)",
@@ -53,7 +53,7 @@
                 "tones",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "sʉ̌a (mid tone) / sèua (low tone)",
@@ -86,7 +86,7 @@
                 "tones",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "maa (mid tone) / mâa (falling tone)",
@@ -119,7 +119,7 @@
                 "tones",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "mǎi (rising tone) / mâi (falling tone)",
@@ -151,7 +151,7 @@
                 "similar pronunciation",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "gèng / greeng",
@@ -184,7 +184,7 @@
                 "tones",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "gaao (mid tone) / gâao (falling tone)",
@@ -216,7 +216,7 @@
                 "similar pronunciation",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "glâi / glai",
@@ -248,7 +248,7 @@
                 "vowel length",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "pût (long vowel) / pút (short vowel)",
@@ -280,7 +280,7 @@
                 "vowel length",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "mát (short vowel) / mâat (long vowel)",
@@ -313,7 +313,7 @@
                 "tones",
                 "basic"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "hǎa (rising tone) / hâa (falling tone)",
@@ -345,7 +345,7 @@
                 "tone triple",
                 "advanced"
             ],
-            "difficulty": "hard",
+            "difficulty": "advanced",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "naa (mid) / nâa (low) / náa (falling)",
@@ -382,7 +382,7 @@
                 "initial consonants",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "pîi / pǐi",
@@ -414,7 +414,7 @@
                 "initial consonants",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "bplaa / pǐlaa",
@@ -446,7 +446,7 @@
                 "initial consonants",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "lʉ̂ak / lǐua",
@@ -479,7 +479,7 @@
                 "tones",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "lên (falling tone) / lén (high tone)",
@@ -511,7 +511,7 @@
                 "vowel length",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "jàp (short vowel) / jàap (long vowel)",
@@ -543,7 +543,7 @@
                 "vowel length",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "bpìt (short vowel) / bpîdt (long vowel)",
@@ -575,7 +575,7 @@
                 "initial consonants",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "pɛɛng / pɛ̀ɛng",
@@ -607,7 +607,7 @@
                 "consonant clusters",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "bao / bplào",
@@ -639,7 +639,7 @@
                 "consonant clusters",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "klɔɔng / grɔɔng",

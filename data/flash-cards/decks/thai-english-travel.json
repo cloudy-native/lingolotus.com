@@ -1,5 +1,5 @@
 {
-    "collectionId": "thai-english",
+    "collectionId": "thai-english-intermediate",
     "deckId": "thai-travel",
     "name": "Thai Travel Phrases",
     "description": "Essential Thai vocabulary and phrases for travelers in Thailand",
@@ -20,7 +20,7 @@
                 "location",
                 "question"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "sà-nǎam-bin yùu têe nǎi",
@@ -53,7 +53,7 @@
                 "transportation",
                 "question"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "sà-tǎa-nii rót-fai yùu têe nǎi",
@@ -86,7 +86,7 @@
                 "accommodation",
                 "question"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "bpai roong-rɛɛm née dâai mǎi",
@@ -119,7 +119,7 @@
                 "transportation",
                 "question"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "raa-kaa dtǔa tâo-rai",
@@ -152,7 +152,7 @@
                 "basic need",
                 "question"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "hɔ̂ɔng-náam yùu têe nǎi",
@@ -185,7 +185,7 @@
                 "accommodation",
                 "question"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "mii hɔ̂ɔng wâang mǎi",
@@ -218,7 +218,7 @@
                 "transportation",
                 "question"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "bpai têe née tâo-rai",
@@ -251,7 +251,7 @@
                 "time",
                 "question"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "bpə̀ət gìi moong",
@@ -284,7 +284,7 @@
                 "attraction",
                 "question"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "kâa kâao chɔɔm tâo-rai",
@@ -317,7 +317,7 @@
                 "emergency",
                 "phrase"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "chǎn lǒng taang",
@@ -350,7 +350,7 @@
                 "transportation",
                 "question"
             ],
-            "difficulty": "hard",
+            "difficulty": "advanced",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "rót-mê bpai têe née mǎai-lîk à-rai",
@@ -383,7 +383,7 @@
                 "transportation",
                 "question"
             ],
-            "difficulty": "hard",
+            "difficulty": "advanced",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "rót-fai bpai chiang-mài ɔ̀ɔk gìi moong",
@@ -416,7 +416,7 @@
                 "food",
                 "question"
             ],
-            "difficulty": "hard",
+            "difficulty": "advanced",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "mii aa-hǎan mang-sà-wí-rát mǎi",
@@ -449,7 +449,7 @@
                 "food",
                 "question"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "an nǎi à-ròi",
@@ -482,7 +482,7 @@
                 "food",
                 "request"
             ],
-            "difficulty": "easy",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "ao mâi pèt",
@@ -515,7 +515,7 @@
                 "health",
                 "phrase"
             ],
-            "difficulty": "hard",
+            "difficulty": "advanced",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "chǎn pɛ́ aa-hǎan tá-lee",
@@ -548,7 +548,7 @@
                 "transportation",
                 "request"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "rîak tɛ́k-sîi hâi nɔ̀i",
@@ -581,7 +581,7 @@
                 "emergency",
                 "phrase"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "chǎn dtɔ̂ɔng-gaan kwaam chûay-lʉ̌a",
@@ -614,7 +614,7 @@
                 "introduction",
                 "phrase"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "chǎn maa jàk à-mee-rí-gaa",
@@ -647,7 +647,7 @@
                 "tourism",
                 "question"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "tàai rûup dâai mǎi",

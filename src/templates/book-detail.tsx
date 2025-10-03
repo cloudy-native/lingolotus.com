@@ -14,10 +14,11 @@ import {
 import { graphql, HeadFC, Link } from "gatsby";
 import { Library } from "lucide-react";
 
+import { LazyImage } from "../components/LazyImage";
 import { PageHeader } from "../components/PageHeader";
 import { semanticColors, tagColorSchemes } from "../theme/colors";
 import type { Book, ReadingStory } from "../types";
-import { readingPath, storyDetailPath } from "../utils/paths";
+import { bookDetailPath, readingPath, storyDetailPath } from "../utils/paths";
 
 interface BookDetailTemplateProps {
     data: {
@@ -25,15 +26,76 @@ interface BookDetailTemplateProps {
         stories: {
             nodes: ReadingStory[];
         };
+        otherBooks: {
+            nodes: Book[];
+        };
         grammar?: {
             rawMarkdownBody: string;
         };
     };
 }
 
+const BookCard: React.FC<{ book: Book }> = ({ book }) => {
+    const cardBg = semanticColors.card.bg;
+    const cardBorder = semanticColors.card.border;
+
+    return (
+        <Link to={bookDetailPath(book.bookId)} style={{ height: "100%" }}>
+            <Flex
+                bg={cardBg}
+                borderWidth="1px"
+                borderColor={cardBorder}
+                borderRadius="md"
+                overflow="hidden"
+                transition="all 0.2s"
+                height="100%"
+                _hover={{
+                    transform: "translateY(-2px)",
+                    shadow: "md",
+                    borderColor: "green.300",
+                }}
+            >
+                {book.imageUrl && (
+                    <LazyImage
+                        src={book.imageUrl}
+                        alt={book.name}
+                        w="120px"
+                        h="100px"
+                        objectFit="cover"
+                        flexShrink={0}
+                        loading="lazy"
+                    />
+                )}
+                <Box p={4} flex="1">
+                    <Heading size="sm" mb={2}>
+                        {book.name}
+                    </Heading>
+                    <Text fontSize="sm" color="gray.500" noOfLines={2} mb={2}>
+                        {book.description}
+                    </Text>
+                    <Stack direction="row" spacing={2} flexWrap="wrap">
+                        <Tag size="sm" colorScheme={tagColorSchemes.language}>
+                            {book.sourceLanguage}
+                        </Tag>
+                        {book.difficulty && (
+                            <Tag
+                                size="sm"
+                                colorScheme={tagColorSchemes.difficulty}
+                            >
+                                {book.difficulty}
+                            </Tag>
+                        )}
+                    </Stack>
+                </Box>
+            </Flex>
+        </Link>
+    );
+};
+
 const BookDetailTemplate: React.FC<BookDetailTemplateProps> = ({ data }) => {
     const book = data.book;
     const stories = data.stories.nodes;
+    const otherBooks = data.otherBooks.nodes;
 
     const headerBg = semanticColors.header.reading;
     const headerBorder = semanticColors.border.header.reading;
@@ -109,7 +171,7 @@ const BookDetailTemplate: React.FC<BookDetailTemplateProps> = ({ data }) => {
                         <Text>No stories available yet. Check back soon!</Text>
                     </Box>
                 ) : (
-                    <SimpleGrid columns={{ base: 1, md: 2 }} spacing={6}>
+                    <SimpleGrid columns={{ base: 1, md: 4 }} spacing={6}>
                         {stories.map((story: ReadingStory) => (
                             <Box
                                 as={Link}
@@ -162,19 +224,25 @@ const BookDetailTemplate: React.FC<BookDetailTemplateProps> = ({ data }) => {
                                         </Tag>
                                     )}
                                 </Stack>
-
-                                <Text
-                                    mt={4}
-                                    fontWeight="semibold"
-                                    color="primary.500"
-                                >
-                                    Read story →
-                                </Text>
                             </Box>
                         ))}
                     </SimpleGrid>
                 )}
             </Container>
+
+            {otherBooks.length > 0 && (
+                <Container maxW="container.xl" py={8}>
+                    <Heading as="h2" size="lg" mb={6}>
+                        You May Also Like
+                    </Heading>
+
+                    <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={4} alignItems="stretch">
+                        {otherBooks.map((otherBook) => (
+                            <BookCard key={otherBook.bookId} book={otherBook} />
+                        ))}
+                    </SimpleGrid>
+                </Container>
+            )}
         </>
     );
 };
@@ -197,7 +265,7 @@ export const Head: HeadFC<any> = ({ data }) => {
 };
 
 export const query = graphql`
-  query BookDetail($bookId: String!, $sourceLanguage: String!) {
+  query BookDetail($bookId: String!, $sourceLanguage: String!, $difficulty: String) {
     book: bookJson(bookId: { eq: $bookId }) {
       bookId
       name
@@ -229,6 +297,25 @@ export const query = graphql`
         updatedAt
         difficulty
         summary
+      }
+    }
+    otherBooks: allBookJson(
+      filter: {
+        bookId: { ne: $bookId }
+        difficulty: { eq: $difficulty }
+      }
+      limit: 3
+    ) {
+      nodes {
+        bookId
+        name
+        description
+        sourceLanguage
+        targetLanguage
+        difficulty
+        imageUrl
+        category
+        featured
       }
     }
     grammar: markdownRemark(

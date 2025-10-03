@@ -1,0 +1,13 @@
+{
+    "collectionId": "thai-english-elementary",
+    "name": "Thai for English Speakers - Elementary",
+    "description": "Build on your Thai basics with elementary vocabulary and common phrases.",
+    "sourceLanguage": "th",
+    "targetLanguage": "en",
+    "createdAt": "2023-04-15T10:30:00Z",
+    "updatedAt": "2023-04-29T14:45:00Z",
+    "category": "language-learning",
+    "difficulty": "elementary",
+    "imageUrl": "/images/IMG_3771.jpeg",
+    "featured": false
+}

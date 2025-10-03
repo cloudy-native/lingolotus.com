@@ -1,5 +1,5 @@
 {
-    "collectionId": "thai-english",
+    "collectionId": "thai-english-advanced",
     "deckId": "advanced-phrases",
     "name": "Thai Advanced Phrases",
     "description": "Advanced Thai phrases and expressions for intermediate to advanced learners",
@@ -20,7 +20,7 @@
                 "social",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "mâi bpen rai",
@@ -53,7 +53,7 @@
                 "cultural",
                 "advanced"
             ],
-            "difficulty": "hard",
+            "difficulty": "advanced",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "greeng jai jang",
@@ -86,7 +86,7 @@
                 "emotional",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "bpen hùang ná",
@@ -119,7 +119,7 @@
                 "emotional",
                 "advanced"
             ],
-            "difficulty": "hard",
+            "difficulty": "advanced",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "tam jai",
@@ -152,7 +152,7 @@
                 "emotional",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "kít tǐng jang",
@@ -185,7 +185,7 @@
                 "social",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "dtaam jai",
@@ -218,7 +218,7 @@
                 "advice",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "jai yen yen",
@@ -251,7 +251,7 @@
                 "time management",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "ao wái gɔ̀ɔn",
@@ -284,7 +284,7 @@
                 "emotional",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "mâi wǎi láew",
@@ -317,7 +317,7 @@
                 "communication",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "pût dtaam dtrong",
@@ -350,7 +350,7 @@
                 "decision making",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "kɔ̀ɔ wee-laa kít duu gɔ̀ɔn",
@@ -383,7 +383,7 @@
                 "confidence",
                 "advanced"
             ],
-            "difficulty": "hard",
+            "difficulty": "advanced",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "ao yùu",
@@ -416,7 +416,7 @@
                 "explanation",
                 "advanced"
             ],
-            "difficulty": "hard",
+            "difficulty": "advanced",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "rʉ̂ang man yə́ə",
@@ -449,7 +449,7 @@
                 "well-wishes",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "duu lɛɛ dtua eeng dûay ná",
@@ -482,7 +482,7 @@
                 "communication",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "kâo jai pìt",
@@ -515,7 +515,7 @@
                 "emotional support",
                 "advanced"
             ],
-            "difficulty": "hard",
+            "difficulty": "advanced",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "bpen gam-lang jai hâi",
@@ -548,7 +548,7 @@
                 "time",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "wái ò-gàat nâa",
@@ -581,7 +581,7 @@
                 "slang",
                 "advanced"
             ],
-            "difficulty": "hard",
+            "difficulty": "advanced",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "ngaan kâo",
@@ -614,7 +614,7 @@
                 "politeness",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "kɔ̀ɔ tôot têe rɔ́p-kuan",
@@ -647,7 +647,7 @@
                 "slang",
                 "intermediate"
             ],
-            "difficulty": "medium",
+            "difficulty": "intermediate",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "ao jing dì",
