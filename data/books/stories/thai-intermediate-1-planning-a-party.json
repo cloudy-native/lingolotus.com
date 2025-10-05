@@ -871,5 +871,8 @@
     "createdAt": "2025-09-29T15:37:30Z",
     "updatedAt": "2025-09-29T15:37:30Z",
     "difficulty": "intermediate",
-    "summary": "บทสนทนาเกี่ยวกับการวางแผนจัดปาร์ตี้: วันเกิด สถานที่ อาหาร เพลง การเต้น จำนวนคน การขอความช่วยเหลือ และความตื่นเต้นของผู้ร่วมงาน"
+    "summary": {
+        "source": "บทสนทนาเกี่ยวกับการวางแผนจัดปาร์ตี้: วันเกิด สถานที่ อาหาร เพลง การเต้น จำนวนคน การขอความช่วยเหลือ และความตื่นเต้นของผู้ร่วมงาน",
+        "target": "Conversation about planning a party: birthday, venue, food, music, dancing, number of people, asking for help, and guests' excitement"
+    }
 }

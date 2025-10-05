@@ -551,5 +551,8 @@
     "createdAt": "2025-09-29T12:45:00Z",
     "updatedAt": "2025-09-29T12:45:00Z",
     "difficulty": "beginner",
-    "summary": "การพูดคุยเกี่ยวกับการไปเที่ยวสถานที่ต่างๆ"
+    "summary": {
+        "source": "การพูดคุยเกี่ยวกับการไปเที่ยวสถานที่ต่างๆ",
+        "target": "Talking about visiting different places"
+    }
 }

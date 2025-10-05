@@ -313,5 +313,8 @@
     "createdAt": "2025-09-28T10:30:00Z",
     "updatedAt": "2025-09-28T10:30:00Z",
     "difficulty": "beginner",
-    "summary": "การสนทนาเกี่ยวกับสภาพอากาศ"
+    "summary": {
+        "source": "การสนทนาเกี่ยวกับสภาพอากาศ",
+        "target": "Conversation about weather"
+    }
 }

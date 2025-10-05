@@ -793,5 +793,8 @@
     "createdAt": "2025-09-29T23:31:00Z",
     "updatedAt": "2025-09-29T23:31:00Z",
     "difficulty": "intermediate",
-    "summary": "สวนชุมชนของเอ็มมา: การทำงานร่วมกัน ปุ๋ยหมัก เวิร์กช็อป เด็กๆ เรียนรู้ การเก็บเกี่ยว และแรงบันดาลใจด้านความยั่งยืน"
+    "summary": {
+        "source": "สวนชุมชนของเอ็มมา: การทำงานร่วมกัน ปุ๋ยหมัก เวิร์กช็อป เด็กๆ เรียนรู้ การเก็บเกี่ยว และแรงบันดาลใจด้านความยั่งยืน",
+        "target": "Emma's community garden: collaboration, composting, workshops, children learning, harvesting, and sustainability inspiration"
+    }
 }

@@ -337,5 +337,8 @@
     "createdAt": "2025-09-28T11:00:00Z",
     "updatedAt": "2025-09-28T11:00:00Z",
     "difficulty": "beginner",
-    "summary": "การสนทนาเกี่ยวกับเวลาและตารางเวลา"
+    "summary": {
+        "source": "การสนทนาเกี่ยวกับเวลาและตารางเวลา",
+        "target": "Conversation about time and schedules"
+    }
 }

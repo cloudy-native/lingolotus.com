@@ -677,5 +677,8 @@
     "createdAt": "2025-09-29T12:35:00Z",
     "updatedAt": "2025-09-29T12:35:00Z",
     "difficulty": "beginner",
-    "summary": "การนับเลขและการใช้ตัวเลขในประโยค"
+    "summary": {
+        "source": "การนับเลขและการใช้ตัวเลขในประโยค",
+        "target": "Counting numbers and using numbers in sentences"
+    }
 }

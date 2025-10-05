@@ -188,7 +188,7 @@ const BookDetailTemplate: React.FC<BookDetailTemplateProps> = ({ data }) => {
                                 }}
                             >
                                 <Heading as="h3" size="md" mb={2}>
-                                    {story.title.target}
+                                    {story.title.source}
                                 </Heading>
 
                                 {story.title.source && (
@@ -197,14 +197,22 @@ const BookDetailTemplate: React.FC<BookDetailTemplateProps> = ({ data }) => {
                                         color={storyMetaColor}
                                         mb={3}
                                     >
-                                        ({story.title.source})
+                                        {story.title.target}
                                     </Text>
                                 )}
 
                                 {story.summary && (
-                                    <Text color={storyMetaColor} mb={3}>
-                                        {story.summary}
-                                    </Text>
+                                    <Box mb={3}>
+                                        <Text fontWeight="medium" mb={1}>
+                                            {story.summary.source}
+                                        </Text>
+                                        <Text
+                                            color={storyMetaColor}
+                                            fontSize="sm"
+                                        >
+                                            {story.summary.target}
+                                        </Text>
+                                    </Box>
                                 )}
                                 <Stack
                                     direction={{ base: "column", sm: "row" }}
@@ -236,7 +244,11 @@ const BookDetailTemplate: React.FC<BookDetailTemplateProps> = ({ data }) => {
                         You May Also Like
                     </Heading>
 
-                    <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={4} alignItems="stretch">
+                    <SimpleGrid
+                        columns={{ base: 1, md: 2, lg: 3 }}
+                        spacing={4}
+                        alignItems="stretch"
+                    >
                         {otherBooks.map((otherBook) => (
                             <BookCard key={otherBook.bookId} book={otherBook} />
                         ))}
@@ -296,7 +308,10 @@ export const query = graphql`
         createdAt
         updatedAt
         difficulty
-        summary
+        summary {
+          source
+          target
+        }
       }
     }
     otherBooks: allBookJson(

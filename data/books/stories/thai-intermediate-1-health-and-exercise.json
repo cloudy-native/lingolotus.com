@@ -847,5 +847,8 @@
     "createdAt": "2025-09-29T15:31:30Z",
     "updatedAt": "2025-09-29T15:31:30Z",
     "difficulty": "intermediate",
-    "summary": "บทสนทนาเรื่องสุขภาพและการออกกำลังกาย: ประเภทการออกกำลังกาย วิ่ง โยคะ อาหารเพื่อสุขภาพ การดื่มน้ำ ความรู้สึกสุขภาพดี การตรวจสุขภาพ และคุณหมอ"
+    "summary": {
+        "source": "บทสนทนาเรื่องสุขภาพและการออกกำลังกาย: ประเภทการออกกำลังกาย วิ่ง โยคะ อาหารเพื่อสุขภาพ การดื่มน้ำ ความรู้สึกสุขภาพดี การตรวจสุขภาพ และคุณหมอ",
+        "target": "Conversation about health and exercise: types of exercise, running, yoga, healthy food, drinking water, feeling healthy, health checkups, and doctors"
+    }
 }

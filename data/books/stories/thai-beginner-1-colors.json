@@ -295,5 +295,8 @@
     "createdAt": "2025-09-28T09:45:00Z",
     "updatedAt": "2025-09-28T09:45:00Z",
     "difficulty": "beginner",
-    "summary": "การสนทนาเกี่ยวกับสี"
+    "summary": {
+        "source": "การสนทนาเกี่ยวกับสี",
+        "target": "Conversation about colors"
+    }
 }

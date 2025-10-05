@@ -76,10 +76,13 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                             variant="ghost"
                         />
 
-                        {/* Navigation Links */}
+                        {/* Navigation Links - Centered */}
                         <HStack
                             spacing={8}
                             display={{ base: "none", md: "flex" }}
+                            position="absolute"
+                            left="50%"
+                            transform="translateX(-50%)"
                         >
                             <Link
                                 as={GatsbyLink}
@@ -108,7 +111,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                                         boxSize={tokens.iconSize.lg}
                                         aria-hidden="true"
                                     />
-                                    <Text>Flash Cards</Text>
+                                    <Text>Flashcards</Text>
                                 </HStack>
                             </Link>
                             <Link
@@ -141,21 +144,6 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                                     <Text>About</Text>
                                 </HStack>
                             </Link>
-                        </HStack>
-
-                        <HStack>
-                            <Button
-                                as={Link}
-                                variant="ghost"
-                                colorScheme="primary"
-                                href="https://github.com/cloudy-native/lingolotus.com"
-                                _hover={{ textDecoration: "none" }}
-                                aria-label="Fork me on GitHub"
-                                leftIcon={<Icon as={FaGithub} w={5} h={5} />}
-                                isExternal
-                            >
-                                Fork me on GitHub
-                            </Button>
                         </HStack>
                     </Flex>
                 </Container>
@@ -214,7 +202,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                                         boxSize={tokens.iconSize.md}
                                         aria-hidden="true"
                                     />
-                                    <Text fontSize="lg">Flash Cards</Text>
+                                    <Text fontSize="lg">Flashcards</Text>
                                 </HStack>
                             </Link>
                             <Link
@@ -324,49 +312,64 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                             </Box>
                         </Box>
 
-                        <Box fontSize="sm" color="gray.600">
-                            Built with{" "}
-                            <Link
-                                as="a"
-                                href="https://www.gatsbyjs.com/"
+                        <Stack spacing={4} align={{ base: "center", md: "flex-end" }}>
+                            <Button
+                                as={Link}
+                                variant="outline"
+                                colorScheme="primary"
+                                href="https://github.com/cloudy-native/lingolotus.com"
+                                _hover={{ textDecoration: "none" }}
+                                aria-label="Fork me on GitHub"
+                                leftIcon={<Icon as={FaGithub} w={5} h={5} />}
                                 isExternal
-                                color="purple.500"
-                                fontWeight="medium"
+                                size="sm"
                             >
-                                Gatsby
-                            </Link>
-                            ,{" "}
-                            <Link
-                                as="a"
-                                href="https://www.typescriptlang.org/"
-                                isExternal
-                                color="blue.500"
-                                fontWeight="medium"
-                            >
-                                TypeScript
-                            </Link>{" "}
-                            &{" "}
-                            <Link
-                                as="a"
-                                href="https://chakra-ui.com/"
-                                isExternal
-                                color="teal.500"
-                                fontWeight="medium"
-                            >
-                                Chakra UI
-                            </Link>
-                            . Hosted on{" "}
-                            <Link
-                                as="a"
-                                href="https://aws.amazon.com/"
-                                isExternal
-                                color="orange.500"
-                                fontWeight="medium"
-                            >
-                                AWS
-                            </Link>
-                            .
-                        </Box>
+                                Fork me on GitHub
+                            </Button>
+                            <Box fontSize="sm" color="gray.600">
+                                Built with{" "}
+                                <Link
+                                    as="a"
+                                    href="https://www.gatsbyjs.com/"
+                                    isExternal
+                                    color="purple.500"
+                                    fontWeight="medium"
+                                >
+                                    Gatsby
+                                </Link>
+                                ,{" "}
+                                <Link
+                                    as="a"
+                                    href="https://www.typescriptlang.org/"
+                                    isExternal
+                                    color="blue.500"
+                                    fontWeight="medium"
+                                >
+                                    TypeScript
+                                </Link>{" "}
+                                &{" "}
+                                <Link
+                                    as="a"
+                                    href="https://chakra-ui.com/"
+                                    isExternal
+                                    color="teal.500"
+                                    fontWeight="medium"
+                                >
+                                    Chakra UI
+                                </Link>
+                                . Hosted on{" "}
+                                <Link
+                                    as="a"
+                                    href="https://aws.amazon.com/"
+                                    isExternal
+                                    color="orange.500"
+                                    fontWeight="medium"
+                                >
+                                    AWS
+                                </Link>
+                                .
+                            </Box>
+                        </Stack>
                     </Flex>
                 </Container>
             </Box>

@@ -877,5 +877,8 @@
     "createdAt": "2025-09-29T15:18:30Z",
     "updatedAt": "2025-09-29T15:18:30Z",
     "difficulty": "intermediate",
-    "summary": "บทสนทนาที่ร้านอาหาร: ประเภทอาหาร เมนูที่สั่ง รสชาติ เครื่องดื่ม ของหวาน ราคา ทิป การบริการ และความถี่ในการไป"
+    "summary": {
+        "source": "บทสนทนาที่ร้านอาหาร: ประเภทอาหาร เมนูที่สั่ง รสชาติ เครื่องดื่ม ของหวาน ราคา ทิป การบริการ และความถี่ในการไป",
+        "target": "Conversation at a restaurant: food types, menu orders, taste, drinks, desserts, prices, tips, service, and frequency of visits"
+    }
 }

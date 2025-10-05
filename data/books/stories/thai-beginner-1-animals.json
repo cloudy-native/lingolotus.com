@@ -307,5 +307,8 @@
     "createdAt": "2025-09-28T10:00:00Z",
     "updatedAt": "2025-09-28T10:00:00Z",
     "difficulty": "beginner",
-    "summary": "การสนทนาเกี่ยวกับสัตว์"
+    "summary": {
+        "source": "การสนทนาเกี่ยวกับสัตว์",
+        "target": "Conversation about animals"
+    }
 }

@@ -131,5 +131,8 @@
     "createdAt": "2025-09-30T20:22:00Z",
     "updatedAt": "2025-09-30T20:22:00Z",
     "difficulty": "advanced",
-    "summary": "การผจญภัยบนภูเขาของเอ็มมา การเดินทางเพื่อค้นพบธรรมชาติและมิตรภาพใหม่"
+    "summary": {
+        "source": "การผจญภัยบนภูเขาของเอ็มมา การเดินทางเพื่อค้นพบธรรมชาติและมิตรภาพใหม่",
+        "target": "Emma's mountain adventure, journey to discover nature and new friendships"
+    }
 }

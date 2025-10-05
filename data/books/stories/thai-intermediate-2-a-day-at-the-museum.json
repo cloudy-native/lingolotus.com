@@ -1327,5 +1327,8 @@
     "createdAt": "2025-09-29T23:29:53Z",
     "updatedAt": "2025-09-29T23:45:00Z",
     "difficulty": "intermediate",
-    "summary": "หนึ่งวันที่พิพิธภัณฑ์ศิลปะ: การค้นพบผลงานชื่อดัง บทสนทนา การมองศิลปะสมัยใหม่ วิวสวยจากคาเฟ่ และแรงบันดาลใจกลับมาอีกครั้ง"
+    "summary": {
+        "source": "หนึ่งวันที่พิพิธภัณฑ์ศิลปะ: การค้นพบผลงานชื่อดัง บทสนทนา การมองศิลปะสมัยใหม่ วิวสวยจากคาเฟ่ และแรงบันดาลใจกลับมาอีกครั้ง",
+        "target": "A day at the art museum: discovering famous works, conversations, viewing modern art, beautiful cafe views, and renewed inspiration"
+    }
 }

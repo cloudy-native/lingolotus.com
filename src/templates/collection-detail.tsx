@@ -41,22 +41,17 @@ const DeckCard: React.FC<{ deck: Deck }> = ({ deck }) => {
     return (
         <Link to={deckDetailPath(deck.collectionId, deck.deckId)}>
             <LanguageCard height="100%">
-                <Box p={tokens.card.padding}>
-                    <Heading as="h3" size="md" fontWeight="semibold" mb={2}>
-                        {deck.name}
-                    </Heading>
+                <Flex direction="column" height="100%" p={tokens.card.padding}>
+                    <Box flex="1">
+                        <Heading as="h3" size="md" fontWeight="semibold" mb={2}>
+                            {deck.name}
+                        </Heading>
 
-                    <Text fontSize="sm" color="gray.500" noOfLines={2} mb={4}>
-                        {deck.description}
-                    </Text>
+                        <Text fontSize="sm" color="gray.500" noOfLines={2} mb={4}>
+                            {deck.description}
+                        </Text>
 
-                    <Stack spacing={3} mt="auto">
-                        <Flex align="center" justify="space-between">
-                            <Tag colorScheme="primary">{deck.theme}</Tag>
-                            <Tag colorScheme="secondary">{deck.difficulty}</Tag>
-                        </Flex>
-
-                        <Flex align="center" justify="space-between">
+                        <Flex align="center" justify="space-between" mb={3}>
                             <Flex align="center">
                                 <Icon as={Clock} mr={1} color="gray.500" />
                                 <Text fontSize="sm" color="gray.500">
@@ -69,15 +64,22 @@ const DeckCard: React.FC<{ deck: Deck }> = ({ deck }) => {
                                 {deck.cards.length} cards
                             </Text>
                         </Flex>
+                    </Box>
 
-                        <Button size="sm" width="100%" mt={2}>
+                    <Stack spacing={3} mt="auto">
+                        <Flex align="center" justify="space-between">
+                            <Tag colorScheme="primary">{deck.theme}</Tag>
+                            <Tag colorScheme="secondary">{deck.difficulty}</Tag>
+                        </Flex>
+
+                        <Button size="sm" width="100%">
                             <Flex align="center">
                                 <Icon as={Star} mr={1} color="yellow.400" />
                                 Study Deck
                             </Flex>
                         </Button>
                     </Stack>
-                </Box>
+                </Flex>
             </LanguageCard>
         </Link>
     );
@@ -87,34 +89,36 @@ const CollectionCard: React.FC<{ collection: Collection }> = ({ collection }) =>
     return (
         <Link to={collectionDetailPath(collection.collectionId)}>
             <LanguageCard height="100%">
-                <Box p={tokens.card.padding}>
-                    {collection.imageUrl && (
-                        <LazyImage
-                            src={collection.imageUrl}
-                            alt={collection.name}
-                            borderRadius="md"
-                            width="100%"
-                            height="120px"
-                            objectFit="cover"
-                            loading="lazy"
-                            mb={3}
-                        />
-                    )}
-
-                    <Flex align="center" mb={2}>
-                        <Heading as="h3" size="md" fontWeight="semibold" mr={2}>
-                            {collection.name}
-                        </Heading>
-                        {collection.featured && (
-                            <Icon as={Star} color="yellow.400" boxSize={4} />
+                <Flex direction="column" height="100%" p={tokens.card.padding}>
+                    <Box flex="1">
+                        {collection.imageUrl && (
+                            <LazyImage
+                                src={collection.imageUrl}
+                                alt={collection.name}
+                                borderRadius="md"
+                                width="100%"
+                                height="120px"
+                                objectFit="cover"
+                                loading="lazy"
+                                mb={3}
+                            />
                         )}
-                    </Flex>
 
-                    <Text fontSize="sm" color="gray.500" noOfLines={2} mb={4}>
-                        {collection.description}
-                    </Text>
+                        <Flex align="center" mb={2}>
+                            <Heading as="h3" size="md" fontWeight="semibold" mr={2}>
+                                {collection.name}
+                            </Heading>
+                            {collection.featured && (
+                                <Icon as={Star} color="yellow.400" boxSize={4} />
+                            )}
+                        </Flex>
 
-                    <Stack spacing={2}>
+                        <Text fontSize="sm" color="gray.500" noOfLines={2} mb={4}>
+                            {collection.description}
+                        </Text>
+                    </Box>
+
+                    <Stack spacing={2} mt="auto">
                         <Flex gap={2} wrap="wrap">
                             <Tag size="sm" colorScheme="purple">
                                 {collection.difficulty}
@@ -126,11 +130,11 @@ const CollectionCard: React.FC<{ collection: Collection }> = ({ collection }) =>
                             )}
                         </Flex>
 
-                        <Button size="sm" width="100%" mt={2}>
+                        <Button size="sm" width="100%">
                             View Collection
                         </Button>
                     </Stack>
-                </Box>
+                </Flex>
             </LanguageCard>
         </Link>
     );

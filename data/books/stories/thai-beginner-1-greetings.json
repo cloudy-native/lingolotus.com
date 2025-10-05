@@ -326,5 +326,8 @@
     "createdAt": "2025-09-28T08:54:49Z",
     "updatedAt": "2025-09-28T08:54:49Z",
     "difficulty": "beginner",
-    "summary": "การสนทนาทักทายและแนะนำตัว"
+    "summary": {
+        "source": "การสนทนาทักทายและแนะนำตัว",
+        "target": "Conversation about greetings and introductions"
+    }
 }

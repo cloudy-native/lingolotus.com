@@ -1057,5 +1057,8 @@
     "createdAt": "2025-09-29T23:39:00Z",
     "updatedAt": "2025-09-30T00:12:00Z",
     "difficulty": "intermediate",
-    "summary": "ชมรมหนังสือของเลนา: การอภิปราย นิยายลึกลับ มุมมองต่างๆ นักเขียนรับเชิญ และคุณค่าของการอ่านร่วมกัน"
+    "summary": {
+        "source": "ชมรมหนังสือของเลนา: การอภิปราย นิยายลึกลับ มุมมองต่างๆ นักเขียนรับเชิญ และคุณค่าของการอ่านร่วมกัน",
+        "target": "Lena's book club: discussions, mystery novels, different perspectives, guest authors, and the value of reading together"
+    }
 }

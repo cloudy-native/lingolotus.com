@@ -325,5 +325,8 @@
     "createdAt": "2025-09-28T09:00:00Z",
     "updatedAt": "2025-09-28T09:00:00Z",
     "difficulty": "beginner",
-    "summary": "การสนทนาเกี่ยวกับสมาชิกในครอบครัว"
+    "summary": {
+        "source": "การสนทนาเกี่ยวกับสมาชิกในครอบครัว",
+        "target": "Conversation about family members"
+    }
 }

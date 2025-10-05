@@ -409,5 +409,8 @@
     "createdAt": "2025-09-30T20:31:00Z",
     "updatedAt": "2025-09-30T20:31:00Z",
     "difficulty": "advanced",
-    "summary": "การพักผ่อนของปรียาในเทือกเขาแอลป์และการค้นพบความชัดเจนในชีวิต"
+    "summary": {
+        "source": "การพักผ่อนของปรียาในเทือกเขาแอลป์และการค้นพบความชัดเจนในชีวิต",
+        "target": "Priya's retreat in the Alps and discovering life clarity"
+    }
 }

@@ -883,5 +883,8 @@
     "createdAt": "2025-09-29T15:07:00Z",
     "updatedAt": "2025-09-29T15:07:00Z",
     "difficulty": "intermediate",
-    "summary": "บทสนทนาเกี่ยวกับการท่องเที่ยว ประสบการณ์ที่ผ่านมา เมืองสำคัญ และแผนการเดินทางครั้งต่อไป"
+    "summary": {
+        "source": "บทสนทนาเกี่ยวกับการท่องเที่ยว ประสบการณ์ที่ผ่านมา เมืองสำคัญ และแผนการเดินทางครั้งต่อไป",
+        "target": "Conversation about traveling, past experiences, major cities, and plans for the next trip"
+    }
 }

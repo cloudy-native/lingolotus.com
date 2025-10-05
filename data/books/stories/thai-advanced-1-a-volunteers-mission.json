@@ -415,5 +415,8 @@
     "createdAt": "2025-09-30T20:31:00Z",
     "updatedAt": "2025-09-30T20:31:00Z",
     "difficulty": "advanced",
-    "summary": "การเป็นอาสาสมัครของเลียมที่ศูนย์ชุมชนและการสร้างความแตกต่าง"
+    "summary": {
+        "source": "การเป็นอาสาสมัครของเลียมที่ศูนย์ชุมชนและการสร้างความแตกต่าง",
+        "target": "Liam's volunteering at the community center and making a difference"
+    }
 }

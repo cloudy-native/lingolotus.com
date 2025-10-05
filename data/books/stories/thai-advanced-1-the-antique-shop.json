@@ -131,5 +131,8 @@
     "createdAt": "2025-09-30T20:31:00Z",
     "updatedAt": "2025-09-30T20:31:00Z",
     "difficulty": "advanced",
-    "summary": "การค้นพบแรงบันดาลใจของเอเลนาผ่านร้านของเก่าและสิ่งของโบราณ"
+    "summary": {
+        "source": "การค้นพบแรงบันดาลใจของเอเลนาผ่านร้านของเก่าและสิ่งของโบราณ",
+        "target": "Elena's discovery of inspiration through the antique shop and old objects"
+    }
 }

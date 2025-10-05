@@ -523,5 +523,8 @@
     "createdAt": "2025-09-30T20:22:00Z",
     "updatedAt": "2025-09-30T20:22:00Z",
     "difficulty": "advanced",
-    "summary": "การปรับตัวของเจมส์ในโตเกียว การเรียนรู้ภาษาและวัฒนธรรมใหม่"
+    "summary": {
+        "source": "การปรับตัวของเจมส์ในโตเกียว การเรียนรู้ภาษาและวัฒนธรรมใหม่",
+        "target": "James's adaptation in Tokyo, learning new language and culture"
+    }
 }

@@ -949,5 +949,8 @@
     "createdAt": "2025-09-29T14:15:00Z",
     "updatedAt": "2025-09-29T14:16:00Z",
     "difficulty": "intermediate",
-    "summary": "บทสนทนาเรื่องการไปตลาด ซื้อของสด ความชอบเรื่องอาหาร และการเดินทางไปตลาด"
+    "summary": {
+        "source": "บทสนทนาเรื่องการไปตลาด ซื้อของสด ความชอบเรื่องอาหาร และการเดินทางไปตลาด",
+        "target": "Conversation about going to the market, buying fresh food, food preferences, and traveling to the market"
+    }
 }

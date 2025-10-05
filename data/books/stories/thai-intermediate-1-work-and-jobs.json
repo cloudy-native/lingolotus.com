@@ -889,5 +889,8 @@
     "createdAt": "2025-09-29T15:25:30Z",
     "updatedAt": "2025-09-29T15:26:30Z",
     "difficulty": "intermediate",
-    "summary": "บทสนทนาเกี่ยวกับงานและอาชีพ: งานปัจจุบัน หน้าที่ ความชอบ งานในฝัน เหตุผลในการสอน วิชาที่สอน ตารางงาน เวลาเริ่มงาน และเพื่อนร่วมงาน"
+    "summary": {
+        "source": "บทสนทนาเกี่ยวกับงานและอาชีพ: งานปัจจุบัน หน้าที่ ความชอบ งานในฝัน เหตุผลในการสอน วิชาที่สอน ตารางงาน เวลาเริ่มงาน และเพื่อนร่วมงาน",
+        "target": "Conversation about work and careers: current job, duties, likes, dream job, reasons for teaching, subjects taught, work schedule, start time, and colleagues"
+    }
 }

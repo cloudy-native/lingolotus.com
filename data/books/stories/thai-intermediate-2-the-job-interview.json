@@ -703,5 +703,8 @@
     "createdAt": "2025-09-29T23:30:30Z",
     "updatedAt": "2025-09-29T23:30:30Z",
     "difficulty": "intermediate",
-    "summary": "การเตรียมตัวสัมภาษณ์งานของลิซ่า ความมั่นใจ กลยุทธ์ ประสบการณ์ เงื่อนไขต่างๆ และความมุ่งมั่นในอาชีพ"
+    "summary": {
+        "source": "การเตรียมตัวสัมภาษณ์งานของลิซ่า ความมั่นใจ กลยุทธ์ ประสบการณ์ เงื่อนไขต่างๆ และความมุ่งมั่นในอาชีพ",
+        "target": "Lisa's job interview preparation, confidence, strategies, experience, conditions, and career commitment"
+    }
 }

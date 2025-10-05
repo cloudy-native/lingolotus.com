@@ -13,10 +13,11 @@ import {
 } from "@chakra-ui/react";
 import { graphql, HeadFC, Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
-import { BookOpen, ChevronRight, CreditCard } from "lucide-react";
+import { BookOpen, ChevronRight, LibraryBig } from "lucide-react";
 import React from "react";
 
 import { LazyImage } from "../components/LazyImage";
+import { semanticColors, tagColorSchemes } from "../theme/colors";
 import { tokens } from "../theme/tokens";
 import type { Book, Collection } from "../types";
 import {
@@ -55,9 +56,9 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
     const collectionsByLanguage = data.allCollections.group;
     const booksByLanguage = data.allBooks.group;
 
-    const boxBg = "white";
-    const borderColor = "gray.200";
-    const heroBg = "blue.50";
+    const boxBg = semanticColors.card.bg;
+    const borderColor = semanticColors.card.border;
+    const heroBg = semanticColors.hero.default;
 
     return (
         <>
@@ -90,7 +91,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                             <Text
                                 fontSize={{ base: "md", md: "lg" }}
                                 textAlign={{ base: "center", md: "left" }}
-                                color="gray.700"
+                                color={semanticColors.text.secondary}
                                 mb={4}
                             >
                                 Master vocabulary with spaced repetition
@@ -103,7 +104,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                 fontSize={{ base: "md", md: "lg" }}
                                 fontWeight="bold"
                                 textAlign={{ base: "center", md: "left" }}
-                                color="blue.700"
+                                color="primary.700"
                             >
                                 ✨ Free forever. No subscriptions, no paywalls.
                             </Text>
@@ -140,9 +141,9 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                             <Flex justify="space-between" align="center" mb={4}>
                                 <HStack spacing={3}>
                                     <Icon
-                                        as={CreditCard}
+                                        as={LibraryBig}
                                         boxSize={tokens.iconSize.xl}
-                                        color="blue.500"
+                                        color="primary.500"
                                     />
                                     <Heading as="h2" size="lg">
                                         Flashcards
@@ -152,7 +153,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                     as={Link}
                                     to={flashcardListPath()}
                                     rightIcon={<Icon as={ChevronRight} />}
-                                    colorScheme="blue"
+                                    colorScheme="primary"
                                     size="sm"
                                 >
                                     Browse All
@@ -170,7 +171,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                     _hover={{
                                         transform: "translateY(-2px)",
                                         shadow: "lg",
-                                        borderColor: "blue.300",
+                                        borderColor: "primary.400",
                                     }}
                                 >
                                     <StaticImage
@@ -184,7 +185,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                         loading="lazy"
                                     />
                                     <Box p={4}>
-                                        <Text color="gray.600" mb={4}>
+                                        <Text color={semanticColors.text.supporting} mb={4}>
                                             Learn vocabulary with spaced repetition. Each
                                             card includes translations, phonetics, and
                                             example sentences. Perfect for building your
@@ -197,7 +198,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                                 <Tag
                                                     key={group.fieldValue}
                                                     size="lg"
-                                                    colorScheme="blue"
+                                                    colorScheme={tagColorSchemes.language}
                                                 >
                                                     {group.fieldValue.toUpperCase()} (
                                                     {group.totalCount})
@@ -234,7 +235,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                                     transform:
                                                         "translateY(-2px)",
                                                     shadow: "md",
-                                                    borderColor: "blue.300",
+                                                    borderColor: "primary.400",
                                                 }}
                                             >
                                                 <LazyImage
@@ -255,7 +256,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                                     </Heading>
                                                     <Text
                                                         fontSize="sm"
-                                                        color="gray.500"
+                                                        color={semanticColors.text.muted}
                                                         noOfLines={2}
                                                         mb={2}
                                                     >
@@ -264,7 +265,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                                     <HStack spacing={2}>
                                                         <Tag
                                                             size="sm"
-                                                            colorScheme="green"
+                                                            colorScheme={tagColorSchemes.language}
                                                         >
                                                             {
                                                                 collection.sourceLanguage
@@ -277,7 +278,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                                         {collection.difficulty && (
                                                             <Tag
                                                                 size="sm"
-                                                                colorScheme="purple"
+                                                                colorScheme={tagColorSchemes.difficulty}
                                                             >
                                                                 {
                                                                     collection.difficulty
@@ -302,17 +303,17 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                     <Icon
                                         as={BookOpen}
                                         boxSize={tokens.iconSize.xl}
-                                        color="green.500"
+                                        color="teal.600"
                                     />
                                     <Heading as="h2" size="lg">
-                                        Reading Practice
+                                        Reading
                                     </Heading>
                                 </HStack>
                                 <Button
                                     as={Link}
                                     to={readingPath()}
                                     rightIcon={<Icon as={ChevronRight} />}
-                                    colorScheme="green"
+                                    colorScheme="teal"
                                     size="sm"
                                 >
                                     Browse All
@@ -330,7 +331,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                     _hover={{
                                         transform: "translateY(-2px)",
                                         shadow: "lg",
-                                        borderColor: "green.300",
+                                        borderColor: "teal.400",
                                     }}
                                 >
                                     <StaticImage
@@ -344,7 +345,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                         loading="lazy"
                                     />
                                     <Box p={4}>
-                                        <Text color="gray.600" mb={4}>
+                                        <Text color={semanticColors.text.supporting} mb={4}>
                                             Practice reading with stories that include
                                             phonetics and word-by-word breakdowns. Build
                                             comprehension and learn grammar in context.
@@ -356,7 +357,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                                 <Tag
                                                     key={group.fieldValue}
                                                     size="lg"
-                                                    colorScheme="green"
+                                                    colorScheme="teal"
                                                 >
                                                     {group.fieldValue.toUpperCase()} (
                                                     {group.totalCount})
@@ -391,7 +392,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                                     transform:
                                                         "translateY(-2px)",
                                                     shadow: "md",
-                                                    borderColor: "green.300",
+                                                    borderColor: "teal.400",
                                                 }}
                                             >
                                                 <LazyImage
@@ -412,7 +413,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                                     </Heading>
                                                     <Text
                                                         fontSize="sm"
-                                                        color="gray.500"
+                                                        color={semanticColors.text.muted}
                                                         noOfLines={2}
                                                         mb={2}
                                                     >
@@ -421,7 +422,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                                     <HStack spacing={2}>
                                                         <Tag
                                                             size="sm"
-                                                            colorScheme="green"
+                                                            colorScheme={tagColorSchemes.language}
                                                         >
                                                             {
                                                                 book.sourceLanguage
@@ -430,7 +431,7 @@ const HomePage: React.FC<HomePageProps> = ({ data }) => {
                                                         {book.difficulty && (
                                                             <Tag
                                                                 size="sm"
-                                                                colorScheme="purple"
+                                                                colorScheme={tagColorSchemes.difficulty}
                                                             >
                                                                 {
                                                                     book.difficulty

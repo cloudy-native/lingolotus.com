@@ -313,5 +313,8 @@
     "createdAt": "2025-09-28T09:30:00Z",
     "updatedAt": "2025-09-28T09:30:00Z",
     "difficulty": "beginner",
-    "summary": "การสนทนาเกี่ยวกับกิจวัตรประจำวัน"
+    "summary": {
+        "source": "การสนทนาเกี่ยวกับกิจวัตรประจำวัน",
+        "target": "Conversation about daily routines"
+    }
 }

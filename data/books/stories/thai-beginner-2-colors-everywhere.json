@@ -647,5 +647,8 @@
     "createdAt": "2025-09-29T12:25:00Z",
     "updatedAt": "2025-09-29T12:25:00Z",
     "difficulty": "beginner",
-    "summary": "การพูดคุยเกี่ยวกับสีและการใช้คำคุณศัพท์"
+    "summary": {
+        "source": "การพูดคุยเกี่ยวกับสีและการใช้คำคุณศัพท์",
+        "target": "Talking about colors and using adjectives"
+    }
 }

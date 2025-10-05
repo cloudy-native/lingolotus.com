@@ -1147,5 +1147,8 @@
     "createdAt": "2025-09-29T23:35:10Z",
     "updatedAt": "2025-09-29T23:49:10Z",
     "difficulty": "intermediate",
-    "summary": "การแลกเปลี่ยนภาษาระหว่างโซเฟียและฮวน: ฝึกพูด ฟัง ดูหนัง วัฒนธรรม และมิตรภาพ"
+    "summary": {
+        "source": "การแลกเปลี่ยนภาษาระหว่างโซเฟียและฮวน: ฝึกพูด ฟัง ดูหนัง วัฒนธรรม และมิตรภาพ",
+        "target": "Language exchange between Sofia and Juan: practicing speaking, listening, watching movies, culture, and friendship"
+    }
 }

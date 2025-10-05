@@ -124,6 +124,9 @@ export interface ReadingStory {
     createdAt: Date | string;
     updatedAt: Date | string;
     difficulty?: "beginner" | "intermediate" | "advanced";
-    summary?: string;
+    summary?: {
+        source: string;
+        target: string;
+    };
 }
 

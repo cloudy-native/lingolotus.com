@@ -349,5 +349,8 @@
     "createdAt": "2025-09-28T09:15:00Z",
     "updatedAt": "2025-09-28T09:15:00Z",
     "difficulty": "beginner",
-    "summary": "การสนทนาเกี่ยวกับอาหารที่ชอบ"
+    "summary": {
+        "source": "การสนทนาเกี่ยวกับอาหารที่ชอบ",
+        "target": "Conversation about favorite foods"
+    }
 }

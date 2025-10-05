@@ -1075,5 +1075,8 @@
     "createdAt": "2025-09-29T14:05:00Z",
     "updatedAt": "2025-09-29T14:10:00Z",
     "difficulty": "intermediate",
-    "summary": "การพูดคุยเพื่อทำความรู้จักกันครั้งแรก ครอบคลุมคำถามทั่วไป งานอดิเรก และการพบเพื่อนใหม่"
+    "summary": {
+        "source": "การพูดคุยเพื่อทำความรู้จักกันครั้งแรก ครอบคลุมคำถามทั่วไป งานอดิเรก และการพบเพื่อนใหม่",
+        "target": "Conversation for getting to know each other for the first time, covering general questions, hobbies, and meeting new friends"
+    }
 }

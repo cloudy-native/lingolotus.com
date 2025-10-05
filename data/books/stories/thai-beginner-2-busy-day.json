@@ -647,5 +647,8 @@
     "createdAt": "2025-09-29T12:20:00Z",
     "updatedAt": "2025-09-29T12:20:00Z",
     "difficulty": "beginner",
-    "summary": "กิจวัตรประจำวันและการใช้กริยาในอดีต"
+    "summary": {
+        "source": "กิจวัตรประจำวันและการใช้กริยาในอดีต",
+        "target": "Daily routines and using past tense verbs"
+    }
 }

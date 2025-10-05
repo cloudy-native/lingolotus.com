@@ -131,5 +131,8 @@
     "createdAt": "2025-09-30T20:31:00Z",
     "updatedAt": "2025-09-30T20:31:00Z",
     "difficulty": "advanced",
-    "summary": "ประสบการณ์ของโซเฟียในเทศกาลดนตรีริโอ การค้นพบดนตรีและวัฒนธรรม"
+    "summary": {
+        "source": "ประสบการณ์ของโซเฟียในเทศกาลดนตรีริโอ การค้นพบดนตรีและวัฒนธรรม",
+        "target": "Sofia's experience at Rio music festival, discovering music and culture"
+    }
 }

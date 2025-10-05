@@ -1,7 +1,6 @@
 import React, { useId, useMemo, useState } from "react";
 
 import {
-    Badge,
     Box,
     Breadcrumb,
     BreadcrumbItem,
@@ -54,11 +53,13 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
     const { book, story } = data;
     const [mode, setMode] = useState<"read" | "translate">("read");
     const [showPhonetic, setShowPhonetic] = useState(true);
-    const [showBreakdown, setShowBreakdown] = useState(false);
     const [sourceTextSize, setSourceTextSize] = useState<"sm" | "md" | "xl">(
         "md",
     );
     const [revealedSentences, setRevealedSentences] = useState<Set<number>>(
+        new Set(),
+    );
+    const [breakdownSentences, setBreakdownSentences] = useState<Set<number>>(
         new Set(),
     );
     const { isOpen, onOpen, onClose } = useDisclosure();
@@ -71,11 +72,22 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
     const breakdownAccentColor = semanticColors.breakdown.accent;
 
     const phoneticToggleId = useId();
-    const breakdownToggleId = useId();
     const fontChoiceId = useId();
 
     const toggleSentenceReveal = (index: number) => {
         setRevealedSentences((prev) => {
+            const newSet = new Set(prev);
+            if (newSet.has(index)) {
+                newSet.delete(index);
+            } else {
+                newSet.add(index);
+            }
+            return newSet;
+        });
+    };
+
+    const toggleBreakdown = (index: number) => {
+        setBreakdownSentences((prev) => {
             const newSet = new Set(prev);
             if (newSet.has(index)) {
                 newSet.delete(index);
@@ -95,11 +107,6 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
     const hideAll = () => {
         setRevealedSentences(new Set());
     };
-
-    // Check if any sentence has breakdown data
-    const hasBreakdowns = story.sentences?.some(
-        (sentence: ReadingSentence) => sentence.breakdown && sentence.breakdown.length > 0,
-    );
 
     return (
         <>
@@ -164,11 +171,21 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
                             </Text>
 
                             {story.summary && (
-                                <Text
-                                    fontSize="lg"
-                                    mb={4}
-                                    color={metaColor}
-                                ></Text>
+                                <Box mb={4}>
+                                    <Text
+                                        fontSize="lg"
+                                        fontWeight="medium"
+                                        mb={1}
+                                    >
+                                        {story.summary.source}
+                                    </Text>
+                                    <Text
+                                        fontSize="md"
+                                        color={metaColor}
+                                    >
+                                        {story.summary.target}
+                                    </Text>
+                                </Box>
                             )}
 
                             <Stack spacing={3}>
@@ -204,7 +221,7 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
                 </Container>
             </Box>
 
-            <Container maxW="container.xl" py={10}>
+            <Box maxW={{ base: "100%", md: "700px", lg: "800px" }} mx="auto" px={4} py={10}>
                 {/* Mode Toggle */}
                 <Flex justify="center" mb={6}>
                     <ButtonGroup size="lg" isAttached variant="outline">
@@ -320,7 +337,7 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
                                         mb="0"
                                         fontWeight="medium"
                                     >
-                                        Phonetics
+                                        Show Phonetics
                                     </FormLabel>
                                     <Switch
                                         id={phoneticToggleId}
@@ -331,32 +348,6 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
                                         }
                                     />
                                 </FormControl>
-
-                                {hasBreakdowns && (
-                                    <FormControl
-                                        display="flex"
-                                        alignItems="center"
-                                        justifyContent="space-between"
-                                        width={{ base: "100%", sm: "auto" }}
-                                        gap={3}
-                                    >
-                                        <FormLabel
-                                            htmlFor={breakdownToggleId}
-                                            mb="0"
-                                            fontWeight="medium"
-                                        >
-                                            Break it down
-                                        </FormLabel>
-                                        <Switch
-                                            id={breakdownToggleId}
-                                            colorScheme="orange"
-                                            isChecked={showBreakdown}
-                                            onChange={(event) =>
-                                                setShowBreakdown(event.target.checked)
-                                            }
-                                        />
-                                    </FormControl>
-                                )}
                             </>
                         )}
 
@@ -392,7 +383,7 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
                                         mb="0"
                                         fontWeight="medium"
                                     >
-                                        Phonetics
+                                        Show Phonetics
                                     </FormLabel>
                                     <Switch
                                         id={phoneticToggleId}
@@ -403,32 +394,6 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
                                         }
                                     />
                                 </FormControl>
-
-                                {hasBreakdowns && (
-                                    <FormControl
-                                        display="flex"
-                                        alignItems="center"
-                                        justifyContent="space-between"
-                                        width={{ base: "100%", sm: "auto" }}
-                                        gap={3}
-                                    >
-                                        <FormLabel
-                                            htmlFor={breakdownToggleId}
-                                            mb="0"
-                                            fontWeight="medium"
-                                        >
-                                            Break it down
-                                        </FormLabel>
-                                        <Switch
-                                            id={breakdownToggleId}
-                                            colorScheme="orange"
-                                            isChecked={showBreakdown}
-                                            onChange={(event) =>
-                                                setShowBreakdown(event.target.checked)
-                                            }
-                                        />
-                                    </FormControl>
-                                )}
                             </>
                         )}
                     </Stack>
@@ -437,57 +402,41 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
                     {story.sentences.map(
                         (sentence: ReadingSentence, index: number) => {
                             const isRevealed = revealedSentences.has(index);
+                            const showBreakdownForSentence = breakdownSentences.has(index);
+                            const hasBreakdown = sentence.breakdown && sentence.breakdown.length > 0;
 
                             if (mode === "translate") {
+                                const cardBg = isRevealed ? "green.50" : "white";
+                                const cardBorder = isRevealed ? "green.200" : "gray.200";
+                                const cardHoverBorder = isRevealed ? "green.300" : "gray.300";
+
                                 return (
                                     <Box
                                         key={`${story.storyId}-${index}`}
                                         borderWidth="1px"
-                                        borderColor={
-                                            isRevealed ? "green.200" : "gray.200"
-                                        }
+                                        borderColor={cardBorder}
                                         borderRadius="md"
                                         p={4}
-                                        bg={isRevealed ? "green.50" : "white"}
+                                        bg={cardBg}
                                         transition="all 0.2s"
                                         _hover={{
-                                            borderColor: isRevealed
-                                                ? "green.300"
-                                                : "gray.300",
+                                            borderColor: cardHoverBorder,
                                             shadow: "sm",
                                         }}
                                     >
                                         <Stack spacing={3}>
-                                            <Flex
-                                                justify="space-between"
-                                                align="center"
-                                                gap={4}
+                                            <Text
+                                                fontSize="lg"
+                                                fontWeight="medium"
                                             >
-                                                <Text
-                                                    fontSize="lg"
-                                                    fontWeight="medium"
-                                                >
-                                                    {sentence.target}
-                                                </Text>
-                                                {isRevealed && (
-                                                    <Badge
-                                                        colorScheme="green"
-                                                        fontSize="sm"
-                                                    >
-                                                        ✓
-                                                    </Badge>
-                                                )}
-                                            </Flex>
+                                                {sentence.target}
+                                            </Text>
 
                                             {!isRevealed && (
                                                 <Button
                                                     size="sm"
                                                     colorScheme="green"
-                                                    onClick={() =>
-                                                        toggleSentenceReveal(
-                                                            index,
-                                                        )
-                                                    }
+                                                    onClick={() => toggleSentenceReveal(index)}
                                                     width="fit-content"
                                                 >
                                                     Show Answer
@@ -511,19 +460,29 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
                                                     </Text>
 
                                                     {showPhonetic && (
-                                                        <Text
-                                                            fontSize="sm"
-                                                            fontStyle="italic"
-                                                            color={phoneticColor}
-                                                        >
-                                                            {sentence.phonetic}
-                                                        </Text>
+                                                        <Flex align="center" gap={2}>
+                                                            {hasBreakdown && (
+                                                                <Button
+                                                                    size="xs"
+                                                                    colorScheme="orange"
+                                                                    variant={showBreakdownForSentence ? "solid" : "outline"}
+                                                                    onClick={() => toggleBreakdown(index)}
+                                                                    flexShrink={0}
+                                                                >
+                                                                    {showBreakdownForSentence ? "−" : "+"}
+                                                                </Button>
+                                                            )}
+                                                            <Text
+                                                                fontSize="sm"
+                                                                fontStyle="italic"
+                                                                color={phoneticColor}
+                                                            >
+                                                                {sentence.phonetic}
+                                                            </Text>
+                                                        </Flex>
                                                     )}
 
-                                                    {showBreakdown &&
-                                                        sentence.breakdown &&
-                                                        sentence.breakdown
-                                                            .length > 0 && (
+                                                    {showBreakdownForSentence && hasBreakdown && (
                                                             <Stack
                                                                 spacing={1}
                                                                 pl={4}
@@ -532,11 +491,8 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
                                                                     breakdownBorderColor
                                                                 }
                                                             >
-                                                                {sentence.breakdown.map(
-                                                                    (
-                                                                        word,
-                                                                        wordIndex,
-                                                                    ) => (
+                                                                {sentence.breakdown!.map(
+                                                                    (word, wordIndex) => (
                                                                         <Text
                                                                             key={`${story.storyId}-${index}-${wordIndex}`}
                                                                             fontSize="sm"
@@ -599,11 +555,7 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
                                                     <Button
                                                         size="xs"
                                                         variant="ghost"
-                                                        onClick={() =>
-                                                            toggleSentenceReveal(
-                                                                index,
-                                                            )
-                                                        }
+                                                        onClick={() => toggleSentenceReveal(index)}
                                                         width="fit-content"
                                                     >
                                                         Hide Answer
@@ -616,73 +568,56 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
                             }
 
                             // Read mode
+                            const cardBg = isRevealed ? "blue.50" : "white";
+                            const cardBorder = isRevealed ? "blue.200" : "gray.200";
+                            const cardHoverBorder = isRevealed ? "blue.300" : "gray.300";
+
                             return (
                                 <Box
                                     key={`${story.storyId}-${index}`}
                                     borderWidth="1px"
-                                    borderColor={
-                                        isRevealed ? "blue.200" : "gray.200"
-                                    }
+                                    borderColor={cardBorder}
                                     borderRadius="md"
                                     p={4}
-                                    bg={isRevealed ? "blue.50" : "white"}
+                                    bg={cardBg}
                                     transition="all 0.2s"
                                     _hover={{
-                                        borderColor: isRevealed
-                                            ? "blue.300"
-                                            : "gray.300",
+                                        borderColor: cardHoverBorder,
                                         shadow: "sm",
                                     }}
                                 >
                                     <Stack spacing={3}>
-                                        <Flex
-                                            justify="space-between"
-                                            align="center"
-                                            gap={4}
+                                        <Text
+                                            fontSize={sourceTextSize}
+                                            fontWeight="semibold"
                                         >
-                                            <Text
-                                                fontSize={sourceTextSize}
-                                                fontWeight="semibold"
-                                            >
-                                                <TextToSpeech
-                                                    text={sentence.source}
-                                                    lang={story.language}
-                                                />{" "}
-                                                {sentence.source}
-                                            </Text>
-                                            {isRevealed && (
-                                                <Badge
-                                                    colorScheme="blue"
-                                                    fontSize="sm"
-                                                >
-                                                    ✓
-                                                </Badge>
-                                            )}
-                                        </Flex>
-
-                                        {showPhonetic && (
-                                            <Text
-                                                fontSize="sm"
-                                                fontStyle="italic"
-                                                color={phoneticColor}
-                                            >
-                                                {sentence.phonetic}
-                                            </Text>
-                                        )}
+                                            <TextToSpeech
+                                                text={sentence.source}
+                                                lang={story.language}
+                                            />{" "}
+                                            {sentence.source}
+                                        </Text>
 
                                         {!isRevealed && (
-                                            <Button
-                                                size="sm"
-                                                colorScheme="blue"
-                                                onClick={() =>
-                                                    toggleSentenceReveal(
-                                                        index,
-                                                    )
-                                                }
-                                                width="fit-content"
-                                            >
-                                                Show Answer
-                                            </Button>
+                                            <>
+                                                {showPhonetic && (
+                                                    <Text
+                                                        fontSize="sm"
+                                                        fontStyle="italic"
+                                                        color={phoneticColor}
+                                                    >
+                                                        {sentence.phonetic}
+                                                    </Text>
+                                                )}
+                                                <Button
+                                                    size="sm"
+                                                    colorScheme="blue"
+                                                    onClick={() => toggleSentenceReveal(index)}
+                                                    width="fit-content"
+                                                >
+                                                    Show Translation
+                                                </Button>
+                                            </>
                                         )}
 
                                         <Collapse
@@ -694,9 +629,30 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
                                                     {sentence.target}
                                                 </Text>
 
-                                                {showBreakdown &&
-                                                    sentence.breakdown &&
-                                                    sentence.breakdown.length > 0 && (
+                                                {showPhonetic && (
+                                                    <Flex align="center" gap={2}>
+                                                        {hasBreakdown && (
+                                                            <Button
+                                                                size="xs"
+                                                                colorScheme="orange"
+                                                                variant={showBreakdownForSentence ? "solid" : "outline"}
+                                                                onClick={() => toggleBreakdown(index)}
+                                                                flexShrink={0}
+                                                            >
+                                                                {showBreakdownForSentence ? "−" : "+"}
+                                                            </Button>
+                                                        )}
+                                                        <Text
+                                                            fontSize="sm"
+                                                            fontStyle="italic"
+                                                            color={phoneticColor}
+                                                        >
+                                                            {sentence.phonetic}
+                                                        </Text>
+                                                    </Flex>
+                                                )}
+
+                                                {showBreakdownForSentence && hasBreakdown && (
                                                         <Stack
                                                             spacing={1}
                                                             pl={4}
@@ -705,7 +661,7 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
                                                                 breakdownBorderColor
                                                             }
                                                         >
-                                                            {sentence.breakdown.map(
+                                                            {sentence.breakdown!.map(
                                                                 (word, wordIndex) => (
                                                                     <Text
                                                                         key={`${story.storyId}-${index}-${wordIndex}`}
@@ -759,14 +715,10 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
                                                 <Button
                                                     size="xs"
                                                     variant="ghost"
-                                                    onClick={() =>
-                                                        toggleSentenceReveal(
-                                                            index,
-                                                        )
-                                                    }
+                                                    onClick={() => toggleSentenceReveal(index)}
                                                     width="fit-content"
                                                 >
-                                                    Hide Answer
+                                                    Hide Translation
                                                 </Button>
                                             </Stack>
                                         </Collapse>
@@ -776,7 +728,7 @@ const StoryDetailTemplate = ({ data }: PageProps<StoryDetailPageData>) => {
                         },
                     )}
                 </Stack>
-            </Container>
+            </Box>
             <Drawer
                 isOpen={isOpen}
                 placement="right"
@@ -864,7 +816,7 @@ export const Head: HeadFC<any> = ({ data }) => {
             <meta
                 name="description"
                 content={
-                    story?.summary ||
+                    story?.summary?.target ||
                     book?.description ||
                     `Read ${storyTitle} on Lingo Lotus`
                 }
@@ -890,7 +842,10 @@ export const query = graphql`
           source
           target
         }
-        summary
+        summary {
+          source
+          target
+        }
         language
         difficulty
         sentences {
@@ -898,7 +853,6 @@ export const query = graphql`
           target
           phonetic
           breakdown {
-            source
             target
             phonetic
             partOfSpeech

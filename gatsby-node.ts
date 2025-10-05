@@ -332,10 +332,15 @@ export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] 
       createdAt: Date!
       updatedAt: Date!
       difficulty: String
-      summary: String
+      summary: BookStorySummaryJson
     }
 
     type BookStoryTitleJson {
+      source: String!
+      target: String!
+    }
+
+    type BookStorySummaryJson {
       source: String!
       target: String!
     }

@@ -889,5 +889,8 @@
     "createdAt": "2025-09-29T15:35:30Z",
     "updatedAt": "2025-09-29T15:36:30Z",
     "difficulty": "intermediate",
-    "summary": "บทสนทนาเรื่องการช้อปปิ้งเสื้อผ้า: สถานที่ซื้อ ประเภทเสื้อผ้า สีสัน การลอง ราคา ไซซ์ ไปกับใคร ความชอบการช้อปปิ้ง และรองเท้า"
+    "summary": {
+        "source": "บทสนทนาเรื่องการช้อปปิ้งเสื้อผ้า: สถานที่ซื้อ ประเภทเสื้อผ้า สีสัน การลอง ราคา ไซซ์ ไปกับใคร ความชอบการช้อปปิ้ง และรองเท้า",
+        "target": "Conversation about shopping for clothes: where to buy, types of clothes, colors, trying on, prices, sizes, who to go with, shopping preferences, and shoes"
+    }
 }

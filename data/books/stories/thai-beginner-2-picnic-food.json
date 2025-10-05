@@ -647,5 +647,8 @@
     "createdAt": "2025-09-29T12:15:00Z",
     "updatedAt": "2025-09-29T12:15:00Z",
     "difficulty": "beginner",
-    "summary": "การพูดคุยเกี่ยวกับอาหารและกิจกรรมปิกนิก"
+    "summary": {
+        "source": "การพูดคุยเกี่ยวกับอาหารและกิจกรรมปิกนิก",
+        "target": "Talking about food and picnic activities"
+    }
 }

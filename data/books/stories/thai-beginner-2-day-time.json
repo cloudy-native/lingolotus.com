@@ -701,5 +701,8 @@
     "createdAt": "2025-09-29T12:50:00Z",
     "updatedAt": "2025-09-29T12:50:00Z",
     "difficulty": "beginner",
-    "summary": "การพูดคุยเกี่ยวกับเวลาและกิจวัตรประจำวัน"
+    "summary": {
+        "source": "การพูดคุยเกี่ยวกับเวลาและกิจวัตรประจำวัน",
+        "target": "Talking about time and daily routines"
+    }
 }

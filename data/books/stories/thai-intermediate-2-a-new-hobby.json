@@ -955,5 +955,8 @@
     "createdAt": "2025-09-29T23:35:30Z",
     "updatedAt": "2025-09-29T23:59:30Z",
     "difficulty": "intermediate",
-    "summary": "ทอมเริ่มงานอดิเรกปั้นดินเผา: การฝึกฝน ความท้าทาย ความภูมิใจ การแบ่งปัน และความสุขที่ไม่คาดคิด"
+    "summary": {
+        "source": "ทอมเริ่มงานอดิเรกปั้นดินเผา: การฝึกฝน ความท้าทาย ความภูมิใจ การแบ่งปัน และความสุขที่ไม่คาดคิด",
+        "target": "Tom starts pottery hobby: practice, challenges, pride, sharing, and unexpected joy"
+    }
 }

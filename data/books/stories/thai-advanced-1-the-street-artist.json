@@ -131,5 +131,8 @@
     "createdAt": "2025-09-30T20:31:00Z",
     "updatedAt": "2025-09-30T20:31:00Z",
     "difficulty": "advanced",
-    "summary": "ศิลปินริมถนนอามีร์ในปารีสและการแสดงออกผ่านภาพจิตรกรรมฝาผนัง"
+    "summary": {
+        "source": "ศิลปินริมถนนอามีร์ในปารีสและการแสดงออกผ่านภาพจิตรกรรมฝาผนัง",
+        "target": "Street artist Amir in Paris and expression through mural paintings"
+    }
 }

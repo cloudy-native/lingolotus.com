@@ -991,5 +991,8 @@
     "createdAt": "2025-09-29T14:29:00Z",
     "updatedAt": "2025-09-29T14:30:00Z",
     "difficulty": "intermediate",
-    "summary": "บทสนทนาเกี่ยวกับชีวิตในโรงเรียน รายวิชา ครู การบ้าน และการอ่านหนังสือกับเพื่อนที่ห้องสมุด"
+    "summary": {
+        "source": "บทสนทนาเกี่ยวกับชีวิตในโรงเรียน รายวิชา ครู การบ้าน และการอ่านหนังสือกับเพื่อนที่ห้องสมุด",
+        "target": "Conversation about school life, subjects, teachers, homework, and reading books with friends at the library"
+    }
 }

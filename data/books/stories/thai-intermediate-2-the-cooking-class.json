@@ -703,5 +703,8 @@
     "createdAt": "2025-09-29T23:25:10Z",
     "updatedAt": "2025-09-29T23:27:10Z",
     "difficulty": "intermediate",
-    "summary": "ชั้นเรียนทำอาหารที่แอนนาเริ่มต้นด้วยความตื่นเต้น ฝึกทำพาสต้าสด เรียนรู้ทักษะ ความอดทน การทำงานร่วมกัน และค้นพบความรักในการทำอาหาร"
+    "summary": {
+        "source": "ชั้นเรียนทำอาหารที่แอนนาเริ่มต้นด้วยความตื่นเต้น ฝึกทำพาสต้าสด เรียนรู้ทักษะ ความอดทน การทำงานร่วมกัน และค้นพบความรักในการทำอาหาร",
+        "target": "Anna's cooking class starting with excitement, practicing fresh pasta, learning skills, patience, teamwork, and discovering love for cooking"
+    }
 }

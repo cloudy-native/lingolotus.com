@@ -385,5 +385,8 @@
     "createdAt": "2025-09-28T10:15:00Z",
     "updatedAt": "2025-09-28T10:15:00Z",
     "difficulty": "beginner",
-    "summary": "การสนทนาเกี่ยวกับตัวเลขและการนับ"
+    "summary": {
+        "source": "การสนทนาเกี่ยวกับตัวเลขและการนับ",
+        "target": "Conversation about numbers and counting"
+    }
 }

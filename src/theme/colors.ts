@@ -9,8 +9,9 @@
  * - colors-sunset-vibes.ts   - 🌅 Orange/pink (warm, energetic)
  * - colors-ocean-breeze.ts   - 🌊 Blue/cyan (cool, professional)
  * - colors-matcha-latte.ts   - 🍵 Green/yellow (earthy, sophisticated)
- * - colors-vibrant-lotus.ts  - 🪷✨ Deep purple/orange (bold, distinctive) [NEW!]
+ * - colors-vibrant-lotus.ts  - 🪷✨ Deep purple/orange (bold, distinctive)
+ * - colors-bold-lotus.ts     - 🪷⚡ Indigo/coral/emerald (confident, modern) [NEW!]
  */
 
 // Change this line to switch themes:
-export { semanticColors, tagColorSchemes } from "./colors-zen-garden";
+export { semanticColors, tagColorSchemes } from "./colors-bold-lotus";
