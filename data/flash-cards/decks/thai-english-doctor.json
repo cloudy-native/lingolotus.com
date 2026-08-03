@@ -2,7 +2,7 @@
     "collectionId": "thai-english-intermediate",
     "deckId": "thai-medical",
     "name": "Thai Medical Phrases: At the Doctor",
-    "description": "Essential Thai vocabulary and phrases for medical appointments and health situations",
+    "description": "Clinic and pharmacy Thai — symptoms, pain, and common conditions with polite ครับ/ค่ะ.",
     "sourceLanguage": "th",
     "targetLanguage": "en",
     "cards": [
@@ -127,14 +127,14 @@
             "context": "Stating that you have an elevated body temperature",
             "examples": [
                 {
-                    "original": "ผมมีไข้สูงมาก",
-                    "translation": "I have a very high fever (♂)",
-                    "phonetic": "pǒm mii kâi sǔung mâak"
+                    "original": "ผมมีไข้ครับ",
+                    "translation": "I have a fever (♂)",
+                    "phonetic": "pǒm mii kâi kráp"
                 },
                 {
-                    "original": "ฉันมีไข้ตั้งแต่เมื่อวานค่ะ",
-                    "translation": "I've had a fever since yesterday (♀)",
-                    "phonetic": "chǎn mii kâi dtâng dtɛ̀ɛ mʉ̂a-waan kâ"
+                    "original": "ฉันมีไข้ค่ะ",
+                    "translation": "I have a fever (♀)",
+                    "phonetic": "chǎn mii kâi kâ"
                 }
             ]
         },
@@ -160,14 +160,14 @@
             "context": "Describing respiratory symptoms involving coughing",
             "examples": [
                 {
-                    "original": "ผมมีอาการไอแห้งๆ",
-                    "translation": "I have a dry cough (♂)",
-                    "phonetic": "pǒm mii aa-gaan ai hɛ̌ɛng-hɛ̌ɛng"
+                    "original": "ผมไอมาสองวันครับ",
+                    "translation": "I’ve been coughing for two days (♂)",
+                    "phonetic": "pǒm ai maa sɔ̌ɔng wan kráp"
                 },
                 {
-                    "original": "ฉันไอมีเสมหะค่ะ",
-                    "translation": "I have a cough with phlegm (♀)",
-                    "phonetic": "chǎn ai mii sà-mà-hà kâ"
+                    "original": "ฉันมีอาการไอค่ะ",
+                    "translation": "I have a cough (♀)",
+                    "phonetic": "chǎn mii aa-gaan ai kâ"
                 }
             ]
         },
@@ -292,14 +292,14 @@
             "context": "Used to point out the location of pain",
             "examples": [
                 {
-                    "original": "ผมเจ็บตรงนี้เวลาหายใจเข้าลึกๆ",
-                    "translation": "It hurts here when I breathe deeply (♂)",
-                    "phonetic": "pǒm jèp dtrong née wee-laa hǎai-jai kâo lʉ́k-lʉ́k"
+                    "original": "ผมเจ็บตรงนี้ครับ",
+                    "translation": "It hurts here (♂)",
+                    "phonetic": "pǒm jèp dtrong níi kráp"
                 },
                 {
-                    "original": "ฉันรู้สึกเจ็บบริเวณนี้เมื่อกดค่ะ",
-                    "translation": "I feel pain in this area when pressed (♀)",
-                    "phonetic": "chǎn rúu-sʉ̀k jèp bɔɔ-rí-ween née mʉ̂a gòt kâ"
+                    "original": "เจ็บตรงนี้ค่ะ",
+                    "translation": "It hurts here (♀)",
+                    "phonetic": "jèp dtrong níi kâ"
                 }
             ]
         },
@@ -358,14 +358,14 @@
             "context": "Important health information about cardiovascular conditions",
             "examples": [
                 {
-                    "original": "ผมมีความดันโลหิตสูงและต้องกินยาประจำ",
-                    "translation": "I have high blood pressure and need to take regular medication (♂)",
-                    "phonetic": "pǒm mii kwaam dan loo-hìt sǔung lɛ́ dtɔ̂ɔng gin yaa bprà-jam"
+                    "original": "ผมมีความดันโลหิตสูงครับ",
+                    "translation": "I have high blood pressure (♂)",
+                    "phonetic": "pǒm mii kwaam-dan loo-hìt sǔung kráp"
                 },
                 {
-                    "original": "ฉันมีปัญหาความดันโลหิตสูงค่ะ",
-                    "translation": "I have problems with high blood pressure (♀)",
-                    "phonetic": "chǎn mii bpan-hǎa kwaam dan loo-hìt sǔung kâ"
+                    "original": "มีความดันสูงค่ะ",
+                    "translation": "I have high blood pressure (♀)",
+                    "phonetic": "mii kwaam-dan sǔung kâ"
                 }
             ]
         },
@@ -556,14 +556,14 @@
             "context": "Important health information that may affect treatment",
             "examples": [
                 {
-                    "original": "ฉันกำลังตั้งครรภ์ได้ 3 เดือนค่ะ",
-                    "translation": "I am 3 months pregnant (♀)",
-                    "phonetic": "chǎn gam-lang dtâng kan dâai sǎam dʉan kâ"
+                    "original": "ภรรยากำลังตั้งครรภ์ครับ",
+                    "translation": "My wife is pregnant (♂)",
+                    "phonetic": "pan-rá-yaa gam-lang dtâng-kan kráp"
                 },
                 {
-                    "original": "ฉันตั้งครรภ์ ยานี้ปลอดภัยไหมคะ",
-                    "translation": "I am pregnant, is this medicine safe? (♀)",
-                    "phonetic": "chǎn dtâng kan, yaa née bplɔ̀ɔt-pai mǎi kâ"
+                    "original": "ฉันกำลังตั้งครรภ์ค่ะ",
+                    "translation": "I’m pregnant (♀)",
+                    "phonetic": "chǎn gam-lang dtâng-kan kâ"
                 }
             ]
         },
@@ -589,14 +589,14 @@
             "context": "Question a doctor might ask about symptom duration",
             "examples": [
                 {
-                    "original": "คุณหมอถามว่าอาการไข้เป็นมากี่วันแล้ว",
-                    "translation": "The doctor asks how many days you have had the fever (♂)",
-                    "phonetic": "kun mɔɔ tǎam wâa aa-gaan kâi bpen maa gìi wan láew"
+                    "original": "อาการเป็นมาสามวันแล้วครับ",
+                    "translation": "Symptoms for three days (♂)",
+                    "phonetic": "aa-gaan bpen maa sǎam wan láew kráp"
                 },
                 {
-                    "original": "อาการปวดท้องเป็นมานานแค่ไหนแล้วครับ",
-                    "translation": "How long have you had the stomachache? (♂)",
-                    "phonetic": "aa-gaan bpùat tɔ́ɔng bpen maa naan kɛ̂ɛ nǎi láew kráp"
+                    "original": "เป็นมากี่วันแล้วคะ",
+                    "translation": "How many days has it been? (♀)",
+                    "phonetic": "bpen maa gìi wan láew ká"
                 }
             ]
         },
@@ -668,7 +668,7 @@
         }
     ],
     "createdAt": "2024-12-01T11:55:16Z",
-    "updatedAt": "2025-03-25T00:30:05Z",
+    "updatedAt": "2026-08-03T12:00:00Z",
     "theme": "medical",
     "difficulty": "intermediate"
 }

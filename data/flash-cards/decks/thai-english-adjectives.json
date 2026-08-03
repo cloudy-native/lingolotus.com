@@ -1,5 +1,5 @@
 {
-    "collectionId": "thai-english-beginner",
+    "collectionId": "thai-english-elementary",
     "deckId": "common-adjectives",
     "name": "Thai Common Adjectives",
     "description": "Essential Thai adjectives for English speakers, covering qualities, emotions, sizes, and more",
@@ -701,7 +701,7 @@
         }
     ],
     "createdAt": "2025-08-06T22:17:43Z",
-    "updatedAt": "2025-09-03T07:33:27Z",
+    "updatedAt": "2026-04-08T18:30:00Z",
     "theme": "vocabulary",
-    "difficulty": "intermediate"
+    "difficulty": "elementary"
 }

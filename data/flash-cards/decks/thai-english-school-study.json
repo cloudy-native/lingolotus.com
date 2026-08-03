@@ -1,0 +1,517 @@
+{
+    "collectionId": "thai-english-intermediate",
+    "deckId": "school-study",
+    "name": "Thai School & Study",
+    "description": "Classroom language, homework, exams, and studying Thai as a student.",
+    "sourceLanguage": "th",
+    "targetLanguage": "en",
+    "createdAt": "2026-04-08T18:00:00Z",
+    "updatedAt": "2026-04-08T18:30:00Z",
+    "theme": "school",
+    "category": "language-learning",
+    "difficulty": "intermediate",
+    "cards": [
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เรียน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to study / take a class"
+            },
+            "tags": [
+                "school"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "rian",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "เรียนภาษาไทยครับ",
+                    "translation": "I study Thai (♂)",
+                    "phonetic": "rian paa-sǎa tai kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "สอน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to teach"
+            },
+            "tags": [
+                "school"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "sǎwn",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "ครูสอนเก่งค่ะ",
+                    "translation": "The teacher teaches well (♀)",
+                    "phonetic": "kruu sǎwn gèng kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ครู"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "teacher"
+            },
+            "tags": [
+                "school"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "kruu",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "ถามครูได้ไหมครับ",
+                    "translation": "Can I ask the teacher? (♂)",
+                    "phonetic": "tǎam kruu dâai mǎi kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "นักเรียน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "student"
+            },
+            "tags": [
+                "school"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "nák-rian",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "นักเรียนใหม่ค่ะ",
+                    "translation": "A new student (♀)",
+                    "phonetic": "nák-rian mài kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ห้องเรียน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "classroom"
+            },
+            "tags": [
+                "school"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "hâwng-rian",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "ห้องเรียนอยู่ชั้นสองครับ",
+                    "translation": "Classroom is on floor 2 (♂)",
+                    "phonetic": "hâwng-rian yùu chán sǎawng kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "การบ้าน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "homework"
+            },
+            "tags": [
+                "school"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "gaan-bâan",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "การบ้านเยอะไหมคะ",
+                    "translation": "Is there a lot of homework? (♀)",
+                    "phonetic": "gaan-bâan yə́ mǎi ká"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "สอบ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "exam / to take a test"
+            },
+            "tags": [
+                "school"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "sàwp",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "สอบเมื่อไหร่ครับ",
+                    "translation": "When is the exam? (♂)",
+                    "phonetic": "sàwp mûea-rài kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ทบทวน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to review"
+            },
+            "tags": [
+                "school"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "tóp-tuan",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "ทบทวนบทเรียนค่ะ",
+                    "translation": "Review the lesson (♀)",
+                    "phonetic": "tóp-tuan bòt-rian kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "คำศัพท์"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "vocabulary"
+            },
+            "tags": [
+                "school"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "kam-sàp",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "ท่องคำศัพท์ครับ",
+                    "translation": "Memorize vocabulary (♂)",
+                    "phonetic": "tâwng kam-sàp kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ไวยากรณ์"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "grammar"
+            },
+            "tags": [
+                "school"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "wai-yaa-gɔɔn",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "ไวยากรณ์ยากค่ะ",
+                    "translation": "Grammar is hard (♀)",
+                    "phonetic": "wai-yaa-gɔɔn yâak kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ฝึกพูด"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "speaking practice"
+            },
+            "tags": [
+                "school"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "fʉ̀k pûut",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "ฝึกพูดทุกวันครับ",
+                    "translation": "Practice speaking every day (♂)",
+                    "phonetic": "fʉ̀k pûut túk wan kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "จดโน้ต"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to take notes"
+            },
+            "tags": [
+                "school"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "jòt nóot",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "จดโน้ตด้วยนะคะ",
+                    "translation": "Take notes too (♀)",
+                    "phonetic": "jòt nóot dûay ná kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เข้าใจ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to understand"
+            },
+            "tags": [
+                "school"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "kâo-jai",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "เข้าใจไหมครับ",
+                    "translation": "Do you understand? (♂)",
+                    "phonetic": "kâo-jai mǎi kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ไม่เข้าใจ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to not understand"
+            },
+            "tags": [
+                "school"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "mâi kâo-jai",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "ยังไม่เข้าใจค่ะ",
+                    "translation": "I don't understand yet (♀)",
+                    "phonetic": "yang mâi kâo-jai kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ช่วยอธิบาย"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "please explain"
+            },
+            "tags": [
+                "school"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "chûay à-tí-baai",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "ช่วยอธิบายอีกทีได้ไหมครับ",
+                    "translation": "Could you explain again? (♂)",
+                    "phonetic": "chûay à-tí-baai ìik tii dâai mǎi kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ผ่าน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to pass (a test)"
+            },
+            "tags": [
+                "school"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "pàan",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "สอบผ่านค่ะ",
+                    "translation": "I passed the exam (♀)",
+                    "phonetic": "sàwp pàan kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ตก"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to fail (a test)"
+            },
+            "tags": [
+                "school"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "dtòk",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "กลัวสอบตกครับ",
+                    "translation": "I'm afraid of failing (♂)",
+                    "phonetic": "glua sàwp dtòk kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เพื่อนร่วมชั้น"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "classmate"
+            },
+            "tags": [
+                "school",
+                "social"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "pûean rûam chán",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "เพื่อนร่วมชั้นใจดีค่ะ",
+                    "translation": "Classmates are kind (♀)",
+                    "phonetic": "pûean rûam chán jai-dii kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ตารางเรียน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "class schedule"
+            },
+            "tags": [
+                "school"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "dtaa-raang rian",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "ดูตารางเรียนครับ",
+                    "translation": "Check the schedule (♂)",
+                    "phonetic": "duu dtaa-raang rian kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "สู้ๆ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "hang in there / you can do it"
+            },
+            "tags": [
+                "school",
+                "encouragement"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "sûu sûu",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "สู้ๆ นะคะ",
+                    "translation": "You've got this (♀)",
+                    "phonetic": "sûu sûu ná kâ"
+                }
+            ]
+        }
+    ]
+}

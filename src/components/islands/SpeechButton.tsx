@@ -1,25 +1,27 @@
 import { useState, useEffect, useCallback, useRef } from "react";
-import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 export interface SpeechButtonProps {
   text: string;
   languageCode: string;
+  className?: string;
 }
 
 /**
- * SpeechButton island component.
- * Invokes the Web Speech API to speak text in the given language.
- * Hydrates with `client:visible` on story detail pages.
+ * SpeechButton island — Web Speech API TTS control.
+ * Designed to read clearly next to Thai/English text (emoji + solid chip).
  */
-export default function SpeechButton({ text, languageCode }: SpeechButtonProps) {
+export default function SpeechButton({
+  text,
+  languageCode,
+  className,
+}: SpeechButtonProps) {
   const [isSpeaking, setIsSpeaking] = useState(false);
   const [isAvailable, setIsAvailable] = useState(false);
   const [hasVoice, setHasVoice] = useState(false);
   const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
 
   useEffect(() => {
-    // Check if Web Speech API is available
     if (typeof window === "undefined" || !window.speechSynthesis) {
       setIsAvailable(false);
       return;
@@ -27,13 +29,12 @@ export default function SpeechButton({ text, languageCode }: SpeechButtonProps) 
 
     setIsAvailable(true);
 
-    // Voices may load asynchronously — check immediately and listen for changes
     const checkVoices = () => {
       const voices = window.speechSynthesis.getVoices();
       const match = voices.some(
         (voice) =>
           voice.lang === languageCode ||
-          voice.lang.startsWith(`${languageCode}-`)
+          voice.lang.startsWith(`${languageCode}-`),
       );
       setHasVoice(match);
     };
@@ -43,7 +44,6 @@ export default function SpeechButton({ text, languageCode }: SpeechButtonProps) 
 
     return () => {
       window.speechSynthesis.removeEventListener("voiceschanged", checkVoices);
-      // Cancel any ongoing speech on unmount
       window.speechSynthesis.cancel();
     };
   }, [languageCode]);
@@ -53,17 +53,15 @@ export default function SpeechButton({ text, languageCode }: SpeechButtonProps) 
       return;
     }
 
-    // Cancel any previous utterance
     window.speechSynthesis.cancel();
 
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = languageCode;
 
-    // Try to find the best matching voice
     const voices = window.speechSynthesis.getVoices();
     const exactMatch = voices.find((v) => v.lang === languageCode);
     const prefixMatch = voices.find((v) =>
-      v.lang.startsWith(`${languageCode}-`)
+      v.lang.startsWith(`${languageCode}-`),
     );
     const voice = exactMatch || prefixMatch;
     if (voice) {
@@ -83,7 +81,9 @@ export default function SpeechButton({ text, languageCode }: SpeechButtonProps) 
     setIsSpeaking(false);
   }, []);
 
-  const handleClick = () => {
+  const handleClick = (e: { stopPropagation: () => void; preventDefault: () => void }) => {
+    e.stopPropagation();
+    e.preventDefault();
     if (isSpeaking) {
       stop();
     } else {
@@ -102,66 +102,24 @@ export default function SpeechButton({ text, languageCode }: SpeechButtonProps) 
       : `Speak: ${text}`;
 
   return (
-    <Button
+    <button
       type="button"
-      variant="ghost"
-      size="icon"
       onClick={handleClick}
       disabled={isDisabled}
       aria-label={title}
       title={title}
       className={cn(
-        "h-8 w-8 shrink-0",
-        isSpeaking && "text-primary-600 ",
-        isDisabled && "cursor-not-allowed opacity-50"
+        "inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full text-lg leading-none transition-all",
+        "shadow-sm ring-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2",
+        isSpeaking
+          ? "bg-teal-600 text-white ring-teal-700 shadow-md scale-105 animate-pulse"
+          : "bg-teal-50 text-teal-900 ring-teal-300 hover:bg-teal-100 hover:ring-teal-400 hover:scale-105",
+        isDisabled &&
+          "cursor-not-allowed bg-slate-100 text-slate-400 ring-slate-200 opacity-60 hover:scale-100 hover:bg-slate-100",
+        className,
       )}
     >
-      {isSpeaking ? (
-        <SpeakingIcon />
-      ) : (
-        <IdleIcon />
-      )}
-    </Button>
-  );
-}
-
-/** Volume/speaker icon shown when idle */
-function IdleIcon() {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth={2}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      className="h-4 w-4"
-      aria-hidden="true"
-    >
-      <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
-      <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
-    </svg>
-  );
-}
-
-/** Animated speaker icon shown while speaking */
-function SpeakingIcon() {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth={2}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      className="h-4 w-4 animate-pulse"
-      aria-hidden="true"
-    >
-      <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
-      <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
-      <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
-    </svg>
+      <span aria-hidden="true">{isSpeaking ? "🔊" : "🔈"}</span>
+    </button>
   );
 }

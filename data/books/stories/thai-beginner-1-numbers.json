@@ -8,100 +8,14 @@
     },
     "sentences": [
         {
-            "source": "คุณมีนิ้วกี่นิ้วครับ",
-            "target": "How many fingers do you have?",
-            "phonetic": "khun mee nǐu gèe nǐu khráp",
-            "breakdown": [
-                {
-                    "source": "คุณ",
-                    "target": "you",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "มี",
-                    "target": "to have",
-                    "phonetic": "mee",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "นิ้ว",
-                    "target": "finger",
-                    "phonetic": "nǐu",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "กี่",
-                    "target": "how many",
-                    "phonetic": "gèe",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "นิ้ว",
-                    "target": "finger",
-                    "phonetic": "nǐu",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
-                }
-            ]
-        },
-        {
-            "source": "ผมมีนิ้วสิบนิ้วครับ",
-            "target": "I have ten fingers.",
-            "phonetic": "phǒm mee nǐu sìp nǐu khráp",
-            "breakdown": [
-                {
-                    "source": "ผม",
-                    "target": "I (male)",
-                    "phonetic": "phǒm",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "มี",
-                    "target": "to have",
-                    "phonetic": "mee",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "นิ้ว",
-                    "target": "finger",
-                    "phonetic": "nǐu",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "สิบ",
-                    "target": "ten",
-                    "phonetic": "sìp",
-                    "partOfSpeech": "numeral"
-                },
-                {
-                    "source": "นิ้ว",
-                    "target": "finger",
-                    "phonetic": "nǐu",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
-                }
-            ]
-        },
-        {
             "source": "คุณนับถึงห้าได้ไหมครับ",
-            "target": "Can you count to five?",
-            "phonetic": "khun náp thǔng hâa dâi măi khráp",
+            "target": "Can you count to five? (♂)",
+            "phonetic": "kun náp tǔng hâa dâai mǎi kráp",
             "breakdown": [
                 {
                     "source": "คุณ",
                     "target": "you",
-                    "phonetic": "khun",
+                    "phonetic": "kun",
                     "partOfSpeech": "pronoun"
                 },
                 {
@@ -112,106 +26,291 @@
                 },
                 {
                     "source": "ถึง",
-                    "target": "to",
-                    "phonetic": "thǔng",
+                    "target": "up to / until",
+                    "phonetic": "tǔng",
                     "partOfSpeech": "preposition"
                 },
                 {
                     "source": "ห้า",
                     "target": "five",
                     "phonetic": "hâa",
-                    "partOfSpeech": "numeral"
+                    "partOfSpeech": "number"
                 },
                 {
                     "source": "ได้",
                     "target": "can",
-                    "phonetic": "dâi",
-                    "partOfSpeech": "auxiliary verb"
+                    "phonetic": "dâai",
+                    "partOfSpeech": "auxiliary"
                 },
                 {
                     "source": "ไหม",
-                    "target": "or not",
-                    "phonetic": "măi",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
                     "partOfSpeech": "particle"
                 },
                 {
                     "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "target": "polite particle (♂)",
+                    "phonetic": "kráp",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "ได้ครับ! หนึ่ง สอง สาม สี่ ห้า",
-            "target": "Yes! One, two, three, four, five.",
-            "phonetic": "dâi khráp! nùung sǎawng sǎam sìi hâa",
+            "source": "ได้ค่ะ หนึ่ง สอง สาม สี่ ห้า",
+            "target": "Yes! One, two, three, four, five. (♀)",
+            "phonetic": "dâai kâ nùeng sǎawng sǎam sìi hâa",
             "breakdown": [
                 {
                     "source": "ได้",
-                    "target": "can",
-                    "phonetic": "dâi",
-                    "partOfSpeech": "auxiliary verb"
+                    "target": "can / yes I can",
+                    "phonetic": "dâai",
+                    "partOfSpeech": "verb"
                 },
                 {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "source": "ค่ะ",
+                    "target": "polite particle (♀)",
+                    "phonetic": "kâ",
                     "partOfSpeech": "particle"
                 },
                 {
                     "source": "หนึ่ง",
                     "target": "one",
-                    "phonetic": "nùung",
-                    "partOfSpeech": "numeral"
+                    "phonetic": "nùeng",
+                    "partOfSpeech": "number"
                 },
                 {
                     "source": "สอง",
                     "target": "two",
                     "phonetic": "sǎawng",
-                    "partOfSpeech": "numeral"
+                    "partOfSpeech": "number"
                 },
                 {
                     "source": "สาม",
                     "target": "three",
                     "phonetic": "sǎam",
-                    "partOfSpeech": "numeral"
+                    "partOfSpeech": "number"
                 },
                 {
                     "source": "สี่",
                     "target": "four",
                     "phonetic": "sìi",
-                    "partOfSpeech": "numeral"
+                    "partOfSpeech": "number"
                 },
                 {
                     "source": "ห้า",
                     "target": "five",
                     "phonetic": "hâa",
-                    "partOfSpeech": "numeral"
+                    "partOfSpeech": "number"
                 }
             ]
         },
         {
-            "source": "ตัวเลขที่คุณชอบที่สุดคืออะไรครับ",
-            "target": "What is your favorite number?",
-            "phonetic": "dtua-lék thîi khun châwp thîi-sùt kheuu à-rai khráp",
+            "source": "หก เจ็ด แปด เก้า สิบ ครับ",
+            "target": "Six, seven, eight, nine, ten. (♂)",
+            "phonetic": "hòk jèt bpàaet gâo sìp kráp",
+            "breakdown": [
+                {
+                    "source": "หก",
+                    "target": "six",
+                    "phonetic": "hòk",
+                    "partOfSpeech": "number"
+                },
+                {
+                    "source": "เจ็ด",
+                    "target": "seven",
+                    "phonetic": "jèt",
+                    "partOfSpeech": "number"
+                },
+                {
+                    "source": "แปด",
+                    "target": "eight",
+                    "phonetic": "bpàaet",
+                    "partOfSpeech": "number"
+                },
+                {
+                    "source": "เก้า",
+                    "target": "nine",
+                    "phonetic": "gâo",
+                    "partOfSpeech": "number"
+                },
+                {
+                    "source": "สิบ",
+                    "target": "ten",
+                    "phonetic": "sìp",
+                    "partOfSpeech": "number"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "polite particle (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "คุณมีพี่น้องกี่คนคะ",
+            "target": "How many siblings do you have? (♀)",
+            "phonetic": "kun mii pîi-náwng gìi kon ká",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you",
+                    "phonetic": "kun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "มี",
+                    "target": "to have",
+                    "phonetic": "mii",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "พี่น้อง",
+                    "target": "siblings",
+                    "phonetic": "pîi-náwng",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "กี่",
+                    "target": "how many",
+                    "phonetic": "gìi",
+                    "partOfSpeech": "question"
+                },
+                {
+                    "source": "คน",
+                    "target": "people (classifier)",
+                    "phonetic": "kon",
+                    "partOfSpeech": "classifier"
+                },
+                {
+                    "source": "คะ",
+                    "target": "polite question (♀)",
+                    "phonetic": "ká",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ผมมีสองคนครับ",
+            "target": "I have two. (♂)",
+            "phonetic": "pǒm mii sǎawng kon kráp",
+            "breakdown": [
+                {
+                    "source": "ผม",
+                    "target": "I (male)",
+                    "phonetic": "pǒm",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "มี",
+                    "target": "to have",
+                    "phonetic": "mii",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "สอง",
+                    "target": "two",
+                    "phonetic": "sǎawng",
+                    "partOfSpeech": "number"
+                },
+                {
+                    "source": "คน",
+                    "target": "people (classifier)",
+                    "phonetic": "kon",
+                    "partOfSpeech": "classifier"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "polite particle (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "วันนี้กี่โมงแล้วคะ",
+            "target": "What time is it now? (♀)",
+            "phonetic": "wan-níi gìi moong lɛ́ɛo ká",
+            "breakdown": [
+                {
+                    "source": "วันนี้",
+                    "target": "today / now (today)",
+                    "phonetic": "wan-níi",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "กี่โมง",
+                    "target": "what time",
+                    "phonetic": "gìi moong",
+                    "partOfSpeech": "phrase"
+                },
+                {
+                    "source": "แล้ว",
+                    "target": "already",
+                    "phonetic": "lɛ́ɛo",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "คะ",
+                    "target": "polite question (♀)",
+                    "phonetic": "ká",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "สามโมงแล้วครับ",
+            "target": "It is three o'clock. (♂)",
+            "phonetic": "sǎam moong lɛ́ɛo kráp",
+            "breakdown": [
+                {
+                    "source": "สาม",
+                    "target": "three",
+                    "phonetic": "sǎam",
+                    "partOfSpeech": "number"
+                },
+                {
+                    "source": "โมง",
+                    "target": "o'clock",
+                    "phonetic": "moong",
+                    "partOfSpeech": "classifier"
+                },
+                {
+                    "source": "แล้ว",
+                    "target": "already",
+                    "phonetic": "lɛ́ɛo",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "polite particle (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ตัวเลขที่คุณชอบคืออะไรคะ",
+            "target": "What is your favorite number? (♀)",
+            "phonetic": "dtua-lêk tîi kun châwp keu à-rai ká",
             "breakdown": [
                 {
                     "source": "ตัวเลข",
                     "target": "number",
-                    "phonetic": "dtua-lék",
+                    "phonetic": "dtua-lêk",
                     "partOfSpeech": "noun"
                 },
                 {
                     "source": "ที่",
                     "target": "that",
-                    "phonetic": "thîi",
-                    "partOfSpeech": "relative pronoun"
+                    "phonetic": "tîi",
+                    "partOfSpeech": "relative"
                 },
                 {
                     "source": "คุณ",
                     "target": "you",
-                    "phonetic": "khun",
+                    "phonetic": "kun",
                     "partOfSpeech": "pronoun"
                 },
                 {
@@ -221,15 +320,9 @@
                     "partOfSpeech": "verb"
                 },
                 {
-                    "source": "ที่สุด",
-                    "target": "most",
-                    "phonetic": "thîi-sùt",
-                    "partOfSpeech": "adverb"
-                },
-                {
                     "source": "คือ",
-                    "target": "is",
-                    "phonetic": "kheuu",
+                    "target": "is / equals",
+                    "phonetic": "keu",
                     "partOfSpeech": "verb"
                 },
                 {
@@ -239,34 +332,22 @@
                     "partOfSpeech": "pronoun"
                 },
                 {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "source": "คะ",
+                    "target": "polite question (♀)",
+                    "phonetic": "ká",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "ตัวเลขที่ผมชอบที่สุดคือสามครับ",
-            "target": "My favorite number is three.",
-            "phonetic": "dtua-lék thîi phǒm châwp thîi-sùt kheuu sǎam khráp",
+            "source": "ผมชอบเลขเก้าครับ",
+            "target": "I like the number nine. (♂)",
+            "phonetic": "pǒm châwp lêk gâo kráp",
             "breakdown": [
-                {
-                    "source": "ตัวเลข",
-                    "target": "number",
-                    "phonetic": "dtua-lék",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ที่",
-                    "target": "that",
-                    "phonetic": "thîi",
-                    "partOfSpeech": "relative pronoun"
-                },
                 {
                     "source": "ผม",
                     "target": "I (male)",
-                    "phonetic": "phǒm",
+                    "phonetic": "pǒm",
                     "partOfSpeech": "pronoun"
                 },
                 {
@@ -276,117 +357,31 @@
                     "partOfSpeech": "verb"
                 },
                 {
-                    "source": "ที่สุด",
-                    "target": "most",
-                    "phonetic": "thîi-sùt",
-                    "partOfSpeech": "adverb"
-                },
-                {
-                    "source": "คือ",
-                    "target": "is",
-                    "phonetic": "kheuu",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "สาม",
-                    "target": "three",
-                    "phonetic": "sǎam",
-                    "partOfSpeech": "numeral"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
-                }
-            ]
-        },
-        {
-            "source": "ทำไมคุณถึงชอบสามครับ",
-            "target": "Why do you like three?",
-            "phonetic": "tham-mai khun thǔng châwp sǎam khráp",
-            "breakdown": [
-                {
-                    "source": "ทำไม",
-                    "target": "why",
-                    "phonetic": "tham-mai",
-                    "partOfSpeech": "adverb"
-                },
-                {
-                    "source": "คุณ",
-                    "target": "you",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ถึง",
-                    "target": "so",
-                    "phonetic": "thǔng",
-                    "partOfSpeech": "adverb"
-                },
-                {
-                    "source": "ชอบ",
-                    "target": "to like",
-                    "phonetic": "châwp",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "สาม",
-                    "target": "three",
-                    "phonetic": "sǎam",
-                    "partOfSpeech": "numeral"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
-                }
-            ]
-        },
-        {
-            "source": "สามเป็นตัวเลขนำโชคครับ",
-            "target": "Three is a lucky number!",
-            "phonetic": "sǎam bpen dtua-lék nam-châawk khráp",
-            "breakdown": [
-                {
-                    "source": "สาม",
-                    "target": "three",
-                    "phonetic": "sǎam",
-                    "partOfSpeech": "numeral"
-                },
-                {
-                    "source": "เป็น",
-                    "target": "is",
-                    "phonetic": "bpen",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ตัวเลข",
-                    "target": "number",
-                    "phonetic": "dtua-lék",
+                    "source": "เลข",
+                    "target": "number / digit",
+                    "phonetic": "lêk",
                     "partOfSpeech": "noun"
                 },
                 {
-                    "source": "นำโชค",
-                    "target": "lucky",
-                    "phonetic": "nam-châawk",
-                    "partOfSpeech": "adjective"
+                    "source": "เก้า",
+                    "target": "nine",
+                    "phonetic": "gâo",
+                    "partOfSpeech": "number"
                 },
                 {
                     "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "target": "polite particle (♂)",
+                    "phonetic": "kráp",
                     "partOfSpeech": "particle"
                 }
             ]
         }
     ],
-    "createdAt": "2025-09-28T10:15:00Z",
-    "updatedAt": "2025-09-28T10:15:00Z",
+    "createdAt": "2025-09-28T08:54:49Z",
+    "updatedAt": "2026-04-08T14:00:00Z",
     "difficulty": "beginner",
     "summary": {
-        "source": "การสนทนาเกี่ยวกับตัวเลขและการนับ",
-        "target": "Conversation about numbers and counting"
+        "source": "สมชายกับพิมนับเลขและคุยเรื่องตัวเลขที่ใช้ทุกวัน",
+        "target": "Somchai and Pim count and talk about everyday numbers."
     }
 }

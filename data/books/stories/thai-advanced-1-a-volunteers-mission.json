@@ -3,420 +3,106 @@
     "bookId": "thai-advanced-1",
     "language": "th",
     "title": {
-        "source": "ภารกิจของอาสาสมัคร",
+        "source": "งานอาสา",
         "target": "A Volunteer's Mission"
     },
     "sentences": [
         {
-            "source": "เมื่อเลียมลงทะเบียนเป็นอาสาสมัครที่ศูนย์ชุมชน เขาไม่คาดหวังว่าจะพบครอบครัวที่สอง",
-            "target": "When Liam signed up to volunteer at a community center, he didn't expect to find a second family.",
-            "phonetic": "mʉ̂a liiam long-thá-biian bpen aa-sǎa-sà-mák thîi sǔun-chum-chon kháo mâi khâat-wǎng wâa jà phóp khrɔɔp-khrua thîi sɔ̌ɔng",
-            "breakdown": [
-                {
-                    "source": "เมื่อเลียมลงทะเบียนเป็นอาสาสมัคร",
-                    "target": "when Liam signed up to volunteer",
-                    "phonetic": "mʉ̂a liiam long-thá-biian bpen aa-sǎa-sà-mák",
-                    "partOfSpeech": "temporal clause"
-                },
-                {
-                    "source": "ที่ศูนย์ชุมชน",
-                    "target": "at a community center",
-                    "phonetic": "thîi sǔun-chum-chon",
-                    "partOfSpeech": "prepositional phrase"
-                },
-                {
-                    "source": "เขาไม่คาดหวังว่าจะพบครอบครัวที่สอง",
-                    "target": "he didn't expect to find a second family",
-                    "phonetic": "kháo mâi khâat-wǎng wâa jà phóp khrɔɔp-khrua thîi sɔ̌ɔng",
-                    "partOfSpeech": "clause"
-                }
-            ]
+            "source": "ช่วงปิดเทอม ดิฉันสมัครไปเป็นอาสาสมัครที่โรงเรียนวัดในภาคอีสาน",
+            "target": "Over break I volunteered at a temple school in Isan.",
+            "phonetic": "chûang bpìt-təəm dì-chǎn sà-màk bpai bpen aa-sǎa-sà-màk tîi roong-rian wát nai pâak ii-sǎan"
         },
         {
-            "source": "ศูนย์ในย่านที่ดิ้นรน เสนอชั้นเรียนและอาหารให้กับเด็กในท้องถิ่น",
-            "target": "The center, in a struggling neighborhood, offered classes and meals to local children.",
-            "phonetic": "sǔun nai yâan thîi dîn-ron sà-nə̌ə chán-rian láe aa-hǎan hâi gàp dèk nai thɔ́ɔng-thìn",
-            "breakdown": [
-                {
-                    "source": "ศูนย์ในย่านที่ดิ้นรน",
-                    "target": "the center, in a struggling neighborhood",
-                    "phonetic": "sǔun nai yâan thîi dîn-ron",
-                    "partOfSpeech": "noun phrase"
-                },
-                {
-                    "source": "เสนอชั้นเรียนและอาหาร",
-                    "target": "offered classes and meals",
-                    "phonetic": "sà-nə̌ə chán-rian láe aa-hǎan",
-                    "partOfSpeech": "verb phrase"
-                },
-                {
-                    "source": "ให้กับเด็กในท้องถิ่น",
-                    "target": "to local children",
-                    "phonetic": "hâi gàp dèk nai thɔ́ɔng-thìn",
-                    "partOfSpeech": "prepositional phrase"
-                }
-            ]
+            "source": "ตอนแรกคิดว่างานหลักคือสอนภาษาอังกฤษให้เด็ก",
+            "target": "At first I thought the main job was teaching English.",
+            "phonetic": "dton râaek kít wâa ngaan làk keu sǎwn paa-sǎa ang-grìt hâi dèk"
         },
         {
-            "source": "เลียม นักศึกษามหาวิทยาลัย สอนคณิตศาสตร์พื้นฐานให้กับกลุ่มเด็กที่กระตือรือร้น",
-            "target": "Liam, a college student, taught basic math to a group of eager kids.",
-            "phonetic": "liiam nák-sʉ̀k-sǎa má-hǎa-wít-thá-yaa-lai sɔ̌ɔn khá-nít-sàat phʉ́ʉn-thǎan hâi gàp glùm dèk thîi grà-dtʉʉ-rʉʉ-rɔ́ɔn",
-            "breakdown": [
-                {
-                    "source": "เลียม นักศึกษามหาวิทยาลัย",
-                    "target": "Liam, a college student",
-                    "phonetic": "liiam nák-sʉ̀k-sǎa má-hǎa-wít-thá-yaa-lai",
-                    "partOfSpeech": "noun phrase"
-                },
-                {
-                    "source": "สอนคณิตศาสตร์พื้นฐาน",
-                    "target": "taught basic math",
-                    "phonetic": "sɔ̌ɔn khá-nít-sàat phʉ́ʉn-thǎan",
-                    "partOfSpeech": "verb phrase"
-                },
-                {
-                    "source": "ให้กับกลุ่มเด็กที่กระตือรือร้น",
-                    "target": "to a group of eager kids",
-                    "phonetic": "hâi gàp glùm dèk thîi grà-dtʉʉ-rʉʉ-rɔ́ɔn",
-                    "partOfSpeech": "prepositional phrase"
-                }
-            ]
+            "source": "แต่จริงๆ แล้วยังรวมถึงซ่อมห้องสมุด จัดหนังสือ และเล่นกับเด็กหลังเลิกเรียน",
+            "target": "In truth it also meant fixing the library, sorting books, and playing after class.",
+            "phonetic": "dtàae jing jing lɛ́ɛo yang ruam tǔng sâwm hâwng-sà-mùt jàt nǎng-sǔu lɛ́ lên gàp dèk lǎng lə̂ək rian"
         },
         {
-            "source": "ความกระตือรือร้นของพวกเขา แม้จะมีความท้าทาย สร้างแรงบันดาลใจให้เขาทุกวัน",
-            "target": "Their enthusiasm, despite their challenges, inspired him daily.",
-            "phonetic": "khwaam-grà-dtʉʉ-rʉʉ-rɔ́ɔn khɔ̌ɔng phûak-kháo mɛ́ɛ jà mii khwaam-tháa-thaai sâang rɛɛng-ban-daan-jai hâi kháo thúk-wan",
-            "breakdown": [
-                {
-                    "source": "ความกระตือรือร้นของพวกเขา",
-                    "target": "their enthusiasm",
-                    "phonetic": "khwaam-grà-dtʉʉ-rʉʉ-rɔ́ɔn khɔ̌ɔng phûak-kháo",
-                    "partOfSpeech": "noun phrase"
-                },
-                {
-                    "source": "แม้จะมีความท้าทาย",
-                    "target": "despite their challenges",
-                    "phonetic": "mɛ́ɛ jà mii khwaam-tháa-thaai",
-                    "partOfSpeech": "concessive phrase"
-                },
-                {
-                    "source": "สร้างแรงบันดาลใจให้เขาทุกวัน",
-                    "target": "inspired him daily",
-                    "phonetic": "sâang rɛɛng-ban-daan-jai hâi kháo thúk-wan",
-                    "partOfSpeech": "verb phrase"
-                }
-            ]
+            "source": "เด็กหลายคนเดินไกลจากบ้านเพื่อมาโรงเรียนทุกเช้า",
+            "target": "Many children walked far from home each morning.",
+            "phonetic": "dèk lǎai kon dəən glai jàak bâan pʉ̂ua maa roong-rian túk cháao"
         },
         {
-            "source": "เขาสังเกตเห็นเด็กชายคนหนึ่ง มิเกล ที่ดิ้นรนกับตัวเลขแต่รักการวาดภาพ",
-            "target": "He noticed one boy, Miguel, who struggled with numbers but loved to draw.",
-            "phonetic": "kháo sǎng-gèt-hěn dèk-chaai khon-nʉ̀ng mii-gen thîi dîn-ron gàp dtua-lêek dtɛ̀ɛ rák gaan wâat-phâap",
-            "breakdown": [
-                {
-                    "source": "เขาสังเกตเห็นเด็กชายคนหนึ่ง มิเกล",
-                    "target": "he noticed one boy, Miguel",
-                    "phonetic": "kháo sǎng-gèt-hěn dèk-chaai khon-nʉ̀ng mii-gen",
-                    "partOfSpeech": "verb phrase"
-                },
-                {
-                    "source": "ที่ดิ้นรนกับตัวเลข",
-                    "target": "who struggled with numbers",
-                    "phonetic": "thîi dîn-ron gàp dtua-lêek",
-                    "partOfSpeech": "relative clause"
-                },
-                {
-                    "source": "แต่รักการวาดภาพ",
-                    "target": "but loved to draw",
-                    "phonetic": "dtɛ̀ɛ rák gaan wâat-phâap",
-                    "partOfSpeech": "clause"
-                }
-            ]
+            "source": "ครูประจำบอกว่าของที่ขาดไม่ใช่แค่สื่อการสอน แต่คือโอกาสที่สม่ำเสมอ",
+            "target": "A local teacher said what's missing isn't only materials — it's consistent opportunity.",
+            "phonetic": "kruu bprà-jam bàwk wâa kǎwng tîi kàat mâi châi kâae sʉ̌ʉ gaan-sǎwn dtàae keu oo-gàat tîi sà-màm-sə̌ə"
         },
         {
-            "source": "เลียมสนับสนุนให้เขาผสมผสานศิลปะกับคณิตศาสตร์ สร้างแผนภูมิที่มีสีสัน",
-            "target": "Liam encouraged him to combine art with math, creating colorful charts.",
-            "phonetic": "liiam sà-nàp-sà-nǔn hâi kháo phà-sǒm-phà-sǎan sǐn-là-bpà gàp khá-nít-sàat sâang phɛ̌ɛn-phuum thîi mii sǐi-sǎn",
-            "breakdown": [
-                {
-                    "source": "เลียมสนับสนุนให้เขาผสมผสานศิลปะกับคณิตศาสตร์",
-                    "target": "Liam encouraged him to combine art with math",
-                    "phonetic": "liiam sà-nàp-sà-nǔn hâi kháo phà-sǒm-phà-sǎan sǐn-là-bpà gàp khá-nít-sàat",
-                    "partOfSpeech": "verb phrase"
-                },
-                {
-                    "source": "สร้างแผนภูมิที่มีสีสัน",
-                    "target": "creating colorful charts",
-                    "phonetic": "sâang phɛ̌ɛn-phuum thîi mii sǐi-sǎn",
-                    "partOfSpeech": "participial phrase"
-                }
-            ]
+            "source": "ดิฉันเคยคิดว่าการให้นั้นคือการมอบของ",
+            "target": "I used to think giving meant handing things over.",
+            "phonetic": "dì-chǎn koie kít wâa gaan hâi nán keu gaan mâwp kǎwng"
         },
         {
-            "source": "ผลลัพธ์น่าทึ่ง และความมั่นใจของมิเกลพุ่งสูงขึ้น",
-            "target": "The results were astonishing, and Miguel's confidence soared.",
-            "phonetic": "phǒn-lá-phát nâa-thʉ́ng láe khwaam-mân-jai khɔ̌ɔng mii-gen phûng-sǔung-khʉ̂n",
-            "breakdown": [
-                {
-                    "source": "ผลลัพธ์น่าทึ่ง",
-                    "target": "the results were astonishing",
-                    "phonetic": "phǒn-lá-phát nâa-thʉ́ng",
-                    "partOfSpeech": "clause"
-                },
-                {
-                    "source": "และความมั่นใจของมิเกลพุ่งสูงขึ้น",
-                    "target": "and Miguel's confidence soared",
-                    "phonetic": "láe khwaam-mân-jai khɔ̌ɔng mii-gen phûng-sǔung-khʉ̂n",
-                    "partOfSpeech": "clause"
-                }
-            ]
+            "source": "แต่ที่นี่การให้อาจเป็นเพียงการนั่งฟังเด็กเล่าเรื่องบ้าน",
+            "target": "Here, giving might simply mean sitting and listening to a child's story about home.",
+            "phonetic": "dtàae tîi nîi gaan hâi àat bpen piang gaan nâng fang dèk lâo rʉ̂ang bâan"
         },
         {
-            "source": "อาสาสมัครคนอื่นๆ แบ่งปันความหลงใหลของเลียม ทำงานร่วมกันเพื่อจัดกิจกรรม",
-            "target": "Other volunteers shared Liam's passion, working together to organize events.",
-            "phonetic": "aa-sǎa-sà-mák khon-ʉ̀ʉn-ʉ̀ʉn bɛ̀ng-bpan khwaam-lǒng-lǎi khɔ̌ɔng liiam tham-ngaan rûam-gan phʉ̂a jàt gìt-jà-gam",
-            "breakdown": [
-                {
-                    "source": "อาสาสมัครคนอื่นๆ แบ่งปันความหลงใหลของเลียม",
-                    "target": "other volunteers shared Liam's passion",
-                    "phonetic": "aa-sǎa-sà-mák khon-ʉ̀ʉn-ʉ̀ʉn bɛ̀ng-bpan khwaam-lǒng-lǎi khɔ̌ɔng liiam",
-                    "partOfSpeech": "clause"
-                },
-                {
-                    "source": "ทำงานร่วมกันเพื่อจัดกิจกรรม",
-                    "target": "working together to organize events",
-                    "phonetic": "tham-ngaan rûam-gan phʉ̂a jàt gìt-jà-gam",
-                    "partOfSpeech": "participial phrase"
-                }
-            ]
+            "source": "เย็นวันหนึ่งมีพายุฝน ไฟดับทั้งหมู่บ้าน",
+            "target": "One evening a storm knocked out power across the village.",
+            "phonetic": "yen wan nùeng mii paa-yú fǒn fai dàp táng mùu-bâan"
         },
         {
-            "source": "พวกเขาจัดการแสดงความสามารถ ที่ซึ่งเด็กๆ แสดงทักษะในการร้องเพลงและเต้นรำ",
-            "target": "They hosted a talent show, where children showcased their skills in singing and dancing.",
-            "phonetic": "phûak-kháo jàt gaan sà-dɛɛng khwaam-sǎa-mâat thîi sʉ̂ng dèk-dèk sà-dɛɛng thák-sà nai gaan rɔ́ɔng-phleeng láe dtên-ram",
-            "breakdown": [
-                {
-                    "source": "พวกเขาจัดการแสดงความสามารถ",
-                    "target": "they hosted a talent show",
-                    "phonetic": "phûak-kháo jàt gaan sà-dɛɛng khwaam-sǎa-mâat",
-                    "partOfSpeech": "verb phrase"
-                },
-                {
-                    "source": "ที่ซึ่งเด็กๆ แสดงทักษะในการร้องเพลงและเต้นรำ",
-                    "target": "where children showcased their skills in singing and dancing",
-                    "phonetic": "thîi sʉ̂ng dèk-dèk sà-dɛɛng thák-sà nai gaan rɔ́ɔng-phleeng láe dtên-ram",
-                    "partOfSpeech": "relative clause"
-                }
-            ]
+            "source": "ทุกคนจุดเทียน แล้วนั่งคุยกันในความมืดอย่างสงบ",
+            "target": "Everyone lit candles and talked calmly in the dark.",
+            "phonetic": "túk kon jùt tian lɛ́ɛo nâng kui gan nai kwaam-mʉ̂ʉt yàang sà-ngòp"
         },
         {
-            "source": "ชุมชนมารวมตัวกัน ปรบมือและเชียร์ให้กับทุกการแสดง",
-            "target": "The community gathered, clapping and cheering for every performance.",
-            "phonetic": "chum-chon maa ruam-dtua-gan bpròp-mʉʉ láe chiia hâi gàp thúk gaan-sà-dɛɛng",
-            "breakdown": [
-                {
-                    "source": "ชุมชนมารวมตัวกัน",
-                    "target": "the community gathered",
-                    "phonetic": "chum-chon maa ruam-dtua-gan",
-                    "partOfSpeech": "verb phrase"
-                },
-                {
-                    "source": "ปรบมือและเชียร์ให้กับทุกการแสดง",
-                    "target": "clapping and cheering for every performance",
-                    "phonetic": "bpròp-mʉʉ láe chiia hâi gàp thúk gaan-sà-dɛɛng",
-                    "partOfSpeech": "participial phrase"
-                }
-            ]
+            "source": "ในความเงียบนั้น ดิฉันรู้สึกเชื่อมกับที่นี่มากกว่าตอนมีไฟฟ้า",
+            "target": "In that quiet I felt more connected than when the lights worked.",
+            "phonetic": "nai kwaam-ngîap nán dì-chǎn rúu-sʉ̀k chʉ̂am gàp tîi nîi mâak gwàa dton mii fai-fáa"
         },
         {
-            "source": "เลียมเรียนรู้เกี่ยวกับประวัติศาสตร์ของย่าน ซึ่งเต็มไปด้วยความยืดหยุ่นและความหวัง",
-            "target": "Liam learned about the neighborhood's history, marked by resilience and hope.",
-            "phonetic": "liiam rian-rúu gìeow-gàp bprà-wàt-sàat khɔ̌ɔng yâan sʉ̂ng dtèm bpai dûai khwaam-yʉ́ʉt-yùn láe khwaam-wǎng",
-            "breakdown": [
-                {
-                    "source": "เลียมเรียนรู้เกี่ยวกับประวัติศาสตร์ของย่าน",
-                    "target": "Liam learned about the neighborhood's history",
-                    "phonetic": "liiam rian-rúu gìeow-gàp bprà-wàt-sàat khɔ̌ɔng yâan",
-                    "partOfSpeech": "verb phrase"
-                },
-                {
-                    "source": "ซึ่งเต็มไปด้วยความยืดหยุ่นและความหวัง",
-                    "target": "marked by resilience and hope",
-                    "phonetic": "sʉ̂ng dtèm bpai dûai khwaam-yʉ́ʉt-yùn láe khwaam-wǎng",
-                    "partOfSpeech": "participial phrase"
-                }
-            ]
+            "source": "ก่อนกลับกรุงเทพฯ เด็กๆ วาดรูปส่งให้ พร้อมคำว่า อย่าลืมนะ",
+            "target": "Before I returned to Bangkok, the kids drew pictures that said “don't forget us.”",
+            "phonetic": "gàwn glàb grung-têep dèk dèk wâat rûup sòng hâi práwm kam wâa yàa lʉʉm ná"
         },
         {
-            "source": "เขาพูดคุยกับผู้ปกครองที่แสดงความขอบคุณสำหรับการสนับสนุนของศูนย์",
-            "target": "He spoke with parents who expressed gratitude for the center's support.",
-            "phonetic": "kháo phûut-khui gàp phûu-bpòk-khrɔɔng thîi sà-dɛɛng khwaam-khɔ̀ɔp-khun sǎm-ràp gaan sà-nàp-sà-nǔn khɔ̌ɔng sǔun",
-            "breakdown": [
-                {
-                    "source": "เขาพูดคุยกับผู้ปกครอง",
-                    "target": "he spoke with parents",
-                    "phonetic": "kháo phûut-khui gàp phûu-bpòk-khrɔɔng",
-                    "partOfSpeech": "verb phrase"
-                },
-                {
-                    "source": "ที่แสดงความขอบคุณสำหรับการสนับสนุนของศูนย์",
-                    "target": "who expressed gratitude for the center's support",
-                    "phonetic": "thîi sà-dɛɛng khwaam-khɔ̀ɔp-khun sǎm-ràp gaan sà-nàp-sà-nǔn khɔ̌ɔng sǔun",
-                    "partOfSpeech": "relative clause"
-                }
-            ]
+            "source": "ดิฉันน้ำตาซึม ทั้งที่ตั้งใจจะยิ้ม",
+            "target": "I teared up even though I meant to smile.",
+            "phonetic": "dì-chǎn náam-dtaa sʉem táng tîi dtâng-jai jà yím"
         },
         {
-            "source": "เย็นวันหนึ่ง เขาช่วยเสิร์ฟอาหารเย็น สังเกตเห็นว่าอาหารนำมาซึ่งรอยยิ้ม",
-            "target": "One evening, he helped serve dinner, noticing how the meal brought smiles.",
-            "phonetic": "yen wan-nʉ̀ng kháo chûai sə̀əf aa-hǎan-yen sǎng-gèt-hěn wâa aa-hǎan nam-maa sʉ̂ng rɔɔi-yím",
-            "breakdown": [
-                {
-                    "source": "เย็นวันหนึ่ง เขาช่วยเสิร์ฟอาหารเย็น",
-                    "target": "one evening, he helped serve dinner",
-                    "phonetic": "yen wan-nʉ̀ng kháo chûai sə̀əf aa-hǎan-yen",
-                    "partOfSpeech": "clause"
-                },
-                {
-                    "source": "สังเกตเห็นว่าอาหารนำมาซึ่งรอยยิ้ม",
-                    "target": "noticing how the meal brought smiles",
-                    "phonetic": "sǎng-gèt-hěn wâa aa-hǎan nam-maa sʉ̂ng rɔɔi-yím",
-                    "partOfSpeech": "participial phrase"
-                }
-            ]
+            "source": "งานอาสาไม่ได้ทำให้ดิฉันกลายเป็นวีรบุรุษ",
+            "target": "Volunteering didn't make me a hero.",
+            "phonetic": "ngaan aa-sǎa mâi dâai tam hâi dì-chǎn glaai bpen wii-rá-bù-rùt"
         },
         {
-            "source": "ผู้อำนวยการของศูนย์ชื่นชมความทุ่มเทของเลียม เสนอบทบาทพาร์ทไทม์ให้เขา",
-            "target": "The center's director praised Liam's dedication, offering him a part-time role.",
-            "phonetic": "phûu-am-nuai-gaan khɔ̌ɔng sǔun chʉ̂ən-chom khwaam-thûm-thee khɔ̌ɔng liiam sà-nə̌ə bòt-bàat phâat-thaim hâi kháo",
-            "breakdown": [
-                {
-                    "source": "ผู้อำนวยการของศูนย์ชื่นชมความทุ่มเทของเลียม",
-                    "target": "the center's director praised Liam's dedication",
-                    "phonetic": "phûu-am-nuai-gaan khɔ̌ɔng sǔun chʉ̂ən-chom khwaam-thûm-thee khɔ̌ɔng liiam",
-                    "partOfSpeech": "verb phrase"
-                },
-                {
-                    "source": "เสนอบทบาทพาร์ทไทม์ให้เขา",
-                    "target": "offering him a part-time role",
-                    "phonetic": "sà-nə̌ə bòt-bàat phâat-thaim hâi kháo",
-                    "partOfSpeech": "participial phrase"
-                }
-            ]
+            "source": "มันทำให้ดิฉันเห็นว่าความช่วยเหลือที่ดีต้องฟังก่อนทำ",
+            "target": "It taught me that good help listens before it acts.",
+            "phonetic": "man tam hâi dì-chǎn hěn wâa kwaam chûay-lʉ̌a tîi dii dtâwng fang gàwn tam"
         },
         {
-            "source": "เขายอมรับ สมดุลการศึกษาของเขากับความมุ่งมั่นใหม่",
-            "target": "He accepted, balancing his studies with his new commitment.",
-            "phonetic": "kháo yɔɔm-ráp sǒm-dun gaan-sʉ̀k-sǎa khɔ̌ɔng kháo gàp khwaam-mûng-mân mài",
-            "breakdown": [
-                {
-                    "source": "เขายอมรับ",
-                    "target": "he accepted",
-                    "phonetic": "kháo yɔɔm-ráp",
-                    "partOfSpeech": "verb phrase"
-                },
-                {
-                    "source": "สมดุลการศึกษาของเขากับความมุ่งมั่นใหม่",
-                    "target": "balancing his studies with his new commitment",
-                    "phonetic": "sǒm-dun gaan-sʉ̀k-sǎa khɔ̌ɔng kháo gàp khwaam-mûng-mân mài",
-                    "partOfSpeech": "participial phrase"
-                }
-            ]
+            "source": "และบางครั้ง สิ่งที่ชุมชนต้องการคือเพื่อนที่ยืนข้างๆ ไม่ใช่คนที่มาสั่ง",
+            "target": "Sometimes a community needs a friend beside them, not someone who orders.",
+            "phonetic": "lɛ́ baang kráng sìng tîi chum-chon dtâwng-gaan keu pûean tîi yuen kâang kâang mâi châi kon tîi maa sàng"
         },
         {
-            "source": "ประสบการณ์นี้สอนเขาถึงพลังของการกระทำเล็กๆ",
-            "target": "The experience taught him the power of small actions.",
-            "phonetic": "bprà-sòp-gaan níi sɔ̌ɔn kháo thʉ̌ng phlang khɔ̌ɔng gaan grà-tham lék-lék",
-            "breakdown": [
-                {
-                    "source": "ประสบการณ์นี้สอนเขาถึงพลังของการกระทำเล็กๆ",
-                    "target": "the experience taught him the power of small actions",
-                    "phonetic": "bprà-sòp-gaan níi sɔ̌ɔn kháo thʉ̌ng phlang khɔ̌ɔng gaan grà-tham lék-lék",
-                    "partOfSpeech": "clause"
-                }
-            ]
+            "source": "กลับมาเมืองแล้ว ดิฉันยังส่งหนังสือและวิดีโอสั้นๆ ไปให้ครู",
+            "target": "Back in the city I still send books and short videos to the teacher.",
+            "phonetic": "glàb maa mueang lɛ́ɛo dì-chǎn yang sòng nǎng-sǔu lɛ́ wí-dii-oo sân sân bpai hâi kruu"
         },
         {
-            "source": "เลียมเริ่มระดมทุนสำหรับอุปกรณ์ใหม่ ชักชวนเพื่อนในมหาวิทยาลัยให้ช่วยเหลือ",
-            "target": "Liam began fundraising for new supplies, rallying his university friends to help.",
-            "phonetic": "liiam rə̂əm rá-dom-thun sǎm-ràp ù-bpà-gɔɔn mài chák-chuuan phʉ̂an nai má-hǎa-wít-thá-yaa-lai hâi chûai-lʉ̌a",
-            "breakdown": [
-                {
-                    "source": "เลียมเริ่มระดมทุนสำหรับอุปกรณ์ใหม่",
-                    "target": "Liam began fundraising for new supplies",
-                    "phonetic": "liiam rə̂əm rá-dom-thun sǎm-ràp ù-bpà-gɔɔn mài",
-                    "partOfSpeech": "verb phrase"
-                },
-                {
-                    "source": "ชักชวนเพื่อนในมหาวิทยาลัยให้ช่วยเหลือ",
-                    "target": "rallying his university friends to help",
-                    "phonetic": "chák-chuuan phʉ̂an nai má-hǎa-wít-thá-yaa-lai hâi chûai-lʉ̌a",
-                    "partOfSpeech": "participial phrase"
-                }
-            ]
+            "source": "ไม่ใช่เพราะรู้สึกเป็นหนี้ แต่เพราะยังอยู่ในเรื่องราวด้วยกัน",
+            "target": "Not from debt — but because we still share the same story.",
+            "phonetic": "mâi châi práw rúu-sʉ̀k bpen nîi dtàae práw yang yùu nai rʉ̂ang-raao dûay gan"
         },
         {
-            "source": "เขารู้สึกเติมเต็ม รู้ว่าเขากำลังสร้างความแตกต่าง",
-            "target": "He felt fulfilled, knowing he was making a difference.",
-            "phonetic": "kháo rúu-sʉ̀k dtə̀əm-dtèm rúu wâa kháo gam-lang sâang khwaam-dtɛ̀ɛk-dtàang",
-            "breakdown": [
-                {
-                    "source": "เขารู้สึกเติมเต็ม",
-                    "target": "he felt fulfilled",
-                    "phonetic": "kháo rúu-sʉ̀k dtə̀əm-dtèm",
-                    "partOfSpeech": "verb phrase"
-                },
-                {
-                    "source": "รู้ว่าเขากำลังสร้างความแตกต่าง",
-                    "target": "knowing he was making a difference",
-                    "phonetic": "rúu wâa kháo gam-lang sâang khwaam-dtɛ̀ɛk-dtàang",
-                    "partOfSpeech": "participial phrase"
-                }
-            ]
-        },
-        {
-            "source": "เสียงหัวเราะของเด็กๆ อยู่กับเขา เป็นเครื่องเตือนใจว่าทำไมเขาถึงเป็นอาสาสมัคร",
-            "target": "The children's laughter stayed with him, a reminder of why he volunteered.",
-            "phonetic": "sǐang-hǔa-ró khɔ̌ɔng dèk-dèk yùu gàp kháo bpen khrʉ̂ang-dtʉan-jai wâa tham-mai kháo thʉ̌ng bpen aa-sǎa-sà-mák",
-            "breakdown": [
-                {
-                    "source": "เสียงหัวเราะของเด็กๆ อยู่กับเขา",
-                    "target": "the children's laughter stayed with him",
-                    "phonetic": "sǐang-hǔa-ró khɔ̌ɔng dèk-dèk yùu gàp kháo",
-                    "partOfSpeech": "clause"
-                },
-                {
-                    "source": "เป็นเครื่องเตือนใจว่าทำไมเขาถึงเป็นอาสาสมัคร",
-                    "target": "a reminder of why he volunteered",
-                    "phonetic": "bpen khrʉ̂ang-dtʉan-jai wâa tham-mai kháo thʉ̌ng bpen aa-sǎa-sà-mák",
-                    "partOfSpeech": "noun phrase"
-                }
-            ]
-        },
-        {
-            "source": "เขาหวังว่าจะทำงานนี้ต่อไป เชื่อในความแข็งแกร่งของชุมชน",
-            "target": "He hoped to continue this work, believing in the strength of community.",
-            "phonetic": "kháo wǎng wâa jà tham-ngaan níi dtɔ̀ɔ-bpai chʉ̂a nai khwaam-khɛ̌ng-grɛ̀ng khɔ̌ɔng chum-chon",
-            "breakdown": [
-                {
-                    "source": "เขาหวังว่าจะทำงานนี้ต่อไป",
-                    "target": "he hoped to continue this work",
-                    "phonetic": "kháo wǎng wâa jà tham-ngaan níi dtɔ̀ɔ-bpai",
-                    "partOfSpeech": "clause"
-                },
-                {
-                    "source": "เชื่อในความแข็งแกร่งของชุมชน",
-                    "target": "believing in the strength of community",
-                    "phonetic": "chʉ̂a nai khwaam-khɛ̌ng-grɛ̀ng khɔ̌ɔng chum-chon",
-                    "partOfSpeech": "participial phrase"
-                }
-            ]
+            "source": "การให้ที่ยั่งยืน เริ่มจากความสัมพันธ์ที่ไม่จบแค่หนึ่งสัปดาห์",
+            "target": "Sustainable giving starts with relationships that last beyond one week.",
+            "phonetic": "gaan hâi tîi yâng-yʉʉn rôem jàak kwaam sǎm-pan tîi mâi jòp kâae nùeng sàp-daa"
         }
     ],
-    "createdAt": "2025-09-30T20:31:00Z",
-    "updatedAt": "2025-09-30T20:31:00Z",
+    "createdAt": "2025-09-28T08:54:49Z",
+    "updatedAt": "2026-04-08T17:00:00Z",
     "difficulty": "advanced",
     "summary": {
-        "source": "การเป็นอาสาสมัครของเลียมที่ศูนย์ชุมชนและการสร้างความแตกต่าง",
-        "target": "Liam's volunteering at the community center and making a difference"
+        "source": "พิมอาสาที่โรงเรียนวัดในต่างจังหวัด เรียนรู้ความหมายของการให้",
+        "target": "Pim volunteers at a temple school upcountry and learns what giving means."
     }
 }

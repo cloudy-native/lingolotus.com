@@ -1,0 +1,527 @@
+{
+    "collectionId": "thai-english-intermediate",
+    "deckId": "social-small-talk",
+    "name": "Thai Social & Small Talk",
+    "description": "Phrases for meeting people, keeping conversation going, and making plans in everyday Thai.",
+    "sourceLanguage": "th",
+    "targetLanguage": "en",
+    "createdAt": "2026-04-08T18:00:00Z",
+    "updatedAt": "2026-04-08T18:30:00Z",
+    "theme": "social",
+    "category": "language-learning",
+    "difficulty": "intermediate",
+    "cards": [
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ทำความรู้จัก"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to get to know (someone)"
+            },
+            "tags": [
+                "social"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "tam kwaam-rúu-jàk",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "อยากทำความรู้จักครับ",
+                    "translation": "I'd like to get to know you (♂)",
+                    "phonetic": "yàak tam kwaam-rúu-jàk kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "คุณทำงานอะไรคะ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "What do you do for work? (♀)"
+            },
+            "tags": [
+                "social",
+                "question"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "kun tam-ngaan à-rai ká",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "คุณเรียนอะไรครับ",
+                    "translation": "What are you studying? (♂)",
+                    "phonetic": "kun rian à-rai kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "มาจากไหน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Where are you from?"
+            },
+            "tags": [
+                "social"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "maa jàak nǎi",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "มาจากเชียงใหม่ค่ะ",
+                    "translation": "I'm from Chiang Mai (♀)",
+                    "phonetic": "maa jàak chiang-mài kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "อยู่แถวไหน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Which area do you live in?"
+            },
+            "tags": [
+                "social",
+                "place"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "yùu tǎae nǎi",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "อยู่แถวอโศกครับ",
+                    "translation": "Near Asok (♂)",
+                    "phonetic": "yùu tǎae à-sòk kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ว่างไหม"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Are you free?"
+            },
+            "tags": [
+                "social",
+                "plans"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "wâang mǎi",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "เย็นนี้าว่างไหมคะ",
+                    "translation": "Free this evening? (♀)",
+                    "phonetic": "yen níi wâang mǎi ká"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ไปกินกาแฟกันไหม"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Shall we get coffee?"
+            },
+            "tags": [
+                "social",
+                "invite"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "bpai gin gaa-fɛɛ gan mǎi",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "ไปกินข้าวกันไหมครับ",
+                    "translation": "Shall we eat together? (♂)",
+                    "phonetic": "bpai gin kâao gan mǎi kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ยินดีที่ได้รู้จัก"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Nice to meet you"
+            },
+            "tags": [
+                "social",
+                "greeting"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "yin-dii tîi dâai rúu-jàk",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "ยินดีที่ได้รู้จักค่ะ",
+                    "translation": "Nice to meet you (♀)",
+                    "phonetic": "yin-dii tîi dâai rúu-jàk kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เช่นกัน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "likewise / you too"
+            },
+            "tags": [
+                "social"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "chên-gan",
+            "partOfSpeech": "adverb",
+            "examples": [
+                {
+                    "original": "เช่นกันครับ",
+                    "translation": "You too (♂)",
+                    "phonetic": "chên-gan kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ไว้เจอกันใหม่"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "See you again"
+            },
+            "tags": [
+                "social",
+                "goodbye"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "wái jəə gan mài",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "ไว้เจอกันใหม่นะคะ",
+                    "translation": "See you again (♀)",
+                    "phonetic": "wái jəə gan mài ná kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ขอเบอร์ได้ไหม"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Can I have your number?"
+            },
+            "tags": [
+                "social"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "kǎw bəə dâai mǎi",
+            "partOfSpeech": "phrase",
+            "context": "Casual; use carefully",
+            "examples": [
+                {
+                    "original": "ขอไลน์ได้ไหมครับ",
+                    "translation": "Can I have your LINE? (♂)",
+                    "phonetic": "kǎw lai dâai mǎi kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ไม่เป็นไร"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "It's okay / no problem"
+            },
+            "tags": [
+                "social",
+                "softener"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "mâi bpen rai",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "ไม่เป็นไรค่ะ",
+                    "translation": "No problem (♀)",
+                    "phonetic": "mâi bpen rai kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ขอโทษ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "sorry / excuse me"
+            },
+            "tags": [
+                "social",
+                "polite"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "kǎw-tôot",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "ขอโทษนะครับ",
+                    "translation": "Sorry (♂)",
+                    "phonetic": "kǎw-tôot ná kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ช่วยได้ไหม"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Can you help?"
+            },
+            "tags": [
+                "social"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "chûay dâai mǎi",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "ช่วยหน่อยได้ไหมคะ",
+                    "translation": "Could you help a bit? (♀)",
+                    "phonetic": "chûay nàwy dâai mǎi ká"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "สนุกมาก"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "so much fun"
+            },
+            "tags": [
+                "social"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "sà-nùk mâak",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "สนุกมากครับ",
+                    "translation": "So fun (♂)",
+                    "phonetic": "sà-nùk mâak kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "นัดกัน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to make an appointment / plan to meet"
+            },
+            "tags": [
+                "social",
+                "plans"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "nát gan",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "นัดกันวันเสาร์นะคะ",
+                    "translation": "Let's meet Saturday (♀)",
+                    "phonetic": "nát gan wan-sǎo ná kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ยกเลิกนัด"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to cancel plans"
+            },
+            "tags": [
+                "social",
+                "plans"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "yók-lə̂ək nát",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "ขอโทษ ต้องยกเลิกนัดครับ",
+                    "translation": "Sorry, I must cancel (♂)",
+                    "phonetic": "kǎw-tôot dtâwng yók-lə̂ək nát kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เลื่อนนัด"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to postpone plans"
+            },
+            "tags": [
+                "social",
+                "plans"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "lʉ̂an nát",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "เลื่อนเป็นพรุ่งนี้ได้ไหมคะ",
+                    "translation": "Can we move it to tomorrow? (♀)",
+                    "phonetic": "lʉ̂an bpen prûng-níi dâai mǎi ká"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เป็นเพื่อนกัน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to be friends"
+            },
+            "tags": [
+                "social"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "bpen pûean gan",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "เป็นเพื่อนกันนะครับ",
+                    "translation": "Let's be friends (♂)",
+                    "phonetic": "bpen pûean gan ná kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "กลุ่ม"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "group / club"
+            },
+            "tags": [
+                "social"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "glùm",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "เข้ากลุ่มวิ่งไหมคะ",
+                    "translation": "Join the running group? (♀)",
+                    "phonetic": "kâo glùm wîng mǎi ká"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ชวน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to invite"
+            },
+            "tags": [
+                "social"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "chuan",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "ชวนไปงานด้วยนะคะ",
+                    "translation": "Invite me along to the event (♀)",
+                    "phonetic": "chuan bpai ngaan dûay ná kâ"
+                }
+            ]
+        }
+    ]
+}

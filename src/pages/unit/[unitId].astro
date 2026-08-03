@@ -1,0 +1,86 @@
+---
+import { getCollection } from "astro:content";
+import PageLayout from "@/layouts/PageLayout.astro";
+import UnitHub from "@/components/islands/UnitHub";
+import { buildLadderCatalog } from "@/lib/ladder";
+import { loadCurriculumUnits } from "@/lib/curriculum";
+import { loadGrammarMarkdown } from "@/lib/grammar";
+import { getLearnPath, getUnitPath } from "@/lib/utils";
+import type { Level } from "@/lib/progress";
+
+export async function getStaticPaths() {
+  const units = loadCurriculumUnits();
+  const collections = await getCollection("flashcard-collections");
+  const decks = await getCollection("flashcard-decks");
+  const books = await getCollection("books");
+  const stories = await getCollection("stories");
+
+  const catalog = buildLadderCatalog({
+    collections: collections.map((c) => ({
+      collectionId: c.data.collectionId,
+      difficulty: c.data.difficulty,
+    })),
+    decks: decks.map((d) => ({
+      deckId: d.data.deckId,
+      collectionId: d.data.collectionId,
+      name: d.data.name,
+      description: d.data.description,
+      difficulty: d.data.difficulty,
+    })),
+    books: books.map((b) => ({
+      bookId: b.data.bookId,
+      difficulty: b.data.difficulty,
+    })),
+    stories: stories.map((s) => ({
+      storyId: s.data.storyId,
+      bookId: s.data.bookId,
+      title: s.data.title,
+      sentences: s.data.sentences,
+    })),
+    units,
+  });
+
+  const paths: Array<{
+    params: { unitId: string };
+    props: {
+      step: (typeof catalog.levels)[0]["steps"][0];
+      level: Level;
+    };
+  }> = [];
+
+  for (const levelLadder of catalog.levels) {
+    for (const step of levelLadder.steps) {
+      if (!step.unitId) continue;
+      paths.push({
+        params: { unitId: step.unitId },
+        props: { step, level: levelLadder.level },
+      });
+    }
+  }
+
+  return paths;
+}
+
+const { step, level } = Astro.props;
+const title = step.unitTitle || step.deck?.name || "Unit";
+const canonicalPath = getUnitPath(step.unitId!);
+const grammarMarkdown = loadGrammarMarkdown("th");
+---
+
+<PageLayout
+  title={`${title} | Lingo Lotus`}
+  description={`Learn unit: ${title}. Switch between flashcards and reading.`}
+  ogType="website"
+  canonicalPath={canonicalPath}
+  breadcrumbs={[
+    { label: "Learn", href: getLearnPath() },
+    { label: title },
+  ]}
+>
+  <UnitHub
+    client:load
+    step={step}
+    level={level}
+    grammarMarkdown={grammarMarkdown}
+  />
+</PageLayout>

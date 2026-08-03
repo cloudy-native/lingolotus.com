@@ -64,7 +64,6 @@ export interface Collection {
     category?: string;
     difficulty?: "beginner" | "intermediate" | "advanced" | "mixed";
     imageUrl?: string;
-    featured?: boolean;
 }
 
 // Type to track user progress during the session
@@ -84,7 +83,6 @@ export interface Book {
     category?: string;
     difficulty?: "beginner" | "intermediate" | "advanced";
     imageUrl?: string;
-    featured?: boolean;
 }
 
 export interface ReadingSentence {

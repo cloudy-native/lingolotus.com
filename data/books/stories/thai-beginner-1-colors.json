@@ -8,14 +8,14 @@
     },
     "sentences": [
         {
-            "source": "ท้องฟ้าสีอะไรครับ",
-            "target": "What color is the sky?",
-            "phonetic": "thâwng fáa sǐi à-rai khráp",
+            "source": "ท้องฟ้าสีอะไรคะ",
+            "target": "What color is the sky? (♀)",
+            "phonetic": "táwng-fáa sǐi à-rai ká",
             "breakdown": [
                 {
                     "source": "ท้องฟ้า",
                     "target": "sky",
-                    "phonetic": "thâwng fáa",
+                    "phonetic": "táwng-fáa",
                     "partOfSpeech": "noun"
                 },
                 {
@@ -31,22 +31,22 @@
                     "partOfSpeech": "pronoun"
                 },
                 {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "source": "คะ",
+                    "target": "polite question (♀)",
+                    "phonetic": "ká",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
             "source": "ท้องฟ้าสีฟ้าครับ",
-            "target": "The sky is blue.",
-            "phonetic": "thâwng fáa sǐi fáa khráp",
+            "target": "The sky is blue. (♂)",
+            "phonetic": "táwng-fáa sǐi fáa kráp",
             "breakdown": [
                 {
                     "source": "ท้องฟ้า",
                     "target": "sky",
-                    "phonetic": "thâwng fáa",
+                    "phonetic": "táwng-fáa",
                     "partOfSpeech": "noun"
                 },
                 {
@@ -63,21 +63,21 @@
                 },
                 {
                     "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "target": "polite particle (♂)",
+                    "phonetic": "kráp",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
             "source": "คุณชอบสีฟ้าไหมครับ",
-            "target": "Do you like blue?",
-            "phonetic": "khun châwp sǐi fáa măi khráp",
+            "target": "Do you like blue? (♂)",
+            "phonetic": "kun châwp sǐi fáa mǎi kráp",
             "breakdown": [
                 {
                     "source": "คุณ",
                     "target": "you",
-                    "phonetic": "khun",
+                    "phonetic": "kun",
                     "partOfSpeech": "pronoun"
                 },
                 {
@@ -100,40 +100,34 @@
                 },
                 {
                     "source": "ไหม",
-                    "target": "or not",
-                    "phonetic": "măi",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
                     "partOfSpeech": "particle"
                 },
                 {
                     "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "target": "polite particle (♂)",
+                    "phonetic": "kráp",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "ใช่ ผมชอบสีฟ้าครับ",
-            "target": "Yes, I like blue!",
-            "phonetic": "châi phǒm châwp sǐi fáa khráp",
+            "source": "ชอบค่ะ สีฟ้าสวย",
+            "target": "Yes, blue is pretty. (♀)",
+            "phonetic": "châwp kâ sǐi fáa sǔay",
             "breakdown": [
-                {
-                    "source": "ใช่",
-                    "target": "yes",
-                    "phonetic": "châi",
-                    "partOfSpeech": "interjection"
-                },
-                {
-                    "source": "ผม",
-                    "target": "I (male)",
-                    "phonetic": "phǒm",
-                    "partOfSpeech": "pronoun"
-                },
                 {
                     "source": "ชอบ",
                     "target": "to like",
                     "phonetic": "châwp",
                     "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "polite particle (♀)",
+                    "phonetic": "kâ",
+                    "partOfSpeech": "particle"
                 },
                 {
                     "source": "สี",
@@ -148,22 +142,22 @@
                     "partOfSpeech": "adjective"
                 },
                 {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
+                    "source": "สวย",
+                    "target": "beautiful / pretty",
+                    "phonetic": "sǔay",
+                    "partOfSpeech": "adjective"
                 }
             ]
         },
         {
-            "source": "หญ้าสีอะไรครับ",
-            "target": "What color is grass?",
-            "phonetic": "yâa sǐi à-rai khráp",
+            "source": "ใบไม้สีอะไรครับ",
+            "target": "What color are the leaves? (♂)",
+            "phonetic": "bai-máai sǐi à-rai kráp",
             "breakdown": [
                 {
-                    "source": "หญ้า",
-                    "target": "grass",
-                    "phonetic": "yâa",
+                    "source": "ใบไม้",
+                    "target": "leaf / leaves",
+                    "phonetic": "bai-máai",
                     "partOfSpeech": "noun"
                 },
                 {
@@ -180,21 +174,21 @@
                 },
                 {
                     "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "target": "polite particle (♂)",
+                    "phonetic": "kráp",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "หญ้าสีเขียวครับ",
-            "target": "Grass is green.",
-            "phonetic": "yâa sǐi khǐaw khráp",
+            "source": "ใบไม้สีเขียวค่ะ",
+            "target": "The leaves are green. (♀)",
+            "phonetic": "bai-máai sǐi kǐaw kâ",
             "breakdown": [
                 {
-                    "source": "หญ้า",
-                    "target": "grass",
-                    "phonetic": "yâa",
+                    "source": "ใบไม้",
+                    "target": "leaf / leaves",
+                    "phonetic": "bai-máai",
                     "partOfSpeech": "noun"
                 },
                 {
@@ -206,64 +200,39 @@
                 {
                     "source": "เขียว",
                     "target": "green",
-                    "phonetic": "khǐaw",
+                    "phonetic": "kǐaw",
                     "partOfSpeech": "adjective"
                 },
                 {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "source": "ค่ะ",
+                    "target": "polite particle (♀)",
+                    "phonetic": "kâ",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "สีเขียวสวยไหมครับ",
-            "target": "Is green a nice color?",
-            "phonetic": "sǐi khǐaw sǔai măi khráp",
+            "source": "แท็กซี่ในกรุงเทพฯ สีอะไรคะ",
+            "target": "What color are taxis in Bangkok? (♀)",
+            "phonetic": "tɛ́k-sîi nai grung-têep sǐi à-rai ká",
             "breakdown": [
                 {
-                    "source": "สี",
-                    "target": "color",
-                    "phonetic": "sǐi",
+                    "source": "แท็กซี่",
+                    "target": "taxi",
+                    "phonetic": "tɛ́k-sîi",
                     "partOfSpeech": "noun"
                 },
                 {
-                    "source": "เขียว",
-                    "target": "green",
-                    "phonetic": "khǐaw",
-                    "partOfSpeech": "adjective"
+                    "source": "ใน",
+                    "target": "in",
+                    "phonetic": "nai",
+                    "partOfSpeech": "preposition"
                 },
                 {
-                    "source": "สวย",
-                    "target": "beautiful",
-                    "phonetic": "sǔai",
-                    "partOfSpeech": "adjective"
-                },
-                {
-                    "source": "ไหม",
-                    "target": "or not",
-                    "phonetic": "măi",
-                    "partOfSpeech": "particle"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
-                }
-            ]
-        },
-        {
-            "source": "ใช่ สีเขียวสวยครับ",
-            "target": "Yes, green is nice!",
-            "phonetic": "châi sǐi khǐaw sǔai khráp",
-            "breakdown": [
-                {
-                    "source": "ใช่",
-                    "target": "yes",
-                    "phonetic": "châi",
-                    "partOfSpeech": "interjection"
+                    "source": "กรุงเทพฯ",
+                    "target": "Bangkok",
+                    "phonetic": "grung-têep",
+                    "partOfSpeech": "proper noun"
                 },
                 {
                     "source": "สี",
@@ -272,31 +241,105 @@
                     "partOfSpeech": "noun"
                 },
                 {
-                    "source": "เขียว",
-                    "target": "green",
-                    "phonetic": "khǐaw",
+                    "source": "อะไร",
+                    "target": "what",
+                    "phonetic": "à-rai",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "คะ",
+                    "target": "polite question (♀)",
+                    "phonetic": "ká",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "หลายสีครับ ชมพู เหลือง เขียว",
+            "target": "Many colors: pink, yellow, green. (♂)",
+            "phonetic": "lǎai sǐi kráp chom-puu lǐang kǐaw",
+            "breakdown": [
+                {
+                    "source": "หลาย",
+                    "target": "many",
+                    "phonetic": "lǎai",
                     "partOfSpeech": "adjective"
                 },
                 {
-                    "source": "สวย",
-                    "target": "beautiful",
-                    "phonetic": "sǔai",
-                    "partOfSpeech": "adjective"
+                    "source": "สี",
+                    "target": "color",
+                    "phonetic": "sǐi",
+                    "partOfSpeech": "noun"
                 },
                 {
                     "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "target": "polite particle (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ชมพู",
+                    "target": "pink",
+                    "phonetic": "chom-puu",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "เหลือง",
+                    "target": "yellow",
+                    "phonetic": "lǐang",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "เขียว",
+                    "target": "green",
+                    "phonetic": "kǐaw",
+                    "partOfSpeech": "adjective"
+                }
+            ]
+        },
+        {
+            "source": "สีชมพูน่ารักจังค่ะ",
+            "target": "Pink is so cute. (♀)",
+            "phonetic": "sǐi chom-puu nâa-rák jang kâ",
+            "breakdown": [
+                {
+                    "source": "สี",
+                    "target": "color",
+                    "phonetic": "sǐi",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ชมพู",
+                    "target": "pink",
+                    "phonetic": "chom-puu",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "น่ารัก",
+                    "target": "cute",
+                    "phonetic": "nâa-rák",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "จัง",
+                    "target": "so / really",
+                    "phonetic": "jang",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "polite particle (♀)",
+                    "phonetic": "kâ",
                     "partOfSpeech": "particle"
                 }
             ]
         }
     ],
-    "createdAt": "2025-09-28T09:45:00Z",
-    "updatedAt": "2025-09-28T09:45:00Z",
+    "createdAt": "2025-09-28T08:54:49Z",
+    "updatedAt": "2026-04-08T14:00:00Z",
     "difficulty": "beginner",
     "summary": {
-        "source": "การสนทนาเกี่ยวกับสี",
-        "target": "Conversation about colors"
+        "source": "พิมกับสมชายพูดถึงสีรอบตัวในเมืองไทย",
+        "target": "Pim and Somchai talk about colors around them in Thailand."
     }
 }

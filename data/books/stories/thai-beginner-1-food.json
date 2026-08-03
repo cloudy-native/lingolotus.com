@@ -8,63 +8,82 @@
     },
     "sentences": [
         {
-            "source": "คุณชอบกินอาหารไหมครับ",
-            "target": "Do you like to eat?",
-            "phonetic": "khun châwp gin aa-hăan măi khráp",
+            "source": "คุณหิวไหมครับ",
+            "target": "Are you hungry? (♂)",
+            "phonetic": "kun hǐu mǎi kráp",
             "breakdown": [
                 {
                     "source": "คุณ",
                     "target": "you",
-                    "phonetic": "khun",
+                    "phonetic": "kun",
                     "partOfSpeech": "pronoun"
                 },
                 {
-                    "source": "ชอบ",
-                    "target": "to like",
-                    "phonetic": "châwp",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "กิน",
-                    "target": "to eat",
-                    "phonetic": "gin",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "อาหาร",
-                    "target": "food",
-                    "phonetic": "aa-hăan",
-                    "partOfSpeech": "noun"
+                    "source": "หิว",
+                    "target": "hungry",
+                    "phonetic": "hǐu",
+                    "partOfSpeech": "adjective"
                 },
                 {
                     "source": "ไหม",
-                    "target": "or not",
-                    "phonetic": "măi",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
                     "partOfSpeech": "particle"
                 },
                 {
                     "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "target": "polite particle (♂)",
+                    "phonetic": "kráp",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "ใช่ ผมชอบกินอาหารครับ",
-            "target": "Yes, I like to eat!",
-            "phonetic": "châi phǒm châwp gin aa-hăan khráp",
+            "source": "หิวค่ะ อยากกินข้าว",
+            "target": "I'm hungry. I want to eat. (♀)",
+            "phonetic": "hǐu kâ yàak gin kâao",
             "breakdown": [
                 {
-                    "source": "ใช่",
-                    "target": "yes",
-                    "phonetic": "châi",
-                    "partOfSpeech": "interjection"
+                    "source": "หิว",
+                    "target": "hungry",
+                    "phonetic": "hǐu",
+                    "partOfSpeech": "adjective"
                 },
                 {
-                    "source": "ผม",
-                    "target": "I (male)",
-                    "phonetic": "phǒm",
+                    "source": "ค่ะ",
+                    "target": "polite particle (♀)",
+                    "phonetic": "kâ",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "อยาก",
+                    "target": "to want",
+                    "phonetic": "yàak",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "กิน",
+                    "target": "to eat",
+                    "phonetic": "gin",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ข้าว",
+                    "target": "rice / a meal",
+                    "phonetic": "kâao",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "คุณชอบกินอะไรคะ",
+            "target": "What do you like to eat? (♀)",
+            "phonetic": "kun châwp gin à-rai ká",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you",
+                    "phonetic": "kun",
                     "partOfSpeech": "pronoun"
                 },
                 {
@@ -77,61 +96,6 @@
                     "source": "กิน",
                     "target": "to eat",
                     "phonetic": "gin",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "อาหาร",
-                    "target": "food",
-                    "phonetic": "aa-hăan",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
-                }
-            ]
-        },
-        {
-            "source": "อาหารที่คุณชอบที่สุดคืออะไรครับ",
-            "target": "What is your favorite food?",
-            "phonetic": "aa-hăan thîi khun châwp thîi-sùt kheuu à-rai khráp",
-            "breakdown": [
-                {
-                    "source": "อาหาร",
-                    "target": "food",
-                    "phonetic": "aa-hăan",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ที่",
-                    "target": "that",
-                    "phonetic": "thîi",
-                    "partOfSpeech": "relative pronoun"
-                },
-                {
-                    "source": "คุณ",
-                    "target": "you",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ชอบ",
-                    "target": "to like",
-                    "phonetic": "châwp",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ที่สุด",
-                    "target": "most",
-                    "phonetic": "thîi-sùt",
-                    "partOfSpeech": "adverb"
-                },
-                {
-                    "source": "คือ",
-                    "target": "is",
-                    "phonetic": "kheuu",
                     "partOfSpeech": "verb"
                 },
                 {
@@ -141,34 +105,22 @@
                     "partOfSpeech": "pronoun"
                 },
                 {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "source": "คะ",
+                    "target": "polite question (♀)",
+                    "phonetic": "ká",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "อาหารที่ผมชอบที่สุดคือพิซซ่าครับ",
-            "target": "My favorite food is pizza.",
-            "phonetic": "aa-hăan thîi phǒm châwp thîi-sùt kheuu phit-sàa khráp",
+            "source": "ผมชอบผัดไทยครับ",
+            "target": "I like pad Thai. (♂)",
+            "phonetic": "pǒm châwp pàt-tai kráp",
             "breakdown": [
-                {
-                    "source": "อาหาร",
-                    "target": "food",
-                    "phonetic": "aa-hăan",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ที่",
-                    "target": "that",
-                    "phonetic": "thîi",
-                    "partOfSpeech": "relative pronoun"
-                },
                 {
                     "source": "ผม",
                     "target": "I (male)",
-                    "phonetic": "phǒm",
+                    "phonetic": "pǒm",
                     "partOfSpeech": "pronoun"
                 },
                 {
@@ -178,83 +130,59 @@
                     "partOfSpeech": "verb"
                 },
                 {
-                    "source": "ที่สุด",
-                    "target": "most",
-                    "phonetic": "thîi-sùt",
-                    "partOfSpeech": "adverb"
-                },
-                {
-                    "source": "คือ",
-                    "target": "is",
-                    "phonetic": "kheuu",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "พิซซ่า",
-                    "target": "pizza",
-                    "phonetic": "phit-sàa",
+                    "source": "ผัดไทย",
+                    "target": "pad Thai",
+                    "phonetic": "pàt-tai",
                     "partOfSpeech": "noun"
                 },
                 {
                     "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "target": "polite particle (♂)",
+                    "phonetic": "kráp",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "พิซซ่าอร่อยไหมครับ",
-            "target": "Is pizza good?",
-            "phonetic": "phit-sàa à-ròi măi khráp",
+            "source": "ผัดไทยอร่อยไหมคะ",
+            "target": "Is pad Thai delicious? (♀)",
+            "phonetic": "pàt-tai à-ràwy mǎi ká",
             "breakdown": [
                 {
-                    "source": "พิซซ่า",
-                    "target": "pizza",
-                    "phonetic": "phit-sàa",
+                    "source": "ผัดไทย",
+                    "target": "pad Thai",
+                    "phonetic": "pàt-tai",
                     "partOfSpeech": "noun"
                 },
                 {
                     "source": "อร่อย",
                     "target": "delicious",
-                    "phonetic": "à-ròi",
+                    "phonetic": "à-ràwy",
                     "partOfSpeech": "adjective"
                 },
                 {
                     "source": "ไหม",
-                    "target": "or not",
-                    "phonetic": "măi",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
                     "partOfSpeech": "particle"
                 },
                 {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "source": "คะ",
+                    "target": "polite question (♀)",
+                    "phonetic": "ká",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "ใช่ พิซซ่าอร่อยมากครับ",
-            "target": "Yes, pizza is very good!",
-            "phonetic": "châi phit-sàa à-ròi mâak khráp",
+            "source": "อร่อยมากครับ",
+            "target": "Very delicious. (♂)",
+            "phonetic": "à-ràwy mâak kráp",
             "breakdown": [
-                {
-                    "source": "ใช่",
-                    "target": "yes",
-                    "phonetic": "châi",
-                    "partOfSpeech": "interjection"
-                },
-                {
-                    "source": "พิซซ่า",
-                    "target": "pizza",
-                    "phonetic": "phit-sàa",
-                    "partOfSpeech": "noun"
-                },
                 {
                     "source": "อร่อย",
                     "target": "delicious",
-                    "phonetic": "à-ròi",
+                    "phonetic": "à-ràwy",
                     "partOfSpeech": "adjective"
                 },
                 {
@@ -265,21 +193,21 @@
                 },
                 {
                     "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "target": "polite particle (♂)",
+                    "phonetic": "kráp",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "คุณชอบผลไม้ไหมครับ",
-            "target": "Do you like fruit?",
-            "phonetic": "khun châwp phǒn-lamai măi khráp",
+            "source": "คุณชอบส้มตำไหมครับ",
+            "target": "Do you like som tam? (♂)",
+            "phonetic": "kun châwp sôm-dtam mǎi kráp",
             "breakdown": [
                 {
                     "source": "คุณ",
                     "target": "you",
-                    "phonetic": "khun",
+                    "phonetic": "kun",
                     "partOfSpeech": "pronoun"
                 },
                 {
@@ -289,42 +217,30 @@
                     "partOfSpeech": "verb"
                 },
                 {
-                    "source": "ผลไม้",
-                    "target": "fruit",
-                    "phonetic": "phǒn-lamai",
+                    "source": "ส้มตำ",
+                    "target": "green papaya salad",
+                    "phonetic": "sôm-dtam",
                     "partOfSpeech": "noun"
                 },
                 {
                     "source": "ไหม",
-                    "target": "or not",
-                    "phonetic": "măi",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
                     "partOfSpeech": "particle"
                 },
                 {
                     "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "target": "polite particle (♂)",
+                    "phonetic": "kráp",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "ใช่ ผมชอบแอปเปิลครับ",
-            "target": "Yes, I like apples.",
-            "phonetic": "châi phǒm châwp aep-poen khráp",
+            "source": "ชอบค่ะ แต่ไม่เผ็ดมาก",
+            "target": "I like it, but not too spicy. (♀)",
+            "phonetic": "châwp kâ dtàae mâi pèt mâak",
             "breakdown": [
-                {
-                    "source": "ใช่",
-                    "target": "yes",
-                    "phonetic": "châi",
-                    "partOfSpeech": "interjection"
-                },
-                {
-                    "source": "ผม",
-                    "target": "I (male)",
-                    "phonetic": "phǒm",
-                    "partOfSpeech": "pronoun"
-                },
                 {
                     "source": "ชอบ",
                     "target": "to like",
@@ -332,25 +248,111 @@
                     "partOfSpeech": "verb"
                 },
                 {
-                    "source": "แอปเปิล",
-                    "target": "apple",
-                    "phonetic": "aep-poen",
+                    "source": "ค่ะ",
+                    "target": "polite particle (♀)",
+                    "phonetic": "kâ",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "แต่",
+                    "target": "but",
+                    "phonetic": "dtàae",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ไม่",
+                    "target": "not",
+                    "phonetic": "mâi",
+                    "partOfSpeech": "negation"
+                },
+                {
+                    "source": "เผ็ด",
+                    "target": "spicy",
+                    "phonetic": "pèt",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "มาก",
+                    "target": "very",
+                    "phonetic": "mâak",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "ผลไม้ไทยอร่อยด้วยครับ",
+            "target": "Thai fruit is delicious too. (♂)",
+            "phonetic": "pǒn-lá-máai tai à-ràwy dûay kráp",
+            "breakdown": [
+                {
+                    "source": "ผลไม้",
+                    "target": "fruit",
+                    "phonetic": "pǒn-lá-máai",
                     "partOfSpeech": "noun"
                 },
                 {
+                    "source": "ไทย",
+                    "target": "Thai",
+                    "phonetic": "tai",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "อร่อย",
+                    "target": "delicious",
+                    "phonetic": "à-ràwy",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ด้วย",
+                    "target": "also",
+                    "phonetic": "dûay",
+                    "partOfSpeech": "adverb"
+                },
+                {
                     "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "target": "polite particle (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "มะม่วงน่ากินจังค่ะ",
+            "target": "Mango looks so good. (♀)",
+            "phonetic": "má-mûang nâa-gin jang kâ",
+            "breakdown": [
+                {
+                    "source": "มะม่วง",
+                    "target": "mango",
+                    "phonetic": "má-mûang",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "น่ากิน",
+                    "target": "appetizing / looks tasty",
+                    "phonetic": "nâa-gin",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "จัง",
+                    "target": "so / really",
+                    "phonetic": "jang",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "polite particle (♀)",
+                    "phonetic": "kâ",
                     "partOfSpeech": "particle"
                 }
             ]
         }
     ],
-    "createdAt": "2025-09-28T09:15:00Z",
-    "updatedAt": "2025-09-28T09:15:00Z",
+    "createdAt": "2025-09-28T08:54:49Z",
+    "updatedAt": "2026-04-08T14:00:00Z",
     "difficulty": "beginner",
     "summary": {
-        "source": "การสนทนาเกี่ยวกับอาหารที่ชอบ",
-        "target": "Conversation about favorite foods"
+        "source": "สมชายกับพิมคุยเรื่องอาหารไทยที่ชอบ",
+        "target": "Somchai and Pim talk about Thai food they like."
     }
 }

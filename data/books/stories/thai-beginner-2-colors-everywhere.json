@@ -8,370 +8,46 @@
     },
     "sentences": [
         {
-            "source": "ฉันรักสีเพราะมันทำให้โลกสวยงาม",
-            "target": "I love colors because they make the world beautiful.",
-            "phonetic": "chǎn rák sǐi phaw mạn tham hâi lôok sǔa-ngaam",
+            "source": "วันนี้เมืองสีสันจังค่ะ",
+            "target": "The city is so colorful today. (♀)",
+            "phonetic": "wan-níi mueang sǐi-sǎn jang kâ",
             "breakdown": [
                 {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "รัก",
-                    "target": "to love",
-                    "phonetic": "rák",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "สี",
-                    "target": "color",
-                    "phonetic": "sǐi",
+                    "source": "วันนี้",
+                    "target": "today",
+                    "phonetic": "wan-níi",
                     "partOfSpeech": "noun"
                 },
                 {
-                    "source": "เพราะ",
-                    "target": "because",
-                    "phonetic": "phaw",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "มัน",
-                    "target": "they",
-                    "phonetic": "mạn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ทำให้",
-                    "target": "to make",
-                    "phonetic": "tham hâi",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "โลก",
-                    "target": "world",
-                    "phonetic": "lôok",
+                    "source": "เมือง",
+                    "target": "city",
+                    "phonetic": "mueang",
                     "partOfSpeech": "noun"
                 },
                 {
-                    "source": "สวยงาม",
-                    "target": "beautiful",
-                    "phonetic": "sǔa-ngaam",
-                    "partOfSpeech": "adjective"
-                }
-            ]
-        },
-        {
-            "source": "สีโปรดของคุณคืออะไรครับ",
-            "target": "What is your favorite color?",
-            "phonetic": "sǐi prɔ̂ɔt khǎwng khun kheuu à-rai khráp",
-            "breakdown": [
-                {
-                    "source": "สี",
-                    "target": "color",
-                    "phonetic": "sǐi",
+                    "source": "สีสัน",
+                    "target": "colorful",
+                    "phonetic": "sǐi-sǎn",
                     "partOfSpeech": "noun"
                 },
                 {
-                    "source": "โปรด",
-                    "target": "favorite",
-                    "phonetic": "prɔ̂ɔt",
-                    "partOfSpeech": "adjective"
+                    "source": "จัง",
+                    "target": "so",
+                    "phonetic": "jang",
+                    "partOfSpeech": "particle"
                 },
                 {
-                    "source": "ของ",
-                    "target": "of",
-                    "phonetic": "khǎwng",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "คุณ",
-                    "target": "you (polite)",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "คือ",
-                    "target": "is",
-                    "phonetic": "kheuu",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "อะไร",
-                    "target": "what",
-                    "phonetic": "à-rai",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "source": "ค่ะ",
+                    "target": "polite (♀)",
+                    "phonetic": "kâ",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "สีโปรดของฉันคือสีแดงเพราะมันสว่าง",
-            "target": "My favorite color is red because it is bright.",
-            "phonetic": "sǐi prɔ̂ɔt khǎwng chǎn kheuu sǐi daeng phaw mạn sǎa-wang",
-            "breakdown": [
-                {
-                    "source": "สี",
-                    "target": "color",
-                    "phonetic": "sǐi",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "โปรด",
-                    "target": "favorite",
-                    "phonetic": "prɔ̂ɔt",
-                    "partOfSpeech": "adjective"
-                },
-                {
-                    "source": "ของ",
-                    "target": "of",
-                    "phonetic": "khǎwng",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "คือ",
-                    "target": "is",
-                    "phonetic": "kheuu",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "สีแดง",
-                    "target": "red",
-                    "phonetic": "sǐi daeng",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "เพราะ",
-                    "target": "because",
-                    "phonetic": "phaw",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "มัน",
-                    "target": "it",
-                    "phonetic": "mạn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "สว่าง",
-                    "target": "bright",
-                    "phonetic": "sǎa-wang",
-                    "partOfSpeech": "adjective"
-                }
-            ]
-        },
-        {
-            "source": "เมื่อวานนี้ ฉันเห็นนกสีแดงในสวน",
-            "target": "Yesterday, I saw a red bird in the garden.",
-            "phonetic": "mûea waan níi chǎn hěn nòk sǐi daeng nai sǔan",
-            "breakdown": [
-                {
-                    "source": "เมื่อวานนี้",
-                    "target": "yesterday",
-                    "phonetic": "mûea waan níi",
-                    "partOfSpeech": "adverb"
-                },
-                {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "เห็น",
-                    "target": "to see",
-                    "phonetic": "hěn",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "นก",
-                    "target": "bird",
-                    "phonetic": "nòk",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "สีแดง",
-                    "target": "red",
-                    "phonetic": "sǐi daeng",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ใน",
-                    "target": "in",
-                    "phonetic": "nai",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "สวน",
-                    "target": "garden",
-                    "phonetic": "sǔan",
-                    "partOfSpeech": "noun"
-                }
-            ]
-        },
-        {
-            "source": "ท้องฟ้าเป็นสีอะไรในวันนี้ครับ",
-            "target": "What color is the sky today?",
-            "phonetic": "thɔ̌ɔng faa pen sǐi à-rai nai wan níi khráp",
-            "breakdown": [
-                {
-                    "source": "ท้องฟ้า",
-                    "target": "sky",
-                    "phonetic": "thɔ̌ɔng faa",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "เป็น",
-                    "target": "to be",
-                    "phonetic": "pen",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "สี",
-                    "target": "color",
-                    "phonetic": "sǐi",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "อะไร",
-                    "target": "what",
-                    "phonetic": "à-rai",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ใน",
-                    "target": "in",
-                    "phonetic": "nai",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "วัน",
-                    "target": "day",
-                    "phonetic": "wan",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "นี้",
-                    "target": "this",
-                    "phonetic": "níi",
-                    "partOfSpeech": "demonstrative"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
-                }
-            ]
-        },
-        {
-            "source": "ท้องฟ้าสีน้ำเงิน และมันดูชัดเจนมาก",
-            "target": "The sky is blue, and it looks very clear.",
-            "phonetic": "thɔ̌ɔng faa sǐi náam ngern láe mạn duu chàt jen mâak",
-            "breakdown": [
-                {
-                    "source": "ท้องฟ้า",
-                    "target": "sky",
-                    "phonetic": "thɔ̌ɔng faa",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "สีน้ำเงิน",
-                    "target": "blue",
-                    "phonetic": "sǐi náam ngern",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "และ",
-                    "target": "and",
-                    "phonetic": "láe",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "มัน",
-                    "target": "it",
-                    "phonetic": "mạn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ดู",
-                    "target": "to look",
-                    "phonetic": "duu",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ชัดเจน",
-                    "target": "clear",
-                    "phonetic": "chàt jen",
-                    "partOfSpeech": "adjective"
-                },
-                {
-                    "source": "มาก",
-                    "target": "very",
-                    "phonetic": "mâak",
-                    "partOfSpeech": "adverb"
-                }
-            ]
-        },
-        {
-            "source": "คุณชอบดอกไม้สีเหลืองไหมครับ",
-            "target": "Do you like yellow flowers?",
-            "phonetic": "khun châwp dòk mâai sǐi lǔeng mǎi khráp",
-            "breakdown": [
-                {
-                    "source": "คุณ",
-                    "target": "you (polite)",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ชอบ",
-                    "target": "to like",
-                    "phonetic": "châwp",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ดอกไม้",
-                    "target": "flower",
-                    "phonetic": "dòk mâai",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "สีเหลือง",
-                    "target": "yellow",
-                    "phonetic": "sǐi lǔeng",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ไหม",
-                    "target": "(question particle)",
-                    "phonetic": "mǎi",
-                    "partOfSpeech": "particle"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
-                }
-            ]
-        },
-        {
-            "source": "ใช่ ฉันชอบ แต่ฉันชอบดอกไม้สีม่วงมากกว่า",
-            "target": "Yes, I like them, but I prefer purple flowers.",
-            "phonetic": "châi chǎn châwp dtàae chǎn châwp dòk mâai sǐi mâuang mâak kwàa",
+            "source": "ใช่ครับ ตลาดมีสีเยอะ",
+            "target": "Yes — the market has so many colors. (♂)",
+            "phonetic": "châi kráp dtà-làat mii sǐi yə́",
             "breakdown": [
                 {
                     "source": "ใช่",
@@ -380,16 +56,391 @@
                     "partOfSpeech": "interjection"
                 },
                 {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
+                    "source": "ครับ",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ตลาด",
+                    "target": "market",
+                    "phonetic": "dtà-làat",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "มี",
+                    "target": "has",
+                    "phonetic": "mii",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "สี",
+                    "target": "colors",
+                    "phonetic": "sǐi",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เยอะ",
+                    "target": "many",
+                    "phonetic": "yə́",
+                    "partOfSpeech": "adjective"
+                }
+            ]
+        },
+        {
+            "source": "ผลไม้สีอะไรบ้างคะ",
+            "target": "What colors are the fruit? (♀)",
+            "phonetic": "pǒn-lá-máai sǐi à-rai bâang ká",
+            "breakdown": [
+                {
+                    "source": "ผลไม้",
+                    "target": "fruit",
+                    "phonetic": "pǒn-lá-máai",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "สี",
+                    "target": "color",
+                    "phonetic": "sǐi",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "อะไร",
+                    "target": "what",
+                    "phonetic": "à-rai",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "บ้าง",
+                    "target": "which ones",
+                    "phonetic": "bâang",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "คะ",
+                    "target": "Q (♀)",
+                    "phonetic": "ká",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "มะม่วงเหลือง แตงโมแดง องุ่นม่วงครับ",
+            "target": "Yellow mango, red watermelon, purple grapes. (♂)",
+            "phonetic": "má-mûang lǐang dtɛɛng-moo dɛɛng ang-ùn mûang kráp",
+            "breakdown": [
+                {
+                    "source": "มะม่วง",
+                    "target": "mango",
+                    "phonetic": "má-mûang",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เหลือง",
+                    "target": "yellow",
+                    "phonetic": "lǐang",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "แตงโม",
+                    "target": "watermelon",
+                    "phonetic": "dtɛɛng-moo",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "แดง",
+                    "target": "red",
+                    "phonetic": "dɛɛng",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "องุ่น",
+                    "target": "grapes",
+                    "phonetic": "ang-ùn",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ม่วง",
+                    "target": "purple",
+                    "phonetic": "mûang",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "คุณชอบสีไหนที่สุดคะ",
+            "target": "Which color do you like most? (♀)",
+            "phonetic": "kun châwp sǐi nǎi tîi-sùt ká",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you",
+                    "phonetic": "kun",
                     "partOfSpeech": "pronoun"
                 },
                 {
                     "source": "ชอบ",
-                    "target": "to like",
+                    "target": "like",
                     "phonetic": "châwp",
                     "partOfSpeech": "verb"
+                },
+                {
+                    "source": "สี",
+                    "target": "color",
+                    "phonetic": "sǐi",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ไหน",
+                    "target": "which",
+                    "phonetic": "nǎi",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ที่สุด",
+                    "target": "most",
+                    "phonetic": "tîi-sùt",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "คะ",
+                    "target": "Q (♀)",
+                    "phonetic": "ká",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ชอบเขียวครับ เหมือนต้นไม้",
+            "target": "Green — like trees. (♂)",
+            "phonetic": "châwp kǐaw kráp mǔean dtôn-máai",
+            "breakdown": [
+                {
+                    "source": "ชอบ",
+                    "target": "like",
+                    "phonetic": "châwp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เขียว",
+                    "target": "green",
+                    "phonetic": "kǐaw",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "เหมือน",
+                    "target": "like/as",
+                    "phonetic": "mǔean",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "ต้นไม้",
+                    "target": "tree",
+                    "phonetic": "dtôn-máai",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "ดิฉันชอบชมพูค่ะ",
+            "target": "I like pink. (♀)",
+            "phonetic": "dì-chǎn châwp chom-puu kâ",
+            "breakdown": [
+                {
+                    "source": "ดิฉัน",
+                    "target": "I (♀)",
+                    "phonetic": "dì-chǎn",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ชอบ",
+                    "target": "like",
+                    "phonetic": "châwp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ชมพู",
+                    "target": "pink",
+                    "phonetic": "chom-puu",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "polite (♀)",
+                    "phonetic": "kâ",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "แท็กซี่ชมพูก็มีเยอะครับ",
+            "target": "There are lots of pink taxis too. (♂)",
+            "phonetic": "tɛ́k-sîi chom-puu gâw mii yə́ kráp",
+            "breakdown": [
+                {
+                    "source": "แท็กซี่",
+                    "target": "taxi",
+                    "phonetic": "tɛ́k-sîi",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ชมพู",
+                    "target": "pink",
+                    "phonetic": "chom-puu",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ก็",
+                    "target": "also",
+                    "phonetic": "gâw",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "มี",
+                    "target": "have",
+                    "phonetic": "mii",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เยอะ",
+                    "target": "many",
+                    "phonetic": "yə́",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "เสื้อคุณสีอะไรคะ",
+            "target": "What color is your shirt? (♀)",
+            "phonetic": "sûea kun sǐi à-rai ká",
+            "breakdown": [
+                {
+                    "source": "เสื้อ",
+                    "target": "shirt",
+                    "phonetic": "sûea",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "คุณ",
+                    "target": "your",
+                    "phonetic": "kun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "สี",
+                    "target": "color",
+                    "phonetic": "sǐi",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "อะไร",
+                    "target": "what",
+                    "phonetic": "à-rai",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "คะ",
+                    "target": "Q (♀)",
+                    "phonetic": "ká",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "สีขาวครับ สบายในอากาศร้อน",
+            "target": "White — comfortable in the heat. (♂)",
+            "phonetic": "sǐi kǎao kráp sà-baai nai aa-gàat ráwn",
+            "breakdown": [
+                {
+                    "source": "สี",
+                    "target": "color",
+                    "phonetic": "sǐi",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ขาว",
+                    "target": "white",
+                    "phonetic": "kǎao",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "สบาย",
+                    "target": "comfortable",
+                    "phonetic": "sà-baai",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ใน",
+                    "target": "in",
+                    "phonetic": "nai",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "อากาศ",
+                    "target": "weather",
+                    "phonetic": "aa-gàat",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ร้อน",
+                    "target": "hot",
+                    "phonetic": "ráwn",
+                    "partOfSpeech": "adjective"
+                }
+            ]
+        },
+        {
+            "source": "สีดำก็สวยแต่ร้อนค่ะ",
+            "target": "Black is pretty but hot. (♀)",
+            "phonetic": "sǐi dam gâw sǔay dtàae ráwn kâ",
+            "breakdown": [
+                {
+                    "source": "สี",
+                    "target": "color",
+                    "phonetic": "sǐi",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ดำ",
+                    "target": "black",
+                    "phonetic": "dam",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ก็",
+                    "target": "also",
+                    "phonetic": "gâw",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "สวย",
+                    "target": "pretty",
+                    "phonetic": "sǔay",
+                    "partOfSpeech": "adjective"
                 },
                 {
                     "source": "แต่",
@@ -398,257 +449,62 @@
                     "partOfSpeech": "conjunction"
                 },
                 {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ชอบ",
-                    "target": "to like",
-                    "phonetic": "châwp",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ดอกไม้",
-                    "target": "flower",
-                    "phonetic": "dòk mâai",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "สีม่วง",
-                    "target": "purple",
-                    "phonetic": "sǐi mâuang",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "มากกว่า",
-                    "target": "more than",
-                    "phonetic": "mâak kwàa",
-                    "partOfSpeech": "adverb"
-                }
-            ]
-        },
-        {
-            "source": "เราวาดภาพด้วยสีมากมายที่โรงเรียน",
-            "target": "We painted a picture with many colors at school.",
-            "phonetic": "rao wâat phâap dûai sǐi mâak maai thîi rohng rian",
-            "breakdown": [
-                {
-                    "source": "เรา",
-                    "target": "we",
-                    "phonetic": "rao",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "วาด",
-                    "target": "to draw/paint",
-                    "phonetic": "wâat",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ภาพ",
-                    "target": "picture",
-                    "phonetic": "phâap",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ด้วย",
-                    "target": "with",
-                    "phonetic": "dûai",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "สี",
-                    "target": "color",
-                    "phonetic": "sǐi",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "มากมาย",
-                    "target": "many",
-                    "phonetic": "mâak maai",
+                    "source": "ร้อน",
+                    "target": "hot",
+                    "phonetic": "ráwn",
                     "partOfSpeech": "adjective"
                 },
                 {
-                    "source": "ที่",
-                    "target": "at",
-                    "phonetic": "thîi",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "โรงเรียน",
-                    "target": "school",
-                    "phonetic": "rohng rian",
-                    "partOfSpeech": "noun"
-                }
-            ]
-        },
-        {
-            "source": "การวาดภาพสนุกไหมครับ",
-            "target": "Was it fun to paint?",
-            "phonetic": "gaan wâat phâap sà-núk mǎi khráp",
-            "breakdown": [
-                {
-                    "source": "การ",
-                    "target": "(nominalizer)",
-                    "phonetic": "gaan",
-                    "partOfSpeech": "nominalizer"
-                },
-                {
-                    "source": "วาด",
-                    "target": "to draw/paint",
-                    "phonetic": "wâat",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ภาพ",
-                    "target": "picture",
-                    "phonetic": "phâap",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "สนุก",
-                    "target": "fun",
-                    "phonetic": "sà-núk",
-                    "partOfSpeech": "adjective"
-                },
-                {
-                    "source": "ไหม",
-                    "target": "(question particle)",
-                    "phonetic": "mǎi",
+                    "source": "ค่ะ",
+                    "target": "polite (♀)",
+                    "phonetic": "kâ",
                     "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "จริงครับ เลือกสีอ่อนดีกว่า",
+            "target": "True — lighter colors are better. (♂)",
+            "phonetic": "jing kráp lʉ̂ak sǐi àwn dii gwàa",
+            "breakdown": [
+                {
+                    "source": "จริง",
+                    "target": "true",
+                    "phonetic": "jing",
+                    "partOfSpeech": "adjective"
                 },
                 {
                     "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
                     "partOfSpeech": "particle"
-                }
-            ]
-        },
-        {
-            "source": "ใช่ สนุก และภาพของฉันมีสีสันมาก",
-            "target": "Yes, it was fun, and my picture was colorful.",
-            "phonetic": "châi sà-núk láe phâap khǎwng chǎn mee sǐi sǎn mâak",
-            "breakdown": [
-                {
-                    "source": "ใช่",
-                    "target": "yes",
-                    "phonetic": "châi",
-                    "partOfSpeech": "interjection"
                 },
                 {
-                    "source": "สนุก",
-                    "target": "fun",
-                    "phonetic": "sà-núk",
-                    "partOfSpeech": "adjective"
-                },
-                {
-                    "source": "และ",
-                    "target": "and",
-                    "phonetic": "láe",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "ภาพ",
-                    "target": "picture",
-                    "phonetic": "phâap",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ของ",
-                    "target": "of",
-                    "phonetic": "khǎwng",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "มี",
-                    "target": "to have",
-                    "phonetic": "mee",
+                    "source": "เลือก",
+                    "target": "choose",
+                    "phonetic": "lʉ̂ak",
                     "partOfSpeech": "verb"
                 },
                 {
-                    "source": "สีสัน",
-                    "target": "colorful",
-                    "phonetic": "sǐi sǎn",
-                    "partOfSpeech": "adjective"
-                },
-                {
-                    "source": "มาก",
-                    "target": "very",
-                    "phonetic": "mâak",
-                    "partOfSpeech": "adverb"
-                }
-            ]
-        },
-        {
-            "source": "สีทำให้ฉันมีความสุขเพราะมันสวย",
-            "target": "Colors make me happy because they are pretty.",
-            "phonetic": "sǐi tham hâi chǎn mee khwaam sùk phaw mạn sǔai",
-            "breakdown": [
-                {
-                    "source": "สี",
-                    "target": "colors",
-                    "phonetic": "sǐi",
+                    "source": "สีอ่อน",
+                    "target": "light color",
+                    "phonetic": "sǐi àwn",
                     "partOfSpeech": "noun"
                 },
                 {
-                    "source": "ทำให้",
-                    "target": "to make",
-                    "phonetic": "tham hâi",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "มี",
-                    "target": "to have",
-                    "phonetic": "mee",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ความสุข",
-                    "target": "happiness",
-                    "phonetic": "khwaam sùk",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "เพราะ",
-                    "target": "because",
-                    "phonetic": "phaw",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "มัน",
-                    "target": "they",
-                    "phonetic": "mạn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "สวย",
-                    "target": "pretty",
-                    "phonetic": "sǔai",
-                    "partOfSpeech": "adjective"
+                    "source": "ดีกว่า",
+                    "target": "better",
+                    "phonetic": "dii gwàa",
+                    "partOfSpeech": "phrase"
                 }
             ]
         }
     ],
-    "createdAt": "2025-09-29T12:25:00Z",
-    "updatedAt": "2025-09-29T12:25:00Z",
+    "createdAt": "2025-09-28T08:54:49Z",
+    "updatedAt": "2026-04-08T15:30:00Z",
     "difficulty": "beginner",
     "summary": {
-        "source": "การพูดคุยเกี่ยวกับสีและการใช้คำคุณศัพท์",
-        "target": "Talking about colors and using adjectives"
+        "source": "พิมกับสมชายพูดถึงสีในเมืองไทยรอบตัว",
+        "target": "Pim and Somchai talk about colors all around them in Thailand."
     }
 }

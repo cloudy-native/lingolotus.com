@@ -8,70 +8,144 @@
     },
     "sentences": [
         {
-            "source": "เมื่อวานนี้ ฉันได้พบเพื่อนใหม่ที่สวนสาธารณะ",
-            "target": "Yesterday, I met a new friend at the park.",
-            "phonetic": "mûea waan níi chǎn dâai phôhb pûeon mai thîi sǔan sǎa-tha-ra-ná",
+            "source": "เมื่อวานนี้ ดิฉันไปสวนลุมพินีค่ะ",
+            "target": "Yesterday I went to Lumpini Park. (♀)",
+            "phonetic": "mûea-waan-níi dì-chǎn bpai sǔan lum-pí-nii kâ",
             "breakdown": [
                 {
                     "source": "เมื่อวานนี้",
                     "target": "yesterday",
-                    "phonetic": "mûea waan níi",
-                    "partOfSpeech": "adverb"
+                    "phonetic": "mûea-waan-níi",
+                    "partOfSpeech": "noun"
                 },
                 {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
+                    "source": "ดิฉัน",
+                    "target": "I (♀ polite)",
+                    "phonetic": "dì-chǎn",
                     "partOfSpeech": "pronoun"
                 },
                 {
-                    "source": "ได้",
-                    "target": "(auxiliary verb for completed action)",
-                    "phonetic": "dâai",
-                    "partOfSpeech": "auxiliary"
+                    "source": "ไป",
+                    "target": "to go",
+                    "phonetic": "bpai",
+                    "partOfSpeech": "verb"
                 },
                 {
-                    "source": "พบ",
+                    "source": "สวนลุมพินี",
+                    "target": "Lumpini Park",
+                    "phonetic": "sǔan lum-pí-nii",
+                    "partOfSpeech": "proper noun"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "polite (♀)",
+                    "phonetic": "kâ",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ที่นั่นมีคนเยอะไหมครับ",
+            "target": "Were there many people there? (♂)",
+            "phonetic": "tîi-nân mii kon yə́ mǎi kráp",
+            "breakdown": [
+                {
+                    "source": "ที่นั่น",
+                    "target": "there",
+                    "phonetic": "tîi-nân",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "มี",
+                    "target": "there is",
+                    "phonetic": "mii",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "คน",
+                    "target": "people",
+                    "phonetic": "kon",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "เยอะ",
+                    "target": "many",
+                    "phonetic": "yə́",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "Q",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "เยอะค่ะ แล้วก็เจอเพื่อนใหม่",
+            "target": "Yes — and I met a new friend. (♀)",
+            "phonetic": "yə́ kâ lɛ́ɛo gâw jəə pûean mài",
+            "breakdown": [
+                {
+                    "source": "เยอะ",
+                    "target": "many",
+                    "phonetic": "yə́",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "polite (♀)",
+                    "phonetic": "kâ",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "แล้วก็",
+                    "target": "and then",
+                    "phonetic": "lɛ́ɛo gâw",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "เจอ",
                     "target": "to meet",
-                    "phonetic": "phôhb",
+                    "phonetic": "jəə",
                     "partOfSpeech": "verb"
                 },
                 {
                     "source": "เพื่อน",
                     "target": "friend",
-                    "phonetic": "pûeon",
+                    "phonetic": "pûean",
                     "partOfSpeech": "noun"
                 },
                 {
                     "source": "ใหม่",
                     "target": "new",
-                    "phonetic": "mai",
+                    "phonetic": "mài",
                     "partOfSpeech": "adjective"
-                },
-                {
-                    "source": "ที่",
-                    "target": "at",
-                    "phonetic": "thîi",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "สวนสาธารณะ",
-                    "target": "park",
-                    "phonetic": "sǔan sǎa-tha-ra-ná",
-                    "partOfSpeech": "noun"
                 }
             ]
         },
         {
-            "source": "คุณชื่ออะไรครับ",
-            "target": "What is your name?",
-            "phonetic": "khun chûue à-rai khráp",
+            "source": "เพื่อนใหม่ชื่ออะไรคะ",
+            "target": "What is the new friend's name? (♀)",
+            "phonetic": "pûean mài chûue à-rai ká",
             "breakdown": [
                 {
-                    "source": "คุณ",
-                    "target": "you (polite)",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
+                    "source": "เพื่อน",
+                    "target": "friend",
+                    "phonetic": "pûean",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ใหม่",
+                    "target": "new",
+                    "phonetic": "mài",
+                    "partOfSpeech": "adjective"
                 },
                 {
                     "source": "ชื่อ",
@@ -86,24 +160,18 @@
                     "partOfSpeech": "pronoun"
                 },
                 {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "source": "คะ",
+                    "target": "Q (♀)",
+                    "phonetic": "ká",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "ผมชื่อเลโอ และผมมาจากบราซิล",
-            "target": "My name is Leo, and I am from Brazil.",
-            "phonetic": "phǒm chûue le-o láe phǒm maa jàak bpraa-sin",
+            "source": "ชื่อสมชายครับ มาจากเชียงใหม่",
+            "target": "Somchai — from Chiang Mai. (♂)",
+            "phonetic": "chûue sǒm-chaai kráp maa jàak chiang-mài",
             "breakdown": [
-                {
-                    "source": "ผม",
-                    "target": "I (male)",
-                    "phonetic": "phǒm",
-                    "partOfSpeech": "pronoun"
-                },
                 {
                     "source": "ชื่อ",
                     "target": "name",
@@ -111,26 +179,20 @@
                     "partOfSpeech": "noun"
                 },
                 {
-                    "source": "เลโอ",
-                    "target": "Leo",
-                    "phonetic": "le-o",
+                    "source": "สมชาย",
+                    "target": "Somchai",
+                    "phonetic": "sǒm-chaai",
                     "partOfSpeech": "proper noun"
                 },
                 {
-                    "source": "และ",
-                    "target": "and",
-                    "phonetic": "láe",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "ผม",
-                    "target": "I (male)",
-                    "phonetic": "phǒm",
-                    "partOfSpeech": "pronoun"
+                    "source": "ครับ",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
                 },
                 {
                     "source": "มา",
-                    "target": "to come",
+                    "target": "come",
                     "phonetic": "maa",
                     "partOfSpeech": "verb"
                 },
@@ -141,520 +203,272 @@
                     "partOfSpeech": "preposition"
                 },
                 {
-                    "source": "บราซิล",
-                    "target": "Brazil",
-                    "phonetic": "bpraa-sin",
+                    "source": "เชียงใหม่",
+                    "target": "Chiang Mai",
+                    "phonetic": "chiang-mài",
                     "partOfSpeech": "proper noun"
                 }
             ]
         },
         {
-            "source": "ยินดีที่ได้รู้จักครับ เลโอ",
-            "target": "Nice to meet you, Leo!",
-            "phonetic": "yin dee thîi dâai rúu jàk khráp le-o",
+            "source": "คุณอยู่กรุงเทพฯ นานหรือยังคะ",
+            "target": "Have you been in Bangkok long? (♀)",
+            "phonetic": "kun yùu grung-têep naan rǔu yang ká",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you",
+                    "phonetic": "kun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "อยู่",
+                    "target": "live/be",
+                    "phonetic": "yùu",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "กรุงเทพฯ",
+                    "target": "Bangkok",
+                    "phonetic": "grung-têep",
+                    "partOfSpeech": "proper noun"
+                },
+                {
+                    "source": "นาน",
+                    "target": "long time",
+                    "phonetic": "naan",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "หรือยัง",
+                    "target": "yet / or not yet",
+                    "phonetic": "rǔu yang",
+                    "partOfSpeech": "phrase"
+                },
+                {
+                    "source": "คะ",
+                    "target": "Q (♀)",
+                    "phonetic": "ká",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "เพิ่งย้ายมาสองเดือนครับ",
+            "target": "I just moved two months ago. (♂)",
+            "phonetic": "pʉ̂ng yáai maa sǎawng duean kráp",
+            "breakdown": [
+                {
+                    "source": "เพิ่ง",
+                    "target": "just",
+                    "phonetic": "pʉ̂ng",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ย้าย",
+                    "target": "to move",
+                    "phonetic": "yáai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "มา",
+                    "target": "come",
+                    "phonetic": "maa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "สอง",
+                    "target": "two",
+                    "phonetic": "sǎawng",
+                    "partOfSpeech": "number"
+                },
+                {
+                    "source": "เดือน",
+                    "target": "month",
+                    "phonetic": "duean",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ยินดีที่ได้รู้จักนะคะ",
+            "target": "Nice to meet you. (♀)",
+            "phonetic": "yin-dii tîi dâai rúu-jàk ná kâ",
             "breakdown": [
                 {
                     "source": "ยินดี",
-                    "target": "glad/happy",
-                    "phonetic": "yin dee",
+                    "target": "pleased",
+                    "phonetic": "yin-dii",
                     "partOfSpeech": "adjective"
                 },
                 {
                     "source": "ที่",
-                    "target": "(particle for infinitive)",
-                    "phonetic": "thîi",
-                    "partOfSpeech": "particle"
+                    "target": "that",
+                    "phonetic": "tîi",
+                    "partOfSpeech": "conjunction"
                 },
                 {
                     "source": "ได้",
-                    "target": "(auxiliary verb for completed action)",
+                    "target": "get to",
                     "phonetic": "dâai",
                     "partOfSpeech": "auxiliary"
                 },
                 {
                     "source": "รู้จัก",
-                    "target": "to know (someone)",
-                    "phonetic": "rúu jàk",
+                    "target": "know someone",
+                    "phonetic": "rúu-jàk",
                     "partOfSpeech": "verb"
                 },
                 {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "source": "นะ",
+                    "target": "softener",
+                    "phonetic": "ná",
                     "partOfSpeech": "particle"
                 },
                 {
-                    "source": "เลโอ",
-                    "target": "Leo",
-                    "phonetic": "le-o",
-                    "partOfSpeech": "proper noun"
-                }
-            ]
-        },
-        {
-            "source": "คุณเกิดที่ไหนครับ",
-            "target": "Where were you born?",
-            "phonetic": "khun gèrt thîi nǎi khráp",
-            "breakdown": [
-                {
-                    "source": "คุณ",
-                    "target": "you (polite)",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "เกิด",
-                    "target": "to be born",
-                    "phonetic": "gèrt",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ที่",
-                    "target": "at",
-                    "phonetic": "thîi",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "ไหน",
-                    "target": "where",
-                    "phonetic": "nǎi",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "source": "คะ",
+                    "target": "Q/soft (♀)",
+                    "phonetic": "kâ",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "ผมเกิดที่สหรัฐอเมริกา แต่ตอนนี้ผมอยู่ที่นี่",
-            "target": "I was born in the United States, but I live here now.",
-            "phonetic": "phǒm gèrt thîi sà-hǎràt a-me-ri-gaa dtàae dtɔɔn níi phǒm yùu thîi nîi",
+            "source": "เช่นกันครับ ไว้เจอกันใหม่",
+            "target": "You too. See you again. (♂)",
+            "phonetic": "chên-gan kráp wái jəə gan mài",
             "breakdown": [
                 {
-                    "source": "ผม",
-                    "target": "I (male)",
-                    "phonetic": "phǒm",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "เกิด",
-                    "target": "to be born",
-                    "phonetic": "gèrt",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ที่",
-                    "target": "at",
-                    "phonetic": "thîi",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "สหรัฐอเมริกา",
-                    "target": "United States",
-                    "phonetic": "sà-hǎràt a-me-ri-gaa",
-                    "partOfSpeech": "proper noun"
-                },
-                {
-                    "source": "แต่",
-                    "target": "but",
-                    "phonetic": "dtàae",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "ตอนนี้",
-                    "target": "now",
-                    "phonetic": "dtɔɔn níi",
+                    "source": "เช่นกัน",
+                    "target": "likewise",
+                    "phonetic": "chên-gan",
                     "partOfSpeech": "adverb"
                 },
                 {
-                    "source": "ผม",
-                    "target": "I (male)",
-                    "phonetic": "phǒm",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "อยู่",
-                    "target": "to live/stay",
-                    "phonetic": "yùu",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ที่",
-                    "target": "at",
-                    "phonetic": "thîi",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "นี่",
-                    "target": "here",
-                    "phonetic": "nîi",
-                    "partOfSpeech": "pronoun"
-                }
-            ]
-        },
-        {
-            "source": "คุณชอบสวนสาธารณะไหมครับ",
-            "target": "Do you like the park?",
-            "phonetic": "khun châwp sǔan sǎa-tha-ra-ná mǎi khráp",
-            "breakdown": [
-                {
-                    "source": "คุณ",
-                    "target": "you (polite)",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ชอบ",
-                    "target": "to like",
-                    "phonetic": "châwp",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "สวนสาธารณะ",
-                    "target": "park",
-                    "phonetic": "sǔan sǎa-tha-ra-ná",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ไหม",
-                    "target": "(question particle)",
-                    "phonetic": "mǎi",
-                    "partOfSpeech": "particle"
-                },
-                {
                     "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
                     "partOfSpeech": "particle"
-                }
-            ]
-        },
-        {
-            "source": "ใช่ ฉันชอบเพราะมันเขียวและเงียบ",
-            "target": "Yes, I like it because it is green and quiet.",
-            "phonetic": "châi chǎn châwp phaw mạn khǐaw láe ngîap",
-            "breakdown": [
-                {
-                    "source": "ใช่",
-                    "target": "yes",
-                    "phonetic": "châi",
-                    "partOfSpeech": "interjection"
                 },
                 {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
+                    "source": "ไว้",
+                    "target": "for later",
+                    "phonetic": "wái",
+                    "partOfSpeech": "particle"
                 },
                 {
-                    "source": "ชอบ",
-                    "target": "to like",
-                    "phonetic": "châwp",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "เพราะ",
-                    "target": "because",
-                    "phonetic": "phaw",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "มัน",
-                    "target": "it",
-                    "phonetic": "mạn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "เขียว",
-                    "target": "green",
-                    "phonetic": "khǐaw",
-                    "partOfSpeech": "adjective"
-                },
-                {
-                    "source": "และ",
-                    "target": "and",
-                    "phonetic": "láe",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "เงียบ",
-                    "target": "quiet",
-                    "phonetic": "ngîap",
-                    "partOfSpeech": "adjective"
-                }
-            ]
-        },
-        {
-            "source": "เราเดินไปด้วยกันและคุยกันเรื่องบ้านของเรา",
-            "target": "We walked together and talked about our homes.",
-            "phonetic": "rao doen bpai dûai kan láe khûi kan rûeang bâan khǎwng rao",
-            "breakdown": [
-                {
-                    "source": "เรา",
-                    "target": "we",
-                    "phonetic": "rao",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "เดิน",
-                    "target": "to walk",
-                    "phonetic": "doen",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ไป",
-                    "target": "to go",
-                    "phonetic": "bpai",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ด้วยกัน",
-                    "target": "together",
-                    "phonetic": "dûai kan",
-                    "partOfSpeech": "adverb"
-                },
-                {
-                    "source": "และ",
-                    "target": "and",
-                    "phonetic": "láe",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "คุย",
-                    "target": "to talk",
-                    "phonetic": "khûi",
+                    "source": "เจอ",
+                    "target": "meet",
+                    "phonetic": "jəə",
                     "partOfSpeech": "verb"
                 },
                 {
                     "source": "กัน",
-                    "target": "(reciprocal particle)",
-                    "phonetic": "kan",
-                    "partOfSpeech": "particle"
-                },
-                {
-                    "source": "เรื่อง",
-                    "target": "about",
-                    "phonetic": "rûeang",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "บ้าน",
-                    "target": "house/home",
-                    "phonetic": "bâan",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ของ",
-                    "target": "of",
-                    "phonetic": "khǎwng",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "เรา",
-                    "target": "we",
-                    "phonetic": "rao",
+                    "target": "each other",
+                    "phonetic": "gan",
                     "partOfSpeech": "pronoun"
-                }
-            ]
-        },
-        {
-            "source": "เลโอพูดว่าเขาคิดถึงบราซิล แต่เขาชอบเพื่อนใหม่",
-            "target": "Leo said he misses Brazil, but he likes new friends.",
-            "phonetic": "le-o phûut wâa khǎo khít thûeng bpraa-sin dtàae khǎo châwp pûeon mai",
-            "breakdown": [
-                {
-                    "source": "เลโอ",
-                    "target": "Leo",
-                    "phonetic": "le-o",
-                    "partOfSpeech": "proper noun"
-                },
-                {
-                    "source": "พูด",
-                    "target": "to say",
-                    "phonetic": "phûut",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ว่า",
-                    "target": "that",
-                    "phonetic": "wâa",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "เขา",
-                    "target": "he",
-                    "phonetic": "khǎo",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "คิดถึง",
-                    "target": "to miss/think of",
-                    "phonetic": "khít thûeng",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "บราซิล",
-                    "target": "Brazil",
-                    "phonetic": "bpraa-sin",
-                    "partOfSpeech": "proper noun"
-                },
-                {
-                    "source": "แต่",
-                    "target": "but",
-                    "phonetic": "dtàae",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "เขา",
-                    "target": "he",
-                    "phonetic": "khǎo",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ชอบ",
-                    "target": "to like",
-                    "phonetic": "châwp",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "เพื่อน",
-                    "target": "friend",
-                    "phonetic": "pûeon",
-                    "partOfSpeech": "noun"
                 },
                 {
                     "source": "ใหม่",
-                    "target": "new",
-                    "phonetic": "mai",
-                    "partOfSpeech": "adjective"
-                }
-            ]
-        },
-        {
-            "source": "พรุ่งนี้คุณจะมาสวนสาธารณะไหมครับ",
-            "target": "Will you come to the park tomorrow?",
-            "phonetic": "phrung níi khun jà maa sǔan sǎa-tha-ra-ná mǎi khráp",
-            "breakdown": [
-                {
-                    "source": "พรุ่งนี้",
-                    "target": "tomorrow",
-                    "phonetic": "phrung níi",
+                    "target": "again",
+                    "phonetic": "mài",
                     "partOfSpeech": "adverb"
-                },
-                {
-                    "source": "คุณ",
-                    "target": "you (polite)",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "จะ",
-                    "target": "will (future marker)",
-                    "phonetic": "jà",
-                    "partOfSpeech": "auxiliary"
-                },
-                {
-                    "source": "มา",
-                    "target": "to come",
-                    "phonetic": "maa",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "สวนสาธารณะ",
-                    "target": "park",
-                    "phonetic": "sǔan sǎa-tha-ra-ná",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ไหม",
-                    "target": "(question particle)",
-                    "phonetic": "mǎi",
-                    "partOfSpeech": "particle"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "ใช่ ฉันจะมา และเราสามารถเล่นกันได้",
-            "target": "Yes, I will come, and we can play!",
-            "phonetic": "châi chǎn jà maa láe rao sǎa-mâat lèn kan dâai",
+            "source": "โอเคค่ะ บาย",
+            "target": "Okay — bye! (♀)",
+            "phonetic": "oo-kee kâ baai",
             "breakdown": [
                 {
-                    "source": "ใช่",
-                    "target": "yes",
-                    "phonetic": "châi",
+                    "source": "โอเค",
+                    "target": "okay",
+                    "phonetic": "oo-kee",
                     "partOfSpeech": "interjection"
                 },
                 {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "จะ",
-                    "target": "will (future marker)",
-                    "phonetic": "jà",
-                    "partOfSpeech": "auxiliary"
-                },
-                {
-                    "source": "มา",
-                    "target": "to come",
-                    "phonetic": "maa",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "และ",
-                    "target": "and",
-                    "phonetic": "láe",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "เรา",
-                    "target": "we",
-                    "phonetic": "rao",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "สามารถ",
-                    "target": "can/able to",
-                    "phonetic": "sǎa-mâat",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "เล่น",
-                    "target": "to play",
-                    "phonetic": "lèn",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "กัน",
-                    "target": "(reciprocal particle)",
-                    "phonetic": "kan",
+                    "source": "ค่ะ",
+                    "target": "polite (♀)",
+                    "phonetic": "kâ",
                     "partOfSpeech": "particle"
                 },
                 {
-                    "source": "ได้",
-                    "target": "(ability/possibility)",
-                    "phonetic": "dâai",
-                    "partOfSpeech": "auxiliary"
+                    "source": "บาย",
+                    "target": "bye",
+                    "phonetic": "baai",
+                    "partOfSpeech": "interjection"
+                }
+            ]
+        },
+        {
+            "source": "บายครับ",
+            "target": "Bye. (♂)",
+            "phonetic": "baai kráp",
+            "breakdown": [
+                {
+                    "source": "บาย",
+                    "target": "bye",
+                    "phonetic": "baai",
+                    "partOfSpeech": "interjection"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "วันนี้อากาศดีดีเลยค่ะ",
+            "target": "The weather is really nice today. (♀)",
+            "phonetic": "wan-níi aa-gàat dii dii ləəi kâ",
+            "breakdown": [
+                {
+                    "source": "วันนี้",
+                    "target": "today",
+                    "phonetic": "wan-níi",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "อากาศ",
+                    "target": "weather",
+                    "phonetic": "aa-gàat",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ดี",
+                    "target": "good",
+                    "phonetic": "dii",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "เลย",
+                    "target": "emphatic",
+                    "phonetic": "ləəi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "polite (♀)",
+                    "phonetic": "kâ",
+                    "partOfSpeech": "particle"
                 }
             ]
         }
     ],
-    "createdAt": "2025-09-29T12:05:00Z",
-    "updatedAt": "2025-09-29T12:05:00Z",
+    "createdAt": "2025-09-28T08:54:49Z",
+    "updatedAt": "2026-04-08T15:30:00Z",
     "difficulty": "beginner",
     "summary": {
-        "source": "การพบปะกับเพื่อนใหม่และการสนทนาเบื้องต้น",
-        "target": "Meeting a new friend and basic conversation"
+        "source": "พิมพบสมชายที่สวนลุมพินีและทำความรู้จัก",
+        "target": "Pim meets Somchai at Lumpini Park and they get to know each other."
     }
 }

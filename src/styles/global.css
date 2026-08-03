@@ -44,23 +44,51 @@
     --chart-5: 148 163 184;
   }
 
+  .dark {
+    color-scheme: dark;
+    --background: 2 6 23;
+    --foreground: 241 245 249;
+    --card: 15 23 42;
+    --card-foreground: 241 245 249;
+    --popover: 15 23 42;
+    --popover-foreground: 241 245 249;
+    --primary: 45 212 191;
+    --primary-foreground: 15 23 42;
+    --secondary: 30 41 59;
+    --secondary-foreground: 226 232 240;
+    --muted: 30 41 59;
+    --muted-foreground: 148 163 184;
+    --accent: 30 41 59;
+    --accent-foreground: 226 232 240;
+    --destructive: 248 113 113;
+    --destructive-foreground: 15 23 42;
+    --border: 51 65 85;
+    --input: 51 65 85;
+    --ring: 45 212 191;
+    --chart-1: 45 212 191;
+    --chart-2: 56 189 248;
+    --chart-3: 226 232 240;
+    --chart-4: 148 163 184;
+    --chart-5: 100 116 139;
+  }
+
   html {
-    @apply scroll-smooth overflow-x-hidden bg-slate-50 text-slate-800;
+    @apply scroll-smooth overflow-x-hidden bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100;
   }
 
   body {
-    @apply min-h-screen overflow-x-hidden bg-slate-50 text-slate-800 font-sans antialiased;
+    @apply min-h-screen overflow-x-hidden bg-slate-50 text-slate-800 font-sans antialiased dark:bg-slate-950 dark:text-slate-100;
   }
 
   h1,
   h2,
   h3,
   h4 {
-    @apply tracking-tight text-slate-900;
+    @apply tracking-tight text-slate-900 dark:text-slate-50;
   }
 
   p {
-    @apply leading-7 text-slate-700;
+    @apply leading-7 text-slate-700 dark:text-slate-300;
   }
 
   a {
@@ -76,22 +104,22 @@
 
 @layer components {
   .surface-card {
-    @apply rounded-2xl border border-slate-200 bg-white shadow-sm;
+    @apply rounded-2xl border border-slate-200 bg-white shadow-sm dark:border-slate-700 dark:bg-slate-900;
   }
 
   .surface-panel {
-    @apply rounded-2xl border border-slate-200 bg-slate-50/70 p-6 shadow-sm;
+    @apply rounded-2xl border border-slate-200 bg-slate-50/70 p-6 shadow-sm dark:border-slate-700 dark:bg-slate-900/70;
   }
 
   .pill {
-    @apply inline-flex items-center rounded-full border border-slate-200 bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-700;
+    @apply inline-flex items-center rounded-full border border-slate-200 bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-700 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-200;
   }
 
   .section-title {
-    @apply text-2xl font-semibold tracking-tight text-slate-900;
+    @apply text-2xl font-semibold tracking-tight text-slate-900 dark:text-slate-50;
   }
 
   .section-subtitle {
-    @apply text-base leading-7 text-slate-600;
+    @apply text-base leading-7 text-slate-600 dark:text-slate-400;
   }
 }

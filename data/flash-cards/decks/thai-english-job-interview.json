@@ -1,0 +1,516 @@
+{
+    "collectionId": "thai-english-intermediate",
+    "deckId": "job-interview",
+    "name": "Thai Job Interview",
+    "description": "Phrases for preparing and handling job interviews in Thailand.",
+    "sourceLanguage": "th",
+    "targetLanguage": "en",
+    "createdAt": "2026-04-08T18:00:00Z",
+    "updatedAt": "2026-04-08T18:30:00Z",
+    "theme": "interview",
+    "category": "language-learning",
+    "difficulty": "intermediate",
+    "cards": [
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "สัมภาษณ์งาน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "job interview"
+            },
+            "tags": [
+                "interview"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "sǎm-pâat ngaan",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "มีสัมภาษณ์งานพรุ่งนี้ครับ",
+                    "translation": "I have an interview tomorrow (♂)",
+                    "phonetic": "mii sǎm-pâat ngaan prûng-níi kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "สมัครงาน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to apply for a job"
+            },
+            "tags": [
+                "interview"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "sà-màk ngaan",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "สมัครงานตำแหน่งนี้ค่ะ",
+                    "translation": "I'm applying for this role (♀)",
+                    "phonetic": "sà-màk ngaan dtam-nàeng níi kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ตำแหน่ง"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "position / role"
+            },
+            "tags": [
+                "interview"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "dtam-nàeng",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "ตำแหน่งประสานงานครับ",
+                    "translation": "Coordinator position (♂)",
+                    "phonetic": "dtam-nàeng bprà-sǎan ngaan kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เรซูเม่"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "resume / CV"
+            },
+            "tags": [
+                "interview"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "ree-suu-mêe",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "ส่งเรซูเม่ให้แล้วค่ะ",
+                    "translation": "I already sent my resume (♀)",
+                    "phonetic": "sòng ree-suu-mêe hâi lɛ́ɛo kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ประสบการณ์"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "experience"
+            },
+            "tags": [
+                "interview"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "bprà-sòp-gaan",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "มีประสบการณ์สองปีครับ",
+                    "translation": "I have two years' experience (♂)",
+                    "phonetic": "mii bprà-sòp-gaan sǎawng bpii kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "จุดแข็ง"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "strength"
+            },
+            "tags": [
+                "interview"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "jùt-kǎaeng",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "จุดแข็งคือทำงานเป็นทีมค่ะ",
+                    "translation": "My strength is teamwork (♀)",
+                    "phonetic": "jùt-kǎaeng keu tam-ngaan bpen tiim kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "จุดอ่อน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "weakness"
+            },
+            "tags": [
+                "interview"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "jùt-àwn",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "จุดอ่อนคือ… แต่กำลังพัฒนาครับ",
+                    "translation": "My weakness is… but I'm improving (♂)",
+                    "phonetic": "jùt-àwn keu … dtàae gam-lang pát-tá-naa kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เงินเดือน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "salary"
+            },
+            "tags": [
+                "interview"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "ngen duean",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "เงินเดือนเริ่มต้นเท่าไหร่คะ",
+                    "translation": "What's the starting salary? (♀)",
+                    "phonetic": "ngen duean rôem-dtôn tâo-rài ká"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "สวัสดิการ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "benefits"
+            },
+            "tags": [
+                "interview"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "sà-wàt-dì-gaan",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "มีสวัสดิการอะไรบ้างครับ",
+                    "translation": "What benefits are there? (♂)",
+                    "phonetic": "mii sà-wàt-dì-gaan à-rai bâang kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เริ่มงานได้เมื่อไหร่"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "When can you start?"
+            },
+            "tags": [
+                "interview"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "rôem ngaan dâai mûea-rài",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "เริ่มงานได้ทันทีค่ะ",
+                    "translation": "I can start immediately (♀)",
+                    "phonetic": "rôem ngaan dâai tan-tii kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ทำไมถึงสนใจตำแหน่งนี้"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "Why are you interested in this role?"
+            },
+            "tags": [
+                "interview"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "tam-mai tǔng sǒn-jai dtam-nàeng níi",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "สนใจเพราะชอบงานบริการครับ",
+                    "translation": "Interested because I like service work (♂)",
+                    "phonetic": "sǒn-jai práw châwp ngaan baaw-rí-gaan kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ทำงานเป็นทีม"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to work as a team"
+            },
+            "tags": [
+                "interview"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "tam-ngaan bpen tiim",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "ชอบทำงานเป็นทีมค่ะ",
+                    "translation": "I like teamwork (♀)",
+                    "phonetic": "châwp tam-ngaan bpen tiim kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "จัดการเวลา"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "time management"
+            },
+            "tags": [
+                "interview"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "jàt-gaan wee-laa",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "จัดการเวลาได้ดีครับ",
+                    "translation": "I manage time well (♂)",
+                    "phonetic": "jàt-gaan wee-laa dâai dii kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "คาดหวัง"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to expect / expectation"
+            },
+            "tags": [
+                "interview"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "kâat-wǎng",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "คาดหวังอะไรจากงานนี้คะ",
+                    "translation": "What do you expect from this job? (♀)",
+                    "phonetic": "kâat-wǎng à-rai jàak ngaan níi ká"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ส่งอีเมลขอบคุณ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to send a thank-you email"
+            },
+            "tags": [
+                "interview"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "sòng ii-meen kàwp-kun",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "ส่งอีเมลขอบคุณภายในหนึ่งวันครับ",
+                    "translation": "Send a thank-you email within a day (♂)",
+                    "phonetic": "sòng ii-meen kàwp-kun pai-nai nùeng wan kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ไปถึงก่อน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to arrive early"
+            },
+            "tags": [
+                "interview"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "bpai tǔng gàwn",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "ไปถึงก่อนสิบห้านาทีค่ะ",
+                    "translation": "Arrive 15 minutes early (♀)",
+                    "phonetic": "bpai tǔng gàwn sìp-hâa naa-tii kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "แต่งกายสุภาพ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to dress politely / professionally"
+            },
+            "tags": [
+                "interview"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "dtàaeng-gaai sù-pâap",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "แต่งกายสุภาพนะครับ",
+                    "translation": "Dress professionally (♂)",
+                    "phonetic": "dtàaeng-gaai sù-pâap ná kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ผลงาน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "portfolio / work samples"
+            },
+            "tags": [
+                "interview"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "pǒn-ngaan",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "มีผลงานให้ดูไหมคะ",
+                    "translation": "Do you have work samples? (♀)",
+                    "phonetic": "mii pǒn-ngaan hâi duu mǎi ká"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "รอผล"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to wait for results"
+            },
+            "tags": [
+                "interview"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "rɔɔ pǒn",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "รอผลภายในหนึ่งสัปดาห์ครับ",
+                    "translation": "Results within a week (♂)",
+                    "phonetic": "rɔɔ pǒn pai-nai nùeng sàp-daa kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "สู้ๆ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "you've got this"
+            },
+            "tags": [
+                "interview",
+                "encouragement"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "sûu sûu",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "สู้ๆ นะคะ",
+                    "translation": "You've got this (♀)",
+                    "phonetic": "sûu sûu ná kâ"
+                }
+            ]
+        }
+    ]
+}

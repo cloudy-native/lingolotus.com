@@ -1,0 +1,528 @@
+{
+    "collectionId": "thai-english-beginner",
+    "sourceLanguage": "th",
+    "targetLanguage": "en",
+    "createdAt": "2026-04-08T12:00:00Z",
+    "updatedAt": "2026-04-08T18:30:00Z",
+    "difficulty": "beginner",
+    "category": "language-learning",
+    "deckId": "colors",
+    "name": "Thai Colors",
+    "description": "Essential color words for everyday Thai — sky, clothes, food, and describing what you see.",
+    "theme": "colors",
+    "cards": [
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "สี"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "color"
+            },
+            "tags": [
+                "color",
+                "basic"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "sǐi",
+            "partOfSpeech": "noun",
+            "context": "Ask or name a color",
+            "examples": [
+                {
+                    "original": "สีอะไรครับ",
+                    "translation": "What color? (♂)",
+                    "phonetic": "sǐi à-rai kráp"
+                },
+                {
+                    "original": "สีอะไรค่ะ",
+                    "translation": "What color? (♀)",
+                    "phonetic": "sǐi à-rai kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ฟ้า"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "blue (sky blue)"
+            },
+            "tags": [
+                "color"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "fáa",
+            "partOfSpeech": "adjective",
+            "context": "Often used for sky blue",
+            "examples": [
+                {
+                    "original": "ท้องฟ้าสีฟ้าครับ",
+                    "translation": "The sky is blue (♂)",
+                    "phonetic": "tháwng-fáa sǐi fáa kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เขียว"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "green"
+            },
+            "tags": [
+                "color"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "kǐaw",
+            "partOfSpeech": "adjective",
+            "examples": [
+                {
+                    "original": "หญ้าสีเขียวค่ะ",
+                    "translation": "The grass is green (♀)",
+                    "phonetic": "yâa sǐi kǐaw kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "แดง"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "red"
+            },
+            "tags": [
+                "color"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "dɛɛng",
+            "partOfSpeech": "adjective",
+            "examples": [
+                {
+                    "original": "เสื้อสีแดงครับ",
+                    "translation": "A red shirt (♂)",
+                    "phonetic": "sûea sǐi dɛɛng kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เหลือง"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "yellow"
+            },
+            "tags": [
+                "color"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "lǐang",
+            "partOfSpeech": "adjective",
+            "examples": [
+                {
+                    "original": "ดอกไม้สีเหลืองค่ะ",
+                    "translation": "Yellow flowers (♀)",
+                    "phonetic": "dàawk-máai sǐi lǐang kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ขาว"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "white"
+            },
+            "tags": [
+                "color"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "kǎao",
+            "partOfSpeech": "adjective",
+            "examples": [
+                {
+                    "original": "รถสีขาวครับ",
+                    "translation": "A white car (♂)",
+                    "phonetic": "rót sǐi kǎao kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ดำ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "black"
+            },
+            "tags": [
+                "color"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "dam",
+            "partOfSpeech": "adjective",
+            "examples": [
+                {
+                    "original": "กระเป๋าสีดำค่ะ",
+                    "translation": "A black bag (♀)",
+                    "phonetic": "grà-bpǎo sǐi dam kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ส้ม"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "orange (color)"
+            },
+            "tags": [
+                "color"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "sôm",
+            "partOfSpeech": "adjective",
+            "context": "Also the fruit; context = color",
+            "examples": [
+                {
+                    "original": "สีส้มสวยครับ",
+                    "translation": "Orange is pretty (♂)",
+                    "phonetic": "sǐi sôm sǔay kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ชมพู"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "pink"
+            },
+            "tags": [
+                "color"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "chom-puu",
+            "partOfSpeech": "adjective",
+            "examples": [
+                {
+                    "original": "ดอกบัวสีชมพูค่ะ",
+                    "translation": "A pink lotus (♀)",
+                    "phonetic": "dàawk bua sǐi chom-puu kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "น้ำตาล"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "brown"
+            },
+            "tags": [
+                "color"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "nám-dtaan",
+            "partOfSpeech": "adjective",
+            "examples": [
+                {
+                    "original": "หมาตัวนี้สีน้ำตาลครับ",
+                    "translation": "This dog is brown (♂)",
+                    "phonetic": "mǎa dtua níi sǐi nám-dtaan kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เทา"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "gray / grey"
+            },
+            "tags": [
+                "color"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "tao",
+            "partOfSpeech": "adjective",
+            "examples": [
+                {
+                    "original": "แมวสีเทาค่ะ",
+                    "translation": "A gray cat (♀)",
+                    "phonetic": "mɛɛo sǐi tao kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ม่วง"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "purple"
+            },
+            "tags": [
+                "color"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "mûang",
+            "partOfSpeech": "adjective",
+            "examples": [
+                {
+                    "original": "เสื้อสีม่วงครับ",
+                    "translation": "A purple shirt (♂)",
+                    "phonetic": "sûea sǐi mûang kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ท้องฟ้า"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "sky"
+            },
+            "tags": [
+                "nature",
+                "color"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "tháwng-fáa",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "ท้องฟ้าสีอะไรครับ",
+                    "translation": "What color is the sky? (♂)",
+                    "phonetic": "tháwng-fáa sǐi à-rai kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "หญ้า"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "grass"
+            },
+            "tags": [
+                "nature"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "yâa",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "หญ้าสีเขียวค่ะ",
+                    "translation": "The grass is green (♀)",
+                    "phonetic": "yâa sǐi kǐaw kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "สวย"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "beautiful / pretty"
+            },
+            "tags": [
+                "description"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "sǔay",
+            "partOfSpeech": "adjective",
+            "examples": [
+                {
+                    "original": "สีเขียวสวยไหมครับ",
+                    "translation": "Is green pretty? (♂)",
+                    "phonetic": "sǐi kǐaw sǔay mǎi kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ชอบ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to like"
+            },
+            "tags": [
+                "verb",
+                "basic"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "châwp",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "คุณชอบสีฟ้าไหมค่ะ",
+                    "translation": "Do you like blue? (♀)",
+                    "phonetic": "kun châwp sǐi fáa mǎi kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "สีอะไร"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "what color?"
+            },
+            "tags": [
+                "question",
+                "color"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "sǐi à-rai",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "บ้านสีอะไรครับ",
+                    "translation": "What color is the house? (♂)",
+                    "phonetic": "bâan sǐi à-rai kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "สีนี้"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "this color"
+            },
+            "tags": [
+                "color",
+                "demonstrative"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "sǐi níi",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "สีนี้สวยค่ะ",
+                    "translation": "This color is pretty (♀)",
+                    "phonetic": "sǐi níi sǔay kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "สีอ่อน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "light (color)"
+            },
+            "tags": [
+                "color"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "sǐi àwn",
+            "partOfSpeech": "adjective",
+            "examples": [
+                {
+                    "original": "สีฟ้าอ่อนครับ",
+                    "translation": "Light blue (♂)",
+                    "phonetic": "sǐi fáa àwn kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "สีเข้ม"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "dark (color)"
+            },
+            "tags": [
+                "color"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "sǐi kêm",
+            "partOfSpeech": "adjective",
+            "examples": [
+                {
+                    "original": "สีแดงเข้มค่ะ",
+                    "translation": "Dark red (♀)",
+                    "phonetic": "sǐi dɛɛng kêm kâ"
+                }
+            ]
+        }
+    ]
+}

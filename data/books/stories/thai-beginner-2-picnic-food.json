@@ -8,647 +8,449 @@
     },
     "sentences": [
         {
-            "source": "เมื่อวันเสาร์ที่แล้ว ฉันไปปิกนิกกับเพื่อนๆ",
-            "target": "Last Saturday, I went to a picnic with my friends.",
-            "phonetic": "mûea wan sǎao thîi lâae chǎn bpai bpìk ník kàp pûeon pûeon",
+            "source": "วันเสาร์ที่แล้วไปปิกนิกค่ะ",
+            "target": "Last Saturday we went on a picnic. (♀)",
+            "phonetic": "wan-sǎo tîi-lɛ́ɛo bpai bpìk-ník kâ",
             "breakdown": [
-                {
-                    "source": "เมื่อ",
-                    "target": "when",
-                    "phonetic": "mûea",
-                    "partOfSpeech": "preposition"
-                },
                 {
                     "source": "วันเสาร์",
                     "target": "Saturday",
-                    "phonetic": "wan sǎao",
+                    "phonetic": "wan-sǎo",
                     "partOfSpeech": "noun"
                 },
                 {
                     "source": "ที่แล้ว",
-                    "target": "last/past",
-                    "phonetic": "thîi lâae",
-                    "partOfSpeech": "adverb"
-                },
-                {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
+                    "target": "last",
+                    "phonetic": "tîi-lɛ́ɛo",
+                    "partOfSpeech": "phrase"
                 },
                 {
                     "source": "ไป",
-                    "target": "to go",
+                    "target": "go",
                     "phonetic": "bpai",
                     "partOfSpeech": "verb"
                 },
                 {
                     "source": "ปิกนิก",
                     "target": "picnic",
-                    "phonetic": "bpìk ník",
+                    "phonetic": "bpìk-ník",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "polite (♀)",
+                    "phonetic": "kâ",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ไปที่ไหนครับ",
+            "target": "Where did you go? (♂)",
+            "phonetic": "bpai tîi nǎi kráp",
+            "breakdown": [
+                {
+                    "source": "ไป",
+                    "target": "go",
+                    "phonetic": "bpai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ที่ไหน",
+                    "target": "where",
+                    "phonetic": "tîi nǎi",
+                    "partOfSpeech": "phrase"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "สวนจตุจักรค่ะ คนไม่เยอะ",
+            "target": "Chatuchak Park — not too crowded. (♀)",
+            "phonetic": "sǔan jà-dtù-jàk kâ kon mâi yə́",
+            "breakdown": [
+                {
+                    "source": "สวนจตุจักร",
+                    "target": "Chatuchak Park",
+                    "phonetic": "sǔan jà-dtù-jàk",
+                    "partOfSpeech": "proper noun"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "polite (♀)",
+                    "phonetic": "kâ",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "คน",
+                    "target": "people",
+                    "phonetic": "kon",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ไม่",
+                    "target": "not",
+                    "phonetic": "mâi",
+                    "partOfSpeech": "negation"
+                },
+                {
+                    "source": "เยอะ",
+                    "target": "many",
+                    "phonetic": "yə́",
+                    "partOfSpeech": "adjective"
+                }
+            ]
+        },
+        {
+            "source": "เอาอาหารอะไรไปบ้างครับ",
+            "target": "What food did you bring? (♂)",
+            "phonetic": "ao aa-hǎan à-rai bpai bâang kráp",
+            "breakdown": [
+                {
+                    "source": "เอา",
+                    "target": "bring",
+                    "phonetic": "ao",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "อาหาร",
+                    "target": "food",
+                    "phonetic": "aa-hǎan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "อะไร",
+                    "target": "what",
+                    "phonetic": "à-rai",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ไป",
+                    "target": "along",
+                    "phonetic": "bpai",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "บ้าง",
+                    "target": "some",
+                    "phonetic": "bâang",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ข้าวเหนียวมะม่วง ไก่ทอด และผลไม้ค่ะ",
+            "target": "Mango sticky rice, fried chicken, and fruit. (♀)",
+            "phonetic": "kâao-nǐao má-mûang gài tâwt lɛ́ pǒn-lá-máai kâ",
+            "breakdown": [
+                {
+                    "source": "ข้าวเหนียวมะม่วง",
+                    "target": "mango sticky rice",
+                    "phonetic": "kâao-nǐao má-mûang",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ไก่ทอด",
+                    "target": "fried chicken",
+                    "phonetic": "gài tâwt",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "lɛ́",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "ผลไม้",
+                    "target": "fruit",
+                    "phonetic": "pǒn-lá-máai",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "polite (♀)",
+                    "phonetic": "kâ",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "อร่อยไหมครับ",
+            "target": "Was it good? (♂)",
+            "phonetic": "à-ràwy mǎi kráp",
+            "breakdown": [
+                {
+                    "source": "อร่อย",
+                    "target": "delicious",
+                    "phonetic": "à-ràwy",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "Q",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "อร่อยมากค่ะ โดยเฉพาะมะม่วง",
+            "target": "Very — especially the mango. (♀)",
+            "phonetic": "à-ràwy mâak kâ dooi chà-pɔ́ má-mûang",
+            "breakdown": [
+                {
+                    "source": "อร่อย",
+                    "target": "delicious",
+                    "phonetic": "à-ràwy",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "มาก",
+                    "target": "very",
+                    "phonetic": "mâak",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "polite (♀)",
+                    "phonetic": "kâ",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "โดยเฉพาะ",
+                    "target": "especially",
+                    "phonetic": "dooi chà-pɔ́",
+                    "partOfSpeech": "phrase"
+                },
+                {
+                    "source": "มะม่วง",
+                    "target": "mango",
+                    "phonetic": "má-mûang",
+                    "partOfSpeech": "noun"
+                }
+            ]
+        },
+        {
+            "source": "มีน้ำอะไรดื่มบ้างครับ",
+            "target": "What drinks did you have? (♂)",
+            "phonetic": "mii náam à-rai dʉ̀ʉm bâang kráp",
+            "breakdown": [
+                {
+                    "source": "มี",
+                    "target": "have",
+                    "phonetic": "mii",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "น้ำ",
+                    "target": "drink/water",
+                    "phonetic": "náam",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "อะไร",
+                    "target": "what",
+                    "phonetic": "à-rai",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ดื่ม",
+                    "target": "drink",
+                    "phonetic": "dʉ̀ʉm",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "บ้าง",
+                    "target": "some",
+                    "phonetic": "bâang",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "น้ำมะพร้าวกับชาเย็นค่ะ",
+            "target": "Coconut water and Thai iced tea. (♀)",
+            "phonetic": "náam má-práao gàp chaa-yen kâ",
+            "breakdown": [
+                {
+                    "source": "น้ำมะพร้าว",
+                    "target": "coconut water",
+                    "phonetic": "náam má-práao",
                     "partOfSpeech": "noun"
                 },
                 {
                     "source": "กับ",
                     "target": "with",
-                    "phonetic": "kàp",
+                    "phonetic": "gàp",
                     "partOfSpeech": "preposition"
                 },
                 {
-                    "source": "เพื่อน",
-                    "target": "friend",
-                    "phonetic": "pûeon",
+                    "source": "ชาเย็น",
+                    "target": "Thai iced tea",
+                    "phonetic": "chaa-yen",
                     "partOfSpeech": "noun"
                 },
                 {
-                    "source": "ๆ",
-                    "target": "(plural marker)",
-                    "phonetic": "pûeon",
+                    "source": "ค่ะ",
+                    "target": "polite (♀)",
+                    "phonetic": "kâ",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "คุณนำอาหารอะไรมาครับ",
-            "target": "What food did you bring?",
-            "phonetic": "khun nam aa-hǎan à-rai maa khráp",
+            "source": "ฟังแล้วน่าไปด้วยครับ",
+            "target": "Sounds like I should join next time. (♂)",
+            "phonetic": "fang lɛ́ɛo nâa bpai dûay kráp",
             "breakdown": [
                 {
-                    "source": "คุณ",
-                    "target": "you (polite)",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "นำ",
-                    "target": "to bring",
-                    "phonetic": "nam",
+                    "source": "ฟัง",
+                    "target": "listen",
+                    "phonetic": "fang",
                     "partOfSpeech": "verb"
                 },
                 {
-                    "source": "อาหาร",
-                    "target": "food",
-                    "phonetic": "aa-hǎan",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "อะไร",
-                    "target": "what",
-                    "phonetic": "à-rai",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "มา",
-                    "target": "to come",
-                    "phonetic": "maa",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
-                }
-            ]
-        },
-        {
-            "source": "ฉันนำแซนวิช แอปเปิ้ล และน้ำผลไม้มา",
-            "target": "I brought sandwiches, apples, and juice.",
-            "phonetic": "chǎn nam saen wích aeppə̌əl láe náam phǒn lâai maa",
-            "breakdown": [
-                {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "นำ",
-                    "target": "to bring",
-                    "phonetic": "nam",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "แซนวิช",
-                    "target": "sandwiches",
-                    "phonetic": "saen wích",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "แอปเปิ้ล",
-                    "target": "apples",
-                    "phonetic": "aeppə̌əl",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "และ",
-                    "target": "and",
-                    "phonetic": "láe",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "น้ำผลไม้",
-                    "target": "juice",
-                    "phonetic": "náam phǒn lâai",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "มา",
-                    "target": "to come",
-                    "phonetic": "maa",
-                    "partOfSpeech": "verb"
-                }
-            ]
-        },
-        {
-            "source": "คุณชอบแซนวิชไหมครับ",
-            "target": "Do you like sandwiches?",
-            "phonetic": "khun châwp saen wích mǎi khráp",
-            "breakdown": [
-                {
-                    "source": "คุณ",
-                    "target": "you (polite)",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ชอบ",
-                    "target": "to like",
-                    "phonetic": "châwp",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "แซนวิช",
-                    "target": "sandwiches",
-                    "phonetic": "saen wích",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ไหม",
-                    "target": "(question particle)",
-                    "phonetic": "mǎi",
+                    "source": "แล้ว",
+                    "target": "then",
+                    "phonetic": "lɛ́ɛo",
                     "partOfSpeech": "particle"
                 },
                 {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "source": "น่า",
+                    "target": "should/worth",
+                    "phonetic": "nâa",
                     "partOfSpeech": "particle"
-                }
-            ]
-        },
-        {
-            "source": "ใช่ ฉันชอบ แต่ฉันรักผลไม้มากกว่า",
-            "target": "Yes, I like them, but I love fruit more.",
-            "phonetic": "châi chǎn châwp dtàae chǎn rák phǒn lâai mâak kwàa",
-            "breakdown": [
-                {
-                    "source": "ใช่",
-                    "target": "yes",
-                    "phonetic": "châi",
-                    "partOfSpeech": "interjection"
-                },
-                {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ชอบ",
-                    "target": "to like",
-                    "phonetic": "châwp",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "แต่",
-                    "target": "but",
-                    "phonetic": "dtàae",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "รัก",
-                    "target": "to love",
-                    "phonetic": "rák",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ผลไม้",
-                    "target": "fruit",
-                    "phonetic": "phǒn lâai",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "มากกว่า",
-                    "target": "more than",
-                    "phonetic": "mâak kwàa",
-                    "partOfSpeech": "adverb"
-                }
-            ]
-        },
-        {
-            "source": "เราทานข้าวใต้ต้นไม้เพราะแดดจัด",
-            "target": "We ate under a big tree because it was sunny.",
-            "phonetic": "rao thaan khâao dtâai dtôn mâai phaw daan jàt",
-            "breakdown": [
-                {
-                    "source": "เรา",
-                    "target": "we",
-                    "phonetic": "rao",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ทาน",
-                    "target": "to eat",
-                    "phonetic": "thaan",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ข้าว",
-                    "target": "rice/meal",
-                    "phonetic": "khâao",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ใต้",
-                    "target": "under",
-                    "phonetic": "dtâai",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "ต้นไม้",
-                    "target": "tree",
-                    "phonetic": "dtôn mâai",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "เพราะ",
-                    "target": "because",
-                    "phonetic": "phaw",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "แดด",
-                    "target": "sun",
-                    "phonetic": "daan",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "จัด",
-                    "target": "intense",
-                    "phonetic": "jàt",
-                    "partOfSpeech": "adjective"
-                }
-            ]
-        },
-        {
-            "source": "อาหารจานโปรดของคุณคืออะไรครับ",
-            "target": "What is your favorite food? Mia asked me.",
-            "phonetic": "aa-hǎan jaan prɔ̂ɔt khǎwng khun kheuu à-rai khráp",
-            "breakdown": [
-                {
-                    "source": "อาหาร",
-                    "target": "food",
-                    "phonetic": "aa-hǎan",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "จาน",
-                    "target": "plate/dish",
-                    "phonetic": "jaan",
-                    "partOfSpeech": "classifier"
-                },
-                {
-                    "source": "โปรด",
-                    "target": "favorite",
-                    "phonetic": "prɔ̂ɔt",
-                    "partOfSpeech": "adjective"
-                },
-                {
-                    "source": "ของ",
-                    "target": "of",
-                    "phonetic": "khǎwng",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "คุณ",
-                    "target": "you (polite)",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "คือ",
-                    "target": "is",
-                    "phonetic": "kheuu",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "อะไร",
-                    "target": "what",
-                    "phonetic": "à-rai",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
-                }
-            ]
-        },
-        {
-            "source": "อาหารจานโปรดของฉันคือพาสต้าเพราะมันอร่อย",
-            "target": "My favorite food is pasta because it is delicious.",
-            "phonetic": "aa-hǎan jaan prɔ̂ɔt khǎwng chǎn kheuu phaa-staa phaw mạn a-rɔ̀i",
-            "breakdown": [
-                {
-                    "source": "อาหาร",
-                    "target": "food",
-                    "phonetic": "aa-hǎan",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "จาน",
-                    "target": "plate/dish",
-                    "phonetic": "jaan",
-                    "partOfSpeech": "classifier"
-                },
-                {
-                    "source": "โปรด",
-                    "target": "favorite",
-                    "phonetic": "prɔ̂ɔt",
-                    "partOfSpeech": "adjective"
-                },
-                {
-                    "source": "ของ",
-                    "target": "of",
-                    "phonetic": "khǎwng",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "คือ",
-                    "target": "is",
-                    "phonetic": "kheuu",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "พาสต้า",
-                    "target": "pasta",
-                    "phonetic": "phaa-staa",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "เพราะ",
-                    "target": "because",
-                    "phonetic": "phaw",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "มัน",
-                    "target": "it",
-                    "phonetic": "mạn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "อร่อย",
-                    "target": "delicious",
-                    "phonetic": "a-rɔ̀i",
-                    "partOfSpeech": "adjective"
-                }
-            ]
-        },
-        {
-            "source": "เราแบ่งคุกกี้กัน และคุกกี้หวานมาก",
-            "target": "We shared cookies, and they were very sweet.",
-            "phonetic": "rao bæ̀ng khúk gîi kan láe khúk gîi wǎan mâak",
-            "breakdown": [
-                {
-                    "source": "เรา",
-                    "target": "we",
-                    "phonetic": "rao",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "แบ่ง",
-                    "target": "to share",
-                    "phonetic": "bæ̀ng",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "คุกกี้",
-                    "target": "cookies",
-                    "phonetic": "khúk gîi",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "กัน",
-                    "target": "(reciprocal particle)",
-                    "phonetic": "kan",
-                    "partOfSpeech": "particle"
-                },
-                {
-                    "source": "และ",
-                    "target": "and",
-                    "phonetic": "láe",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "คุกกี้",
-                    "target": "cookies",
-                    "phonetic": "khúk gîi",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "หวาน",
-                    "target": "sweet",
-                    "phonetic": "wǎan",
-                    "partOfSpeech": "adjective"
-                },
-                {
-                    "source": "มาก",
-                    "target": "very",
-                    "phonetic": "mâak",
-                    "partOfSpeech": "adverb"
-                }
-            ]
-        },
-        {
-            "source": "คุณสนุกกับปิกนิกไหมครับ",
-            "target": "Did you have fun at the picnic?",
-            "phonetic": "khun sà-núk kàp bpìk ník mǎi khráp",
-            "breakdown": [
-                {
-                    "source": "คุณ",
-                    "target": "you (polite)",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "สนุก",
-                    "target": "to have fun",
-                    "phonetic": "sà-núk",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "กับ",
-                    "target": "with/at",
-                    "phonetic": "kàp",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "ปิกนิก",
-                    "target": "picnic",
-                    "phonetic": "bpìk ník",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ไหม",
-                    "target": "(question particle)",
-                    "phonetic": "mǎi",
-                    "partOfSpeech": "particle"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
-                }
-            ]
-        },
-        {
-            "source": "ใช่ สนุกมาก และฉันอยากไปอีกครั้ง",
-            "target": "Yes, it was fun, and I want to go again!",
-            "phonetic": "châi sà-núk mâak láe chǎn yaak bpai ìik kráng",
-            "breakdown": [
-                {
-                    "source": "ใช่",
-                    "target": "yes",
-                    "phonetic": "châi",
-                    "partOfSpeech": "interjection"
-                },
-                {
-                    "source": "สนุก",
-                    "target": "fun",
-                    "phonetic": "sà-núk",
-                    "partOfSpeech": "adjective"
-                },
-                {
-                    "source": "มาก",
-                    "target": "very",
-                    "phonetic": "mâak",
-                    "partOfSpeech": "adverb"
-                },
-                {
-                    "source": "และ",
-                    "target": "and",
-                    "phonetic": "láe",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "อยาก",
-                    "target": "to want",
-                    "phonetic": "yaak",
-                    "partOfSpeech": "verb"
                 },
                 {
                     "source": "ไป",
-                    "target": "to go",
-                    "phonetic": "bpai",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "อีก",
-                    "target": "again",
-                    "phonetic": "ìik",
-                    "partOfSpeech": "adverb"
-                },
-                {
-                    "source": "ครั้ง",
-                    "target": "time (classifier)",
-                    "phonetic": "kráng",
-                    "partOfSpeech": "classifier"
-                }
-            ]
-        },
-        {
-            "source": "ครั้งหน้า ฉันจะนำสลัดไปด้วย",
-            "target": "Next time, I will bring a salad too.",
-            "phonetic": "kráng nǎa chǎn jà nam sà-làat bpai dûai",
-            "breakdown": [
-                {
-                    "source": "ครั้ง",
-                    "target": "time (classifier)",
-                    "phonetic": "kráng",
-                    "partOfSpeech": "classifier"
-                },
-                {
-                    "source": "หน้า",
-                    "target": "next",
-                    "phonetic": "nǎa",
-                    "partOfSpeech": "adverb"
-                },
-                {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "จะ",
-                    "target": "will (future marker)",
-                    "phonetic": "jà",
-                    "partOfSpeech": "auxiliary"
-                },
-                {
-                    "source": "นำ",
-                    "target": "to bring",
-                    "phonetic": "nam",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "สลัด",
-                    "target": "salad",
-                    "phonetic": "sà-làat",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ไป",
-                    "target": "to go",
+                    "target": "go",
                     "phonetic": "bpai",
                     "partOfSpeech": "verb"
                 },
                 {
                     "source": "ด้วย",
-                    "target": "too/also",
-                    "phonetic": "dûai",
+                    "target": "too",
+                    "phonetic": "dûay",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ครั้งหน้าชวนนะคะ",
+            "target": "I'll invite you next time. (♀)",
+            "phonetic": "kráng nâa chuan ná kâ",
+            "breakdown": [
+                {
+                    "source": "ครั้งหน้า",
+                    "target": "next time",
+                    "phonetic": "kráng nâa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ชวน",
+                    "target": "invite",
+                    "phonetic": "chuan",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "นะ",
+                    "target": "softener",
+                    "phonetic": "ná",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "คะ",
+                    "target": "soft (♀)",
+                    "phonetic": "kâ",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ดีครับ ผมจะเอาส้มตำไป",
+            "target": "Great — I'll bring som tam. (♂)",
+            "phonetic": "dii kráp pǒm jà ao sôm-dtam bpai",
+            "breakdown": [
+                {
+                    "source": "ดี",
+                    "target": "good",
+                    "phonetic": "dii",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ผม",
+                    "target": "I (♂)",
+                    "phonetic": "pǒm",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "จะ",
+                    "target": "will",
+                    "phonetic": "jà",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "เอา",
+                    "target": "bring",
+                    "phonetic": "ao",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ส้มตำ",
+                    "target": "som tam",
+                    "phonetic": "sôm-dtam",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ไป",
+                    "target": "along",
+                    "phonetic": "bpai",
                     "partOfSpeech": "particle"
                 }
             ]
         }
     ],
-    "createdAt": "2025-09-29T12:15:00Z",
-    "updatedAt": "2025-09-29T12:15:00Z",
+    "createdAt": "2025-09-28T08:54:49Z",
+    "updatedAt": "2026-04-08T15:30:00Z",
     "difficulty": "beginner",
     "summary": {
-        "source": "การพูดคุยเกี่ยวกับอาหารและกิจกรรมปิกนิก",
-        "target": "Talking about food and picnic activities"
+        "source": "เพื่อนๆ ไปปิกนิกที่สวนและคุยเรื่องอาหารที่เอาไป",
+        "target": "Friends picnic in the park and talk about the food they brought."
     }
 }

@@ -1,8 +1,8 @@
 {
-    "collectionId": "thai-english-elementary",
+    "collectionId": "thai-english-beginner",
     "deckId": "food-dining",
     "name": "Thai Food & Dining",
-    "description": "Essential Thai vocabulary and phrases for ordering food, describing dishes, and dining out",
+    "description": "Order dishes, set spice level, ask for the bill — food-court and restaurant Thai with ครับ/ค่ะ.",
     "sourceLanguage": "th",
     "targetLanguage": "en",
     "cards": [
@@ -61,14 +61,14 @@
             "context": "A famous Thai stir-fried noodle dish with eggs, tofu, bean sprouts, and peanuts",
             "examples": [
                 {
-                    "original": "ขอผัดไทยกุ้งหนึ่งจาน",
-                    "translation": "I'd like one plate of Pad Thai with shrimp",
-                    "phonetic": "kɔ̀ɔ pàt tai gûng nʉ̀ng jaan"
+                    "original": "ขอผัดไทยกุ้งหนึ่งจานครับ",
+                    "translation": "One Pad Thai with shrimp, please (♂)",
+                    "phonetic": "kɔ̀ɔ pàt tai gûng nʉ̀ng jaan kráp"
                 },
                 {
-                    "original": "ผัดไทยร้านนี้อร่อยมาก",
-                    "translation": "The Pad Thai at this restaurant is very delicious",
-                    "phonetic": "pàt tai ráan née à-ròi mâak"
+                    "original": "ผัดไทยร้านนี้อร่อยมากค่ะ",
+                    "translation": "The Pad Thai here is delicious (♀)",
+                    "phonetic": "pàt tai ráan níi à-rɔ̀i mâak kâ"
                 }
             ]
         },
@@ -127,14 +127,14 @@
             "context": "A spicy salad made from shredded unripe papaya, popular in Northeastern Thai cuisine",
             "examples": [
                 {
-                    "original": "ส้มตำไทยใส่ถั่ว",
-                    "translation": "Thai-style papaya salad with peanuts",
-                    "phonetic": "sôm dtam tai sài tùa"
+                    "original": "ขอส้มตำไทยไม่เผ็ดครับ",
+                    "translation": "Thai-style som tam, not spicy (♂)",
+                    "phonetic": "kɔ̀ɔ sôm dtam tai mâi pèt kráp"
                 },
                 {
-                    "original": "ส้มตำปูปลาร้า",
-                    "translation": "Papaya salad with crab and fermented fish",
-                    "phonetic": "sôm dtam bpuu bplaa-râa"
+                    "original": "ส้มตำปูปลาร้าค่ะ",
+                    "translation": "Papaya salad with crab and pla ra (♀)",
+                    "phonetic": "sôm dtam bpuu bplaa-râa kâ"
                 }
             ]
         },
@@ -160,14 +160,14 @@
             "context": "A popular stir-fried dish with chicken, holy basil, and chili, usually served over rice",
             "examples": [
                 {
-                    "original": "ขอกระเพราไก่ราดข้าว ไข่ดาวหนึ่งฟอง",
-                    "translation": "I'd like basil chicken over rice with one fried egg",
-                    "phonetic": "kɔ̀ɔ grà-práo gài râat kâao, kài daao nʉ̀ng fɔɔng"
+                    "original": "ขอกระเพราไก่ราดข้าว ไข่ดาวหนึ่งฟองครับ",
+                    "translation": "Basil chicken over rice with a fried egg (♂)",
+                    "phonetic": "kɔ̀ɔ grà-prao gài râat kâao, kài daao nʉ̀ng fɔɔng kráp"
                 },
                 {
-                    "original": "กระเพราไก่เผ็ดกลาง",
-                    "translation": "Basil chicken with medium spiciness",
-                    "phonetic": "grà-práo gài pèt glaang"
+                    "original": "กระเพราไก่เผ็ดกลางค่ะ",
+                    "translation": "Basil chicken, medium spicy (♀)",
+                    "phonetic": "grà-prao gài pèt glaang kâ"
                 }
             ]
         },
@@ -193,14 +193,14 @@
             "context": "A Thai version of Hainanese chicken rice: boiled chicken with rice cooked in chicken stock",
             "examples": [
                 {
-                    "original": "ข้าวมันไก่หนึ่งจาน",
-                    "translation": "One plate of chicken rice",
-                    "phonetic": "kâao man gài nʉ̀ng jaan"
+                    "original": "ข้าวมันไก่หนึ่งจานครับ",
+                    "translation": "One chicken rice, please (♂)",
+                    "phonetic": "kâao man gài nʉ̀ng jaan kráp"
                 },
                 {
-                    "original": "ขอน้ำซุปข้าวมันไก่เพิ่มหน่อยครับ",
-                    "translation": "Could I have more chicken rice soup, please? (♂)",
-                    "phonetic": "kɔ̀ɔ náam súp kâao man gài pəəm nɔ̀i kráp"
+                    "original": "ขอน้ำซุปเพิ่มหน่อยค่ะ",
+                    "translation": "More soup, please (♀)",
+                    "phonetic": "kɔ̀ɔ náam súp pə̂əm nɔ̀i kâ"
                 }
             ]
         },
@@ -226,14 +226,14 @@
             "context": "Used to describe spicy food or to specify spiciness level when ordering",
             "examples": [
                 {
-                    "original": "ไม่เผ็ด",
-                    "translation": "Not spicy",
-                    "phonetic": "mâi pèt"
+                    "original": "ไม่เผ็ดครับ",
+                    "translation": "Not spicy (♂)",
+                    "phonetic": "mâi pèt kráp"
                 },
                 {
-                    "original": "เผ็ดน้อย เผ็ดกลาง เผ็ดมาก",
-                    "translation": "Mild spicy, medium spicy, very spicy",
-                    "phonetic": "pèt nɔ́i, pèt glaang, pèt mâak"
+                    "original": "เผ็ดน้อยค่ะ",
+                    "translation": "Mild, please (♀)",
+                    "phonetic": "pèt nɔ́ɔi kâ"
                 }
             ]
         },
@@ -260,13 +260,13 @@
             "examples": [
                 {
                     "original": "อาหารอร่อยมากครับ",
-                    "translation": "The food is very delicious (♂)",
-                    "phonetic": "aa-hǎan à-ròi mâak kráp"
+                    "translation": "The food is delicious (♂)",
+                    "phonetic": "aa-hǎan à-rɔ̀i mâak kráp"
                 },
                 {
-                    "original": "ร้านนี้ขายของอร่อย",
-                    "translation": "This shop sells delicious food",
-                    "phonetic": "ráan née kǎai kɔ̌ɔng à-ròi"
+                    "original": "อร่อยมากค่ะ",
+                    "translation": "So tasty (♀)",
+                    "phonetic": "à-rɔ̀i mâak kâ"
                 }
             ]
         },
@@ -325,14 +325,14 @@
             "context": "Used when ordering or talking about coffee",
             "examples": [
                 {
-                    "original": "กาแฟร้อนหนึ่งแก้ว",
-                    "translation": "One hot coffee",
-                    "phonetic": "gaa-fɛɛ rɔ́ɔn nʉ̀ng gɛ̂o"
+                    "original": "กาแฟร้อนหนึ่งแก้วครับ",
+                    "translation": "One hot coffee (♂)",
+                    "phonetic": "gaa-fɛɛ rɔ́ɔn nʉ̀ng gɛ̂ɛo kráp"
                 },
                 {
-                    "original": "กาแฟเย็น ไม่หวาน",
-                    "translation": "Iced coffee, not sweet",
-                    "phonetic": "gaa-fɛɛ yen, mâi wǎan"
+                    "original": "กาแฟเย็น ไม่หวานค่ะ",
+                    "translation": "Iced coffee, not sweet (♀)",
+                    "phonetic": "gaa-fɛɛ yen, mâi wǎan kâ"
                 }
             ]
         },
@@ -359,13 +359,13 @@
             "examples": [
                 {
                     "original": "ขอชาเย็นหนึ่งแก้วครับ",
-                    "translation": "I'd like one glass of iced tea, please (♂)",
-                    "phonetic": "kɔ̀ɔ chaa yen nʉ̀ng gɛ̂o kráp"
+                    "translation": "One Thai iced tea, please (♂)",
+                    "phonetic": "kɔ̀ɔ chaa yen nʉ̀ng gɛ̂ɛo kráp"
                 },
                 {
-                    "original": "ชาเย็นใส่นมนิดหน่อย",
-                    "translation": "Iced tea with a little milk",
-                    "phonetic": "chaa yen sài nom nít-nɔ́i"
+                    "original": "ชาเย็นใส่นมนิดหน่อยค่ะ",
+                    "translation": "Iced tea with a little milk (♀)",
+                    "phonetic": "chaa yen sài nom nít-nɔ́ɔi kâ"
                 }
             ]
         },
@@ -668,7 +668,7 @@
         }
     ],
     "createdAt": "2024-11-12T14:13:58Z",
-    "updatedAt": "2025-08-29T06:57:00Z",
+    "updatedAt": "2026-08-03T12:00:00Z",
     "theme": "food",
-    "difficulty": "elementary"
+    "difficulty": "beginner"
 }

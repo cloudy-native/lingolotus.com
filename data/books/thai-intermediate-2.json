@@ -1,13 +1,12 @@
 {
     "bookId": "thai-intermediate-2",
     "name": "Thai Reading Intermediate Book 2",
-    "description": "Intermediate 2 stories for learners to advance reading skills with longer sentences, past/future tenses, conditionals, modals, and practical themes to build comprehension and vocabulary.",
+    "description": "Longer intermediate stories set in Thailand: interviews, cooking class, weekend trips, language exchange, museums, photo projects, charity runs, hobbies, community gardens, and book clubs — phonetics only, no word split.",
     "sourceLanguage": "th",
     "targetLanguage": "en",
     "createdAt": "2025-09-29T15:46:30Z",
-    "updatedAt": "2025-09-29T15:46:30Z",
+    "updatedAt": "2026-04-08T16:30:00Z",
     "category": "language-learning",
     "difficulty": "Intermediate",
-    "imageUrl": "/images/IMG_5386.jpeg",
-    "featured": false
+    "imageUrl": "/images/IMG_5386.jpeg"
 }

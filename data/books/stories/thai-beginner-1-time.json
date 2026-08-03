@@ -8,83 +8,244 @@
     },
     "sentences": [
         {
-            "source": "กี่โมงแล้วครับ",
-            "target": "What time is it?",
-            "phonetic": "gèe moong láaeo khráp",
+            "source": "ตอนนี้กี่โมงแล้วคะ",
+            "target": "What time is it now? (♀)",
+            "phonetic": "dton-níi gìi moong lɛ́ɛo ká",
             "breakdown": [
                 {
-                    "source": "กี่",
-                    "target": "how many",
-                    "phonetic": "gèe",
-                    "partOfSpeech": "pronoun"
+                    "source": "ตอนนี้",
+                    "target": "now",
+                    "phonetic": "dton-níi",
+                    "partOfSpeech": "adverb"
                 },
                 {
-                    "source": "โมง",
-                    "target": "o'clock",
-                    "phonetic": "moong",
-                    "partOfSpeech": "noun"
+                    "source": "กี่โมง",
+                    "target": "what time",
+                    "phonetic": "gìi moong",
+                    "partOfSpeech": "phrase"
                 },
                 {
                     "source": "แล้ว",
                     "target": "already",
-                    "phonetic": "láaeo",
+                    "phonetic": "lɛ́ɛo",
                     "partOfSpeech": "particle"
                 },
                 {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "source": "คะ",
+                    "target": "polite question (♀)",
+                    "phonetic": "ká",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "แปดโมงแล้วครับ",
-            "target": "It is eight o’clock.",
-            "phonetic": "bpàaet moong láaeo khráp",
+            "source": "เก้าโมงเช้าครับ",
+            "target": "Nine in the morning. (♂)",
+            "phonetic": "gâo moong cháao kráp",
             "breakdown": [
                 {
-                    "source": "แปด",
-                    "target": "eight",
-                    "phonetic": "bpàaet",
-                    "partOfSpeech": "numeral"
+                    "source": "เก้า",
+                    "target": "nine",
+                    "phonetic": "gâo",
+                    "partOfSpeech": "number"
                 },
                 {
                     "source": "โมง",
                     "target": "o'clock",
                     "phonetic": "moong",
+                    "partOfSpeech": "classifier"
+                },
+                {
+                    "source": "เช้า",
+                    "target": "morning",
+                    "phonetic": "cháao",
                     "partOfSpeech": "noun"
                 },
                 {
-                    "source": "แล้ว",
-                    "target": "already",
-                    "phonetic": "láaeo",
-                    "partOfSpeech": "particle"
-                },
-                {
                     "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "target": "polite particle (♂)",
+                    "phonetic": "kráp",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "คุณนอนเร็วไหมครับ",
-            "target": "Do you go to bed early?",
-            "phonetic": "khun non reo măi khráp",
+            "source": "คุณตื่นกี่โมงคะ",
+            "target": "What time do you wake up? (♀)",
+            "phonetic": "kun dtùen gìi moong ká",
             "breakdown": [
                 {
                     "source": "คุณ",
                     "target": "you",
-                    "phonetic": "khun",
+                    "phonetic": "kun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ตื่น",
+                    "target": "to wake up",
+                    "phonetic": "dtùen",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "กี่โมง",
+                    "target": "what time",
+                    "phonetic": "gìi moong",
+                    "partOfSpeech": "phrase"
+                },
+                {
+                    "source": "คะ",
+                    "target": "polite question (♀)",
+                    "phonetic": "ká",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ผมตื่นตอนเจ็ดโมงครับ",
+            "target": "I wake up at seven. (♂)",
+            "phonetic": "pǒm dtùen dton jèt moong kráp",
+            "breakdown": [
+                {
+                    "source": "ผม",
+                    "target": "I (male)",
+                    "phonetic": "pǒm",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ตื่น",
+                    "target": "to wake up",
+                    "phonetic": "dtùen",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ตอน",
+                    "target": "at (time)",
+                    "phonetic": "dton",
+                    "partOfSpeech": "preposition"
+                },
+                {
+                    "source": "เจ็ด",
+                    "target": "seven",
+                    "phonetic": "jèt",
+                    "partOfSpeech": "number"
+                },
+                {
+                    "source": "โมง",
+                    "target": "o'clock",
+                    "phonetic": "moong",
+                    "partOfSpeech": "classifier"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "polite particle (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "กินข้าวเที่ยงกี่โมงครับ",
+            "target": "What time do you eat lunch? (♂)",
+            "phonetic": "gin kâao tîang gìi moong kráp",
+            "breakdown": [
+                {
+                    "source": "กิน",
+                    "target": "to eat",
+                    "phonetic": "gin",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ข้าวเที่ยง",
+                    "target": "lunch",
+                    "phonetic": "kâao tîang",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "กี่โมง",
+                    "target": "what time",
+                    "phonetic": "gìi moong",
+                    "partOfSpeech": "phrase"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "polite particle (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ประมาณเที่ยงค่ะ",
+            "target": "Around noon. (♀)",
+            "phonetic": "bprà-maan tîang kâ",
+            "breakdown": [
+                {
+                    "source": "ประมาณ",
+                    "target": "about / approximately",
+                    "phonetic": "bprà-maan",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "เที่ยง",
+                    "target": "noon",
+                    "phonetic": "tîang",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "polite particle (♀)",
+                    "phonetic": "kâ",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "คุณนอนเร็วไหมคะ",
+            "target": "Do you go to bed early? (♀)",
+            "phonetic": "kun nawn reo mǎi ká",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you",
+                    "phonetic": "kun",
                     "partOfSpeech": "pronoun"
                 },
                 {
                     "source": "นอน",
                     "target": "to sleep",
-                    "phonetic": "non",
+                    "phonetic": "nawn",
                     "partOfSpeech": "verb"
+                },
+                {
+                    "source": "เร็ว",
+                    "target": "early / fast",
+                    "phonetic": "reo",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "คะ",
+                    "target": "polite question (♀)",
+                    "phonetic": "ká",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ค่อนข้างเร็วครับ ทุ่มหนึ่ง",
+            "target": "Fairly early — about 7 p.m. (♂)",
+            "phonetic": "kâwn-kâang reo kráp tûm nùeng",
+            "breakdown": [
+                {
+                    "source": "ค่อนข้าง",
+                    "target": "rather / fairly",
+                    "phonetic": "kâwn-kâang",
+                    "partOfSpeech": "adverb"
                 },
                 {
                     "source": "เร็ว",
@@ -93,252 +254,75 @@
                     "partOfSpeech": "adjective"
                 },
                 {
-                    "source": "ไหม",
-                    "target": "or not",
-                    "phonetic": "măi",
+                    "source": "ครับ",
+                    "target": "polite particle (♂)",
+                    "phonetic": "kráp",
                     "partOfSpeech": "particle"
                 },
                 {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
+                    "source": "ทุ่มหนึ่ง",
+                    "target": "7 p.m. (one thum)",
+                    "phonetic": "tûm nùeng",
+                    "partOfSpeech": "phrase"
                 }
             ]
         },
         {
-            "source": "ใช่ ผมนอนตอนเก้าโมงครับ",
-            "target": "Yes, I go to bed at nine.",
-            "phonetic": "châi phǒm non dton gâo moong khráp",
+            "source": "เย็นนี้ว่างไหมคะ",
+            "target": "Are you free this evening? (♀)",
+            "phonetic": "yen níi wâang mǎi ká",
             "breakdown": [
                 {
-                    "source": "ใช่",
-                    "target": "yes",
-                    "phonetic": "châi",
-                    "partOfSpeech": "interjection"
-                },
-                {
-                    "source": "ผม",
-                    "target": "I (male)",
-                    "phonetic": "phǒm",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "นอน",
-                    "target": "to sleep",
-                    "phonetic": "non",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ตอน",
-                    "target": "at",
-                    "phonetic": "dton",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "เก้า",
-                    "target": "nine",
-                    "phonetic": "gâo",
-                    "partOfSpeech": "numeral"
-                },
-                {
-                    "source": "โมง",
-                    "target": "o'clock",
-                    "phonetic": "moong",
+                    "source": "เย็นนี้",
+                    "target": "this evening",
+                    "phonetic": "yen níi",
                     "partOfSpeech": "noun"
                 },
                 {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
-                }
-            ]
-        },
-        {
-            "source": "คุณกินอาหารกลางวันเมื่อไหร่ครับ",
-            "target": "When do you eat lunch?",
-            "phonetic": "khun gin aa-hăan glaang wan mǔea rài khráp",
-            "breakdown": [
-                {
-                    "source": "คุณ",
-                    "target": "you",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "กิน",
-                    "target": "to eat",
-                    "phonetic": "gin",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "อาหารกลางวัน",
-                    "target": "lunch",
-                    "phonetic": "aa-hăan glaang wan",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "เมื่อไหร่",
-                    "target": "when",
-                    "phonetic": "mǔea rài",
-                    "partOfSpeech": "adverb"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
-                }
-            ]
-        },
-        {
-            "source": "ผมกินอาหารกลางวันตอนสิบสองโมงครับ",
-            "target": "I eat lunch at twelve.",
-            "phonetic": "phǒm gin aa-hăan glaang wan dton sìp sǎawng moong khráp",
-            "breakdown": [
-                {
-                    "source": "ผม",
-                    "target": "I (male)",
-                    "phonetic": "phǒm",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "กิน",
-                    "target": "to eat",
-                    "phonetic": "gin",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "อาหารกลางวัน",
-                    "target": "lunch",
-                    "phonetic": "aa-hăan glaang wan",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ตอน",
-                    "target": "at",
-                    "phonetic": "dton",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "สิบสอง",
-                    "target": "twelve",
-                    "phonetic": "sìp sǎawng",
-                    "partOfSpeech": "numeral"
-                },
-                {
-                    "source": "โมง",
-                    "target": "o'clock",
-                    "phonetic": "moong",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
-                }
-            ]
-        },
-        {
-            "source": "สิบสองโมงเป็นเวลาที่ดีไหมครับ",
-            "target": "Is twelve a good time?",
-            "phonetic": "sìp sǎawng moong bpen wee-laa thîi dee măi khráp",
-            "breakdown": [
-                {
-                    "source": "สิบสอง",
-                    "target": "twelve",
-                    "phonetic": "sìp sǎawng",
-                    "partOfSpeech": "numeral"
-                },
-                {
-                    "source": "โมง",
-                    "target": "o'clock",
-                    "phonetic": "moong",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "เป็น",
-                    "target": "is",
-                    "phonetic": "bpen",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "เวลา",
-                    "target": "time",
-                    "phonetic": "wee-laa",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ที่",
-                    "target": "that",
-                    "phonetic": "thîi",
-                    "partOfSpeech": "relative pronoun"
-                },
-                {
-                    "source": "ดี",
-                    "target": "good",
-                    "phonetic": "dee",
+                    "source": "ว่าง",
+                    "target": "free / available",
+                    "phonetic": "wâang",
                     "partOfSpeech": "adjective"
                 },
                 {
                     "source": "ไหม",
-                    "target": "or not",
-                    "phonetic": "măi",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
                     "partOfSpeech": "particle"
                 },
                 {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "source": "คะ",
+                    "target": "polite question (♀)",
+                    "phonetic": "ká",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "ใช่ สิบสองโมงดีครับ",
-            "target": "Yes, twelve is good!",
-            "phonetic": "châi sìp sǎawng moong dee khráp",
+            "source": "ว่างครับ",
+            "target": "Yes, I'm free. (♂)",
+            "phonetic": "wâang kráp",
             "breakdown": [
                 {
-                    "source": "ใช่",
-                    "target": "yes",
-                    "phonetic": "châi",
-                    "partOfSpeech": "interjection"
-                },
-                {
-                    "source": "สิบสอง",
-                    "target": "twelve",
-                    "phonetic": "sìp sǎawng",
-                    "partOfSpeech": "numeral"
-                },
-                {
-                    "source": "โมง",
-                    "target": "o'clock",
-                    "phonetic": "moong",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ดี",
-                    "target": "good",
-                    "phonetic": "dee",
+                    "source": "ว่าง",
+                    "target": "free",
+                    "phonetic": "wâang",
                     "partOfSpeech": "adjective"
                 },
                 {
                     "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "target": "polite particle (♂)",
+                    "phonetic": "kráp",
                     "partOfSpeech": "particle"
                 }
             ]
         }
     ],
-    "createdAt": "2025-09-28T11:00:00Z",
-    "updatedAt": "2025-09-28T11:00:00Z",
+    "createdAt": "2025-09-28T08:54:49Z",
+    "updatedAt": "2026-04-08T14:00:00Z",
     "difficulty": "beginner",
     "summary": {
-        "source": "การสนทนาเกี่ยวกับเวลาและตารางเวลา",
-        "target": "Conversation about time and schedules"
+        "source": "พิมกับสมชายคุยเรื่องเวลาและกิจวัตรง่ายๆ",
+        "target": "Pim and Somchai talk about time and simple daily routines."
     }
 }

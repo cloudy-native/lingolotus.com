@@ -1,0 +1,521 @@
+{
+    "collectionId": "thai-english-beginner",
+    "sourceLanguage": "th",
+    "targetLanguage": "en",
+    "createdAt": "2026-04-08T12:00:00Z",
+    "updatedAt": "2026-04-08T18:30:00Z",
+    "difficulty": "beginner",
+    "category": "language-learning",
+    "deckId": "time",
+    "name": "Thai Time of Day",
+    "description": "Telling time, parts of the day, and simple schedule language for beginners.",
+    "theme": "time",
+    "cards": [
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เวลา"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "time"
+            },
+            "tags": [
+                "time"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "wee-laa",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "ตอนนี้กี่โมงครับ",
+                    "translation": "What time is it now? (♂)",
+                    "phonetic": "dton-níi gìi moong kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "กี่โมง"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "what time? / how many o'clock?"
+            },
+            "tags": [
+                "time",
+                "question"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "gìi moong",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "กี่โมงแล้วค่ะ",
+                    "translation": "What time is it? (♀)",
+                    "phonetic": "gìi moong lɛ́ɛo kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "โมง"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "o'clock (hour, daytime style)"
+            },
+            "tags": [
+                "time"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "moong",
+            "partOfSpeech": "classifier",
+            "examples": [
+                {
+                    "original": "สองโมงครับ",
+                    "translation": "Two o'clock (♂)",
+                    "phonetic": "sǎawng moong kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "นาฬิกา"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "clock / watch"
+            },
+            "tags": [
+                "time"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "naa-lí-gaa",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "ดูนาฬิกาค่ะ",
+                    "translation": "Look at the clock (♀)",
+                    "phonetic": "duu naa-lí-gaa kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ตอนนี้"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "now"
+            },
+            "tags": [
+                "time"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "dton-níi",
+            "partOfSpeech": "adverb",
+            "examples": [
+                {
+                    "original": "ตอนนี้ยุ่งครับ",
+                    "translation": "I'm busy now (♂)",
+                    "phonetic": "dton-níi yûng kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "วันนี้"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "today"
+            },
+            "tags": [
+                "time"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "wan-níi",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "วันนี้ทำอะไรค่ะ",
+                    "translation": "What are you doing today? (♀)",
+                    "phonetic": "wan-níi tam à-rai kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "พรุ่งนี้"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "tomorrow"
+            },
+            "tags": [
+                "time"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "prûng-níi",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "พรุ่งนี้เจอกันครับ",
+                    "translation": "See you tomorrow (♂)",
+                    "phonetic": "prûng-níi jəə gan kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เมื่อวาน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "yesterday"
+            },
+            "tags": [
+                "time"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "mûea-waan",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "เมื่อวานยุ่งค่ะ",
+                    "translation": "I was busy yesterday (♀)",
+                    "phonetic": "mûea-waan yûng kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เช้า"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "morning"
+            },
+            "tags": [
+                "time"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "cháao",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "ตอนเช้าครับ",
+                    "translation": "In the morning (♂)",
+                    "phonetic": "dton cháao kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "สาย"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "late morning / late"
+            },
+            "tags": [
+                "time"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "sǎai",
+            "partOfSpeech": "noun",
+            "context": "Also 'late'",
+            "examples": [
+                {
+                    "original": "มาสายค่ะ",
+                    "translation": "Came late (♀)",
+                    "phonetic": "maa sǎai kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เที่ยง"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "noon / midday"
+            },
+            "tags": [
+                "time"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "tîang",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "กินข้าวเที่ยงครับ",
+                    "translation": "Eat lunch (♂)",
+                    "phonetic": "gin kâao tîang kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "บ่าย"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "afternoon"
+            },
+            "tags": [
+                "time"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "bàai",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "บ่ายสองโมงค่ะ",
+                    "translation": "2 p.m. (♀)",
+                    "phonetic": "bàai sǎawng moong kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เย็น"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "evening / late afternoon"
+            },
+            "tags": [
+                "time"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "yen",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "ตอนเย็นว่างไหมครับ",
+                    "translation": "Free this evening? (♂)",
+                    "phonetic": "dton yen wâang mǎi kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "กลางคืน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "night / nighttime"
+            },
+            "tags": [
+                "time"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "glaang-keun",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "กลางคืนนอนค่ะ",
+                    "translation": "Sleep at night (♀)",
+                    "phonetic": "glaang-keun nawn kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "นอน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to sleep / go to bed"
+            },
+            "tags": [
+                "verb",
+                "daily"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "nawn",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "นอนกี่โมงครับ",
+                    "translation": "What time do you sleep? (♂)",
+                    "phonetic": "nawn gìi moong kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ตื่น"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to wake up"
+            },
+            "tags": [
+                "verb",
+                "daily"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "dtùen",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "ตื่นเช้าค่ะ",
+                    "translation": "Wake up early (♀)",
+                    "phonetic": "dtùen cháao kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "แล้ว"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "already"
+            },
+            "tags": [
+                "grammar",
+                "time"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "lɛ́ɛo",
+            "partOfSpeech": "particle",
+            "examples": [
+                {
+                    "original": "กินแล้วครับ",
+                    "translation": "I already ate (♂)",
+                    "phonetic": "gin lɛ́ɛo kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เมื่อไหร่"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "when?"
+            },
+            "tags": [
+                "question",
+                "time"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "mûea-rài",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "เมื่อไหร่ไปค่ะ",
+                    "translation": "When are you going? (♀)",
+                    "phonetic": "mûea-rài bpai kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เร็ว"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "early / fast"
+            },
+            "tags": [
+                "time"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "reo",
+            "partOfSpeech": "adjective",
+            "examples": [
+                {
+                    "original": "นอนเร็วครับ",
+                    "translation": "Go to bed early (♂)",
+                    "phonetic": "nawn reo kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ช้า"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "slow / late"
+            },
+            "tags": [
+                "time"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "cháa",
+            "partOfSpeech": "adjective",
+            "examples": [
+                {
+                    "original": "อย่าช้าค่ะ",
+                    "translation": "Don't be late (♀)",
+                    "phonetic": "yàa cháa kâ"
+                }
+            ]
+        }
+    ]
+}

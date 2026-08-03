@@ -9,7 +9,13 @@ import {
   markStoryComplete,
   type Level,
 } from "@/lib/progress";
-import { getBrowsePath, getHomePath, getStoryPath } from "@/lib/utils";
+import {
+  getBrowsePath,
+  getHomePath,
+  getStoryPath,
+  getUnitPath,
+  withUnitQuery,
+} from "@/lib/utils";
 
 export interface PairedStoryInfo {
   storyId: string;
@@ -28,6 +34,7 @@ interface DeckSessionCompleteProps {
   correct?: number;
   incorrect?: number;
   total?: number;
+  unitId?: string | null;
 }
 
 interface StorySessionCompleteProps {
@@ -38,6 +45,7 @@ interface StorySessionCompleteProps {
   stepIndex?: number;
   nextHref?: string | null;
   nextLabel?: string | null;
+  unitId?: string | null;
 }
 
 type Props = DeckSessionCompleteProps | StorySessionCompleteProps;
@@ -53,6 +61,7 @@ export default function SessionComplete(props: Props) {
       const next = markDeckComplete(props.deckId, {
         level: props.level,
         stepIndex: props.stepIndex,
+        unitId: props.unitId || undefined,
       });
       if (props.pairedStory) {
         setStoryDone(next.completedStories.includes(props.pairedStory.storyId));
@@ -61,6 +70,7 @@ export default function SessionComplete(props: Props) {
       markStoryComplete(props.storyId, {
         level: props.level,
         stepIndex: props.stepIndex,
+        unitId: props.unitId || undefined,
       });
     }
     setSaved(true);
@@ -71,7 +81,10 @@ export default function SessionComplete(props: Props) {
   if (props.kind === "deck") {
     const showPair = props.pairedStory && !storyDone;
     const pairHref = props.pairedStory
-      ? getStoryPath(props.pairedStory.bookId, props.pairedStory.storyId)
+      ? withUnitQuery(
+          getStoryPath(props.pairedStory.bookId, props.pairedStory.storyId),
+          props.unitId,
+        )
       : null;
 
     const hasScores =
@@ -108,13 +121,21 @@ export default function SessionComplete(props: Props) {
               Read: {props.pairedStory.title}
             </a>
           )}
+          {props.unitId && (
+            <a
+              href={getUnitPath(props.unitId)}
+              className={
+                showPair
+                  ? "inline-flex w-full items-center justify-center rounded-xl border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800 hover:bg-slate-50"
+                  : "inline-flex w-full items-center justify-center rounded-xl bg-teal-700 px-4 py-3 text-sm font-semibold text-white hover:bg-teal-800"
+              }
+            >
+              Back to unit
+            </a>
+          )}
           <a
             href={getHomePath()}
-            className={
-              showPair
-                ? "inline-flex w-full items-center justify-center rounded-xl border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800 hover:bg-slate-50"
-                : "inline-flex w-full items-center justify-center rounded-xl bg-teal-700 px-4 py-3 text-sm font-semibold text-white hover:bg-teal-800"
-            }
+            className="inline-flex w-full items-center justify-center rounded-xl border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800 hover:bg-slate-50"
           >
             Back to Learn
           </a>
@@ -135,9 +156,21 @@ export default function SessionComplete(props: Props) {
       <h2 className="text-2xl font-bold text-slate-900">{props.storyTitle}</h2>
       {saved && <p className="text-sm text-slate-500">Saved on this device</p>}
       <div className="flex flex-col gap-3 pt-2">
+        {props.unitId && (
+          <a
+            href={getUnitPath(props.unitId)}
+            className="inline-flex w-full items-center justify-center rounded-xl bg-teal-700 px-4 py-3 text-sm font-semibold text-white hover:bg-teal-800"
+          >
+            Back to unit
+          </a>
+        )}
         <a
           href={getHomePath()}
-          className="inline-flex w-full items-center justify-center rounded-xl bg-teal-700 px-4 py-3 text-sm font-semibold text-white hover:bg-teal-800"
+          className={
+            props.unitId
+              ? "inline-flex w-full items-center justify-center rounded-xl border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800 hover:bg-slate-50"
+              : "inline-flex w-full items-center justify-center rounded-xl bg-teal-700 px-4 py-3 text-sm font-semibold text-white hover:bg-teal-800"
+          }
         >
           Back to Learn
         </a>

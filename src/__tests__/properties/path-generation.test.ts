@@ -6,6 +6,9 @@ import {
   getStudyPath,
   getBookPath,
   getStoryPath,
+  getUnitPath,
+  withUnitQuery,
+  readUnitIdFromSearch,
 } from "@/lib/utils";
 
 /**
@@ -301,4 +304,32 @@ describe("Feature: astro-migration, Property 2: Path Generation Correctness", ()
       );
     });
   });
+
+  describe("getUnitPath(unitId)", () => {
+    it("matches /unit/{unitId}", () => {
+      fc.assert(
+        fc.property(validId, (unitId) => {
+          const result = getUnitPath(unitId);
+          expect(result).toBe(`/unit/${unitId}`);
+        }),
+        { numRuns: 100 },
+      );
+    });
+  });
+
+
+  describe("withUnitQuery / readUnitIdFromSearch", () => {
+    it("appends unit query", () => {
+      expect(withUnitQuery("/flash-cards/a/decks/b/study", "beginner-greetings")).toBe(
+        "/flash-cards/a/decks/b/study?unit=beginner-greetings",
+      );
+      expect(withUnitQuery("/x?y=1", "u")).toBe("/x?y=1&unit=u");
+      expect(withUnitQuery("/x", null)).toBe("/x");
+    });
+    it("reads unit from search", () => {
+      expect(readUnitIdFromSearch("?unit=beginner-greetings")).toBe("beginner-greetings");
+      expect(readUnitIdFromSearch("")).toBe(null);
+    });
+  });
+
 });

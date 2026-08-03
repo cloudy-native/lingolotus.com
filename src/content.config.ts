@@ -15,7 +15,6 @@ const flashcardCollections = defineCollection({
     category: z.string().optional(),
     difficulty: z.string().optional(),
     imageUrl: z.string().optional(),
-    featured: z.boolean().optional(),
   }),
 });
 
@@ -73,7 +72,6 @@ const books = defineCollection({
     category: z.string().optional(),
     difficulty: z.string().optional(),
     imageUrl: z.string().optional(),
-    featured: z.boolean().optional(),
   }),
 });
 

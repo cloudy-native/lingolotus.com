@@ -3,136 +3,106 @@
     "bookId": "thai-advanced-1",
     "language": "th",
     "title": {
-        "source": "การเดินทางสู่ภูเขา",
-        "target": "A Journey to the Mountains"
+        "source": "เดินทางสู่ภูเขา",
+        "target": "Journey to the Mountains"
     },
     "sentences": [
         {
-            "source": "เอ็มมาใฝ่ฝันมาโดยตลอดที่จะหนีจากเมืองที่พลุกพล่านเพื่อไปสำรวจภูเขาที่เงียบสงบ",
-            "target": "Emma had always dreamed of escaping the bustling city to explore the serene mountains.",
-            "phonetic": "em-maa fài-făn maa doi dtà-lɔ̀ɔt thîi jà nǐi jàak mʉang thîi phlúk-phlân phʉ̂a bpai săm-rùat phuu-khǎo thîi ngîap sà-ngòp",
-            "breakdown": []
+            "source": "ก่อนรุ่งสาง เราออกจากหมู่บ้านด้วยไฟฉายและเป้ใบเล็ก",
+            "target": "Before dawn we left the village with headlamps and light packs.",
+            "phonetic": "gàwn rûng-sǎang rao àwk jàak mùu-bâan dûay fai-chǎai lɛ́ bpêe bai lék"
         },
         {
-            "source": "ฤดูร้อนที่แล้ว เธอได้เริ่มต้นการเดินทางไปยังเทือกเขาร็อกกี้ในที่สุด ที่ซึ่งยอดเขาสูงตระหง่านทะลุท้องฟ้า",
-            "target": "Last summer, she finally embarked on a journey to the Rockies, where towering peaks pierced the sky.",
-            "phonetic": "rʉ́-duu rɔ́ɔn thîi lɛ́ɛw thəə dâi rə̂əm-dtôn gaan dəən-thaang bpai yang thʉ̂ak-khǎo rɔ́k-gîi nai thîi-sùt thîi sʉ̂ng yɔ̂ɔt-khǎo sǔung dtrà-ngàan thá-lú thɔ́ɔng-fáa",
-            "breakdown": []
+            "source": "อากาศหนาวจนลมหายใจเป็นไอ ควันลอยจากกระท่อมกาแฟ",
+            "target": "The cold turned breath to mist; smoke rose from a coffee hut.",
+            "phonetic": "aa-gàat nǎao jon lom hǎai-jai bpen ai kwan laawj jàak grà-tâwm gaa-fɛɛ"
         },
         {
-            "source": "อากาศที่สดชื่นเติมเต็มปอดของเธอขณะที่เธอเดินป่าผ่านป่าไม้หนาทึบของต้นสนและต้นซีดาร์",
-            "target": "The crisp air filled her lungs as she hiked through dense forests of pine and cedar.",
-            "phonetic": "aa-gàat thîi sòt-chʉ̂ən dtə̀əm-dtèm bpɔ̀ɔt khɔ̌ɔng thəə khà-nà thîi thəə dəən-bpàa phàan bpàa-máai nǎa-thʉ́p khɔ̌ɔng dtôn sǒn láe dtôn sii-daa",
-            "breakdown": []
+            "source": "คนนำทางท้องถิ่นเดินช้าแต่แน่นอน เหมือนรู้จักดินทุกก้าว",
+            "target": "The local guide walked slowly but surely, as if he knew every step of ground.",
+            "phonetic": "kon nam-taang táwng-tìn dəən cháa dtàae nâe-nawn mǔean rúu-jàk din túk gâao"
         },
         {
-            "source": "ระหว่างทางเธอได้พบกับกลุ่มนักผจญภัยที่แบ่งปันเรื่องราวการเดินทางของพวกเขา",
-            "target": "Along the trail, she encountered a group of fellow adventurers who shared stories of their travels.",
-            "phonetic": "rá-wàang thaang thəə dâi phóp gàp glùm nák-phà-jon-phai thîi bɛ̀ng-bpan rʉ̂ang-raao gaan dəən-thaang khɔ̌ɔng phûak-kháo",
-            "breakdown": []
+            "source": "ระหว่างทางมีหมอกหนาจนมองไม่เห็นยอดดอย",
+            "target": "Fog was so thick we couldn't see the ridge.",
+            "phonetic": "rá-wàang taang mii màwk nǎa jon mong mâi hěn yâwt dooi"
         },
         {
-            "source": "เสียงหัวเราะของพวกเขาก้องกังวานไปทั่วหุบเขา ผสมผสานกับเสียงของลำธารใกล้ๆ",
-            "target": "Their laughter echoed through the valley, blending with the sound of a nearby stream.",
-            "phonetic": "sǐang hǔa-ró khɔ̌ɔng phûak-kháo gɔ̂ɔng-gang-waan bpai thûa hùp-khǎo phà-sǒm-phà-sǎan gàp sǐang khɔ̌ɔng lam-thaan glâi-glâi",
-            "breakdown": []
+            "source": "ผมเคยคิดว่าการปีนเขาคือการพิชิต",
+            "target": "I used to think climbing meant conquering.",
+            "phonetic": "pǒm koie kít wâa gaan bpiin kǎo keu gaan pí-chít"
         },
         {
-            "source": "เอ็มมาประหลาดใจกับดอกไม้ป่าที่มีสีสันสดใสซึ่งกระจายอยู่ทั่วภูมิทัศน์ สีสันของมันสดใสเด่นชัดท่ามกลางภูมิประเทศที่ขรุขระ",
-            "target": "Emma marveled at the vibrant wildflowers that dotted the landscape, their colors vivid against the rugged terrain.",
-            "phonetic": "em-maa bprà-làat-jai gàp dɔ̀ɔk-máai bpàa thîi mii sǐi-sǎn sòt-sǎi sʉ̂ng grà-jaai yùu thûa phuum-thát sǐi-sǎn khɔ̌ɔng man sòt-sǎi dèn-chát thâam-glaang phuum-bprà-thêet thîi khrù-khrà",
-            "breakdown": []
+            "source": "แต่ที่นี่มันเป็นการขออนุญาตจากภูเขาทีละก้าว",
+            "target": "Here it felt like asking the mountain's permission, step by step.",
+            "phonetic": "dtàae tîi nîi man bpen gaan kǎw à-nú-yâat jàak puu-kǎo tii lá gâao"
         },
         {
-            "source": "เธอหยุดพักที่จุดชมวิว ที่ซึ่งทิวทัศน์ทอดยาวไปอย่างไม่มีที่สิ้นสุดต่อหน้าเธอ",
-            "target": "She stopped to rest at a lookout point, where the view stretched endlessly before her.",
-            "phonetic": "thəə yùt phák thîi jùt chom-wiu thîi sʉ̂ng thiw-thát thɔ̂ɔt-yaao bpai yàang mâi mii thîi sîn-sùt dtɔ̀ɔ-nâa thəə",
-            "breakdown": []
+            "source": "เมื่อเหนื่อย คนนำทางบอกให้หยุดฟังเสียงนกแทนการเร่ง",
+            "target": "When tired, the guide said stop and listen to birds instead of rushing.",
+            "phonetic": "mûea nùeai kon nam-taang bàwk hâi yùt fang sǐiang nók tɛɛn gaan rêeng"
         },
         {
-            "source": "ความกว้างใหญ่ไพศาลของภูเขาทำให้เธอรู้สึกทั้งเล็กและมีพลัง",
-            "target": "The vastness of the mountains made her feel both small and empowered.",
-            "phonetic": "khwaam gwâang-yài phai-sǎan khɔ̌ɔng phuu-khǎo tham hâi thəə rúu-sʉ̀k tháng lék láe mii phlang",
-            "breakdown": []
+            "source": "คำพูดนั้นเปลี่ยนจังหวะหัวใจของผมทันที",
+            "target": "Those words changed my heartbeat's pace at once.",
+            "phonetic": "kam-pûut nán bplìan jang-wà hǔa-jai kǎwng pǒm tan-tii"
         },
         {
-            "source": "เมื่อดวงอาทิตย์เริ่มตกดิน มันส่องแสงสีทองไปทั่วยอดเขา",
-            "target": "As the sun began to set, it cast a golden glow over the peaks.",
-            "phonetic": "mʉ̂a duang-aa-thít rə̂əm dtòk-din man sɔ̀ng-sɛ̌ɛng sǐi thɔɔng bpai thûa yɔ̂ɔt-khǎo",
-            "breakdown": []
+            "source": "ถึงยอดตอนสาย หมอกลอยต่ำเหมือนทะเลสีขาว",
+            "target": "We reached the top mid-morning; fog floated like a white sea.",
+            "phonetic": "tǔng yâwt dton sǎai màwk laawj dtàm mǔean tá-lee sǐi kǎao"
         },
         {
-            "source": "เธอรู้สึกถึงความเชื่อมโยงอย่างลึกซึ้งกับธรรมชาติ ซึ่งเธอไม่ค่อยได้สัมผัสในเมือง",
-            "target": "She felt a deep connection to nature, one she had rarely experienced in the city.",
-            "phonetic": "thəə rúu-sʉ̀k thʉ̌ng khwaam chʉ̂am-yoong yàang lʉ́k-sʉ́ng gàp tham-má-châat sʉ̂ng thəə mâi khɔ̂i dâi sǎm-phàt nai mʉang",
-            "breakdown": []
+            "source": "ไม่มีใครโห่ร้องดัง ทุกคนยืนนิ่งด้วยความเคารพ",
+            "target": "No one cheered loudly; everyone stood still in respect.",
+            "phonetic": "mâi mii krai hòo-ráwng dang túk kon yuen nîng dûay kwaam kao-róp"
         },
         {
-            "source": "เพื่อนร่วมทางของเธอเชิญเธอมาร่วมทานอาหารเย็นริมกองไฟใต้แสงดาว",
-            "target": "Her companions invited her to join them for a campfire dinner under the stars.",
-            "phonetic": "phʉ̂an-rûam-thaang khɔ̌ɔng thəə chəən thəə maa rûam thaan aa-hǎan-yen rim gɔɔng-fai dtâi sɛ̌ɛng-daao",
-            "breakdown": []
+            "source": "ด้านล่างมีไร่ชาเรียงเป็นขั้นบันไดสีเขียว",
+            "target": "Below, tea terraces stepped down in green.",
+            "phonetic": "dâan lâang mii râi chaa riang bpen kân-ban-dai sǐi kǐaw"
         },
         {
-            "source": "พวกเขาปิ้งมาร์ชแมลโลว์และพูดคุยเกี่ยวกับหนังสือที่ชื่นชอบ ตั้งแต่นวนิยายคลาสสิกไปจนถึงนิยายระทึกขวัญสมัยใหม่",
-            "target": "They roasted marshmallows and discussed their favorite books, ranging from classic novels to modern thrillers.",
-            "phonetic": "phûak-kháo bpîng maa-chɛɛ-loh láe phûut-khui gìeow-gàp nǎng-sʉ̌ʉ thîi chʉ̂ən-chɔɔp dtâng-dtɛ̀ɛ na-wá-ní-yaai khlaa-sìk bpai jon thʉ̌ng ní-yaai rá-thʉ́ʉ-khwǎn sà-mǎi-mài",
-            "breakdown": []
+            "source": "คนนำทางชี้ไปยังหมู่บ้านแล้วบอกว่า นั่นคือบ้านเกิดของเขา",
+            "target": "The guide pointed to a village and said it was his birthplace.",
+            "phonetic": "kon nam-taang chíi bpai yang mùu-bâan lɛ́ɛo bàwk wâa nân keu bâan-gə̀ət kǎwng kǎo"
         },
         {
-            "source": "เอ็มมาตระหนักว่าการเดินทางครั้งนี้ไม่ได้เกี่ยวกับจุดหมายปลายทางเท่านั้น แต่ยังเกี่ยวกับความผูกพันที่เธอกำลังสร้างขึ้น",
-            "target": "Emma realized that this trip was not just about the destination but also about the bonds she was forming.",
-            "phonetic": "em-maa dtrà-nák wâa gaan dəən-thaang khráng-níi mâi dâi gìeow-gàp jùt-mǎai bplaai-thaang thâo-nán dtɛ̀ɛ yang gìeow-gàp khwaam phùuk-phan thîi thəə gam-lang sâang-khʉ̂n",
-            "breakdown": []
+            "source": "ผมเข้าใจว่าสำหรับเขา ภูเขาไม่ใช่สถานที่ท่องเที่ยว แต่เป็นเครือญาติ",
+            "target": "I understood that for him the mountain wasn't tourism — it was kin.",
+            "phonetic": "pǒm kâo-jai wâa sǎm-ràp kǎo puu-kǎo mâi châi sà-tǎan-tîi tông-tîao dtàae bpen krʉa-yâat"
         },
         {
-            "source": "เช้าวันรุ่งขึ้น เธอตื่นขึ้นมาด้วยเสียงนกร้องและรู้สึกสดชื่น",
-            "target": "The next morning, she woke to the sound of birds chirping and felt refreshed.",
-            "phonetic": "cháao wan-rûng-khʉ̂n thəə dtʉ̀ʉn-khʉ̂n maa dûai sǐang nók-rɔ́ɔng láe rúu-sʉ̀k sòt-chʉ̂ən",
-            "breakdown": []
+            "source": "ลงเขา เข่าสั่น แต่ใจเบาอย่างไม่เคยเป็น",
+            "target": "Going down, my knees shook, but my heart felt lighter than ever.",
+            "phonetic": "long kǎo kào sàn dtàae jai bao yàang mâi koie bpen"
         },
         {
-            "source": "เธอตัดสินใจปีนขึ้นไปสูงขึ้น กระตือรือร้นที่จะไปถึงทะเลสาบที่ซ่อนอยู่ซึ่งเธอได้อ่านมา",
-            "target": "She decided to climb higher, eager to reach a hidden lake she had read about.",
-            "phonetic": "thəə dtàt-sǐn-jai bpiin-khʉ̂n bpai sǔung-khʉ̂n grà-dtʉʉ-rʉʉ-rɔ́ɔn thîi jà bpai thʉ̌ng thá-lee-sàap thîi sɔ̂ɔn-yùu sʉ̂ng thəə dâi àan maa",
-            "breakdown": []
+            "source": "คืนนั้นที่โฮมสเตย์ เรานั่งคุยเรื่องการอนุรักษ์โดยไม่ใช้คำสวยหรู",
+            "target": "That night at the homestay we talked conservation without fancy words.",
+            "phonetic": "keun nán tîi hoom-sà-tee rao nâng kui rʉ̂ang gaan à-nú-rák dooi mâi chái kam sǔay-rǔu"
         },
         {
-            "source": "เส้นทางสูงชัน แต่ความมุ่งมั่นของเธอผลักดันเธอไปข้างหน้า",
-            "target": "The path was steep, but her determination pushed her forward.",
-            "phonetic": "sên-thaang sǔung-chan dtɛ̀ɛ khwaam mûng-mân khɔ̌ɔng thəə phlàk-dan thəə bpai khâang-nâa",
-            "breakdown": []
+            "source": "บางครั้งการดูแลธรรมชาติ เริ่มจากการไม่ทิ้งรอยเกินจำเป็น",
+            "target": "Sometimes caring for nature starts with leaving no unnecessary mark.",
+            "phonetic": "baang kráng gaan duu-lɛɛ tam-má-châat rôem jàak gaan mâi tíng raai gəən jam-bpen"
         },
         {
-            "source": "เมื่อเธอมาถึงในที่สุด น้ำที่ใสเหมือนคริสตัลสะท้อนภูเขาที่ปกคลุมด้วยหิมะได้อย่างสมบูรณ์แบบ",
-            "target": "When she finally arrived, the crystal-clear water reflected the snow-capped mountains perfectly.",
-            "phonetic": "mʉ̂a thəə maa thʉ̌ng nai thîi-sùt náam thîi sǎi mʉ̌an khrít-dtaan sà-thɔ́ɔn phuu-khǎo thîi bpòk-khlum dûai hì-má dâi yàang sǒm-buun-bɛ̀ɛp",
-            "breakdown": []
+            "source": "ผมกลับกรุงเทพฯ พร้อมฝุ่นแดงบนรองเท้า และบทเรียนเงียบๆ",
+            "target": "I returned to Bangkok with red dust on my shoes and a quiet lesson.",
+            "phonetic": "pǒm glàb grung-têep práwm fùn dɛɛng bon rong-táo lɛ́ bòt-rian ngîap ngîap"
         },
         {
-            "source": "เอ็มมานั่งริมทะเลสาบ เขียนบันทึกความคิดและวาดภาพทิวทัศน์",
-            "target": "Emma sat by the lake, journaling her thoughts and sketching the scenery.",
-            "phonetic": "em-maa nâng rim thá-lee-sàap khǐan ban-thʉ́k khwaam-khít láe wâat phâap thiw-thát",
-            "breakdown": []
-        },
-        {
-            "source": "เธอรู้ว่าช่วงเวลานี้จะอยู่กับเธอตลอดไป",
-            "target": "She knew this moment would stay with her forever.",
-            "phonetic": "thəə rúu wâa chûang-wee-laa níi jà yùu gàp thəə dtà-lɔ̀ɔt-bpai",
-            "breakdown": []
-        },
-        {
-            "source": "ขณะที่เธอเดินลงมาตามเส้นทาง เธอสัญญากับตัวเองว่าจะกลับมาอีกครั้งในปีหน้า บางทีอาจจะมาพร้อมกับเพื่อนใหม่",
-            "target": "As she descended the trail, she promised herself to return next year, perhaps with new friends.",
-            "phonetic": "khà-nà thîi thəə dəən-long-maa dtaam sên-thaang thəə sǎn-yaa gàp dtua-eeng wâa jà glàp-maa ìik khráng nai bpii-nâa baang-thii àat jà maa phrɔ́ɔm gàp phʉ̂an-mài",
-            "breakdown": []
+            "source": "ว่าความสูงที่แท้จริง อาจวัดจากความอ่อนน้อม ไม่ใช่จากความเร็ว",
+            "target": "That true height may be measured by humility, not speed.",
+            "phonetic": "wâa kwaam sǔung tîi tâae jing àat wát jàak kwaam àwn-náwm mâi châi jàak kwaam reo"
         }
     ],
-    "createdAt": "2025-09-30T20:22:00Z",
-    "updatedAt": "2025-09-30T20:22:00Z",
+    "createdAt": "2025-09-28T08:54:49Z",
+    "updatedAt": "2026-04-08T17:00:00Z",
     "difficulty": "advanced",
     "summary": {
-        "source": "การผจญภัยบนภูเขาของเอ็มมา การเดินทางเพื่อค้นพบธรรมชาติและมิตรภาพใหม่",
-        "target": "Emma's mountain adventure, journey to discover nature and new friendships"
+        "source": "สมชายเดินป่าที่ดอยในภาคเหนือ เรียนรู้ธรรมชาติและขอบเขตของตัวเอง",
+        "target": "Somchai hikes a northern mountain — nature and personal limits."
     }
 }

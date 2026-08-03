@@ -3,136 +3,106 @@
     "bookId": "thai-advanced-1",
     "language": "th",
     "title": {
-        "source": "การรวมตัวของครอบครัว",
+        "source": "งานรวมญาติ",
         "target": "A Family Reunion"
     },
     "sentences": [
         {
-            "source": "การรวมตัวของครอบครัวประจำปีที่ฟาร์มของคุณยายโรซ่าเป็นประเพณีที่โซเฟียหวงแหนอย่างลึกซึ้ง",
-            "target": "The annual family reunion at Grandma Rosa's farm was a tradition Sofia cherished deeply.",
-            "phonetic": "gaan ruam-dtua khɔ̌ɔng khrɔɔp-khrua bprà-jam-bpii thîi faam khɔ̌ɔng khun-yaai roo-sâa bpen bprà-phee-nii thîi soo-fii-aa hǔang-hɛ̌ɛn yàang lʉ́k-sʉ́ng",
-            "breakdown": []
+            "source": "ทุกปีช่วงสงกรานต์ ครอบครัวใหญ่ของเราจะนัดรวมตัวที่บ้านเชียงใหม่",
+            "target": "Every Songkran, our extended family gathers at the house in Chiang Mai.",
+            "phonetic": "túk bpii chûang sǒng-graan krâwp-krua yài kǎwng rao jà nát ruam-dtua tîi bâan chiang-mài"
         },
         {
-            "source": "ญาติจากทั่วประเทศมารวมตัวกัน เติมเต็มอากาศด้วยเสียงหัวเราะและเรื่องราว",
-            "target": "Relatives from across the country gathered, filling the air with laughter and stories.",
-            "phonetic": "yâat jàak thûa bprà-thêet maa ruam-dtua-gan dtə̀əm-dtèm aa-gàat dûai sǐang-hǔa-ró láe rʉ̂ang-raao",
-            "breakdown": []
+            "source": "ปีนี้มีทั้งปู่ย่า ลุงป้า และหลานที่เพิ่งเกิด",
+            "target": "This year there were grandparents, aunts and uncles, and a newborn.",
+            "phonetic": "bpii níi mii táng bpùu-yâa lung-bpâa lɛ́ lǎan tîi pʉ̂ng gə̀ət"
         },
         {
-            "source": "ฟาร์ม ด้วยทุ่งนากว้างใหญ่และยุ้งฉางเก่า รู้สึกเหมือนแคปซูลเวลา",
-            "target": "The farm, with its sprawling fields and old barn, felt like a time capsule.",
-            "phonetic": "faam dûai thûng-naa gwâang-yài láe yúng-chaang gào rúu-sʉ̀k mʉ̌an khɛ̀ɛp-suun wee-laa",
-            "breakdown": []
+            "source": "ตอนเช้าทุกคนช่วยกันทำบุญตักบาตรหน้าบ้าน",
+            "target": "In the morning everyone helped offer alms in front of the house.",
+            "phonetic": "dton cháao túk kon chûay gan tam-bun dtàk-bàat nâa bâan"
         },
         {
-            "source": "โซเฟียช่วยลูกพี่ลูกน้องของเธอเตรียมงานเลี้ยง สับผักและคนซอส",
-            "target": "Sofia helped her cousins prepare a feast, chopping vegetables and stirring sauces.",
-            "phonetic": "soo-fii-aa chûai lûuk-phîi-lûuk-nɔ́ɔng khɔ̌ɔng thəə dtrìiam ngaan-líiang sàp phàk láe khon sɔ́ɔt",
-            "breakdown": []
+            "source": "กลิ่นข้าวหลามและน้ำพริกหนุ่มทำให้รู้สึกว่ากลับบ้านจริงๆ",
+            "target": "The smell of sticky rice in bamboo and young chili dip felt like truly coming home.",
+            "phonetic": "glìn kâao-lǎam lɛ́ náam-prík nùm tam hâi rúu-sʉ̀k wâa glàb bâan jing jing"
         },
         {
-            "source": "คุณยายโรซ่าแบ่งปันสูตรอาหารที่ส่งต่อมาหลายรุ่น แต่ละสูตรมีเรื่องราว",
-            "target": "Grandma Rosa shared recipes passed down through generations, each with a story.",
-            "phonetic": "khun-yaai roo-sâa bɛ̀ng-bpan sùut-aa-hǎan thîi sɔ̀ng-dtɔ̀ɔ maa lǎai rûn dtɛ̀ɛ-lá-sùut mii rʉ̂ang-raao",
-            "breakdown": []
+            "source": "ปู่เล่าเรื่องสมัยก่อนที่ยังทำนาและเดินไปวัดด้วยเท้าเปล่า",
+            "target": "Grandpa told stories of farming days and walking barefoot to the temple.",
+            "phonetic": "bpùu lâo rʉ̂ang sà-mǎi gàwn tîi yang tam naa lɛ́ dəən bpai wát dûay táo bplào"
         },
         {
-            "source": "ครอบครัวนั่งรอบโต๊ะยาว แบ่งปันความทรงจำของการรวมตัวในอดีต",
-            "target": "The family sat around a long table, sharing memories of past reunions.",
-            "phonetic": "khrɔɔp-khrua nâng rɔ̂ɔp dtó yaao bɛ̀ng-bpan khwaam-song-jam khɔ̌ɔng gaan ruam-dtua nai à-dìit",
-            "breakdown": []
+            "source": "บางคนในรุ่นเราเติบโตในกรุงเทพฯ จึงฟังเรื่องเหล่านั้นด้วยความสงสัยและชื่นชม",
+            "target": "Some of our generation grew up in Bangkok, so we listened with curiosity and respect.",
+            "phonetic": "baang kon nai rûn rao dtə̀əp-dtoo nai grung-têep jeung fang rʉ̂ang láo nán dûay kwaam sǒng-sǎi lɛ́ chúen-chom"
         },
         {
-            "source": "ลุงของโซเฟียเล่าการผจญภัยในวัยเด็กของเขาที่ฟาร์ม ทำให้ทุกคนหัวเราะ",
-            "target": "Sofia's uncle recounted his childhood adventures on the farm, making everyone laugh.",
-            "phonetic": "lung khɔ̌ɔng soo-fii-aa lâo gaan phà-jon-phai nai wai-dèk khɔ̌ɔng kháo thîi faam tham hâi thúk-khon hǔa-ró",
-            "breakdown": []
+            "source": "ตอนบ่ายมีการพูดคุยเรื่องมรดกที่ไม่ใช่เงิน แต่เป็นความรับผิดชอบ",
+            "target": "In the afternoon we talked about inheritance that isn't money, but responsibility.",
+            "phonetic": "dton bàai mii gaan pûut-kui rʉ̂ang maaw-rá-dòk tîi mâi châi ngen dtàae bpen kwaam ráp-pít-châwp"
         },
         {
-            "source": "ลูกพี่ลูกน้องที่อายุน้อยกว่าของเธอวิ่งผ่านทุ่งนา เล่นเกมจนพลบค่ำ",
-            "target": "Her younger cousins ran through the fields, playing games until sunset.",
-            "phonetic": "lûuk-phîi-lûuk-nɔ́ɔng thîi aa-yú-nɔ́ɔi-gwàa khɔ̌ɔng thəə wîng phàan thûng-naa lên geem jon phlóp-khâm",
-            "breakdown": []
+            "source": "พี่ชายบอกว่าการดูแลผู้ใหญ่คือหน้าที่ที่ทำด้วยใจ ไม่ใช่ภาระ",
+            "target": "My older brother said caring for elders is a duty of the heart, not a burden.",
+            "phonetic": "pîi-chaai bàwk wâa gaan duu-lɛɛ pûu-yài keu nâa-tîi tîi tam dûay jai mâi châi paa-rá"
         },
         {
-            "source": "โซเฟียรู้สึกถึงความคิดถึงอดีต จดจำวัยเด็กของเธอเองที่นี่",
-            "target": "Sofia felt a pang of nostalgia, remembering her own childhood here.",
-            "phonetic": "soo-fii-aa rúu-sʉ̀k thʉ̌ng khwaam-khít-thʉ̌ng à-dìit jòt-jam wai-dèk khɔ̌ɔng thəə eeng thîi-nîi",
-            "breakdown": []
+            "source": "ผมเองรู้สึกเกรงใจที่อยู่ห่างบ้านนาน แต่ทุกคนบอกว่าการกลับมาก็พอ",
+            "target": "I felt bad for living far away so long, but everyone said coming back is enough.",
+            "phonetic": "pǒm eeng rúu-sʉ̀k greeng-jai tîi yùu hàang bâan naan dtàae túk kon bàwk wâa gaan glàb maa gâw pɔɔ"
         },
         {
-            "source": "หลังอาหารเย็น พวกเขาจุดกองไฟ ปิ้งมาร์ชแมลโลว์ใต้แสงดาว",
-            "target": "After dinner, they lit a bonfire, roasting marshmallows under the stars.",
-            "phonetic": "lǎng aa-hǎan-yen phûak-kháo jùt gɔɔng-fai bpîng maa-chɛɛ-loh dtâi sɛ̌ɛng-daao",
-            "breakdown": []
+            "source": "เย็นนั้นเรานั่งล้อมวง กินข้าวและหัวเราะเรื่องเก่าๆ",
+            "target": "That evening we sat in a circle, ate, and laughed over old stories.",
+            "phonetic": "yen nán rao nâng láwm wong gin kâao lɛ́ hǔa-ráw rʉ̂ang gào gào"
         },
         {
-            "source": "คุณยายโรซ่าเล่าเรื่องราวในวัยหนุ่มสาวของเธอ เสียงของเธออ่อนโยนแต่น่าหลงใหล",
-            "target": "Grandma Rosa told tales of her youth, her voice soft but captivating.",
-            "phonetic": "khun-yaai roo-sâa lâo rʉ̂ang-raao nai wai-nùm-sǎao khɔ̌ɔng thəə sǐang khɔ̌ɔng thəə ɔ̀ɔn-yoon dtɛ̀ɛ nâa-lǒng-lǎi",
-            "breakdown": []
+            "source": "หลานตัวเล็กวิ่งเล่นจนปู่ยิ้มจนตาหยี",
+            "target": "The little ones ran around until grandpa smiled with his eyes.",
+            "phonetic": "lǎan dtua lék wîng lên jon bpùu yím jon dtaa yǐi"
         },
         {
-            "source": "โซเฟียบันทึกเรื่องราว ต้องการรักษาไว้สำหรับอนาคต",
-            "target": "Sofia recorded the stories, wanting to preserve them for the future.",
-            "phonetic": "soo-fii-aa ban-thʉ́k rʉ̂ang-raao dtɔ̂ng-gaan rák-sǎa wái sǎm-ràp à-naa-khót",
-            "breakdown": []
+            "source": "ก่อนนอน แม่กระซิบว่า บ้านไม่ได้อยู่ที่ตัวอาคาร แต่อยู่ที่คน",
+            "target": "Before bed, mom whispered that home isn't a building — it's people.",
+            "phonetic": "gàwn nawn mɛ̂ɛ grà-síp wâa bâan mâi dâai yùu tîi dtua aa-kaan dtàae yùu tîi kon"
         },
         {
-            "source": "ครอบครัวร้องเพลงแบบดั้งเดิม เสียงของพวกเขาผสมผสานกันอย่างกลมกลืน",
-            "target": "The family sang traditional songs, their voices blending in harmony.",
-            "phonetic": "khrɔɔp-khrua rɔ́ɔng-phleeng bɛ̀ɛp dtâng-də̀əm sǐang khɔ̌ɔng phûak-kháo phà-sǒm-phà-sǎan gan yàang glom-glʉʉn",
-            "breakdown": []
+            "source": "ผมเข้าใจประโยคนั้นชัดขึ้นหลังจากเห็นทุกคนรวมกันอีกครั้ง",
+            "target": "I understood that sentence more clearly after seeing everyone together again.",
+            "phonetic": "pǒm kâo-jai bprà-yòok nán chát kʉ̂n lǎng jàak hěn túk kon ruam gan ìik kráng"
         },
         {
-            "source": "น้องชายของโซเฟีย ช่างภาพ จับภาพช่วงเวลาแห่งความสุขอย่างตรงไปตรงมา",
-            "target": "Sofia's brother, a photographer, captured candid moments of joy.",
-            "phonetic": "nɔ́ɔng-chaai khɔ̌ɔng soo-fii-aa châang-phâap jàp phâap chûang-wee-laa hɛ̀ɛng khwaam-sùk yàang dtrong-bpai-dtrong-maa",
-            "breakdown": []
+            "source": "วันรุ่งขึ้นก่อนกลับกรุงเทพฯ เราไหว้บรรพบุรุษที่หิ้งพระ",
+            "target": "The next morning before returning to Bangkok, we paid respects at the family shrine.",
+            "phonetic": "wan rûng kʉ̂n gàwn glàb grung-têep rao wâai ban-pá-bù-rùt tîi hîng prá"
         },
         {
-            "source": "เธอตระหนักว่าการรวมตัวเหล่านี้หายากเพียงใด เมื่อทุกคนยุ่งมาก",
-            "target": "She realized how rare these gatherings were, with everyone so busy.",
-            "phonetic": "thəə dtrà-nák wâa gaan ruam-dtua lào-níi hǎai-hàak phiang-dài mʉ̂a thúk-khon yûng mâak",
-            "breakdown": []
+            "source": "การจากลามีทั้งความอาลัยและความสบายใจ",
+            "target": "Leaving held both longing and peace of mind.",
+            "phonetic": "gaan jàak-laa mii táng kwaam aa-lai lɛ́ kwaam sà-baai-jai"
         },
         {
-            "source": "การรวมตัวเตือนเธอถึงความสำคัญของการเชื่อมโยง",
-            "target": "The reunion reminded her of the importance of connection.",
-            "phonetic": "gaan ruam-dtua dtʉan thəə thʉ̌ng khwaam-sǎm-khan khɔ̌ɔng gaan chʉ̂am-yoong",
-            "breakdown": []
+            "source": "เพราะรู้ว่าปีหน้า ถ้ายังมีแรง เราจะกลับมารวมกันอีก",
+            "target": "Because we know that next year, if we can, we'll gather again.",
+            "phonetic": "práw rúu wâa bpii nâa tâa yang mii rɛɛng rao jà glàb maa ruam gan ìik"
         },
         {
-            "source": "เมื่อคืนสิ้นสุดลง พวกเขาวางแผนงานปีหน้า",
-            "target": "As the night ended, they planned next year's event.",
-            "phonetic": "mʉ̂a khʉʉn sîn-sùt phûak-kháo waang-phɛ̌ɛn ngaan bpii-nâa",
-            "breakdown": []
+            "source": "นั่นคือประเพณีที่ไม่มีใครบังคับ แต่ทุกคนอยากรักษาไว้",
+            "target": "It's a tradition no one enforces — yet everyone wants to keep.",
+            "phonetic": "nân keu bprà-pee-nii tîi mâi mii krai bang-káp dtàae túk kon yàak rák-sǎa wái"
         },
         {
-            "source": "โซเฟียกอดคุณยายของเธอ ขอบคุณสำหรับภูมิปัญญาของเธอ",
-            "target": "Sofia hugged her grandmother, grateful for her wisdom.",
-            "phonetic": "soo-fii-aa gɔ̀ɔt khun-yaai khɔ̌ɔng thəə khɔ̀ɔp-khun sǎm-ràp phuum-bpan-yaa khɔ̌ɔng thəə",
-            "breakdown": []
-        },
-        {
-            "source": "ฟาร์มจะเป็นหัวใจของครอบครัวของพวกเขาเสมอ",
-            "target": "The farm would always be their family's heart.",
-            "phonetic": "faam jà bpen hǔa-jai khɔ̌ɔng khrɔɔp-khrua khɔ̌ɔng phûak-kháo sà-mə̌ə",
-            "breakdown": []
-        },
-        {
-            "source": "เธอออกไปด้วยความรู้สึกของการเป็นส่วนหนึ่งที่ฟื้นคืนมา ถือความรักของครอบครัวของเธอ",
-            "target": "She left with a renewed sense of belonging, carrying the love of her family.",
-            "phonetic": "thəə ɔ̀ɔk-bpai dûai khwaam-rúu-sʉ̀k khɔ̌ɔng gaan bpen sùan-nʉ̀ng thîi fʉ́ʉn-khʉʉn-maa thʉ̌ʉ khwaam-rák khɔ̌ɔng khrɔɔp-khrua khɔ̌ɔng thəə",
-            "breakdown": []
+            "source": "และสำหรับผม มันคือเหตุผลที่ทำให้คำว่าครอบครัวมีความหมายลึกซึ้ง",
+            "target": "And for me, it's why the word family feels so deep.",
+            "phonetic": "lɛ́ sǎm-ràp pǒm man keu hèet-pǒn tîi tam hâi kam wâa krâwp-krua mii kwaam-mǎai lʉ́k-súeng"
         }
     ],
-    "createdAt": "2025-09-30T20:31:00Z",
-    "updatedAt": "2025-09-30T20:31:00Z",
+    "createdAt": "2025-09-28T08:54:49Z",
+    "updatedAt": "2026-04-08T17:00:00Z",
     "difficulty": "advanced",
     "summary": {
-        "source": "การรวมตัวของครอบครัวที่ฟาร์มและความสำคัญของประเพณีและความผูกพัน",
-        "target": "Family reunion at the farm and the importance of traditions and bonds"
+        "source": "ครอบครัวสมชายกลับไปรวมญาติที่เชียงใหม่ คุยเรื่องประเพณีและความผูกพัน",
+        "target": "Somchai's family reunites in Chiang Mai — tradition, duty, and belonging."
     }
 }

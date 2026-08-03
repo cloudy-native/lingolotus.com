@@ -3,26 +3,217 @@
     "bookId": "thai-beginner-2",
     "language": "th",
     "title": {
-        "source": "อากาศและฤดูกาล",
+        "source": "อากาศและฤดู",
         "target": "Weather and Seasons"
     },
     "sentences": [
         {
-            "source": "วันนี้อากาศแจ่มใส่ และฉันมีความสุข",
-            "target": "Today, the weather is sunny, and I am happy.",
-            "phonetic": "wan níi aa-gàat jaem sâai láe chǎn mee khwaam sùk",
+            "source": "ประเทศไทยมีกี่ฤดูคะ",
+            "target": "How many seasons does Thailand have? (♀)",
+            "phonetic": "bprà-têet tai mii gìi rúu-duu ká",
             "breakdown": [
                 {
-                    "source": "วัน",
-                    "target": "day",
-                    "phonetic": "wan",
+                    "source": "ประเทศไทย",
+                    "target": "Thailand",
+                    "phonetic": "bprà-têet tai",
+                    "partOfSpeech": "proper noun"
+                },
+                {
+                    "source": "มี",
+                    "target": "have",
+                    "phonetic": "mii",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "กี่",
+                    "target": "how many",
+                    "phonetic": "gìi",
+                    "partOfSpeech": "question"
+                },
+                {
+                    "source": "ฤดู",
+                    "target": "season",
+                    "phonetic": "rúu-duu",
                     "partOfSpeech": "noun"
                 },
                 {
-                    "source": "นี้",
-                    "target": "this",
-                    "phonetic": "níi",
-                    "partOfSpeech": "demonstrative"
+                    "source": "คะ",
+                    "target": "Q (♀)",
+                    "phonetic": "ká",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "สามฤดูครับ ร้อน ฝน หนาว",
+            "target": "Three: hot, rainy, cool. (♂)",
+            "phonetic": "sǎam rúu-duu kráp ráwn fǒn nǎao",
+            "breakdown": [
+                {
+                    "source": "สาม",
+                    "target": "three",
+                    "phonetic": "sǎam",
+                    "partOfSpeech": "number"
+                },
+                {
+                    "source": "ฤดู",
+                    "target": "season",
+                    "phonetic": "rúu-duu",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ร้อน",
+                    "target": "hot",
+                    "phonetic": "ráwn",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ฝน",
+                    "target": "rain",
+                    "phonetic": "fǒn",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "หนาว",
+                    "target": "cool/cold",
+                    "phonetic": "nǎao",
+                    "partOfSpeech": "adjective"
+                }
+            ]
+        },
+        {
+            "source": "ตอนนี้อยู่ฤดูอะไรคะ",
+            "target": "Which season is it now? (♀)",
+            "phonetic": "dton-níi yùu rúu-duu à-rai ká",
+            "breakdown": [
+                {
+                    "source": "ตอนนี้",
+                    "target": "now",
+                    "phonetic": "dton-níi",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "อยู่",
+                    "target": "be in",
+                    "phonetic": "yùu",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ฤดู",
+                    "target": "season",
+                    "phonetic": "rúu-duu",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "อะไร",
+                    "target": "what",
+                    "phonetic": "à-rai",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "คะ",
+                    "target": "Q (♀)",
+                    "phonetic": "ká",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ฤดูร้อนครับ แดดแรง",
+            "target": "Hot season — strong sun. (♂)",
+            "phonetic": "rúu-duu ráwn kráp dàaet rɛɛng",
+            "breakdown": [
+                {
+                    "source": "ฤดูร้อน",
+                    "target": "hot season",
+                    "phonetic": "rúu-duu ráwn",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "แดด",
+                    "target": "sun",
+                    "phonetic": "dàaet",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "แรง",
+                    "target": "strong",
+                    "phonetic": "rɛɛng",
+                    "partOfSpeech": "adjective"
+                }
+            ]
+        },
+        {
+            "source": "คุณชอบฤดูไหนที่สุดคะ",
+            "target": "Which season do you like most? (♀)",
+            "phonetic": "kun châwp rúu-duu nǎi tîi-sùt ká",
+            "breakdown": [
+                {
+                    "source": "คุณ",
+                    "target": "you",
+                    "phonetic": "kun",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ชอบ",
+                    "target": "like",
+                    "phonetic": "châwp",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ฤดู",
+                    "target": "season",
+                    "phonetic": "rúu-duu",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ไหน",
+                    "target": "which",
+                    "phonetic": "nǎi",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ที่สุด",
+                    "target": "most",
+                    "phonetic": "tîi-sùt",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "คะ",
+                    "target": "Q (♀)",
+                    "phonetic": "ká",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ฤดูหนาวครับ อากาศสบาย",
+            "target": "Cool season — comfortable weather. (♂)",
+            "phonetic": "rúu-duu nǎao kráp aa-gàat sà-baai",
+            "breakdown": [
+                {
+                    "source": "ฤดูหนาว",
+                    "target": "cool season",
+                    "phonetic": "rúu-duu nǎao",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
                 },
                 {
                     "source": "อากาศ",
@@ -31,52 +222,126 @@
                     "partOfSpeech": "noun"
                 },
                 {
-                    "source": "แจ่มใส่",
-                    "target": "sunny/clear",
-                    "phonetic": "jaem sâai",
+                    "source": "สบาย",
+                    "target": "comfortable",
+                    "phonetic": "sà-baai",
                     "partOfSpeech": "adjective"
-                },
-                {
-                    "source": "และ",
-                    "target": "and",
-                    "phonetic": "láe",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "มี",
-                    "target": "to have",
-                    "phonetic": "mee",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ความสุข",
-                    "target": "happiness",
-                    "phonetic": "khwaam sùk",
-                    "partOfSpeech": "noun"
                 }
             ]
         },
         {
-            "source": "คุณทำอะไรในวันที่มีแดดครับ",
-            "target": "What do you do on sunny days?",
-            "phonetic": "khun tham à-rai nai wan thîi mee daan khráp",
+            "source": "ฤดูฝนต้องระวังอะไรคะ",
+            "target": "What should you watch for in rainy season? (♀)",
+            "phonetic": "rúu-duu fǒn dtâwng rá-wang à-rai ká",
             "breakdown": [
                 {
+                    "source": "ฤดูฝน",
+                    "target": "rainy season",
+                    "phonetic": "rúu-duu fǒn",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ต้อง",
+                    "target": "must",
+                    "phonetic": "dtâwng",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "ระวัง",
+                    "target": "be careful",
+                    "phonetic": "rá-wang",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "อะไร",
+                    "target": "what",
+                    "phonetic": "à-rai",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "คะ",
+                    "target": "Q (♀)",
+                    "phonetic": "ká",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "น้ำท่วมและรถติดครับ เอาร่มด้วย",
+            "target": "Flooding and traffic — bring an umbrella. (♂)",
+            "phonetic": "náam-tûam lɛ́ rót dtìt kráp ao rôm dûay",
+            "breakdown": [
+                {
+                    "source": "น้ำท่วม",
+                    "target": "flood",
+                    "phonetic": "náam-tûam",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "และ",
+                    "target": "and",
+                    "phonetic": "lɛ́",
+                    "partOfSpeech": "conjunction"
+                },
+                {
+                    "source": "รถติด",
+                    "target": "traffic jam",
+                    "phonetic": "rót dtìt",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "เอา",
+                    "target": "bring",
+                    "phonetic": "ao",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ร่ม",
+                    "target": "umbrella",
+                    "phonetic": "rôm",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ด้วย",
+                    "target": "too",
+                    "phonetic": "dûay",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "วันแดดจัดคุณทำอะไรคะ",
+            "target": "What do you do on very sunny days? (♀)",
+            "phonetic": "wan dàaet jàt kun tam à-rai ká",
+            "breakdown": [
+                {
+                    "source": "วัน",
+                    "target": "day",
+                    "phonetic": "wan",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "แดดจัด",
+                    "target": "very sunny",
+                    "phonetic": "dàaet jàt",
+                    "partOfSpeech": "adjective"
+                },
+                {
                     "source": "คุณ",
-                    "target": "you (polite)",
-                    "phonetic": "khun",
+                    "target": "you",
+                    "phonetic": "kun",
                     "partOfSpeech": "pronoun"
                 },
                 {
                     "source": "ทำ",
-                    "target": "to do",
-                    "phonetic": "tham",
+                    "target": "do",
+                    "phonetic": "tam",
                     "partOfSpeech": "verb"
                 },
                 {
@@ -86,493 +351,127 @@
                     "partOfSpeech": "pronoun"
                 },
                 {
-                    "source": "ใน",
-                    "target": "on/in",
-                    "phonetic": "nai",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "วัน",
-                    "target": "day",
-                    "phonetic": "wan",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ที่",
-                    "target": "(relative)",
-                    "phonetic": "thîi",
-                    "partOfSpeech": "particle"
-                },
-                {
-                    "source": "มี",
-                    "target": "to have",
-                    "phonetic": "mee",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "แดด",
-                    "target": "sun/sunny",
-                    "phonetic": "daan",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "source": "คะ",
+                    "target": "Q (♀)",
+                    "phonetic": "ká",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "ฉันไปสวนสาธารณะและเล่นบอล",
-            "target": "I go to the park and play with my ball.",
-            "phonetic": "chǎn bpai sǔan sǎa-tha-ra-ná láe lèn baan",
+            "source": "อยู่บ้านบ้าง หรือไปห้างที่มีแอร์ครับ",
+            "target": "Stay home or go to a mall with A/C. (♂)",
+            "phonetic": "yùu bâan bâang rǔu bpai hâang tîi mii ɛɛ kráp",
             "breakdown": [
                 {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
+                    "source": "อยู่บ้าน",
+                    "target": "stay home",
+                    "phonetic": "yùu bâan",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "บ้าง",
+                    "target": "sometimes",
+                    "phonetic": "bâang",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "หรือ",
+                    "target": "or",
+                    "phonetic": "rǔu",
+                    "partOfSpeech": "conjunction"
                 },
                 {
                     "source": "ไป",
-                    "target": "to go",
+                    "target": "go",
                     "phonetic": "bpai",
                     "partOfSpeech": "verb"
                 },
                 {
-                    "source": "สวนสาธารณะ",
-                    "target": "park",
-                    "phonetic": "sǔan sǎa-tha-ra-ná",
+                    "source": "ห้าง",
+                    "target": "mall",
+                    "phonetic": "hâang",
                     "partOfSpeech": "noun"
                 },
                 {
-                    "source": "และ",
-                    "target": "and",
-                    "phonetic": "láe",
-                    "partOfSpeech": "conjunction"
+                    "source": "ที่",
+                    "target": "that",
+                    "phonetic": "tîi",
+                    "partOfSpeech": "relative"
                 },
                 {
-                    "source": "เล่น",
-                    "target": "to play",
-                    "phonetic": "lèn",
+                    "source": "มี",
+                    "target": "has",
+                    "phonetic": "mii",
                     "partOfSpeech": "verb"
                 },
                 {
-                    "source": "บอล",
-                    "target": "ball",
-                    "phonetic": "baan",
+                    "source": "แอร์",
+                    "target": "air-con",
+                    "phonetic": "ɛɛ",
                     "partOfSpeech": "noun"
-                }
-            ]
-        },
-        {
-            "source": "เมื่อฤดูหนาวที่แล้ว อากาศหนาว และฉันใส่เสื้อกันหนาว",
-            "target": "Last winter, it was cold, and I wore a coat.",
-            "phonetic": "mûea rûu-dtâa hâa thîi lâae aa-gàat nǎa láe chǎn sâai sûea kan nǎa",
-            "breakdown": [
-                {
-                    "source": "เมื่อ",
-                    "target": "when",
-                    "phonetic": "mûea",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "ฤดู",
-                    "target": "season",
-                    "phonetic": "rûu",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "หนาว",
-                    "target": "winter",
-                    "phonetic": "dtâa hâa",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ที่แล้ว",
-                    "target": "last/past",
-                    "phonetic": "thîi lâae",
-                    "partOfSpeech": "adverb"
-                },
-                {
-                    "source": "อากาศ",
-                    "target": "weather",
-                    "phonetic": "aa-gàat",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "หนาว",
-                    "target": "cold",
-                    "phonetic": "nǎa",
-                    "partOfSpeech": "adjective"
-                },
-                {
-                    "source": "และ",
-                    "target": "and",
-                    "phonetic": "láe",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ใส่",
-                    "target": "to wear",
-                    "phonetic": "sâai",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "เสื้อ",
-                    "target": "shirt/coat",
-                    "phonetic": "sûea",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "กัน",
-                    "target": "(protective)",
-                    "phonetic": "kan",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "หนาว",
-                    "target": "cold",
-                    "phonetic": "nǎa",
-                    "partOfSpeech": "adjective"
-                }
-            ]
-        },
-        {
-            "source": "คุณชอบฝนไหมครับ",
-            "target": "Do you like rain?",
-            "phonetic": "khun châwp fon mǎi khráp",
-            "breakdown": [
-                {
-                    "source": "คุณ",
-                    "target": "you (polite)",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ชอบ",
-                    "target": "to like",
-                    "phonetic": "châwp",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ฝน",
-                    "target": "rain",
-                    "phonetic": "fon",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ไหม",
-                    "target": "(question particle)",
-                    "phonetic": "mǎi",
-                    "partOfSpeech": "particle"
                 },
                 {
                     "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "ไม่ ฉันไม่ชอบฝนเพราะมันเปียก",
-            "target": "No, I don't like rain because it is wet.",
-            "phonetic": "mâai chǎn mâai châwp fon phaw mạn pîiak",
+            "source": "ฉลาดค่ะ ร้อนก็ต้องดูแลตัว",
+            "target": "Smart — when it's hot you must take care. (♀)",
+            "phonetic": "chà-làat kâ ráwn gâw dtâwng duu-lɛɛ dtua",
             "breakdown": [
                 {
-                    "source": "ไม่",
-                    "target": "no",
-                    "phonetic": "mâai",
-                    "partOfSpeech": "negative particle"
-                },
-                {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ไม่",
-                    "target": "not",
-                    "phonetic": "mâai",
-                    "partOfSpeech": "negative particle"
-                },
-                {
-                    "source": "ชอบ",
-                    "target": "to like",
-                    "phonetic": "châwp",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ฝน",
-                    "target": "rain",
-                    "phonetic": "fon",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "เพราะ",
-                    "target": "because",
-                    "phonetic": "phaw",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "มัน",
-                    "target": "it",
-                    "phonetic": "mạn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "เปียก",
-                    "target": "wet",
-                    "phonetic": "pîiak",
-                    "partOfSpeech": "adjective"
-                }
-            ]
-        },
-        {
-            "source": "ฤดูโปรดของคุณคืออะไรครับ",
-            "target": "What is your favorite season?",
-            "phonetic": "rûu prɔ̂ɔt khǎwng khun kheuu à-rai khráp",
-            "breakdown": [
-                {
-                    "source": "ฤดู",
-                    "target": "season",
-                    "phonetic": "rûu",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "โปรด",
-                    "target": "favorite",
-                    "phonetic": "prɔ̂ɔt",
+                    "source": "ฉลาด",
+                    "target": "smart",
+                    "phonetic": "chà-làat",
                     "partOfSpeech": "adjective"
                 },
                 {
-                    "source": "ของ",
-                    "target": "of",
-                    "phonetic": "khǎwng",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "คุณ",
-                    "target": "you (polite)",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "คือ",
-                    "target": "is",
-                    "phonetic": "kheuu",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "อะไร",
-                    "target": "what",
-                    "phonetic": "à-rai",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "source": "ค่ะ",
+                    "target": "polite (♀)",
+                    "phonetic": "kâ",
                     "partOfSpeech": "particle"
-                }
-            ]
-        },
-        {
-            "source": "ฤดูโปรดของฉันคือฤดูร้อนเพราะอากาศอบอุ่น",
-            "target": "My favorite season is summer because it is warm.",
-            "phonetic": "rûu prɔ̂ɔt khǎwng chǎn kheuu rûu rɔ̌ɔn phaw aa-gàat òp-ùn",
-            "breakdown": [
-                {
-                    "source": "ฤดู",
-                    "target": "season",
-                    "phonetic": "rûu",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "โปรด",
-                    "target": "favorite",
-                    "phonetic": "prɔ̂ɔt",
-                    "partOfSpeech": "adjective"
-                },
-                {
-                    "source": "ของ",
-                    "target": "of",
-                    "phonetic": "khǎwng",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "คือ",
-                    "target": "is",
-                    "phonetic": "kheuu",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ฤดู",
-                    "target": "season",
-                    "phonetic": "rûu",
-                    "partOfSpeech": "noun"
                 },
                 {
                     "source": "ร้อน",
-                    "target": "hot/summer",
-                    "phonetic": "rɔ̌ɔn",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "เพราะ",
-                    "target": "because",
-                    "phonetic": "phaw",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "อากาศ",
-                    "target": "weather",
-                    "phonetic": "aa-gàat",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "อบอุ่น",
-                    "target": "warm",
-                    "phonetic": "òp-ùn",
-                    "partOfSpeech": "adjective"
-                }
-            ]
-        },
-        {
-            "source": "ในฤดูร้อน ฉันว่ายน้ำในสระว่ายน้ำและกินไอศกรีม",
-            "target": "In summer, I swim in the pool and eat ice cream.",
-            "phonetic": "nai rûu rɔ̌ɔn chǎn waai náam nai sà-naam waai náam láe kin ai-sà-griim",
-            "breakdown": [
-                {
-                    "source": "ใน",
-                    "target": "in",
-                    "phonetic": "nai",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "ฤดู",
-                    "target": "season",
-                    "phonetic": "rûu",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ร้อน",
-                    "target": "hot/summer",
-                    "phonetic": "rɔ̌ɔn",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ว่ายน้ำ",
-                    "target": "to swim",
-                    "phonetic": "waai náam",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ใน",
-                    "target": "in",
-                    "phonetic": "nai",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "สระว่ายน้ำ",
-                    "target": "swimming pool",
-                    "phonetic": "sà-naam waai náam",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "และ",
-                    "target": "and",
-                    "phonetic": "láe",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "กิน",
-                    "target": "to eat",
-                    "phonetic": "kin",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ไอศกรีม",
-                    "target": "ice cream",
-                    "phonetic": "ai-sà-griim",
-                    "partOfSpeech": "noun"
-                }
-            ]
-        },
-        {
-            "source": "ฤดูใบไม้เปลี่ยนสีสวยไหมครับ",
-            "target": "Is autumn beautiful?",
-            "phonetic": "rûu bai mâai bplîian sǐi sǔai mǎi khráp",
-            "breakdown": [
-                {
-                    "source": "ฤดู",
-                    "target": "season",
-                    "phonetic": "rûu",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ใบไม้",
-                    "target": "leaves",
-                    "phonetic": "bai mâai",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "เปลี่ยน",
-                    "target": "to change",
-                    "phonetic": "bplîian",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "สี",
-                    "target": "color",
-                    "phonetic": "sǐi",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "สวย",
-                    "target": "beautiful",
-                    "phonetic": "sǔai",
+                    "target": "hot",
+                    "phonetic": "ráwn",
                     "partOfSpeech": "adjective"
                 },
                 {
-                    "source": "ไหม",
-                    "target": "(question particle)",
-                    "phonetic": "mǎi",
+                    "source": "ก็",
+                    "target": "then",
+                    "phonetic": "gâw",
                     "partOfSpeech": "particle"
                 },
                 {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
+                    "source": "ต้อง",
+                    "target": "must",
+                    "phonetic": "dtâwng",
+                    "partOfSpeech": "auxiliary"
+                },
+                {
+                    "source": "ดูแล",
+                    "target": "care for",
+                    "phonetic": "duu-lɛɛ",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ตัว",
+                    "target": "oneself",
+                    "phonetic": "dtua",
+                    "partOfSpeech": "noun"
                 }
             ]
         },
         {
-            "source": "ใช่ ฤดูใบไม้เปลี่ยนสีเพราะใบไม้มีสีสัน",
-            "target": "Yes, autumn is beautiful because leaves are colorful.",
-            "phonetic": "châi rûu bai mâai bplîian sǐi phaw bai mâai mee sǐi sǎn",
+            "source": "ใช่ครับ ดื่มน้ำเยอะๆ",
+            "target": "Yes — drink lots of water. (♂)",
+            "phonetic": "châi kráp dʉ̀ʉm náam yə́ yə́",
             "breakdown": [
                 {
                     "source": "ใช่",
@@ -581,116 +480,37 @@
                     "partOfSpeech": "interjection"
                 },
                 {
-                    "source": "ฤดู",
-                    "target": "season",
-                    "phonetic": "rûu",
-                    "partOfSpeech": "noun"
+                    "source": "ครับ",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
                 },
                 {
-                    "source": "ใบไม้",
-                    "target": "leaves",
-                    "phonetic": "bai mâai",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "เปลี่ยน",
-                    "target": "to change",
-                    "phonetic": "bplîian",
+                    "source": "ดื่ม",
+                    "target": "drink",
+                    "phonetic": "dʉ̀ʉm",
                     "partOfSpeech": "verb"
                 },
                 {
-                    "source": "สี",
-                    "target": "color",
-                    "phonetic": "sǐi",
+                    "source": "น้ำ",
+                    "target": "water",
+                    "phonetic": "náam",
                     "partOfSpeech": "noun"
                 },
                 {
-                    "source": "เพราะ",
-                    "target": "because",
-                    "phonetic": "phaw",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "ใบไม้",
-                    "target": "leaves",
-                    "phonetic": "bai mâai",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "มี",
-                    "target": "to have",
-                    "phonetic": "mee",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "สีสัน",
-                    "target": "colorful",
-                    "phonetic": "sǐi sǎn",
-                    "partOfSpeech": "adjective"
-                }
-            ]
-        },
-        {
-            "source": "อากาศเปลี่ยน แต่ฉันชอบฤดูทุกฤดู",
-            "target": "Weather changes, but I like every season.",
-            "phonetic": "aa-gàat bplîian dtàae chǎn châwp rûu thúk rûu",
-            "breakdown": [
-                {
-                    "source": "อากาศ",
-                    "target": "weather",
-                    "phonetic": "aa-gàat",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "เปลี่ยน",
-                    "target": "to change",
-                    "phonetic": "bplîian",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "แต่",
-                    "target": "but",
-                    "phonetic": "dtàae",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ชอบ",
-                    "target": "to like",
-                    "phonetic": "châwp",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ฤดู",
-                    "target": "season",
-                    "phonetic": "rûu",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ทุก",
-                    "target": "every",
-                    "phonetic": "thúk",
-                    "partOfSpeech": "determiner"
-                },
-                {
-                    "source": "ฤดู",
-                    "target": "season",
-                    "phonetic": "rûu",
-                    "partOfSpeech": "noun"
+                    "source": "เยอะๆ",
+                    "target": "lots",
+                    "phonetic": "yə́ yə́",
+                    "partOfSpeech": "adverb"
                 }
             ]
         }
     ],
-    "createdAt": "2025-09-29T12:40:00Z",
-    "updatedAt": "2025-09-29T12:40:00Z",
+    "createdAt": "2025-09-28T08:54:49Z",
+    "updatedAt": "2026-04-08T15:30:00Z",
     "difficulty": "beginner",
     "summary": {
-        "source": "การพูดคุยเกี่ยวกับอากาศและฤดูกาล",
-        "target": "Talking about weather and seasons"
+        "source": "พิมกับสมชายคุยสามฤดูของไทยและชอบอะไร",
+        "target": "Pim and Somchai talk about Thailand's three seasons and what they prefer."
     }
 }

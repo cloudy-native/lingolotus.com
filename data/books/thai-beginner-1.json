@@ -1,13 +1,12 @@
 {
     "bookId": "thai-beginner-1",
     "name": "Thai Reading Beginner 1",
-    "description": "Simple greetings and basic phrases for beginners",
+    "description": "Beginner Thai for everyday life: greetings, numbers, family, food, colors, pets, places, time, weather, and daily routines — short dialogs with full word breakdowns.",
     "sourceLanguage": "th",
     "targetLanguage": "en",
     "createdAt": "2025-09-28T10:30:00Z",
     "updatedAt": "2025-09-28T14:45:00Z",
     "category": "language-learning",
     "difficulty": "Beginner",
-    "imageUrl": "/images/IMG_0649.jpeg",
-    "featured": true
+    "imageUrl": "/images/IMG_0649.jpeg"
 }

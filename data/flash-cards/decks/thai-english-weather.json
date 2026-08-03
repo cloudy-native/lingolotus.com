@@ -1,0 +1,519 @@
+{
+    "collectionId": "thai-english-beginner",
+    "sourceLanguage": "th",
+    "targetLanguage": "en",
+    "createdAt": "2026-04-08T12:00:00Z",
+    "updatedAt": "2026-04-08T18:30:00Z",
+    "difficulty": "beginner",
+    "category": "language-learning",
+    "deckId": "weather",
+    "name": "Thai Weather",
+    "description": "Hot, rainy, cool — everyday weather talk for life in Thailand.",
+    "theme": "weather",
+    "cards": [
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "อากาศ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "weather / air"
+            },
+            "tags": [
+                "weather"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "aa-gàat",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "อากาศเป็นยังไงครับ",
+                    "translation": "How's the weather? (♂)",
+                    "phonetic": "aa-gàat bpen yang-ngai kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "สภาพอากาศ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "weather conditions"
+            },
+            "tags": [
+                "weather"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "sà-pâap aa-gàat",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "สภาพอากาศวันนี้ค่ะ",
+                    "translation": "Today's weather (♀)",
+                    "phonetic": "sà-pâap aa-gàat wan-níi kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ร้อน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "hot"
+            },
+            "tags": [
+                "weather"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "ráwn",
+            "partOfSpeech": "adjective",
+            "examples": [
+                {
+                    "original": "วันนี้อากาศร้อนครับ",
+                    "translation": "It's hot today (♂)",
+                    "phonetic": "wan-níi aa-gàat ráwn kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "หนาว"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "cold / cool"
+            },
+            "tags": [
+                "weather"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "nǎao",
+            "partOfSpeech": "adjective",
+            "examples": [
+                {
+                    "original": "เช้านี้หนาวค่ะ",
+                    "translation": "This morning is cold (♀)",
+                    "phonetic": "cháao níi nǎao kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "อุ่น"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "warm"
+            },
+            "tags": [
+                "weather"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "ùn",
+            "partOfSpeech": "adjective",
+            "examples": [
+                {
+                    "original": "อากาศอุ่นๆ ครับ",
+                    "translation": "It's warm (♂)",
+                    "phonetic": "aa-gàat ùn ùn kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ฝน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "rain"
+            },
+            "tags": [
+                "weather"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "fǒn",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "ฝนตกค่ะ",
+                    "translation": "It's raining (♀)",
+                    "phonetic": "fǒn dtòk kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ฝนตก"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to rain / raining"
+            },
+            "tags": [
+                "weather"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "fǒn dtòk",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "วันนี้ฝนตกครับ",
+                    "translation": "It rains today (♂)",
+                    "phonetic": "wan-níi fǒn dtòk kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "แดด"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "sun / sunlight"
+            },
+            "tags": [
+                "weather"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "dàaet",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "แดดแรงค่ะ",
+                    "translation": "The sun is strong (♀)",
+                    "phonetic": "dàaet rɛɛng kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "แดดจัด"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "very sunny / intense sun"
+            },
+            "tags": [
+                "weather"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "dàaet jàt",
+            "partOfSpeech": "adjective",
+            "examples": [
+                {
+                    "original": "แดดจัดมากครับ",
+                    "translation": "Very sunny (♂)",
+                    "phonetic": "dàaet jàt mâak kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เมฆ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "cloud"
+            },
+            "tags": [
+                "weather"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "mêek",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "มีเมฆมากค่ะ",
+                    "translation": "Very cloudy (♀)",
+                    "phonetic": "mii mêek mâak kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ฟ้าคะนอง"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "thunder (stormy sky)"
+            },
+            "tags": [
+                "weather"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "fáa ká-nɔɔng",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "ฟ้าคะนองครับ",
+                    "translation": "There's thunder (♂)",
+                    "phonetic": "fáa ká-nɔɔng kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ลม"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "wind"
+            },
+            "tags": [
+                "weather"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "lom",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "ลมแรงค่ะ",
+                    "translation": "The wind is strong (♀)",
+                    "phonetic": "lom rɛɛng kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ชื้น"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "humid / damp"
+            },
+            "tags": [
+                "weather"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "chúen",
+            "partOfSpeech": "adjective",
+            "examples": [
+                {
+                    "original": "อากาศชื้นครับ",
+                    "translation": "It's humid (♂)",
+                    "phonetic": "aa-gàat chúen kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ฤดูร้อน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "hot season / summer"
+            },
+            "tags": [
+                "weather",
+                "season"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "rúu-duu ráwn",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "ฤดูร้อนร้อนมากค่ะ",
+                    "translation": "Hot season is very hot (♀)",
+                    "phonetic": "rúu-duu ráwn ráwn mâak kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ฤดูฝน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "rainy season"
+            },
+            "tags": [
+                "weather",
+                "season"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "rúu-duu fǒn",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "ฤดูฝนฝนตกบ่อยครับ",
+                    "translation": "Rainy season rains often (♂)",
+                    "phonetic": "rúu-duu fǒn fǒn dtòk bàwy kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ฤดูหนาว"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "cool season"
+            },
+            "tags": [
+                "weather",
+                "season"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "rúu-duu nǎao",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "ฤดูหนาวสบายค่ะ",
+                    "translation": "Cool season is pleasant (♀)",
+                    "phonetic": "rúu-duu nǎao sà-baai kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ร่ม"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "umbrella"
+            },
+            "tags": [
+                "weather",
+                "object"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "rôm",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "เอาร่มไปครับ",
+                    "translation": "Take an umbrella (♂)",
+                    "phonetic": "ao rôm bpai kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ยังไง / อย่างไร"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "how?"
+            },
+            "tags": [
+                "question"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "yang-ngai / yàang-rai",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "อากาศเป็นยังไงค่ะ",
+                    "translation": "How's the weather? (♀)",
+                    "phonetic": "aa-gàat bpen yang-ngai kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ชอบ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to like"
+            },
+            "tags": [
+                "verb"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "châwp",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "ชอบวันฝนตกไหมครับ",
+                    "translation": "Do you like rainy days? (♂)",
+                    "phonetic": "châwp wan fǒn dtòk mǎi kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ไม่ชอบ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to not like"
+            },
+            "tags": [
+                "verb"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "mâi châwp",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "ไม่ชอบร้อนค่ะ",
+                    "translation": "I don't like the heat (♀)",
+                    "phonetic": "mâi châwp ráwn kâ"
+                }
+            ]
+        }
+    ]
+}

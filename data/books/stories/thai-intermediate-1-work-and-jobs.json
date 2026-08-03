@@ -3,894 +3,96 @@
     "bookId": "thai-intermediate-1",
     "language": "th",
     "title": {
-        "source": "งานและอาชีพ",
+        "source": "งานและการทำงาน",
         "target": "Work and Jobs"
     },
     "sentences": [
         {
-            "source": "คุณมีงานทำไหมครับ",
-            "target": "Do you have a job?",
-            "phonetic": "khun mii ngaan tham mǎi khráp",
-            "breakdown": [
-                {
-                    "source": "คุณ",
-                    "target": "you (polite)",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "มี",
-                    "target": "to have",
-                    "phonetic": "mii",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "งาน",
-                    "target": "job/work",
-                    "phonetic": "ngaan",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ทำ",
-                    "target": "to do",
-                    "phonetic": "tham",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ไหม",
-                    "target": "question particle",
-                    "phonetic": "mǎi",
-                    "partOfSpeech": "particle"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
-                }
-            ]
+            "source": "คุณทำงานอะไรคะ",
+            "target": "What do you do for work? (♀)",
+            "phonetic": "kun tam-ngaan à-rai ká"
         },
         {
-            "source": "มีค่ะ ฉันทำงานที่ร้านค้าขนาดเล็ก",
-            "target": "Yes, I work at a small store.",
-            "phonetic": "mii khâ chăn tham-ngaan thîi ráan-khá khà-nàat lék",
-            "breakdown": [
-                {
-                    "source": "มี",
-                    "target": "yes/have",
-                    "phonetic": "mii",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ค่ะ",
-                    "target": "female polite particle",
-                    "phonetic": "khâ",
-                    "partOfSpeech": "particle"
-                },
-                {
-                    "source": "ฉัน",
-                    "target": "I (female)",
-                    "phonetic": "chăn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ทำงาน",
-                    "target": "to work",
-                    "phonetic": "tham-ngaan",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ที่",
-                    "target": "at",
-                    "phonetic": "thîi",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "ร้านค้า",
-                    "target": "store/shop",
-                    "phonetic": "ráan-khá",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ขนาดเล็ก",
-                    "target": "small",
-                    "phonetic": "khà-nàat lék",
-                    "partOfSpeech": "adjective"
-                }
-            ]
+            "source": "ผมทำงานด้านไอทีครับ เป็นนักพัฒนา",
+            "target": "I work in IT as a developer. (♂)",
+            "phonetic": "pǒm tam-ngaan dâan ai-tii kráp bpen nák pát-tá-naa"
         },
         {
-            "source": "คุณทำหน้าที่อะไรที่นั่นครับ",
-            "target": "What do you do there?",
-            "phonetic": "khun tham nâa-thîi à-rai thîi nân khráp",
-            "breakdown": [
-                {
-                    "source": "คุณ",
-                    "target": "you (polite)",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ทำหน้าที่",
-                    "target": "to do/serve (a role)",
-                    "phonetic": "tham nâa-thîi",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "อะไร",
-                    "target": "what",
-                    "phonetic": "à-rai",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ที่นั่น",
-                    "target": "there",
-                    "phonetic": "thîi nân",
-                    "partOfSpeech": "adverb"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
-                }
-            ]
+            "source": "ทำงานบริษัทอะไรคะ",
+            "target": "Which company? (♀)",
+            "phonetic": "tam-ngaan baaw-rí-sàt à-rai ká"
         },
         {
-            "source": "ฉันช่วยลูกค้าและทำความสะอาดร้าน",
-            "target": "I help customers and clean the store.",
-            "phonetic": "chăn chûai lûuk-kháa láe tham-khwaam sà-àat ráan",
-            "breakdown": [
-                {
-                    "source": "ฉัน",
-                    "target": "I (female)",
-                    "phonetic": "chăn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ช่วย",
-                    "target": "to help",
-                    "phonetic": "chûai",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ลูกค้า",
-                    "target": "customers",
-                    "phonetic": "lûuk-kháa",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "และ",
-                    "target": "and",
-                    "phonetic": "láe",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "ทำความสะอาด",
-                    "target": "to clean",
-                    "phonetic": "tham-khwaam sà-àat",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ร้าน",
-                    "target": "store/shop",
-                    "phonetic": "ráan",
-                    "partOfSpeech": "noun"
-                }
-            ]
+            "source": "บริษัทซอฟต์แวร์แถวอโศกครับ",
+            "target": "A software company near Asok. (♂)",
+            "phonetic": "baaw-rí-sàt sɔ́ɔf-wɛɛ tǎae à-sòk kráp"
         },
         {
-            "source": "คุณชอบงานของคุณไหมครับ",
-            "target": "Do you like your job?",
-            "phonetic": "khun chôrp ngaan khǎwng khun mǎi khráp",
-            "breakdown": [
-                {
-                    "source": "คุณ",
-                    "target": "you (polite)",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ชอบ",
-                    "target": "to like",
-                    "phonetic": "chôrp",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "งาน",
-                    "target": "job/work",
-                    "phonetic": "ngaan",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ของ",
-                    "target": "of",
-                    "phonetic": "khǎwng",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "คุณ",
-                    "target": "you (polite)",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ไหม",
-                    "target": "question particle",
-                    "phonetic": "mǎi",
-                    "partOfSpeech": "particle"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
-                }
-            ]
+            "source": "งานประจำวันทำอะไรบ้างคะ",
+            "target": "What do you do day to day? (♀)",
+            "phonetic": "ngaan bprà-jam wan tam à-rai bâang ká"
         },
         {
-            "source": "ก็ดีค่ะ แต่ไม่ใช่งานในฝันของฉัน",
-            "target": "It’s okay, but it’s not my dream job.",
-            "phonetic": "gôr dee khâ dtàe mâi châi ngaan nai fǎn khǎwng chăn",
-            "breakdown": [
-                {
-                    "source": "ก็",
-                    "target": "okay/quite",
-                    "phonetic": "gôr",
-                    "partOfSpeech": "particle"
-                },
-                {
-                    "source": "ดี",
-                    "target": "good/okay",
-                    "phonetic": "dee",
-                    "partOfSpeech": "adjective"
-                },
-                {
-                    "source": "ค่ะ",
-                    "target": "female polite particle",
-                    "phonetic": "khâ",
-                    "partOfSpeech": "particle"
-                },
-                {
-                    "source": "แต่",
-                    "target": "but",
-                    "phonetic": "dtàe",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "ไม่ใช่",
-                    "target": "not",
-                    "phonetic": "mâi châi",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "งานในฝัน",
-                    "target": "dream job",
-                    "phonetic": "ngaan nai fǎn",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ของฉัน",
-                    "target": "of mine",
-                    "phonetic": "khǎwng chăn",
-                    "partOfSpeech": "pronoun"
-                }
-            ]
+            "source": "เขียนโค้ด ประชุมทีม และแก้บั๊กครับ",
+            "target": "Write code, team meetings, and fix bugs. (♂)",
+            "phonetic": "kǐan kóot bprà-chum tiim lɛ́ gâae bák kráp"
         },
         {
-            "source": "งานในฝันของคุณคืออะไรครับ",
-            "target": "What is your dream job?",
-            "phonetic": "ngaan nai fǎn khǎwng khun kheuu à-rai khráp",
-            "breakdown": [
-                {
-                    "source": "งานในฝัน",
-                    "target": "dream job",
-                    "phonetic": "ngaan nai fǎn",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ของ",
-                    "target": "of",
-                    "phonetic": "khǎwng",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "คุณ",
-                    "target": "you (polite)",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "คือ",
-                    "target": "is",
-                    "phonetic": "kheuu",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "อะไร",
-                    "target": "what",
-                    "phonetic": "à-rai",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
-                }
-            ]
+            "source": "ชอบงานนี้ไหมคะ",
+            "target": "Do you like the job? (♀)",
+            "phonetic": "châwp ngaan níi mǎi ká"
         },
         {
-            "source": "ฉันอยากเป็นครู",
-            "target": "I want to be a teacher.",
-            "phonetic": "chăn yàak bpen khruu",
-            "breakdown": [
-                {
-                    "source": "ฉัน",
-                    "target": "I (female)",
-                    "phonetic": "chăn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "อยาก",
-                    "target": "to want",
-                    "phonetic": "yàak",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "เป็น",
-                    "target": "to be/become",
-                    "phonetic": "bpen",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ครู",
-                    "target": "teacher",
-                    "phonetic": "khruu",
-                    "partOfSpeech": "noun"
-                }
-            ]
+            "source": "ชอบครับ ได้เรียนรู้ตลอด",
+            "target": "Yes — I'm always learning. (♂)",
+            "phonetic": "châwp kráp dâai rian-rúu dtà-lɔ̀ɔt"
         },
         {
-            "source": "ทำไมคุณถึงอยากสอนครับ",
-            "target": "Why do you want to teach?",
-            "phonetic": "tham-mai khun thǔeng yàak sŏn khráp",
-            "breakdown": [
-                {
-                    "source": "ทำไม",
-                    "target": "why",
-                    "phonetic": "tham-mai",
-                    "partOfSpeech": "adverb"
-                },
-                {
-                    "source": "คุณ",
-                    "target": "you (polite)",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ถึง",
-                    "target": "then/so (emphasis)",
-                    "phonetic": "thǔeng",
-                    "partOfSpeech": "particle"
-                },
-                {
-                    "source": "อยาก",
-                    "target": "want",
-                    "phonetic": "yàak",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "สอน",
-                    "target": "to teach",
-                    "phonetic": "sŏn",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
-                }
-            ]
+            "source": "อะไรที่ยากที่สุดคะ",
+            "target": "What's the hardest part? (♀)",
+            "phonetic": "à-rai tîi yâak tîi-sùt ká"
         },
         {
-            "source": "ฉันชอบช่วยให้คนเรียนรู้สิ่งใหม่ๆ",
-            "target": "I like helping people learn new things.",
-            "phonetic": "chăn chôrp chûai hâi khon rian-rúu sìng mài mài",
-            "breakdown": [
-                {
-                    "source": "ฉัน",
-                    "target": "I (female)",
-                    "phonetic": "chăn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ชอบ",
-                    "target": "to like",
-                    "phonetic": "chôrp",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ช่วย",
-                    "target": "to help",
-                    "phonetic": "chûai",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ให้",
-                    "target": "to make/let",
-                    "phonetic": "hâi",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "คน",
-                    "target": "people",
-                    "phonetic": "khon",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "เรียนรู้",
-                    "target": "to learn",
-                    "phonetic": "rian-rúu",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "สิ่ง",
-                    "target": "thing",
-                    "phonetic": "sìng",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ใหม่ๆ",
-                    "target": "new (reduplicated)",
-                    "phonetic": "mài mài",
-                    "partOfSpeech": "adjective"
-                }
-            ]
+            "source": "เวลาเดดไลน์ใกล้ ต้องจัดการเวลาดีครับ",
+            "target": "When deadlines are close, time management matters. (♂)",
+            "phonetic": "wee-laa dèet-lai glâi dtâwng jàt-gaan wee-laa dii kráp"
         },
         {
-            "source": "คุณจะสอนวิชาอะไรครับ",
-            "target": "What subject would you teach?",
-            "phonetic": "khun jà sŏn wí-chaa à-rai khráp",
-            "breakdown": [
-                {
-                    "source": "คุณ",
-                    "target": "you (polite)",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "จะ",
-                    "target": "will/would",
-                    "phonetic": "jà",
-                    "partOfSpeech": "auxiliary"
-                },
-                {
-                    "source": "สอน",
-                    "target": "to teach",
-                    "phonetic": "sŏn",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "วิชา",
-                    "target": "subject",
-                    "phonetic": "wí-chaa",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "อะไร",
-                    "target": "what",
-                    "phonetic": "à-rai",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
-                }
-            ]
+            "source": "อยากเปลี่ยนงานไหมในอนาคตคะ",
+            "target": "Do you want to change jobs later? (♀)",
+            "phonetic": "yàak bplìan ngaan mǎi nai à-naa-kót ká"
         },
         {
-            "source": "ฉันคงสอนภาษาอังกฤษหรือคณิตศาสตร์",
-            "target": "I would teach English or math.",
-            "phonetic": "chăn khong sŏn phaa-săa ang-grìt rǔe khá-nít-sà-sàat",
-            "breakdown": [
-                {
-                    "source": "ฉัน",
-                    "target": "I (female)",
-                    "phonetic": "chăn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "คง",
-                    "target": "would/probably",
-                    "phonetic": "khong",
-                    "partOfSpeech": "adverb"
-                },
-                {
-                    "source": "สอน",
-                    "target": "to teach",
-                    "phonetic": "sŏn",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ภาษาอังกฤษ",
-                    "target": "English",
-                    "phonetic": "phaa-săa ang-grìt",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "หรือ",
-                    "target": "or",
-                    "phonetic": "rǔe",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "คณิตศาสตร์",
-                    "target": "math",
-                    "phonetic": "khá-nít-sà-sàat",
-                    "partOfSpeech": "noun"
-                }
-            ]
+            "source": "อาจเป็นผู้จัดการทีมสักวันครับ",
+            "target": "Maybe a team manager someday. (♂)",
+            "phonetic": "àat bpen pûu jàt-gaan tiim sàk wan kráp"
         },
         {
-            "source": "การสอนยากไหมครับ",
-            "target": "Is teaching difficult?",
-            "phonetic": "gaan sŏn yâak mǎi khráp",
-            "breakdown": [
-                {
-                    "source": "การ",
-                    "target": "nominalizer",
-                    "phonetic": "gaan",
-                    "partOfSpeech": "prefix"
-                },
-                {
-                    "source": "สอน",
-                    "target": "to teach",
-                    "phonetic": "sŏn",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ยาก",
-                    "target": "difficult",
-                    "phonetic": "yâak",
-                    "partOfSpeech": "adjective"
-                },
-                {
-                    "source": "ไหม",
-                    "target": "question particle",
-                    "phonetic": "mǎi",
-                    "partOfSpeech": "particle"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
-                }
-            ]
+            "source": "ต้องใช้ภาษาอังกฤษบ่อยไหมคะ",
+            "target": "Do you use English often? (♀)",
+            "phonetic": "dtâwng chái paa-sǎa ang-grìt bàwy mǎi ká"
         },
         {
-            "source": "ยากค่ะ แต่ก็ได้ผลตอบแทนที่ดี",
-            "target": "Yes, but it’s also rewarding.",
-            "phonetic": "yâak khâ dtàe gôr dâi phŏn dtàwp-thaen thîi dee",
-            "breakdown": [
-                {
-                    "source": "ยาก",
-                    "target": "hard",
-                    "phonetic": "yâak",
-                    "partOfSpeech": "adjective"
-                },
-                {
-                    "source": "ค่ะ",
-                    "target": "(female) yes",
-                    "phonetic": "khâ",
-                    "partOfSpeech": "particle"
-                },
-                {
-                    "source": "แต่",
-                    "target": "but",
-                    "phonetic": "dtàe",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "ก็",
-                    "target": "also/indeed",
-                    "phonetic": "gôr",
-                    "partOfSpeech": "particle"
-                },
-                {
-                    "source": "ได้",
-                    "target": "get",
-                    "phonetic": "dâi",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ผลตอบแทน",
-                    "target": "reward/return",
-                    "phonetic": "phŏn dtàwp-thaen",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ที่",
-                    "target": "that/which",
-                    "phonetic": "thîi",
-                    "partOfSpeech": "particle"
-                },
-                {
-                    "source": "ดี",
-                    "target": "good",
-                    "phonetic": "dee",
-                    "partOfSpeech": "adjective"
-                }
-            ]
+            "source": "บ่อยครับ อีเมลและการประชุมออนไลน์",
+            "target": "Often — email and online meetings. (♂)",
+            "phonetic": "bàwy kráp ii-meen lɛ́ gaan bprà-chum on-lai"
         },
         {
-            "source": "คุณทำงานทุกวันไหมครับ",
-            "target": "Do you work every day?",
-            "phonetic": "khun tham-ngaan thúk wan mǎi khráp",
-            "breakdown": [
-                {
-                    "source": "คุณ",
-                    "target": "you (polite)",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ทำงาน",
-                    "target": "to work",
-                    "phonetic": "tham-ngaan",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ทุก",
-                    "target": "every",
-                    "phonetic": "thúk",
-                    "partOfSpeech": "determiner"
-                },
-                {
-                    "source": "วัน",
-                    "target": "day",
-                    "phonetic": "wan",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ไหม",
-                    "target": "question particle",
-                    "phonetic": "mǎi",
-                    "partOfSpeech": "particle"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
-                }
-            ]
+            "source": "ฟังแล้วน่าสนใจดีค่ะ",
+            "target": "That sounds interesting. (♀)",
+            "phonetic": "fang lɛ́ɛo nâa sǒn-jai dii kâ"
         },
         {
-            "source": "ไม่ค่ะ ฉันทำงานสัปดาห์ละสามวัน",
-            "target": "No, I work three days a week.",
-            "phonetic": "mâi khâ chăn tham-ngaan sàp-daa láa sǎam wan",
-            "breakdown": [
-                {
-                    "source": "ไม่",
-                    "target": "no/not",
-                    "phonetic": "mâi",
-                    "partOfSpeech": "adverb"
-                },
-                {
-                    "source": "ค่ะ",
-                    "target": "female polite particle",
-                    "phonetic": "khâ",
-                    "partOfSpeech": "particle"
-                },
-                {
-                    "source": "ฉัน",
-                    "target": "I (female)",
-                    "phonetic": "chăn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ทำงาน",
-                    "target": "to work",
-                    "phonetic": "tham-ngaan",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "สัปดาห์ละ",
-                    "target": "per week",
-                    "phonetic": "sàp-daa lá",
-                    "partOfSpeech": "adverb"
-                },
-                {
-                    "source": "สาม",
-                    "target": "three",
-                    "phonetic": "sǎam",
-                    "partOfSpeech": "numeral"
-                },
-                {
-                    "source": "วัน",
-                    "target": "days",
-                    "phonetic": "wan",
-                    "partOfSpeech": "classifier"
-                }
-            ]
-        },
-        {
-            "source": "คุณทำงานตอนเช้าไหมครับ",
-            "target": "Do you work in the morning?",
-            "phonetic": "khun tham-ngaan dtawn cháo mǎi khráp",
-            "breakdown": [
-                {
-                    "source": "คุณ",
-                    "target": "you (polite)",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ทำงาน",
-                    "target": "to work",
-                    "phonetic": "tham-ngaan",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ตอนเช้า",
-                    "target": "in the morning",
-                    "phonetic": "dtawn cháo",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ไหม",
-                    "target": "question particle",
-                    "phonetic": "mǎi",
-                    "partOfSpeech": "particle"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
-                }
-            ]
-        },
-        {
-            "source": "ใช่ค่ะ ฉันเริ่มงานตอนเก้าโมงเช้า",
-            "target": "Yes, I start at nine in the morning.",
-            "phonetic": "châi khâ chăn rœ̂œm-ngaan dtawn gâo moong cháo",
-            "breakdown": [
-                {
-                    "source": "ใช่",
-                    "target": "yes",
-                    "phonetic": "châi",
-                    "partOfSpeech": "interjection"
-                },
-                {
-                    "source": "ค่ะ",
-                    "target": "female polite particle",
-                    "phonetic": "khâ",
-                    "partOfSpeech": "particle"
-                },
-                {
-                    "source": "ฉัน",
-                    "target": "I (female)",
-                    "phonetic": "chăn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "เริ่มงาน",
-                    "target": "to start work",
-                    "phonetic": "rœ̂œm-ngaan",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ตอน",
-                    "target": "at",
-                    "phonetic": "dtawn",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "เก้าโมงเช้า",
-                    "target": "nine in the morning",
-                    "phonetic": "gâo moong cháo",
-                    "partOfSpeech": "noun"
-                }
-            ]
-        },
-        {
-            "source": "คุณชอบเพื่อนร่วมงานไหมครับ",
-            "target": "Do you like your coworkers?",
-            "phonetic": "khun chôrp phêuan rûam-ngaan mǎi khráp",
-            "breakdown": [
-                {
-                    "source": "คุณ",
-                    "target": "you (polite)",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ชอบ",
-                    "target": "to like",
-                    "phonetic": "chôrp",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "เพื่อนร่วมงาน",
-                    "target": "coworkers",
-                    "phonetic": "phêuan rûam-ngaan",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ไหม",
-                    "target": "question particle",
-                    "phonetic": "mǎi",
-                    "partOfSpeech": "particle"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
-                }
-            ]
-        },
-        {
-            "source": "ชอบค่ะ พวกเขาเป็นมิตรและชอบช่วยเหลือ",
-            "target": "Yes, they are friendly and helpful.",
-            "phonetic": "chôrp khâ phûak-kháo bpen mít láe chôrp chûai-lǔea",
-            "breakdown": [
-                {
-                    "source": "ชอบ",
-                    "target": "yes/like",
-                    "phonetic": "chôrp",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ค่ะ",
-                    "target": "female polite particle",
-                    "phonetic": "khâ",
-                    "partOfSpeech": "particle"
-                },
-                {
-                    "source": "พวกเขา",
-                    "target": "they",
-                    "phonetic": "phûak-kháo",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "เป็นมิตร",
-                    "target": "friendly",
-                    "phonetic": "bpen mít",
-                    "partOfSpeech": "adjective"
-                },
-                {
-                    "source": "และ",
-                    "target": "and",
-                    "phonetic": "láe",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "ชอบ",
-                    "target": "like",
-                    "phonetic": "chôrp",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ช่วยเหลือ",
-                    "target": "to help",
-                    "phonetic": "chûai-lǔea",
-                    "partOfSpeech": "verb"
-                }
-            ]
+            "source": "ขอบคุณครับ วันหนึ่งมาเยี่ยมออฟฟิศได้",
+            "target": "Thanks — you can visit the office sometime. (♂)",
+            "phonetic": "kàwp-kun kráp wan nùeng maa yîiam óf-fít dâai"
         }
     ],
-    "createdAt": "2025-09-29T15:25:30Z",
-    "updatedAt": "2025-09-29T15:26:30Z",
+    "createdAt": "2025-09-28T08:54:49Z",
+    "updatedAt": "2026-04-08T16:00:00Z",
     "difficulty": "intermediate",
     "summary": {
-        "source": "บทสนทนาเกี่ยวกับงานและอาชีพ: งานปัจจุบัน หน้าที่ ความชอบ งานในฝัน เหตุผลในการสอน วิชาที่สอน ตารางงาน เวลาเริ่มงาน และเพื่อนร่วมงาน",
-        "target": "Conversation about work and careers: current job, duties, likes, dream job, reasons for teaching, subjects taught, work schedule, start time, and colleagues"
+        "source": "พิมสัมภาษณ์สมชายเรื่องงาน หน้าที่ และความฝันในอาชีพ",
+        "target": "Pim asks Somchai about his job, duties, and career goals."
     }
 }

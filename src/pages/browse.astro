@@ -19,7 +19,9 @@ import {
 >
   <div class="mx-auto max-w-2xl space-y-8">
     <header class="space-y-2">
-      <h1 class="text-3xl font-bold text-slate-900">Browse</h1>
+      <h1 class="text-3xl font-bold text-slate-900">
+        <span aria-hidden="true">🗂️</span> Browse
+      </h1>
       <p class="text-slate-600">
         All flashcards and stories — jump in anywhere. Your Learn path keeps
         suggesting what’s next.
@@ -31,10 +33,16 @@ import {
         href={getFlashCardsPath()}
         class="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-0.5 hover:border-teal-300 hover:shadow-md"
       >
-        <p class="text-sm font-semibold uppercase tracking-wide text-teal-700">
+        <span
+          class="flex h-14 w-14 items-center justify-center rounded-2xl bg-teal-50 text-3xl ring-1 ring-teal-100"
+          aria-hidden="true"
+        >
+          🃏
+        </span>
+        <p class="mt-4 text-sm font-semibold uppercase tracking-wide text-teal-700">
           Flashcards
         </p>
-        <h2 class="mt-2 text-xl font-bold text-slate-900 group-hover:text-teal-800">
+        <h2 class="mt-1 text-xl font-bold text-slate-900 group-hover:text-teal-800">
           Vocabulary decks
         </h2>
         <p class="mt-2 text-sm text-slate-600">
@@ -50,10 +58,16 @@ import {
         href={getReadingPath()}
         class="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-0.5 hover:border-teal-300 hover:shadow-md"
       >
-        <p class="text-sm font-semibold uppercase tracking-wide text-teal-700">
+        <span
+          class="flex h-14 w-14 items-center justify-center rounded-2xl bg-amber-50 text-3xl ring-1 ring-amber-100"
+          aria-hidden="true"
+        >
+          📖
+        </span>
+        <p class="mt-4 text-sm font-semibold uppercase tracking-wide text-teal-700">
           Reading
         </p>
-        <h2 class="mt-2 text-xl font-bold text-slate-900 group-hover:text-teal-800">
+        <h2 class="mt-1 text-xl font-bold text-slate-900 group-hover:text-teal-800">
           Graded stories
         </h2>
         <p class="mt-2 text-sm text-slate-600">
@@ -64,6 +78,25 @@ import {
         </span>
       </a>
     </div>
+
+    <a
+      href={getLearnPath()}
+      class="flex items-center gap-3 rounded-2xl border border-teal-200 bg-teal-50/80 p-4 transition-colors hover:border-teal-300 hover:bg-teal-50"
+    >
+      <span
+        class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-white text-2xl shadow-sm"
+        aria-hidden="true"
+      >
+        🗺️
+      </span>
+      <div>
+        <p class="font-semibold text-teal-900">Full learning path</p>
+        <p class="text-sm text-teal-800/80">
+          All units on a clickable map — cards + stories paired by theme.
+        </p>
+      </div>
+      <span class="ml-auto text-teal-700" aria-hidden="true">→</span>
+    </a>
 
     <p class="text-center text-sm text-slate-500">
       <a href={getLearnPath()} class="font-medium text-teal-700 hover:text-teal-900">

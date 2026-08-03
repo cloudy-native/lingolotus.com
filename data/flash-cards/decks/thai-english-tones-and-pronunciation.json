@@ -1,5 +1,5 @@
 {
-    "collectionId": "thai-english-intermediate",
+    "collectionId": "thai-english-beginner",
     "deckId": "tones-pronunciation-revised",
     "name": "Thai Tones & Pronunciation - Minimal Pairs",
     "description": "Thai words and phrases with similar pronunciation but different meanings due to tones or vowel length",
@@ -660,7 +660,7 @@
         }
     ],
     "createdAt": "2025-01-08T22:08:03Z",
-    "updatedAt": "2025-01-24T01:28:07Z",
+    "updatedAt": "2026-04-08T18:30:00Z",
     "theme": "pronunciation",
-    "difficulty": "intermediate"
+    "difficulty": "beginner"
 }

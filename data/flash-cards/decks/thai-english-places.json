@@ -1,0 +1,527 @@
+{
+    "collectionId": "thai-english-beginner",
+    "sourceLanguage": "th",
+    "targetLanguage": "en",
+    "createdAt": "2026-04-08T12:00:00Z",
+    "updatedAt": "2026-04-08T18:30:00Z",
+    "difficulty": "beginner",
+    "category": "language-learning",
+    "deckId": "places",
+    "name": "Thai Places Around Town",
+    "description": "Places you need early in Thailand: home, park, market, temple, school, and asking where.",
+    "theme": "places",
+    "cards": [
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ที่ไหน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "where?"
+            },
+            "tags": [
+                "question",
+                "place"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "tîi nǎi",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "อยู่ที่ไหนครับ",
+                    "translation": "Where is it? (♂)",
+                    "phonetic": "yùu tîi nǎi kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "บ้าน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "house / home"
+            },
+            "tags": [
+                "place",
+                "home"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "bâan",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "ผมอยู่บ้านครับ",
+                    "translation": "I'm at home (♂)",
+                    "phonetic": "pǒm yùu bâan kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "อยู่"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to be located / to live (at)"
+            },
+            "tags": [
+                "verb",
+                "place"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "yùu",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "คุณอยู่ที่ไหนค่ะ",
+                    "translation": "Where are you? (♀)",
+                    "phonetic": "kun yùu tîi nǎi kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ใน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "in / inside"
+            },
+            "tags": [
+                "place",
+                "prep"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "nai",
+            "partOfSpeech": "preposition",
+            "examples": [
+                {
+                    "original": "อยู่ในบ้านครับ",
+                    "translation": "In the house (♂)",
+                    "phonetic": "yùu nai bâan kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ไป"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to go"
+            },
+            "tags": [
+                "verb",
+                "movement"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "bpai",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "ไปไหนคะ",
+                    "translation": "Where are you going? (♀)",
+                    "phonetic": "bpai nǎi ká"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "มา"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to come"
+            },
+            "tags": [
+                "verb",
+                "movement"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "maa",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "มาบ้านได้ไหมครับ",
+                    "translation": "Can you come to the house? (♂)",
+                    "phonetic": "maa bâan dâai mǎi kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "สวนสาธารณะ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "public park"
+            },
+            "tags": [
+                "place"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "sǔan sǎa-taa-rá-ná",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "ไปสวนสาธารณะค่ะ",
+                    "translation": "Go to the park (♀)",
+                    "phonetic": "bpai sǔan sǎa-taa-rá-ná kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ตลาด"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "market"
+            },
+            "tags": [
+                "place",
+                "food"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "dtà-làat",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "ตลาดเช้าครับ",
+                    "translation": "Morning market (♂)",
+                    "phonetic": "dtà-làat cháao kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "วัด"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "temple"
+            },
+            "tags": [
+                "place",
+                "culture"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "wát",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "ไปวัดไหมค่ะ",
+                    "translation": "Shall we go to the temple? (♀)",
+                    "phonetic": "bpai wát mǎi kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "โรงเรียน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "school"
+            },
+            "tags": [
+                "place"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "roong-rian",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "ไปโรงเรียนครับ",
+                    "translation": "Go to school (♂)",
+                    "phonetic": "bpai roong-rian kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ร้านอาหาร"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "restaurant"
+            },
+            "tags": [
+                "place",
+                "food"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "ráan aa-hǎan",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "ร้านอาหารอร่อยค่ะ",
+                    "translation": "The restaurant is good (♀)",
+                    "phonetic": "ráan aa-hǎan à-ràwy kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ร้านกาแฟ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "café / coffee shop"
+            },
+            "tags": [
+                "place"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "ráan gaa-fɛɛ",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "นัดที่ร้านกาแฟครับ",
+                    "translation": "Meet at the café (♂)",
+                    "phonetic": "nát tîi ráan gaa-fɛɛ kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "สถานี"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "station"
+            },
+            "tags": [
+                "place",
+                "travel"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "sà-tǎa-nii",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "สถานีรถไฟฟ้าค่ะ",
+                    "translation": "BTS/MRT station (♀)",
+                    "phonetic": "sà-tǎa-nii rót-fai-fáa kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "โรงพยาบาล"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "hospital"
+            },
+            "tags": [
+                "place",
+                "health"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "roong-pá-yaa-baan",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "โรงพยาบาลอยู่ที่ไหนครับ",
+                    "translation": "Where is the hospital? (♂)",
+                    "phonetic": "roong-pá-yaa-baan yùu tîi nǎi kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ห้าง"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "mall / department store"
+            },
+            "tags": [
+                "place",
+                "shopping"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "hâang",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "ไปห้างกันไหมค่ะ",
+                    "translation": "Shall we go to the mall? (♀)",
+                    "phonetic": "bpai hâang gan mǎi kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ใกล้"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "near / close"
+            },
+            "tags": [
+                "place"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "glâi",
+            "partOfSpeech": "adjective",
+            "examples": [
+                {
+                    "original": "บ้านใกล้ตลาดครับ",
+                    "translation": "Home is near the market (♂)",
+                    "phonetic": "bâan glâi dtà-làat kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ไกล"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "far"
+            },
+            "tags": [
+                "place"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "glai",
+            "partOfSpeech": "adjective",
+            "examples": [
+                {
+                    "original": "ไกลไหมค่ะ",
+                    "translation": "Is it far? (♀)",
+                    "phonetic": "glai mǎi kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ใหญ่"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "big"
+            },
+            "tags": [
+                "description"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "yài",
+            "partOfSpeech": "adjective",
+            "examples": [
+                {
+                    "original": "บ้านใหญ่ครับ",
+                    "translation": "A big house (♂)",
+                    "phonetic": "bâan yài kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เล็ก"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "small"
+            },
+            "tags": [
+                "description"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "lék",
+            "partOfSpeech": "adjective",
+            "examples": [
+                {
+                    "original": "ร้านเล็กๆ ค่ะ",
+                    "translation": "A small shop (♀)",
+                    "phonetic": "ráan lék lék kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "สนุก"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "fun / enjoyable"
+            },
+            "tags": [
+                "description"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "sà-nùk",
+            "partOfSpeech": "adjective",
+            "examples": [
+                {
+                    "original": "สวนสนุกไหมครับ",
+                    "translation": "Is the park fun? (♂)",
+                    "phonetic": "sǔan sà-nùk mǎi kráp"
+                }
+            ]
+        }
+    ]
+}

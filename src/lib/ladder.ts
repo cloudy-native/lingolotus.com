@@ -9,6 +9,8 @@ import {
   getDeckPath,
   getStudyPath,
   getStoryPath,
+  getUnitPath,
+  withUnitQuery,
 } from "./utils";
 
 export interface LadderDeckRef {
@@ -30,6 +32,10 @@ export interface LadderStep {
   level: Level;
   deck?: LadderDeckRef;
   story?: LadderStoryRef;
+  /** Curriculum unit metadata (when units.json drives the path) */
+  unitId?: string;
+  unitTitle?: string;
+  unitType?: "theme" | "skill";
 }
 
 export interface LevelLadder {
@@ -37,17 +43,30 @@ export interface LevelLadder {
   steps: LadderStep[];
 }
 
+/** Per-unit pairing (authoritative when `?unit=` is present) */
+export interface UnitPairInfo {
+  unitId: string;
+  level: Level;
+  stepIndex: number;
+  unitTitle?: string;
+  unitType?: "theme" | "skill";
+  deck?: LadderDeckRef;
+  story?: LadderStoryRef;
+}
+
 export interface LadderCatalog {
   levels: LevelLadder[];
-  /** Quick lookup: deckId → step metadata */
+  /** Quick lookup: deckId → step metadata (first unit wins) */
   deckIndex: Record<
     string,
-    { level: Level; stepIndex: number; pairedStory?: LadderStoryRef }
+    { level: Level; stepIndex: number; pairedStory?: LadderStoryRef; unitId?: string }
   >;
   storyIndex: Record<
     string,
-    { level: Level; stepIndex: number; pairedDeck?: LadderDeckRef }
+    { level: Level; stepIndex: number; pairedDeck?: LadderDeckRef; unitId?: string }
   >;
+  /** unitId → full pair info */
+  unitIndex: Record<string, UnitPairInfo>;
 }
 
 /** Onboarding content anchors (v1) */
@@ -115,6 +134,17 @@ export interface RawStory {
   sentences?: unknown[];
 }
 
+export interface CurriculumUnitRaw {
+  unitId: string;
+  level: string;
+  order: number;
+  type: "theme" | "skill";
+  title: { en: string; th?: string };
+  deckId?: string;
+  storyId?: string;
+  bookId?: string;
+}
+
 function sortDecks(
   decks: LadderDeckRef[],
   priorityDeckIds: string[] = [],
@@ -145,12 +175,133 @@ function sortStories(
   });
 }
 
+function indexStep(
+  deckIndex: LadderCatalog["deckIndex"],
+  storyIndex: LadderCatalog["storyIndex"],
+  unitIndex: LadderCatalog["unitIndex"],
+  step: LadderStep,
+  /** first-wins so multi-unit decks keep their earliest pair */
+  firstWins = true,
+): void {
+  if (step.unitId) {
+    unitIndex[step.unitId] = {
+      unitId: step.unitId,
+      level: step.level,
+      stepIndex: step.index,
+      unitTitle: step.unitTitle,
+      unitType: step.unitType,
+      deck: step.deck,
+      story: step.story,
+    };
+  }
+  if (step.deck) {
+    if (!firstWins || !deckIndex[step.deck.deckId]) {
+      deckIndex[step.deck.deckId] = {
+        level: step.level,
+        stepIndex: step.index,
+        pairedStory: step.story,
+        unitId: step.unitId,
+      };
+    }
+  }
+  if (step.story) {
+    if (!firstWins || !storyIndex[step.story.storyId]) {
+      storyIndex[step.story.storyId] = {
+        level: step.level,
+        stepIndex: step.index,
+        pairedDeck: step.deck,
+        unitId: step.unitId,
+      };
+    }
+  }
+}
+
+/**
+ * Preferred path: explicit curriculum units (thematic deck+story pairs).
+ * Falls back to legacy zip-by-level if units are empty/missing.
+ */
 export function buildLadderCatalog(input: {
   collections: RawCollection[];
   decks: RawDeck[];
   books: RawBook[];
   stories: RawStory[];
+  units?: CurriculumUnitRaw[];
 }): LadderCatalog {
+  const deckById = new Map(
+    input.decks.map((d) => [
+      d.deckId,
+      {
+        deckId: d.deckId,
+        collectionId: d.collectionId,
+        name: d.name,
+        description: d.description,
+      } satisfies LadderDeckRef,
+    ]),
+  );
+  const storyById = new Map(
+    input.stories.map((s) => [
+      s.storyId,
+      {
+        storyId: s.storyId,
+        bookId: s.bookId,
+        title: s.title.target || s.title.source,
+        sentenceCount: Array.isArray(s.sentences)
+          ? s.sentences.length
+          : undefined,
+      } satisfies LadderStoryRef,
+    ]),
+  );
+
+  const units = (input.units ?? [])
+    .map((u) => ({
+      ...u,
+      level: normalizeLevel(u.level) as Level | null,
+    }))
+    .filter((u): u is CurriculumUnitRaw & { level: Level } => u.level != null)
+    .sort((a, b) => a.order - b.order || a.unitId.localeCompare(b.unitId));
+
+  if (units.length > 0) {
+    const levels: LevelLadder[] = [];
+    const deckIndex: LadderCatalog["deckIndex"] = {};
+    const storyIndex: LadderCatalog["storyIndex"] = {};
+    const unitIndex: LadderCatalog["unitIndex"] = {};
+
+    for (const level of Object.keys(LEVEL_CONFIG) as Level[]) {
+      const levelUnits = units.filter((u) => u.level === level);
+      const steps: LadderStep[] = levelUnits.map((u, i) => {
+        const deck = u.deckId ? deckById.get(u.deckId) : undefined;
+        const story = u.storyId ? storyById.get(u.storyId) : undefined;
+        if (u.deckId && !deck) {
+          console.warn(
+            `[curriculum] unit ${u.unitId}: missing deck "${u.deckId}"`,
+          );
+        }
+        if (u.storyId && !story) {
+          console.warn(
+            `[curriculum] unit ${u.unitId}: missing story "${u.storyId}"`,
+          );
+        }
+        return {
+          index: i,
+          level,
+          deck,
+          story,
+          unitId: u.unitId,
+          unitTitle: u.title.en,
+          unitType: u.type,
+        } satisfies LadderStep;
+      });
+
+      for (const step of steps) {
+        indexStep(deckIndex, storyIndex, unitIndex, step, true);
+      }
+      levels.push({ level, steps });
+    }
+
+    return { levels, deckIndex, storyIndex, unitIndex };
+  }
+
+  // ---- Legacy zip fallback ----
   const collectionDifficulty = new Map(
     input.collections.map((c) => [
       c.collectionId,
@@ -161,6 +312,7 @@ export function buildLadderCatalog(input: {
   const levels: LevelLadder[] = [];
   const deckIndex: LadderCatalog["deckIndex"] = {};
   const storyIndex: LadderCatalog["storyIndex"] = {};
+  const unitIndex: LadderCatalog["unitIndex"] = {};
 
   for (const level of Object.keys(LEVEL_CONFIG) as Level[]) {
     const config = LEVEL_CONFIG[level];
@@ -170,7 +322,6 @@ export function buildLadderCatalog(input: {
       input.decks
         .filter((d) => {
           if (collectionSet.has(d.collectionId)) return true;
-          // Fallback: collection difficulty match
           return collectionDifficulty.get(d.collectionId) === level;
         })
         .map((d) => ({
@@ -190,7 +341,9 @@ export function buildLadderCatalog(input: {
           storyId: s.storyId,
           bookId: s.bookId,
           title: s.title.target || s.title.source,
-          sentenceCount: Array.isArray(s.sentences) ? s.sentences.length : undefined,
+          sentenceCount: Array.isArray(s.sentences)
+            ? s.sentences.length
+            : undefined,
         })),
       config.bookIds,
     );
@@ -212,27 +365,13 @@ export function buildLadderCatalog(input: {
         story,
       };
       steps.push(step);
-
-      if (deck) {
-        deckIndex[deck.deckId] = {
-          level,
-          stepIndex: i,
-          pairedStory: story,
-        };
-      }
-      if (story) {
-        storyIndex[story.storyId] = {
-          level,
-          stepIndex: i,
-          pairedDeck: deck,
-        };
-      }
+      indexStep(deckIndex, storyIndex, unitIndex, step, false);
     }
 
     levels.push({ level, steps });
   }
 
-  return { levels, deckIndex, storyIndex };
+  return { levels, deckIndex, storyIndex, unitIndex };
 }
 
 export function getLevelLadder(
@@ -304,38 +443,71 @@ export function findContinueTarget(
     id: string;
     level?: Level;
     half?: string;
+    unitId?: string;
   } | null,
 ): { type: "deck" | "story"; href: string; label: string } | null {
   if (!lastActivity) return null;
   if (lastActivity.level && lastActivity.level !== level) return null;
   if (lastActivity.type === "onboarding") return null;
 
+  // Prefer unit hub when we still have unit context
+  if (lastActivity.unitId && catalog.unitIndex[lastActivity.unitId]) {
+    const u = catalog.unitIndex[lastActivity.unitId];
+    if (u.level === level) {
+      if (lastActivity.type === "deck" && u.deck) {
+        return {
+          type: "deck",
+          href: withUnitQuery(
+            getStudyPath(u.deck.collectionId, u.deck.deckId),
+            u.unitId,
+          ),
+          label: u.deck.name,
+        };
+      }
+      if (lastActivity.type === "story" && u.story) {
+        return {
+          type: "story",
+          href: withUnitQuery(
+            getStoryPath(u.story.bookId, u.story.storyId),
+            u.unitId,
+          ),
+          label: u.story.title,
+        };
+      }
+    }
+  }
+
   if (lastActivity.type === "deck") {
     // Prefer ladder meta on current level; still resume study if deck is known anywhere
     let deck: LadderDeckRef | undefined;
+    let unitId: string | undefined = lastActivity.unitId;
     const meta = catalog.deckIndex[lastActivity.id];
     if (meta && meta.level === level) {
       deck = getLevelLadder(catalog, level).steps[meta.stepIndex]?.deck;
+      unitId = unitId || meta.unitId;
     }
     if (!deck && meta) {
       deck = getLevelLadder(catalog, meta.level).steps[meta.stepIndex]?.deck;
+      unitId = unitId || meta.unitId;
     }
     // Scan all levels as last resort
     if (!deck) {
       for (const ladder of catalog.levels) {
-        const found = ladder.steps.find((s) => s.deck?.deckId === lastActivity.id)
-          ?.deck;
-        if (found) {
-          deck = found;
+        const found = ladder.steps.find((s) => s.deck?.deckId === lastActivity.id);
+        if (found?.deck) {
+          deck = found.deck;
+          unitId = unitId || found.unitId;
           break;
         }
       }
     }
     if (!deck) return null;
-    // Always deep-link into study (cards), never deck details
     return {
       type: "deck",
-      href: getStudyPath(deck.collectionId, deck.deckId),
+      href: withUnitQuery(
+        getStudyPath(deck.collectionId, deck.deckId),
+        unitId,
+      ),
       label: deck.name,
     };
   }
@@ -348,7 +520,10 @@ export function findContinueTarget(
     if (!step?.story) return null;
     return {
       type: "story",
-      href: getStoryPath(step.story.bookId, step.story.storyId),
+      href: withUnitQuery(
+        getStoryPath(step.story.bookId, step.story.storyId),
+        lastActivity.unitId || meta.unitId || step.unitId,
+      ),
       label: step.story.title,
     };
   }
@@ -361,10 +536,74 @@ export function hrefForHalf(
   half: "cards" | "reading",
 ): string | null {
   if (half === "cards" && step.deck) {
-    return getStudyPath(step.deck.collectionId, step.deck.deckId);
+    return withUnitQuery(
+      getStudyPath(step.deck.collectionId, step.deck.deckId),
+      step.unitId,
+    );
   }
   if (half === "reading" && step.story) {
-    return getStoryPath(step.story.bookId, step.story.storyId);
+    return withUnitQuery(
+      getStoryPath(step.story.bookId, step.story.storyId),
+      step.unitId,
+    );
+  }
+  return null;
+}
+
+/** Prefer unit hub when the step is part of the curriculum catalog */
+export function hrefForStep(step: LadderStep): string | null {
+  if (step.unitId) return getUnitPath(step.unitId);
+  if (step.deck) {
+    return withUnitQuery(
+      getStudyPath(step.deck.collectionId, step.deck.deckId),
+      step.unitId,
+    );
+  }
+  if (step.story) {
+    return withUnitQuery(
+      getStoryPath(step.story.bookId, step.story.storyId),
+      step.unitId,
+    );
+  }
+  return null;
+}
+
+/** Resolve pair info preferring explicit unitId over first-wins deck/story index */
+export function resolveUnitPair(
+  catalog: LadderCatalog,
+  opts: {
+    unitId?: string | null;
+    deckId?: string | null;
+    storyId?: string | null;
+  },
+): UnitPairInfo | null {
+  if (opts.unitId && catalog.unitIndex[opts.unitId]) {
+    return catalog.unitIndex[opts.unitId];
+  }
+  if (opts.deckId && catalog.deckIndex[opts.deckId]) {
+    const meta = catalog.deckIndex[opts.deckId];
+    if (meta.unitId && catalog.unitIndex[meta.unitId]) {
+      return catalog.unitIndex[meta.unitId];
+    }
+    return {
+      unitId: meta.unitId || "",
+      level: meta.level,
+      stepIndex: meta.stepIndex,
+      story: meta.pairedStory,
+      deck: opts.deckId
+        ? {
+            deckId: opts.deckId,
+            collectionId: "",
+            name: "",
+          }
+        : undefined,
+    };
+  }
+  if (opts.storyId && catalog.storyIndex[opts.storyId]) {
+    const meta = catalog.storyIndex[opts.storyId];
+    if (meta.unitId && catalog.unitIndex[meta.unitId]) {
+      return catalog.unitIndex[meta.unitId];
+    }
   }
   return null;
 }

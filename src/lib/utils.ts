@@ -33,6 +33,31 @@ export function getOnboardingPath(): string {
   return "/onboarding";
 }
 
+/** Returns a curriculum unit hub path */
+export function getUnitPath(unitId: string): string {
+  return `/unit/${unitId}`;
+}
+
+/** Append `?unit=` so study/story sessions keep unit context for pair CTAs */
+export function withUnitQuery(
+  path: string,
+  unitId?: string | null,
+): string {
+  if (!unitId) return path;
+  const sep = path.includes("?") ? "&" : "?";
+  return `${path}${sep}unit=${encodeURIComponent(unitId)}`;
+}
+
+/** Read unit id from a query string (e.g. window.location.search) */
+export function readUnitIdFromSearch(search: string): string | null {
+  try {
+    const id = new URLSearchParams(search).get("unit");
+    return id && id.trim() ? id.trim() : null;
+  } catch {
+    return null;
+  }
+}
+
 /** Returns the flash cards listing path */
 export function getFlashCardsPath(): string {
   return "/flash-cards";

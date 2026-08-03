@@ -4,6 +4,7 @@ import PageLayout from "@/layouts/PageLayout.astro";
 import StoryReader from "@/components/islands/StoryReader";
 import { buildLadderCatalog, getLevelLadder, hrefForHalf, getStepProgress } from "@/lib/ladder";
 import { loadGrammarMarkdown } from "@/lib/grammar";
+import { loadCurriculumUnits } from "@/lib/curriculum";
 import {
   getBookPath,
   getReadingPath,
@@ -18,6 +19,7 @@ export async function getStaticPaths() {
   const stories = await getCollection("stories");
   const collections = await getCollection("flashcard-collections");
   const decks = await getCollection("flashcard-decks");
+  const units = loadCurriculumUnits();
 
   // Referential integrity validation — fail the build if any story references a missing book
   const result = validateStoryReferences(
@@ -54,6 +56,7 @@ export async function getStaticPaths() {
       title: s.data.title,
       sentences: s.data.sentences,
     })),
+    units,
   });
 
   const bookMap = new Map(books.map((b) => [b.data.bookId, b.data]));
@@ -62,9 +65,11 @@ export async function getStaticPaths() {
     const meta = catalog.storyIndex[story.data.storyId];
     let nextHref: string | null = null;
     let nextLabel: string | null = null;
+    let unitId: string | null = null;
 
     if (meta) {
       const ladder = getLevelLadder(catalog, meta.level);
+      unitId = ladder.steps[meta.stepIndex]?.unitId ?? null;
       // next incomplete after this story (pretend this story is done for next calc)
       const completedStories = [story.data.storyId];
       const completedDecks: string[] = [];
@@ -94,6 +99,21 @@ export async function getStaticPaths() {
       }
     }
 
+    const unitPairMap: Record<
+      string,
+      { unitId: string; level?: string; stepIndex?: number }
+    > = {};
+    for (const [uid, info] of Object.entries(catalog.unitIndex)) {
+      if (info.story?.storyId === story.data.storyId) {
+        unitPairMap[uid] = {
+          unitId: uid,
+          level: info.level,
+          stepIndex: info.stepIndex,
+        };
+        if (!unitId) unitId = uid;
+      }
+    }
+
     return {
       params: { bookId: story.data.bookId, storyId: story.data.storyId },
       props: {
@@ -103,12 +123,23 @@ export async function getStaticPaths() {
         stepIndex: meta?.stepIndex,
         nextHref,
         nextLabel,
+        unitId,
+        unitPairMap,
       },
     };
   });
 }
 
-const { story, book, level, stepIndex, nextHref, nextLabel } = Astro.props;
+const {
+  story,
+  book,
+  level,
+  stepIndex,
+  nextHref,
+  nextLabel,
+  unitId,
+  unitPairMap,
+} = Astro.props;
 const canonicalPath = getStoryPath(story.bookId, story.storyId);
 const storyDescription = `Read "${story.title.target}" — a ${story.language} language learning story from ${book.name}`;
 
@@ -157,6 +188,8 @@ const grammarMarkdown = loadGrammarMarkdown(story.language);
     stepIndex={stepIndex}
     nextHref={nextHref}
     nextLabel={nextLabel}
+    unitId={unitId}
+    unitPairMap={unitPairMap}
     grammarMarkdown={grammarMarkdown}
   />
 </PageLayout>

@@ -1,0 +1,541 @@
+{
+  "version": 1,
+  "description": "Thematic curriculum units: deck + story pairs (and skill side-units). Source of truth for Learn path order.",
+  "units": [
+    {
+      "unitId": "beginner-greetings",
+      "level": "beginner",
+      "order": 1,
+      "type": "theme",
+      "title": { "en": "Greetings & polite speech", "th": "การทักทาย" },
+      "deckId": "greetings",
+      "storyId": "thai-beginner-1-greetings",
+      "bookId": "thai-beginner-1"
+    },
+    {
+      "unitId": "beginner-numbers",
+      "level": "beginner",
+      "order": 2,
+      "type": "theme",
+      "title": { "en": "Numbers & counting", "th": "ตัวเลข" },
+      "deckId": "numbers-counting",
+      "storyId": "thai-beginner-1-numbers",
+      "bookId": "thai-beginner-1"
+    },
+    {
+      "unitId": "beginner-family",
+      "level": "beginner",
+      "order": 3,
+      "type": "theme",
+      "title": { "en": "Family", "th": "ครอบครัว" },
+      "deckId": "thai-family",
+      "storyId": "thai-beginner-1-family",
+      "bookId": "thai-beginner-1"
+    },
+    {
+      "unitId": "beginner-food",
+      "level": "beginner",
+      "order": 4,
+      "type": "theme",
+      "title": { "en": "Food likes", "th": "อาหาร" },
+      "deckId": "food-dining",
+      "storyId": "thai-beginner-1-food",
+      "bookId": "thai-beginner-1"
+    },
+    {
+      "unitId": "beginner-colors",
+      "level": "beginner",
+      "order": 5,
+      "type": "theme",
+      "title": { "en": "Colors", "th": "สี" },
+      "deckId": "colors",
+      "storyId": "thai-beginner-1-colors",
+      "bookId": "thai-beginner-1"
+    },
+    {
+      "unitId": "beginner-animals",
+      "level": "beginner",
+      "order": 6,
+      "type": "theme",
+      "title": { "en": "Pets & animals", "th": "สัตว์เลี้ยง" },
+      "deckId": "farm-animals",
+      "storyId": "thai-beginner-1-animals",
+      "bookId": "thai-beginner-1"
+    },
+    {
+      "unitId": "beginner-places",
+      "level": "beginner",
+      "order": 7,
+      "type": "theme",
+      "title": { "en": "Places around town", "th": "สถานที่" },
+      "deckId": "places",
+      "storyId": "thai-beginner-1-places",
+      "bookId": "thai-beginner-1"
+    },
+    {
+      "unitId": "beginner-time",
+      "level": "beginner",
+      "order": 8,
+      "type": "theme",
+      "title": { "en": "Time of day", "th": "เวลา" },
+      "deckId": "time",
+      "storyId": "thai-beginner-1-time",
+      "bookId": "thai-beginner-1"
+    },
+    {
+      "unitId": "beginner-weather",
+      "level": "beginner",
+      "order": 9,
+      "type": "theme",
+      "title": { "en": "Weather", "th": "อากาศ" },
+      "deckId": "weather",
+      "storyId": "thai-beginner-1-weather",
+      "bookId": "thai-beginner-1"
+    },
+    {
+      "unitId": "beginner-daily-activities",
+      "level": "beginner",
+      "order": 10,
+      "type": "theme",
+      "title": { "en": "Daily activities", "th": "กิจกรรมประจำวัน" },
+      "deckId": "activities",
+      "storyId": "thai-beginner-1-daily-activities",
+      "bookId": "thai-beginner-1"
+    },
+    {
+      "unitId": "beginner-skill-tones",
+      "level": "beginner",
+      "order": 11,
+      "type": "skill",
+      "title": { "en": "Tones intro", "th": "วรรณยุกต์" },
+      "deckId": "tones-pronunciation-revised"
+    },
+
+    {
+      "unitId": "elementary-new-friend",
+      "level": "elementary",
+      "order": 1,
+      "type": "theme",
+      "title": { "en": "Meeting people", "th": "เพื่อนใหม่" },
+      "deckId": "greetings",
+      "storyId": "thai-beginner-2-new-friend",
+      "bookId": "thai-beginner-2"
+    },
+    {
+      "unitId": "elementary-big-family",
+      "level": "elementary",
+      "order": 2,
+      "type": "theme",
+      "title": { "en": "Big family", "th": "ครอบครัวใหญ่" },
+      "deckId": "thai-family",
+      "storyId": "thai-beginner-2-big-family",
+      "bookId": "thai-beginner-2"
+    },
+    {
+      "unitId": "elementary-busy-day",
+      "level": "elementary",
+      "order": 3,
+      "type": "theme",
+      "title": { "en": "Busy day", "th": "วันยุ่งๆ" },
+      "deckId": "activities",
+      "storyId": "thai-beginner-2-busy-day",
+      "bookId": "thai-beginner-2"
+    },
+    {
+      "unitId": "elementary-picnic-food",
+      "level": "elementary",
+      "order": 4,
+      "type": "theme",
+      "title": { "en": "Food & picnic", "th": "อาหารปิกนิก" },
+      "deckId": "food-dining",
+      "storyId": "thai-beginner-2-picnic-food",
+      "bookId": "thai-beginner-2"
+    },
+    {
+      "unitId": "elementary-counting",
+      "level": "elementary",
+      "order": 5,
+      "type": "theme",
+      "title": { "en": "Counting in real life", "th": "นับเลข" },
+      "deckId": "numbers-counting",
+      "storyId": "thai-beginner-2-counting-fun",
+      "bookId": "thai-beginner-2"
+    },
+    {
+      "unitId": "elementary-day-time",
+      "level": "elementary",
+      "order": 6,
+      "type": "theme",
+      "title": { "en": "Day & clock time", "th": "เวลาในวัน" },
+      "deckId": "time",
+      "storyId": "thai-beginner-2-day-time",
+      "bookId": "thai-beginner-2"
+    },
+    {
+      "unitId": "elementary-colors",
+      "level": "elementary",
+      "order": 7,
+      "type": "theme",
+      "title": { "en": "Colors in the city", "th": "สีรอบตัว" },
+      "deckId": "colors",
+      "storyId": "thai-beginner-2-colors-everywhere",
+      "bookId": "thai-beginner-2"
+    },
+    {
+      "unitId": "elementary-visiting-places",
+      "level": "elementary",
+      "order": 8,
+      "type": "theme",
+      "title": { "en": "Visiting places", "th": "เที่ยวที่ต่างๆ" },
+      "deckId": "places",
+      "storyId": "thai-beginner-2-visiting-places",
+      "bookId": "thai-beginner-2"
+    },
+    {
+      "unitId": "elementary-weather",
+      "level": "elementary",
+      "order": 9,
+      "type": "theme",
+      "title": { "en": "Weather & seasons", "th": "อากาศและฤดู" },
+      "deckId": "weather",
+      "storyId": "thai-beginner-2-weather-seasons",
+      "bookId": "thai-beginner-2"
+    },
+    {
+      "unitId": "elementary-adjectives",
+      "level": "elementary",
+      "order": 10,
+      "type": "theme",
+      "title": { "en": "Common adjectives", "th": "คำคุณศัพท์" },
+      "deckId": "common-adjectives",
+      "storyId": "thai-beginner-2-pet-cat",
+      "bookId": "thai-beginner-2"
+    },
+    {
+      "unitId": "elementary-skill-prepositions",
+      "level": "elementary",
+      "order": 11,
+      "type": "skill",
+      "title": { "en": "Prepositions & location", "th": "คำบุพบท" },
+      "deckId": "prepositions"
+    },
+
+    {
+      "unitId": "intermediate-market",
+      "level": "intermediate",
+      "order": 1,
+      "type": "theme",
+      "title": { "en": "At the market", "th": "ที่ตลาด" },
+      "deckId": "shopping",
+      "storyId": "thai-intermediate-1-at-the-market",
+      "bookId": "thai-intermediate-1"
+    },
+    {
+      "unitId": "intermediate-restaurant",
+      "level": "intermediate",
+      "order": 2,
+      "type": "theme",
+      "title": { "en": "At the restaurant", "th": "ที่ร้านอาหาร" },
+      "deckId": "food-dining",
+      "storyId": "thai-intermediate-1-at-the-restaurant",
+      "bookId": "thai-intermediate-1"
+    },
+    {
+      "unitId": "intermediate-shopping-clothes",
+      "level": "intermediate",
+      "order": 3,
+      "type": "theme",
+      "title": { "en": "Shopping for clothes", "th": "ซื้อเสื้อผ้า" },
+      "deckId": "shopping",
+      "storyId": "thai-intermediate-1-shopping-for-clothes",
+      "bookId": "thai-intermediate-1"
+    },
+    {
+      "unitId": "intermediate-travel",
+      "level": "intermediate",
+      "order": 4,
+      "type": "theme",
+      "title": { "en": "Getting around", "th": "การเดินทาง" },
+      "deckId": "thai-travel",
+      "storyId": "thai-intermediate-1-traveling",
+      "bookId": "thai-intermediate-1"
+    },
+    {
+      "unitId": "intermediate-work",
+      "level": "intermediate",
+      "order": 5,
+      "type": "theme",
+      "title": { "en": "Work & jobs", "th": "งาน" },
+      "deckId": "occupations",
+      "storyId": "thai-intermediate-1-work-and-jobs",
+      "bookId": "thai-intermediate-1"
+    },
+    {
+      "unitId": "intermediate-health",
+      "level": "intermediate",
+      "order": 6,
+      "type": "theme",
+      "title": { "en": "Health & clinic", "th": "สุขภาพ" },
+      "deckId": "thai-medical",
+      "storyId": "thai-intermediate-1-health-and-exercise",
+      "bookId": "thai-intermediate-1"
+    },
+    {
+      "unitId": "intermediate-hobbies",
+      "level": "intermediate",
+      "order": 7,
+      "type": "theme",
+      "title": { "en": "Hobbies", "th": "งานอดิเรก" },
+      "deckId": "activities",
+      "storyId": "thai-intermediate-1-hobbies",
+      "bookId": "thai-intermediate-1"
+    },
+    {
+      "unitId": "intermediate-friends",
+      "level": "intermediate",
+      "order": 8,
+      "type": "theme",
+      "title": { "en": "Meeting new friends", "th": "ทำความรู้จัก" },
+      "deckId": "social-small-talk",
+      "storyId": "thai-intermediate-1-meeting-new-friends",
+      "bookId": "thai-intermediate-1"
+    },
+    {
+      "unitId": "intermediate-party",
+      "level": "intermediate",
+      "order": 9,
+      "type": "theme",
+      "title": { "en": "Planning a gathering", "th": "จัดงาน" },
+      "deckId": "planning-invites",
+      "storyId": "thai-intermediate-1-planning-a-party",
+      "bookId": "thai-intermediate-1"
+    },
+    {
+      "unitId": "intermediate-school",
+      "level": "intermediate",
+      "order": 10,
+      "type": "theme",
+      "title": { "en": "School & study", "th": "โรงเรียน" },
+      "deckId": "school-study",
+      "storyId": "thai-intermediate-1-a-day-at-school",
+      "bookId": "thai-intermediate-1"
+    },
+    {
+      "unitId": "intermediate-interview",
+      "level": "intermediate",
+      "order": 11,
+      "type": "theme",
+      "title": { "en": "Job interview", "th": "สัมภาษณ์งาน" },
+      "deckId": "job-interview",
+      "storyId": "thai-intermediate-2-the-job-interview",
+      "bookId": "thai-intermediate-2"
+    },
+    {
+      "unitId": "intermediate-cooking",
+      "level": "intermediate",
+      "order": 12,
+      "type": "theme",
+      "title": { "en": "Cooking class", "th": "คลาสทำอาหาร" },
+      "deckId": "food-dining",
+      "storyId": "thai-intermediate-2-the-cooking-class",
+      "bookId": "thai-intermediate-2"
+    },
+    {
+      "unitId": "intermediate-weekend",
+      "level": "intermediate",
+      "order": 13,
+      "type": "theme",
+      "title": { "en": "Weekend getaway", "th": "เที่ยวสุดสัปดาห์" },
+      "deckId": "thai-travel",
+      "storyId": "thai-intermediate-2-a-weekend-getaway",
+      "bookId": "thai-intermediate-2"
+    },
+    {
+      "unitId": "intermediate-language-exchange",
+      "level": "intermediate",
+      "order": 14,
+      "type": "theme",
+      "title": { "en": "Language exchange", "th": "แลกเปลี่ยนภาษา" },
+      "deckId": "social-small-talk",
+      "storyId": "thai-intermediate-2-a-language-exchange",
+      "bookId": "thai-intermediate-2"
+    },
+    {
+      "unitId": "intermediate-museum",
+      "level": "intermediate",
+      "order": 15,
+      "type": "theme",
+      "title": { "en": "Day at the museum", "th": "วันพิพิธภัณฑ์" },
+      "deckId": "school-study",
+      "storyId": "thai-intermediate-2-a-day-at-the-museum",
+      "bookId": "thai-intermediate-2"
+    },
+    {
+      "unitId": "intermediate-photography",
+      "level": "intermediate",
+      "order": 16,
+      "type": "theme",
+      "title": { "en": "Photography project", "th": "โปรเจกต์ถ่ายภาพ" },
+      "deckId": "activities",
+      "storyId": "thai-intermediate-2-the-photography-project",
+      "bookId": "thai-intermediate-2"
+    },
+    {
+      "unitId": "intermediate-charity-run",
+      "level": "intermediate",
+      "order": 17,
+      "type": "theme",
+      "title": { "en": "Charity run", "th": "วิ่งการกุศล" },
+      "deckId": "activities",
+      "storyId": "thai-intermediate-2-the-charity-run",
+      "bookId": "thai-intermediate-2"
+    },
+    {
+      "unitId": "intermediate-new-hobby",
+      "level": "intermediate",
+      "order": 18,
+      "type": "theme",
+      "title": { "en": "A new hobby", "th": "งานอดิเรกใหม่" },
+      "deckId": "activities",
+      "storyId": "thai-intermediate-2-a-new-hobby",
+      "bookId": "thai-intermediate-2"
+    },
+    {
+      "unitId": "intermediate-community-garden",
+      "level": "intermediate",
+      "order": 19,
+      "type": "theme",
+      "title": { "en": "Community garden", "th": "สวนชุมชน" },
+      "deckId": "places",
+      "storyId": "thai-intermediate-2-the-community-garden",
+      "bookId": "thai-intermediate-2"
+    },
+    {
+      "unitId": "intermediate-book-club",
+      "level": "intermediate",
+      "order": 20,
+      "type": "theme",
+      "title": { "en": "Book club", "th": "ชมรมหนังสือ" },
+      "deckId": "school-study",
+      "storyId": "thai-intermediate-2-the-book-club",
+      "bookId": "thai-intermediate-2"
+    },
+    {
+      "unitId": "intermediate-skill-tones",
+      "level": "intermediate",
+      "order": 21,
+      "type": "skill",
+      "title": { "en": "Tones mastery", "th": "วรรณยุกต์" },
+      "deckId": "tones-pronunciation-revised"
+    },
+
+    {
+      "unitId": "advanced-phrases",
+      "level": "advanced",
+      "order": 1,
+      "type": "skill",
+      "title": { "en": "Heart words & softeners", "th": "สำนวนใจความ" },
+      "deckId": "advanced-phrases"
+    },
+    {
+      "unitId": "advanced-family-reunion",
+      "level": "advanced",
+      "order": 2,
+      "type": "theme",
+      "title": { "en": "Family reunion", "th": "รวมญาติ" },
+      "deckId": "thai-family",
+      "storyId": "thai-advanced-1-a-family-reunion",
+      "bookId": "thai-advanced-1"
+    },
+    {
+      "unitId": "advanced-new-city",
+      "level": "advanced",
+      "order": 3,
+      "type": "theme",
+      "title": { "en": "A new city", "th": "เมืองใหม่" },
+      "deckId": "thai-travel",
+      "storyId": "thai-advanced-1-a-new-city-a-new-life",
+      "bookId": "thai-advanced-1"
+    },
+    {
+      "unitId": "advanced-volunteer",
+      "level": "advanced",
+      "order": 4,
+      "type": "theme",
+      "title": { "en": "Volunteer & community", "th": "อาสาสมัคร" },
+      "deckId": "activities",
+      "storyId": "thai-advanced-1-a-volunteers-mission",
+      "bookId": "thai-advanced-1"
+    },
+    {
+      "unitId": "advanced-mountains",
+      "level": "advanced",
+      "order": 5,
+      "type": "theme",
+      "title": { "en": "Journey to the mountains", "th": "ขึ้นดอย" },
+      "deckId": "thai-travel",
+      "storyId": "thai-advanced-1-journey-to-the-mountains",
+      "bookId": "thai-advanced-1"
+    },
+    {
+      "unitId": "advanced-antique-shop",
+      "level": "advanced",
+      "order": 6,
+      "type": "theme",
+      "title": { "en": "The antique shop", "th": "ร้านของเก่า" },
+      "deckId": "shopping",
+      "storyId": "thai-advanced-1-the-antique-shop",
+      "bookId": "thai-advanced-1"
+    },
+    {
+      "unitId": "advanced-baking",
+      "level": "advanced",
+      "order": 7,
+      "type": "theme",
+      "title": { "en": "The art of baking", "th": "ศิลปะการอบขนม" },
+      "deckId": "food-dining",
+      "storyId": "thai-advanced-1-the-art-of-baking",
+      "bookId": "thai-advanced-1"
+    },
+    {
+      "unitId": "advanced-music-festival",
+      "level": "advanced",
+      "order": 8,
+      "type": "theme",
+      "title": { "en": "Music festival", "th": "เทศกาลดนตรี" },
+      "deckId": "activities",
+      "storyId": "thai-advanced-1-the-music-festival",
+      "bookId": "thai-advanced-1"
+    },
+    {
+      "unitId": "advanced-street-artist",
+      "level": "advanced",
+      "order": 9,
+      "type": "theme",
+      "title": { "en": "Street artist", "th": "ศิลปินข้างถนน" },
+      "deckId": "common-adjectives",
+      "storyId": "thai-advanced-1-the-street-artist",
+      "bookId": "thai-advanced-1"
+    },
+    {
+      "unitId": "advanced-library",
+      "level": "advanced",
+      "order": 10,
+      "type": "theme",
+      "title": { "en": "Library treasure", "th": "สมบัติในห้องสมุด" },
+      "deckId": "advanced-phrases",
+      "storyId": "thai-advanced-1-the-librarys-hidden-treasure",
+      "bookId": "thai-advanced-1"
+    },
+    {
+      "unitId": "advanced-temple-stay",
+      "level": "advanced",
+      "order": 11,
+      "type": "theme",
+      "title": { "en": "Quiet temple stay", "th": "พักใจที่วัดป่า" },
+      "deckId": "advanced-phrases",
+      "storyId": "thai-advanced-1-a-winter-retreat",
+      "bookId": "thai-advanced-1"
+    }
+  ]
+}

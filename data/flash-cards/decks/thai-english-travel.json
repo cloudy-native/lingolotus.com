@@ -2,7 +2,7 @@
     "collectionId": "thai-english-intermediate",
     "deckId": "thai-travel",
     "name": "Thai Travel Phrases",
-    "description": "Essential Thai vocabulary and phrases for travelers in Thailand",
+    "description": "Airports, taxis, hotels, and getting un-lost in Thailand — practical travel phrases with polite particles.",
     "sourceLanguage": "th",
     "targetLanguage": "en",
     "cards": [
@@ -325,14 +325,14 @@
             "context": "Important phrase to use when you are lost",
             "examples": [
                 {
-                    "original": "ผมหลงทาง ช่วยบอกทางไปโรงแรมหน่อย",
-                    "translation": "I am lost, please help me find the way to my hotel (♂)",
-                    "phonetic": "pǒm lǒng taang, chûay bɔ̀ɔk taang bpai roong-rɛɛm nɔ̀i"
+                    "original": "ผมหลงทางครับ ช่วยบอกทางไปโรงแรมหน่อย",
+                    "translation": "I’m lost — please point me to the hotel (♂)",
+                    "phonetic": "pǒm lǒng taang kráp, chûai bɔ̀ɔk taang bpai roong-rɛɛm nɔ̀i"
                 },
                 {
                     "original": "ฉันหลงทางค่ะ ช่วยดูแผนที่นี้หน่อย",
-                    "translation": "I am lost, can you help look at this map? (♀)",
-                    "phonetic": "chǎn lǒng taang kâ, chûay duu pɛ̌n-tîi née nɔ̀i"
+                    "translation": "I’m lost — can you look at this map? (♀)",
+                    "phonetic": "chǎn lǒng taang kâ, chûai duu pɛ̌ɛn-tîi níi nɔ̀i"
                 }
             ]
         },
@@ -523,14 +523,14 @@
             "context": "Important health information for those with allergies",
             "examples": [
                 {
-                    "original": "ผมแพ้กุ้ง ปลา และปู",
-                    "translation": "I am allergic to shrimp, fish, and crab (♂)",
-                    "phonetic": "pǒm pɛ́ gûng, bplaa lɛ́ bpuu"
+                    "original": "ผมแพ้อาหารทะเลครับ",
+                    "translation": "I’m allergic to seafood (♂)",
+                    "phonetic": "pǒm pɛ́ aa-hǎan tá-lee kráp"
                 },
                 {
-                    "original": "ฉันแพ้ถั่วอย่างรุนแรง",
-                    "translation": "I have a severe peanut allergy (♀)",
-                    "phonetic": "chǎn pɛ́ tùa yaang run-rɛɛng"
+                    "original": "ฉันแพ้กุ้งค่ะ",
+                    "translation": "I’m allergic to shrimp (♀)",
+                    "phonetic": "chǎn pɛ́ gûng kâ"
                 }
             ]
         },
@@ -589,14 +589,14 @@
             "context": "Essential phrase for emergency situations",
             "examples": [
                 {
-                    "original": "ผมต้องการความช่วยเหลือ กระเป๋าหาย",
-                    "translation": "I need help, my bag is missing (♂)",
-                    "phonetic": "pǒm dtɔ̂ɔng-gaan kwaam chûay-lʉ̌a, grà-bpǎao hǎai"
+                    "original": "ผมต้องการความช่วยเหลือครับ กระเป๋าหาย",
+                    "translation": "I need help — my bag is missing (♂)",
+                    "phonetic": "pǒm dtɔ̂ng-gaan kwaam chûai-lʉ̌a kráp, grà-bpǎo hǎai"
                 },
                 {
                     "original": "ช่วยด้วยค่ะ ฉันต้องการความช่วยเหลือ",
-                    "translation": "Help please, I need assistance (♀)",
-                    "phonetic": "chûay dûay kâ, chǎn dtɔ̂ɔng-gaan kwaam chûay-lʉ̌a"
+                    "translation": "Help, please — I need assistance (♀)",
+                    "phonetic": "chûai dûai kâ, chǎn dtɔ̂ng-gaan kwaam chûai-lʉ̌a"
                 }
             ]
         },
@@ -668,7 +668,7 @@
         }
     ],
     "createdAt": "2024-11-15T12:15:10Z",
-    "updatedAt": "2025-07-07T06:41:10Z",
+    "updatedAt": "2026-08-03T12:00:00Z",
     "theme": "travel",
     "difficulty": "intermediate"
 }

@@ -8,20 +8,26 @@
     },
     "sentences": [
         {
-            "source": "คุณทำอะไรตอนเช้าครับ",
-            "target": "What do you do in the morning?",
-            "phonetic": "khun tham à-rai dton cháo khráp",
+            "source": "ตอนเช้าคุณทำอะไรคะ",
+            "target": "What do you do in the morning? (♀)",
+            "phonetic": "dton cháao kun tam à-rai ká",
             "breakdown": [
+                {
+                    "source": "ตอนเช้า",
+                    "target": "in the morning",
+                    "phonetic": "dton cháao",
+                    "partOfSpeech": "noun"
+                },
                 {
                     "source": "คุณ",
                     "target": "you",
-                    "phonetic": "khun",
+                    "phonetic": "kun",
                     "partOfSpeech": "pronoun"
                 },
                 {
                     "source": "ทำ",
                     "target": "to do",
-                    "phonetic": "tham",
+                    "phonetic": "tam",
                     "partOfSpeech": "verb"
                 },
                 {
@@ -31,48 +37,55 @@
                     "partOfSpeech": "pronoun"
                 },
                 {
-                    "source": "ตอน",
-                    "target": "time",
-                    "phonetic": "dton",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "เช้า",
-                    "target": "morning",
-                    "phonetic": "cháo",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "source": "คะ",
+                    "target": "polite question (♀)",
+                    "phonetic": "ká",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "ผมตื่นนอนและกินอาหารเช้าครับ",
-            "target": "I wake up and eat breakfast.",
-            "phonetic": "phǒm dtûen non láe gin aa-hăan cháo khráp",
+            "source": "ผมตื่น แล้วแปรงฟันครับ",
+            "target": "I wake up, then brush my teeth. (♂)",
+            "phonetic": "pǒm dtùen lɛ́ɛo bprɛɛng fan kráp",
             "breakdown": [
                 {
                     "source": "ผม",
                     "target": "I (male)",
-                    "phonetic": "phǒm",
+                    "phonetic": "pǒm",
                     "partOfSpeech": "pronoun"
                 },
                 {
-                    "source": "ตื่นนอน",
+                    "source": "ตื่น",
                     "target": "to wake up",
-                    "phonetic": "dtûen non",
+                    "phonetic": "dtùen",
                     "partOfSpeech": "verb"
                 },
                 {
-                    "source": "และ",
-                    "target": "and",
-                    "phonetic": "láe",
-                    "partOfSpeech": "conjunction"
+                    "source": "แล้ว",
+                    "target": "then / already",
+                    "phonetic": "lɛ́ɛo",
+                    "partOfSpeech": "particle"
                 },
+                {
+                    "source": "แปรงฟัน",
+                    "target": "to brush teeth",
+                    "phonetic": "bprɛɛng fan",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "polite particle (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "กินข้าวเช้ากี่โมงคะ",
+            "target": "What time do you eat breakfast? (♀)",
+            "phonetic": "gin kâao-cháao gìi moong ká",
+            "breakdown": [
                 {
                     "source": "กิน",
                     "target": "to eat",
@@ -80,109 +93,72 @@
                     "partOfSpeech": "verb"
                 },
                 {
-                    "source": "อาหารเช้า",
+                    "source": "ข้าวเช้า",
                     "target": "breakfast",
-                    "phonetic": "aa-hăan cháo",
+                    "phonetic": "kâao-cháao",
                     "partOfSpeech": "noun"
                 },
                 {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "source": "กี่โมง",
+                    "target": "what time",
+                    "phonetic": "gìi moong",
+                    "partOfSpeech": "phrase"
+                },
+                {
+                    "source": "คะ",
+                    "target": "polite question (♀)",
+                    "phonetic": "ká",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "คุณตื่นนอนกี่โมงครับ",
-            "target": "What time do you wake up?",
-            "phonetic": "khun dtûen non gèe moong khráp",
+            "source": "ประมาณเจ็ดโมงครึ่งครับ",
+            "target": "Around half past seven. (♂)",
+            "phonetic": "bprà-maan jèt moong krûeng kráp",
             "breakdown": [
                 {
-                    "source": "คุณ",
-                    "target": "you",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ตื่นนอน",
-                    "target": "to wake up",
-                    "phonetic": "dtûen non",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "กี่",
-                    "target": "how many",
-                    "phonetic": "gèe",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "โมง",
-                    "target": "o'clock",
-                    "phonetic": "moong",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
-                }
-            ]
-        },
-        {
-            "source": "ผมตื่นนอนตอนเจ็ดโมงครับ",
-            "target": "I wake up at seven.",
-            "phonetic": "phǒm dtûen non dton jèt moong khráp",
-            "breakdown": [
-                {
-                    "source": "ผม",
-                    "target": "I (male)",
-                    "phonetic": "phǒm",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ตื่นนอน",
-                    "target": "to wake up",
-                    "phonetic": "dtûen non",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ตอน",
-                    "target": "at",
-                    "phonetic": "dton",
-                    "partOfSpeech": "preposition"
+                    "source": "ประมาณ",
+                    "target": "about",
+                    "phonetic": "bprà-maan",
+                    "partOfSpeech": "adverb"
                 },
                 {
                     "source": "เจ็ด",
                     "target": "seven",
                     "phonetic": "jèt",
-                    "partOfSpeech": "numeral"
+                    "partOfSpeech": "number"
                 },
                 {
                     "source": "โมง",
                     "target": "o'clock",
                     "phonetic": "moong",
+                    "partOfSpeech": "classifier"
+                },
+                {
+                    "source": "ครึ่ง",
+                    "target": "half",
+                    "phonetic": "krûeng",
                     "partOfSpeech": "noun"
                 },
                 {
                     "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "target": "polite particle (♂)",
+                    "phonetic": "kráp",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "คุณไปโรงเรียนไหมครับ",
-            "target": "Do you go to school?",
-            "phonetic": "khun bpai roong-rian măi khráp",
+            "source": "แล้วไปทำงานไหมคะ",
+            "target": "Then do you go to work? (♀)",
+            "phonetic": "lɛ́ɛo bpai tam-ngaan mǎi ká",
             "breakdown": [
                 {
-                    "source": "คุณ",
-                    "target": "you",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
+                    "source": "แล้ว",
+                    "target": "then",
+                    "phonetic": "lɛ́ɛo",
+                    "partOfSpeech": "particle"
                 },
                 {
                     "source": "ไป",
@@ -191,29 +167,29 @@
                     "partOfSpeech": "verb"
                 },
                 {
-                    "source": "โรงเรียน",
-                    "target": "school",
-                    "phonetic": "roong-rian",
-                    "partOfSpeech": "noun"
+                    "source": "ทำงาน",
+                    "target": "to work",
+                    "phonetic": "tam-ngaan",
+                    "partOfSpeech": "verb"
                 },
                 {
                     "source": "ไหม",
-                    "target": "or not",
-                    "phonetic": "măi",
+                    "target": "question particle",
+                    "phonetic": "mǎi",
                     "partOfSpeech": "particle"
                 },
                 {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "source": "คะ",
+                    "target": "polite question (♀)",
+                    "phonetic": "ká",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "ใช่ ผมไปโรงเรียนครับ",
-            "target": "Yes, I go to school.",
-            "phonetic": "châi phǒm bpai roong-rian khráp",
+            "source": "ใช่ครับ ไปทำงานทุกวัน",
+            "target": "Yes — I go to work every day. (♂)",
+            "phonetic": "châi kráp bpai tam-ngaan túk wan",
             "breakdown": [
                 {
                     "source": "ใช่",
@@ -222,10 +198,10 @@
                     "partOfSpeech": "interjection"
                 },
                 {
-                    "source": "ผม",
-                    "target": "I (male)",
-                    "phonetic": "phǒm",
-                    "partOfSpeech": "pronoun"
+                    "source": "ครับ",
+                    "target": "polite particle (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
                 },
                 {
                     "source": "ไป",
@@ -234,87 +210,130 @@
                     "partOfSpeech": "verb"
                 },
                 {
-                    "source": "โรงเรียน",
-                    "target": "school",
-                    "phonetic": "roong-rian",
+                    "source": "ทำงาน",
+                    "target": "to work",
+                    "phonetic": "tam-ngaan",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ทุกวัน",
+                    "target": "every day",
+                    "phonetic": "túk wan",
+                    "partOfSpeech": "adverb"
+                }
+            ]
+        },
+        {
+            "source": "เย็นๆ ทำอะไรคะ",
+            "target": "What do you do in the evening? (♀)",
+            "phonetic": "yen yen tam à-rai ká",
+            "breakdown": [
+                {
+                    "source": "เย็นๆ",
+                    "target": "evenings / in the evening",
+                    "phonetic": "yen yen",
                     "partOfSpeech": "noun"
                 },
                 {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "source": "ทำ",
+                    "target": "to do",
+                    "phonetic": "tam",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "อะไร",
+                    "target": "what",
+                    "phonetic": "à-rai",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "คะ",
+                    "target": "polite question (♀)",
+                    "phonetic": "ká",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "โรงเรียนสนุกไหมครับ",
-            "target": "Is school fun?",
-            "phonetic": "roong-rian sà-nùk măi khráp",
+            "source": "เดินเล่นบ้าง ดูทีวีบ้างครับ",
+            "target": "Sometimes I walk, sometimes watch TV. (♂)",
+            "phonetic": "dəən-lên bâang duu tii-wii bâang kráp",
             "breakdown": [
                 {
-                    "source": "โรงเรียน",
-                    "target": "school",
-                    "phonetic": "roong-rian",
+                    "source": "เดินเล่น",
+                    "target": "to stroll / walk for fun",
+                    "phonetic": "dəən-lên",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "บ้าง",
+                    "target": "sometimes",
+                    "phonetic": "bâang",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ดู",
+                    "target": "to watch",
+                    "phonetic": "duu",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ทีวี",
+                    "target": "TV",
+                    "phonetic": "tii-wii",
                     "partOfSpeech": "noun"
                 },
                 {
-                    "source": "สนุก",
-                    "target": "fun",
-                    "phonetic": "sà-nùk",
-                    "partOfSpeech": "adjective"
-                },
-                {
-                    "source": "ไหม",
-                    "target": "or not",
-                    "phonetic": "măi",
-                    "partOfSpeech": "particle"
-                },
-                {
                     "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "target": "polite particle (♂)",
+                    "phonetic": "kráp",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "ใช่ โรงเรียนสนุกครับ",
-            "target": "Yes, school is fun!",
-            "phonetic": "châi roong-rian sà-nùk khráp",
+            "source": "ฟังดูสบายดีค่ะ",
+            "target": "That sounds nice and easy. (♀)",
+            "phonetic": "fang duu sà-baai dii kâ",
             "breakdown": [
                 {
-                    "source": "ใช่",
-                    "target": "yes",
-                    "phonetic": "châi",
-                    "partOfSpeech": "interjection"
+                    "source": "ฟัง",
+                    "target": "to listen",
+                    "phonetic": "fang",
+                    "partOfSpeech": "verb"
                 },
                 {
-                    "source": "โรงเรียน",
-                    "target": "school",
-                    "phonetic": "roong-rian",
-                    "partOfSpeech": "noun"
+                    "source": "ดู",
+                    "target": "seems",
+                    "phonetic": "duu",
+                    "partOfSpeech": "particle"
                 },
                 {
-                    "source": "สนุก",
-                    "target": "fun",
-                    "phonetic": "sà-nùk",
+                    "source": "สบาย",
+                    "target": "comfortable / relaxed",
+                    "phonetic": "sà-baai",
                     "partOfSpeech": "adjective"
                 },
                 {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "source": "ดี",
+                    "target": "good",
+                    "phonetic": "dii",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "polite particle (♀)",
+                    "phonetic": "kâ",
                     "partOfSpeech": "particle"
                 }
             ]
         }
     ],
-    "createdAt": "2025-09-28T09:30:00Z",
-    "updatedAt": "2025-09-28T09:30:00Z",
+    "createdAt": "2025-09-28T08:54:49Z",
+    "updatedAt": "2026-04-08T14:00:00Z",
     "difficulty": "beginner",
     "summary": {
-        "source": "การสนทนาเกี่ยวกับกิจวัตรประจำวัน",
-        "target": "Conversation about daily routines"
+        "source": "พิมถามสมชายเรื่องกิจวัตรตอนเช้า",
+        "target": "Pim asks Somchai about his morning routine."
     }
 }

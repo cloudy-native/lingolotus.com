@@ -23,14 +23,14 @@ const { items } = Astro.props;
 
 {items.length > 0 && (
   <nav aria-label="breadcrumb" class="mx-auto max-w-7xl px-4 py-3 sm:px-6 lg:px-8">
-    <ol class="flex flex-wrap items-center gap-1.5 break-words text-sm text-gray-500 sm:gap-2.5 ">
+    <ol class="flex flex-wrap items-center gap-1.5 break-words text-sm text-gray-500 sm:gap-2.5 dark:text-slate-400">
       {items.map((item, index) => {
         const isLast = index === items.length - 1;
         return (
           <li class="inline-flex items-center gap-1.5">
             {index > 0 && (
               <svg
-                class="h-3.5 w-3.5 text-gray-400 "
+                class="h-3.5 w-3.5 text-gray-400 dark:text-slate-500"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke-width="2"
@@ -43,14 +43,14 @@ const { items } = Astro.props;
             {item.href && !isLast ? (
               <a
                 href={item.href}
-                class="transition-colors hover:text-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:rounded-sm"
+                class="transition-colors hover:text-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:rounded-sm dark:hover:text-slate-100"
               >
                 {item.label}
               </a>
             ) : (
               <span
                 aria-current="page"
-                class="font-medium text-gray-900 "
+                class="font-medium text-gray-900 dark:text-slate-100"
               >
                 {item.label}
               </span>

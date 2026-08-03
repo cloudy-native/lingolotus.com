@@ -8,131 +8,101 @@
     },
     "sentences": [
         {
-            "source": "เทศกาลดนตรีประจำปีในริโอเป็นภาพที่น่าทึ่งซึ่งดึงดูดฝูงชนจากทั่วโลก",
-            "target": "The annual music festival in Rio was a spectacle that drew crowds from around the world.",
-            "phonetic": "thêet-sà-gaan don-dtrii bprà-jam-bpii nai rii-oo bpen phâap thîi nâa-thʉ́ng sʉ̂ng dʉng-dùut fǔung-chon jàak thûa-lôok",
-            "breakdown": []
+            "source": "แสงไฟสะท้อนผิวน้ำโขง ขณะเวทีเปิดด้วยเสียงพิณและกลอง",
+            "target": "Lights mirrored the Mekong as the stage opened with pin and drums.",
+            "phonetic": "sǎaeng fai sà-táwn pǐu náam kǒong kà-ná wee-tii bpə̀ət dûay sǐiang pin lɛ́ glaawng"
         },
         {
-            "source": "โซเฟียมาถึงเร็ว กระตือรือร้นที่จะสัมผัสพลังงานที่มีชีวิตชีวาของงาน",
-            "target": "Sofia arrived early, eager to experience the vibrant energy of the event.",
-            "phonetic": "soo-fii-aa maa-thʉ̌ng reo grà-dtʉʉ-rʉʉ-rɔ́ɔn thîi jà sǎm-phàt phlang-ngaan thîi mii chii-wít-chii-waa khɔ̌ɔng ngaan",
-            "breakdown": []
+            "source": "ฝูงชนหนาแน่นแต่บรรยากาศไม่ก้าวร้าว มีแต่รอยยิ้มและกลิ่นอาหารอีสาน",
+            "target": "The crowd was dense but gentle — smiles and Isan food smells.",
+            "phonetic": "fǔung-chon nǎa-nâaen dtàae ban-yaa-gàat mâi gâao-ráao mii dtàae raai yím lɛ́ glìn aa-hǎan ii-sǎan"
         },
         {
-            "source": "อากาศเต็มไปด้วยเสียงกลอง กีตาร์ และเสียงร้องที่เต็มไปด้วยความหลงใหล",
-            "target": "The air buzzed with the sound of drums, guitars, and passionate voices.",
-            "phonetic": "aa-gàat dtèm bpai dûai sǐang glɔɔng gii-dtâa láe sǐang-rɔ́ɔng thîi dtèm bpai dûai khwaam-lǒng-lǎi",
-            "breakdown": []
+            "source": "ศิลปินรุ่นใหม่ร้องเพลงลูกทุ่งแนวอินดี้ ทำให้คนทุกวัยร้องตาม",
+            "target": "Young artists sang indie-styled luk thung until all ages sang along.",
+            "phonetic": "sǐn-lá-bin rûn mài ráwng pleeng lûuk-tûng nɛɛ in-dìi tam hâi kon túk wai ráwng dtaam"
         },
         {
-            "source": "ธงที่มีสีสันสดใสโบกสะบัดเหนือเวที ที่ซึ่งนักแสดงเทความรู้สึกลงในทุกโน้ต",
-            "target": "Colorful banners fluttered above stages, where performers poured their hearts into every note.",
-            "phonetic": "thong thîi mii sǐi-sǎn sòt-sǎi bòok-sà-bàt nʉ̌a wee-thii thîi sʉ̂ng nák-sà-dɛɛng thee khwaam-rúu-sʉ̀k long nai thúk nóot",
-            "breakdown": []
+            "source": "ดิฉันยืนข้างคุณยายที่ปรบมือตามจังหวะอย่างตั้งใจ",
+            "target": "I stood beside an elderly woman clapping carefully to the beat.",
+            "phonetic": "dì-chǎn yuen kâang kun-yaai tîi bpròp-mue dtaam jang-wà yàang dtâng-jai"
         },
         {
-            "source": "โซเฟีย ผู้ที่หลงใหลในดนตรี ได้เก็บเงินมาหลายเดือนเพื่อเข้าร่วม",
-            "target": "Sofia, a music enthusiast, had saved for months to attend.",
-            "phonetic": "soo-fii-aa phûu-thîi lǒng-lǎi nai don-dtrii dâi gèp ngəən maa lǎai dʉan phʉ̂a khâo-rûam",
-            "breakdown": []
+            "source": "เธอบอกว่าเมื่อก่อนฟังวิทยุในนา วันนี้ฟังสดข้างแม่น้ำ",
+            "target": "She said she once listened on a radio in the fields; tonight it was live by the river.",
+            "phonetic": "tooie bàwk wâa mûea gàwn fang wít-tá-yu nai naa wan-níi fang sòt kâang mâae-náam"
         },
         {
-            "source": "เธอเดินไปมาระหว่างเวที หลงใหลในความหลากหลายของแนวเพลง—แซมบ้า แจ๊ส และร็อก",
-            "target": "She wandered between stages, captivated by the diversity of genres—samba, jazz, and rock.",
-            "phonetic": "thəə dəən-bpai-maa rá-wàang wee-thii lǒng-lǎi nai khwaam-làak-làai khɔ̌ɔng nɛɛo-phleeng—sɛɛm-bâa jɛ́ɛt láe rɔ́k",
-            "breakdown": []
+            "source": "ประโยคนั้นเชื่อมรุ่นต่อรุ่นโดยไม่ต้องใช้คำว่า มรดก",
+            "target": "That sentence linked generations without needing the word heritage.",
+            "phonetic": "bprà-yòok nán chʉ̂am rûn dtàw rûn dooi mâi dtâwng chái kam wâa maaw-rá-dòk"
         },
         {
-            "source": "วงดนตรีท้องถิ่นดึงดูดความสนใจของเธอด้วยจังหวะที่ติดหู",
-            "target": "A local band caught her attention with their infectious rhythms.",
-            "phonetic": "wong-don-dtrii thɔ́ɔng-thìn dʉng-dùut khwaam-sǒn-jai khɔ̌ɔng thəə dûai jang-wà thîi dtìt-hǔu",
-            "breakdown": []
+            "source": "กลางงานมีแผงงานฝีมือและหนังสือกวีท้องถิ่น",
+            "target": "Mid-festival booths sold crafts and local poetry books.",
+            "phonetic": "glaang ngaan mii pǎaeng ngaan fǐi-mue lɛ́ nǎng-sǔu gà-wii táwng-tìn"
         },
         {
-            "source": "เธอเข้าร่วมกับนักเต้นที่แกว่งตามจังหวะ รู้สึกถึงดนตรีในกระดูกของเธอ",
-            "target": "She joined dancers swaying to the beat, feeling the music in her bones.",
-            "phonetic": "thəə khâo-rûam gàp nák-dtên thîi gwɛ̀ng dtaam jang-wà rúu-sʉ̀k thʉ̌ng don-dtrii nai grà-dùuk khɔ̌ɔng thəə",
-            "breakdown": []
+            "source": "ดิฉันซื้อสมุดบันทึกปกผ้าไหม แล้วจดความรู้สึกไว้สองสามบรรทัด",
+            "target": "I bought a silk-covered notebook and wrote a few lines of feeling.",
+            "phonetic": "dì-chǎn súue sà-mùt ban-túek bpòk pâa-mǎi lɛ́ɛo jòt kwaam-rúu-sʉ̀k wái sǎawng sǎam ban-tát"
         },
         {
-            "source": "พ่อค้าริมถนนเสนอเครื่องดื่มเย็นให้เธอ และเธอขอบคุณเขาด้วยภาษาโปรตุเกสที่ติดขัด",
-            "target": "A street vendor offered her a cold drink, and she thanked him in halting Portuguese.",
-            "phonetic": "phɔ̂ɔ-kháa rim-thà-nǒn sà-nə̌ə khrʉ̂ang-dʉ̀ʉm yen hâi thəə láe thəə khɔ̀ɔp-khun kháo dûai phaa-sǎa bproo-dtù-gèet thîi dtìt-khàt",
-            "breakdown": []
+            "source": "ว่าดนตรีที่ดีไม่ได้ทำให้ลืมบ้าน แต่ทำให้คิดถึงบ้านอย่างมีแรง",
+            "target": "That good music doesn't erase home — it makes you miss it with energy.",
+            "phonetic": "wâa don-dtrii tîi dii mâi dâai tam hâi lʉʉm bâan dtàae tam hâi kít tǔng bâan yàang mii rɛɛng"
         },
         {
-            "source": "ฝูงชนเป็นส่วนผสมของคนท้องถิ่นและนักท่องเที่ยว รวมกันด้วยความรักในดนตรี",
-            "target": "The crowd was a mix of locals and tourists, united by their love for music.",
-            "phonetic": "fǔung-chon bpen sùan-phà-sǒm khɔ̌ɔng khon-thɔ́ɔng-thìn láe nák-thɔ̂ng-thîao ruam-gan dûai khwaam-rák nai don-dtrii",
-            "breakdown": []
+            "source": "ใกล้เที่ยงคืน ลมจากแม่น้ำพัดเย็นจนผู้คนสวมเสื้อกันหนาวบางๆ",
+            "target": "Near midnight river wind cooled people into light jackets.",
+            "phonetic": "glâi tîang-keun lom jàak mâae-náam pát yen jon pûu-kon sǔam sûea gan-nǎao baang baang"
         },
         {
-            "source": "โซเฟียพบกับนักกีตาร์ที่แบ่งปันเรื่องราวการเดินทางของวงของเขา",
-            "target": "Sofia met a guitarist who shared stories of his band's journey.",
-            "phonetic": "soo-fii-aa phóp gàp nák-gii-dtâa thîi bɛ̀ng-bpan rʉ̂ang-raao gaan dəən-thaang khɔ̌ɔng wong khɔ̌ɔng kháo",
-            "breakdown": []
+            "source": "ศิลปินปิดงานด้วยเพลงช้า แล้วขอให้ทุกคนหันไปมองน้ำสักครู่",
+            "target": "The closing act played a slow song and asked everyone to face the water.",
+            "phonetic": "sǐn-lá-bin bpìt ngaan dûay pleeng cháa lɛ́ɛo kǎw hâi túk kon hǎn bpai mong náam sàk krûu"
         },
         {
-            "source": "เขาอธิบายว่าดนตรีเชื่อมโยงผู้คนข้ามวัฒนธรรม",
-            "target": "He explained how music connected people across cultures.",
-            "phonetic": "kháo à-thí-baai wâa don-dtrii chʉ̂am-yoong phûu-khon khâam wát-thá-ná-tham",
-            "breakdown": []
+            "source": "ความเงียบหนึ่งนาทีนั้นดังกว่าเสียงปรบมือ",
+            "target": "That one minute of silence was louder than applause.",
+            "phonetic": "kwaam-ngîap nùeng naa-tii nán dang gwàa sǐiang bpròp-mue"
         },
         {
-            "source": "เมื่อดวงอาทิตย์ตกดิน การแสดงหลักขึ้นเวที การแสดงของพวกเขาทำให้ผู้ชมตื่นเต้น",
-            "target": "As the sun set, the main act took the stage, their performance electrifying the audience.",
-            "phonetic": "mʉ̂a duang-aa-thít dtòk-din gaan sà-dɛɛng làk khʉ̂n wee-thii gaan sà-dɛɛng khɔ̌ɔng phûak-kháo tham hâi phûu-chom dtʉ̀ʉn-dtên",
-            "breakdown": []
+            "source": "เดินกลับที่พัก ดิฉันยังได้ยินเสียงสะท้อนจากฝั่งลาวจางๆ",
+            "target": "Walking back, I still heard faint echoes from the Lao shore.",
+            "phonetic": "dəən glàb tîi-pák dì-chǎn yang dâai yin sǐiang sà-táwn jàak fàng laao jaang jaang"
         },
         {
-            "source": "โซเฟียรู้สึกถึงความปีติยินดี ร้องเพลงตามกับคนแปลกหน้า",
-            "target": "Sofia felt a surge of joy, singing along with strangers.",
-            "phonetic": "soo-fii-aa rúu-sʉ̀k thʉ̌ng khwaam-bpii-dtì-yin-dii rɔ́ɔng-phleeng dtaam gàp khon-bplɛ̀ɛk-nâa",
-            "breakdown": []
+            "source": "พรมแดนบนแผนที่ชัด แต่เสียงเพลงทำให้พรมแดนบางลง",
+            "target": "Borders are sharp on maps; music thins them.",
+            "phonetic": "prom-dɛɛn bon pɛɛn-tîi chát dtàae sǐiang pleeng tam hâi prom-dɛɛn baang long"
         },
         {
-            "source": "เธอซื้อซีดีจากศิลปินท้องถิ่น ต้องการจดจำช่วงเวลานี้",
-            "target": "She bought a CD from a local artist, wanting to remember this moment.",
-            "phonetic": "thəə sʉ́ʉ sii-dii jàak sǐn-là-bpin thɔ́ɔng-thìn dtɔ̂ng-gaan jòt-jam chûang-wee-laa níi",
-            "breakdown": []
+            "source": "เช้าวันรุ่งขึ้น เมืองกลับเป็นตลาดเช้าเหมือนทุกวัน",
+            "target": "Next morning the town was a regular morning market again.",
+            "phonetic": "cháao wan rûng kʉ̂n mueang glàb bpen dtà-làat cháao mǔean túk wan"
         },
         {
-            "source": "เทศกาลดำเนินต่อไปจนถึงเที่ยงคืน ด้วยดอกไม้ไฟที่ส่องสว่างท้องฟ้า",
-            "target": "The festival lasted until midnight, with fireworks lighting up the sky.",
-            "phonetic": "thêet-sà-gaan dam-nəən dtɔ̀ɔ-bpai jon thʉ̌ng thîang-khʉʉn dûai dɔ̀ɔk-máai-fai thîi sɔ̂ng-swàang thɔ́ɔng-fáa",
-            "breakdown": []
+            "source": "แต่ในหูของดิฉัน ยังมีจังหวะพิณเดินตาม",
+            "target": "But in my ears the pin rhythm still walked with me.",
+            "phonetic": "dtàae nai hǔu kǎwng dì-chǎn yang mii jang-wà pin dəən dtaam"
         },
         {
-            "source": "โซเฟียอยู่จนจบ ไม่เต็มใจที่จะทิ้งความมหัศจรรย์ไว้ข้างหลัง",
-            "target": "Sofia stayed until the end, reluctant to leave the magic behind.",
-            "phonetic": "soo-fii-aa yùu jon jòp mâi dtem-jai thîi jà thíng khwaam-má-hàt-sà-jan wái khâang-lǎng",
-            "breakdown": []
+            "source": "นั่นคือพลังของเทศกาล ที่เปลี่ยนเมืองชั่วคราวแล้วทิ้งรอยไว้ในคน",
+            "target": "That's a festival's power: change a town briefly, leave a mark in people.",
+            "phonetic": "nân keu pa-lang kǎwng têet-sà-gaan tîi bplìan mueang chûa-kraao lɛ́ɛo tíng raai wái nai kon"
         },
         {
-            "source": "เธอถ่ายรูปเพื่อแบ่งปันกับเพื่อนๆ ที่บ้าน",
-            "target": "She took photos to share with her friends back home.",
-            "phonetic": "thəə thàai-rûup phʉ̂a bɛ̀ng-bpan gàp phʉ̂an-phʉ̂an thîi bâan",
-            "breakdown": []
-        },
-        {
-            "source": "ประสบการณ์นี้สร้างแรงบันดาลใจให้เธอเรียนรู้เพิ่มเติมเกี่ยวกับดนตรีบราซิล",
-            "target": "The experience inspired her to learn more about Brazilian music.",
-            "phonetic": "bprà-sòp-gaan níi sâang rɛɛng-ban-daan-jai hâi thəə rian-rúu phə̂əm-dtə̀əm gìeow-gàp don-dtrii braa-sin",
-            "breakdown": []
-        },
-        {
-            "source": "เธอออกจากริโอด้วยหัวใจที่เต็มไปด้วยทำนองและความฝันใหม่",
-            "target": "She left Rio with a heart full of melodies and new dreams.",
-            "phonetic": "thəə ɔ̀ɔk jàak rii-oo dûai hǔa-jai thîi dtèm bpai dûai tham-nɔɔng láe khwaam-fǎn mài",
-            "breakdown": []
+            "source": "และรอยนั้น อาจกลายเป็นแรงบันดาลใจที่เงียบแต่ยาวนาน",
+            "target": "And that mark can become quiet, lasting inspiration.",
+            "phonetic": "lɛ́ raai nán àat glaai bpen rɛɛng ban-daan-jai tîi ngîap dtàae yaao-naan"
         }
     ],
-    "createdAt": "2025-09-30T20:31:00Z",
-    "updatedAt": "2025-09-30T20:31:00Z",
+    "createdAt": "2025-09-28T08:54:49Z",
+    "updatedAt": "2026-04-08T17:00:00Z",
     "difficulty": "advanced",
     "summary": {
-        "source": "ประสบการณ์ของโซเฟียในเทศกาลดนตรีริโอ การค้นพบดนตรีและวัฒนธรรม",
-        "target": "Sofia's experience at Rio music festival, discovering music and culture"
+        "source": "พิมไปงานดนตรีริมโขง รู้สึกถึงวัฒนธรรมร่วมสมัยและรากเหง้า",
+        "target": "Pim attends a riverside music festival — contemporary culture and roots."
     }
 }

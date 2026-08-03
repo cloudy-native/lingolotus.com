@@ -2,8 +2,13 @@
 import { getCollection } from "astro:content";
 import PageLayout from "@/layouts/PageLayout.astro";
 import ContentImage from "@/components/ContentImage.astro";
-import { getCollectionPath } from "@/lib/utils";
+import {
+  getCollectionPath,
+  getFlashCardsPath,
+  getLearnPath,
+} from "@/lib/utils";
 import { assertImageReferencesValid } from "@/lib/image-validation";
+import { normalizeLevel, type Level } from "@/lib/progress";
 
 const collections = await getCollection("flashcard-collections");
 
@@ -16,127 +21,166 @@ assertImageReferencesValid(
   })),
 );
 
-const featured = collections.filter((c) => c.data.featured === true);
-const all = collections;
+const LEVEL_ORDER: Level[] = [
+  "beginner",
+  "elementary",
+  "intermediate",
+  "advanced",
+];
+
+/** Pale surface + border tint per level (matches /reading) */
+const LEVEL_STYLE: Record<
+  Level,
+  { card: string; label: string; emoji: string }
+> = {
+  beginner: {
+    card: "border-emerald-200 bg-emerald-50/70 hover:border-emerald-300",
+    label: "Beginner",
+    emoji: "🌱",
+  },
+  elementary: {
+    card: "border-sky-200 bg-sky-50/70 hover:border-sky-300",
+    label: "Elementary",
+    emoji: "📘",
+  },
+  intermediate: {
+    card: "border-amber-200 bg-amber-50/70 hover:border-amber-300",
+    label: "Intermediate",
+    emoji: "🧭",
+  },
+  advanced: {
+    card: "border-violet-200 bg-violet-50/70 hover:border-violet-300",
+    label: "Advanced",
+    emoji: "✨",
+  },
+};
+
+function levelForCollection(
+  collection: (typeof collections)[0],
+): Level {
+  const n = normalizeLevel(collection.data.difficulty ?? null);
+  if (n) return n;
+  // id fallbacks
+  const id = collection.data.collectionId.toLowerCase();
+  if (id.includes("beginner")) return "beginner";
+  if (id.includes("elementary")) return "elementary";
+  if (id.includes("intermediate")) return "intermediate";
+  if (id.includes("advanced")) return "advanced";
+  return "beginner";
+}
+
+function levelSortKey(level: Level): number {
+  const i = LEVEL_ORDER.indexOf(level);
+  return i >= 0 ? i : 99;
+}
+
+const sorted = [...collections].sort((a, b) => {
+  const la = levelForCollection(a);
+  const lb = levelForCollection(b);
+  const byLevel = levelSortKey(la) - levelSortKey(lb);
+  if (byLevel !== 0) return byLevel;
+  return a.data.name.localeCompare(b.data.name);
+});
+
+const byLevel = new Map<Level, typeof collections>();
+for (const level of LEVEL_ORDER) byLevel.set(level, []);
+for (const c of sorted) {
+  byLevel.get(levelForCollection(c))!.push(c);
+}
 ---
 
 <PageLayout
   title="Flashcards | Lingo Lotus"
   description="Build your vocabulary systematically with spaced repetition and interactive flashcards."
   ogType="website"
-  canonicalPath="/flash-cards"
-  breadcrumbs={[{ label: "Home", href: "/" }, { label: "Flash Cards" }]}
+  canonicalPath={getFlashCardsPath()}
+  breadcrumbs={[
+    { label: "Learn", href: getLearnPath() },
+    { label: "Flash Cards" },
+  ]}
 >
   {collections.length === 0 ? (
-    <div class="rounded-lg border border-gray-200 bg-gray-50 p-8 text-center  ">
-      <p class="text-lg text-gray-600 ">
+    <div class="rounded-lg border border-gray-200 bg-gray-50 p-8 text-center">
+      <p class="text-lg text-gray-600">
         No flashcard collections available yet.
       </p>
     </div>
   ) : (
-    <div class="space-y-12">
-      <!-- Hero Section -->
+    <div class="space-y-10">
       <section class="rounded-3xl border border-slate-200 bg-slate-50 px-6 py-10 sm:px-10 sm:py-14">
-        <h1 class="mb-4 text-3xl font-bold text-gray-900  sm:text-4xl">
-          Master Vocabulary with Flashcards
+        <p class="mb-2 text-3xl" aria-hidden="true">🃏</p>
+        <h1 class="mb-4 text-3xl font-bold text-gray-900 sm:text-4xl">
+          Practice Flashcards
         </h1>
-        <p class="mb-2 text-lg text-gray-700 ">
-          Build your vocabulary systematically with spaced repetition and interactive flashcards.
+        <p class="mb-2 text-lg text-gray-700">
+          Collections in curriculum order — from first vocabulary through advanced phrases.
         </p>
-        <p class="text-base text-gray-600 ">
-          Choose from curated decks organized by theme, difficulty, and real-world scenarios. Practice at your own pace and track your progress as you build fluency one word at a time.
+        <p class="text-base text-gray-600">
+          Follow the path on Learn, or jump into any collection. Color shows level at a glance.
         </p>
       </section>
 
-      <!-- Featured Flashcard Collections -->
-      {featured.length > 0 && (
-        <section>
-          <h2 class="mb-6 text-2xl font-bold text-gray-900 ">
-            Featured Flashcard Collections
-          </h2>
-          <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {featured.map((collection) => (
-              <a
-                href={getCollectionPath(collection.data.collectionId)}
-                class="group overflow-hidden rounded-2xl border border-slate-200 bg-white transition-all hover:-translate-y-0.5 hover:shadow-lg hover:border-slate-300"
-              >
-                {collection.data.imageUrl && (
-                  <ContentImage
-                    src={collection.data.imageUrl}
-                    alt={collection.data.name}
-                    width={400}
-                    height={192}
-                    class="h-48 w-full object-cover"
-                    loading="lazy"
-                  />
-                )}
-                <div class="p-4">
-                  <div class="mb-2 flex items-center justify-between">
-                    <h3 class="text-lg font-semibold text-gray-900 group-hover:text-teal-700">
+      {LEVEL_ORDER.map((level) => {
+        const levelCollections = byLevel.get(level) ?? [];
+        if (levelCollections.length === 0) return null;
+        const style = LEVEL_STYLE[level];
+        return (
+          <section>
+            <h2 class="mb-4 flex items-center gap-2 text-xl font-bold text-slate-900 sm:text-2xl">
+              <span aria-hidden="true">{style.emoji}</span>
+              {style.label}
+            </h2>
+            <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {levelCollections.map((collection) => (
+                <a
+                  href={getCollectionPath(collection.data.collectionId)}
+                  class:list={[
+                    "group flex flex-col overflow-hidden rounded-2xl border shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md",
+                    style.card,
+                  ]}
+                >
+                  {collection.data.imageUrl ? (
+                    <div class="aspect-video w-full overflow-hidden bg-white/50">
+                      <ContentImage
+                        src={collection.data.imageUrl}
+                        alt={collection.data.name}
+                        width={400}
+                        height={225}
+                        class="h-full w-full object-cover transition-transform group-hover:scale-105"
+                        loading="lazy"
+                      />
+                    </div>
+                  ) : (
+                    <div class="flex aspect-video w-full items-center justify-center bg-white/60 text-5xl" aria-hidden="true">
+                      {style.emoji}
+                    </div>
+                  )}
+                  <div class="flex flex-1 flex-col p-4">
+                    <h3 class="text-lg font-semibold text-slate-900 group-hover:text-teal-800">
+                      <span aria-hidden="true" class="mr-1.5">{style.emoji}</span>
                       {collection.data.name}
                     </h3>
-                    <span class="inline-flex items-center rounded-full bg-rose-100 px-2.5 py-0.5 text-xs font-medium text-rose-700  ">
-                      Featured
-                    </span>
-                  </div>
-                  <p class="mb-3 line-clamp-2 text-sm text-gray-600 ">
-                    {collection.data.description}
-                  </p>
-                  <div class="flex flex-wrap gap-2">
-                    <span class="inline-flex items-center rounded-full bg-blue-100 px-2.5 py-0.5 text-xs font-medium text-blue-800  ">
-                      {collection.data.sourceLanguage} → {collection.data.targetLanguage}
-                    </span>
-                    {collection.data.difficulty && (
-                      <span class="inline-flex items-center rounded-full bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-800  ">
-                        {collection.data.difficulty}
+                    <p class="mt-1 flex-1 text-sm text-slate-600">
+                      {collection.data.description}
+                    </p>
+                    <div class="mt-3 flex flex-wrap gap-1.5">
+                      <span class="inline-flex items-center rounded-full bg-white/80 px-2 py-0.5 text-xs font-medium text-slate-700 ring-1 ring-slate-200/80">
+                        {collection.data.sourceLanguage} →{" "}
+                        {collection.data.targetLanguage}
                       </span>
-                    )}
+                      {collection.data.difficulty && (
+                        <span class="inline-flex items-center rounded-full bg-white/80 px-2 py-0.5 text-xs font-medium capitalize text-slate-700 ring-1 ring-slate-200/80">
+                          {collection.data.difficulty}
+                        </span>
+                      )}
+                    </div>
                   </div>
-                </div>
-              </a>
-            ))}
-          </div>
-        </section>
-      )}
-
-      <!-- All Flashcard Collections -->
-      <section>
-        <h2 class="mb-6 text-2xl font-bold text-gray-900 ">
-          All Flashcard Collections
-        </h2>
-        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {all.map((collection) => (
-            <a
-              href={getCollectionPath(collection.data.collectionId)}
-              class="group overflow-hidden rounded-2xl border border-slate-200 bg-white transition-all hover:-translate-y-0.5 hover:shadow-lg hover:border-slate-300"
-            >
-              {collection.data.imageUrl && (
-                <ContentImage
-                  src={collection.data.imageUrl}
-                  alt={collection.data.name}
-                  width={400}
-                  height={192}
-                  class="h-48 w-full object-cover"
-                  loading="lazy"
-                />
-              )}
-              <div class="p-4">
-                <h3 class="mb-2 text-lg font-semibold text-gray-900 group-hover:text-teal-700">
-                  {collection.data.name}
-                </h3>
-                <p class="mb-3 line-clamp-2 text-sm text-gray-600 ">
-                  {collection.data.description}
-                </p>
-                {collection.data.difficulty && (
-                  <span class="inline-flex items-center rounded-full bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-800  ">
-                    {collection.data.difficulty}
-                  </span>
-                )}
-              </div>
-            </a>
-          ))}
-        </div>
-      </section>
+                </a>
+              ))}
+            </div>
+          </section>
+        );
+      })}
     </div>
   )}
 </PageLayout>

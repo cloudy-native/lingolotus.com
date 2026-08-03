@@ -1,11 +1,12 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
-import type { LadderCatalog, StepProgressView } from "@/lib/ladder";
+import type { LadderCatalog, LadderStep, StepProgressView } from "@/lib/ladder";
 import {
   findContinueTarget,
   findNextIncompleteStep,
   getLevelLadder,
   getStepProgress,
   hrefForHalf,
+  hrefForStep,
 } from "@/lib/ladder";
 import {
   LEVEL_LABELS,
@@ -19,39 +20,103 @@ import {
   type LearnerProgress,
   type Level,
 } from "@/lib/progress";
-import { getBrowsePath, getOnboardingPath } from "@/lib/utils";
+import {
+  DIR_ICONS,
+  LEVEL_ICONS,
+  emojiForLevel,
+  emojiForUnit,
+} from "@/lib/content-icons";
+import { getBrowsePath, getOnboardingPath, getUnitPath } from "@/lib/utils";
 import { cn } from "@/lib/utils";
 
 interface LearnHomeProps {
   catalog: LadderCatalog;
 }
 
+const LEVEL_BAND: Record<
+  Level,
+  { ring: string; bg: string; soft: string; text: string; line: string }
+> = {
+  beginner: {
+    ring: "ring-emerald-200",
+    bg: "bg-emerald-600",
+    soft: "bg-emerald-50 border-emerald-200",
+    text: "text-emerald-900",
+    line: "from-emerald-300 to-emerald-100",
+  },
+  elementary: {
+    ring: "ring-sky-200",
+    bg: "bg-sky-600",
+    soft: "bg-sky-50 border-sky-200",
+    text: "text-sky-900",
+    line: "from-sky-300 to-sky-100",
+  },
+  intermediate: {
+    ring: "ring-amber-200",
+    bg: "bg-amber-600",
+    soft: "bg-amber-50 border-amber-200",
+    text: "text-amber-950",
+    line: "from-amber-300 to-amber-100",
+  },
+  advanced: {
+    ring: "ring-violet-200",
+    bg: "bg-violet-600",
+    soft: "bg-violet-50 border-violet-200",
+    text: "text-violet-900",
+    line: "from-violet-300 to-violet-100",
+  },
+};
+
 function MarkIcon({ mark }: { mark: StepProgressView["mark"] }) {
   if (mark === "complete") {
     return (
-      <span className="flex h-6 w-6 items-center justify-center rounded-full bg-teal-600 text-xs text-white" aria-hidden="true">
-        ●
+      <span
+        className="flex h-6 w-6 items-center justify-center rounded-full bg-teal-600 text-[11px] text-white"
+        aria-label="Complete"
+      >
+        ✓
       </span>
     );
   }
   if (mark === "partial") {
     return (
-      <span className="flex h-6 w-6 items-center justify-center rounded-full border-2 border-teal-600 text-xs text-teal-700" aria-hidden="true">
+      <span
+        className="flex h-6 w-6 items-center justify-center rounded-full border-2 border-teal-600 text-xs text-teal-700"
+        aria-label="In progress"
+      >
         ◐
       </span>
     );
   }
   return (
-    <span className="flex h-6 w-6 items-center justify-center rounded-full border-2 border-slate-300 text-xs text-slate-400" aria-hidden="true">
+    <span
+      className="flex h-6 w-6 items-center justify-center rounded-full border-2 border-slate-300 text-xs text-slate-400"
+      aria-label="Not started"
+    >
       ○
     </span>
   );
 }
 
+function unitHref(step: LadderStep, view: StepProgressView): string {
+  if (step.unitId) return getUnitPath(step.unitId);
+  return (
+    hrefForStep(step) ??
+    (view.nextHalf != null
+      ? hrefForHalf(step, view.nextHalf)
+      : step.deck
+        ? hrefForHalf(step, "cards")
+        : step.story
+          ? hrefForHalf(step, "reading")
+          : "#")
+  );
+}
+
 export default function LearnHome({ catalog }: LearnHomeProps) {
   const [progress, setProgress] = useState<LearnerProgress | null>(null);
-  const [showAllSteps, setShowAllSteps] = useState(false);
   const [confirmReset, setConfirmReset] = useState(false);
+  /** Filter path bands; default shows every level */
+  const [focusLevel, setFocusLevel] = useState<Level | "all">("all");
 
   useEffect(() => {
     setProgress(loadProgress());
@@ -63,6 +128,7 @@ export default function LearnHome({ catalog }: LearnHomeProps) {
 
   const handleLevelChange = useCallback((level: Level) => {
     setProgress(setLevel(level));
+    // Keep full map visible; level only drives Continue / Next
   }, []);
 
   const handleSkipIntro = useCallback((level: Level) => {
@@ -72,7 +138,6 @@ export default function LearnHome({ catalog }: LearnHomeProps) {
   const handleResetProgress = useCallback(() => {
     setProgress(resetAllProgress());
     setConfirmReset(false);
-    setShowAllSteps(false);
   }, []);
 
   const ladder = useMemo(() => {
@@ -105,32 +170,51 @@ export default function LearnHome({ catalog }: LearnHomeProps) {
     if (!progress || !continueTarget || continueTarget.type !== "deck") {
       return null;
     }
-    const deckId = progress.lastActivity?.type === "deck"
-      ? progress.lastActivity.id
-      : null;
+    const deckId =
+      progress.lastActivity?.type === "deck" ? progress.lastActivity.id : null;
     if (!deckId) return null;
     return summarizeDeckSession(progress.deckSessions?.[deckId] ?? null);
   }, [progress, continueTarget]);
 
+  /** Full path: every level → every unit with progress */
+  const fullPath = useMemo(() => {
+    if (!progress) return [];
+    return LEVELS.map((level) => {
+      const levelLadder = getLevelLadder(catalog, level);
+      const views = levelLadder.steps.map((step) =>
+        getStepProgress(step, progress.completedDecks, progress.completedStories),
+      );
+      const done = views.filter((v) => v.mark === "complete").length;
+      return { level, views, done, total: views.length };
+    });
+  }, [catalog, progress]);
+
+  const totalUnits = fullPath.reduce((n, b) => n + b.total, 0);
+  const totalDone = fullPath.reduce((n, b) => n + b.done, 0);
+
   // Hydration placeholder
   if (!progress) {
     return (
-      <div className="mx-auto max-w-xl space-y-6 py-8" aria-busy="true">
+      <div className="mx-auto max-w-3xl space-y-6 py-8" aria-busy="true">
         <div className="h-8 w-48 animate-pulse rounded bg-slate-100" />
-        <div className="h-24 animate-pulse rounded-xl bg-slate-100" />
-        <div className="h-32 animate-pulse rounded-xl bg-slate-100" />
+        <div className="h-40 animate-pulse rounded-2xl bg-slate-100" />
+        <div className="h-64 animate-pulse rounded-2xl bg-slate-100" />
       </div>
     );
   }
 
   const isFirstRun = !progress.onboardingCompleted;
+  const activeFocus = focusLevel;
+  const levelComplete = nextStep === null && stepViews.length > 0;
 
   if (isFirstRun) {
     return (
       <div className="mx-auto max-w-xl">
         <section className="space-y-6 py-4 sm:py-8">
           <div>
-            <p className="mb-2 text-sm font-medium text-teal-700">🪷 Lingo Lotus</p>
+            <p className="mb-2 text-sm font-medium text-teal-700">
+              {DIR_ICONS.learn} Lingo Lotus
+            </p>
             <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
               Learn Thai, one clear step at a time
             </h1>
@@ -140,6 +224,25 @@ export default function LearnHome({ catalog }: LearnHomeProps) {
             </p>
           </div>
 
+          <ul className="grid grid-cols-2 gap-2 sm:grid-cols-4">
+            {LEVELS.map((level) => (
+              <li
+                key={level}
+                className={cn(
+                  "rounded-xl border px-3 py-3 text-center",
+                  LEVEL_BAND[level].soft,
+                )}
+              >
+                <span className="text-2xl" aria-hidden="true">
+                  {emojiForLevel(level)}
+                </span>
+                <p className={cn("mt-1 text-xs font-semibold", LEVEL_BAND[level].text)}>
+                  {LEVEL_LABELS[level]}
+                </p>
+              </li>
+            ))}
+          </ul>
+
           <p className="text-sm font-medium text-slate-700">
             Free forever · No account · Progress saved on this device
           </p>
@@ -147,15 +250,15 @@ export default function LearnHome({ catalog }: LearnHomeProps) {
           <div className="flex flex-col gap-3">
             <a
               href={getOnboardingPath()}
-              className="inline-flex w-full items-center justify-center rounded-xl bg-teal-700 px-5 py-3.5 text-base font-semibold text-white shadow-sm transition-colors hover:bg-teal-800 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
+              className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-teal-700 px-5 py-3.5 text-base font-semibold text-white shadow-sm transition-colors hover:bg-teal-800 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
             >
-              Start learning
+              <span aria-hidden="true">🚀</span> Start learning
             </a>
             <a
               href={getBrowsePath()}
-              className="inline-flex w-full items-center justify-center rounded-xl px-5 py-3 text-base font-medium text-slate-700 transition-colors hover:bg-slate-50"
+              className="inline-flex w-full items-center justify-center gap-2 rounded-xl px-5 py-3 text-base font-medium text-slate-700 transition-colors hover:bg-slate-50"
             >
-              Browse the library
+              <span aria-hidden="true">{DIR_ICONS.browse}</span> Browse the library
             </a>
           </div>
 
@@ -176,36 +279,37 @@ export default function LearnHome({ catalog }: LearnHomeProps) {
                   key={level}
                   type="button"
                   onClick={() => handleSkipIntro(level)}
-                  className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-medium text-slate-700 transition-colors hover:border-teal-500 hover:text-teal-800"
+                  className="inline-flex items-center gap-1.5 rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-medium text-slate-700 transition-colors hover:border-teal-500 hover:text-teal-800"
                 >
+                  <span aria-hidden="true">{emojiForLevel(level)}</span>
                   {LEVEL_LABELS[level]}
                 </button>
               ))}
             </div>
-            <p className="mt-2 text-xs text-slate-500">
-              Picks your level and skips the intro — you can still explore freely.
-            </p>
           </div>
         </section>
       </div>
     );
   }
 
-  const visibleSteps = showAllSteps ? stepViews : stepViews.slice(0, 5);
-  const levelComplete = nextStep === null && stepViews.length > 0;
-
   return (
-    <div className="mx-auto max-w-xl space-y-8 py-2 sm:py-4">
+    <div className="mx-auto max-w-3xl space-y-8 py-2 sm:py-4">
       <header className="space-y-3">
         <h1 className="text-2xl font-bold text-slate-900 sm:text-3xl">
+          <span aria-hidden="true" className="mr-2">
+            {DIR_ICONS.learn}
+          </span>
           Welcome back
         </h1>
-        <p className="text-slate-600">Pick up where you left off.</p>
+        <p className="text-slate-600">
+          Your full Thai path — {totalDone} of {totalUnits} units done. Tap any
+          stop to open it.
+        </p>
 
         <div
           className="flex flex-wrap gap-2"
           role="radiogroup"
-          aria-label="Learning level"
+          aria-label="Learning level (Continue & Next)"
         >
           {LEVELS.map((level) => {
             const selected = progress.level === level;
@@ -217,12 +321,13 @@ export default function LearnHome({ catalog }: LearnHomeProps) {
                 aria-checked={selected}
                 onClick={() => handleLevelChange(level)}
                 className={cn(
-                  "rounded-full px-3 py-1.5 text-sm font-medium transition-colors",
+                  "inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition-colors",
                   selected
                     ? "bg-teal-700 text-white"
                     : "border border-slate-200 bg-white text-slate-700 hover:border-teal-500",
                 )}
               >
+                <span aria-hidden="true">{emojiForLevel(level)}</span>
                 {LEVEL_LABELS[level]}
               </button>
             );
@@ -233,18 +338,19 @@ export default function LearnHome({ catalog }: LearnHomeProps) {
       {continueTarget && (
         <section className="rounded-2xl border border-teal-200 bg-teal-50 p-5">
           <p className="text-xs font-semibold uppercase tracking-wide text-teal-800">
-            Continue
+            <span aria-hidden="true">▶️ </span>Continue
           </p>
           <p className="mt-1 text-lg font-semibold text-slate-900">
             {continueTarget.label}
           </p>
           <p className="text-sm text-slate-600">
-            {continueTarget.type === "deck" ? "Flashcards" : "Reading"}
+            {continueTarget.type === "deck"
+              ? `${DIR_ICONS.cards} Flashcards`
+              : `${DIR_ICONS.story} Reading`}
           </p>
 
           {continueDeckStats && (
             <div className="mt-3 space-y-2">
-              {/* Mini progress bar */}
               <div
                 className="flex h-2 overflow-hidden rounded-full bg-teal-100"
                 role="img"
@@ -269,18 +375,13 @@ export default function LearnHome({ catalog }: LearnHomeProps) {
               </div>
               <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm">
                 <span className="font-medium text-emerald-700">
-                  Correct: {continueDeckStats.correct}
+                  ✓ {continueDeckStats.correct}
                 </span>
                 <span className="font-medium text-amber-700">
-                  Incorrect: {continueDeckStats.incorrect}
+                  ✗ {continueDeckStats.incorrect}
                 </span>
                 <span className="text-slate-600">
-                  Remaining: {continueDeckStats.remaining}
-                </span>
-                <span className="text-slate-500">
-                  {continueDeckStats.complete
-                    ? "Complete"
-                    : `Card ${continueDeckStats.currentIndex + 1} of ${continueDeckStats.total}`}
+                  Left: {continueDeckStats.remaining}
                 </span>
               </div>
             </div>
@@ -288,9 +389,9 @@ export default function LearnHome({ catalog }: LearnHomeProps) {
 
           <a
             href={continueTarget.href}
-            className="mt-4 inline-flex w-full items-center justify-center rounded-xl bg-teal-700 px-4 py-3 text-sm font-semibold text-white hover:bg-teal-800 sm:w-auto"
+            className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-teal-700 px-4 py-3 text-sm font-semibold text-white hover:bg-teal-800 sm:w-auto"
           >
-            Continue
+            Continue <span aria-hidden="true">→</span>
           </a>
         </section>
       )}
@@ -298,93 +399,278 @@ export default function LearnHome({ catalog }: LearnHomeProps) {
       {nextStep && (
         <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
           <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">
-            Next up
+            <span aria-hidden="true">⭐ </span>Next up · {LEVEL_LABELS[progress.level]}
           </p>
           <StepSummary view={nextStep} />
-          {nextStep.nextHalf && (
-            <a
-              href={hrefForHalf(nextStep.step, nextStep.nextHalf) ?? "#"}
-              className={cn(
-                "mt-4 inline-flex w-full items-center justify-center rounded-xl px-4 py-3 text-sm font-semibold sm:w-auto",
-                continueTarget
-                  ? "border border-slate-200 bg-white text-slate-800 hover:bg-slate-50"
-                  : "bg-teal-700 text-white hover:bg-teal-800",
-              )}
-            >
-              {nextStep.mark === "empty" ? "Start" : "Resume"}
-            </a>
-          )}
+          <a
+            href={unitHref(nextStep.step, nextStep)}
+            className={cn(
+              "mt-4 inline-flex w-full items-center justify-center gap-2 rounded-xl px-4 py-3 text-sm font-semibold sm:w-auto",
+              continueTarget
+                ? "border border-slate-200 bg-white text-slate-800 hover:bg-slate-50"
+                : "bg-teal-700 text-white hover:bg-teal-800",
+            )}
+          >
+            {nextStep.mark === "empty" ? "Open unit" : "Continue unit"}
+            <span aria-hidden="true">→</span>
+          </a>
         </section>
       )}
 
       {levelComplete && (
         <section className="rounded-2xl border border-emerald-200 bg-emerald-50 p-5">
           <p className="font-semibold text-emerald-900">
+            <span aria-hidden="true">🎉 </span>
             You’ve finished this level’s path
           </p>
           <p className="mt-1 text-sm text-emerald-800">
-            Try another level above, or browse the full library.
+            Pick another level above, or explore the map below.
           </p>
-          <a
-            href={getBrowsePath()}
-            className="mt-3 inline-flex text-sm font-semibold text-emerald-900 underline-offset-2 hover:underline"
-          >
-            Browse the library
-          </a>
         </section>
       )}
 
-      {stepViews.length > 0 && (
-        <section>
-          <div className="mb-3 flex items-center justify-between">
-            <h2 className="text-sm font-semibold uppercase tracking-wide text-slate-500">
-              {LEVEL_LABELS[progress.level]} path
+      {/* ── Full graphic learning path ── */}
+      <section aria-labelledby="learning-path-heading" className="space-y-4">
+        <div className="flex flex-wrap items-end justify-between gap-3">
+          <div>
+            <h2
+              id="learning-path-heading"
+              className="text-lg font-bold text-slate-900 sm:text-xl"
+            >
+              <span aria-hidden="true" className="mr-1.5">
+                🗺️
+              </span>
+              Full learning path
             </h2>
-            {stepViews.length > 5 && (
-              <button
-                type="button"
-                onClick={() => setShowAllSteps((v) => !v)}
-                className="text-sm font-medium text-teal-700 hover:text-teal-900"
-              >
-                {showAllSteps ? "Show less" : `Show all (${stepViews.length})`}
-              </button>
-            )}
+            <p className="mt-0.5 text-sm text-slate-600">
+              Every unit in the curriculum — click any stop.
+            </p>
           </div>
-          <ul className="divide-y divide-slate-100 rounded-2xl border border-slate-200 bg-white">
-            {visibleSteps.map((view) => {
-              const href =
-                view.nextHalf != null
-                  ? hrefForHalf(view.step, view.nextHalf)
-                  : view.step.deck
-                    ? hrefForHalf(view.step, "cards")
-                    : view.step.story
-                      ? hrefForHalf(view.step, "reading")
-                      : null;
-              return (
-                <li key={`${view.step.level}-${view.step.index}`}>
-                  {href ? (
-                    <a
-                      href={href}
-                      className="flex items-start gap-3 px-4 py-3 transition-colors hover:bg-slate-50"
-                    >
-                      <MarkIcon mark={view.mark} />
-                      <StepSummary view={view} compact />
-                    </a>
-                  ) : (
-                    <div className="flex items-start gap-3 px-4 py-3">
-                      <MarkIcon mark={view.mark} />
-                      <StepSummary view={view} compact />
+          <div className="flex flex-wrap gap-1.5">
+            <button
+              type="button"
+              onClick={() => setFocusLevel("all")}
+              className={cn(
+                "rounded-full px-2.5 py-1 text-xs font-semibold",
+                activeFocus === "all"
+                  ? "bg-slate-800 text-white"
+                  : "bg-slate-100 text-slate-700 hover:bg-slate-200",
+              )}
+            >
+              All levels
+            </button>
+            {LEVELS.map((level) => (
+              <button
+                key={level}
+                type="button"
+                onClick={() => setFocusLevel(level)}
+                className={cn(
+                  "inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-semibold",
+                  activeFocus === level
+                    ? "bg-slate-800 text-white"
+                    : "bg-slate-100 text-slate-700 hover:bg-slate-200",
+                )}
+              >
+                <span aria-hidden="true">{emojiForLevel(level)}</span>
+                {LEVEL_LABELS[level]}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Overall progress track */}
+        <div className="rounded-2xl border border-slate-200 bg-gradient-to-br from-slate-50 via-white to-teal-50/40 p-4 sm:p-5">
+          <div className="mb-3 flex items-center justify-between text-sm">
+            <span className="font-medium text-slate-700">
+              Journey progress
+            </span>
+            <span className="tabular-nums text-slate-500">
+              {totalDone}/{totalUnits}
+            </span>
+          </div>
+          <div
+            className="h-3 overflow-hidden rounded-full bg-slate-200"
+            role="progressbar"
+            aria-valuenow={totalDone}
+            aria-valuemin={0}
+            aria-valuemax={totalUnits}
+            aria-label={`${totalDone} of ${totalUnits} units complete`}
+          >
+            <div
+              className="h-full rounded-full bg-gradient-to-r from-teal-500 to-emerald-400 transition-all"
+              style={{
+                width:
+                  totalUnits > 0
+                    ? `${Math.round((totalDone / totalUnits) * 100)}%`
+                    : "0%",
+              }}
+            />
+          </div>
+        </div>
+
+        <div className="relative space-y-8">
+          {/* Vertical trail spine */}
+          <div
+            className="pointer-events-none absolute bottom-8 left-[1.65rem] top-8 w-1 rounded-full bg-gradient-to-b from-emerald-300 via-amber-300 to-violet-400 sm:left-8"
+            aria-hidden="true"
+          />
+
+          {fullPath.map(({ level, views, done, total }, bandIndex) => {
+            const band = LEVEL_BAND[level];
+            const meta = LEVEL_ICONS[level];
+            const show =
+              activeFocus === "all" || activeFocus === level;
+            if (!show) return null;
+            const isCurrent = progress.level === level;
+
+            return (
+              <div key={level} className="relative pl-0">
+                {/* Level marker on spine */}
+                <div className="relative mb-4 flex items-start gap-3 sm:gap-4">
+                  <div
+                    className={cn(
+                      "relative z-10 flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl text-2xl shadow-md ring-4 ring-white sm:h-16 sm:w-16 sm:text-3xl",
+                      band.bg,
+                      "text-white",
+                    )}
+                    aria-hidden="true"
+                  >
+                    <span className="drop-shadow-sm">{meta.emoji}</span>
+                  </div>
+                  <div className="min-w-0 flex-1 pt-1">
+                    <div className="flex flex-wrap items-center gap-2">
+                      <h3 className={cn("text-lg font-bold", band.text)}>
+                        {LEVEL_LABELS[level]}
+                      </h3>
+                      {isCurrent && (
+                        <span className="rounded-full bg-teal-700 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide text-white">
+                          Your level
+                        </span>
+                      )}
+                      <span className="text-xs font-medium text-slate-500">
+                        {done}/{total} done
+                      </span>
                     </div>
-                  )}
-                </li>
-              );
-            })}
-          </ul>
-        </section>
-      )}
+                    <p className="text-sm text-slate-600">
+                      {meta.short} · {meta.trail}
+                    </p>
+                    <div className="mt-2 h-1.5 max-w-xs overflow-hidden rounded-full bg-slate-200">
+                      <div
+                        className={cn("h-full rounded-full", band.bg)}
+                        style={{
+                          width:
+                            total > 0
+                              ? `${Math.round((done / total) * 100)}%`
+                              : "0%",
+                        }}
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                {/* Unit nodes grid */}
+                <ul className="relative ml-2 grid grid-cols-2 gap-2.5 sm:ml-6 sm:grid-cols-3 md:grid-cols-4">
+                  {views.map((view, i) => {
+                    const step = view.step;
+                    const emoji = emojiForUnit(
+                      step.unitId,
+                      step.unitTitle,
+                      step.unitType,
+                    );
+                    const title =
+                      step.unitTitle ||
+                      step.deck?.name ||
+                      step.story?.title ||
+                      `Step ${step.index + 1}`;
+                    const href = unitHref(step, view);
+                    const skill = step.unitType === "skill";
+
+                    return (
+                      <li key={step.unitId || `${level}-${step.index}`}>
+                        <a
+                          href={href}
+                          className={cn(
+                            "group relative flex h-full flex-col rounded-2xl border bg-white p-3 shadow-sm transition-all",
+                            "hover:-translate-y-0.5 hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500",
+                            view.mark === "complete" &&
+                              "border-emerald-300 bg-emerald-50/60",
+                            view.mark === "partial" &&
+                              "border-teal-300 bg-teal-50/50",
+                            view.mark === "empty" &&
+                              "border-slate-200 hover:border-teal-300",
+                            skill && "ring-1 ring-violet-200",
+                          )}
+                        >
+                          <div className="mb-2 flex items-start justify-between gap-1">
+                            <span
+                              className="flex h-11 w-11 items-center justify-center rounded-xl bg-slate-50 text-2xl shadow-inner ring-1 ring-slate-100 transition-transform group-hover:scale-105"
+                              aria-hidden="true"
+                            >
+                              {emoji}
+                            </span>
+                            <MarkIcon mark={view.mark} />
+                          </div>
+                          <p className="text-[10px] font-semibold uppercase tracking-wide text-slate-400">
+                            {bandIndex === 0 && i === 0
+                              ? "Start"
+                              : skill
+                                ? "Skill"
+                                : `Stop ${step.index + 1}`}
+                          </p>
+                          <p className="mt-0.5 line-clamp-2 text-sm font-semibold leading-snug text-slate-900 group-hover:text-teal-800">
+                            {title}
+                          </p>
+                          <div className="mt-2 flex flex-wrap gap-1">
+                            {step.deck && (
+                              <span
+                                className={cn(
+                                  "rounded-md px-1.5 py-0.5 text-[10px] font-medium",
+                                  view.cardsDone
+                                    ? "bg-emerald-100 text-emerald-800"
+                                    : "bg-slate-100 text-slate-600",
+                                )}
+                              >
+                                {DIR_ICONS.cards}
+                                {view.cardsDone ? " ✓" : ""}
+                              </span>
+                            )}
+                            {step.story && (
+                              <span
+                                className={cn(
+                                  "rounded-md px-1.5 py-0.5 text-[10px] font-medium",
+                                  view.readingDone
+                                    ? "bg-emerald-100 text-emerald-800"
+                                    : "bg-slate-100 text-slate-600",
+                                )}
+                              >
+                                {DIR_ICONS.story}
+                                {view.readingDone ? " ✓" : ""}
+                              </span>
+                            )}
+                          </div>
+                        </a>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            );
+          })}
+        </div>
+
+        <p className="text-center text-xs text-slate-500">
+          ○ not started · ◐ in progress · ✓ complete ·{" "}
+          <span aria-hidden="true">{DIR_ICONS.cards}</span> cards ·{" "}
+          <span aria-hidden="true">{DIR_ICONS.story}</span> reading
+        </p>
+      </section>
 
       <p className="text-center text-sm text-slate-500">
-        <a href={getBrowsePath()} className="font-medium text-teal-700 hover:text-teal-900">
+        <a
+          href={getBrowsePath()}
+          className="font-medium text-teal-700 hover:text-teal-900"
+        >
+          <span aria-hidden="true">{DIR_ICONS.browse} </span>
           Or browse the full library
         </a>
         <span className="mx-2">·</span>
@@ -448,48 +734,70 @@ function StepSummary({
   const titleParts: string[] = [];
   if (step.deck) titleParts.push(step.deck.name);
   if (step.story) titleParts.push(step.story.title);
-  const title =
+  const fallbackTitle =
     titleParts.length === 2
       ? `${titleParts[0]} + ${titleParts[1]}`
       : titleParts[0] || "Step";
+  const title = step.unitTitle || fallbackTitle;
+  const skill = step.unitType === "skill";
+  const emoji = emojiForUnit(step.unitId, step.unitTitle, step.unitType);
 
   return (
-    <div className="min-w-0 flex-1">
-      <p className={cn("font-semibold text-slate-900", compact ? "text-sm" : "text-lg")}>
-        <span className="text-slate-500 font-medium">Step {step.index + 1} · </span>
-        {title}
-      </p>
-      <div className={cn("mt-1 flex flex-wrap gap-2", compact ? "text-xs" : "text-sm")}>
-        {step.deck && (
-          <span
-            className={cn(
-              "inline-flex items-center rounded-full px-2 py-0.5 font-medium",
-              cardsDone
-                ? "bg-emerald-50 text-emerald-800"
-                : "bg-slate-100 text-slate-700",
-            )}
-          >
-            Cards{cardsDone ? " ✓" : ""}
+    <div className="mt-2 flex min-w-0 items-start gap-3">
+      <span
+        className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-slate-50 text-2xl ring-1 ring-slate-100"
+        aria-hidden="true"
+      >
+        {emoji}
+      </span>
+      <div className="min-w-0 flex-1">
+        <p
+          className={cn(
+            "font-semibold text-slate-900",
+            compact ? "text-sm" : "text-lg",
+          )}
+        >
+          <span className="font-medium text-slate-500">
+            Step {step.index + 1} ·{" "}
           </span>
-        )}
-        {step.story && (
-          <span
-            className={cn(
-              "inline-flex items-center rounded-full px-2 py-0.5 font-medium",
-              readingDone
-                ? "bg-emerald-50 text-emerald-800"
-                : "bg-slate-100 text-slate-700",
-            )}
-          >
-            Reading{readingDone ? " ✓" : ""}
-          </span>
-        )}
-        {!step.deck && step.story && (
-          <span className="text-slate-500">Reading only</span>
-        )}
-        {step.deck && !step.story && (
-          <span className="text-slate-500">Cards only</span>
-        )}
+          {title}
+          {skill && (
+            <span className="ml-2 inline-flex items-center rounded-full bg-violet-50 px-2 py-0.5 text-xs font-medium text-violet-800">
+              {DIR_ICONS.skill} Skill
+            </span>
+          )}
+        </p>
+        <div
+          className={cn(
+            "mt-1 flex flex-wrap gap-2",
+            compact ? "text-xs" : "text-sm",
+          )}
+        >
+          {step.deck && (
+            <span
+              className={cn(
+                "inline-flex items-center gap-1 rounded-full px-2 py-0.5 font-medium",
+                cardsDone
+                  ? "bg-emerald-50 text-emerald-800"
+                  : "bg-slate-100 text-slate-700",
+              )}
+            >
+              {DIR_ICONS.cards} Cards{cardsDone ? " ✓" : ""}
+            </span>
+          )}
+          {step.story && (
+            <span
+              className={cn(
+                "inline-flex items-center gap-1 rounded-full px-2 py-0.5 font-medium",
+                readingDone
+                  ? "bg-emerald-50 text-emerald-800"
+                  : "bg-slate-100 text-slate-700",
+              )}
+            >
+              {DIR_ICONS.story} Reading{readingDone ? " ✓" : ""}
+            </span>
+          )}
+        </div>
       </div>
     </div>
   );

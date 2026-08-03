@@ -1,239 +1,203 @@
 {
-    "collectionId": "thai-english-elementary",
+    "collectionId": "thai-english-beginner",
     "deckId": "farm-animals",
-    "name": "Farm Animals",
-    "description": "Essential Thai vocabulary for farm animals",
+    "name": "Thai Pets & Animals",
+    "description": "Neighborhood pets and everyday animals in Thailand — dogs, cats, birds, and countryside favorites. Paired ครับ/ค่ะ examples.",
     "sourceLanguage": "th",
     "targetLanguage": "en",
+    "createdAt": "2023-04-15T10:30:00Z",
+    "updatedAt": "2026-08-03T12:00:00Z",
+    "theme": "animals",
+    "category": "language-learning",
+    "difficulty": "beginner",
     "cards": [
         {
             "frontContent": {
                 "type": "text",
-                "text": "วัว"
+                "text": "สัตว์เลี้ยง"
             },
             "backContent": {
                 "type": "text",
-                "text": "Cow"
+                "text": "pet"
             },
             "tags": [
-                "farm",
-                "mammals",
-                "livestock"
+                "animals",
+                "pets"
             ],
             "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "wua",
+            "phonetic": "sàt-líang",
             "partOfSpeech": "noun",
-            "context": "Large domesticated animal raised for milk and meat",
+            "context": "Animal you keep at home",
             "examples": [
                 {
-                    "original": "วัวกำลังกินหญ้า",
-                    "translation": "The cow is eating grass",
-                    "phonetic": "wua gam-lang gin yâa"
+                    "original": "มีสัตว์เลี้ยงไหมครับ",
+                    "translation": "Do you have a pet? (♂)",
+                    "phonetic": "mii sàt-líang mǎi kráp"
                 },
                 {
-                    "original": "วัวสีขาวตัวนั้น",
-                    "translation": "That white cow",
-                    "phonetic": "wua sǐi kǎao dtua nân"
+                    "original": "มีสัตว์เลี้ยงไหมคะ",
+                    "translation": "Do you have a pet? (♀)",
+                    "phonetic": "mii sàt-líang mǎi ká"
                 }
             ]
         },
         {
             "frontContent": {
                 "type": "text",
-                "text": "ม้า"
+                "text": "หมา"
             },
             "backContent": {
                 "type": "text",
-                "text": "Horse"
+                "text": "dog"
             },
             "tags": [
-                "farm",
-                "mammals",
-                "working animal"
+                "animals",
+                "pets"
             ],
             "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "máa",
+            "phonetic": "mǎa",
             "partOfSpeech": "noun",
-            "context": "Large domesticated animal used for riding and farm work",
+            "context": "Common spoken word for dog",
             "examples": [
                 {
-                    "original": "ม้าวิ่งเร็ว",
-                    "translation": "The horse runs fast",
-                    "phonetic": "máa wîng reo"
+                    "original": "หมาตัวนี้ใจดีครับ",
+                    "translation": "This dog is friendly (♂)",
+                    "phonetic": "mǎa dtua níi jai-dii kráp"
                 },
                 {
-                    "original": "ม้าสีน้ำตาล",
-                    "translation": "Brown horse",
-                    "phonetic": "máa sǐi nám-dtaan"
+                    "original": "ชอบหมาค่ะ",
+                    "translation": "I like dogs (♀)",
+                    "phonetic": "chɔ̂ɔp mǎa kâ"
                 }
             ]
         },
         {
             "frontContent": {
                 "type": "text",
-                "text": "ไก่"
+                "text": "สุนัข"
             },
             "backContent": {
                 "type": "text",
-                "text": "Chicken"
+                "text": "dog (formal)"
             },
             "tags": [
-                "farm",
-                "birds",
-                "poultry"
+                "animals",
+                "pets"
             ],
             "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "gài",
+            "phonetic": "sù-nák",
             "partOfSpeech": "noun",
-            "context": "Common farm bird kept for eggs and meat",
+            "context": "More formal than หมา",
             "examples": [
                 {
-                    "original": "ไก่กำลังออกไข่",
-                    "translation": "The chicken is laying eggs",
-                    "phonetic": "gài gam-lang ɔ̀ɔk kài"
+                    "original": "สุนัขของผมครับ",
+                    "translation": "My dog (♂)",
+                    "phonetic": "sù-nák kɔ̌ɔng pǒm kráp"
                 },
                 {
-                    "original": "ไก่อยู่ในเล้า",
-                    "translation": "The chicken is in the coop",
-                    "phonetic": "gài yùu nai láo"
+                    "original": "สุนัขของฉันค่ะ",
+                    "translation": "My dog (♀)",
+                    "phonetic": "sù-nák kɔ̌ɔng chǎn kâ"
                 }
             ]
         },
         {
             "frontContent": {
                 "type": "text",
-                "text": "หมู"
+                "text": "แมว"
             },
             "backContent": {
                 "type": "text",
-                "text": "Pig"
+                "text": "cat"
             },
             "tags": [
-                "farm",
-                "mammals",
-                "livestock"
+                "animals",
+                "pets"
             ],
             "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "mǔu",
+            "phonetic": "mɛɛo",
             "partOfSpeech": "noun",
-            "context": "Domesticated animal raised primarily for meat",
+            "context": "Cat — very common city pet",
             "examples": [
                 {
-                    "original": "หมูกำลังกลิ้งในโคลน",
-                    "translation": "The pig is rolling in the mud",
-                    "phonetic": "mǔu gam-lang glîng nai kloon"
+                    "original": "แมวน่ารักครับ",
+                    "translation": "The cat is cute (♂)",
+                    "phonetic": "mɛɛo nâa-rák kráp"
                 },
                 {
-                    "original": "หมูตัวอ้วน",
-                    "translation": "Fat pig",
-                    "phonetic": "mǔu dtua ùan"
+                    "original": "เลี้ยงแมวค่ะ",
+                    "translation": "I keep a cat (♀)",
+                    "phonetic": "líang mɛɛo kâ"
                 }
             ]
         },
         {
             "frontContent": {
                 "type": "text",
-                "text": "เป็ด"
+                "text": "นก"
             },
             "backContent": {
                 "type": "text",
-                "text": "Duck"
+                "text": "bird"
             },
             "tags": [
-                "farm",
-                "birds",
-                "poultry"
+                "animals"
             ],
             "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "bpèt",
+            "phonetic": "nók",
             "partOfSpeech": "noun",
-            "context": "Waterfowl kept for eggs and meat",
+            "context": "Bird (pet or wild)",
             "examples": [
                 {
-                    "original": "เป็ดว่ายน้ำ",
-                    "translation": "The duck is swimming",
-                    "phonetic": "bpèt wâai náam"
+                    "original": "นกบินได้ครับ",
+                    "translation": "Birds can fly (♂)",
+                    "phonetic": "nók bin dâai kráp"
                 },
                 {
-                    "original": "เป็ดกำลังร้อง",
-                    "translation": "The duck is quacking",
-                    "phonetic": "bpèt gam-lang rɔ́ɔng"
+                    "original": "มีนกในกรงค่ะ",
+                    "translation": "There’s a bird in the cage (♀)",
+                    "phonetic": "mii nók nai grong kâ"
                 }
             ]
         },
         {
             "frontContent": {
                 "type": "text",
-                "text": "แพะ"
+                "text": "ปลา"
             },
             "backContent": {
                 "type": "text",
-                "text": "Goat"
+                "text": "fish"
             },
             "tags": [
-                "farm",
-                "mammals",
-                "livestock"
+                "animals"
             ],
-            "difficulty": "intermediate",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "pɛ́ɛ",
+            "phonetic": "bplaa",
             "partOfSpeech": "noun",
-            "context": "Small ruminant kept for milk, meat, and fiber",
+            "context": "Fish (pet or food)",
             "examples": [
                 {
-                    "original": "แพะปีนภูเขา",
-                    "translation": "The goat is climbing the mountain",
-                    "phonetic": "pɛ́ɛ bpʉʉn pûu-kǎao"
+                    "original": "เลี้ยงปลาในตู้ครับ",
+                    "translation": "I keep fish in a tank (♂)",
+                    "phonetic": "líang bplaa nai dtûu kráp"
                 },
                 {
-                    "original": "นมแพะ",
-                    "translation": "Goat's milk",
-                    "phonetic": "nom pɛ́ɛ"
-                }
-            ]
-        },
-        {
-            "frontContent": {
-                "type": "text",
-                "text": "แกะ"
-            },
-            "backContent": {
-                "type": "text",
-                "text": "Sheep"
-            },
-            "tags": [
-                "farm",
-                "mammals",
-                "livestock"
-            ],
-            "difficulty": "intermediate",
-            "sourceLanguage": "th",
-            "targetLanguage": "en",
-            "phonetic": "gɛ̀ɛ",
-            "partOfSpeech": "noun",
-            "context": "Domesticated ruminant kept for wool and meat",
-            "examples": [
-                {
-                    "original": "แกะขนขาว",
-                    "translation": "White-wooled sheep",
-                    "phonetic": "gɛ̀ɛ kǒn kǎao"
-                },
-                {
-                    "original": "ฝูงแกะ",
-                    "translation": "Flock of sheep",
-                    "phonetic": "fǔung gɛ̀ɛ"
+                    "original": "ปลาน่ารักค่ะ",
+                    "translation": "The fish is cute (♀)",
+                    "phonetic": "bplaa nâa-rák kâ"
                 }
             ]
         },
@@ -244,29 +208,153 @@
             },
             "backContent": {
                 "type": "text",
-                "text": "Rabbit"
+                "text": "rabbit"
             },
             "tags": [
-                "farm",
-                "mammals",
-                "small animals"
+                "animals",
+                "pets"
             ],
-            "difficulty": "intermediate",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "grà-dtàai",
             "partOfSpeech": "noun",
-            "context": "Small mammal kept for meat and fur",
+            "context": "Rabbit — popular pet",
             "examples": [
                 {
-                    "original": "กระต่ายกระโดด",
-                    "translation": "The rabbit is jumping",
-                    "phonetic": "grà-dtàai grà-dòot"
+                    "original": "กระต่ายสีขาวครับ",
+                    "translation": "A white rabbit (♂)",
+                    "phonetic": "grà-dtàai sǐi kǎao kráp"
                 },
                 {
-                    "original": "กระต่ายกินแครอท",
-                    "translation": "The rabbit is eating a carrot",
-                    "phonetic": "grà-dtàai gin kɛɛ-rɔ́t"
+                    "original": "กระต่ายนุ่มมากค่ะ",
+                    "translation": "The rabbit is so soft (♀)",
+                    "phonetic": "grà-dtàai nûm mâak kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "หนู"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "mouse / rat"
+            },
+            "tags": [
+                "animals"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "nǔu",
+            "partOfSpeech": "noun",
+            "context": "Mouse or rat; also affectionate “kid” in speech",
+            "examples": [
+                {
+                    "original": "มีหนูในบ้านไหมครับ",
+                    "translation": "Is there a mouse in the house? (♂)",
+                    "phonetic": "mii nǔu nai bâan mǎi kráp"
+                },
+                {
+                    "original": "หนูตัวเล็กค่ะ",
+                    "translation": "A small mouse (♀)",
+                    "phonetic": "nǔu dtua lék kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ไก่"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "chicken"
+            },
+            "tags": [
+                "animals",
+                "food"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "gài",
+            "partOfSpeech": "noun",
+            "context": "Chicken (farm animal and food word)",
+            "examples": [
+                {
+                    "original": "ไก่ขันตอนเช้าครับ",
+                    "translation": "The rooster crows in the morning (♂)",
+                    "phonetic": "gài kǎn dtɔɔn cháao kráp"
+                },
+                {
+                    "original": "มีไก่ในสวนค่ะ",
+                    "translation": "There are chickens in the yard (♀)",
+                    "phonetic": "mii gài nai sǔan kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เป็ด"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "duck"
+            },
+            "tags": [
+                "animals"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "bpèt",
+            "partOfSpeech": "noun",
+            "context": "Duck — parks and farms",
+            "examples": [
+                {
+                    "original": "เป็ดว่ายน้ำครับ",
+                    "translation": "Ducks swim (♂)",
+                    "phonetic": "bpèt wâai-náam kráp"
+                },
+                {
+                    "original": "เป็ดในสวนสาธารณะค่ะ",
+                    "translation": "Ducks in the park (♀)",
+                    "phonetic": "bpèt nai sǔan sǎa-taa-rá-ná kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "วัว"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "cow"
+            },
+            "tags": [
+                "animals"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "wua",
+            "partOfSpeech": "noun",
+            "context": "Cow — countryside",
+            "examples": [
+                {
+                    "original": "วัวกินหญ้าครับ",
+                    "translation": "The cow eats grass (♂)",
+                    "phonetic": "wua gin yâa kráp"
+                },
+                {
+                    "original": "เห็นวัวข้างทางค่ะ",
+                    "translation": "I saw cows by the road (♀)",
+                    "phonetic": "hěn wua kâang taang kâ"
                 }
             ]
         },
@@ -277,68 +365,280 @@
             },
             "backContent": {
                 "type": "text",
-                "text": "Buffalo"
+                "text": "water buffalo"
             },
             "tags": [
-                "farm",
-                "mammals",
-                "working animal"
+                "animals",
+                "culture"
             ],
-            "difficulty": "intermediate",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
             "phonetic": "kwaai",
             "partOfSpeech": "noun",
-            "context": "Large domesticated bovine used for farm work and milk",
+            "context": "Water buffalo — classic Thai countryside image",
             "examples": [
                 {
-                    "original": "ควายลากไถ",
-                    "translation": "The buffalo pulls the plow",
-                    "phonetic": "kwaai lâak tai"
+                    "original": "ควายในนาครับ",
+                    "translation": "Buffalo in the rice field (♂)",
+                    "phonetic": "kwaai nai naa kráp"
                 },
                 {
-                    "original": "ควายอาบน้ำ",
-                    "translation": "The buffalo is bathing",
-                    "phonetic": "kwaai àap náam"
+                    "original": "ควายตัวใหญ่ค่ะ",
+                    "translation": "The buffalo is big (♀)",
+                    "phonetic": "kwaai dtua yài kâ"
                 }
             ]
         },
         {
             "frontContent": {
                 "type": "text",
-                "text": "ไก่ตัวผู้"
+                "text": "ช้าง"
             },
             "backContent": {
                 "type": "text",
-                "text": "Rooster"
+                "text": "elephant"
             },
             "tags": [
-                "farm",
-                "birds",
-                "poultry"
+                "animals",
+                "culture"
             ],
-            "difficulty": "intermediate",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "gài dtua pûu",
+            "phonetic": "cháang",
             "partOfSpeech": "noun",
-            "context": "Male chicken known for crowing at dawn",
+            "context": "Elephant — national animal of Thailand",
             "examples": [
                 {
-                    "original": "ไก่ตัวผู้ขัน",
-                    "translation": "The rooster crows",
-                    "phonetic": "gài dtua pûu kǎan"
+                    "original": "ช้างตัวใหญ่ครับ",
+                    "translation": "Elephants are big (♂)",
+                    "phonetic": "cháang dtua yài kráp"
                 },
                 {
-                    "original": "ไก่ตัวผู้มีหงอนสีแดง",
-                    "translation": "The rooster has a red comb",
-                    "phonetic": "gài dtua pûu mii ngɔɔn sǐi dɛɛng"
+                    "original": "ชอบช้างค่ะ",
+                    "translation": "I like elephants (♀)",
+                    "phonetic": "chɔ̂ɔp cháang kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ลิง"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "monkey"
+            },
+            "tags": [
+                "animals"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "ling",
+            "partOfSpeech": "noun",
+            "context": "Monkey — famous around Lopburi temples",
+            "examples": [
+                {
+                    "original": "ลิงที่ลพบุรีครับ",
+                    "translation": "Monkeys in Lopburi (♂)",
+                    "phonetic": "ling tîi lóp-bù-rii kráp"
+                },
+                {
+                    "original": "ลิงขโมยของค่ะ",
+                    "translation": "The monkey stole something (♀)",
+                    "phonetic": "ling kà-mooi kɔ̌ɔng kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ใหญ่"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "big"
+            },
+            "tags": [
+                "description"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "yài",
+            "partOfSpeech": "adjective",
+            "context": "Big / large (after the noun: ตัวใหญ่)",
+            "examples": [
+                {
+                    "original": "ตัวใหญ่ไหมครับ",
+                    "translation": "Is it big? (♂)",
+                    "phonetic": "dtua yài mǎi kráp"
+                },
+                {
+                    "original": "ตัวใหญ่ค่ะ",
+                    "translation": "It’s big (♀)",
+                    "phonetic": "dtua yài kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เล็ก"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "small"
+            },
+            "tags": [
+                "description"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "lék",
+            "partOfSpeech": "adjective",
+            "context": "Small (after the noun: ตัวเล็ก)",
+            "examples": [
+                {
+                    "original": "ตัวเล็กน่ารักครับ",
+                    "translation": "Small and cute (♂)",
+                    "phonetic": "dtua lék nâa-rák kráp"
+                },
+                {
+                    "original": "ตัวเล็กค่ะ",
+                    "translation": "It’s small (♀)",
+                    "phonetic": "dtua lék kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "น่ารัก"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "cute"
+            },
+            "tags": [
+                "description"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "nâa-rák",
+            "partOfSpeech": "adjective",
+            "context": "Cute — everyday compliment for pets",
+            "examples": [
+                {
+                    "original": "น่ารักจังครับ",
+                    "translation": "So cute (♂)",
+                    "phonetic": "nâa-rák jang kráp"
+                },
+                {
+                    "original": "น่ารักมากค่ะ",
+                    "translation": "Very cute (♀)",
+                    "phonetic": "nâa-rák mâak kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ใจดี"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "kind / friendly"
+            },
+            "tags": [
+                "description"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "jai-dii",
+            "partOfSpeech": "adjective",
+            "context": "Kind-hearted (people or gentle pets)",
+            "examples": [
+                {
+                    "original": "หมาใจดีครับ",
+                    "translation": "A friendly dog (♂)",
+                    "phonetic": "mǎa jai-dii kráp"
+                },
+                {
+                    "original": "แมวใจดีค่ะ",
+                    "translation": "A gentle cat (♀)",
+                    "phonetic": "mɛɛo jai-dii kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เลี้ยง"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to keep / raise (an animal)"
+            },
+            "tags": [
+                "verb",
+                "pets"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "líang",
+            "partOfSpeech": "verb",
+            "context": "Keep a pet or raise livestock",
+            "examples": [
+                {
+                    "original": "เลี้ยงแมวครับ",
+                    "translation": "I keep a cat (♂)",
+                    "phonetic": "líang mɛɛo kráp"
+                },
+                {
+                    "original": "เลี้ยงหมาค่ะ",
+                    "translation": "I keep a dog (♀)",
+                    "phonetic": "líang mǎa kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ตัว"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "classifier for animals"
+            },
+            "tags": [
+                "grammar"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "dtua",
+            "partOfSpeech": "classifier",
+            "context": "Count animals: หมาสองตัว",
+            "examples": [
+                {
+                    "original": "หมาสองตัวครับ",
+                    "translation": "Two dogs (♂)",
+                    "phonetic": "mǎa sɔ̌ɔng dtua kráp"
+                },
+                {
+                    "original": "แมวหนึ่งตัวค่ะ",
+                    "translation": "One cat (♀)",
+                    "phonetic": "mɛɛo nʉ̀ng dtua kâ"
                 }
             ]
         }
-    ],
-    "createdAt": "2025-04-23T03:32:52Z",
-    "updatedAt": "2025-06-15T00:04:54Z",
-    "theme": "animals",
-    "difficulty": "elementary"
+    ]
 }

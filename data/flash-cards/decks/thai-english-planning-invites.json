@@ -1,0 +1,519 @@
+{
+    "collectionId": "thai-english-intermediate",
+    "deckId": "planning-invites",
+    "name": "Thai Planning & Invitations",
+    "description": "Host and guest language for parties, meetups, and arranging logistics.",
+    "sourceLanguage": "th",
+    "targetLanguage": "en",
+    "createdAt": "2026-04-08T18:00:00Z",
+    "updatedAt": "2026-04-08T18:30:00Z",
+    "theme": "planning",
+    "category": "language-learning",
+    "difficulty": "intermediate",
+    "cards": [
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "จัดงาน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to host / organize an event"
+            },
+            "tags": [
+                "planning"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "jàt ngaan",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "จะจัดงานเล็กๆ ค่ะ",
+                    "translation": "I'll host a small gathering (♀)",
+                    "phonetic": "jà jàt ngaan lék lék kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เชิญ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to invite (formal)"
+            },
+            "tags": [
+                "planning"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "chəən",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "เชิญมาบ้านได้ครับ",
+                    "translation": "You're invited to my place (♂)",
+                    "phonetic": "chəən maa bâan dâai kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ชวน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to invite (casual)"
+            },
+            "tags": [
+                "planning"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "chuan",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "ชวนเพื่อนมาค่ะ",
+                    "translation": "Invite friends (♀)",
+                    "phonetic": "chuan pûean maa kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "วันเกิด"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "birthday"
+            },
+            "tags": [
+                "planning"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "wan-gə̀ət",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "วันเกิดเดือนหน้าครับ",
+                    "translation": "Birthday next month (♂)",
+                    "phonetic": "wan-gə̀ət duean nâa kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "สถานที่"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "venue / place"
+            },
+            "tags": [
+                "planning"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "sà-tǎan-tîi",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "สถานที่จัดงานอยู่ไหนคะ",
+                    "translation": "Where is the venue? (♀)",
+                    "phonetic": "sà-tǎan-tîi jàt ngaan yùu nǎi ká"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "จำนวนคน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "number of people"
+            },
+            "tags": [
+                "planning"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "jam-nuan kon",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "ประมาณสิบคนครับ",
+                    "translation": "About ten people (♂)",
+                    "phonetic": "bprà-maan sìp kon kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "งบประมาณ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "budget"
+            },
+            "tags": [
+                "planning"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "ngóp bprà-maan",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "งบประมาณเท่าไหร่คะ",
+                    "translation": "What's the budget? (♀)",
+                    "phonetic": "ngóp bprà-maan tâo-rài ká"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เมนู"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "menu"
+            },
+            "tags": [
+                "planning",
+                "food"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "mee-nuu",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "เมนูอาหารไทยค่ะ",
+                    "translation": "Thai food menu (♀)",
+                    "phonetic": "mee-nuu aa-hǎan tai kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เครื่องดื่ม"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "drinks"
+            },
+            "tags": [
+                "planning",
+                "food"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "krʉ̂ang-dʉ̀ʉm",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "มีเครื่องดื่มอะไรบ้างครับ",
+                    "translation": "What drinks are there? (♂)",
+                    "phonetic": "mii krʉ̂ang-dʉ̀ʉm à-rai bâang kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เพลง"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "music / song"
+            },
+            "tags": [
+                "planning"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "pleeng",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "เปิดเพลงเบาๆ ค่ะ",
+                    "translation": "Play soft music (♀)",
+                    "phonetic": "bpə̀ət pleeng bao bao kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ของขวัญ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "gift"
+            },
+            "tags": [
+                "planning"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "kǎwng-kwǎn",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "ไม่ต้องเอาของขวัญครับ",
+                    "translation": "No need for gifts (♂)",
+                    "phonetic": "mâi dtâwng ao kǎwng-kwǎn kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ข้อความเชิญ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "invitation message"
+            },
+            "tags": [
+                "planning"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "kâw-kwaam chəən",
+            "partOfSpeech": "noun",
+            "examples": [
+                {
+                    "original": "ส่งข้อความเชิญให้หน่อยค่ะ",
+                    "translation": "Please send the invite text (♀)",
+                    "phonetic": "sòng kâw-kwaam chəən hâi nàwy kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ตอบรับ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to RSVP yes / accept"
+            },
+            "tags": [
+                "planning"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "dtàwp-ráp",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "ตอบรับแล้วนะครับ",
+                    "translation": "I've accepted (♂)",
+                    "phonetic": "dtàwp-ráp lɛ́ɛo ná kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ขอโทษ ไปไม่ได้"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "sorry, I can't make it"
+            },
+            "tags": [
+                "planning"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "kǎw-tôot bpai mâi dâai",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "ขอโทษ ไปไม่ได้ค่ะ",
+                    "translation": "Sorry I can't come (♀)",
+                    "phonetic": "kǎw-tôot bpai mâi dâai kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ช่วยจัด"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to help organize"
+            },
+            "tags": [
+                "planning"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "chûay jàt",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "ช่วยจัดโต๊ะได้ไหมครับ",
+                    "translation": "Can you help set the table? (♂)",
+                    "phonetic": "chûay jàt dtó dâai mǎi kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ซื้อของ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "to buy supplies"
+            },
+            "tags": [
+                "planning"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "súue kǎwng",
+            "partOfSpeech": "verb",
+            "examples": [
+                {
+                    "original": "ไปซื้อของที่ตลาดค่ะ",
+                    "translation": "Buy supplies at the market (♀)",
+                    "phonetic": "bpai súue kǎwng tîi dtà-làat kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เริ่มกี่โมง"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "what time does it start?"
+            },
+            "tags": [
+                "planning",
+                "time"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "rôem gìi moong",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "เริ่มกี่โมงคะ",
+                    "translation": "What time does it start? (♀)",
+                    "phonetic": "rôem gìi moong ká"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เลิกกี่โมง"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "what time does it end?"
+            },
+            "tags": [
+                "planning",
+                "time"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "lə̂ək gìi moong",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "เลิกประมาณทุ่มครับ",
+                    "translation": "Ends around 6–7 p.m. (♂)",
+                    "phonetic": "lə̂ək bprà-maan tûm kráp"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "อย่าลืม"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "don't forget"
+            },
+            "tags": [
+                "planning"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "yàa lʉʉm",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "อย่าลืมเอาน้ำนะคะ",
+                    "translation": "Don't forget water (♀)",
+                    "phonetic": "yàa lʉʉm ao náam ná kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "สนุกแน่นอน"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "it will definitely be fun"
+            },
+            "tags": [
+                "planning"
+            ],
+            "difficulty": "intermediate",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "sà-nùk nâe-nawn",
+            "partOfSpeech": "phrase",
+            "examples": [
+                {
+                    "original": "สนุกแน่นอนครับ",
+                    "translation": "It'll be fun for sure (♂)",
+                    "phonetic": "sà-nùk nâe-nawn kráp"
+                }
+            ]
+        }
+    ]
+}

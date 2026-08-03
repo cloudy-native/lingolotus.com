@@ -1,13 +1,12 @@
 {
     "bookId": "thai-intermediate-1",
     "name": "Thai Reading Intermediate 1",
-    "description": "Intermediate-level conversations and interactions for building fluency",
+    "description": "Intermediate Thai for real errands and social life in Thailand: markets, restaurants, shopping, transit, work, health, hobbies, friends, gatherings, and school — sentence phonetics, no word-by-word split.",
     "sourceLanguage": "th",
     "targetLanguage": "en",
     "createdAt": "2025-09-28T10:30:00Z",
-    "updatedAt": "2025-09-28T14:45:00Z",
+    "updatedAt": "2026-04-08T16:00:00Z",
     "category": "language-learning",
     "difficulty": "Intermediate",
-    "imageUrl": "/images/IMG_5307.jpeg",
-    "featured": true
+    "imageUrl": "/images/IMG_5307.jpeg"
 }

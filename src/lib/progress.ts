@@ -27,6 +27,8 @@ export interface LastActivity {
   stepIndex?: number;
   half?: "cards" | "reading";
   level?: Level;
+  /** Curriculum unit context for pair CTAs / continue links */
+  unitId?: string;
   updatedAt: string;
 }
 
@@ -202,6 +204,7 @@ export function parseProgress(raw: unknown): LearnerProgress {
         half:
           la.half === "cards" || la.half === "reading" ? la.half : undefined,
         level: isLevel(la.level) ? la.level : undefined,
+        unitId: typeof la.unitId === "string" ? la.unitId : undefined,
         updatedAt:
           typeof la.updatedAt === "string"
             ? la.updatedAt
@@ -299,7 +302,7 @@ export function skipOnboarding(level: Level = "beginner"): LearnerProgress {
 
 export function markDeckComplete(
   deckId: string,
-  meta?: { stepIndex?: number; level?: Level },
+  meta?: { stepIndex?: number; level?: Level; unitId?: string },
 ): LearnerProgress {
   return updateProgress((p) => ({
     ...p,
@@ -310,6 +313,7 @@ export function markDeckComplete(
       stepIndex: meta?.stepIndex,
       half: "cards",
       level: meta?.level ?? p.level,
+      unitId: meta?.unitId,
       updatedAt: new Date().toISOString(),
     },
   }));
@@ -317,7 +321,7 @@ export function markDeckComplete(
 
 export function markStoryComplete(
   storyId: string,
-  meta?: { stepIndex?: number; level?: Level },
+  meta?: { stepIndex?: number; level?: Level; unitId?: string },
 ): LearnerProgress {
   return updateProgress((p) => ({
     ...p,
@@ -328,6 +332,7 @@ export function markStoryComplete(
       stepIndex: meta?.stepIndex,
       half: "reading",
       level: meta?.level ?? p.level,
+      unitId: meta?.unitId,
       updatedAt: new Date().toISOString(),
     },
   }));
@@ -364,7 +369,12 @@ export function getDeckSession(
 export function saveDeckSession(
   deckId: string,
   session: Omit<DeckSessionState, "updatedAt"> & { updatedAt?: string },
-  meta?: { stepIndex?: number; level?: Level; touchLastActivity?: boolean },
+  meta?: {
+    stepIndex?: number;
+    level?: Level;
+    unitId?: string;
+    touchLastActivity?: boolean;
+  },
 ): LearnerProgress {
   const state: DeckSessionState = {
     cardResults: session.cardResults,
@@ -386,6 +396,7 @@ export function saveDeckSession(
             stepIndex: meta?.stepIndex,
             half: "cards",
             level: meta?.level ?? p.level,
+            unitId: meta?.unitId,
             updatedAt: state.updatedAt,
           }
         : p.lastActivity,

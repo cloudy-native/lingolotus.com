@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/Gatsby-663399?style=for-the-badge&logo=gatsby&logoColor=white" alt="Gatsby" />
+  <img src="https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white" alt="Astro" />
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Chakra_UI-319795?style=for-the-badge&logo=chakra-ui&logoColor=white" alt="Chakra UI" />
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
 </p>
 
 <h1 align="center">
@@ -10,212 +10,146 @@
 </h1>
 
 <p align="center">
-  <strong>A comprehensive language learning platform built with modern web technologies</strong>
+  <strong>Learn Thai through a guided path of flashcards and graded stories</strong>
 </p>
 
 <p align="center">
-  Master new languages through interactive flashcards, immersive reading experiences, and intelligent study features.
+  Free, offline-friendly study on your device — no account required.
 </p>
 
-## ✨ Features
+## Features
 
-### 📚 **Comprehensive Learning Tools**
-- **Interactive Flashcards** - Spaced repetition with customizable difficulty levels
-- **Reading Practice** - Curated texts with translations and pronunciation guides
-- **Speech Synthesis** - Built-in text-to-speech for pronunciation practice
-- **Progress Tracking** - Study scoring and performance analytics
-- **Multi-language Support** - Currently focused on Thai for English speakers
+### Learning
+- **Learn path** — Thematic units that pair a deck with a related story
+- **Flashcards** — Study sessions with phonetics (Paiboon-style), examples, and ครับ/ค่ะ
+- **Graded reading** — Beginner stories with word breakdowns; intermediate+ freer narrative
+- **Speech** — Browser text-to-speech for pronunciation practice
+- **Progress** — Saved in `localStorage` on this device (continue where you left off)
+- **Grammar cheatsheet** — Quick reference for Thai patterns while you study
 
-### 🎨 **Modern UI/UX**
-- **Dark/Light Mode** - System-aware theme switching
-- **Responsive Design** - Optimized for desktop, tablet, and mobile
-- **Multiple Themes** - Choose from various color schemes (Ocean Breeze, Sunset Vibes, Zen Garden, etc.)
-- **Accessibility First** - WCAG compliant with keyboard navigation and screen reader support
+### Product
+- **Thai → English** focus for English speakers
+- **Browse** by level for cards and books (outside the guided path)
+- **Static site** — Fast loads, works as a static deploy
 
-### 🚀 **Performance & Developer Experience**
-- **Blazing Fast** - Gatsby-powered static site generation
-- **Type Safe** - Full TypeScript integration
-- **Modern Stack** - React 18, Chakra UI, Framer Motion animations
-- **SEO Optimized** - Built-in meta tags, sitemaps, and structured data
+## Stack
 
-## 🏗️ Project Structure
+| Layer | Choice |
+|--------|--------|
+| Framework | [Astro](https://astro.build) 7 (static output) |
+| Interactive UI | React islands (`client:load` where needed) |
+| Styling | Tailwind CSS 4 + small shared UI primitives |
+| Content | JSON under `data/` + Astro content collections |
+| Language | TypeScript |
+| Quality | Vitest, Biome |
+| Deploy | Static build → AWS (see `scripts/deploy.sh` / CDK) |
+
+## Project structure
 
 ```
 lingolotus.com/
-├── data/                          # Static content and data
-│   ├── books/                     # Reading content (stories, articles)
-│   │   ├── stories/              # Individual story files
-│   │   └── *.json                # Book metadata
-│   ├── flash-cards/              # Flashcard collections and decks
-│   │   ├── collections/          # Collection metadata
-│   │   └── decks/                # Individual flashcard decks
-│   └── languages/                # Language configuration
+├── data/
+│   ├── curriculum/units.json    # Learn path source of truth
+│   ├── books/                   # Book metadata + stories/
+│   ├── flash-cards/
+│   │   ├── collections/         # Level collections
+│   │   └── decks/               # Card decks
+│   └── languages/               # Grammar notes (e.g. th.md)
+├── docs/                        # UX_SPEC, CURRICULUM_MAP, …
 ├── src/
-│   ├── components/               # Reusable UI components
-│   │   ├── speech/              # Text-to-speech components
-│   │   └── study/               # Study interface components
-│   ├── hooks/                   # Custom React hooks
-│   │   ├── useScoring.ts        # Study progress tracking
-│   │   └── useSpeechSynthesis.ts # Speech synthesis logic
-│   ├── pages/                   # Gatsby pages (home, about, 404)
-│   ├── templates/               # Page templates for dynamic content
-│   │   ├── deck-detail.tsx      # Flashcard deck pages
-│   │   ├── deck-study.tsx       # Study session interface
-│   │   ├── reading-list.tsx     # Reading content browser
-│   │   └── book-detail.tsx      # Individual reading pages
-│   ├── theme/                   # Chakra UI theme configuration
-│   │   └── colors-*.ts          # Color scheme definitions
-│   ├── types/                   # TypeScript type definitions
-│   └── utils/                   # Utility functions
-├── static/images/               # Static assets
-├── gatsby-*.{js,ts}             # Gatsby configuration
-└── package.json                 # Dependencies and scripts
+│   ├── components/
+│   │   ├── islands/             # React: Learn, study, story, theme, …
+│   │   └── ui/                  # Shared button/card primitives
+│   ├── layouts/                 # BaseLayout, PageLayout
+│   ├── lib/                     # ladder, progress, curriculum, SEO
+│   ├── pages/                   # File-based routes
+│   ├── styles/global.css
+│   └── content.config.ts        # Collection schemas
+├── public/                      # Static assets
+├── astro.config.mjs
+└── package.json
 ```
 
-## 🛠️ Technology Stack
-
-### **Frontend Framework**
-- **Gatsby** - React-based static site generator
-- **React 18** - Modern React with concurrent features
-- **TypeScript** - Type-safe JavaScript development
-
-### **UI & Styling**
-- **Chakra UI** - Accessible component library
-- **Framer Motion** - Animation library
-- **Emotion** - CSS-in-JS styling
-
-### **Language Learning Features**
-- **Web Speech API** - Text-to-speech synthesis
-- **Lucide React** - Modern icon library
-- **Recharts** - Data visualization for progress tracking
-
-### **Content Management**
-- **Markdown** - Content authoring with Gatsby Remark
-- **JSON** - Structured data for flashcards and books
-- **Gatsby Image** - Optimized image handling
-
-### **Development Tools**
-- **Biome** - Fast linter and formatter
-- **ESLint** - Code quality enforcement
-- **Prettier** - Code formatting (migrating to Biome)
-
-## 🚀 Getting Started
+## Getting started
 
 ### Prerequisites
-- **Node.js** 18+
-- **pnpm** (recommended) or npm
+- **Node.js** 20+ recommended
+- **pnpm** or **npm**
 
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/cloudy-native/lingolotus.com.git
-   cd lingolotus.com
-   ```
-
-2. **Install dependencies**
-   ```bash
-   pnpm install
-   # or
-   npm install
-   ```
-
-3. **Start development server**
-   ```bash
-   pnpm run develop
-   # or
-   npm run develop
-   ```
-
-4. **Open your browser**
-   Navigate to `http://localhost:8000`
-
-### Available Scripts
+### Install & run
 
 ```bash
-# Development
-pnpm run develop    # Start development server
-pnpm run build      # Build for production
-pnpm run serve      # Serve production build locally
-
-# Code Quality
-pnpm run typecheck  # TypeScript type checking
-pnpm run format     # Check code formatting
-pnpm run format:fix # Auto-fix formatting issues
-pnpm run lint       # Check code quality
-pnpm run lint:fix   # Auto-fix linting issues
-
-# Deployment
-pnpm run deploy     # Deploy to AWS S3
-pnpm run clean      # Clean Gatsby cache
+git clone https://github.com/cloudy-native/lingolotus.com.git
+cd lingolotus.com
+pnpm install   # or: npm install
+pnpm dev       # or: npm run dev
 ```
 
-## 📖 Content Management
+Open **http://localhost:4321** (Astro default).
 
-### Adding Flashcards
+### Scripts
 
-1. Create deck files in `data/flash-cards/decks/`
-2. Add collection metadata in `data/flash-cards/collections/`
-3. Include translations, phonetic guides, and difficulty levels
-
-### Adding Reading Content
-
-1. Create story files in `data/books/stories/`
-2. Add book metadata in `data/books/`
-3. Include translations and comprehension exercises
-
-### Language Support
-
-- **Thai (ไทย)** - Primary language with full support
-- **English** - Interface and translation language
-- **Extensible** - Framework supports additional languages
-
-## 🎨 Customization
-
-### Themes
-Choose from pre-built themes or create custom ones:
-
-```typescript
-// src/theme/index.ts
-import { oceanBreezeTheme } from './colors-ocean-breeze'
-// Available: matcha-latte, ocean-breeze, sunset-vibes, zen-garden, vibrant-lotus
+```bash
+pnpm dev          # Dev server
+pnpm build        # Production static build → dist/
+pnpm preview      # Preview production build
+pnpm test         # Vitest
+pnpm typecheck    # astro check + tsc
+pnpm lint         # Biome check
+pnpm format:fix   # Biome format
+pnpm deploy       # Deploy script (see scripts/deploy.sh)
+pnpm clean        # Remove dist/ and .astro/
 ```
 
-### Language Learning Features
+## Content
 
-- **Speech Synthesis** - Configurable voices and rates
-- **Study Modes** - Target language → source language or vice versa
-- **Progress Tracking** - Session-based scoring and analytics
-- **Difficulty Levels** - Easy, Medium, Hard with adaptive learning
+### Curriculum units
+Edit `data/curriculum/units.json` to order themes and pair `deckId` + `storyId` for the Learn path.
 
-## 🤝 Contributing
+### Flashcard decks
+1. Add or edit JSON in `data/flash-cards/decks/`
+2. Register the deck in a collection under `data/flash-cards/collections/`
+3. Link the deck from a unit when it belongs on the Learn path
 
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+Each card typically has Thai front, English back, Paiboon phonetic, context, and example sentences (prefer paired ครับ / ค่ะ where polite speech applies).
 
-### Areas for Contribution
-- **Content Creation** - Add more flashcards and reading materials
-- **Language Support** - Extend platform to new languages
-- **Feature Development** - Study algorithms, progress tracking, gamification
-- **UI/UX Improvements** - Enhanced accessibility, new themes, mobile optimization
+### Stories
+1. Story body: `data/books/stories/*.json`
+2. Book metadata: `data/books/*.json`
+3. Wire into units for the guided path
 
-## 📄 License
+**Scaffolding policy:** full word breakdowns on Beginner 1–2 only; intermediate+ stories are continuous Thai without split tokens.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+### Docs
+- `docs/UX_SPEC.md` — product / UX decisions
+- `docs/CURRICULUM_MAP.md` — inventory and curriculum status
 
-## 🙏 Acknowledgments
+## Contributing
 
-- **Thai Language Community** - For inspiration and content contributions
-- **Open Source Community** - Gatsby, Chakra UI, and countless other tools
-- **Language Learners Worldwide** - For their dedication and feedback
+Contributions welcome — content, languages, features, and UX polish.
+
+Useful areas:
+- **Content** — decks, stories, unit pairing
+- **a11y** — keyboard, focus, screen readers
+- **New languages** — structure is Thai-first but content-driven
+
+## License
+
+MIT — see [LICENSE](LICENSE) if present.
+
+## Acknowledgments
+
+- Thai learners and teachers who shaped the curriculum goals
+- Astro, React, Tailwind, and the open-source ecosystem
 
 ---
 
 <p align="center">
-  Made with ❤️ for language learners everywhere
+  Made with ❤️ for language learners
 </p>
 
 <p align="center">
-  <a href="https://lingolotus.com">🌐 Live Site</a> •
-  <a href="https://github.com/cloudy-native/lingolotus.com">📖 Source Code</a> •
-  <a href="https://lingolotus.com/about">ℹ️ About</a>
+  <a href="https://lingolotus.com">Live site</a> ·
+  <a href="https://github.com/cloudy-native/lingolotus.com">Source</a> ·
+  <a href="https://lingolotus.com/about">About</a>
 </p>

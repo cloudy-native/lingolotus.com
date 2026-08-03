@@ -1,674 +1,648 @@
 {
-    "collectionId": "thai-english-elementary",
+    "collectionId": "thai-english-beginner",
     "deckId": "activities",
     "name": "Thai Activities and Hobbies",
-    "description": "Essential Thai vocabulary and phrases for describing everyday activities like reading, walking, and other hobbies",
+    "description": "Everyday hobbies and free-time activities in Thailand — reading, walking, sports, cooking, and more. Practice with ครับ/ค่ะ.",
     "sourceLanguage": "th",
     "targetLanguage": "en",
+    "theme": "activities",
+    "difficulty": "beginner",
+    "createdAt": "2025-06-15T10:26:39Z",
+    "updatedAt": "2026-08-03T12:00:00Z",
     "cards": [
         {
             "frontContent": {
                 "type": "text",
-                "text": "ฉันชอบอ่านหนังสือ"
+                "text": "อ่านหนังสือ"
             },
             "backContent": {
                 "type": "text",
-                "text": "I like to read books"
+                "text": "read books"
             },
             "tags": [
-                "reading",
                 "hobby",
-                "statement"
+                "reading"
             ],
             "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "chǎn châwp àan nǎng-sǔu",
-            "partOfSpeech": "sentence",
-            "context": "Expressing interest in reading as a hobby",
+            "phonetic": "àan nǎng-sʉ̌ʉ",
+            "partOfSpeech": "verb phrase",
+            "context": "Reading as a hobby",
             "examples": [
                 {
-                    "original": "ฉันชอบอ่านหนังสือก่อนนอน",
-                    "translation": "I like to read books before sleeping",
-                    "phonetic": "chǎn châwp àan nǎng-sǔu gɔ̀ɔn nɔɔn"
+                    "original": "ผมชอบอ่านหนังสือก่อนนอนครับ",
+                    "translation": "I like reading before bed (♂)",
+                    "phonetic": "pǒm chɔ̂ɔp àan nǎng-sʉ̌ʉ gɔ̀ɔn nɔɔn kráp"
                 },
                 {
-                    "original": "คุณชอบอ่านหนังสือเล่มไหน",
-                    "translation": "What book do you like to read?",
-                    "phonetic": "kun châwp àan nǎng-sǔu lêm nǎi"
+                    "original": "คุณชอบอ่านหนังสือเล่มไหนคะ",
+                    "translation": "Which book do you like? (♀)",
+                    "phonetic": "kun chɔ̂ɔp àan nǎng-sʉ̌ʉ lêm nǎi ká"
                 }
             ]
         },
         {
             "frontContent": {
                 "type": "text",
-                "text": "ฉันไปเดินเล่นทุกเช้า"
+                "text": "เดินเล่น"
             },
             "backContent": {
                 "type": "text",
-                "text": "I go for a walk every morning"
+                "text": "go for a stroll"
             },
             "tags": [
-                "walking",
-                "exercise",
-                "routine"
-            ],
-            "difficulty": "intermediate",
-            "sourceLanguage": "th",
-            "targetLanguage": "en",
-            "phonetic": "chǎn bpai dəən lên túk cháao",
-            "partOfSpeech": "sentence",
-            "context": "Describing a daily walking routine",
-            "examples": [
-                {
-                    "original": "ฉันไปเดินเล่นที่สวนสาธารณะทุกเช้า",
-                    "translation": "I go for a walk in the park every morning",
-                    "phonetic": "chǎn bpai dəən lên têe sǔan sǎa-taa-rá-ná túk cháao"
-                },
-                {
-                    "original": "คุณชอบไปเดินเล่นตอนไหน",
-                    "translation": "When do you like to go for a walk?",
-                    "phonetic": "kun châwp bpai dəən lên dtɔɔn nǎi"
-                }
-            ]
-        },
-        {
-            "frontContent": {
-                "type": "text",
-                "text": "เขากำลังวิ่ง"
-            },
-            "backContent": {
-                "type": "text",
-                "text": "He/she is running"
-            },
-            "tags": [
-                "running",
-                "exercise",
-                "present continuous"
+                "hobby",
+                "exercise"
             ],
             "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "kǎo gam-lang wîng",
-            "partOfSpeech": "sentence",
-            "context": "Describing someone currently running",
+            "phonetic": "dəən-lên",
+            "partOfSpeech": "verb phrase",
+            "context": "Casual walk for pleasure (not commuting)",
             "examples": [
                 {
-                    "original": "เขากำลังวิ่งออกกำลังกาย",
-                    "translation": "He/she is running for exercise",
-                    "phonetic": "kǎo gam-lang wîng ɔ̀ɔk gam-lang gaai"
+                    "original": "ผมไปเดินเล่นที่สวนลุมฯ ครับ",
+                    "translation": "I stroll at Lumphini Park (♂)",
+                    "phonetic": "pǒm bpai dəən-lên têe sǔan lum kráp"
                 },
                 {
-                    "original": "ฉันชอบวิ่งตอนเย็น",
-                    "translation": "I like to run in the evening",
-                    "phonetic": "chǎn châwp wîng dtɔɔn yen"
+                    "original": "ชอบเดินเล่นตอนเย็นค่ะ",
+                    "translation": "I like evening walks (♀)",
+                    "phonetic": "chɔ̂ɔp dəən-lên dtɔɔn yen kâ"
                 }
             ]
         },
         {
             "frontContent": {
                 "type": "text",
-                "text": "คุณว่ายน้ำเป็นไหม"
+                "text": "วิ่ง"
             },
             "backContent": {
                 "type": "text",
-                "text": "Can you swim?"
+                "text": "run / jogging"
             },
             "tags": [
-                "swimming",
-                "ability",
-                "question"
+                "hobby",
+                "exercise"
             ],
-            "difficulty": "intermediate",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "kun wâai náam bpen mǎi",
-            "partOfSpeech": "question",
-            "context": "Asking about someone's ability to swim",
+            "phonetic": "wîng",
+            "partOfSpeech": "verb",
+            "context": "Running or jogging",
+            "examples": [
+                {
+                    "original": "เขากำลังวิ่งออกกำลังกายครับ",
+                    "translation": "He’s out running (♂)",
+                    "phonetic": "kǎo gam-lang wîng ɔ̀ɔk-gam-lang-gaai kráp"
+                },
+                {
+                    "original": "ฉันชอบวิ่งตอนเช้าค่ะ",
+                    "translation": "I like morning runs (♀)",
+                    "phonetic": "chǎn chɔ̂ɔp wîng dtɔɔn cháao kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ว่ายน้ำ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "swim"
+            },
+            "tags": [
+                "hobby",
+                "sport"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "wâai-náam",
+            "partOfSpeech": "verb",
+            "context": "Swimming",
             "examples": [
                 {
                     "original": "คุณว่ายน้ำเป็นไหมครับ",
                     "translation": "Can you swim? (♂)",
-                    "phonetic": "kun wâai náam bpen mǎi kráp"
+                    "phonetic": "kun wâai-náam bpen mǎi kráp"
                 },
                 {
-                    "original": "ฉันว่ายน้ำเป็นตั้งแต่เด็ก",
-                    "translation": "I've been able to swim since I was a child",
-                    "phonetic": "chǎn wâai náam bpen dtâng dtàe dèk"
+                    "original": "ว่ายน้ำเป็นไหมคะ",
+                    "translation": "Can you swim? (♀)",
+                    "phonetic": "wâai-náam bpen mǎi ká"
                 }
             ]
         },
         {
             "frontContent": {
                 "type": "text",
-                "text": "เธอชอบฟังเพลง"
+                "text": "ฟังเพลง"
             },
             "backContent": {
                 "type": "text",
-                "text": "She likes to listen to music"
+                "text": "listen to music"
             },
             "tags": [
-                "music",
-                "listening",
-                "hobby"
-            ],
-            "difficulty": "beginner",
-            "sourceLanguage": "th",
-            "targetLanguage": "en",
-            "phonetic": "təə châwp fang pleeng",
-            "partOfSpeech": "sentence",
-            "context": "Describing someone's music listening habit",
-            "examples": [
-                {
-                    "original": "เธอชอบฟังเพลงตอนทำงาน",
-                    "translation": "She likes to listen to music while working",
-                    "phonetic": "təə châwp fang pleeng dtɔɔn tam ngaan"
-                },
-                {
-                    "original": "คุณชอบฟังเพลงแนวไหน",
-                    "translation": "What kind of music do you like to listen to?",
-                    "phonetic": "kun châwp fang pleeng nɛɛo nǎi"
-                }
-            ]
-        },
-        {
-            "frontContent": {
-                "type": "text",
-                "text": "ฉันกำลังเรียนภาษาไทย"
-            },
-            "backContent": {
-                "type": "text",
-                "text": "I am learning Thai"
-            },
-            "tags": [
-                "language learning",
-                "education",
-                "present continuous"
-            ],
-            "difficulty": "intermediate",
-            "sourceLanguage": "th",
-            "targetLanguage": "en",
-            "phonetic": "chǎn gam-lang rian paa-sǎa tai",
-            "partOfSpeech": "sentence",
-            "context": "Expressing that you're currently learning the Thai language",
-            "examples": [
-                {
-                    "original": "ฉันกำลังเรียนภาษาไทยออนไลน์",
-                    "translation": "I am learning Thai online",
-                    "phonetic": "chǎn gam-lang rian paa-sǎa tai ɔɔn-lai"
-                },
-                {
-                    "original": "คุณกำลังเรียนภาษาอะไรอยู่",
-                    "translation": "What language are you learning?",
-                    "phonetic": "kun gam-lang rian paa-sǎa à-rai yùu"
-                }
-            ]
-        },
-        {
-            "frontContent": {
-                "type": "text",
-                "text": "เขาเล่นกีฬาทุกวัน"
-            },
-            "backContent": {
-                "type": "text",
-                "text": "He/she plays sports every day"
-            },
-            "tags": [
-                "sports",
-                "routine",
-                "daily activity"
-            ],
-            "difficulty": "intermediate",
-            "sourceLanguage": "th",
-            "targetLanguage": "en",
-            "phonetic": "kǎo lên gii-laa túk wan",
-            "partOfSpeech": "sentence",
-            "context": "Describing someone's daily sports activities",
-            "examples": [
-                {
-                    "original": "เขาเล่นกีฬาเพื่อสุขภาพ",
-                    "translation": "He/she plays sports for health",
-                    "phonetic": "kǎo lên gii-laa pʉ̂a sùk-kà-pâap"
-                },
-                {
-                    "original": "คุณชอบเล่นกีฬาอะไร",
-                    "translation": "What sports do you like to play?",
-                    "phonetic": "kun châwp lên gii-laa à-rai"
-                }
-            ]
-        },
-        {
-            "frontContent": {
-                "type": "text",
-                "text": "เรากำลังทำอาหาร"
-            },
-            "backContent": {
-                "type": "text",
-                "text": "We are cooking"
-            },
-            "tags": [
-                "cooking",
-                "present continuous",
-                "activity"
-            ],
-            "difficulty": "beginner",
-            "sourceLanguage": "th",
-            "targetLanguage": "en",
-            "phonetic": "rao gam-lang tam aa-hǎan",
-            "partOfSpeech": "sentence",
-            "context": "Describing a current cooking activity",
-            "examples": [
-                {
-                    "original": "เรากำลังทำอาหารไทย",
-                    "translation": "We are cooking Thai food",
-                    "phonetic": "rao gam-lang tam aa-hǎan tai"
-                },
-                {
-                    "original": "คุณชอบทำอาหารไหม",
-                    "translation": "Do you like to cook?",
-                    "phonetic": "kun châwp tam aa-hǎan mǎi"
-                }
-            ]
-        },
-        {
-            "frontContent": {
-                "type": "text",
-                "text": "ฉันชอบถ่ายรูป"
-            },
-            "backContent": {
-                "type": "text",
-                "text": "I like taking photos"
-            },
-            "tags": [
-                "photography",
                 "hobby",
-                "activity"
+                "music"
             ],
             "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "chǎn châwp tàai rûup",
-            "partOfSpeech": "sentence",
-            "context": "Expressing interest in photography as a hobby",
+            "phonetic": "fang pleeng",
+            "partOfSpeech": "verb phrase",
+            "context": "Listening to music",
             "examples": [
                 {
-                    "original": "ฉันชอบถ่ายรูปธรรมชาติ",
-                    "translation": "I like taking photos of nature",
-                    "phonetic": "chǎn châwp tàai rûup tam-má-châat"
+                    "original": "ชอบฟังเพลงไทยครับ",
+                    "translation": "I like Thai music (♂)",
+                    "phonetic": "chɔ̂ɔp fang pleeng tai kráp"
                 },
                 {
-                    "original": "คุณใช้กล้องอะไรถ่ายรูป",
-                    "translation": "What camera do you use to take photos?",
-                    "phonetic": "kun chái glɔ̂ɔng à-rai tàai rûup"
+                    "original": "คุณชอบฟังเพลงแนวไหนคะ",
+                    "translation": "What kind of music do you like? (♀)",
+                    "phonetic": "kun chɔ̂ɔp fang pleeng nɛɛo nǎi ká"
                 }
             ]
         },
         {
             "frontContent": {
                 "type": "text",
-                "text": "เธอกำลังเต้นรำ"
+                "text": "เรียนภาษาไทย"
             },
             "backContent": {
                 "type": "text",
-                "text": "She is dancing"
+                "text": "study Thai"
             },
             "tags": [
-                "dancing",
-                "present continuous",
-                "activity"
-            ],
-            "difficulty": "beginner",
-            "sourceLanguage": "th",
-            "targetLanguage": "en",
-            "phonetic": "təə gam-lang dtên ram",
-            "partOfSpeech": "sentence",
-            "context": "Describing someone currently dancing",
-            "examples": [
-                {
-                    "original": "เธอกำลังเต้นรำกับเพื่อน",
-                    "translation": "She is dancing with friends",
-                    "phonetic": "təə gam-lang dtên ram gàp pʉ̂an"
-                },
-                {
-                    "original": "คุณชอบเต้นรำไหม",
-                    "translation": "Do you like to dance?",
-                    "phonetic": "kun châwp dtên ram mǎi"
-                }
-            ]
-        },
-        {
-            "frontContent": {
-                "type": "text",
-                "text": "พวกเขากำลังเล่นดนตรี"
-            },
-            "backContent": {
-                "type": "text",
-                "text": "They are playing music"
-            },
-            "tags": [
-                "music",
-                "instrument",
-                "present continuous"
-            ],
-            "difficulty": "intermediate",
-            "sourceLanguage": "th",
-            "targetLanguage": "en",
-            "phonetic": "pûak kǎo gam-lang lên don-dtrii",
-            "partOfSpeech": "sentence",
-            "context": "Describing a group of people playing musical instruments",
-            "examples": [
-                {
-                    "original": "พวกเขากำลังเล่นดนตรีในสวน",
-                    "translation": "They are playing music in the garden",
-                    "phonetic": "pûak kǎo gam-lang lên don-dtrii nai sǔan"
-                },
-                {
-                    "original": "คุณเล่นเครื่องดนตรีอะไรได้บ้าง",
-                    "translation": "What musical instruments can you play?",
-                    "phonetic": "kun lên krʉ̂ang don-dtrii à-rai dâai bâang"
-                }
-            ]
-        },
-        {
-            "frontContent": {
-                "type": "text",
-                "text": "ฉันชอบปลูกต้นไม้"
-            },
-            "backContent": {
-                "type": "text",
-                "text": "I like to grow plants"
-            },
-            "tags": [
-                "gardening",
                 "hobby",
-                "activity"
+                "study"
             ],
-            "difficulty": "intermediate",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "chǎn châwp bplùuk dtôn máai",
-            "partOfSpeech": "sentence",
-            "context": "Expressing interest in gardening as a hobby",
+            "phonetic": "rian paa-sǎa tai",
+            "partOfSpeech": "verb phrase",
+            "context": "Learning the Thai language",
             "examples": [
                 {
-                    "original": "ฉันชอบปลูกต้นไม้ในสวนหลังบ้าน",
-                    "translation": "I like to grow plants in the backyard garden",
-                    "phonetic": "chǎn châwp bplùuk dtôn máai nai sǔan lǎng bâan"
+                    "original": "ผมกำลังเรียนภาษาไทยครับ",
+                    "translation": "I’m learning Thai (♂)",
+                    "phonetic": "pǒm gam-lang rian paa-sǎa tai kráp"
                 },
                 {
-                    "original": "คุณปลูกต้นไม้อะไรบ้าง",
-                    "translation": "What plants do you grow?",
-                    "phonetic": "kun bplùuk dtôn máai à-rai bâang"
+                    "original": "เรียนภาษาไทยออนไลน์ค่ะ",
+                    "translation": "I study Thai online (♀)",
+                    "phonetic": "rian paa-sǎa tai ɔɔn-lai kâ"
                 }
             ]
         },
         {
             "frontContent": {
                 "type": "text",
-                "text": "เขาชอบวาดรูป"
+                "text": "เล่นกีฬา"
             },
             "backContent": {
                 "type": "text",
-                "text": "He/she likes to draw"
+                "text": "play sports"
             },
             "tags": [
-                "drawing",
-                "art",
+                "hobby",
+                "sport"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "lên gii-laa",
+            "partOfSpeech": "verb phrase",
+            "context": "Sports in general",
+            "examples": [
+                {
+                    "original": "เล่นกีฬาทุกวันครับ",
+                    "translation": "I play sports every day (♂)",
+                    "phonetic": "lên gii-laa túk wan kráp"
+                },
+                {
+                    "original": "คุณชอบเล่นกีฬาอะไรคะ",
+                    "translation": "What sport do you like? (♀)",
+                    "phonetic": "kun chɔ̂ɔp lên gii-laa à-rai ká"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ทำอาหาร"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "cook"
+            },
+            "tags": [
+                "hobby",
+                "food"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "tam aa-hǎan",
+            "partOfSpeech": "verb phrase",
+            "context": "Cooking food",
+            "examples": [
+                {
+                    "original": "เรากำลังทำอาหารไทยครับ",
+                    "translation": "We’re cooking Thai food (♂)",
+                    "phonetic": "rao gam-lang tam aa-hǎan tai kráp"
+                },
+                {
+                    "original": "คุณชอบทำอาหารไหมคะ",
+                    "translation": "Do you like cooking? (♀)",
+                    "phonetic": "kun chɔ̂ɔp tam aa-hǎan mǎi ká"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ถ่ายรูป"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "take photos"
+            },
+            "tags": [
                 "hobby"
             ],
             "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "kǎo châwp wâat rûup",
-            "partOfSpeech": "sentence",
-            "context": "Expressing someone's interest in drawing",
+            "phonetic": "tàai rûup",
+            "partOfSpeech": "verb phrase",
+            "context": "Photography as a hobby",
             "examples": [
                 {
-                    "original": "เขาชอบวาดรูปสัตว์",
-                    "translation": "He/she likes to draw animals",
-                    "phonetic": "kǎo châwp wâat rûup sàt"
+                    "original": "ชอบถ่ายรูปวัดครับ",
+                    "translation": "I like photographing temples (♂)",
+                    "phonetic": "chɔ̂ɔp tàai rûup wát kráp"
                 },
                 {
-                    "original": "คุณวาดรูปเป็นไหม",
-                    "translation": "Can you draw?",
-                    "phonetic": "kun wâat rûup bpen mǎi"
+                    "original": "คุณใช้กล้องอะไรถ่ายรูปคะ",
+                    "translation": "What camera do you use? (♀)",
+                    "phonetic": "kun chái glɔ̂ɔng à-rai tàai rûup ká"
                 }
             ]
         },
         {
             "frontContent": {
                 "type": "text",
-                "text": "เรากำลังดูหนัง"
+                "text": "เต้น"
             },
             "backContent": {
                 "type": "text",
-                "text": "We are watching a movie"
+                "text": "dance"
             },
             "tags": [
-                "movie",
-                "entertainment",
-                "present continuous"
+                "hobby"
             ],
             "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "rao gam-lang duu nǎng",
-            "partOfSpeech": "sentence",
-            "context": "Describing current activity of watching a film",
+            "phonetic": "dtên",
+            "partOfSpeech": "verb",
+            "context": "Dancing (เต้นรำ is more formal/traditional)",
             "examples": [
                 {
-                    "original": "เรากำลังดูหนังที่บ้าน",
-                    "translation": "We are watching a movie at home",
-                    "phonetic": "rao gam-lang duu nǎng têe bâan"
+                    "original": "เธอกำลังเต้นกับเพื่อนครับ",
+                    "translation": "She’s dancing with friends (♂)",
+                    "phonetic": "təə gam-lang dtên gàp pʉ̂an kráp"
                 },
                 {
-                    "original": "คุณชอบดูหนังแนวไหน",
-                    "translation": "What kind of movies do you like to watch?",
-                    "phonetic": "kun châwp duu nǎng nɛɛo nǎi"
+                    "original": "คุณชอบเต้นไหมคะ",
+                    "translation": "Do you like to dance? (♀)",
+                    "phonetic": "kun chɔ̂ɔp dtên mǎi ká"
                 }
             ]
         },
         {
             "frontContent": {
                 "type": "text",
-                "text": "ฉันจะไปเที่ยวทะเล"
+                "text": "เล่นดนตรี"
             },
             "backContent": {
                 "type": "text",
-                "text": "I will go to the beach"
+                "text": "play music (instruments)"
             },
             "tags": [
-                "travel",
-                "beach",
-                "future"
+                "hobby",
+                "music"
             ],
-            "difficulty": "intermediate",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "chǎn jà bpai tîao tá-lee",
-            "partOfSpeech": "sentence",
-            "context": "Expressing plans to visit the beach",
+            "phonetic": "lên don-dtrii",
+            "partOfSpeech": "verb phrase",
+            "context": "Playing instruments (not just listening)",
             "examples": [
                 {
-                    "original": "ฉันจะไปเที่ยวทะเลวันเสาร์นี้",
-                    "translation": "I will go to the beach this Saturday",
-                    "phonetic": "chǎn jà bpai tîao tá-lee wan sǎao née"
+                    "original": "พวกเขาเล่นดนตรีในสวนครับ",
+                    "translation": "They’re playing music in the park (♂)",
+                    "phonetic": "pûak-kǎo lên don-dtrii nai sǔan kráp"
                 },
                 {
-                    "original": "คุณชอบไปเที่ยวที่ไหน",
-                    "translation": "Where do you like to travel?",
-                    "phonetic": "kun châwp bpai tîao têe nǎi"
+                    "original": "คุณเล่นเครื่องดนตรีอะไรได้บ้างคะ",
+                    "translation": "What instruments can you play? (♀)",
+                    "phonetic": "kun lên krʉ̂ang don-dtrii à-rai dâai bâang ká"
                 }
             ]
         },
         {
             "frontContent": {
                 "type": "text",
-                "text": "เธอกำลังเล่นกับสุนัข"
+                "text": "ปลูกต้นไม้"
             },
             "backContent": {
                 "type": "text",
-                "text": "She is playing with the dog"
+                "text": "grow plants / garden"
             },
             "tags": [
-                "pets",
-                "playing",
-                "present continuous"
-            ],
-            "difficulty": "intermediate",
-            "sourceLanguage": "th",
-            "targetLanguage": "en",
-            "phonetic": "təə gam-lang lên gàp sù-nák",
-            "partOfSpeech": "sentence",
-            "context": "Describing someone playing with a dog",
-            "examples": [
-                {
-                    "original": "เธอกำลังเล่นกับสุนัขในสวน",
-                    "translation": "She is playing with the dog in the garden",
-                    "phonetic": "təə gam-lang lên gàp sù-nák nai sǔan"
-                },
-                {
-                    "original": "คุณมีสัตว์เลี้ยงไหม",
-                    "translation": "Do you have pets?",
-                    "phonetic": "kun mii sàt líang mǎi"
-                }
-            ]
-        },
-        {
-            "frontContent": {
-                "type": "text",
-                "text": "ฉันชอบนั่งสมาธิ"
-            },
-            "backContent": {
-                "type": "text",
-                "text": "I like to meditate"
-            },
-            "tags": [
-                "meditation",
-                "wellness",
                 "hobby"
             ],
-            "difficulty": "intermediate",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "chǎn châwp nâng sà-maa-dtì",
-            "partOfSpeech": "sentence",
-            "context": "Expressing interest in meditation as a practice",
+            "phonetic": "bplùuk dtôn-máai",
+            "partOfSpeech": "verb phrase",
+            "context": "Gardening / growing plants",
             "examples": [
                 {
-                    "original": "ฉันชอบนั่งสมาธิตอนเช้า",
-                    "translation": "I like to meditate in the morning",
-                    "phonetic": "chǎn châwp nâng sà-maa-dtì dtɔɔn cháao"
+                    "original": "ชอบปลูกต้นไม้หลังบ้านครับ",
+                    "translation": "I like gardening in the backyard (♂)",
+                    "phonetic": "chɔ̂ɔp bplùuk dtôn-máai lǎng bâan kráp"
                 },
                 {
-                    "original": "การนั่งสมาธิช่วยให้ฉันผ่อนคลาย",
-                    "translation": "Meditation helps me relax",
-                    "phonetic": "gaan nâng sà-maa-dtì chûay hâi chǎn pɔ̀n klaai"
+                    "original": "คุณปลูกอะไรบ้างคะ",
+                    "translation": "What do you grow? (♀)",
+                    "phonetic": "kun bplùuk à-rai bâang ká"
                 }
             ]
         },
         {
             "frontContent": {
                 "type": "text",
-                "text": "พวกเรากำลังปิกนิก"
+                "text": "วาดรูป"
             },
             "backContent": {
                 "type": "text",
-                "text": "We are having a picnic"
+                "text": "draw"
             },
             "tags": [
-                "picnic",
-                "outdoor",
-                "present continuous"
+                "hobby",
+                "art"
             ],
-            "difficulty": "intermediate",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "pûak rao gam-lang bpík-ník",
-            "partOfSpeech": "sentence",
-            "context": "Describing a current picnic activity",
+            "phonetic": "wâat rûup",
+            "partOfSpeech": "verb phrase",
+            "context": "Drawing / sketching",
             "examples": [
                 {
-                    "original": "พวกเรากำลังปิกนิกที่สวนสาธารณะ",
-                    "translation": "We are having a picnic at the park",
-                    "phonetic": "pûak rao gam-lang bpík-ník têe sǔan sǎa-taa-rá-ná"
+                    "original": "เขาชอบวาดรูปสัตว์ครับ",
+                    "translation": "He likes drawing animals (♂)",
+                    "phonetic": "kǎo chɔ̂ɔp wâat rûup sàt kráp"
                 },
                 {
-                    "original": "คุณชอบปิกนิกไหม",
-                    "translation": "Do you like picnics?",
-                    "phonetic": "kun châwp bpík-ník mǎi"
+                    "original": "คุณวาดรูปเป็นไหมคะ",
+                    "translation": "Can you draw? (♀)",
+                    "phonetic": "kun wâat rûup bpen mǎi ká"
                 }
             ]
         },
         {
             "frontContent": {
                 "type": "text",
-                "text": "ฉันเล่นเกมคอมพิวเตอร์"
+                "text": "ดูหนัง"
             },
             "backContent": {
                 "type": "text",
-                "text": "I play computer games"
+                "text": "watch a movie"
             },
             "tags": [
-                "gaming",
-                "computer",
                 "hobby"
             ],
-            "difficulty": "intermediate",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "chǎn lên geem kɔm-piu-dtəə",
-            "partOfSpeech": "sentence",
-            "context": "Describing gaming as a hobby",
+            "phonetic": "duu nǎng",
+            "partOfSpeech": "verb phrase",
+            "context": "Watching films (cinema or home)",
             "examples": [
                 {
-                    "original": "ฉันเล่นเกมคอมพิวเตอร์กับเพื่อน",
-                    "translation": "I play computer games with friends",
-                    "phonetic": "chǎn lên geem kɔm-piu-dtəə gàp pʉ̂an"
+                    "original": "เรากำลังดูหนังที่บ้านครับ",
+                    "translation": "We’re watching a movie at home (♂)",
+                    "phonetic": "rao gam-lang duu nǎng têe bâan kráp"
                 },
                 {
-                    "original": "คุณชอบเล่นเกมอะไร",
-                    "translation": "What games do you like to play?",
-                    "phonetic": "kun châwp lên geem à-rai"
+                    "original": "คุณชอบหนังแนวไหนคะ",
+                    "translation": "What kind of movies do you like? (♀)",
+                    "phonetic": "kun chɔ̂ɔp nǎng nɛɛo nǎi ká"
                 }
             ]
         },
         {
             "frontContent": {
                 "type": "text",
-                "text": "เขากำลังเรียนทำอาหาร"
+                "text": "ไปเที่ยว"
             },
             "backContent": {
                 "type": "text",
-                "text": "He/she is learning to cook"
+                "text": "go travel / go out for fun"
             },
             "tags": [
-                "cooking",
-                "learning",
-                "present continuous"
+                "hobby",
+                "travel"
             ],
-            "difficulty": "intermediate",
+            "difficulty": "beginner",
             "sourceLanguage": "th",
             "targetLanguage": "en",
-            "phonetic": "kǎo gam-lang rian tam aa-hǎan",
-            "partOfSpeech": "sentence",
-            "context": "Describing someone who is in the process of learning cooking",
+            "phonetic": "bpai tîao",
+            "partOfSpeech": "verb phrase",
+            "context": "Outing or trip for pleasure",
             "examples": [
                 {
-                    "original": "เขากำลังเรียนทำอาหารไทย",
-                    "translation": "He/she is learning to cook Thai food",
-                    "phonetic": "kǎo gam-lang rian tam aa-hǎan tai"
+                    "original": "จะไปเที่ยวทะเลเสาร์นี้ครับ",
+                    "translation": "I’m going to the beach this Saturday (♂)",
+                    "phonetic": "jà bpai tîao tá-lee sǎo níi kráp"
                 },
                 {
-                    "original": "คุณอยากเรียนทำอาหารไหม",
-                    "translation": "Do you want to learn cooking?",
-                    "phonetic": "kun yàak rian tam aa-hǎan mǎi"
+                    "original": "คุณชอบไปเที่ยวที่ไหนคะ",
+                    "translation": "Where do you like to go? (♀)",
+                    "phonetic": "kun chɔ̂ɔp bpai tîao têe nǎi ká"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เล่นกับหมา"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "play with the dog"
+            },
+            "tags": [
+                "hobby",
+                "pets"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "lên gàp mǎa",
+            "partOfSpeech": "verb phrase",
+            "context": "Playing with a pet dog",
+            "examples": [
+                {
+                    "original": "กำลังเล่นกับหมาในสวนครับ",
+                    "translation": "Playing with the dog in the garden (♂)",
+                    "phonetic": "gam-lang lên gàp mǎa nai sǔan kráp"
+                },
+                {
+                    "original": "คุณมีสัตว์เลี้ยงไหมคะ",
+                    "translation": "Do you have a pet? (♀)",
+                    "phonetic": "kun mii sàt-líang mǎi ká"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "นั่งสมาธิ"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "meditate"
+            },
+            "tags": [
+                "hobby",
+                "wellness"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "nâng sà-maa-dtì",
+            "partOfSpeech": "verb phrase",
+            "context": "Meditation (common around temples in Thailand)",
+            "examples": [
+                {
+                    "original": "ชอบนั่งสมาธิตอนเช้าครับ",
+                    "translation": "I like meditating in the morning (♂)",
+                    "phonetic": "chɔ̂ɔp nâng sà-maa-dtì dtɔɔn cháao kráp"
+                },
+                {
+                    "original": "การนั่งสมาธิช่วยให้ผ่อนคลายค่ะ",
+                    "translation": "Meditation helps me relax (♀)",
+                    "phonetic": "gaan nâng sà-maa-dtì chûai hâi pɔ̀ɔn-klaai kâ"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "ปิกนิก"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "picnic"
+            },
+            "tags": [
+                "hobby"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "bpík-ník",
+            "partOfSpeech": "noun/verb",
+            "context": "Picnic (loanword; very common)",
+            "examples": [
+                {
+                    "original": "พวกเรากำลังปิกนิกที่สวนครับ",
+                    "translation": "We’re picnicking at the park (♂)",
+                    "phonetic": "pûak-rao gam-lang bpík-ník têe sǔan kráp"
+                },
+                {
+                    "original": "คุณชอบปิกนิกไหมคะ",
+                    "translation": "Do you like picnics? (♀)",
+                    "phonetic": "kun chɔ̂ɔp bpík-ník mǎi ká"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เล่นเกม"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "play games"
+            },
+            "tags": [
+                "hobby"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "lên geem",
+            "partOfSpeech": "verb phrase",
+            "context": "Games (video or board); specify คอมพิวเตอร์ / มือถือ if needed",
+            "examples": [
+                {
+                    "original": "เล่นเกมกับเพื่อนครับ",
+                    "translation": "I play games with friends (♂)",
+                    "phonetic": "lên geem gàp pʉ̂an kráp"
+                },
+                {
+                    "original": "คุณชอบเล่นเกมอะไรคะ",
+                    "translation": "What games do you like? (♀)",
+                    "phonetic": "kun chɔ̂ɔp lên geem à-rai ká"
+                }
+            ]
+        },
+        {
+            "frontContent": {
+                "type": "text",
+                "text": "เรียนทำอาหาร"
+            },
+            "backContent": {
+                "type": "text",
+                "text": "take a cooking class / learn to cook"
+            },
+            "tags": [
+                "hobby",
+                "food"
+            ],
+            "difficulty": "beginner",
+            "sourceLanguage": "th",
+            "targetLanguage": "en",
+            "phonetic": "rian tam aa-hǎan",
+            "partOfSpeech": "verb phrase",
+            "context": "Learning to cook (popular tourist & local activity)",
+            "examples": [
+                {
+                    "original": "กำลังเรียนทำอาหารไทยครับ",
+                    "translation": "I’m learning Thai cooking (♂)",
+                    "phonetic": "gam-lang rian tam aa-hǎan tai kráp"
+                },
+                {
+                    "original": "อยากเรียนทำอาหารไหมคะ",
+                    "translation": "Want to learn cooking? (♀)",
+                    "phonetic": "yàak rian tam aa-hǎan mǎi ká"
                 }
             ]
         }
-    ],
-    "createdAt": "2025-06-15T10:26:39Z",
-    "updatedAt": "2025-06-19T17:27:41Z",
-    "theme": "activities",
-    "difficulty": "elementary"
+    ]
 }

@@ -3,204 +3,162 @@
     "bookId": "thai-beginner-2",
     "language": "th",
     "title": {
-        "source": "การไปเที่ยวสถานที่",
+        "source": "ไปเที่ยว",
         "target": "Visiting Places"
     },
     "sentences": [
         {
-            "source": "เมื่อเดือนที่แล้ว ฉันไปสวนสัตว์กับครอบครัว",
-            "target": "Last month, I visited a zoo with my family.",
-            "phonetic": "mûea dûen thîi lâae chǎn bpai sǔan sàt-dtâa kàp khraawp khrua",
+            "source": "เดือนที่แล้วไปเที่ยวกับครอบครัวครับ",
+            "target": "Last month I traveled with my family. (♂)",
+            "phonetic": "duean tîi-lɛ́ɛo bpai tîao gàp krâwp-krua kráp",
             "breakdown": [
                 {
-                    "source": "เมื่อ",
-                    "target": "when",
-                    "phonetic": "mûea",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "เดือน",
-                    "target": "month",
-                    "phonetic": "dûen",
+                    "source": "เดือนที่แล้ว",
+                    "target": "last month",
+                    "phonetic": "duean tîi-lɛ́ɛo",
                     "partOfSpeech": "noun"
                 },
                 {
-                    "source": "ที่แล้ว",
-                    "target": "last/past",
-                    "phonetic": "thîi lâae",
-                    "partOfSpeech": "adverb"
-                },
-                {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ไป",
-                    "target": "to go",
-                    "phonetic": "bpai",
+                    "source": "ไปเที่ยว",
+                    "target": "go out/travel",
+                    "phonetic": "bpai tîao",
                     "partOfSpeech": "verb"
-                },
-                {
-                    "source": "สวนสัตว์",
-                    "target": "zoo",
-                    "phonetic": "sǔan sàt-dtâa",
-                    "partOfSpeech": "noun"
                 },
                 {
                     "source": "กับ",
                     "target": "with",
-                    "phonetic": "kàp",
+                    "phonetic": "gàp",
                     "partOfSpeech": "preposition"
                 },
                 {
                     "source": "ครอบครัว",
                     "target": "family",
-                    "phonetic": "khraawp khrua",
-                    "partOfSpeech": "noun"
-                }
-            ]
-        },
-        {
-            "source": "คุณเห็นอะไรที่สวนสัตว์ครับ",
-            "target": "What did you see at the zoo?",
-            "phonetic": "khun hěn à-rai thîi sǔan sàt-dtâa khráp",
-            "breakdown": [
-                {
-                    "source": "คุณ",
-                    "target": "you (polite)",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "เห็น",
-                    "target": "to see",
-                    "phonetic": "hěn",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "อะไร",
-                    "target": "what",
-                    "phonetic": "à-rai",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ที่",
-                    "target": "at",
-                    "phonetic": "thîi",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "สวนสัตว์",
-                    "target": "zoo",
-                    "phonetic": "sǔan sàt-dtâa",
+                    "phonetic": "krâwp-krua",
                     "partOfSpeech": "noun"
                 },
                 {
                     "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "ฉันเห็นสิงโต ช้าง และลิง",
-            "target": "I saw lions, elephants, and monkeys!",
-            "phonetic": "chǎn hěn sǐng dtoo châang láe ling",
+            "source": "ไปที่ไหนคะ",
+            "target": "Where did you go? (♀)",
+            "phonetic": "bpai tîi nǎi ká",
             "breakdown": [
                 {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "เห็น",
-                    "target": "to see",
-                    "phonetic": "hěn",
+                    "source": "ไป",
+                    "target": "go",
+                    "phonetic": "bpai",
                     "partOfSpeech": "verb"
                 },
                 {
-                    "source": "สิงโต",
-                    "target": "lions",
-                    "phonetic": "sǐng dtoo",
-                    "partOfSpeech": "noun"
+                    "source": "ที่ไหน",
+                    "target": "where",
+                    "phonetic": "tîi nǎi",
+                    "partOfSpeech": "phrase"
                 },
                 {
-                    "source": "ช้าง",
-                    "target": "elephants",
-                    "phonetic": "châang",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "และ",
-                    "target": "and",
-                    "phonetic": "láe",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "ลิง",
-                    "target": "monkeys",
-                    "phonetic": "ling",
-                    "partOfSpeech": "noun"
+                    "source": "คะ",
+                    "target": "Q (♀)",
+                    "phonetic": "ká",
+                    "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "สัตว์ใหญ่ไหมครับ",
-            "target": "Were the animals big?",
-            "phonetic": "sàt-dtâa yài mǎi khráp",
+            "source": "ไปอยุธยาครับ ดูวัดเก่า",
+            "target": "Ayutthaya — old temples. (♂)",
+            "phonetic": "bpai à-yút-tá-yaa kráp duu wát gào",
             "breakdown": [
                 {
-                    "source": "สัตว์",
-                    "target": "animals",
-                    "phonetic": "sàt-dtâa",
+                    "source": "ไป",
+                    "target": "go",
+                    "phonetic": "bpai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "อยุธยา",
+                    "target": "Ayutthaya",
+                    "phonetic": "à-yút-tá-yaa",
+                    "partOfSpeech": "proper noun"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ดู",
+                    "target": "see",
+                    "phonetic": "duu",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "วัด",
+                    "target": "temple",
+                    "phonetic": "wát",
                     "partOfSpeech": "noun"
                 },
                 {
-                    "source": "ใหญ่",
-                    "target": "big",
-                    "phonetic": "yài",
+                    "source": "เก่า",
+                    "target": "old",
+                    "phonetic": "gào",
+                    "partOfSpeech": "adjective"
+                }
+            ]
+        },
+        {
+            "source": "สวยไหมคะ",
+            "target": "Was it beautiful? (♀)",
+            "phonetic": "sǔay mǎi ká",
+            "breakdown": [
+                {
+                    "source": "สวย",
+                    "target": "beautiful",
+                    "phonetic": "sǔay",
                     "partOfSpeech": "adjective"
                 },
                 {
                     "source": "ไหม",
-                    "target": "(question particle)",
+                    "target": "Q",
                     "phonetic": "mǎi",
                     "partOfSpeech": "particle"
                 },
                 {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "source": "คะ",
+                    "target": "Q (♀)",
+                    "phonetic": "ká",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "ใช่ ช้างใหญ่ แต่ลิงเล็ก",
-            "target": "Yes, the elephants were big, but the monkeys were small.",
-            "phonetic": "châi châang yài dtàae ling lék",
+            "source": "สวยมากครับ แต่ร้อน",
+            "target": "Very beautiful — but hot. (♂)",
+            "phonetic": "sǔay mâak kráp dtàae ráwn",
             "breakdown": [
                 {
-                    "source": "ใช่",
-                    "target": "yes",
-                    "phonetic": "châi",
-                    "partOfSpeech": "interjection"
-                },
-                {
-                    "source": "ช้าง",
-                    "target": "elephants",
-                    "phonetic": "châang",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ใหญ่",
-                    "target": "big",
-                    "phonetic": "yài",
+                    "source": "สวย",
+                    "target": "beautiful",
+                    "phonetic": "sǔay",
                     "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "มาก",
+                    "target": "very",
+                    "phonetic": "mâak",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
                 },
                 {
                     "source": "แต่",
@@ -209,157 +167,22 @@
                     "partOfSpeech": "conjunction"
                 },
                 {
-                    "source": "ลิง",
-                    "target": "monkeys",
-                    "phonetic": "ling",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "เล็ก",
-                    "target": "small",
-                    "phonetic": "lék",
+                    "source": "ร้อน",
+                    "target": "hot",
+                    "phonetic": "ráwn",
                     "partOfSpeech": "adjective"
                 }
             ]
         },
         {
-            "source": "คุณชอบสวนสัตว์ไหมครับ",
-            "target": "Do you like the zoo?",
-            "phonetic": "khun châwp sǔan sàt-dtâa mǎi khráp",
+            "source": "เห็นอะไรเป็นพิเศษไหมคะ",
+            "target": "Did you see anything special? (♀)",
+            "phonetic": "hěn à-rai bpen pí-sèet mǎi ká",
             "breakdown": [
                 {
-                    "source": "คุณ",
-                    "target": "you (polite)",
-                    "phonetic": "khun",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ชอบ",
-                    "target": "to like",
-                    "phonetic": "châwp",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "สวนสัตว์",
-                    "target": "zoo",
-                    "phonetic": "sǔan sàt-dtâa",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ไหม",
-                    "target": "(question particle)",
-                    "phonetic": "mǎi",
-                    "partOfSpeech": "particle"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
-                }
-            ]
-        },
-        {
-            "source": "ใช่ ฉันชอบเพราะสัตว์น่าสนใจ",
-            "target": "Yes, I like it because animals are interesting.",
-            "phonetic": "châi chǎn châwp phaw sàt-dtâa nâa sùn-jai",
-            "breakdown": [
-                {
-                    "source": "ใช่",
-                    "target": "yes",
-                    "phonetic": "châi",
-                    "partOfSpeech": "interjection"
-                },
-                {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ชอบ",
-                    "target": "to like",
-                    "phonetic": "châwp",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "เพราะ",
-                    "target": "because",
-                    "phonetic": "phaw",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "สัตว์",
-                    "target": "animals",
-                    "phonetic": "sàt-dtâa",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "น่าสนใจ",
-                    "target": "interesting",
-                    "phonetic": "nâa sùn-jai",
-                    "partOfSpeech": "adjective"
-                }
-            ]
-        },
-        {
-            "source": "สุดสัปดาห์หน้า ฉันจะไปพิพิธภัณฑ์",
-            "target": "Next weekend, I will go to a museum.",
-            "phonetic": "sùt sàp-daa hâa nǎa chǎn jà bpai pí-pít-thá-phan-dtù",
-            "breakdown": [
-                {
-                    "source": "สุดสัปดาห์",
-                    "target": "weekend",
-                    "phonetic": "sùt sàp-daa hâa",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "หน้า",
-                    "target": "next",
-                    "phonetic": "nǎa",
-                    "partOfSpeech": "adverb"
-                },
-                {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "จะ",
-                    "target": "will (future marker)",
-                    "phonetic": "jà",
-                    "partOfSpeech": "auxiliary"
-                },
-                {
-                    "source": "ไป",
-                    "target": "to go",
-                    "phonetic": "bpai",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "พิพิธภัณฑ์",
-                    "target": "museum",
-                    "phonetic": "pí-pít-thá-phan-dtù",
-                    "partOfSpeech": "noun"
-                }
-            ]
-        },
-        {
-            "source": "พิพิธภัณฑ์มีอะไรครับ",
-            "target": "What is in the museum?",
-            "phonetic": "pí-pít-thá-phan-dtù mee à-rai khráp",
-            "breakdown": [
-                {
-                    "source": "พิพิธภัณฑ์",
-                    "target": "museum",
-                    "phonetic": "pí-pít-thá-phan-dtù",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "มี",
-                    "target": "to have",
-                    "phonetic": "mee",
+                    "source": "เห็น",
+                    "target": "see",
+                    "phonetic": "hěn",
                     "partOfSpeech": "verb"
                 },
                 {
@@ -369,190 +192,241 @@
                     "partOfSpeech": "pronoun"
                 },
                 {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "source": "เป็นพิเศษ",
+                    "target": "special",
+                    "phonetic": "bpen pí-sèet",
+                    "partOfSpeech": "phrase"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "Q",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "คะ",
+                    "target": "Q (♀)",
+                    "phonetic": "ká",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "มีของเก่าและภาพวาด ฉันคิดว่า",
-            "target": "There are old things and pictures, I think.",
-            "phonetic": "mee khǎawng gâao láe phâap wâat chǎn khít wâa",
+            "source": "เห็นพระพุทธรูปใหญ่และตลาดท้องถิ่นครับ",
+            "target": "A big Buddha image and a local market. (♂)",
+            "phonetic": "hěn prá-pút-tá-rûup yài lɛ́ dtà-làat táwng-tìn kráp",
             "breakdown": [
                 {
-                    "source": "มี",
-                    "target": "to have/there are",
-                    "phonetic": "mee",
+                    "source": "เห็น",
+                    "target": "see",
+                    "phonetic": "hěn",
                     "partOfSpeech": "verb"
                 },
                 {
-                    "source": "ของ",
-                    "target": "things",
-                    "phonetic": "khǎawng",
+                    "source": "พระพุทธรูป",
+                    "target": "Buddha image",
+                    "phonetic": "prá-pút-tá-rûup",
                     "partOfSpeech": "noun"
                 },
                 {
-                    "source": "เก่า",
-                    "target": "old",
-                    "phonetic": "gâao",
+                    "source": "ใหญ่",
+                    "target": "big",
+                    "phonetic": "yài",
                     "partOfSpeech": "adjective"
                 },
                 {
                     "source": "และ",
                     "target": "and",
-                    "phonetic": "láe",
+                    "phonetic": "lɛ́",
                     "partOfSpeech": "conjunction"
                 },
                 {
-                    "source": "ภาพวาด",
-                    "target": "pictures",
-                    "phonetic": "phâap wâat",
+                    "source": "ตลาด",
+                    "target": "market",
+                    "phonetic": "dtà-làat",
                     "partOfSpeech": "noun"
                 },
                 {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
+                    "source": "ท้องถิ่น",
+                    "target": "local",
+                    "phonetic": "táwng-tìn",
+                    "partOfSpeech": "adjective"
                 },
                 {
-                    "source": "คิด",
-                    "target": "to think",
-                    "phonetic": "khít",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "ว่า",
-                    "target": "that",
-                    "phonetic": "wâa",
-                    "partOfSpeech": "conjunction"
+                    "source": "ครับ",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "ฉันชอบไปเที่ยวสถานที่เพราะมันสนุก",
-            "target": "I love visiting places because they are fun.",
-            "phonetic": "chǎn châwp bpai thîiao sà-tha-ní thee phaw mạn sà-núk",
+            "source": "ซื้อของฝากไหมคะ",
+            "target": "Did you buy souvenirs? (♀)",
+            "phonetic": "súue kǎwng-fàak mǎi ká",
             "breakdown": [
                 {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
+                    "source": "ซื้อ",
+                    "target": "buy",
+                    "phonetic": "súue",
+                    "partOfSpeech": "verb"
                 },
                 {
-                    "source": "ชอบ",
-                    "target": "to like/love",
-                    "phonetic": "châwp",
+                    "source": "ของฝาก",
+                    "target": "souvenir",
+                    "phonetic": "kǎwng-fàak",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "ไหม",
+                    "target": "Q",
+                    "phonetic": "mǎi",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "คะ",
+                    "target": "Q (♀)",
+                    "phonetic": "ká",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ซื้อขนมไทยกลับมาครับ",
+            "target": "We bought Thai sweets to bring back. (♂)",
+            "phonetic": "súue kà-nǒm tai glàb maa kráp",
+            "breakdown": [
+                {
+                    "source": "ซื้อ",
+                    "target": "buy",
+                    "phonetic": "súue",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ขนมไทย",
+                    "target": "Thai sweets",
+                    "phonetic": "kà-nǒm tai",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "กลับมา",
+                    "target": "bring back",
+                    "phonetic": "glàb maa",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ครั้งหน้าอยากไปด้วยค่ะ",
+            "target": "I want to go next time too. (♀)",
+            "phonetic": "kráng nâa yàak bpai dûay kâ",
+            "breakdown": [
+                {
+                    "source": "ครั้งหน้า",
+                    "target": "next time",
+                    "phonetic": "kráng nâa",
+                    "partOfSpeech": "noun"
+                },
+                {
+                    "source": "อยาก",
+                    "target": "want",
+                    "phonetic": "yàak",
                     "partOfSpeech": "verb"
                 },
                 {
                     "source": "ไป",
-                    "target": "to go",
+                    "target": "go",
                     "phonetic": "bpai",
                     "partOfSpeech": "verb"
                 },
                 {
-                    "source": "เที่ยว",
-                    "target": "to travel/visit",
-                    "phonetic": "thîiao",
-                    "partOfSpeech": "verb"
+                    "source": "ด้วย",
+                    "target": "too",
+                    "phonetic": "dûay",
+                    "partOfSpeech": "adverb"
                 },
                 {
-                    "source": "สถานที่",
-                    "target": "places",
-                    "phonetic": "sà-tha-ní thee",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "เพราะ",
-                    "target": "because",
-                    "phonetic": "phaw",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "มัน",
-                    "target": "they",
-                    "phonetic": "mạn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "สนุก",
-                    "target": "fun",
-                    "phonetic": "sà-núk",
-                    "partOfSpeech": "adjective"
+                    "source": "ค่ะ",
+                    "target": "polite (♀)",
+                    "phonetic": "kâ",
+                    "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "ครอบครัวของฉันชอบเดินทางและดูสิ่งใหม่",
-            "target": "My family likes to travel and see new things.",
-            "phonetic": "khraawp khrua khǎwng chǎn châwp doen thaang láe duu sìng mai",
+            "source": "ดีครับ ไปด้วยกันได้",
+            "target": "Sure — we can go together. (♂)",
+            "phonetic": "dii kráp bpai dûay gan dâai",
             "breakdown": [
                 {
-                    "source": "ครอบครัว",
-                    "target": "family",
-                    "phonetic": "khraawp khrua",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ของ",
-                    "target": "of",
-                    "phonetic": "khǎwng",
-                    "partOfSpeech": "preposition"
-                },
-                {
-                    "source": "ฉัน",
-                    "target": "I",
-                    "phonetic": "chǎn",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ชอบ",
-                    "target": "to like",
-                    "phonetic": "châwp",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "เดินทาง",
-                    "target": "to travel",
-                    "phonetic": "doen thaang",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "และ",
-                    "target": "and",
-                    "phonetic": "láe",
-                    "partOfSpeech": "conjunction"
-                },
-                {
-                    "source": "ดู",
-                    "target": "to see",
-                    "phonetic": "duu",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "สิ่ง",
-                    "target": "things",
-                    "phonetic": "sìng",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "ใหม่",
-                    "target": "new",
-                    "phonetic": "mai",
+                    "source": "ดี",
+                    "target": "good",
+                    "phonetic": "dii",
                     "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "polite (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                },
+                {
+                    "source": "ไป",
+                    "target": "go",
+                    "phonetic": "bpai",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "ด้วยกัน",
+                    "target": "together",
+                    "phonetic": "dûay gan",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ได้",
+                    "target": "can",
+                    "phonetic": "dâai",
+                    "partOfSpeech": "auxiliary"
+                }
+            ]
+        },
+        {
+            "source": "สนุกแน่นอนค่ะ",
+            "target": "It will definitely be fun. (♀)",
+            "phonetic": "sà-nùk nâe-nawn kâ",
+            "breakdown": [
+                {
+                    "source": "สนุก",
+                    "target": "fun",
+                    "phonetic": "sà-nùk",
+                    "partOfSpeech": "adjective"
+                },
+                {
+                    "source": "แน่นอน",
+                    "target": "definitely",
+                    "phonetic": "nâe-nawn",
+                    "partOfSpeech": "adverb"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "polite (♀)",
+                    "phonetic": "kâ",
+                    "partOfSpeech": "particle"
                 }
             ]
         }
     ],
-    "createdAt": "2025-09-29T12:45:00Z",
-    "updatedAt": "2025-09-29T12:45:00Z",
+    "createdAt": "2025-09-28T08:54:49Z",
+    "updatedAt": "2026-04-08T15:30:00Z",
     "difficulty": "beginner",
     "summary": {
-        "source": "การพูดคุยเกี่ยวกับการไปเที่ยวสถานที่ต่างๆ",
-        "target": "Talking about visiting different places"
+        "source": "ครอบครัวสมชายไปเที่ยวและคุยว่าเห็นอะไร",
+        "target": "Somchai's family goes out and they talk about what they saw."
     }
 }

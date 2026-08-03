@@ -29,7 +29,6 @@ const flashcardCollectionSchema = z.object({
   category: z.string().optional(),
   difficulty: z.string().optional(),
   imageUrl: z.string().optional(),
-  featured: z.boolean().optional(),
 });
 
 const flashcardDeckSchema = z.object({
@@ -81,7 +80,6 @@ const bookSchema = z.object({
   category: z.string().optional(),
   difficulty: z.string().optional(),
   imageUrl: z.string().optional(),
-  featured: z.boolean().optional(),
 });
 
 const storySchema = z.object({
@@ -145,7 +143,6 @@ const flashcardCollectionArb = fc.record({
   category: optionalStr,
   difficulty: optionalStr,
   imageUrl: optionalStr,
-  featured: optionalBool,
 });
 
 const exampleArb = fc.record({
@@ -201,7 +198,6 @@ const bookArb = fc.record({
   category: optionalStr,
   difficulty: optionalStr,
   imageUrl: optionalStr,
-  featured: optionalBool,
 });
 
 const breakdownArb = fc.record({

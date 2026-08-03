@@ -3,6 +3,9 @@ import SpeechButton from "@/components/islands/SpeechButton";
 import SessionComplete, {
   type PairedStoryInfo,
 } from "@/components/islands/SessionComplete";
+import GrammarCheatsheet, {
+  GrammarOpenButton,
+} from "@/components/islands/GrammarCheatsheet";
 import { FlippableCard } from "@/components/ui/card";
 import {
   clearDeckSession,
@@ -12,7 +15,18 @@ import {
   type CardResult,
   type Level,
 } from "@/lib/progress";
-import { cn } from "@/lib/utils";
+import { cn, readUnitIdFromSearch } from "@/lib/utils";
+
+/** Serializable unit → pair map for client-side `?unit=` resolution */
+export type ClientUnitPairMap = Record<
+  string,
+  {
+    unitId: string;
+    level?: Level;
+    stepIndex?: number;
+    story?: PairedStoryInfo | null;
+  }
+>;
 
 interface StudyCard {
   frontContent: { type: string; text: string };
@@ -41,6 +55,10 @@ interface StudyModeProps {
   storyAlreadyComplete?: boolean;
   level?: Level;
   stepIndex?: number;
+  unitId?: string | null;
+  /** unitId → pair info; used when URL has ?unit= */
+  unitPairMap?: ClientUnitPairMap | null;
+  grammarMarkdown?: string | null;
 }
 
 type LanguageDisplay = "source" | "target";
@@ -72,11 +90,40 @@ export default function StudyMode({
   storyAlreadyComplete = false,
   level,
   stepIndex,
+  unitId = null,
+  unitPairMap = null,
+  grammarMarkdown = null,
 }: StudyModeProps) {
   const total = cards.length;
   const hydrated = useRef(false);
 
+  const [grammarOpen, setGrammarOpen] = useState(false);
+  const [activeUnitId, setActiveUnitId] = useState<string | null>(unitId);
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  // Prefer ?unit= over SSG default so multi-unit decks pair correctly
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const fromUrl = readUnitIdFromSearch(window.location.search);
+    if (fromUrl && unitPairMap && unitPairMap[fromUrl]) {
+      setActiveUnitId(fromUrl);
+    } else if (unitId) {
+      setActiveUnitId(unitId);
+    }
+  }, [unitId, unitPairMap]);
+
+  const resolvedPair: PairedStoryInfo | null = (() => {
+    if (activeUnitId && unitPairMap?.[activeUnitId]?.story) {
+      return unitPairMap[activeUnitId].story ?? null;
+    }
+    return pairedStory ?? null;
+  })();
+  const resolvedLevel: Level | undefined =
+    (activeUnitId && unitPairMap?.[activeUnitId]?.level) || level;
+  const resolvedStepIndex: number | undefined =
+    activeUnitId && unitPairMap?.[activeUnitId]
+      ? unitPairMap[activeUnitId].stepIndex
+      : stepIndex;
   const [isFlipped, setIsFlipped] = useState(false);
   const [languageDisplay, setLanguageDisplay] = useState<LanguageDisplay>("source");
   // Track per-card results: null = unanswered, true = correct, false = incorrect
@@ -148,10 +195,22 @@ export default function StudyMode({
           currentIndex: index,
           total,
         },
-        { level, stepIndex, touchLastActivity: true },
+        {
+          level: resolvedLevel,
+          stepIndex: resolvedStepIndex,
+          unitId: activeUnitId || undefined,
+          touchLastActivity: true,
+        },
       );
     },
-    [deckId, isSample, level, stepIndex, total],
+    [
+      deckId,
+      isSample,
+      resolvedLevel,
+      resolvedStepIndex,
+      activeUnitId,
+      total,
+    ],
   );
 
   // When all cards answered, open completion
@@ -482,13 +541,14 @@ export default function StudyMode({
           kind="deck"
           deckId={deckId}
           deckName={deckName}
-          level={level}
-          stepIndex={stepIndex}
-          pairedStory={pairedStory}
+          level={resolvedLevel}
+          stepIndex={resolvedStepIndex}
+          pairedStory={resolvedPair}
           storyAlreadyComplete={storyAlreadyComplete}
           correct={correct}
           incorrect={incorrect}
           total={total}
+          unitId={activeUnitId}
         />
         <div className="flex flex-wrap justify-center gap-3">
           <button
@@ -512,15 +572,31 @@ export default function StudyMode({
 
   return (
     <div className="w-full max-w-4xl mx-auto">
+      {grammarMarkdown && (
+        <GrammarCheatsheet
+          open={grammarOpen}
+          onClose={() => setGrammarOpen(false)}
+          referenceMarkdown={grammarMarkdown}
+          level={level}
+          languageCode={cards[0]?.sourceLanguage || "th"}
+        />
+      )}
       {/* Header row: deck name + counter + language toggles */}
       <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
-        <div className="text-center flex-1">
+        <div className="flex flex-1 flex-wrap items-center justify-center gap-2 text-center">
           <span className="text-lg font-semibold text-slate-900">
             {deckName}
           </span>
-          <span className="ml-3 text-lg text-teal-700">
+          <span className="text-lg text-teal-700">
             {currentIndex + 1} of {total}
           </span>
+          {grammarMarkdown && (
+            <GrammarOpenButton
+              onClick={() => setGrammarOpen(true)}
+              expanded={grammarOpen}
+              className="!py-1.5 !text-xs"
+            />
+          )}
         </div>
         <div className="flex gap-2">
           <button

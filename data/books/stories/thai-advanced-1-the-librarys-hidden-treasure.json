@@ -3,136 +3,106 @@
     "bookId": "thai-advanced-1",
     "language": "th",
     "title": {
-        "source": "สมบัติที่ซ่อนอยู่ในห้องสมุด",
+        "source": "สมบัติในห้องสมุด",
         "target": "The Library's Hidden Treasure"
     },
     "sentences": [
         {
-            "source": "ในมุมที่เต็มไปด้วยฝุ่นของห้องสมุดเก่า คลาราสะดุดพบหนังสือที่เปลี่ยนมุมมองของเธอ",
-            "target": "In a dusty corner of an old library, Clara stumbled upon a book that changed her perspective.",
-            "phonetic": "nai mum thîi dtèm bpai dûai fǔn khɔ̌ɔng hɔ̂ɔng-sà-mùt gào khlaa-raa sà-dùt phóp nǎng-sʉ̌ʉ thîi bplìian mum-mɔɔng khɔ̌ɔng thəə",
-            "breakdown": []
+            "source": "ชั้นใต้ดินของห้องสมุดมหาวิทยาลัยมีกลิ่นกระดาษเก่าและเครื่องปรับอากาศเย็นจัด",
+            "target": "The library basement smelled of old paper and strong air-conditioning.",
+            "phonetic": "chán dtâai-din kǎwng hâwng-sà-mùt má-hǎa-wít-tá-yaa-lai mii glìn grà-dàat gào lɛ́ krʉ̂ang bpràp aa-gàat yen jàt"
         },
         {
-            "source": "เล่มที่เข้าปกหนัง ซุกอยู่หลังนวนิยายใหม่กว่า มีชื่อเรื่องที่จางลงเป็นตัวอักษรที่สวยงาม",
-            "target": "The leather-bound volume, tucked behind newer novels, had a faded title in elegant script.",
-            "phonetic": "lêm thîi khâo-bpòk-nǎng sùk yùu lǎng na-wá-ní-yaai mài gwàa mii chʉ̂ʉ-rʉ̂ang thîi jaang-long bpen dtua-àk-sɔ̌ɔn thîi sǔai-ngaam",
-            "breakdown": []
+            "source": "ดิฉันค้นเอกสารวิจัย แต่กลับเจอสมุดบันทึกที่ไม่มีชื่อเจ้าของ",
+            "target": "I was hunting research files but found an unlabeled journal.",
+            "phonetic": "dì-chǎn kón èek-gà-sǎan wí-jai dtàae glàb jəə sà-mùt ban-túek tîi mâi mii chûue jâo-kǎwng"
         },
         {
-            "source": "เธอเปิดมันอย่างระมัดระวัง เผยให้เห็นหน้ากระดาษที่เต็มไปด้วยจดหมายที่เขียนด้วยลายมือจากศตวรรษที่ 19",
-            "target": "She opened it carefully, revealing pages filled with handwritten letters from the 19th century.",
-            "phonetic": "thəə bpə̀ət man yàang rá-mát-rá-wang phə̌əi hâi hěn nâa-grà-dàat thîi dtèm bpai dûai jòt-mǎai thîi khǐan dûai laai-mʉʉ jàak sà-dtà-wát thîi sìp-gâo",
-            "breakdown": []
+            "source": "ลายมือเป็นภาษาไทยโบราณปนอังกฤษ เขียนถึงชีวิตนักศึกษาปี ๒๕๑๐",
+            "target": "The hand mixed older Thai with English about student life around 1967.",
+            "phonetic": "laai-mue bpen paa-sǎa tai boo-raan bpon ang-grìt kǐan tǔng chii-wít nák-sʉ̀k-sǎa bpii sǎawng-pan-hâa-ráwy-sìp"
         },
         {
-            "source": "จดหมายเหล่านั้นบรรยายการเดินทางของผู้หญิงคนหนึ่งข้ามยุโรป ด้วยรายละเอียดที่ชัดเจนของถนนหินลูกเต๋า",
-            "target": "The letters described a woman's journey across Europe, with vivid details of cobblestone streets.",
-            "phonetic": "jòt-mǎai lào-nán ban-yaai gaan dəən-thaang khɔ̌ɔng phûu-yǐng khon-nʉ̀ng khâam yú-rôop dûai raai-lá-ìat thîi chát-jeen khɔ̌ɔng thà-nǒn hǐn-lûuk-dtâo",
-            "breakdown": []
+            "source": "ผู้เขียนเล่าความฝันอยากเป็นครูในต่างจังหวัด",
+            "target": "The writer dreamed of teaching upcountry.",
+            "phonetic": "pûu kǐan lâo kwaam-fǎn yàak bpen kruu nai dtàang jang-wàt"
         },
         {
-            "source": "คลารา นักศึกษาประวัติศาสตร์ รู้สึกหัวใจเต้นแรงด้วยความตื่นเต้น",
-            "target": "Clara, a history student, felt her heart race with excitement.",
-            "phonetic": "khlaa-raa nák-sʉ̀k-sǎa bprà-wàt-sàat rúu-sʉ̀k hǔa-jai dtên-rɛɛng dûai khwaam-dtʉ̀ʉn-dtên",
-            "breakdown": []
+            "source": "และกังวลเรื่องการเมือง เศรษฐกิจ และการเรียนที่กดดัน",
+            "target": "And worried about politics, the economy, and academic pressure.",
+            "phonetic": "lɛ́ gang-won rʉ̂ang gaan-mueang sèet-tà-gìt lɛ́ gaan-rian tîi gòt-dan"
         },
         {
-            "source": "เธอใช้เวลาหลายชั่วโมงในการอ่าน หลงใหลในร้อยแก้วที่มีคำพูดที่ไพเราะของผู้เขียน",
-            "target": "She spent hours reading, captivated by the author's eloquent prose.",
-            "phonetic": "thəə chái wee-laa lǎai chûa-moong nai gaan àan lǒng-lǎi nai rɔ́ɔi-gɛ̂ɛo thîi mii kham-phûut thîi phai-rɔ́ khɔ̌ɔng phûu-khǐan",
-            "breakdown": []
+            "source": "อ่านไป ดิฉันรู้สึกเหมือนนั่งข้างคนจากอดีตโดยไม่เคยนัดหมาย",
+            "target": "Reading on, I felt seated beside someone from the past without an appointment.",
+            "phonetic": "àan bpai dì-chǎn rúu-sʉ̀k mǔean nâng kâang kon jàak à-dìit dooi mâi koie nát-mǎai"
         },
         {
-            "source": "ผู้หญิงคนนั้น อีไลซา ได้เดินทางคนเดียว ท้าทายขนบธรรมเนียมของยุคสมัยของเธอ",
-            "target": "The woman, Eliza, had traveled alone, defying the conventions of her time.",
-            "phonetic": "phûu-yǐng khon-nán ii-lai-saa dâi dəən-thaang khon-diiao tháa-thaai khà-nòp-tham-niiam khɔ̌ɔng yúk-sà-mǎi khɔ̌ɔng thəə",
-            "breakdown": []
+            "source": "ท้ายเล่มมีประโยคเดียวที่ขีดเส้นใต้ซ้ำ",
+            "target": "At the end one underlined sentence repeated:",
+            "phonetic": "táai lêm mii bprà-yòok diaao tîi kìit sên-dtâai sám"
         },
         {
-            "source": "คลาราชื่นชมความกล้าหาญของเธอและสงสัยเกี่ยวกับชีวิตของเธอนอกเหนือจากจดหมาย",
-            "target": "Clara admired her courage and wondered about her life beyond the letters.",
-            "phonetic": "khlaa-raa chʉ̂ən-chom khwaam-glâa-hǎan khɔ̌ɔng thəə láe sǒng-sǎi gìeow-gàp chii-wít khɔ̌ɔng thəə nɔ̂ɔk-nʉ̌a jàak jòt-mǎai",
-            "breakdown": []
+            "source": "ว่า ความรู้มีค่าเมื่อถูกแบ่งปัน",
+            "target": "Knowledge matters when it is shared.",
+            "phonetic": "wâa kwaam-rúu mii kâa mûea tùuk bàaeng-bpan"
         },
         {
-            "source": "เธอแสดงหนังสือให้บรรณารักษ์ดู ซึ่งสนใจเช่นกัน",
-            "target": "She showed the book to the librarian, who was equally intrigued.",
-            "phonetic": "thəə sà-dɛɛng nǎng-sʉ̌ʉ hâi ban-naa-rák duu sʉ̂ng sǒn-jai chên-gan",
-            "breakdown": []
+            "source": "ดิฉันถ่ายรูปหน้ากระดาษ แล้วแจ้งบรรณารักษ์ด้วยความระมัดระวัง",
+            "target": "I photographed the page and carefully told a librarian.",
+            "phonetic": "dì-chǎn tàai rûup nâa grà-dàat lɛ́ɛo jâaeng ban-naa-rák dûay kwaam rá-mát-rá-wang"
         },
         {
-            "source": "พวกเขาร่วมกันค้นคว้าตัวตนของอีไลซา ค้นพบบันทึกของนักเขียนภายใต้นามปากกา",
-            "target": "Together, they researched Eliza's identity, uncovering records of a writer under a pseudonym.",
-            "phonetic": "phûak-kháo rûam-gan khón-khwáa dtua-dton khɔ̌ɔng ii-lai-saa khón-phóp ban-thʉ́k khɔ̌ɔng nák-khǐan phaa-tai naam-bpàak-gaa",
-            "breakdown": []
+            "source": "เธอยิ้มแล้วบอกว่า สมบัติที่แท้จริงของห้องสมุดคือเรื่องราวที่ยังหายใจ",
+            "target": "She smiled: a library's true treasure is stories that still breathe.",
+            "phonetic": "tooie yím lɛ́ɛo bàwk wâa sǒm-bàt tîi tâae jing kǎwng hâwng-sà-mùt keu rʉ̂ang-raao tîi yang hǎai-jai"
         },
         {
-            "source": "ห้องสมุดจัดนิทรรศการเพื่อแบ่งปันการค้นพบกับชุมชน",
-            "target": "The library hosted an exhibit to share the discovery with the community.",
-            "phonetic": "hɔ̂ɔng-sà-mùt jàt ní-thát-sà-gaan phʉ̂a bɛ̀ng-bpan gaan khón-phóp gàp chum-chon",
-            "breakdown": []
+            "source": "วันนั้นดิฉันออกจากตึกพร้อมคำถามใหม่",
+            "target": "I left the building with new questions.",
+            "phonetic": "wan nán dì-chǎn àwk jàak dtùek práwm kam-tǎam mài"
         },
         {
-            "source": "ผู้เยี่ยมชมมารวมตัวกันเพื่ออ่านข้อความที่ตัดตอนมาและพูดคุยเกี่ยวกับการผจญภัยของอีไลซา",
-            "target": "Visitors gathered to read excerpts and discuss Eliza's adventures.",
-            "phonetic": "phûu-yîiam-chom maa ruam-dtua-gan phʉ̂a àan khɔ̂ɔ-khwaam thîi dtàt-dtɔɔn maa láe phûut-khui gìeow-gàp gaan phà-jon-phai khɔ̌ɔng ii-lai-saa",
-            "breakdown": []
+            "source": "ว่าเราเรียนเพื่อสะสม หรือเพื่อส่งต่อ",
+            "target": "Do we study to accumulate — or to pass on?",
+            "phonetic": "wâa rao rian pʉ̂ua sà-sǒm rǔu pʉ̂ua sòng dtàw"
         },
         {
-            "source": "คลารารู้สึกถึงความเชื่อมโยงกับอดีต ราวกับว่าคำพูดของอีไลซาเชื่อมโยงศตวรรษ",
-            "target": "Clara felt a connection to the past, as if Eliza's words bridged centuries.",
-            "phonetic": "khlaa-raa rúu-sʉ̀k thʉ̌ng khwaam-chʉ̂am-yoong gàp à-dìit raao-gàp wâa kham-phûut khɔ̌ɔng ii-lai-saa chʉ̂am-yoong sà-dtà-wát",
-            "breakdown": []
+            "source": "เย็นนั้นดิฉันสอนคำศัพท์ให้เพื่อนต่างชาติโดยไม่คิดค่าอะไร",
+            "target": "That evening I taught vocab to a foreign friend for free.",
+            "phonetic": "yen nán dì-chǎn sǎwn kam-sàp hâi pûean dtàang-châat dooi mâi kít kâa à-rai"
         },
         {
-            "source": "เธอเริ่มเขียนบทความเกี่ยวกับการค้นพบ หวังว่าจะตีพิมพ์ในวารสาร",
-            "target": "She began writing a paper about the find, hoping to publish it in a journal.",
-            "phonetic": "thəə rə̂əm khǐan bòt-khwaam gìeow-gàp gaan khón-phóp wǎng wâa jà dtii-phim nai waa-rá-sǎan",
-            "breakdown": []
+            "source": "เพียงเพราะอยากทดลองความหมายของคำว่า แบ่งปัน",
+            "target": "Only to test the meaning of share.",
+            "phonetic": "piang práw yàak tót-laawng kwaam-mǎai kǎwng kam wâa bàaeng-bpan"
         },
         {
-            "source": "กระบวนการนี้สอนเธอถึงคุณค่าของการรักษาประวัติศาสตร์",
-            "target": "The process taught her the value of preserving history.",
-            "phonetic": "grà-buuan-gaan níi sɔ̌ɔn thəə thʉ̌ng khun-kâa khɔ̌ɔng gaan rák-sǎa bprà-wàt-sàat",
-            "breakdown": []
+            "source": "เพื่อนคนนั้นขอบคุณ แล้วบอกว่าวันนี้เข้าใจไทยมากขึ้น",
+            "target": "They thanked me and said Thai made more sense that day.",
+            "phonetic": "pûean kon nán kàwp-kun lɛ́ɛo bàwk wâa wan-níi kâo-jai tai mâak kʉ̂n"
         },
         {
-            "source": "เธอไปเยี่ยมห้องสมุดอื่นๆ ค้นหาสมบัติที่ซ่อนอยู่เพิ่มเติม",
-            "target": "She visited other libraries, searching for more hidden treasures.",
-            "phonetic": "thəə bpai yîiam hɔ̂ɔng-sà-mùt ʉ̀ʉn-ʉ̀ʉn khón-hǎa sǒm-bàt thîi sɔ̂ɔn-yùu phə̂əm-dtə̀əm",
-            "breakdown": []
+            "source": "ดิฉันคิดถึงสมุดบันทึกอีกครั้ง แล้วรู้สึกเชื่อมกับคนแปลกหน้าจากอดีต",
+            "target": "I thought of the journal again and felt linked to a stranger from the past.",
+            "phonetic": "dì-chǎn kít tǔng sà-mùt ban-túek ìik kráng lɛ́ɛo rúu-sʉ̀k chʉ̂am gàp kon bplàaek-nâa jàak à-dìit"
         },
         {
-            "source": "หนังสือแต่ละเล่มที่เธอพบเล่าเรื่องราวที่ไม่เหมือนใคร เสริมสร้างความเข้าใจของเธอ",
-            "target": "Each book she found told a unique story, enriching her understanding.",
-            "phonetic": "nǎng-sʉ̌ʉ dtɛ̀ɛ-lá-lêm thîi thəə phóp lâo rʉ̂ang-raao thîi mâi mʉ̌an-khrai sə̌əm-sâang khwaam-khâo-jai khɔ̌ɔng thəə",
-            "breakdown": []
+            "source": "บางสมบัติไม่ได้ถูกขุดจากดิน",
+            "target": "Some treasures aren't dug from earth.",
+            "phonetic": "baang sǒm-bàt mâi dâai tùuk kùt jàak din"
         },
         {
-            "source": "คลาราฝันที่จะเป็นนักประวัติศาสตร์ ได้รับแรงบันดาลใจจากมรดกของอีไลซา",
-            "target": "Clara dreamed of becoming a historian, inspired by Eliza's legacy.",
-            "phonetic": "khlaa-raa fǎn thîi jà bpen nák-bprà-wàt-sàat dâi ráp rɛɛng-ban-daan-jai jàak mɔɔ-rá-dòk khɔ̌ɔng ii-lai-saa",
-            "breakdown": []
-        },
-        {
-            "source": "ห้องสมุด ที่เคยเป็นเพียงสถานที่ศึกษา กลายเป็นประตูสู่อดีต",
-            "target": "The library, once just a place to study, became a portal to the past.",
-            "phonetic": "hɔ̂ɔng-sà-mùt thîi khəəi bpen phiang sà-thǎan-thîi sʉ̀k-sǎa glaai-bpen bprà-dtuu sùu à-dìit",
-            "breakdown": []
-        },
-        {
-            "source": "เธอสาบานว่าจะสำรวจต่อไป รู้ว่าทุกเล่มมีความลับที่อาจเกิดขึ้น",
-            "target": "She vowed to keep exploring, knowing every book held a potential secret.",
-            "phonetic": "thəə sǎa-baan wâa jà săm-rùat dtɔ̀ɔ-bpai rúu wâa thúk-lêm mii khwaam-láp thîi àat gə̀ət-khʉ̂n",
-            "breakdown": []
+            "source": "แต่อยู่ในหน้ากระดาษ ที่รอคนอ่านด้วยใจเปิด",
+            "target": "They wait in pages for a reader with an open heart.",
+            "phonetic": "dtàae yùu nai nâa grà-dàat tîi rɔɔ kon àan dûay jai bpə̀ət"
         }
     ],
-    "createdAt": "2025-09-30T20:22:00Z",
-    "updatedAt": "2025-09-30T20:22:00Z",
+    "createdAt": "2025-09-28T08:54:49Z",
+    "updatedAt": "2026-04-08T17:00:00Z",
     "difficulty": "advanced",
     "summary": {
-        "source": "การค้นพบหนังสือโบราณของคลาราและการเชื่อมโยงกับอดีต",
-        "target": "Clara's discovery of ancient books and connection to the past"
+        "source": "พิมพบบันทึกเก่าในห้องสมุดมหาวิทยาลัย และเชื่อมกับปัจจุบัน",
+        "target": "Pim finds an old journal in a university library and links past to present."
     }
 }

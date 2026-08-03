@@ -1,10 +1,11 @@
-import { useState, useCallback, useEffect, useId } from "react";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
+import { useState, useCallback, useEffect } from "react";
 import SpeechButton from "@/components/islands/SpeechButton";
 import SessionComplete from "@/components/islands/SessionComplete";
+import GrammarCheatsheet, {
+  GrammarOpenButton,
+} from "@/components/islands/GrammarCheatsheet";
 import type { Level } from "@/lib/progress";
-import { cn } from "@/lib/utils";
+import { cn, readUnitIdFromSearch } from "@/lib/utils";
 
 interface Sentence {
   source: string;
@@ -32,6 +33,12 @@ interface StoryReaderProps {
   stepIndex?: number;
   nextHref?: string | null;
   nextLabel?: string | null;
+  unitId?: string | null;
+  /** unitId → pair (for ?unit= back-link + progress) */
+  unitPairMap?: Record<
+    string,
+    { unitId: string; level?: Level; stepIndex?: number }
+  > | null;
   /** Markdown grammar guide (from languages/grammar/{lang}.md) */
   grammarMarkdown?: string | null;
 }
@@ -53,6 +60,8 @@ export default function StoryReader({
   stepIndex,
   nextHref = null,
   nextLabel = null,
+  unitId = null,
+  unitPairMap = null,
   grammarMarkdown = null,
 }: StoryReaderProps) {
   const [mode, setMode] = useState<StudyMode>("read");
@@ -62,25 +71,24 @@ export default function StoryReader({
   const [expanded, setExpanded] = useState<Set<number>>(new Set());
   const [finished, setFinished] = useState(false);
   const [grammarOpen, setGrammarOpen] = useState(false);
-  const grammarTitleId = useId();
+  const [activeUnitId, setActiveUnitId] = useState<string | null>(unitId);
 
-  const openGrammar = useCallback(() => setGrammarOpen(true), []);
-  const closeGrammar = useCallback(() => setGrammarOpen(false), []);
-
-  // Escape + body scroll lock while drawer open
   useEffect(() => {
-    if (!grammarOpen) return;
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") closeGrammar();
-    };
-    const prevOverflow = document.body.style.overflow;
-    document.body.style.overflow = "hidden";
-    window.addEventListener("keydown", onKey);
-    return () => {
-      document.body.style.overflow = prevOverflow;
-      window.removeEventListener("keydown", onKey);
-    };
-  }, [grammarOpen, closeGrammar]);
+    if (typeof window === "undefined") return;
+    const fromUrl = readUnitIdFromSearch(window.location.search);
+    if (fromUrl && unitPairMap && unitPairMap[fromUrl]) {
+      setActiveUnitId(fromUrl);
+    } else if (unitId) {
+      setActiveUnitId(unitId);
+    }
+  }, [unitId, unitPairMap]);
+
+  const resolvedLevel: Level | undefined =
+    (activeUnitId && unitPairMap?.[activeUnitId]?.level) || level;
+  const resolvedStepIndex: number | undefined =
+    activeUnitId && unitPairMap?.[activeUnitId]
+      ? unitPairMap[activeUnitId].stepIndex
+      : stepIndex;
 
   const handleFinish = useCallback(() => {
     setFinished(true);
@@ -140,10 +148,11 @@ export default function StoryReader({
         kind="story"
         storyId={storyId}
         storyTitle={title.target}
-        level={level}
-        stepIndex={stepIndex}
+        level={resolvedLevel}
+        stepIndex={resolvedStepIndex}
         nextHref={nextHref}
         nextLabel={nextLabel}
+        unitId={activeUnitId}
       />
     );
   }
@@ -184,67 +193,23 @@ export default function StoryReader({
             )}
           </div>
           {grammarMarkdown && (
-            <button
-              type="button"
-              onClick={openGrammar}
-              className="mt-3 inline-flex items-center gap-1.5 rounded-md bg-teal-700 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-teal-800 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
-            >
-              Grammar Cheatsheet
-            </button>
+            <div className="mt-3">
+              <GrammarOpenButton
+                onClick={() => setGrammarOpen(true)}
+                expanded={grammarOpen}
+              />
+            </div>
           )}
         </div>
       </header>
 
-      {/* Grammar cheatsheet drawer */}
-      {grammarOpen && grammarMarkdown && (
-        <div className="fixed inset-0 z-[100]" role="presentation">
-          <button
-            type="button"
-            className="absolute inset-0 bg-slate-900/40"
-            aria-label="Close grammar cheatsheet"
-            onClick={closeGrammar}
-          />
-          <div
-            role="dialog"
-            aria-modal="true"
-            aria-labelledby={grammarTitleId}
-            className="absolute inset-y-0 right-0 flex w-full max-w-2xl flex-col bg-white shadow-2xl"
-          >
-            <div className="flex items-center justify-between border-b border-slate-200 px-4 py-3 sm:px-6">
-              <h2
-                id={grammarTitleId}
-                className="text-lg font-semibold text-slate-900"
-              >
-                Grammar Guide
-              </h2>
-              <button
-                type="button"
-                onClick={closeGrammar}
-                className="rounded-md p-2 text-slate-500 hover:bg-slate-100 hover:text-slate-900 focus:outline-none focus:ring-2 focus:ring-teal-500"
-                aria-label="Close"
-              >
-                <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
-                </svg>
-              </button>
-            </div>
-            <div className="flex-1 overflow-y-auto px-4 py-6 sm:px-6">
-              <div
-                className={cn(
-                  "prose prose-slate max-w-none prose-headings:scroll-mt-4",
-                  "prose-table:text-sm prose-th:bg-slate-50 prose-th:px-3 prose-th:py-2",
-                  "prose-td:px-3 prose-td:py-2 prose-a:text-teal-700",
-                  "font-thai:font-thai",
-                )}
-              >
-                <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                  {grammarMarkdown}
-                </ReactMarkdown>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
+      <GrammarCheatsheet
+        open={grammarOpen}
+        onClose={() => setGrammarOpen(false)}
+        referenceMarkdown={grammarMarkdown}
+        level={resolvedLevel ?? difficulty}
+        languageCode={language}
+      />
 
       {/* Mode Toggle */}
       <div className="flex justify-center">
@@ -278,21 +243,48 @@ export default function StoryReader({
 
       {/* Controls Row */}
       <div className="flex flex-wrap items-center justify-center gap-4">
-        {/* Font size */}
-        <div className="flex items-center gap-1">
-          {(["sm", "base", "lg"] as FontSize[]).map((size) => (
+        {/* Font size — label “ก” scales with each option */}
+        <div
+          className="flex items-end gap-1"
+          role="group"
+          aria-label="Text size"
+        >
+          {(
+            [
+              { size: "sm" as const, labelClass: "text-sm", box: "h-8 min-w-8 px-1.5" },
+              { size: "base" as const, labelClass: "text-lg", box: "h-9 min-w-9 px-2" },
+              { size: "lg" as const, labelClass: "text-2xl", box: "h-11 min-w-11 px-2" },
+            ] as const
+          ).map(({ size, labelClass, box }) => (
             <button
               key={size}
               type="button"
               onClick={() => setFontSize(size)}
+              title={
+                size === "sm"
+                  ? "Small text"
+                  : size === "base"
+                    ? "Medium text"
+                    : "Large text"
+              }
+              aria-label={
+                size === "sm"
+                  ? "Small text"
+                  : size === "base"
+                    ? "Medium text"
+                    : "Large text"
+              }
+              aria-pressed={fontSize === size}
               className={cn(
-                "flex h-8 w-8 items-center justify-center rounded text-sm font-thai transition-colors",
+                "inline-flex items-center justify-center rounded-md font-thai leading-none transition-colors",
+                box,
+                labelClass,
                 fontSize === size
-                  ? "bg-primary-100 text-primary-800  "
-                  : "text-gray-500 hover:bg-gray-100 :bg-gray-800"
+                  ? "bg-teal-100 text-teal-900 ring-1 ring-teal-300"
+                  : "text-slate-500 hover:bg-slate-100 hover:text-slate-800",
               )}
             >
-              {size === "sm" ? "ก" : size === "base" ? "ก" : "ก"}
+              ก
             </button>
           ))}
         </div>

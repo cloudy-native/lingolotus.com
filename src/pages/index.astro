@@ -3,11 +3,13 @@ import { getCollection } from "astro:content";
 import PageLayout from "../layouts/PageLayout.astro";
 import LearnHome from "../components/islands/LearnHome";
 import { buildLadderCatalog } from "../lib/ladder";
+import { loadCurriculumUnits } from "../lib/curriculum";
 
 const collections = await getCollection("flashcard-collections");
 const decks = await getCollection("flashcard-decks");
 const books = await getCollection("books");
 const stories = await getCollection("stories");
+const units = loadCurriculumUnits();
 
 const catalog = buildLadderCatalog({
   collections: collections.map((c) => ({
@@ -31,6 +33,7 @@ const catalog = buildLadderCatalog({
     title: s.data.title,
     sentences: s.data.sentences,
   })),
+  units,
 });
 ---
 

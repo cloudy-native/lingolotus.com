@@ -9,8 +9,8 @@
     "sentences": [
         {
             "source": "สวัสดีครับ",
-            "target": "Hello.",
-            "phonetic": "sà-wàt-dii khráp",
+            "target": "Hello. (♂)",
+            "phonetic": "sà-wàt-dii kráp",
             "breakdown": [
                 {
                     "source": "สวัสดี",
@@ -20,26 +20,45 @@
                 },
                 {
                     "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "target": "polite particle (male speaker)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "สวัสดีค่ะ",
+            "target": "Hello. (♀)",
+            "phonetic": "sà-wàt-dii kâ",
+            "breakdown": [
+                {
+                    "source": "สวัสดี",
+                    "target": "hello",
+                    "phonetic": "sà-wàt-dii",
+                    "partOfSpeech": "interjection"
+                },
+                {
+                    "source": "ค่ะ",
+                    "target": "polite particle (female speaker)",
+                    "phonetic": "kâ",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
             "source": "คุณชื่ออะไรครับ",
-            "target": "What is your name?",
-            "phonetic": "khun chûue à-rai khráp",
+            "target": "What is your name? (♂)",
+            "phonetic": "kun chûue à-rai kráp",
             "breakdown": [
                 {
                     "source": "คุณ",
                     "target": "you",
-                    "phonetic": "khun",
+                    "phonetic": "kun",
                     "partOfSpeech": "pronoun"
                 },
                 {
                     "source": "ชื่อ",
-                    "target": "to be named",
+                    "target": "to be named / name",
                     "phonetic": "chûue",
                     "partOfSpeech": "verb"
                 },
@@ -51,21 +70,21 @@
                 },
                 {
                     "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "target": "polite particle (♂)",
+                    "phonetic": "kráp",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "ผมชื่อสตีเฟนครับ",
-            "target": "My name is Stephen.",
-            "phonetic": "phǒm chûue sà-dii-fen khráp",
+            "source": "ดิฉันชื่อพิมค่ะ",
+            "target": "My name is Pim. (♀)",
+            "phonetic": "dì-chǎn chûue pim kâ",
             "breakdown": [
                 {
-                    "source": "ผม",
-                    "target": "I (male)",
-                    "phonetic": "phǒm",
+                    "source": "ดิฉัน",
+                    "target": "I (female, polite)",
+                    "phonetic": "dì-chǎn",
                     "partOfSpeech": "pronoun"
                 },
                 {
@@ -75,113 +94,144 @@
                     "partOfSpeech": "verb"
                 },
                 {
-                    "source": "สตีเฟน",
-                    "target": "Stephen",
-                    "phonetic": "sà-dii-fen",
+                    "source": "พิม",
+                    "target": "Pim",
+                    "phonetic": "pim",
                     "partOfSpeech": "proper noun"
                 },
                 {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "source": "ค่ะ",
+                    "target": "polite particle (♀)",
+                    "phonetic": "kâ",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "ยินดีที่ได้รู้จักครับ",
-            "target": "Nice to meet you.",
-            "phonetic": "yin-dee thîi dâi rúu-jàk khráp",
+            "source": "ผมชื่อสมชายครับ",
+            "target": "My name is Somchai. (♂)",
+            "phonetic": "pǒm chûue sǒm-chaai kráp",
+            "breakdown": [
+                {
+                    "source": "ผม",
+                    "target": "I (male)",
+                    "phonetic": "pǒm",
+                    "partOfSpeech": "pronoun"
+                },
+                {
+                    "source": "ชื่อ",
+                    "target": "to be named",
+                    "phonetic": "chûue",
+                    "partOfSpeech": "verb"
+                },
+                {
+                    "source": "สมชาย",
+                    "target": "Somchai",
+                    "phonetic": "sǒm-chaai",
+                    "partOfSpeech": "proper noun"
+                },
+                {
+                    "source": "ครับ",
+                    "target": "polite particle (♂)",
+                    "phonetic": "kráp",
+                    "partOfSpeech": "particle"
+                }
+            ]
+        },
+        {
+            "source": "ยินดีที่ได้รู้จักค่ะ",
+            "target": "Nice to meet you. (♀)",
+            "phonetic": "yin-dii tîi dâai rúu-jàk kâ",
             "breakdown": [
                 {
                     "source": "ยินดี",
                     "target": "pleased",
-                    "phonetic": "yin-dee",
+                    "phonetic": "yin-dii",
                     "partOfSpeech": "adjective"
                 },
                 {
                     "source": "ที่",
                     "target": "that",
-                    "phonetic": "thîi",
+                    "phonetic": "tîi",
                     "partOfSpeech": "conjunction"
                 },
                 {
                     "source": "ได้",
-                    "target": "can",
-                    "phonetic": "dâi",
-                    "partOfSpeech": "auxiliary verb"
+                    "target": "get to / can",
+                    "phonetic": "dâai",
+                    "partOfSpeech": "auxiliary"
                 },
                 {
                     "source": "รู้จัก",
-                    "target": "to know",
+                    "target": "to know (a person)",
                     "phonetic": "rúu-jàk",
                     "partOfSpeech": "verb"
                 },
                 {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "source": "ค่ะ",
+                    "target": "polite particle (♀)",
+                    "phonetic": "kâ",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
             "source": "ยินดีที่ได้รู้จักเช่นกันครับ",
-            "target": "Nice to meet you too.",
-            "phonetic": "yin-dee thîi dâi rúu-jàk chên-gan khráp",
+            "target": "Nice to meet you too. (♂)",
+            "phonetic": "yin-dii tîi dâai rúu-jàk chên-gan kráp",
             "breakdown": [
                 {
                     "source": "ยินดี",
                     "target": "pleased",
-                    "phonetic": "yin-dee",
+                    "phonetic": "yin-dii",
                     "partOfSpeech": "adjective"
                 },
                 {
                     "source": "ที่",
                     "target": "that",
-                    "phonetic": "thîi",
+                    "phonetic": "tîi",
                     "partOfSpeech": "conjunction"
                 },
                 {
                     "source": "ได้",
-                    "target": "can",
-                    "phonetic": "dâi",
-                    "partOfSpeech": "auxiliary verb"
+                    "target": "get to",
+                    "phonetic": "dâai",
+                    "partOfSpeech": "auxiliary"
                 },
                 {
                     "source": "รู้จัก",
-                    "target": "to know",
+                    "target": "to know (a person)",
                     "phonetic": "rúu-jàk",
                     "partOfSpeech": "verb"
                 },
                 {
                     "source": "เช่นกัน",
-                    "target": "also",
+                    "target": "likewise / too",
                     "phonetic": "chên-gan",
                     "partOfSpeech": "adverb"
                 },
                 {
                     "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "target": "polite particle (♂)",
+                    "phonetic": "kráp",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "คุณมาจากไหนครับ",
-            "target": "Where are you from?",
-            "phonetic": "khun maa jàak năi khráp",
+            "source": "คุณมาจากไหนคะ",
+            "target": "Where are you from? (♀)",
+            "phonetic": "kun maa jàak nǎi ká",
             "breakdown": [
                 {
                     "source": "คุณ",
                     "target": "you",
-                    "phonetic": "khun",
+                    "phonetic": "kun",
                     "partOfSpeech": "pronoun"
                 },
                 {
                     "source": "มา",
-                    "target": "come",
+                    "target": "to come",
                     "phonetic": "maa",
                     "partOfSpeech": "verb"
                 },
@@ -194,31 +244,31 @@
                 {
                     "source": "ไหน",
                     "target": "where",
-                    "phonetic": "năi",
+                    "phonetic": "nǎi",
                     "partOfSpeech": "pronoun"
                 },
                 {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "source": "คะ",
+                    "target": "polite question particle (♀)",
+                    "phonetic": "ká",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "ผมมาจากประเทศอังกฤษครับ",
-            "target": "I am from England.",
-            "phonetic": "phǒm maa jàak bprà-thêet ang-grìt khráp",
+            "source": "ผมมาจากเชียงใหม่ครับ",
+            "target": "I am from Chiang Mai. (♂)",
+            "phonetic": "pǒm maa jàak chiang-mài kráp",
             "breakdown": [
                 {
                     "source": "ผม",
                     "target": "I (male)",
-                    "phonetic": "phǒm",
+                    "phonetic": "pǒm",
                     "partOfSpeech": "pronoun"
                 },
                 {
                     "source": "มา",
-                    "target": "come",
+                    "target": "to come",
                     "phonetic": "maa",
                     "partOfSpeech": "verb"
                 },
@@ -229,105 +279,56 @@
                     "partOfSpeech": "preposition"
                 },
                 {
-                    "source": "ประเทศ",
-                    "target": "country",
-                    "phonetic": "bprà-thêet",
-                    "partOfSpeech": "noun"
-                },
-                {
-                    "source": "อังกฤษ",
-                    "target": "England",
-                    "phonetic": "ang-grìt",
+                    "source": "เชียงใหม่",
+                    "target": "Chiang Mai",
+                    "phonetic": "chiang-mài",
                     "partOfSpeech": "proper noun"
                 },
                 {
                     "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "target": "polite particle (♂)",
+                    "phonetic": "kráp",
                     "partOfSpeech": "particle"
                 }
             ]
         },
         {
-            "source": "คุณชอบอังกฤษไหมครับ",
-            "target": "Do you like England?",
-            "phonetic": "khun châwp ang-grìt măi khráp",
+            "source": "ดิฉันอยู่กรุงเทพฯ ค่ะ",
+            "target": "I live in Bangkok. (♀)",
+            "phonetic": "dì-chǎn yùu grung-têep kâ",
             "breakdown": [
                 {
-                    "source": "คุณ",
-                    "target": "you",
-                    "phonetic": "khun",
+                    "source": "ดิฉัน",
+                    "target": "I (female, polite)",
+                    "phonetic": "dì-chǎn",
                     "partOfSpeech": "pronoun"
                 },
                 {
-                    "source": "ชอบ",
-                    "target": "to like",
-                    "phonetic": "châwp",
+                    "source": "อยู่",
+                    "target": "to live / be at",
+                    "phonetic": "yùu",
                     "partOfSpeech": "verb"
                 },
                 {
-                    "source": "อังกฤษ",
-                    "target": "England",
-                    "phonetic": "ang-grìt",
+                    "source": "กรุงเทพฯ",
+                    "target": "Bangkok",
+                    "phonetic": "grung-têep",
                     "partOfSpeech": "proper noun"
                 },
                 {
-                    "source": "ไหม",
-                    "target": "or not",
-                    "phonetic": "măi",
-                    "partOfSpeech": "particle"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
-                    "partOfSpeech": "particle"
-                }
-            ]
-        },
-        {
-            "source": "ใช่ ผมชอบอังกฤษครับ",
-            "target": "Yes, I like England.",
-            "phonetic": "châi phǒm châwp ang-grìt khráp",
-            "breakdown": [
-                {
-                    "source": "ใช่",
-                    "target": "yes",
-                    "phonetic": "châi",
-                    "partOfSpeech": "interjection"
-                },
-                {
-                    "source": "ผม",
-                    "target": "I (male)",
-                    "phonetic": "phǒm",
-                    "partOfSpeech": "pronoun"
-                },
-                {
-                    "source": "ชอบ",
-                    "target": "to like",
-                    "phonetic": "châwp",
-                    "partOfSpeech": "verb"
-                },
-                {
-                    "source": "อังกฤษ",
-                    "target": "England",
-                    "phonetic": "ang-grìt",
-                    "partOfSpeech": "proper noun"
-                },
-                {
-                    "source": "ครับ",
-                    "target": "male polite particle",
-                    "phonetic": "khráp",
+                    "source": "ค่ะ",
+                    "target": "polite particle (♀)",
+                    "phonetic": "kâ",
                     "partOfSpeech": "particle"
                 }
             ]
         }
     ],
     "createdAt": "2025-09-28T08:54:49Z",
-    "updatedAt": "2025-09-28T08:54:49Z",
+    "updatedAt": "2026-04-08T14:00:00Z",
     "difficulty": "beginner",
     "summary": {
-        "source": "การสนทนาทักทายและแนะนำตัว",
-        "target": "Conversation about greetings and introductions"
+        "source": "สมชายกับพิมทักทายและแนะนำตัวที่กรุงเทพฯ",
+        "target": "Somchai and Pim greet each other and introduce themselves in Bangkok."
     }
 }
