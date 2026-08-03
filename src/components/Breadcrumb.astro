@@ -1,0 +1,63 @@
+---
+/**
+ * Breadcrumb navigation component following shadcn/ui patterns.
+ * Renders a <nav aria-label="breadcrumb"> element with an ordered list of links.
+ * The last item receives aria-current="page" and is rendered as text (not a link).
+ *
+ * Validates: Requirements 7.4
+ */
+
+export interface BreadcrumbItem {
+  /** Display label for the breadcrumb segment */
+  label: string;
+  /** URL to link to. If omitted, the item is treated as the current page. */
+  href?: string;
+}
+
+interface Props {
+  items: BreadcrumbItem[];
+}
+
+const { items } = Astro.props;
+---
+
+{items.length > 0 && (
+  <nav aria-label="breadcrumb" class="mx-auto max-w-7xl px-4 py-3 sm:px-6 lg:px-8">
+    <ol class="flex flex-wrap items-center gap-1.5 break-words text-sm text-gray-500 sm:gap-2.5 ">
+      {items.map((item, index) => {
+        const isLast = index === items.length - 1;
+        return (
+          <li class="inline-flex items-center gap-1.5">
+            {index > 0 && (
+              <svg
+                class="h-3.5 w-3.5 text-gray-400 "
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                aria-hidden="true"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+            )}
+            {item.href && !isLast ? (
+              <a
+                href={item.href}
+                class="transition-colors hover:text-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:rounded-sm"
+              >
+                {item.label}
+              </a>
+            ) : (
+              <span
+                aria-current="page"
+                class="font-medium text-gray-900 "
+              >
+                {item.label}
+              </span>
+            )}
+          </li>
+        );
+      })}
+    </ol>
+  </nav>
+)}

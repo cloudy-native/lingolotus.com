@@ -1,0 +1,126 @@
+---
+import { getCollection } from "astro:content";
+import PageLayout from "@/layouts/PageLayout.astro";
+import ContentImage from "@/components/ContentImage.astro";
+import { getBookPath, getReadingPath } from "@/lib/utils";
+import { assertImageReferencesValid } from "@/lib/image-validation";
+
+const books = await getCollection("books");
+
+// Build-time validation: ensure all imageUrl references exist in public/
+assertImageReferencesValid(
+  books.map((b) => ({
+    id: b.data.bookId,
+    collection: "books",
+    imageUrl: b.data.imageUrl,
+  })),
+);
+
+// Group books by source language
+const booksByLang = new Map<string, typeof books>();
+for (const book of books) {
+  const lang = book.data.sourceLanguage;
+  if (!booksByLang.has(lang)) booksByLang.set(lang, []);
+  booksByLang.get(lang)!.push(book);
+}
+
+const LANG_INFO: Record<string, { native: string; flag: string; english: string }> = {
+  th: { native: "ไทย", flag: "🇹🇭", english: "Thai" },
+  en: { native: "English", flag: "🇬🇧", english: "English" },
+  ja: { native: "日本語", flag: "🇯🇵", english: "Japanese" },
+};
+---
+
+<PageLayout
+  title="Reading | Lingo Lotus"
+  description="Build comprehension and confidence with bite-sized passages and helpful tools."
+  ogType="website"
+  canonicalPath={getReadingPath()}
+  breadcrumbs={[{ label: "Home", href: "/" }, { label: "Reading" }]}
+>
+  <div class="space-y-10">
+    {books.length === 0 ? (
+      <div class="flex flex-col items-center justify-center rounded-lg border border-dashed border-gray-300 px-6 py-16 text-center ">
+        <p class="text-lg text-gray-500 ">No books available yet.</p>
+      </div>
+    ) : (
+      <>
+        <!-- Hero Section -->
+        <section class="rounded-3xl border border-slate-200 bg-slate-50 px-6 py-10 sm:px-10 sm:py-14">
+          <h1 class="mb-4 text-3xl font-bold text-gray-900  sm:text-4xl">
+            Practice Reading
+          </h1>
+          <p class="mb-2 text-lg text-gray-700 ">
+            Build comprehension and confidence with bite-sized passages and helpful tools.
+          </p>
+          <p class="text-base text-gray-600 ">
+            Start with beginner stories to build your foundation, but don't be afraid to dip into intermediate content when you're feeling confident—or go back to practice what you've already learned. Learning is not always linear!
+          </p>
+        </section>
+
+        <!-- Books grouped by language -->
+        {[...booksByLang.entries()].map(([langCode, langBooks]) => {
+          const info = LANG_INFO[langCode] || { native: langCode, flag: "🌐", english: langCode };
+          return (
+            <section>
+              <h2 class="mb-6 flex items-center gap-2 text-2xl font-bold text-gray-900 ">
+                <span>{info.flag}</span>
+                <span class="font-thai">{info.native}</span>
+                <span class="text-gray-500 ">({info.english})</span>
+              </h2>
+              <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                {langBooks.map((book) => (
+                  <a
+                    href={getBookPath(book.data.bookId)}
+                    class="group flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-shadow hover:shadow-md"
+                  >
+                    {book.data.imageUrl && (
+                      <div class="aspect-video w-full overflow-hidden bg-gray-100 ">
+                        <ContentImage
+                          src={book.data.imageUrl}
+                          alt={book.data.name}
+                          width={400}
+                          height={225}
+                          class="h-full w-full object-cover transition-transform group-hover:scale-105"
+                          loading="lazy"
+                        />
+                      </div>
+                    )}
+                    <div class="flex flex-1 flex-col p-4">
+                      <h3 class="text-lg font-semibold text-gray-900 group-hover:text-teal-700">
+                        {book.data.name}
+                      </h3>
+                      <p class="mt-1 flex-1 text-sm text-gray-600 ">
+                        {book.data.description}
+                      </p>
+                      <div class="mt-3 flex flex-wrap gap-1.5">
+                        <span class="inline-flex items-center rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700  ">
+                          {book.data.sourceLanguage.toUpperCase()}
+                        </span>
+                        {book.data.targetLanguage && (
+                          <span class="inline-flex items-center rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700  ">
+                            {book.data.targetLanguage.toUpperCase()}
+                          </span>
+                        )}
+                        {book.data.difficulty && (
+                          <span class="inline-flex items-center rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-800  ">
+                            {book.data.difficulty}
+                          </span>
+                        )}
+                        {book.data.featured && (
+                          <span class="inline-flex items-center rounded-full bg-rose-100 px-2 py-0.5 text-xs font-medium text-rose-700  ">
+                            Featured
+                          </span>
+                        )}
+                      </div>
+                    </div>
+                  </a>
+                ))}
+              </div>
+            </section>
+          );
+        })}
+      </>
+    )}
+  </div>
+</PageLayout>

@@ -1,0 +1,79 @@
+---
+import { getCollection } from "astro:content";
+import PageLayout from "@/layouts/PageLayout.astro";
+import StoryReader from "@/components/islands/StoryReader";
+import {
+  getBookPath,
+  getReadingPath,
+  getStoryPath,
+  validateStoryReferences,
+} from "@/lib/utils";
+
+export async function getStaticPaths() {
+  const books = await getCollection("books");
+  const stories = await getCollection("stories");
+
+  // Referential integrity validation — fail the build if any story references a missing book
+  const result = validateStoryReferences(
+    stories.map((s) => ({ storyId: s.data.storyId, bookId: s.data.bookId })),
+    books.map((b) => ({ bookId: b.data.bookId })),
+  );
+
+  if (!result.valid) {
+    const messages = result.errors.map((e) => e.message).join("\n");
+    throw new Error(
+      `Referential integrity validation failed:\n${messages}`,
+    );
+  }
+
+  const bookMap = new Map(books.map((b) => [b.data.bookId, b.data]));
+
+  return stories.map((story) => ({
+    params: { bookId: story.data.bookId, storyId: story.data.storyId },
+    props: { story: story.data, book: bookMap.get(story.data.bookId)! },
+  }));
+}
+
+const { story, book } = Astro.props;
+const canonicalPath = getStoryPath(story.bookId, story.storyId);
+const storyDescription = `Read "${story.title.target}" — a ${story.language} language learning story from ${book.name}`;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: story.title.target,
+  description: storyDescription,
+  url: `https://lingolotus.com${canonicalPath}`,
+};
+
+const sentences = story.sentences.map((s) => ({
+  source: s.source,
+  target: s.target,
+  phonetic: s.phonetic,
+  breakdown: s.breakdown,
+}));
+---
+
+<PageLayout
+  title={`${story.title.target} - ${book.name} | Lingo Lotus`}
+  description={storyDescription}
+  ogType="article"
+  canonicalPath={canonicalPath}
+  jsonLd={jsonLd}
+  breadcrumbs={[
+    { label: "Home", href: "/" },
+    { label: "Reading", href: getReadingPath() },
+    { label: book.name, href: getBookPath(book.bookId) },
+    { label: story.title.target },
+  ]}
+>
+  <StoryReader
+    client:load
+    sentences={sentences}
+    language={story.language}
+    title={story.title}
+    summary={story.summary}
+    difficulty={story.difficulty}
+    bookImageUrl={book.imageUrl}
+  />
+</PageLayout>

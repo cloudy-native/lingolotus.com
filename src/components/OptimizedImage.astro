@@ -1,0 +1,33 @@
+---
+/**
+ * OptimizedImage - Uses Astro's built-in image optimization pipeline (astro:assets)
+ * to process static images referenced in layouts, outputting WebP format with
+ * proper width, height, and alt attributes to prevent layout shift.
+ *
+ * Use this component for images imported from the src/ directory (layout images,
+ * decorative elements, logos). For content collection imageUrl paths that reference
+ * public/ directory files, use the ContentImage component instead.
+ */
+import { Image } from "astro:assets";
+
+interface Props {
+  src: ImageMetadata;
+  alt: string;
+  width?: number;
+  height?: number;
+  class?: string;
+  loading?: "eager" | "lazy";
+}
+
+const { src, alt, width, height, class: className, loading = "lazy" } = Astro.props;
+---
+
+<Image
+  src={src}
+  alt={alt}
+  width={width}
+  height={height}
+  format="webp"
+  class={className}
+  loading={loading}
+/>

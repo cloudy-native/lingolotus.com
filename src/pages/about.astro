@@ -1,0 +1,18 @@
+---
+import PageLayout from "../layouts/PageLayout.astro";
+
+const aboutFile = await import("../../content/about.md");
+const { Content, frontmatter } = aboutFile;
+---
+
+<PageLayout
+  title={frontmatter.title}
+  description={frontmatter.description}
+  ogType="website"
+  canonicalPath="/about"
+  breadcrumbs={[{ label: "Home", href: "/" }, { label: "About" }]}
+>
+  <article class="prose prose-gray max-w-none prose-headings:text-slate-900 prose-a:text-teal-700 prose-strong:text-slate-900">
+    <Content />
+  </article>
+</PageLayout>

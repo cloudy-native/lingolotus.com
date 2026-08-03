@@ -1,0 +1,97 @@
+/* Google Fonts: Thai-optimized fonts */
+@import url("https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,700&family=Noto+Sans+Thai:wght@100..900&family=Inter:wght@100..900&display=swap");
+
+/* Tailwind CSS v4 */
+@import "tailwindcss";
+@config "../../tailwind.config.ts";
+@plugin "@tailwindcss/typography";
+
+/*
+ * shadcn/ui Theme Variables
+ * 
+ * Swap these out with any theme from https://ui.shadcn.com/themes
+ * Just copy the CSS variables from the theme you like and paste them here.
+ * 
+ * Current theme: Blue (default)
+ */
+@layer base {
+  :root {
+    color-scheme: light;
+    --background: 255 255 255;
+    --foreground: 15 23 42;
+    --card: 255 255 255;
+    --card-foreground: 15 23 42;
+    --popover: 255 255 255;
+    --popover-foreground: 15 23 42;
+    --primary: 15 118 110;
+    --primary-foreground: 255 255 255;
+    --secondary: 248 250 252;
+    --secondary-foreground: 15 23 42;
+    --muted: 248 250 252;
+    --muted-foreground: 71 85 105;
+    --accent: 240 249 255;
+    --accent-foreground: 15 23 42;
+    --destructive: 220 38 38;
+    --destructive-foreground: 255 255 255;
+    --border: 226 232 240;
+    --input: 226 232 240;
+    --ring: 13 148 136;
+    --radius: 0.75rem;
+    --chart-1: 14 116 144;
+    --chart-2: 20 184 166;
+    --chart-3: 15 23 42;
+    --chart-4: 125 211 252;
+    --chart-5: 148 163 184;
+  }
+
+  html {
+    @apply scroll-smooth overflow-x-hidden bg-slate-50 text-slate-800;
+  }
+
+  body {
+    @apply min-h-screen overflow-x-hidden bg-slate-50 text-slate-800 font-sans antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply tracking-tight text-slate-900;
+  }
+
+  p {
+    @apply leading-7 text-slate-700;
+  }
+
+  a {
+    @apply transition-colors duration-200;
+  }
+
+  /* Apply Thai font stack to elements containing Thai text */
+  [lang="th"],
+  .font-thai {
+    font-family: "Sarabun", "Noto Sans Thai", ui-sans-serif, system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .surface-card {
+    @apply rounded-2xl border border-slate-200 bg-white shadow-sm;
+  }
+
+  .surface-panel {
+    @apply rounded-2xl border border-slate-200 bg-slate-50/70 p-6 shadow-sm;
+  }
+
+  .pill {
+    @apply inline-flex items-center rounded-full border border-slate-200 bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-700;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold tracking-tight text-slate-900;
+  }
+
+  .section-subtitle {
+    @apply text-base leading-7 text-slate-600;
+  }
+}

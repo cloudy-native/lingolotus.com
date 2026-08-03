@@ -1,0 +1,145 @@
+---
+import { getCollection } from "astro:content";
+import PageLayout from "@/layouts/PageLayout.astro";
+import ContentImage from "@/components/ContentImage.astro";
+import { getBookPath, getReadingPath, getStoryPath } from "@/lib/utils";
+
+export async function getStaticPaths() {
+  const books = await getCollection("books");
+  return books.map((book) => ({
+    params: { bookId: book.data.bookId },
+    props: { book: book.data },
+  }));
+}
+
+const { book } = Astro.props;
+const allStories = await getCollection("stories");
+const bookStories = allStories.filter((s) => s.data.bookId === book.bookId);
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: book.name,
+  description: book.description,
+  url: `https://lingolotus.com${getBookPath(book.bookId)}`,
+};
+---
+
+<PageLayout
+  title={`${book.name} | Lingo Lotus`}
+  description={book.description}
+  ogType="article"
+  canonicalPath={getBookPath(book.bookId)}
+  jsonLd={jsonLd}
+  breadcrumbs={[
+    { label: "Home", href: "/" },
+    { label: "Reading", href: getReadingPath() },
+    { label: book.name },
+  ]}
+>
+  <div class="space-y-10">
+    <!-- Book Header with image -->
+    <header class="flex flex-col gap-4 sm:flex-row sm:items-start sm:gap-6">
+      {book.imageUrl && (
+        <ContentImage
+          src={book.imageUrl}
+          alt={book.name}
+          width={160}
+          height={160}
+          class="h-32 w-32 flex-shrink-0 rounded-lg object-cover shadow-md sm:h-40 sm:w-40"
+          loading="eager"
+        />
+      )}
+      <div>
+        <h1 class="text-2xl font-bold text-gray-900  sm:text-3xl">
+          {book.name}
+        </h1>
+        <p class="mt-2 text-lg text-gray-600 ">
+          {book.description}
+        </p>
+        <div class="mt-3 flex flex-wrap gap-2">
+          <span class="inline-flex items-center rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-700  ">
+            {book.sourceLanguage}
+          </span>
+          {book.targetLanguage && (
+            <span class="inline-flex items-center rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-700  ">
+              {book.targetLanguage}
+            </span>
+          )}
+          {book.difficulty && (
+            <span class="inline-flex items-center rounded-full bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-800  ">
+              {book.difficulty}
+            </span>
+          )}
+          {book.category && (
+            <span class="inline-flex items-center rounded-full bg-amber-100 px-2.5 py-0.5 text-xs font-medium text-amber-800  ">
+              {book.category}
+            </span>
+          )}
+          {book.featured && (
+            <span class="inline-flex items-center rounded-full bg-rose-100 px-2.5 py-0.5 text-xs font-medium text-rose-700  ">
+              Featured
+            </span>
+          )}
+        </div>
+      </div>
+    </header>
+
+    <!-- Stories -->
+    <section>
+      <h2 class="mb-6 text-2xl font-bold text-gray-900 ">
+        Stories
+      </h2>
+
+      {bookStories.length === 0 ? (
+        <div class="flex flex-col items-center justify-center rounded-lg border border-dashed border-gray-300 px-6 py-16 text-center ">
+          <p class="text-lg text-gray-500 ">
+            No stories available for this book yet.
+          </p>
+        </div>
+      ) : (
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          {bookStories.map((story) => (
+            <a
+              href={getStoryPath(book.bookId, story.data.storyId)}
+              class="group flex flex-col rounded-2xl border border-slate-200 bg-white p-4 transition-all hover:-translate-y-0.5 hover:shadow-md hover:border-slate-300"
+            >
+              {/* Thai title (source) */}
+              <p class="text-lg font-bold text-gray-900 font-thai group-hover:text-teal-700">
+                {story.data.title.source}
+              </p>
+              {/* English title (target) */}
+              <p class="text-sm text-gray-600 ">
+                {story.data.title.target}
+              </p>
+
+              {/* Summary if available */}
+              {story.data.summary && (
+                <div class="mt-2">
+                  <p class="text-sm text-gray-700  font-thai line-clamp-2">
+                    {story.data.summary.source}
+                  </p>
+                  <p class="text-xs text-gray-500  line-clamp-1">
+                    {story.data.summary.target}
+                  </p>
+                </div>
+              )}
+
+              {/* Badges */}
+              <div class="mt-auto pt-3 flex flex-wrap gap-1.5">
+                <span class="inline-flex items-center rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700  ">
+                  {story.data.language}
+                </span>
+                {story.data.difficulty && (
+                  <span class="inline-flex items-center rounded-full bg-green-100 px-2 py-0.5 text-xs font-medium text-green-800  ">
+                    {story.data.difficulty}
+                  </span>
+                )}
+              </div>
+            </a>
+          ))}
+        </div>
+      )}
+    </section>
+  </div>
+</PageLayout>

@@ -13,7 +13,7 @@ export interface Flashcard {
     frontContent: TextContent;
     backContent: TextContent;
     tags: string[];
-    difficulty: "easy" | "medium" | "hard";
+    difficulty: string;
     lastReviewed?: Date;
     nextReviewDate?: Date;
 }
@@ -28,18 +28,9 @@ export interface TranslationExample {
 export interface TranslationFlashcard extends Flashcard {
     sourceLanguage: string;
     targetLanguage: string;
-    phonetic?: string; // Optional pronunciation guide
-    partOfSpeech?:
-        | "noun"
-        | "verb"
-        | "adjective"
-        | "adverb"
-        | "preposition"
-        | "pronoun"
-        | "conjunction"
-        | "interjection"
-        | "phrase";
-    context?: string; // Optional usage context
+    phonetic?: string;
+    partOfSpeech?: string;
+    context?: string;
     examples?: TranslationExample[];
 }
 
@@ -55,9 +46,9 @@ export interface Deck<T extends Flashcard = Flashcard> {
     createdAt: Date | string;
     updatedAt: Date | string;
     category?: string;
-    theme: string; // Theme of this deck (basics, food, etc.)
+    theme: string;
     difficulty?: "beginner" | "intermediate" | "advanced" | "mixed";
-    collectionId: string; // Reference to parent collection
+    collectionId: string;
 }
 
 // Collection structure to group related decks
@@ -73,7 +64,7 @@ export interface Collection {
     category?: string;
     difficulty?: "beginner" | "intermediate" | "advanced" | "mixed";
     imageUrl?: string;
-    featured?: boolean; // Is this a featured collection?
+    featured?: boolean;
 }
 
 // Type to track user progress during the session
@@ -128,5 +119,13 @@ export interface ReadingStory {
         source: string;
         target: string;
     };
+}
+
+// Language type (aligned with languages content collection schema)
+export interface Language {
+    languageCode: string;
+    language: string;
+    english: string;
+    flag: string;
 }
 

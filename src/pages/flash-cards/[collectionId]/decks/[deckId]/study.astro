@@ -1,0 +1,61 @@
+---
+import { getCollection } from "astro:content";
+import PageLayout from "@/layouts/PageLayout.astro";
+import StudyMode from "@/components/islands/StudyMode.tsx";
+import { getStudyPath, getDeckPath } from "@/lib/utils";
+
+export async function getStaticPaths() {
+  const decks = await getCollection("flashcard-decks");
+  return decks.map((deck) => ({
+    params: {
+      collectionId: deck.data.collectionId,
+      deckId: deck.data.deckId,
+    },
+    props: { deck: deck.data },
+  }));
+}
+
+const { deck } = Astro.props;
+const canonicalPath = getStudyPath(deck.collectionId, deck.deckId);
+const deckPath = getDeckPath(deck.collectionId, deck.deckId);
+
+const cards = deck.cards.map((card) => ({
+  frontContent: card.frontContent,
+  backContent: card.backContent,
+  phonetic: card.phonetic,
+  partOfSpeech: card.partOfSpeech,
+  context: card.context,
+  tags: card.tags,
+  examples: card.examples,
+  sourceLanguage: card.sourceLanguage,
+  targetLanguage: card.targetLanguage,
+}));
+---
+
+<PageLayout
+  title={`Study: ${deck.name}`}
+  description={`Practice flashcards from ${deck.name} with interactive study mode.`}
+  ogType="website"
+  canonicalPath={canonicalPath}
+>
+  <!-- Back to Deck link -->
+  <div class="mb-4">
+    <a
+      href={deckPath}
+      class="inline-flex items-center gap-1.5 rounded-md bg-slate-800 px-3 py-1.5 text-sm font-medium text-white transition-colors hover:bg-slate-900"
+    >
+      <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+      </svg>
+      Back to Deck
+    </a>
+  </div>
+
+  <StudyMode
+    client:load
+    cards={cards}
+    deckName={deck.name}
+    collectionId={deck.collectionId}
+    deckId={deck.deckId}
+  />
+</PageLayout>

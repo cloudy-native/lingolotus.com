@@ -1,0 +1,142 @@
+---
+import { getCollection } from "astro:content";
+import PageLayout from "@/layouts/PageLayout.astro";
+import ContentImage from "@/components/ContentImage.astro";
+import { getCollectionPath } from "@/lib/utils";
+import { assertImageReferencesValid } from "@/lib/image-validation";
+
+const collections = await getCollection("flashcard-collections");
+
+// Build-time validation: ensure all imageUrl references exist in public/
+assertImageReferencesValid(
+  collections.map((c) => ({
+    id: c.data.collectionId,
+    collection: "flashcard-collections",
+    imageUrl: c.data.imageUrl,
+  })),
+);
+
+const featured = collections.filter((c) => c.data.featured === true);
+const all = collections;
+---
+
+<PageLayout
+  title="Flashcards | Lingo Lotus"
+  description="Build your vocabulary systematically with spaced repetition and interactive flashcards."
+  ogType="website"
+  canonicalPath="/flash-cards"
+  breadcrumbs={[{ label: "Home", href: "/" }, { label: "Flash Cards" }]}
+>
+  {collections.length === 0 ? (
+    <div class="rounded-lg border border-gray-200 bg-gray-50 p-8 text-center  ">
+      <p class="text-lg text-gray-600 ">
+        No flashcard collections available yet.
+      </p>
+    </div>
+  ) : (
+    <div class="space-y-12">
+      <!-- Hero Section -->
+      <section class="rounded-3xl border border-slate-200 bg-slate-50 px-6 py-10 sm:px-10 sm:py-14">
+        <h1 class="mb-4 text-3xl font-bold text-gray-900  sm:text-4xl">
+          Master Vocabulary with Flashcards
+        </h1>
+        <p class="mb-2 text-lg text-gray-700 ">
+          Build your vocabulary systematically with spaced repetition and interactive flashcards.
+        </p>
+        <p class="text-base text-gray-600 ">
+          Choose from curated decks organized by theme, difficulty, and real-world scenarios. Practice at your own pace and track your progress as you build fluency one word at a time.
+        </p>
+      </section>
+
+      <!-- Featured Flashcard Collections -->
+      {featured.length > 0 && (
+        <section>
+          <h2 class="mb-6 text-2xl font-bold text-gray-900 ">
+            Featured Flashcard Collections
+          </h2>
+          <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {featured.map((collection) => (
+              <a
+                href={getCollectionPath(collection.data.collectionId)}
+                class="group overflow-hidden rounded-2xl border border-slate-200 bg-white transition-all hover:-translate-y-0.5 hover:shadow-lg hover:border-slate-300"
+              >
+                {collection.data.imageUrl && (
+                  <ContentImage
+                    src={collection.data.imageUrl}
+                    alt={collection.data.name}
+                    width={400}
+                    height={192}
+                    class="h-48 w-full object-cover"
+                    loading="lazy"
+                  />
+                )}
+                <div class="p-4">
+                  <div class="mb-2 flex items-center justify-between">
+                    <h3 class="text-lg font-semibold text-gray-900 group-hover:text-teal-700">
+                      {collection.data.name}
+                    </h3>
+                    <span class="inline-flex items-center rounded-full bg-rose-100 px-2.5 py-0.5 text-xs font-medium text-rose-700  ">
+                      Featured
+                    </span>
+                  </div>
+                  <p class="mb-3 line-clamp-2 text-sm text-gray-600 ">
+                    {collection.data.description}
+                  </p>
+                  <div class="flex flex-wrap gap-2">
+                    <span class="inline-flex items-center rounded-full bg-blue-100 px-2.5 py-0.5 text-xs font-medium text-blue-800  ">
+                      {collection.data.sourceLanguage} → {collection.data.targetLanguage}
+                    </span>
+                    {collection.data.difficulty && (
+                      <span class="inline-flex items-center rounded-full bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-800  ">
+                        {collection.data.difficulty}
+                      </span>
+                    )}
+                  </div>
+                </div>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- All Flashcard Collections -->
+      <section>
+        <h2 class="mb-6 text-2xl font-bold text-gray-900 ">
+          All Flashcard Collections
+        </h2>
+        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {all.map((collection) => (
+            <a
+              href={getCollectionPath(collection.data.collectionId)}
+              class="group overflow-hidden rounded-2xl border border-slate-200 bg-white transition-all hover:-translate-y-0.5 hover:shadow-lg hover:border-slate-300"
+            >
+              {collection.data.imageUrl && (
+                <ContentImage
+                  src={collection.data.imageUrl}
+                  alt={collection.data.name}
+                  width={400}
+                  height={192}
+                  class="h-48 w-full object-cover"
+                  loading="lazy"
+                />
+              )}
+              <div class="p-4">
+                <h3 class="mb-2 text-lg font-semibold text-gray-900 group-hover:text-teal-700">
+                  {collection.data.name}
+                </h3>
+                <p class="mb-3 line-clamp-2 text-sm text-gray-600 ">
+                  {collection.data.description}
+                </p>
+                {collection.data.difficulty && (
+                  <span class="inline-flex items-center rounded-full bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-800  ">
+                    {collection.data.difficulty}
+                  </span>
+                )}
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    </div>
+  )}
+</PageLayout>

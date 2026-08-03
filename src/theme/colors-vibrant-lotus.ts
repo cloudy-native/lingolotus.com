@@ -21,7 +21,7 @@ export const semanticColors = {
     },
     card: {
         bg: "white",
-        border: "gray.300", // Slightly darker border for definition
+        border: "gray.300", // Slightly er border for definition
     },
     section: {
         bg: "white",

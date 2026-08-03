@@ -1,0 +1,51 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description?: string;
+  ogType?: "website" | "article";
+  canonicalPath: string;
+  jsonLd?: Record<string, unknown>;
+}
+
+const DEFAULT_DESCRIPTION =
+  "Lingo Lotus - Learn Thai through flashcards, stories, and interactive study tools.";
+
+const { title, description, ogType = "website", canonicalPath, jsonLd } =
+  Astro.props;
+
+const resolvedDescription = description || DEFAULT_DESCRIPTION;
+const canonicalUrl = `https://lingolotus.com${canonicalPath}`;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon-32x32.png" type="image/png" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Page title and description -->
+    <title>{title}</title>
+    <meta name="description" content={resolvedDescription} />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href={canonicalUrl} />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={resolvedDescription} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content="Lingo Lotus" />
+
+    <!-- JSON-LD structured data -->
+    {jsonLd && <script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+
+    <meta name="color-scheme" content="light" />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
