@@ -2,16 +2,22 @@
 import { getCollection } from "astro:content";
 import PageLayout from "@/layouts/PageLayout.astro";
 import StoryReader from "@/components/islands/StoryReader";
+import { buildLadderCatalog, getLevelLadder, hrefForHalf, getStepProgress } from "@/lib/ladder";
+import { loadGrammarMarkdown } from "@/lib/grammar";
 import {
   getBookPath,
   getReadingPath,
   getStoryPath,
+  getLearnPath,
+  getBrowsePath,
   validateStoryReferences,
 } from "@/lib/utils";
 
 export async function getStaticPaths() {
   const books = await getCollection("books");
   const stories = await getCollection("stories");
+  const collections = await getCollection("flashcard-collections");
+  const decks = await getCollection("flashcard-decks");
 
   // Referential integrity validation — fail the build if any story references a missing book
   const result = validateStoryReferences(
@@ -26,15 +32,83 @@ export async function getStaticPaths() {
     );
   }
 
+  const catalog = buildLadderCatalog({
+    collections: collections.map((c) => ({
+      collectionId: c.data.collectionId,
+      difficulty: c.data.difficulty,
+    })),
+    decks: decks.map((d) => ({
+      deckId: d.data.deckId,
+      collectionId: d.data.collectionId,
+      name: d.data.name,
+      description: d.data.description,
+      difficulty: d.data.difficulty,
+    })),
+    books: books.map((b) => ({
+      bookId: b.data.bookId,
+      difficulty: b.data.difficulty,
+    })),
+    stories: stories.map((s) => ({
+      storyId: s.data.storyId,
+      bookId: s.data.bookId,
+      title: s.data.title,
+      sentences: s.data.sentences,
+    })),
+  });
+
   const bookMap = new Map(books.map((b) => [b.data.bookId, b.data]));
 
-  return stories.map((story) => ({
-    params: { bookId: story.data.bookId, storyId: story.data.storyId },
-    props: { story: story.data, book: bookMap.get(story.data.bookId)! },
-  }));
+  return stories.map((story) => {
+    const meta = catalog.storyIndex[story.data.storyId];
+    let nextHref: string | null = null;
+    let nextLabel: string | null = null;
+
+    if (meta) {
+      const ladder = getLevelLadder(catalog, meta.level);
+      // next incomplete after this story (pretend this story is done for next calc)
+      const completedStories = [story.data.storyId];
+      const completedDecks: string[] = [];
+      for (const step of ladder.steps) {
+        const view = getStepProgress(step, completedDecks, completedStories);
+        // Skip steps fully done under this hypothetical
+        // Prefer next incomplete after current step index
+        if (step.index <= meta.stepIndex) continue;
+        if (view.nextHalf) {
+          nextHref = hrefForHalf(step, view.nextHalf);
+          nextLabel =
+            view.nextHalf === "cards" && step.deck
+              ? `Next: ${step.deck.name}`
+              : step.story
+                ? `Next: ${step.story.title}`
+                : "Next step";
+          break;
+        }
+      }
+      // Also check same step's cards half if not done (won't be in completedDecks)
+      if (!nextHref) {
+        const current = ladder.steps[meta.stepIndex];
+        if (current?.deck) {
+          nextHref = hrefForHalf(current, "cards");
+          nextLabel = `Cards: ${current.deck.name}`;
+        }
+      }
+    }
+
+    return {
+      params: { bookId: story.data.bookId, storyId: story.data.storyId },
+      props: {
+        story: story.data,
+        book: bookMap.get(story.data.bookId)!,
+        level: meta?.level,
+        stepIndex: meta?.stepIndex,
+        nextHref,
+        nextLabel,
+      },
+    };
+  });
 }
 
-const { story, book } = Astro.props;
+const { story, book, level, stepIndex, nextHref, nextLabel } = Astro.props;
 const canonicalPath = getStoryPath(story.bookId, story.storyId);
 const storyDescription = `Read "${story.title.target}" — a ${story.language} language learning story from ${book.name}`;
 
@@ -52,6 +126,8 @@ const sentences = story.sentences.map((s) => ({
   phonetic: s.phonetic,
   breakdown: s.breakdown,
 }));
+
+const grammarMarkdown = loadGrammarMarkdown(story.language);
 ---
 
 <PageLayout
@@ -61,7 +137,8 @@ const sentences = story.sentences.map((s) => ({
   canonicalPath={canonicalPath}
   jsonLd={jsonLd}
   breadcrumbs={[
-    { label: "Home", href: "/" },
+    { label: "Learn", href: getLearnPath() },
+    { label: "Browse", href: getBrowsePath() },
     { label: "Reading", href: getReadingPath() },
     { label: book.name, href: getBookPath(book.bookId) },
     { label: story.title.target },
@@ -75,5 +152,11 @@ const sentences = story.sentences.map((s) => ({
     summary={story.summary}
     difficulty={story.difficulty}
     bookImageUrl={book.imageUrl}
+    storyId={story.storyId}
+    level={level}
+    stepIndex={stepIndex}
+    nextHref={nextHref}
+    nextLabel={nextLabel}
+    grammarMarkdown={grammarMarkdown}
   />
 </PageLayout>

@@ -13,9 +13,24 @@ export function cn(...inputs: ClassValue[]) {
 // URL Path Generation
 // ---------------------------------------------------------------------------
 
-/** Returns the homepage path */
+/** Returns the homepage / Learn hub path */
 export function getHomePath(): string {
   return "/";
+}
+
+/** Returns the Learn hub path (alias of home) */
+export function getLearnPath(): string {
+  return "/";
+}
+
+/** Returns the Browse hub path */
+export function getBrowsePath(): string {
+  return "/browse";
+}
+
+/** Returns the onboarding path */
+export function getOnboardingPath(): string {
+  return "/onboarding";
 }
 
 /** Returns the flash cards listing path */

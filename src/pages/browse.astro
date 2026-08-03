@@ -1,0 +1,74 @@
+---
+import PageLayout from "../layouts/PageLayout.astro";
+import {
+  getFlashCardsPath,
+  getReadingPath,
+  getLearnPath,
+} from "../lib/utils";
+---
+
+<PageLayout
+  title="Browse | Lingo Lotus"
+  description="Browse all Thai flashcard decks and graded reading stories."
+  ogType="website"
+  canonicalPath="/browse"
+  breadcrumbs={[
+    { label: "Learn", href: getLearnPath() },
+    { label: "Browse" },
+  ]}
+>
+  <div class="mx-auto max-w-2xl space-y-8">
+    <header class="space-y-2">
+      <h1 class="text-3xl font-bold text-slate-900">Browse</h1>
+      <p class="text-slate-600">
+        All flashcards and stories — jump in anywhere. Your Learn path keeps
+        suggesting what’s next.
+      </p>
+    </header>
+
+    <div class="grid gap-4 sm:grid-cols-2">
+      <a
+        href={getFlashCardsPath()}
+        class="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-0.5 hover:border-teal-300 hover:shadow-md"
+      >
+        <p class="text-sm font-semibold uppercase tracking-wide text-teal-700">
+          Flashcards
+        </p>
+        <h2 class="mt-2 text-xl font-bold text-slate-900 group-hover:text-teal-800">
+          Vocabulary decks
+        </h2>
+        <p class="mt-2 text-sm text-slate-600">
+          Practice words and phrases by theme and level, with phonetics and
+          examples.
+        </p>
+        <span class="mt-4 inline-flex text-sm font-semibold text-teal-700">
+          Open flashcards →
+        </span>
+      </a>
+
+      <a
+        href={getReadingPath()}
+        class="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-0.5 hover:border-teal-300 hover:shadow-md"
+      >
+        <p class="text-sm font-semibold uppercase tracking-wide text-teal-700">
+          Reading
+        </p>
+        <h2 class="mt-2 text-xl font-bold text-slate-900 group-hover:text-teal-800">
+          Graded stories
+        </h2>
+        <p class="mt-2 text-sm text-slate-600">
+          Short stories with translations, phonetics, and word-by-word help.
+        </p>
+        <span class="mt-4 inline-flex text-sm font-semibold text-teal-700">
+          Open reading →
+        </span>
+      </a>
+    </div>
+
+    <p class="text-center text-sm text-slate-500">
+      <a href={getLearnPath()} class="font-medium text-teal-700 hover:text-teal-900">
+        ← Back to Learn
+      </a>
+    </p>
+  </div>
+</PageLayout>

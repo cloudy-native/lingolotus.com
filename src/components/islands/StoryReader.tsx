@@ -1,5 +1,9 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect, useId } from "react";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import SpeechButton from "@/components/islands/SpeechButton";
+import SessionComplete from "@/components/islands/SessionComplete";
+import type { Level } from "@/lib/progress";
 import { cn } from "@/lib/utils";
 
 interface Sentence {
@@ -21,6 +25,15 @@ interface StoryReaderProps {
   title: { source: string; target: string };
   summary?: { source: string; target: string };
   difficulty?: string;
+  storyId?: string;
+  isSample?: boolean;
+  onComplete?: () => void;
+  level?: Level;
+  stepIndex?: number;
+  nextHref?: string | null;
+  nextLabel?: string | null;
+  /** Markdown grammar guide (from languages/grammar/{lang}.md) */
+  grammarMarkdown?: string | null;
 }
 
 type StudyMode = "read" | "translate";
@@ -33,12 +46,46 @@ export default function StoryReader({
   summary,
   difficulty,
   bookImageUrl,
+  storyId,
+  isSample = false,
+  onComplete,
+  level,
+  stepIndex,
+  nextHref = null,
+  nextLabel = null,
+  grammarMarkdown = null,
 }: StoryReaderProps) {
   const [mode, setMode] = useState<StudyMode>("read");
   const [fontSize, setFontSize] = useState<FontSize>("base");
   const [showPhonetics, setShowPhonetics] = useState(true);
   const [revealed, setRevealed] = useState<Set<number>>(new Set());
   const [expanded, setExpanded] = useState<Set<number>>(new Set());
+  const [finished, setFinished] = useState(false);
+  const [grammarOpen, setGrammarOpen] = useState(false);
+  const grammarTitleId = useId();
+
+  const openGrammar = useCallback(() => setGrammarOpen(true), []);
+  const closeGrammar = useCallback(() => setGrammarOpen(false), []);
+
+  // Escape + body scroll lock while drawer open
+  useEffect(() => {
+    if (!grammarOpen) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") closeGrammar();
+    };
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    window.addEventListener("keydown", onKey);
+    return () => {
+      document.body.style.overflow = prevOverflow;
+      window.removeEventListener("keydown", onKey);
+    };
+  }, [grammarOpen, closeGrammar]);
+
+  const handleFinish = useCallback(() => {
+    setFinished(true);
+    onComplete?.();
+  }, [onComplete]);
 
   const revealSentence = useCallback((index: number) => {
     setRevealed((prev) => new Set(prev).add(index));
@@ -87,6 +134,20 @@ export default function StoryReader({
     lg: "text-2xl",
   }[fontSize];
 
+  if (finished && !isSample && storyId) {
+    return (
+      <SessionComplete
+        kind="story"
+        storyId={storyId}
+        storyTitle={title.target}
+        level={level}
+        stepIndex={stepIndex}
+        nextHref={nextHref}
+        nextLabel={nextLabel}
+      />
+    );
+  }
+
   return (
     <div className="space-y-8">
       {/* Story Header */}
@@ -122,14 +183,68 @@ export default function StoryReader({
               </span>
             )}
           </div>
-          <button
-            type="button"
-            className="mt-3 inline-flex items-center gap-1.5 rounded-md bg-primary-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-primary-700"
-          >
-            Grammar Cheatsheet
-          </button>
+          {grammarMarkdown && (
+            <button
+              type="button"
+              onClick={openGrammar}
+              className="mt-3 inline-flex items-center gap-1.5 rounded-md bg-teal-700 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-teal-800 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
+            >
+              Grammar Cheatsheet
+            </button>
+          )}
         </div>
       </header>
+
+      {/* Grammar cheatsheet drawer */}
+      {grammarOpen && grammarMarkdown && (
+        <div className="fixed inset-0 z-[100]" role="presentation">
+          <button
+            type="button"
+            className="absolute inset-0 bg-slate-900/40"
+            aria-label="Close grammar cheatsheet"
+            onClick={closeGrammar}
+          />
+          <div
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby={grammarTitleId}
+            className="absolute inset-y-0 right-0 flex w-full max-w-2xl flex-col bg-white shadow-2xl"
+          >
+            <div className="flex items-center justify-between border-b border-slate-200 px-4 py-3 sm:px-6">
+              <h2
+                id={grammarTitleId}
+                className="text-lg font-semibold text-slate-900"
+              >
+                Grammar Guide
+              </h2>
+              <button
+                type="button"
+                onClick={closeGrammar}
+                className="rounded-md p-2 text-slate-500 hover:bg-slate-100 hover:text-slate-900 focus:outline-none focus:ring-2 focus:ring-teal-500"
+                aria-label="Close"
+              >
+                <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            <div className="flex-1 overflow-y-auto px-4 py-6 sm:px-6">
+              <div
+                className={cn(
+                  "prose prose-slate max-w-none prose-headings:scroll-mt-4",
+                  "prose-table:text-sm prose-th:bg-slate-50 prose-th:px-3 prose-th:py-2",
+                  "prose-td:px-3 prose-td:py-2 prose-a:text-teal-700",
+                  "font-thai:font-thai",
+                )}
+              >
+                <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                  {grammarMarkdown}
+                </ReactMarkdown>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Mode Toggle */}
       <div className="flex justify-center">
@@ -298,12 +413,7 @@ export default function StoryReader({
                       <div className="mt-2 border-l-2 border-primary-300 pl-4 space-y-1 ">
                         {sentence.breakdown.map((word, wi) => (
                           <div key={wi} className="flex items-center gap-2 text-sm text-gray-700">
-                            <TextToSpeech
-                              text={word.source}
-                              lang={language}
-                              buttonLabel="🔊"
-                              className="inline-flex h-7 w-7 items-center justify-center rounded-full text-sm text-slate-700 transition-colors hover:text-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2"
-                            />
+                            <SpeechButton text={word.source} languageCode={language} />
                             <span className="italic text-primary-600">{word.phonetic}</span>
                             <span>{" → "}</span>
                             <span>{word.target}</span>
@@ -406,6 +516,20 @@ export default function StoryReader({
           );
         })}
       </div>
+
+      {/* Finish story — marks progress / onboarding */}
+      {!isSample && storyId && (
+        <div className="flex flex-col items-center gap-3 border-t border-slate-200 pt-8">
+          <p className="text-sm text-slate-600">Finished reading?</p>
+          <button
+            type="button"
+            onClick={handleFinish}
+            className="inline-flex items-center justify-center rounded-xl bg-teal-700 px-5 py-3 text-sm font-semibold text-white hover:bg-teal-800"
+          >
+            Mark story complete
+          </button>
+        </div>
+      )}
     </div>
   );
 }

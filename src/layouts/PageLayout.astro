@@ -16,13 +16,26 @@ const { title, description, ogType, canonicalPath, jsonLd, breadcrumbs } =
   Astro.props;
 
 const navLinks = [
-  { label: "Home", href: "/", icon: "home" },
-  { label: "Flashcards", href: "/flash-cards", icon: "cards" },
-  { label: "Reading", href: "/reading", icon: "book" },
-  { label: "About", href: "/about", icon: "info" },
+  { label: "Learn", href: "/", icon: "learn" },
+  { label: "Browse", href: "/browse", icon: "browse" },
 ];
 
 const currentPath = Astro.url.pathname;
+
+function isNavActive(href: string, path: string): boolean {
+  if (href === "/") {
+    return path === "/" || path === "";
+  }
+  if (href === "/browse") {
+    return (
+      path === "/browse" ||
+      path.startsWith("/browse/") ||
+      path.startsWith("/flash-cards") ||
+      path.startsWith("/reading")
+    );
+  }
+  return path === href || path.startsWith(href + "/");
+}
 ---
 
 <BaseLayout
@@ -49,30 +62,20 @@ const currentPath = Astro.url.pathname;
               href={link.href}
               class:list={[
                 "inline-flex items-center gap-1.5 text-sm font-medium transition-colors hover:text-slate-900",
-                currentPath === link.href || (link.href !== "/" && currentPath.startsWith(link.href))
+                isNavActive(link.href, currentPath)
                   ? "text-teal-700"
                   : "text-slate-600",
               ]}
-              aria-current={currentPath === link.href ? "page" : undefined}
+              aria-current={isNavActive(link.href, currentPath) ? "page" : undefined}
             >
-              {link.icon === "home" && (
+              {link.icon === "learn" && (
                 <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342" />
                 </svg>
               )}
-              {link.icon === "cards" && (
+              {link.icon === "browse" && (
                 <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
-                </svg>
-              )}
-              {link.icon === "book" && (
-                <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
-                </svg>
-              )}
-              {link.icon === "info" && (
-                <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                 </svg>
               )}
               {link.label}
@@ -108,11 +111,11 @@ const currentPath = Astro.url.pathname;
               href={link.href}
               class:list={[
                 "block rounded-md px-3 py-2 text-base font-medium transition-colors",
-                currentPath === link.href || (link.href !== "/" && currentPath.startsWith(link.href))
+                isNavActive(link.href, currentPath)
                   ? "bg-teal-50 text-teal-700"
                   : "text-slate-600 hover:bg-slate-50 hover:text-slate-900",
               ]}
-              aria-current={currentPath === link.href ? "page" : undefined}
+              aria-current={isNavActive(link.href, currentPath) ? "page" : undefined}
             >
               {link.label}
             </a>
@@ -147,7 +150,13 @@ const currentPath = Astro.url.pathname;
             Made with ❤️ by <a href="https://dinsor.org" class="hover:text-teal-700 transition-colors">Stephen Harrison</a>
           </p>
         </div>
-        <div class="flex flex-col items-end gap-2">
+        <div class="flex flex-col items-center gap-2 sm:items-end">
+          <nav class="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 text-sm text-slate-600 sm:justify-end" aria-label="Footer">
+            <a href="/" class="hover:text-teal-700">Learn</a>
+            <a href="/browse" class="hover:text-teal-700">Browse</a>
+            <a href="/about" class="hover:text-teal-700">About</a>
+          </nav>
+          <p class="text-xs text-slate-500">Free forever · No account required</p>
           <a
             href="https://github.com/cloudy-native/lingolotus.com"
             target="_blank"

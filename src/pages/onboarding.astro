@@ -1,0 +1,69 @@
+---
+import { getCollection } from "astro:content";
+import PageLayout from "../layouts/PageLayout.astro";
+import OnboardingFlow from "../components/islands/OnboardingFlow";
+import { ONBOARDING } from "../lib/ladder";
+import { loadGrammarMarkdown } from "../lib/grammar";
+import { getLearnPath } from "../lib/utils";
+
+const decks = await getCollection("flashcard-decks");
+const stories = await getCollection("stories");
+const books = await getCollection("books");
+
+const greetingsDeck = decks.find((d) => d.data.deckId === ONBOARDING.deckId);
+const introStory = stories.find((s) => s.data.storyId === ONBOARDING.storyId);
+const introBook = books.find((b) => b.data.bookId === ONBOARDING.bookId);
+
+if (!greetingsDeck || !introStory) {
+  throw new Error(
+    "Onboarding content missing: need greetings deck and thai-beginner-1-greetings story",
+  );
+}
+
+const cards = greetingsDeck.data.cards.map((card) => ({
+  frontContent: card.frontContent,
+  backContent: card.backContent,
+  phonetic: card.phonetic,
+  partOfSpeech: card.partOfSpeech,
+  context: card.context,
+  tags: card.tags,
+  examples: card.examples,
+  sourceLanguage: card.sourceLanguage,
+  targetLanguage: card.targetLanguage,
+}));
+
+const storyPayload = {
+  sentences: introStory.data.sentences.map((s) => ({
+    source: s.source,
+    target: s.target,
+    phonetic: s.phonetic,
+    breakdown: s.breakdown,
+  })),
+  language: introStory.data.language,
+  title: introStory.data.title,
+  summary: introStory.data.summary,
+  difficulty: introStory.data.difficulty,
+};
+
+const grammarMarkdown = loadGrammarMarkdown(introStory.data.language);
+---
+
+<PageLayout
+  title="Start learning | Lingo Lotus"
+  description="A short guided intro to Thai: a few flashcards and a mini story."
+  ogType="website"
+  canonicalPath="/onboarding"
+  breadcrumbs={[
+    { label: "Learn", href: getLearnPath() },
+    { label: "Start" },
+  ]}
+>
+  <OnboardingFlow
+    client:load
+    cards={cards}
+    deckName={greetingsDeck.data.name}
+    story={storyPayload}
+    bookImageUrl={introBook?.data.imageUrl}
+    grammarMarkdown={grammarMarkdown}
+  />
+</PageLayout>

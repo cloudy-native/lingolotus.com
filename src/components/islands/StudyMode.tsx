@@ -1,6 +1,17 @@
-import { useState, useCallback, useEffect } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
 import SpeechButton from "@/components/islands/SpeechButton";
+import SessionComplete, {
+  type PairedStoryInfo,
+} from "@/components/islands/SessionComplete";
 import { FlippableCard } from "@/components/ui/card";
+import {
+  clearDeckSession,
+  loadProgress,
+  resumeCardIndex,
+  saveDeckSession,
+  type CardResult,
+  type Level,
+} from "@/lib/progress";
 import { cn } from "@/lib/utils";
 
 interface StudyCard {
@@ -20,6 +31,16 @@ interface StudyModeProps {
   deckName: string;
   collectionId: string;
   deckId: string;
+  /** Sample / onboarding mode — do not mark full deck complete */
+  isSample?: boolean;
+  /** Called when all cards have been answered (or user finishes sample) */
+  onSessionComplete?: () => void;
+  /** Hide built-in SessionComplete UI (parent handles next step) */
+  hideCompletionActions?: boolean;
+  pairedStory?: PairedStoryInfo | null;
+  storyAlreadyComplete?: boolean;
+  level?: Level;
+  stepIndex?: number;
 }
 
 type LanguageDisplay = "source" | "target";
@@ -36,20 +57,110 @@ function getLangInfo(code: string) {
   return LANG_NAMES[code] || { native: code.toUpperCase(), flag: "🌐" };
 }
 
-export default function StudyMode({ cards, deckName }: StudyModeProps) {
+function emptyResults(n: number): CardResult[] {
+  return new Array(n).fill(null);
+}
+
+export default function StudyMode({
+  cards,
+  deckName,
+  deckId,
+  isSample = false,
+  onSessionComplete,
+  hideCompletionActions = false,
+  pairedStory = null,
+  storyAlreadyComplete = false,
+  level,
+  stepIndex,
+}: StudyModeProps) {
+  const total = cards.length;
+  const hydrated = useRef(false);
+
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [languageDisplay, setLanguageDisplay] = useState<LanguageDisplay>("source");
   // Track per-card results: null = unanswered, true = correct, false = incorrect
-  const [cardResults, setCardResults] = useState<(boolean | null)[]>(
-    () => new Array(cards.length).fill(null)
+  const [cardResults, setCardResults] = useState<CardResult[]>(() =>
+    emptyResults(total),
   );
+  const [showComplete, setShowComplete] = useState(false);
+  const [completionNotified, setCompletionNotified] = useState(false);
+  const [ready, setReady] = useState(isSample);
 
-  const total = cards.length;
+  // Restore saved session (skip sample / onboarding)
+  useEffect(() => {
+    if (isSample || hydrated.current) {
+      setReady(true);
+      return;
+    }
+    hydrated.current = true;
+    const saved = loadProgress().deckSessions?.[deckId];
+    if (saved && saved.total === total && saved.cardResults.length === total) {
+      setCardResults(saved.cardResults);
+      // Continue / resume: land on first wrong, else first unanswered
+      const startAt = resumeCardIndex(saved.cardResults);
+      setCurrentIndex(startAt);
+      const rem =
+        total -
+        saved.cardResults.filter((r) => r === true).length -
+        saved.cardResults.filter((r) => r === false).length;
+      const hasWrong = saved.cardResults.some((r) => r === false);
+      // Prefer cards when wrongs remain to review; only open complete if all correct
+      if (rem <= 0 && !hasWrong && total > 0) {
+        setShowComplete(true);
+        setCompletionNotified(true);
+      } else if (rem <= 0 && hasWrong) {
+        setShowComplete(false);
+        // Session already fully answered — don't auto-popup complete again while reviewing wrongs
+        setCompletionNotified(true);
+      } else {
+        setShowComplete(false);
+        setCompletionNotified(false);
+      }
+      // Keep storage index aligned with where we opened
+      if (startAt !== saved.currentIndex) {
+        saveDeckSession(
+          deckId,
+          {
+            cardResults: saved.cardResults,
+            currentIndex: startAt,
+            total,
+          },
+          { level, stepIndex, touchLastActivity: true },
+        );
+      }
+    }
+    setReady(true);
+  }, [deckId, total, isSample, level, stepIndex]);
+
   const correct = cardResults.filter((r) => r === true).length;
   const incorrect = cardResults.filter((r) => r === false).length;
   const remaining = total - correct - incorrect;
-  const currentCard = cards[currentIndex];
+  const currentCard = cards[currentIndex] ?? cards[0];
+
+  const persistSession = useCallback(
+    (results: CardResult[], index: number) => {
+      if (isSample || total < 1) return;
+      saveDeckSession(
+        deckId,
+        {
+          cardResults: results,
+          currentIndex: index,
+          total,
+        },
+        { level, stepIndex, touchLastActivity: true },
+      );
+    },
+    [deckId, isSample, level, stepIndex, total],
+  );
+
+  // When all cards answered, open completion
+  useEffect(() => {
+    if (!ready || total < 1 || remaining > 0 || completionNotified) return;
+    setCompletionNotified(true);
+    setShowComplete(true);
+    onSessionComplete?.();
+  }, [remaining, total, completionNotified, onSessionComplete, ready]);
 
   const sourceLang = getLangInfo(currentCard.sourceLanguage);
   const targetLang = getLangInfo(currentCard.targetLanguage);
@@ -63,46 +174,81 @@ export default function StudyMode({ cards, deckName }: StudyModeProps) {
 
   const goToPrevious = useCallback(() => {
     if (currentIndex > 0) {
-      setCurrentIndex((prev) => prev - 1);
+      const nextIndex = currentIndex - 1;
+      setCurrentIndex(nextIndex);
       setIsFlipped(false);
+      persistSession(cardResults, nextIndex);
     }
-  }, [currentIndex]);
+  }, [cardResults, currentIndex, persistSession]);
 
   const goToNext = useCallback(() => {
     if (currentIndex < total - 1) {
-      setCurrentIndex((prev) => prev + 1);
+      const nextIndex = currentIndex + 1;
+      setCurrentIndex(nextIndex);
       setIsFlipped(false);
+      persistSession(cardResults, nextIndex);
     }
-  }, [currentIndex, total]);
+  }, [cardResults, currentIndex, persistSession, total]);
 
-  const goToCard = useCallback((index: number) => {
-    setCurrentIndex(index);
-    setIsFlipped(false);
-  }, []);
+  const goToCard = useCallback(
+    (index: number) => {
+      setCurrentIndex(index);
+      setIsFlipped(false);
+      persistSession(cardResults, index);
+    },
+    [cardResults, persistSession],
+  );
 
   const markCorrect = useCallback(() => {
     setCardResults((prev) => {
       const next = [...prev];
       next[currentIndex] = true;
+      const nextIndex =
+        currentIndex < total - 1 ? currentIndex + 1 : currentIndex;
+      persistSession(next, nextIndex);
       return next;
     });
     if (currentIndex < total - 1) {
       setCurrentIndex((prev) => prev + 1);
       setIsFlipped(false);
     }
-  }, [currentIndex, total]);
+  }, [currentIndex, total, persistSession]);
 
   const markIncorrect = useCallback(() => {
     setCardResults((prev) => {
       const next = [...prev];
       next[currentIndex] = false;
+      const nextIndex =
+        currentIndex < total - 1 ? currentIndex + 1 : currentIndex;
+      persistSession(next, nextIndex);
       return next;
     });
     if (currentIndex < total - 1) {
       setCurrentIndex((prev) => prev + 1);
       setIsFlipped(false);
     }
-  }, [currentIndex, total]);
+  }, [currentIndex, total, persistSession]);
+
+  const handleResetDeck = useCallback(() => {
+    if (!isSample) {
+      clearDeckSession(deckId);
+    }
+    const fresh = emptyResults(total);
+    setCardResults(fresh);
+    setCurrentIndex(0);
+    setIsFlipped(false);
+    setShowComplete(false);
+    setCompletionNotified(false);
+    if (!isSample) {
+      persistSession(fresh, 0);
+    }
+  }, [deckId, isSample, persistSession, total]);
+
+  const handleReviewAnswers = useCallback(() => {
+    setShowComplete(false);
+    setIsFlipped(false);
+    // Keep completionNotified true so we don't re-fire onSessionComplete
+  }, []);
 
   // Keyboard navigation
   useEffect(() => {
@@ -255,6 +401,115 @@ export default function StudyMode({ cards, deckName }: StudyModeProps) {
     </div>
   );
 
+  if (!ready || !currentCard) {
+    return (
+      <div className="mx-auto max-w-4xl py-12 text-center text-sm text-slate-500" aria-busy="true">
+        Loading progress…
+      </div>
+    );
+  }
+
+  const progressBar = (
+    <>
+      {/* Progress bar — clickable, colored by answer */}
+      <div className="mb-4 flex gap-0.5" role="list" aria-label="Card progress">
+        {cards.map((_, i) => (
+          <button
+            key={i}
+            type="button"
+            role="listitem"
+            onClick={() => {
+              goToCard(i);
+              if (showComplete) setShowComplete(false);
+            }}
+            className={cn(
+              "h-2.5 flex-1 cursor-pointer rounded-full transition-colors hover:opacity-80",
+              getSegmentColor(i),
+            )}
+            aria-label={
+              cardResults[i] === true
+                ? `Card ${i + 1}, correct`
+                : cardResults[i] === false
+                  ? `Card ${i + 1}, incorrect`
+                  : `Card ${i + 1}, unanswered`
+            }
+          />
+        ))}
+      </div>
+
+      {/* Progress counters */}
+      <div
+        className="mb-4 flex justify-center gap-6 text-sm"
+        role="status"
+        aria-live="polite"
+        aria-label={`Progress: ${correct} correct, ${incorrect} incorrect, ${remaining} remaining out of ${total} total`}
+      >
+        <span className="font-medium text-emerald-600">
+          Correct: {correct}
+        </span>
+        <span className="font-medium text-amber-600">
+          Incorrect: {incorrect}
+        </span>
+        <span className="text-gray-600">
+          Remaining: {remaining}
+        </span>
+      </div>
+    </>
+  );
+
+  if (showComplete && hideCompletionActions) {
+    return (
+      <div className="mx-auto w-full max-w-4xl">
+        {progressBar}
+        <div className="mx-auto max-w-md rounded-2xl border border-slate-200 bg-slate-50 p-6 text-center">
+          <p className="text-lg font-semibold text-slate-900">Cards done</p>
+          <p className="mt-1 text-sm text-slate-600">
+            {correct} correct · {incorrect} to review
+          </p>
+        </div>
+      </div>
+    );
+  }
+
+  if (showComplete && !hideCompletionActions && !isSample) {
+    return (
+      <div className="mx-auto w-full max-w-4xl space-y-6">
+        <div className="text-center">
+          <span className="text-lg font-semibold text-slate-900">{deckName}</span>
+        </div>
+        {progressBar}
+        <SessionComplete
+          kind="deck"
+          deckId={deckId}
+          deckName={deckName}
+          level={level}
+          stepIndex={stepIndex}
+          pairedStory={pairedStory}
+          storyAlreadyComplete={storyAlreadyComplete}
+          correct={correct}
+          incorrect={incorrect}
+          total={total}
+        />
+        <div className="flex flex-wrap justify-center gap-3">
+          <button
+            type="button"
+            onClick={handleReviewAnswers}
+            className="rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-800 hover:bg-slate-50"
+          >
+            Review cards
+          </button>
+          <button
+            type="button"
+            onClick={handleResetDeck}
+            className="rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-800 hover:bg-slate-50"
+          >
+            Reset deck progress
+          </button>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="w-full max-w-4xl mx-auto">
       {/* Header row: deck name + counter + language toggles */}
@@ -297,39 +552,16 @@ export default function StudyMode({ cards, deckName }: StudyModeProps) {
         </div>
       </div>
 
-      {/* Progress bar */}
-      {/* Progress bar — clickable, colored by answer */}
-      <div className="flex gap-0.5 mb-4">
-        {cards.map((_, i) => (
-          <button
-            key={i}
-            type="button"
-            onClick={() => goToCard(i)}
-            className={cn(
-              "h-2 flex-1 rounded-full transition-colors cursor-pointer hover:opacity-80",
-              getSegmentColor(i)
-            )}
-            aria-label={`Go to card ${i + 1}`}
-          />
-        ))}
-      </div>
+      {progressBar}
 
-      {/* Progress counters */}
-      <div
-        className="flex justify-center gap-6 mb-4 text-sm"
-        role="status"
-        aria-live="polite"
-        aria-label={`Progress: ${correct} correct, ${incorrect} incorrect, ${remaining} remaining out of ${total} total`}
-      >
-        <span className="text-emerald-600 font-medium">
-          Correct: {correct}
-        </span>
-        <span className="text-amber-600 font-medium">
-          Incorrect: {incorrect}
-        </span>
-        <span className="text-gray-600 ">
-          Remaining: {remaining}
-        </span>
+      <div className="mb-3 flex justify-end">
+        <button
+          type="button"
+          onClick={handleResetDeck}
+          className="text-xs font-medium text-slate-500 hover:text-slate-800"
+        >
+          Reset deck progress
+        </button>
       </div>
 
       {/* Card with side navigation */}

@@ -25,4 +25,4 @@ That's why I created Lingo Lotus. It's completely free and always will be. My ho
 
 ## Get Started
 
-Ready to begin your language learning journey? Explore our [flashcards](/flash-cards) or dive into our [reading materials](/reading) to start learning today!
+Ready to begin? Start on [Learn](/) for a clear next step, or [browse the library](/browse) for flashcards and reading.

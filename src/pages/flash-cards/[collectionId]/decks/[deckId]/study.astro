@@ -2,20 +2,68 @@
 import { getCollection } from "astro:content";
 import PageLayout from "@/layouts/PageLayout.astro";
 import StudyMode from "@/components/islands/StudyMode.tsx";
-import { getStudyPath, getDeckPath } from "@/lib/utils";
+import { buildLadderCatalog } from "@/lib/ladder";
+import {
+  getStudyPath,
+  getDeckPath,
+  getLearnPath,
+  getBrowsePath,
+} from "@/lib/utils";
 
 export async function getStaticPaths() {
   const decks = await getCollection("flashcard-decks");
-  return decks.map((deck) => ({
-    params: {
-      collectionId: deck.data.collectionId,
-      deckId: deck.data.deckId,
-    },
-    props: { deck: deck.data },
-  }));
+  const collections = await getCollection("flashcard-collections");
+  const books = await getCollection("books");
+  const stories = await getCollection("stories");
+
+  const catalog = buildLadderCatalog({
+    collections: collections.map((c) => ({
+      collectionId: c.data.collectionId,
+      difficulty: c.data.difficulty,
+    })),
+    decks: decks.map((d) => ({
+      deckId: d.data.deckId,
+      collectionId: d.data.collectionId,
+      name: d.data.name,
+      description: d.data.description,
+      difficulty: d.data.difficulty,
+    })),
+    books: books.map((b) => ({
+      bookId: b.data.bookId,
+      difficulty: b.data.difficulty,
+    })),
+    stories: stories.map((s) => ({
+      storyId: s.data.storyId,
+      bookId: s.data.bookId,
+      title: s.data.title,
+      sentences: s.data.sentences,
+    })),
+  });
+
+  return decks.map((deck) => {
+    const meta = catalog.deckIndex[deck.data.deckId];
+    return {
+      params: {
+        collectionId: deck.data.collectionId,
+        deckId: deck.data.deckId,
+      },
+      props: {
+        deck: deck.data,
+        pairedStory: meta?.pairedStory
+          ? {
+              storyId: meta.pairedStory.storyId,
+              bookId: meta.pairedStory.bookId,
+              title: meta.pairedStory.title,
+            }
+          : null,
+        level: meta?.level,
+        stepIndex: meta?.stepIndex,
+      },
+    };
+  });
 }
 
-const { deck } = Astro.props;
+const { deck, pairedStory, level, stepIndex } = Astro.props;
 const canonicalPath = getStudyPath(deck.collectionId, deck.deckId);
 const deckPath = getDeckPath(deck.collectionId, deck.deckId);
 
@@ -37,17 +85,27 @@ const cards = deck.cards.map((card) => ({
   description={`Practice flashcards from ${deck.name} with interactive study mode.`}
   ogType="website"
   canonicalPath={canonicalPath}
+  breadcrumbs={[
+    { label: "Learn", href: getLearnPath() },
+    { label: deck.name },
+    { label: "Study" },
+  ]}
 >
-  <!-- Back to Deck link -->
-  <div class="mb-4">
+  <div class="mb-4 flex flex-wrap items-center justify-between gap-2">
     <a
-      href={deckPath}
-      class="inline-flex items-center gap-1.5 rounded-md bg-slate-800 px-3 py-1.5 text-sm font-medium text-white transition-colors hover:bg-slate-900"
+      href={getLearnPath()}
+      class="inline-flex items-center gap-1.5 rounded-md bg-teal-700 px-3 py-1.5 text-sm font-semibold text-white transition-colors hover:bg-teal-800 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
     >
       <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
         <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
       </svg>
-      Back to Deck
+      Back to Learn
+    </a>
+    <a
+      href={deckPath}
+      class="text-sm font-medium text-slate-500 underline-offset-2 hover:text-slate-800 hover:underline"
+    >
+      Deck details
     </a>
   </div>
 
@@ -57,5 +115,8 @@ const cards = deck.cards.map((card) => ({
     deckName={deck.name}
     collectionId={deck.collectionId}
     deckId={deck.deckId}
+    pairedStory={pairedStory}
+    level={level}
+    stepIndex={stepIndex}
   />
 </PageLayout>
