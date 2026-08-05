@@ -101,14 +101,32 @@ export async function getStaticPaths() {
 
     const unitPairMap: Record<
       string,
-      { unitId: string; level?: string; stepIndex?: number }
+      {
+        unitId: string;
+        unitTitle?: string;
+        level?: string;
+        stepIndex?: number;
+        deck?: {
+          deckId: string;
+          collectionId: string;
+          name: string;
+        } | null;
+      }
     > = {};
     for (const [uid, info] of Object.entries(catalog.unitIndex)) {
       if (info.story?.storyId === story.data.storyId) {
         unitPairMap[uid] = {
           unitId: uid,
+          unitTitle: info.unitTitle,
           level: info.level,
           stepIndex: info.stepIndex,
+          deck: info.deck
+            ? {
+                deckId: info.deck.deckId,
+                collectionId: info.deck.collectionId,
+                name: info.deck.name,
+              }
+            : null,
         };
         if (!unitId) unitId = uid;
       }
@@ -184,6 +202,7 @@ const grammarMarkdown = loadGrammarMarkdown(story.language);
     difficulty={story.difficulty}
     bookImageUrl={book.imageUrl}
     storyId={story.storyId}
+    bookId={story.bookId}
     level={level}
     stepIndex={stepIndex}
     nextHref={nextHref}

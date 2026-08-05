@@ -1,10 +1,36 @@
-/* Google Fonts: Thai-optimized fonts */
-@import url("https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,700&family=Noto+Sans+Thai:wght@100..900&family=Inter:wght@100..900&display=swap");
+/* Google Fonts: Thai-optimized — Sarabun (looped) + Prompt (loop-less / street) */
+@import url("https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,700&family=Prompt:wght@300;400;500;600;700&family=Noto+Sans+Thai:wght@100..900&family=Inter:wght@100..900&display=swap");
 
 /* Tailwind CSS v4 */
 @import "tailwindcss";
 @config "../../tailwind.config.ts";
 @plugin "@tailwindcss/typography";
+
+/*
+ * Thai font stacks via CSS variables so Tailwind's `.font-thai` utility
+ * and our Textbook/Street toggle stay in sync (utilities beat @layer base).
+ */
+:root {
+  --font-thai-looped: "Sarabun", "Noto Sans Thai", ui-sans-serif, system-ui, sans-serif;
+  --font-thai-modern: "Prompt", "Noto Sans Thai", ui-sans-serif, system-ui, sans-serif;
+  --font-thai-family: var(--font-thai-looped);
+}
+
+/* Site-wide preference (gear → <html data-thai-style>) */
+html[data-thai-style="looped"] {
+  --font-thai-family: var(--font-thai-looped);
+}
+html[data-thai-style="modern"] {
+  --font-thai-family: var(--font-thai-modern);
+}
+
+/* Local override (settings cards, story panel) — wins for that subtree */
+[data-thai-style="looped"] {
+  --font-thai-family: var(--font-thai-looped);
+}
+[data-thai-style="modern"] {
+  --font-thai-family: var(--font-thai-modern);
+}
 
 /*
  * shadcn/ui Theme Variables
@@ -95,10 +121,17 @@
     @apply transition-colors duration-200;
   }
 
-  /* Apply Thai font stack to elements containing Thai text */
+  /* Use the CSS variable so Textbook/Street toggle actually switches faces */
   [lang="th"],
   .font-thai {
-    font-family: "Sarabun", "Noto Sans Thai", ui-sans-serif, system-ui, sans-serif;
+    font-family: var(--font-thai-family);
+  }
+}
+
+/* Utilities layer: ensure we beat any generated font-thai utility */
+@layer utilities {
+  .font-thai {
+    font-family: var(--font-thai-family) !important;
   }
 }
 

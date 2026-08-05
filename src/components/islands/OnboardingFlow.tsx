@@ -1,9 +1,12 @@
-import { useCallback, useMemo, useState } from "react";
-import StudyMode from "@/components/islands/StudyMode";
-import StoryReader from "@/components/islands/StoryReader";
+import { lazy, Suspense, useCallback, useMemo, useState } from "react";
 import { ONBOARDING } from "@/lib/ladder";
 import { markOnboardingComplete, skipOnboarding } from "@/lib/progress";
 import { getHomePath, getLearnPath } from "@/lib/utils";
+
+// Lazy-load heavy study/story UI so intro hydrates even if Vite dep cache
+// is stale for react-markdown / remark-gfm (common `pnpm dev` 504s).
+const StudyMode = lazy(() => import("@/components/islands/StudyMode"));
+const StoryReader = lazy(() => import("@/components/islands/StoryReader"));
 
 interface StudyCard {
   frontContent: { type: string; text: string };
@@ -44,6 +47,17 @@ interface OnboardingFlowProps {
 }
 
 type Phase = "intro" | "cards" | "bridge" | "reading" | "done";
+
+function PhaseFallback({ label }: { label: string }) {
+  return (
+    <div
+      className="mx-auto max-w-lg py-12 text-center text-sm text-slate-500"
+      aria-busy="true"
+    >
+      Loading {label}…
+    </div>
+  );
+}
 
 export default function OnboardingFlow({
   cards,
@@ -115,15 +129,17 @@ export default function OnboardingFlow({
             Skip to story
           </button>
         </div>
-        <StudyMode
-          cards={sampleCards}
-          deckName={deckName}
-          collectionId={ONBOARDING.collectionId}
-          deckId={ONBOARDING.deckId}
-          isSample
-          onSessionComplete={() => setPhase("bridge")}
-          hideCompletionActions
-        />
+        <Suspense fallback={<PhaseFallback label="cards" />}>
+          <StudyMode
+            cards={sampleCards}
+            deckName={deckName}
+            collectionId={ONBOARDING.collectionId}
+            deckId={ONBOARDING.deckId}
+            isSample
+            onSessionComplete={() => setPhase("bridge")}
+            hideCompletionActions
+          />
+        </Suspense>
         <div className="flex justify-center pt-2">
           <button
             type="button"
@@ -159,17 +175,19 @@ export default function OnboardingFlow({
     return (
       <div className="space-y-4">
         <p className="text-sm font-medium text-teal-700">Intro · Reading</p>
-        <StoryReader
-          sentences={story.sentences}
-          language={story.language}
-          title={story.title}
-          summary={story.summary}
-          difficulty={story.difficulty}
-          bookImageUrl={bookImageUrl}
-          isSample
-          onComplete={finish}
-          grammarMarkdown={grammarMarkdown}
-        />
+        <Suspense fallback={<PhaseFallback label="story" />}>
+          <StoryReader
+            sentences={story.sentences}
+            language={story.language}
+            title={story.title}
+            summary={story.summary}
+            difficulty={story.difficulty}
+            bookImageUrl={bookImageUrl}
+            isSample
+            onComplete={finish}
+            grammarMarkdown={grammarMarkdown}
+          />
+        </Suspense>
         <div className="flex justify-center pb-8">
           <button
             type="button"

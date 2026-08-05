@@ -5,20 +5,26 @@ export interface SpeechButtonProps {
   text: string;
   languageCode: string;
   className?: string;
+  /** Compact control for dense tables */
+  size?: "md" | "sm";
+  /** Optional label override for accessibility */
+  label?: string;
 }
 
 /**
- * SpeechButton island — Web Speech API TTS control.
- * Designed to read clearly next to Thai/English text (emoji + solid chip).
+ * SpeechButton — Web Speech API TTS control.
+ * Liberal: attempts speech even without a perfect language voice match.
  */
 export default function SpeechButton({
   text,
   languageCode,
   className,
+  size = "md",
+  label,
 }: SpeechButtonProps) {
   const [isSpeaking, setIsSpeaking] = useState(false);
   const [isAvailable, setIsAvailable] = useState(false);
-  const [hasVoice, setHasVoice] = useState(false);
+  const [hasLangVoice, setHasLangVoice] = useState(false);
   const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
 
   useEffect(() => {
@@ -36,7 +42,7 @@ export default function SpeechButton({
           voice.lang === languageCode ||
           voice.lang.startsWith(`${languageCode}-`),
       );
-      setHasVoice(match);
+      setHasLangVoice(match);
     };
 
     checkVoices();
@@ -49,39 +55,55 @@ export default function SpeechButton({
   }, [languageCode]);
 
   const speak = useCallback(() => {
-    if (!window.speechSynthesis || isSpeaking) {
+    if (!window.speechSynthesis || !text.trim()) {
       return;
     }
 
     window.speechSynthesis.cancel();
 
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = languageCode;
+    // Prefer requested language; browser may still speak with a fallback voice
+    utterance.lang =
+      languageCode.length === 2 ? `${languageCode}-TH` : languageCode;
+    if (languageCode === "th") {
+      utterance.lang = "th-TH";
+    }
 
     const voices = window.speechSynthesis.getVoices();
     const exactMatch = voices.find((v) => v.lang === languageCode);
+    const thMatch = voices.find(
+      (v) =>
+        v.lang === "th-TH" ||
+        v.lang === "th" ||
+        v.lang.startsWith("th-"),
+    );
     const prefixMatch = voices.find((v) =>
       v.lang.startsWith(`${languageCode}-`),
     );
-    const voice = exactMatch || prefixMatch;
+    const voice = exactMatch || thMatch || prefixMatch;
     if (voice) {
       utterance.voice = voice;
+      utterance.lang = voice.lang;
     }
 
+    utterance.rate = 0.9;
     utterance.onstart = () => setIsSpeaking(true);
     utterance.onend = () => setIsSpeaking(false);
     utterance.onerror = () => setIsSpeaking(false);
 
     utteranceRef.current = utterance;
     window.speechSynthesis.speak(utterance);
-  }, [text, languageCode, isSpeaking]);
+  }, [text, languageCode]);
 
   const stop = useCallback(() => {
     window.speechSynthesis.cancel();
     setIsSpeaking(false);
   }, []);
 
-  const handleClick = (e: { stopPropagation: () => void; preventDefault: () => void }) => {
+  const handleClick = (e: {
+    stopPropagation: () => void;
+    preventDefault: () => void;
+  }) => {
     e.stopPropagation();
     e.preventDefault();
     if (isSpeaking) {
@@ -91,15 +113,19 @@ export default function SpeechButton({
     }
   };
 
-  const isDisabled = !isAvailable || !hasVoice;
+  // Only hard-disable when the API is missing entirely
+  const isDisabled = !isAvailable || !text.trim();
 
   const title = isDisabled
-    ? !isAvailable
-      ? "Speech synthesis is not supported in this browser"
-      : "No voice available for this language"
+    ? "Speech synthesis is not supported in this browser"
     : isSpeaking
       ? "Stop speaking"
-      : `Speak: ${text}`;
+      : label ||
+        (hasLangVoice
+          ? `Speak: ${text}`
+          : `Speak: ${text} (may use a fallback voice)`);
+
+  const dim = size === "sm" ? "h-7 w-7 text-sm" : "h-9 w-9 text-lg";
 
   return (
     <button
@@ -109,7 +135,8 @@ export default function SpeechButton({
       aria-label={title}
       title={title}
       className={cn(
-        "inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full text-lg leading-none transition-all",
+        "inline-flex shrink-0 items-center justify-center rounded-full leading-none transition-all",
+        dim,
         "shadow-sm ring-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2",
         isSpeaking
           ? "bg-teal-600 text-white ring-teal-700 shadow-md scale-105 animate-pulse"

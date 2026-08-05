@@ -2,6 +2,8 @@
 import BaseLayout from "./BaseLayout.astro";
 import Breadcrumb from "@/components/Breadcrumb.astro";
 import type { BreadcrumbItem } from "@/components/Breadcrumb.astro";
+import GrammarLauncher from "@/components/islands/GrammarLauncher";
+import ReaderSettings from "@/components/islands/ReaderSettings";
 
 interface Props {
   title: string;
@@ -10,10 +12,21 @@ interface Props {
   canonicalPath: string;
   jsonLd?: Record<string, unknown>;
   breadcrumbs?: BreadcrumbItem[];
+  /** Show site-wide Grammar cheatsheet control (default true) */
+  showGrammar?: boolean;
+  grammarLevel?: string | null;
 }
 
-const { title, description, ogType, canonicalPath, jsonLd, breadcrumbs } =
-  Astro.props;
+const {
+  title,
+  description,
+  ogType,
+  canonicalPath,
+  jsonLd,
+  breadcrumbs,
+  showGrammar = true,
+  grammarLevel = null,
+} = Astro.props;
 
 const navLinks = [
   { label: "Learn", href: "/", icon: "learn" },
@@ -54,47 +67,54 @@ function isNavActive(href: string, path: string): boolean {
         <span>Lingo Lotus</span>
       </a>
 
-      <!-- Desktop Navigation -->
-      <ul class="hidden md:flex md:items-center md:gap-6">
-        {navLinks.map((link) => (
-          <li>
-            <a
-              href={link.href}
-              class:list={[
-                "inline-flex items-center gap-1.5 text-sm font-medium transition-colors hover:text-slate-900 dark:hover:text-white",
-                isNavActive(link.href, currentPath)
-                  ? "text-teal-700 dark:text-teal-400"
-                  : "text-slate-600 dark:text-slate-300",
-              ]}
-              aria-current={isNavActive(link.href, currentPath) ? "page" : undefined}
-            >
-              {link.icon === "learn" && (
-                <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342" />
-                </svg>
-              )}
-              {link.icon === "browse" && (
-                <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                </svg>
-              )}
-              {link.label}
-            </a>
-          </li>
-        ))}
-      </ul>
+      <div class="flex items-center gap-2 sm:gap-4">
+        <!-- Desktop Navigation -->
+        <ul class="hidden md:flex md:items-center md:gap-6">
+          {navLinks.map((link) => (
+            <li>
+              <a
+                href={link.href}
+                class:list={[
+                  "inline-flex items-center gap-1.5 text-sm font-medium transition-colors hover:text-slate-900 dark:hover:text-white",
+                  isNavActive(link.href, currentPath)
+                    ? "text-teal-700 dark:text-teal-400"
+                    : "text-slate-600 dark:text-slate-300",
+                ]}
+                aria-current={isNavActive(link.href, currentPath) ? "page" : undefined}
+              >
+                {link.icon === "learn" && (
+                  <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342" />
+                  </svg>
+                )}
+                {link.icon === "browse" && (
+                  <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>
+                )}
+                {link.label}
+              </a>
+            </li>
+          ))}
+        </ul>
 
-      <!-- Mobile Menu Button -->
-      <div class="flex items-center gap-2 md:hidden">
+        <!-- Reading prefs (Thai style, size, phonetics…) — persists site-wide -->
+        <ReaderSettings client:load variant="nav" />
+
+        <!-- Grammar: one island, all breakpoints -->
+        {showGrammar && (
+          <GrammarLauncher client:load languageCode="th" level={grammarLevel} />
+        )}
+
+        <!-- Mobile menu button -->
         <button
           type="button"
-          class="inline-flex items-center justify-center rounded-md p-2 text-slate-600 hover:bg-slate-100 hover:text-slate-900 focus:outline-none focus:ring-2 focus:ring-teal-500 dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white"
+          class="inline-flex items-center justify-center rounded-md p-2 text-slate-600 hover:bg-slate-100 hover:text-slate-900 focus:outline-none focus:ring-2 focus:ring-teal-500 dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white md:hidden"
           aria-expanded="false"
           aria-controls="mobile-menu"
           id="mobile-menu-button"
         >
           <span class="sr-only">Open main menu</span>
-          <!-- Hamburger icon -->
           <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg>

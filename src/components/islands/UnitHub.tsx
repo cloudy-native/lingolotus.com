@@ -19,13 +19,11 @@ import {
 } from "@/lib/utils";
 import { cn } from "@/lib/utils";
 import { DIR_ICONS, emojiForLevel, emojiForUnit } from "@/lib/content-icons";
-import GrammarCheatsheet, {
-  GrammarOpenButton,
-} from "@/components/islands/GrammarCheatsheet";
 
 export interface UnitHubProps {
   step: LadderStep;
   level: Level;
+  /** @deprecated Grammar is in site nav; prop kept for call-site compatibility */
   grammarMarkdown?: string | null;
 }
 
@@ -35,7 +33,7 @@ export default function UnitHub({
   grammarMarkdown = null,
 }: UnitHubProps) {
   const [progress, setProgress] = useState<LearnerProgress | null>(null);
-  const [grammarOpen, setGrammarOpen] = useState(false);
+  void grammarMarkdown;
 
   useEffect(() => {
     setProgress(loadProgress());
@@ -96,15 +94,6 @@ export default function UnitHub({
 
   return (
     <div className="mx-auto max-w-xl space-y-6 py-2 sm:py-4">
-      {grammarMarkdown && (
-        <GrammarCheatsheet
-          open={grammarOpen}
-          onClose={() => setGrammarOpen(false)}
-          referenceMarkdown={grammarMarkdown}
-          level={level}
-          languageCode="th"
-        />
-      )}
       <div className="flex flex-wrap items-center justify-between gap-2">
         <a
           href={getLearnPath()}
@@ -112,12 +101,6 @@ export default function UnitHub({
         >
           ← Back to Learn map
         </a>
-        {grammarMarkdown && (
-          <GrammarOpenButton
-            onClick={() => setGrammarOpen(true)}
-            expanded={grammarOpen}
-          />
-        )}
       </div>
 
       <header className="space-y-3">

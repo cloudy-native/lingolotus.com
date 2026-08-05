@@ -1,11 +1,10 @@
 import { useState, useCallback, useEffect, useRef } from "react";
-import SpeechButton from "@/components/islands/SpeechButton";
 import SessionComplete, {
   type PairedStoryInfo,
 } from "@/components/islands/SessionComplete";
-import GrammarCheatsheet, {
-  GrammarOpenButton,
-} from "@/components/islands/GrammarCheatsheet";
+import { useReaderSettings } from "@/components/islands/ReaderSettings";
+import { ThaiPhrase } from "@/components/islands/ThaiPhrase";
+import UnitModeSwitcher from "@/components/islands/UnitModeSwitcher";
 import { FlippableCard } from "@/components/ui/card";
 import {
   clearDeckSession,
@@ -15,13 +14,22 @@ import {
   type CardResult,
   type Level,
 } from "@/lib/progress";
-import { cn, readUnitIdFromSearch } from "@/lib/utils";
+import {
+  cn,
+  getLearnPath,
+  getStoryPath,
+  getStudyPath,
+  getUnitPath,
+  readUnitIdFromSearch,
+  withUnitQuery,
+} from "@/lib/utils";
 
 /** Serializable unit → pair map for client-side `?unit=` resolution */
 export type ClientUnitPairMap = Record<
   string,
   {
     unitId: string;
+    unitTitle?: string;
     level?: Level;
     stepIndex?: number;
     story?: PairedStoryInfo | null;
@@ -59,6 +67,8 @@ interface StudyModeProps {
   /** unitId → pair info; used when URL has ?unit= */
   unitPairMap?: ClientUnitPairMap | null;
   grammarMarkdown?: string | null;
+  /** Optional link to deck detail page (page chrome) */
+  deckDetailsHref?: string | null;
 }
 
 type LanguageDisplay = "source" | "target";
@@ -82,6 +92,7 @@ function emptyResults(n: number): CardResult[] {
 export default function StudyMode({
   cards,
   deckName,
+  collectionId,
   deckId,
   isSample = false,
   onSessionComplete,
@@ -93,11 +104,12 @@ export default function StudyMode({
   unitId = null,
   unitPairMap = null,
   grammarMarkdown = null,
+  deckDetailsHref = null,
 }: StudyModeProps) {
   const total = cards.length;
   const hydrated = useRef(false);
+  const { fontSize, showPhonetics, showPos } = useReaderSettings();
 
-  const [grammarOpen, setGrammarOpen] = useState(false);
   const [activeUnitId, setActiveUnitId] = useState<string | null>(unitId);
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -124,6 +136,75 @@ export default function StudyMode({
     activeUnitId && unitPairMap?.[activeUnitId]
       ? unitPairMap[activeUnitId].stepIndex
       : stepIndex;
+  const resolvedUnitTitle =
+    (activeUnitId && unitPairMap?.[activeUnitId]?.unitTitle) || null;
+
+  const cardsHref =
+    !isSample && activeUnitId
+      ? withUnitQuery(getStudyPath(collectionId, deckId), activeUnitId)
+      : null;
+  const storyHref =
+    !isSample && activeUnitId && resolvedPair
+      ? withUnitQuery(
+          getStoryPath(resolvedPair.bookId, resolvedPair.storyId),
+          activeUnitId,
+        )
+      : null;
+
+  const modeSwitcher =
+    !isSample && activeUnitId && cardsHref && storyHref ? (
+      <UnitModeSwitcher
+        unitId={activeUnitId}
+        unitTitle={resolvedUnitTitle || deckName}
+        active="cards"
+        cardsHref={cardsHref}
+        storyHref={storyHref}
+      />
+    ) : null;
+
+  /** Shared page chrome with StoryReader (back + secondary link + mode switcher) */
+  const pageChrome = !isSample ? (
+    <div className="mb-4 space-y-3">
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <a
+          href={getLearnPath()}
+          className="inline-flex items-center gap-1.5 rounded-md bg-teal-700 px-3 py-1.5 text-sm font-semibold text-white transition-colors hover:bg-teal-800 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
+        >
+          <svg
+            className="h-4 w-4"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth="2"
+            stroke="currentColor"
+            aria-hidden="true"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"
+            />
+          </svg>
+          Back to Learn
+        </a>
+        {activeUnitId ? (
+          <a
+            href={getUnitPath(activeUnitId)}
+            className="text-sm font-medium text-slate-500 underline-offset-2 hover:text-slate-800 hover:underline"
+          >
+            Unit hub
+          </a>
+        ) : deckDetailsHref ? (
+          <a
+            href={deckDetailsHref}
+            className="text-sm font-medium text-slate-500 underline-offset-2 hover:text-slate-800 hover:underline"
+          >
+            Deck details
+          </a>
+        ) : null}
+      </div>
+      {modeSwitcher}
+    </div>
+  ) : null;
   const [isFlipped, setIsFlipped] = useState(false);
   const [languageDisplay, setLanguageDisplay] = useState<LanguageDisplay>("source");
   // Track per-card results: null = unanswered, true = correct, false = incorrect
@@ -357,106 +438,93 @@ export default function StudyMode({
     return "bg-slate-200";
   };
 
+  const thaiText = currentCard.frontContent.text;
+  const englishText = currentCard.backContent.text;
+  const thaiLang = currentCard.sourceLanguage;
+
+  // Front: one clear prompt — no nested chrome
   const frontContent = (
-    <div className="flex flex-col items-center justify-center min-h-[300px] p-6">
-      <div className="flex items-center justify-center gap-2">
-        <p className="text-3xl md:text-4xl font-bold text-center text-gray-900  font-thai">
-          {getFrontText()}
-        </p>
-        <SpeechButton
-          text={getFrontText()}
-          languageCode={languageDisplay === "source" ? currentCard.sourceLanguage : currentCard.targetLanguage}
+    <div className="flex min-h-[220px] flex-col items-center justify-center px-6 py-10 sm:min-h-[240px]">
+      {languageDisplay === "source" ? (
+        <ThaiPhrase
+          thai={thaiText}
+          phonetic={currentCard.phonetic}
+          languageCode={thaiLang}
+          showPhonetics={showPhonetics}
+          fontSize={fontSize}
+          partOfSpeech={currentCard.partOfSpeech}
+          showPos={showPos}
+          align="center"
+          size="lg"
         />
-      </div>
-      {currentCard.phonetic && languageDisplay === "source" && (
-        <p className="mt-3 text-lg text-slate-500 italic">
-          /{currentCard.phonetic}/
+      ) : (
+        <p
+          className={cn(
+            "text-center font-bold text-slate-900",
+            fontSize === "sm" && "text-2xl",
+            fontSize === "base" && "text-3xl md:text-4xl",
+            fontSize === "lg" && "text-4xl md:text-5xl",
+          )}
+        >
+          {englishText}
         </p>
       )}
-      {currentCard.partOfSpeech && (
-        <span className="mt-6 inline-flex items-center rounded-full bg-rose-100 px-3 py-1 text-sm font-medium text-rose-700  ">
-          {currentCard.partOfSpeech}
-        </span>
-      )}
-      <p className="mt-6 text-sm text-slate-500">
-        Tap or click anywhere to flip
-      </p>
     </div>
   );
 
+  // Back: English → Thai → compact examples (no nested card stack)
   const backContent = (
-    <div className="flex flex-col p-6">
-      {/* Translation word with context */}
-      <div className="rounded-xl border border-slate-200 bg-slate-50 p-4 mb-3">
-        <p className="text-2xl md:text-3xl font-bold text-slate-900">
-          {getBackText()}
+    <div className="flex flex-col gap-4 px-5 py-5 sm:px-6 sm:py-6">
+      <div>
+        <p
+          className={cn(
+            "font-bold leading-snug text-slate-900",
+            fontSize === "sm" && "text-xl",
+            fontSize === "base" && "text-2xl",
+            fontSize === "lg" && "text-3xl",
+          )}
+        >
+          {languageDisplay === "source" ? englishText : thaiText}
         </p>
-        {currentCard.context && (
-          <p className="mt-1 text-sm text-slate-600">
-            {currentCard.context}
-          </p>
-        )}
+        {currentCard.context ? (
+          <p className="mt-0.5 text-sm text-slate-500">{currentCard.context}</p>
+        ) : null}
       </div>
 
-      {/* Source word + phonetic */}
-      <div className="rounded-xl border border-slate-200 bg-white p-4 mb-4">
-        <div className="flex items-start justify-between gap-2">
-          <div>
-            <p className="text-xl font-bold text-slate-900 font-thai">
-              {languageDisplay === "source"
-                ? currentCard.frontContent.text
-                : currentCard.backContent.text}
-            </p>
-            {currentCard.phonetic && (
-              <p className="text-sm text-slate-500 italic">
-                /{currentCard.phonetic}/
-              </p>
-            )}
-          </div>
-          <SpeechButton
-            text={languageDisplay === "source" ? currentCard.frontContent.text : currentCard.backContent.text}
-            languageCode={languageDisplay === "source" ? currentCard.sourceLanguage : currentCard.targetLanguage}
-          />
-        </div>
-      </div>
+      <ThaiPhrase
+        thai={thaiText}
+        phonetic={currentCard.phonetic}
+        languageCode={thaiLang}
+        showPhonetics={showPhonetics}
+        fontSize={fontSize}
+        partOfSpeech={currentCard.partOfSpeech}
+        showPos={showPos}
+        align="start"
+        size="md"
+      />
 
-      {/* Examples */}
-      {currentCard.examples && currentCard.examples.length > 0 && (
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
+      {currentCard.examples && currentCard.examples.length > 0 ? (
+        <ul className="space-y-3 border-t border-slate-100 pt-3">
           {currentCard.examples.map((example, idx) => (
-            <div
-              key={idx}
-              className="rounded-xl border border-slate-200 bg-slate-50 p-3"
-            >
-              <p className="text-sm font-medium text-slate-900">
-                {example.translation}
-              </p>
-              <p className="text-sm text-slate-700 font-thai">
-                {example.original}
-              </p>
-              {example.phonetic && (
-                <p className="text-xs italic text-slate-500">
-                  /{example.phonetic}/
+            <li key={idx}>
+              {example.translation ? (
+                <p className="mb-0.5 text-xs font-medium text-slate-500">
+                  {example.translation}
                 </p>
-              )}
-            </div>
+              ) : null}
+              <ThaiPhrase
+                thai={example.original}
+                phonetic={example.phonetic}
+                languageCode={thaiLang}
+                showPhonetics={showPhonetics}
+                fontSize={fontSize}
+                align="start"
+                size="sm"
+              />
+            </li>
           ))}
-        </div>
-      )}
-
-      {/* Tags */}
-      {currentCard.tags && currentCard.tags.length > 0 && (
-        <div className="flex flex-wrap gap-1.5">
-          {currentCard.tags.map((tag, idx) => (
-            <span
-              key={idx}
-              className="inline-flex items-center rounded-full border border-slate-200 bg-slate-100 px-2.5 py-0.5 text-xs font-medium text-slate-700"
-            >
-              {tag}
-            </span>
-          ))}
-        </div>
-      )}
+        </ul>
+      ) : null}
     </div>
   );
 
@@ -519,6 +587,7 @@ export default function StudyMode({
   if (showComplete && hideCompletionActions) {
     return (
       <div className="mx-auto w-full max-w-4xl">
+        {pageChrome}
         {progressBar}
         <div className="mx-auto max-w-md rounded-2xl border border-slate-200 bg-slate-50 p-6 text-center">
           <p className="text-lg font-semibold text-slate-900">Cards done</p>
@@ -533,6 +602,7 @@ export default function StudyMode({
   if (showComplete && !hideCompletionActions && !isSample) {
     return (
       <div className="mx-auto w-full max-w-4xl space-y-6">
+        {pageChrome}
         <div className="text-center">
           <span className="text-lg font-semibold text-slate-900">{deckName}</span>
         </div>
@@ -570,33 +640,21 @@ export default function StudyMode({
     );
   }
 
+  // grammarMarkdown kept for call-site compatibility; Grammar lives in site nav
+  void grammarMarkdown;
+
   return (
-    <div className="w-full max-w-4xl mx-auto">
-      {grammarMarkdown && (
-        <GrammarCheatsheet
-          open={grammarOpen}
-          onClose={() => setGrammarOpen(false)}
-          referenceMarkdown={grammarMarkdown}
-          level={level}
-          languageCode={cards[0]?.sourceLanguage || "th"}
-        />
-      )}
+    <div className="mx-auto w-full max-w-4xl">
+      {pageChrome}
       {/* Header row: deck name + counter + language toggles */}
-      <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
+      <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
         <div className="flex flex-1 flex-wrap items-center justify-center gap-2 text-center">
-          <span className="text-lg font-semibold text-slate-900">
+          <span className="text-lg font-semibold text-slate-900 sm:text-xl">
             {deckName}
           </span>
           <span className="text-lg text-teal-700">
             {currentIndex + 1} of {total}
           </span>
-          {grammarMarkdown && (
-            <GrammarOpenButton
-              onClick={() => setGrammarOpen(true)}
-              expanded={grammarOpen}
-              className="!py-1.5 !text-xs"
-            />
-          )}
         </div>
         <div className="flex gap-2">
           <button

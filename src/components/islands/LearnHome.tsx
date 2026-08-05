@@ -26,7 +26,13 @@ import {
   emojiForLevel,
   emojiForUnit,
 } from "@/lib/content-icons";
-import { getBrowsePath, getOnboardingPath, getUnitPath } from "@/lib/utils";
+import {
+  getBrowsePath,
+  getFlashCardsPath,
+  getOnboardingPath,
+  getReadingPath,
+  getUnitPath,
+} from "@/lib/utils";
 import { cn } from "@/lib/utils";
 
 interface LearnHomeProps {
@@ -109,6 +115,139 @@ function unitHref(step: LadderStep, view: StepProgressView): string {
         : step.story
           ? hrefForHalf(step, "reading")
           : "#")
+  );
+}
+
+/** Decorative floaters — pure presentation */
+function HeroDecor({ variant = "welcome" }: { variant?: "start" | "welcome" }) {
+  const floats =
+    variant === "start"
+      ? [
+          { e: "👋", c: "left-[6%] top-[18%] text-2xl opacity-90" },
+          { e: "🍜", c: "right-[10%] top-[14%] text-xl opacity-80" },
+          { e: "🎨", c: "left-[12%] bottom-[20%] text-xl opacity-75" },
+          { e: "✈️", c: "right-[8%] bottom-[22%] text-2xl opacity-85" },
+          { e: "🐱", c: "left-[40%] top-[8%] text-lg opacity-70" },
+          { e: "🛕", c: "right-[28%] bottom-[12%] text-lg opacity-70" },
+        ]
+      : [
+          { e: "🃏", c: "left-[8%] top-[20%] text-xl opacity-80" },
+          { e: "📖", c: "right-[12%] top-[16%] text-2xl opacity-85" },
+          { e: "🎵", c: "left-[18%] bottom-[18%] text-lg opacity-70" },
+          { e: "🗺️", c: "right-[16%] bottom-[20%] text-xl opacity-75" },
+        ];
+
+  return (
+    <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden="true">
+      {/* soft blobs */}
+      <div className="absolute -left-16 -top-20 h-56 w-56 rounded-full bg-teal-300/40 blur-3xl" />
+      <div className="absolute -right-12 top-8 h-48 w-48 rounded-full bg-amber-200/50 blur-3xl" />
+      <div className="absolute bottom-0 left-1/3 h-40 w-40 rounded-full bg-violet-200/40 blur-3xl" />
+      {/* Thai script watermark */}
+      <p className="absolute right-3 top-3 select-none font-thai text-5xl font-bold leading-none text-teal-900/[0.07] sm:right-6 sm:top-5 sm:text-7xl">
+        สวัสดี
+      </p>
+      <p className="absolute bottom-2 left-4 select-none font-thai text-4xl font-bold leading-none text-amber-900/[0.06] sm:text-5xl">
+        เรียนไทย
+      </p>
+      {/* floating topic icons */}
+      {floats.map((f) => (
+        <span
+          key={f.e + f.c}
+          className={cn("absolute hidden animate-pulse sm:block", f.c)}
+          style={{ animationDuration: "3.5s" }}
+        >
+          {f.e}
+        </span>
+      ))}
+      {/* dotted path hint */}
+      <svg
+        className="absolute bottom-0 left-0 right-0 h-16 w-full text-teal-600/15"
+        viewBox="0 0 400 40"
+        fill="none"
+        preserveAspectRatio="none"
+      >
+        <path
+          d="M0 28 C 60 8, 100 32, 160 18 S 280 4, 340 22 S 380 30, 400 16"
+          stroke="currentColor"
+          strokeWidth="3"
+          strokeDasharray="6 8"
+          strokeLinecap="round"
+        />
+      </svg>
+    </div>
+  );
+}
+
+function TrustPills() {
+  return (
+    <ul className="flex flex-wrap gap-2">
+      {[
+        { e: "🆓", t: "Free forever" },
+        { e: "📵", t: "No account" },
+        { e: "💾", t: "Saved on this device" },
+      ].map((p) => (
+        <li
+          key={p.t}
+          className="inline-flex items-center gap-1.5 rounded-full border border-white/60 bg-white/70 px-3 py-1 text-xs font-semibold text-slate-700 shadow-sm backdrop-blur-sm"
+        >
+          <span aria-hidden="true">{p.e}</span>
+          {p.t}
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+function HowItWorksStrip() {
+  const steps = [
+    {
+      e: "🃏",
+      title: "Cards",
+      blurb: "Flip words & phrases",
+      tone: "from-cyan-50 to-teal-100 border-cyan-200 hover:border-cyan-400 hover:shadow-md",
+      href: getFlashCardsPath(),
+    },
+    {
+      e: "📖",
+      title: "Stories",
+      blurb: "Same theme in Thai",
+      tone: "from-amber-50 to-orange-100 border-amber-200 hover:border-amber-400 hover:shadow-md",
+      href: getReadingPath(),
+    },
+    {
+      e: "🗺️",
+      title: "Path",
+      blurb: "Clear next step",
+      tone: "from-violet-50 to-fuchsia-100 border-violet-200 hover:border-violet-400 hover:shadow-md",
+      href: getOnboardingPath(),
+    },
+  ];
+  return (
+    <ul className="grid grid-cols-3 gap-2 sm:gap-3">
+      {steps.map((s) => (
+        <li key={s.title}>
+          <a
+            href={s.href}
+            className={cn(
+              "block rounded-2xl border bg-gradient-to-br px-2 py-3 text-center shadow-sm transition sm:px-3 sm:py-4",
+              "focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2",
+              s.tone,
+            )}
+          >
+            <span className="text-2xl sm:text-3xl" aria-hidden="true">
+              {s.e}
+            </span>
+            <p className="mt-1 text-xs font-bold text-slate-900 sm:text-sm">
+              {s.title}
+            </p>
+            <p className="mt-0.5 hidden text-[11px] leading-snug text-slate-600 sm:block">
+              {s.blurb}
+            </p>
+          </a>
+        </li>
+      ))}
+    </ul>
   );
 }
 
@@ -209,141 +348,297 @@ export default function LearnHome({ catalog }: LearnHomeProps) {
 
   if (isFirstRun) {
     return (
-      <div className="mx-auto max-w-xl">
-        <section className="space-y-6 py-4 sm:py-8">
-          <div>
-            <p className="mb-2 text-sm font-medium text-teal-700">
-              {DIR_ICONS.learn} Lingo Lotus
-            </p>
-            <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-              Learn Thai, one clear step at a time
-            </h1>
-            <p className="mt-3 text-base text-slate-600 sm:text-lg">
-              Short flashcard steps and simple stories with phonetics — free, on
-              this device.
-            </p>
+      <div className="mx-auto max-w-3xl space-y-6 py-2 sm:py-4">
+        {/* Hero */}
+        <section className="relative overflow-hidden rounded-[1.75rem] border border-teal-200/80 bg-gradient-to-br from-teal-50 via-white to-amber-50 px-5 py-8 shadow-lg sm:px-8 sm:py-10">
+          <HeroDecor variant="start" />
+          <div className="relative z-10 space-y-5">
+            <div className="inline-flex items-center gap-2 rounded-full border border-teal-200/80 bg-white/80 px-3 py-1 text-sm font-semibold text-teal-800 shadow-sm backdrop-blur-sm">
+              <span className="text-lg" aria-hidden="true">
+                🪷
+              </span>
+              Lingo Lotus
+              <span className="font-thai font-normal text-teal-600/80">· ภาษาไทย</span>
+            </div>
+            <div className="max-w-xl">
+              <h1 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl sm:leading-tight">
+                Learn Thai that{" "}
+                <span className="bg-gradient-to-r from-teal-700 to-emerald-600 bg-clip-text text-transparent">
+                  feels real
+                </span>
+                — one clear step at a time
+              </h1>
+              <p className="mt-3 text-base text-slate-600 sm:text-lg">
+                Pair short flashcard drills with graded stories, phonetics, and a
+                map of every unit. Free, private, and saved on this device.
+              </p>
+            </div>
+            <TrustPills />
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
+              <a
+                href={getOnboardingPath()}
+                className="inline-flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-teal-600 to-emerald-600 px-6 py-3.5 text-base font-bold text-white shadow-md shadow-teal-600/25 transition hover:from-teal-700 hover:to-emerald-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2"
+              >
+                <span aria-hidden="true">🚀</span> Start learning
+              </a>
+              <a
+                href={getBrowsePath()}
+                className="inline-flex items-center justify-center gap-2 rounded-2xl border border-slate-200 bg-white/90 px-5 py-3 text-base font-semibold text-slate-800 shadow-sm transition hover:border-teal-300 hover:bg-white"
+              >
+                <span aria-hidden="true">{DIR_ICONS.browse}</span> Browse the library
+              </a>
+            </div>
           </div>
+        </section>
 
+        <HowItWorksStrip />
+
+        {/* Level rainbow */}
+        <section className="rounded-3xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
+          <div className="mb-3 flex items-center gap-2">
+            <span className="text-xl" aria-hidden="true">
+              🌈
+            </span>
+            <div>
+              <h2 className="text-sm font-bold text-slate-900">Four levels to grow into</h2>
+              <p className="text-xs text-slate-500">
+                We start at Beginner — switch anytime after.
+              </p>
+            </div>
+          </div>
           <ul className="grid grid-cols-2 gap-2 sm:grid-cols-4">
-            {LEVELS.map((level) => (
+            {LEVELS.map((level, i) => (
               <li
                 key={level}
                 className={cn(
-                  "rounded-xl border px-3 py-3 text-center",
+                  "relative overflow-hidden rounded-2xl border px-3 py-4 text-center shadow-sm",
                   LEVEL_BAND[level].soft,
                 )}
               >
-                <span className="text-2xl" aria-hidden="true">
+                <span
+                  className="absolute -right-1 -top-1 text-4xl opacity-20"
+                  aria-hidden="true"
+                >
                   {emojiForLevel(level)}
                 </span>
-                <p className={cn("mt-1 text-xs font-semibold", LEVEL_BAND[level].text)}>
+                <span className="relative text-3xl" aria-hidden="true">
+                  {emojiForLevel(level)}
+                </span>
+                <p
+                  className={cn(
+                    "relative mt-1.5 text-sm font-bold",
+                    LEVEL_BAND[level].text,
+                  )}
+                >
                   {LEVEL_LABELS[level]}
+                </p>
+                <p className="relative mt-0.5 text-[11px] text-slate-600">
+                  {LEVEL_ICONS[level].trail}
+                </p>
+                <p className="relative mt-2 text-[10px] font-semibold uppercase tracking-wide text-slate-400">
+                  {i === 0 ? "Start here" : `Level ${i + 1}`}
                 </p>
               </li>
             ))}
           </ul>
-
-          <p className="text-sm font-medium text-slate-700">
-            Free forever · No account · Progress saved on this device
-          </p>
-
-          <div className="flex flex-col gap-3">
-            <a
-              href={getOnboardingPath()}
-              className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-teal-700 px-5 py-3.5 text-base font-semibold text-white shadow-sm transition-colors hover:bg-teal-800 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
-            >
-              <span aria-hidden="true">🚀</span> Start learning
-            </a>
-            <a
-              href={getBrowsePath()}
-              className="inline-flex w-full items-center justify-center gap-2 rounded-xl px-5 py-3 text-base font-medium text-slate-700 transition-colors hover:bg-slate-50"
-            >
-              <span aria-hidden="true">{DIR_ICONS.browse}</span> Browse the library
-            </a>
-          </div>
-
-          <div className="rounded-xl border border-slate-200 bg-slate-50 p-4">
-            <p className="text-sm text-slate-600">
-              We’ll start at Beginner — you can change level anytime after.
-            </p>
-            <p className="mt-3 text-sm font-medium text-slate-800">
-              Not a beginner?
-            </p>
-            <div
-              className="mt-2 flex flex-wrap gap-2"
-              role="group"
-              aria-label="Skip intro and choose level"
-            >
-              {LEVELS.map((level) => (
-                <button
-                  key={level}
-                  type="button"
-                  onClick={() => handleSkipIntro(level)}
-                  className="inline-flex items-center gap-1.5 rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-medium text-slate-700 transition-colors hover:border-teal-500 hover:text-teal-800"
-                >
-                  <span aria-hidden="true">{emojiForLevel(level)}</span>
-                  {LEVEL_LABELS[level]}
-                </button>
-              ))}
-            </div>
-          </div>
         </section>
-      </div>
-    );
-  }
 
-  return (
-    <div className="mx-auto max-w-3xl space-y-8 py-2 sm:py-4">
-      <header className="space-y-3">
-        <h1 className="text-2xl font-bold text-slate-900 sm:text-3xl">
-          <span aria-hidden="true" className="mr-2">
-            {DIR_ICONS.learn}
-          </span>
-          Welcome back
-        </h1>
-        <p className="text-slate-600">
-          Your full Thai path — {totalDone} of {totalUnits} units done. Tap any
-          stop to open it.
-        </p>
+        {/* Preview path chips */}
+        <section className="rounded-3xl border border-dashed border-teal-200 bg-gradient-to-r from-teal-50/80 to-white p-4 sm:p-5">
+          <p className="mb-3 text-sm font-bold text-teal-900">
+            <span aria-hidden="true">🗺️ </span>
+            A peek at your first stops
+          </p>
+          <ul className="flex flex-wrap gap-2">
+            {[
+              { e: "👋", t: "Greetings" },
+              { e: "🔢", t: "Numbers" },
+              { e: "👨‍👩‍👧", t: "Family" },
+              { e: "🍜", t: "Food" },
+              { e: "🎨", t: "Colors" },
+              { e: "🐱", t: "Pets" },
+            ].map((s) => (
+              <li
+                key={s.t}
+                className="inline-flex items-center gap-1.5 rounded-full border border-teal-100 bg-white px-3 py-1.5 text-sm font-medium text-slate-700 shadow-sm"
+              >
+                <span aria-hidden="true">{s.e}</span>
+                {s.t}
+              </li>
+            ))}
+            <li className="inline-flex items-center rounded-full bg-teal-100/80 px-3 py-1.5 text-sm font-semibold text-teal-800">
+              + many more →
+            </li>
+          </ul>
+        </section>
 
-        <div
-          className="flex flex-wrap gap-2"
-          role="radiogroup"
-          aria-label="Learning level (Continue & Next)"
-        >
-          {LEVELS.map((level) => {
-            const selected = progress.level === level;
-            return (
+        <div className="rounded-3xl border border-slate-200 bg-slate-50/90 p-5">
+          <p className="text-sm text-slate-600">
+            Ready in under a minute — a short intro, then your first unit.
+          </p>
+          <p className="mt-3 text-sm font-bold text-slate-800">
+            Already past beginner?
+          </p>
+          <div
+            className="mt-2 flex flex-wrap gap-2"
+            role="group"
+            aria-label="Skip intro and choose level"
+          >
+            {LEVELS.map((level) => (
               <button
                 key={level}
                 type="button"
-                role="radio"
-                aria-checked={selected}
-                onClick={() => handleLevelChange(level)}
+                onClick={() => handleSkipIntro(level)}
                 className={cn(
-                  "inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition-colors",
-                  selected
-                    ? "bg-teal-700 text-white"
-                    : "border border-slate-200 bg-white text-slate-700 hover:border-teal-500",
+                  "inline-flex items-center gap-1.5 rounded-full border bg-white px-3 py-1.5 text-sm font-medium shadow-sm transition-colors hover:border-teal-400 hover:text-teal-800",
+                  LEVEL_BAND[level].soft,
                 )}
               >
                 <span aria-hidden="true">{emojiForLevel(level)}</span>
                 {LEVEL_LABELS[level]}
               </button>
-            );
-          })}
+            ))}
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  const pct =
+    totalUnits > 0 ? Math.round((totalDone / totalUnits) * 100) : 0;
+
+  return (
+    <div className="mx-auto max-w-3xl space-y-8 py-2 sm:py-4">
+      {/* Welcome hero */}
+      <header className="relative overflow-hidden rounded-[1.75rem] border border-teal-200/70 bg-gradient-to-br from-teal-50 via-white to-violet-50 px-5 py-7 shadow-md sm:px-7 sm:py-8">
+        <HeroDecor variant="welcome" />
+        <div className="relative z-10 space-y-4">
+          <div className="flex flex-wrap items-start justify-between gap-4">
+            <div className="min-w-0 max-w-lg">
+              <p className="inline-flex items-center gap-1.5 text-sm font-semibold text-teal-800">
+                <span aria-hidden="true">🪷</span>
+                Welcome back
+                <span className="font-thai font-normal text-teal-600/70">
+                  · สวัสดีอีกครั้ง
+                </span>
+              </p>
+              <h1 className="mt-1 text-2xl font-extrabold tracking-tight text-slate-900 sm:text-3xl">
+                Your Thai journey continues
+              </h1>
+              <p className="mt-2 text-slate-600">
+                {totalDone === 0
+                  ? "Pick a stop on the map below — every unit pairs cards with a story."
+                  : `${totalDone} of ${totalUnits} units done (${pct}%). Tap any stop to open it.`}
+              </p>
+            </div>
+            {/* Progress ring-ish stat */}
+            <div className="flex shrink-0 flex-col items-center rounded-2xl border border-white/80 bg-white/80 px-4 py-3 shadow-sm backdrop-blur-sm">
+              <div
+                className="relative flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-teal-500 to-emerald-500 text-lg font-extrabold text-white shadow-inner"
+                role="img"
+                aria-label={`${pct} percent of path complete`}
+              >
+                {pct}%
+              </div>
+              <p className="mt-1.5 text-[11px] font-semibold uppercase tracking-wide text-slate-500">
+                Path done
+              </p>
+            </div>
+          </div>
+
+          {/* Mini stats — each card links to a hub */}
+          <ul className="grid grid-cols-3 gap-2">
+            <li>
+              <a
+                href={getFlashCardsPath()}
+                className="block rounded-2xl border border-cyan-100 bg-cyan-50/90 px-3 py-2.5 text-center shadow-sm transition hover:border-cyan-300 hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2"
+              >
+                <p className="text-lg font-extrabold text-cyan-900">
+                  {progress.completedDecks.length}
+                </p>
+                <p className="text-[11px] font-semibold text-cyan-800/80">
+                  🃏 decks done
+                </p>
+              </a>
+            </li>
+            <li>
+              <a
+                href={getReadingPath()}
+                className="block rounded-2xl border border-amber-100 bg-amber-50/90 px-3 py-2.5 text-center shadow-sm transition hover:border-amber-300 hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2"
+              >
+                <p className="text-lg font-extrabold text-amber-950">
+                  {progress.completedStories.length}
+                </p>
+                <p className="text-[11px] font-semibold text-amber-900/80">
+                  📖 stories done
+                </p>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#learning-path-heading"
+                className="block rounded-2xl border border-violet-100 bg-violet-50/90 px-3 py-2.5 text-center shadow-sm transition hover:border-violet-300 hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2"
+              >
+                <p className="text-lg font-extrabold text-violet-950">
+                  {emojiForLevel(progress.level)}
+                </p>
+                <p className="text-[11px] font-semibold text-violet-900/80">
+                  {LEVEL_LABELS[progress.level]}
+                </p>
+              </a>
+            </li>
+          </ul>
+
+          <div>
+            <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-500">
+              Level for Continue & Next
+            </p>
+            <div
+              className="flex flex-wrap gap-2"
+              role="radiogroup"
+              aria-label="Learning level (Continue & Next)"
+            >
+              {LEVELS.map((level) => {
+                const selected = progress.level === level;
+                return (
+                  <button
+                    key={level}
+                    type="button"
+                    role="radio"
+                    aria-checked={selected}
+                    onClick={() => handleLevelChange(level)}
+                    className={cn(
+                      "inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-semibold transition-all",
+                      selected
+                        ? "bg-slate-900 text-white shadow-md"
+                        : "border border-white bg-white/90 text-slate-700 shadow-sm hover:border-teal-300",
+                    )}
+                  >
+                    <span aria-hidden="true">{emojiForLevel(level)}</span>
+                    {LEVEL_LABELS[level]}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
         </div>
       </header>
 
       {continueTarget && (
-        <section className="rounded-2xl border border-teal-200 bg-teal-50 p-5">
-          <p className="text-xs font-semibold uppercase tracking-wide text-teal-800">
-            <span aria-hidden="true">▶️ </span>Continue
+        <section className="relative overflow-hidden rounded-3xl border-2 border-teal-300 bg-gradient-to-br from-teal-100 via-teal-50 to-emerald-50 p-5 shadow-md sm:p-6">
+          <div
+            className="pointer-events-none absolute -right-4 -top-4 text-7xl opacity-20"
+            aria-hidden="true"
+          >
+            {continueTarget.type === "deck" ? "🃏" : "📖"}
+          </div>
+          <p className="text-xs font-bold uppercase tracking-wide text-teal-800">
+            <span aria-hidden="true">▶️ </span>Pick up where you left off
           </p>
-          <p className="mt-1 text-lg font-semibold text-slate-900">
+          <p className="mt-1 text-xl font-extrabold text-slate-900">
             {continueTarget.label}
           </p>
-          <p className="text-sm text-slate-600">
+          <p className="mt-1 inline-flex items-center gap-1.5 rounded-full bg-white/70 px-2.5 py-0.5 text-sm font-semibold text-teal-900">
             {continueTarget.type === "deck"
               ? `${DIR_ICONS.cards} Flashcards`
               : `${DIR_ICONS.story} Reading`}
@@ -352,7 +647,7 @@ export default function LearnHome({ catalog }: LearnHomeProps) {
           {continueDeckStats && (
             <div className="mt-3 space-y-2">
               <div
-                className="flex h-2 overflow-hidden rounded-full bg-teal-100"
+                className="flex h-2.5 overflow-hidden rounded-full bg-teal-200/80"
                 role="img"
                 aria-label={`${continueDeckStats.correct} correct, ${continueDeckStats.incorrect} incorrect, ${continueDeckStats.remaining} remaining of ${continueDeckStats.total}`}
               >
@@ -373,11 +668,11 @@ export default function LearnHome({ catalog }: LearnHomeProps) {
                   </>
                 )}
               </div>
-              <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm">
-                <span className="font-medium text-emerald-700">
+              <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm font-medium">
+                <span className="text-emerald-700">
                   ✓ {continueDeckStats.correct}
                 </span>
-                <span className="font-medium text-amber-700">
+                <span className="text-amber-700">
                   ✗ {continueDeckStats.incorrect}
                 </span>
                 <span className="text-slate-600">
@@ -389,26 +684,33 @@ export default function LearnHome({ catalog }: LearnHomeProps) {
 
           <a
             href={continueTarget.href}
-            className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-teal-700 px-4 py-3 text-sm font-semibold text-white hover:bg-teal-800 sm:w-auto"
+            className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-teal-600 to-emerald-600 px-5 py-3.5 text-sm font-bold text-white shadow-md shadow-teal-600/20 hover:from-teal-700 hover:to-emerald-700 sm:w-auto"
           >
-            Continue <span aria-hidden="true">→</span>
+            Continue session <span aria-hidden="true">→</span>
           </a>
         </section>
       )}
 
       {nextStep && (
-        <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-          <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">
-            <span aria-hidden="true">⭐ </span>Next up · {LEVEL_LABELS[progress.level]}
+        <section className="relative overflow-hidden rounded-3xl border-2 border-violet-200 bg-gradient-to-br from-white via-violet-50/40 to-fuchsia-50/50 p-5 shadow-sm sm:p-6">
+          <div
+            className="pointer-events-none absolute -right-2 top-2 text-6xl opacity-15"
+            aria-hidden="true"
+          >
+            ⭐
+          </div>
+          <p className="text-xs font-bold uppercase tracking-wide text-violet-800">
+            <span aria-hidden="true">⭐ </span>Next up ·{" "}
+            {LEVEL_LABELS[progress.level]}
           </p>
           <StepSummary view={nextStep} />
           <a
             href={unitHref(nextStep.step, nextStep)}
             className={cn(
-              "mt-4 inline-flex w-full items-center justify-center gap-2 rounded-xl px-4 py-3 text-sm font-semibold sm:w-auto",
+              "mt-4 inline-flex w-full items-center justify-center gap-2 rounded-2xl px-5 py-3.5 text-sm font-bold sm:w-auto",
               continueTarget
-                ? "border border-slate-200 bg-white text-slate-800 hover:bg-slate-50"
-                : "bg-teal-700 text-white hover:bg-teal-800",
+                ? "border-2 border-violet-200 bg-white text-violet-950 hover:border-violet-300 hover:bg-violet-50"
+                : "bg-gradient-to-r from-violet-600 to-fuchsia-600 text-white shadow-md hover:from-violet-700 hover:to-fuchsia-700",
             )}
           >
             {nextStep.mark === "empty" ? "Open unit" : "Continue unit"}
@@ -418,24 +720,24 @@ export default function LearnHome({ catalog }: LearnHomeProps) {
       )}
 
       {levelComplete && (
-        <section className="rounded-2xl border border-emerald-200 bg-emerald-50 p-5">
-          <p className="font-semibold text-emerald-900">
+        <section className="rounded-3xl border-2 border-emerald-300 bg-gradient-to-r from-emerald-50 to-teal-50 p-5 shadow-sm">
+          <p className="text-lg font-extrabold text-emerald-900">
             <span aria-hidden="true">🎉 </span>
             You’ve finished this level’s path
           </p>
           <p className="mt-1 text-sm text-emerald-800">
-            Pick another level above, or explore the map below.
+            Pick another level above, or explore the full map below.
           </p>
         </section>
       )}
 
       {/* ── Full graphic learning path ── */}
       <section aria-labelledby="learning-path-heading" className="space-y-4">
-        <div className="flex flex-wrap items-end justify-between gap-3">
+        <div className="flex flex-wrap items-end justify-between gap-3 rounded-2xl border border-slate-200 bg-gradient-to-r from-slate-50 to-teal-50/40 px-4 py-3 sm:px-5">
           <div>
             <h2
               id="learning-path-heading"
-              className="text-lg font-bold text-slate-900 sm:text-xl"
+              className="text-lg font-extrabold text-slate-900 sm:text-xl"
             >
               <span aria-hidden="true" className="mr-1.5">
                 🗺️
@@ -443,7 +745,7 @@ export default function LearnHome({ catalog }: LearnHomeProps) {
               Full learning path
             </h2>
             <p className="mt-0.5 text-sm text-slate-600">
-              Every unit in the curriculum — click any stop.
+              Every unit in the curriculum — click any stop on the map.
             </p>
           </div>
           <div className="flex flex-wrap gap-1.5">

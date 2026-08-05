@@ -52,6 +52,7 @@ export async function getStaticPaths() {
       string,
       {
         unitId: string;
+        unitTitle?: string;
         level?: string;
         stepIndex?: number;
         story?: {
@@ -65,6 +66,7 @@ export async function getStaticPaths() {
       if (info.deck?.deckId === deck.data.deckId) {
         unitPairMap[uid] = {
           unitId: uid,
+          unitTitle: info.unitTitle,
           level: info.level,
           stepIndex: info.stepIndex,
           story: info.story
@@ -132,24 +134,6 @@ const grammarMarkdown = loadGrammarMarkdown(deck.sourceLanguage);
     { label: "Study" },
   ]}
 >
-  <div class="mb-4 flex flex-wrap items-center justify-between gap-2">
-    <a
-      href={getLearnPath()}
-      class="inline-flex items-center gap-1.5 rounded-md bg-teal-700 px-3 py-1.5 text-sm font-semibold text-white transition-colors hover:bg-teal-800 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
-    >
-      <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
-      </svg>
-      Back to Learn
-    </a>
-    <a
-      href={deckPath}
-      class="text-sm font-medium text-slate-500 underline-offset-2 hover:text-slate-800 hover:underline"
-    >
-      Deck details
-    </a>
-  </div>
-
   <StudyMode
     client:load
     cards={cards}
@@ -162,5 +146,6 @@ const grammarMarkdown = loadGrammarMarkdown(deck.sourceLanguage);
     unitId={unitId}
     unitPairMap={unitPairMap}
     grammarMarkdown={grammarMarkdown}
+    deckDetailsHref={deckPath}
   />
 </PageLayout>

@@ -81,7 +81,17 @@ const config: Config = {
           "sans-serif",
         ],
         thai: [
+          "var(--font-thai-family)",
           "Sarabun",
+          "Noto Sans Thai",
+          "ui-sans-serif",
+          "system-ui",
+          "sans-serif",
+        ],
+        /** Loop-less / street-style Thai (billboards, posters) */
+        "thai-modern": [
+          "var(--font-thai-modern)",
+          "Prompt",
           "Noto Sans Thai",
           "ui-sans-serif",
           "system-ui",

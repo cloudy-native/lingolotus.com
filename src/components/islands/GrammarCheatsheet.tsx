@@ -5,13 +5,14 @@ import {
   useMemo,
   useRef,
   useState,
+  type ReactNode,
 } from "react";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
+import { createPortal } from "react-dom";
 import SpeechButton from "@/components/islands/SpeechButton";
 import {
   CLASSIFIERS,
   CONSONANT_CLASSES,
+  CONSONANTS,
   defaultSectionForLevel,
   GRAMMAR_SECTIONS,
   NEGATION_TIME,
@@ -20,8 +21,10 @@ import {
   TONE_MARKS,
   TONE_PAIRS,
   TONE_RULE_ROWS,
+  VOWELS,
   type GrammarSectionId,
   type SpeakExample,
+  type ThaiConsonant,
 } from "@/lib/grammar-data";
 import { cn } from "@/lib/utils";
 
@@ -63,7 +66,7 @@ function ExampleRow({
 }) {
   return (
     <div className="flex items-center gap-2 rounded-lg border border-slate-100 bg-white px-2.5 py-2">
-      <SpeechButton text={ex.thai} languageCode={languageCode} />
+      <SpeechButton text={ex.thai} languageCode={languageCode} size="sm" />
       <div className="min-w-0 flex-1">
         <p className="font-thai text-lg font-semibold text-slate-900">
           {ex.thai}
@@ -73,6 +76,51 @@ function ExampleRow({
           {ex.en ? ` · ${ex.en}` : ""}
         </p>
       </div>
+    </div>
+  );
+}
+
+/** Compact letter + speak control (consonant class chips, inline Thai) */
+function SpeakThai({
+  text,
+  languageCode,
+  className,
+  children,
+  label,
+}: {
+  text: string;
+  languageCode: string;
+  className?: string;
+  children?: ReactNode;
+  label?: string;
+}) {
+  return (
+    <span className={cn("inline-flex items-center gap-1", className)}>
+      <SpeechButton
+        text={text}
+        languageCode={languageCode}
+        size="sm"
+        label={label}
+      />
+      {children}
+    </span>
+  );
+}
+
+function ConsonantNameCell({ c }: { c: ThaiConsonant }) {
+  return (
+    <div className="min-w-0">
+      <p className="font-thai text-base font-semibold text-slate-900">
+        <span className="text-slate-500">{c.speak.split(" ")[0]}</span>{" "}
+        {c.nameWord}{" "}
+        <span className="text-xs font-normal text-slate-500">
+          {c.namePhonetic}
+        </span>
+      </p>
+      <p className="text-[11px] text-slate-500">
+        {c.nameEn}
+        <span className="text-slate-400"> · {c.speak}</span>
+      </p>
     </div>
   );
 }
@@ -94,7 +142,7 @@ export default function GrammarCheatsheet({
   );
   const [showFullConsonants, setShowFullConsonants] = useState(false);
   const [showFullVowels, setShowFullVowels] = useState(false);
-  const [mdReady, setMdReady] = useState(false);
+  const [hideObsolete, setHideObsolete] = useState(true);
 
   // Reset default section when opening with a level
   useEffect(() => {
@@ -183,16 +231,6 @@ export default function GrammarCheatsheet({
     };
   }, [open, onClose]);
 
-  // Lazy: only mount heavy markdown after first open of ref sections
-  useEffect(() => {
-    if (
-      open &&
-      (section === "consonants" || section === "vowels" || showFullConsonants)
-    ) {
-      setMdReady(true);
-    }
-  }, [open, section, showFullConsonants]);
-
   const scrollTo = useCallback((id: GrammarSectionId) => {
     setSection(id);
     requestAnimationFrame(() => {
@@ -201,32 +239,22 @@ export default function GrammarCheatsheet({
     });
   }, []);
 
-  const referenceBlock = useMemo(() => {
-    if (!referenceMarkdown || !mdReady) return null;
-    return (
-      <div
-        className={cn(
-          "prose prose-slate max-w-none prose-sm",
-          "prose-th:bg-slate-50 prose-th:text-left prose-th:text-xs prose-th:font-semibold",
-          "prose-td:text-sm prose-td:align-top",
-          // Horizontal scroll only on tables — no nested vertical scrollport
-          "[&_table]:block [&_table]:w-full [&_table]:max-w-full [&_table]:overflow-x-auto",
-          "[&_td:first-child]:font-thai [&_td:first-child]:text-lg [&_td:first-child]:font-semibold",
-          "[&_th]:whitespace-nowrap",
-        )}
-      >
-        <ReactMarkdown remarkPlugins={[remarkGfm]}>
-          {referenceMarkdown}
-        </ReactMarkdown>
-      </div>
-    );
-  }, [referenceMarkdown, mdReady]);
+  const visibleConsonants = useMemo(
+    () =>
+      hideObsolete ? CONSONANTS.filter((c) => !c.obsolete) : CONSONANTS,
+    [hideObsolete],
+  );
+
+  // Keep prop for call sites that still pass markdown (extended notes, etc.)
+  void referenceMarkdown;
 
   if (!open) return null;
 
-  return (
+  // Portal to body so the drawer escapes sticky header stacking
+  // (header uses backdrop-filter → traps position:fixed descendants).
+  const drawer = (
     <div
-      className="fixed inset-0 z-[100] overflow-hidden overscroll-none"
+      className="fixed inset-0 z-[200] overflow-hidden overscroll-none"
       role="presentation"
     >
       {/* Backdrop: click to close, not in tab order (dialog holds focus) */}
@@ -409,7 +437,11 @@ export default function GrammarCheatsheet({
                   key={p.thai}
                   className="flex items-start gap-2 rounded-xl border border-slate-200 bg-slate-50/80 p-3"
                 >
-                  <SpeechButton text={p.thai} languageCode={languageCode} />
+                  <SpeechButton
+                    text={p.thai}
+                    languageCode={languageCode}
+                    size="sm"
+                  />
                   <div>
                     <p className="font-thai text-xl font-bold text-slate-900">
                       {p.thai}{" "}
@@ -470,6 +502,7 @@ export default function GrammarCheatsheet({
                           <SpeechButton
                             text={c.thai}
                             languageCode={languageCode}
+                            size="sm"
                           />
                           <div>
                             <span className="font-thai text-xl font-bold">
@@ -545,21 +578,37 @@ export default function GrammarCheatsheet({
               mainly on mid-class forms in everyday words.
             </p>
             <div className="mt-4 grid gap-2 sm:grid-cols-3">
-              {CONSONANT_CLASSES.map((c) => (
+              {CONSONANT_CLASSES.map((cls) => (
                 <div
-                  key={c.name}
+                  key={cls.name}
                   className="rounded-xl border border-slate-200 bg-slate-50 p-3"
                 >
                   <p className="text-sm font-bold text-slate-900">
-                    {c.name}{" "}
+                    {cls.name}{" "}
                     <span className="font-normal text-slate-500">
-                      ({c.count})
+                      ({cls.count})
                     </span>
                   </p>
-                  <p className="mt-1 font-thai text-base text-slate-800">
-                    {c.examples}
-                  </p>
-                  <p className="mt-1 text-xs text-slate-500">{c.tip}</p>
+                  <div className="mt-2 flex flex-wrap gap-1">
+                    {cls.letters.map((letter) => {
+                      const row = CONSONANTS.find((c) => c.letter === letter);
+                      if (!row) return null;
+                      return (
+                        <SpeakThai
+                          key={letter}
+                          text={row.speak}
+                          languageCode={languageCode}
+                          label={`Speak ${row.speak}`}
+                          className="rounded-md bg-white px-1 py-0.5 ring-1 ring-slate-200"
+                        >
+                          <span className="font-thai text-base font-semibold text-slate-900">
+                            {letter}
+                          </span>
+                        </SpeakThai>
+                      );
+                    })}
+                  </div>
+                  <p className="mt-2 text-xs text-slate-500">{cls.tip}</p>
                 </div>
               ))}
             </div>
@@ -567,28 +616,105 @@ export default function GrammarCheatsheet({
 
           {/* CONSONANTS full */}
           <section id="grammar-sec-consonants" className="scroll-mt-28">
-            <div className="mb-2 flex items-center justify-between gap-2">
+            <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
               <h3 className="text-base font-bold text-slate-900">
                 Full consonant list
               </h3>
-              <button
-                type="button"
-                onClick={() => {
-                  setShowFullConsonants((v) => !v);
-                  setMdReady(true);
-                }}
-                className="text-sm font-semibold text-teal-700 hover:text-teal-900"
-              >
-                {showFullConsonants ? "Hide" : "Show"} table
-              </button>
+              <div className="flex flex-wrap items-center gap-3">
+                <label className="inline-flex items-center gap-1.5 text-xs font-medium text-slate-600">
+                  <input
+                    type="checkbox"
+                    checked={hideObsolete}
+                    onChange={(e) => setHideObsolete(e.target.checked)}
+                    className="rounded border-slate-300 text-teal-700 focus:ring-teal-500"
+                  />
+                  Hide obsolete ฃ ฅ
+                </label>
+                <button
+                  type="button"
+                  onClick={() => setShowFullConsonants((v) => !v)}
+                  className="text-sm font-semibold text-teal-700 hover:text-teal-900"
+                >
+                  {showFullConsonants ? "Hide" : "Show"} table
+                </button>
+              </div>
             </div>
             <p className="mb-2 text-sm text-slate-600">
-              ฃ and ฅ are obsolete — ignore for modern reading.
+              Tap 🔈 for the traditional name — e.g.{" "}
+              <SpeakThai
+                text="กอ ไก่"
+                languageCode={languageCode}
+                label="Speak กอ ไก่"
+              >
+                <span className="font-thai font-semibold">กอ ไก่</span>
+                <span className="text-slate-500"> (go-gai)</span>
+              </SpeakThai>
+              . 44 letters; classes drive tone rules.
             </p>
-            {showFullConsonants && referenceBlock}
-            {!showFullConsonants && (
+            {showFullConsonants ? (
+              <div className="overflow-x-auto rounded-xl border border-slate-200">
+                <table className="w-full min-w-[36rem] text-left text-sm">
+                  <thead className="bg-slate-50 text-xs uppercase text-slate-500">
+                    <tr>
+                      <th className="px-3 py-2">Letter</th>
+                      <th className="px-3 py-2">Class</th>
+                      <th className="px-3 py-2">Name (hear)</th>
+                      <th className="px-3 py-2">Initial</th>
+                      <th className="px-3 py-2">Final</th>
+                      <th className="px-3 py-2">Notes</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {visibleConsonants.map((c) => (
+                      <tr
+                        key={c.letter}
+                        className={cn(
+                          "border-t border-slate-100",
+                          c.obsolete && "bg-amber-50/40",
+                        )}
+                      >
+                        <td className="px-3 py-2">
+                          <div className="flex items-center gap-2">
+                            <SpeechButton
+                              text={c.speak}
+                              languageCode={languageCode}
+                              size="sm"
+                              label={`Speak ${c.speak}`}
+                            />
+                            <span className="font-thai text-2xl font-bold text-slate-900">
+                              {c.letter}
+                            </span>
+                          </div>
+                        </td>
+                        <td className="px-3 py-2 text-slate-700">
+                          {c.className}
+                          {c.obsolete ? (
+                            <span className="ml-1 text-[10px] font-semibold uppercase text-amber-700">
+                              obsolete
+                            </span>
+                          ) : null}
+                        </td>
+                        <td className="px-3 py-2">
+                          <ConsonantNameCell c={c} />
+                        </td>
+                        <td className="px-3 py-2 font-mono text-xs text-slate-600">
+                          {c.initial}
+                        </td>
+                        <td className="px-3 py-2 font-mono text-xs text-slate-600">
+                          {c.final}
+                        </td>
+                        <td className="px-3 py-2 text-xs text-slate-500">
+                          {c.notes || "—"}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            ) : (
               <p className="rounded-lg bg-slate-50 px-3 py-2 text-sm text-slate-500 ring-1 ring-slate-100">
-                Collapsed by default so the cheatsheet stays scannable.
+                Collapsed by default — open for every letter with 🔈 go-gai
+                names.
               </p>
             )}
           </section>
@@ -603,7 +729,6 @@ export default function GrammarCheatsheet({
                 type="button"
                 onClick={() => {
                   setShowFullVowels((v) => !v);
-                  setMdReady(true);
                   setSection("vowels");
                 }}
                 className="text-sm font-semibold text-teal-700 hover:text-teal-900"
@@ -611,10 +736,100 @@ export default function GrammarCheatsheet({
                 {showFullVowels ? "Hide" : "Show"} table
               </button>
             </div>
-            {showFullVowels && referenceBlock}
-            {!showFullVowels && (
+            <p className="mb-2 text-sm text-slate-600">
+              Vowels may sit before, after, above, or below the consonant. Tap
+              🔈 on each example.
+            </p>
+            {showFullVowels ? (
+              <div className="space-y-4">
+                <div className="overflow-x-auto rounded-xl border border-slate-200">
+                  <table className="w-full min-w-[28rem] text-left text-sm">
+                    <thead className="bg-slate-50 text-xs uppercase text-slate-500">
+                      <tr>
+                        <th className="px-3 py-2">Pattern</th>
+                        <th className="px-3 py-2">Sound</th>
+                        <th className="px-3 py-2">Length</th>
+                        <th className="px-3 py-2">Example</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {VOWELS.filter((v) => v.kind === "simple").map((v) => (
+                        <tr
+                          key={v.pattern + v.example}
+                          className="border-t border-slate-100"
+                        >
+                          <td className="px-3 py-2 font-thai text-lg font-semibold">
+                            {v.pattern}
+                          </td>
+                          <td className="px-3 py-2 font-mono text-xs text-slate-700">
+                            {v.sound}
+                          </td>
+                          <td className="px-3 py-2 text-slate-600">
+                            {v.length || "—"}
+                          </td>
+                          <td className="px-3 py-2">
+                            <ExampleRow
+                              ex={{
+                                thai: v.example,
+                                phonetic: v.examplePhonetic,
+                                en: v.meaning,
+                              }}
+                              languageCode={languageCode}
+                            />
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+                <div>
+                  <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-500">
+                    Diphthongs / around forms
+                  </p>
+                  <div className="overflow-x-auto rounded-xl border border-slate-200">
+                    <table className="w-full min-w-[28rem] text-left text-sm">
+                      <thead className="bg-slate-50 text-xs uppercase text-slate-500">
+                        <tr>
+                          <th className="px-3 py-2">Pattern</th>
+                          <th className="px-3 py-2">Sound</th>
+                          <th className="px-3 py-2">Example</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {VOWELS.filter((v) => v.kind === "diphthong").map(
+                          (v) => (
+                            <tr
+                              key={v.pattern + v.example}
+                              className="border-t border-slate-100"
+                            >
+                              <td className="px-3 py-2 font-thai text-lg font-semibold">
+                                {v.pattern}
+                              </td>
+                              <td className="px-3 py-2 font-mono text-xs text-slate-700">
+                                {v.sound}
+                              </td>
+                              <td className="px-3 py-2">
+                                <ExampleRow
+                                  ex={{
+                                    thai: v.example,
+                                    phonetic: v.examplePhonetic,
+                                    en: v.meaning,
+                                  }}
+                                  languageCode={languageCode}
+                                />
+                              </td>
+                            </tr>
+                          ),
+                        )}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            ) : (
               <p className="rounded-lg bg-slate-50 px-3 py-2 text-sm text-slate-500 ring-1 ring-slate-100">
-                Open when you need vowel positions and length pairs.
+                Open when you need vowel positions and length pairs — every
+                example has 🔈.
               </p>
             )}
           </section>
@@ -626,6 +841,9 @@ export default function GrammarCheatsheet({
       </div>
     </div>
   );
+
+  if (typeof document === "undefined") return drawer;
+  return createPortal(drawer, document.body);
 }
 
 /** Shared open button styling */
