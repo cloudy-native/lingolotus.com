@@ -571,7 +571,7 @@ export default function StoryReader({
           </div>
         </header>
 
-        {/* Slim chrome: mode + actions + settings gear */}
+        {/* Slim chrome: read/translate mode + reveal actions */}
         <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 bg-white/70 px-3 py-2 sm:px-4">
           <div
             className="inline-flex rounded-lg bg-slate-100 p-0.5"

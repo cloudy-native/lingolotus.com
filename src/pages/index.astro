@@ -1,9 +1,11 @@
 ---
 import { getCollection } from "astro:content";
 import PageLayout from "../layouts/PageLayout.astro";
-import LearnHome from "../components/islands/LearnHome";
+import LearnHome, { type StoryTeaser } from "../components/islands/LearnHome";
 import { buildLadderCatalog } from "../lib/ladder";
 import { loadCurriculumUnits } from "../lib/curriculum";
+import { getStoryPath, withUnitQuery } from "../lib/utils";
+import type { Level } from "../lib/progress";
 
 const collections = await getCollection("flashcard-collections");
 const decks = await getCollection("flashcard-decks");
@@ -35,6 +37,48 @@ const catalog = buildLadderCatalog({
   })),
   units,
 });
+
+const bookById = new Map(books.map((b) => [b.data.bookId, b.data]));
+const storyById = new Map(stories.map((s) => [s.data.storyId, s.data]));
+const unitById = new Map(units.map((u) => [u.unitId, u]));
+
+/** Curated teasers — variety of levels + book covers (for home gallery) */
+const SHOWCASE_UNIT_IDS = [
+  "beginner-greetings",
+  "beginner-food",
+  "beginner-places",
+  "elementary-new-friend",
+  "intermediate-market",
+  "intermediate-travel",
+  "advanced-family-reunion",
+  "advanced-music-festival",
+] as const;
+
+const storyTeasers: StoryTeaser[] = SHOWCASE_UNIT_IDS.flatMap((unitId) => {
+  const unit = unitById.get(unitId);
+  if (!unit?.storyId || !unit.bookId) return [];
+  const story = storyById.get(unit.storyId);
+  const book = bookById.get(unit.bookId);
+  if (!story || !book?.imageUrl) return [];
+  const level = (unit.level || "beginner") as Level;
+  return [
+    {
+      unitId: unit.unitId,
+      storyId: story.storyId,
+      bookId: book.bookId,
+      level,
+      titleEn: story.title.target,
+      titleTh: story.title.source,
+      blurb: story.summary?.target ?? unit.title?.en ?? "",
+      imageUrl: book.imageUrl,
+      href: withUnitQuery(
+        getStoryPath(book.bookId, story.storyId),
+        unit.unitId,
+      ),
+      unitHref: `/unit/${unit.unitId}`,
+    },
+  ];
+});
 ---
 
 <PageLayout
@@ -43,5 +87,5 @@ const catalog = buildLadderCatalog({
   ogType="website"
   canonicalPath="/"
 >
-  <LearnHome client:load catalog={catalog} />
+  <LearnHome client:load catalog={catalog} storyTeasers={storyTeasers} />
 </PageLayout>

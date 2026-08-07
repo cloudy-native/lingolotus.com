@@ -1,3 +1,4 @@
+import ReaderSettings from "@/components/islands/ReaderSettings";
 import { DIR_ICONS } from "@/lib/content-icons";
 import { getUnitPath } from "@/lib/utils";
 import { cn } from "@/lib/utils";
@@ -14,7 +15,7 @@ export interface UnitModeSwitcherProps {
 
 /**
  * Sticky unit chrome: jump between Cards and Story without returning to the hub.
- * Sits under the site header while studying or reading.
+ * Also surfaces Reading tools (script style, size, phonetics) next to the content.
  */
 export default function UnitModeSwitcher({
   unitId,
@@ -43,7 +44,7 @@ export default function UnitModeSwitcher({
       >
         <a
           href={getUnitPath(unitId)}
-          className="min-w-0 max-w-[40%] truncate rounded-xl px-2.5 py-1.5 text-xs font-semibold text-slate-600 transition-colors hover:bg-slate-50 hover:text-teal-800 sm:max-w-[50%] sm:text-sm"
+          className="min-w-0 max-w-[36%] truncate rounded-xl px-2.5 py-1.5 text-xs font-semibold text-slate-600 transition-colors hover:bg-slate-50 hover:text-teal-800 sm:max-w-[42%] sm:text-sm"
           title={title}
         >
           <span aria-hidden="true" className="mr-1">
@@ -52,23 +53,26 @@ export default function UnitModeSwitcher({
           {title}
         </a>
 
-        <div
-          className="ml-auto flex shrink-0 rounded-xl bg-slate-100 p-0.5"
-          role="tablist"
-          aria-label="Cards or story"
-        >
-          <ModeTab
-            href={cardsHref}
-            active={active === "cards"}
-            icon={DIR_ICONS.cards}
-            label="Cards"
-          />
-          <ModeTab
-            href={storyHref}
-            active={active === "reading"}
-            icon={DIR_ICONS.story}
-            label="Story"
-          />
+        <div className="ml-auto flex shrink-0 flex-wrap items-center justify-end gap-1.5">
+          <ReaderSettings variant="chrome" />
+          <div
+            className="flex rounded-xl bg-slate-100 p-0.5"
+            role="tablist"
+            aria-label="Cards or story"
+          >
+            <ModeTab
+              href={cardsHref}
+              active={active === "cards"}
+              icon={DIR_ICONS.cards}
+              label="Cards"
+            />
+            <ModeTab
+              href={storyHref}
+              active={active === "reading"}
+              icon={DIR_ICONS.story}
+              label="Story"
+            />
+          </div>
         </div>
       </nav>
     </div>

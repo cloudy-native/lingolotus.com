@@ -13,6 +13,7 @@ import {
   getBrowsePath,
   validateStoryReferences,
 } from "@/lib/utils";
+import type { Level } from "@/lib/progress";
 
 export async function getStaticPaths() {
   const books = await getCollection("books");
@@ -104,7 +105,7 @@ export async function getStaticPaths() {
       {
         unitId: string;
         unitTitle?: string;
-        level?: string;
+        level?: Level;
         stepIndex?: number;
         deck?: {
           deckId: string;
@@ -118,7 +119,7 @@ export async function getStaticPaths() {
         unitPairMap[uid] = {
           unitId: uid,
           unitTitle: info.unitTitle,
-          level: info.level,
+          level: info.level ?? undefined,
           stepIndex: info.stepIndex,
           deck: info.deck
             ? {

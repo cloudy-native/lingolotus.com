@@ -5,12 +5,8 @@ import StudyMode from "@/components/islands/StudyMode.tsx";
 import { buildLadderCatalog } from "@/lib/ladder";
 import { loadCurriculumUnits } from "@/lib/curriculum";
 import { loadGrammarMarkdown } from "@/lib/grammar";
-import {
-  getStudyPath,
-  getDeckPath,
-  getLearnPath,
-  getBrowsePath,
-} from "@/lib/utils";
+import { getStudyPath, getDeckPath, getLearnPath } from "@/lib/utils";
+import type { Level } from "@/lib/progress";
 
 export async function getStaticPaths() {
   const decks = await getCollection("flashcard-decks");
@@ -53,7 +49,7 @@ export async function getStaticPaths() {
       {
         unitId: string;
         unitTitle?: string;
-        level?: string;
+        level?: Level;
         stepIndex?: number;
         story?: {
           storyId: string;
@@ -67,7 +63,7 @@ export async function getStaticPaths() {
         unitPairMap[uid] = {
           unitId: uid,
           unitTitle: info.unitTitle,
-          level: info.level,
+          level: info.level ?? undefined,
           stepIndex: info.stepIndex,
           story: info.story
             ? {

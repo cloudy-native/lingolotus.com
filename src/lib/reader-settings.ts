@@ -1,6 +1,6 @@
 /**
  * Persistent display prefs for reading / Thai presentation.
- * Shared by story reader, study mode, and the site gear control.
+ * Shared by story reader, study mode, and the "Reading tools" control.
  */
 
 export type FontSize = "sm" | "base" | "lg";

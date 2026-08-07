@@ -12,15 +12,19 @@ import {
 import { cn } from "@/lib/utils";
 
 export interface ReaderSettingsProps {
-  /** Compact gear for the site header */
-  variant?: "nav" | "default";
+  /**
+   * - nav: site header (labeled pill, next to Grammar)
+   * - chrome: unit Cards/Story bar (same label, slightly denser)
+   * - default: standalone labeled control
+   */
+  variant?: "nav" | "chrome" | "default";
   className?: string;
   /** Show Parts of speech toggle (only useful when stories have breakdowns) */
   showPosOption?: boolean;
 }
 
 /**
- * Gear control + settings dialog for Thai display prefs.
+ * "Reading tools" control + dialog for Thai display prefs.
  * State lives in localStorage and syncs across all mounts.
  */
 export default function ReaderSettings({
@@ -29,12 +33,13 @@ export default function ReaderSettings({
   showPosOption = true,
 }: ReaderSettingsProps) {
   const titleId = useId();
+  const descId = useId();
   const [open, setOpen] = useState(false);
   const [settings, setSettings] = useState<ReaderSettings>(() =>
     loadReaderSettings(),
   );
 
-  // Hydrate + listen for changes from other gear instances
+  // Hydrate + listen for changes from other instances
   useEffect(() => {
     const current = loadReaderSettings();
     setSettings(current);
@@ -94,20 +99,27 @@ export default function ReaderSettings({
               role="dialog"
               aria-modal="true"
               aria-labelledby={titleId}
+              aria-describedby={descId}
               className="relative z-10 w-full max-w-md overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl"
             >
-              <div className="flex items-center justify-between border-b border-slate-100 px-4 py-3">
-                <h2
-                  id={titleId}
-                  className="text-base font-bold text-slate-900"
-                >
-                  Reading settings
-                </h2>
+              <div className="flex items-start justify-between gap-3 border-b border-slate-100 px-4 py-3">
+                <div className="min-w-0">
+                  <h2
+                    id={titleId}
+                    className="text-base font-bold text-slate-900"
+                  >
+                    Reading tools
+                  </h2>
+                  <p id={descId} className="mt-0.5 text-xs text-slate-500">
+                    How Thai looks on cards and stories — script style, size,
+                    phonetics.
+                  </p>
+                </div>
                 <button
                   type="button"
                   onClick={() => setOpen(false)}
-                  className="rounded-lg p-2 text-slate-500 hover:bg-slate-100 hover:text-slate-900"
-                  aria-label="Close settings"
+                  className="shrink-0 rounded-lg p-2 text-slate-500 hover:bg-slate-100 hover:text-slate-900"
+                  aria-label="Close reading tools"
                 >
                   <svg
                     className="h-5 w-5"
@@ -230,35 +242,25 @@ export default function ReaderSettings({
         onClick={() => setOpen(true)}
         aria-haspopup="dialog"
         aria-expanded={open}
-        title="Reading settings"
+        title="Reading tools — script style, size, phonetics"
         className={cn(
-          "inline-flex items-center justify-center rounded-full transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2",
-          variant === "nav"
-            ? "h-8 w-8 text-slate-600 ring-1 ring-slate-200 hover:bg-slate-50 hover:text-slate-900"
-            : "h-9 w-9 bg-white text-slate-600 shadow-sm ring-1 ring-slate-200 hover:bg-slate-50 hover:text-slate-900",
+          "inline-flex items-center gap-1.5 rounded-full font-semibold transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2",
+          variant === "nav" &&
+            "bg-teal-50 px-3 py-1.5 text-xs text-teal-800 ring-1 ring-teal-200 hover:bg-teal-100 hover:text-teal-950",
+          variant === "chrome" &&
+            "bg-white px-2.5 py-1.5 text-xs text-teal-800 shadow-sm ring-1 ring-slate-200 hover:border-teal-300 hover:bg-teal-50 sm:text-sm",
+          variant === "default" &&
+            "bg-teal-50 px-3.5 py-2 text-sm text-teal-900 shadow-sm ring-1 ring-teal-200 hover:bg-teal-100",
           className,
         )}
       >
-        <span className="sr-only">Reading settings</span>
-        <svg
-          className="h-5 w-5"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth="1.5"
-          stroke="currentColor"
+        <span
+          className="font-serif text-[13px] font-bold leading-none tracking-tight sm:text-sm"
           aria-hidden="true"
         >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.325.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 0 1 1.37.49l1.296 2.247a1.125 1.125 0 0 1-.26 1.431l-1.003.827c-.293.241-.438.613-.43.992a7.723 7.723 0 0 1 0 .255c-.008.378.137.75.43.991l1.004.827c.424.35.534.955.26 1.43l-1.298 2.247a1.125 1.125 0 0 1-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.47 6.47 0 0 1-.22.128c-.331.183-.581.495-.644.869l-.213 1.281c-.09.543-.56.94-1.11.94h-2.594c-.55 0-1.019-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 0 1-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 0 1-1.369-.49l-1.297-2.247a1.125 1.125 0 0 1 .26-1.431l1.004-.827c.292-.24.437-.613.43-.991a6.932 6.932 0 0 1 0-.255c.007-.38-.138-.751-.43-.992l-1.004-.827a1.125 1.125 0 0 1-.26-1.43l1.297-2.247a1.125 1.125 0 0 1 1.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.086.22-.128.332-.183.582-.495.644-.869l.214-1.28Z"
-          />
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-          />
-        </svg>
+          Aa
+        </span>
+        <span>Reading tools</span>
       </button>
       {dialog}
     </>

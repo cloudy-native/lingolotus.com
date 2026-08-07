@@ -35,8 +35,23 @@ import {
 } from "@/lib/utils";
 import { cn } from "@/lib/utils";
 
+/** Clickable story sample for the home gallery (from index.astro) */
+export interface StoryTeaser {
+  unitId: string;
+  storyId: string;
+  bookId: string;
+  level: Level;
+  titleEn: string;
+  titleTh?: string;
+  blurb: string;
+  imageUrl: string;
+  href: string;
+  unitHref: string;
+}
+
 interface LearnHomeProps {
   catalog: LadderCatalog;
+  storyTeasers?: StoryTeaser[];
 }
 
 const LEVEL_BAND: Record<
@@ -114,7 +129,8 @@ function unitHref(step: LadderStep, view: StepProgressView): string {
         ? hrefForHalf(step, "cards")
         : step.story
           ? hrefForHalf(step, "reading")
-          : "#")
+          : null) ??
+    "#"
   );
 }
 
@@ -251,7 +267,131 @@ function HowItWorksStrip() {
   );
 }
 
-export default function LearnHome({ catalog }: LearnHomeProps) {
+const LEVEL_BADGE: Record<Level, string> = {
+  beginner: "bg-emerald-600",
+  elementary: "bg-sky-600",
+  intermediate: "bg-amber-600",
+  advanced: "bg-violet-600",
+};
+
+/**
+ * One random story card per level (equal height, one image each).
+ */
+function StoryShowcase({
+  teasers,
+  variant = "new",
+}: {
+  teasers: StoryTeaser[];
+  variant?: "new" | "return";
+}) {
+  // Stable pick for this page view (don’t reshuffle on every re-render)
+  const picks = useMemo(() => {
+    if (teasers.length === 0) return [] as StoryTeaser[];
+    const levelOrder: Level[] =
+      variant === "new"
+        ? (["beginner", "elementary"] as Level[])
+        : LEVELS;
+    return levelOrder
+      .map((level) => {
+        const pool = teasers.filter((t) => t.level === level);
+        if (pool.length === 0) return null;
+        return pool[Math.floor(Math.random() * pool.length)]!;
+      })
+      .filter((t): t is StoryTeaser => t != null);
+  }, [teasers, variant]);
+
+  if (picks.length === 0) return null;
+
+  return (
+    <section className="space-y-3" aria-labelledby="story-showcase-heading">
+      <div className="flex flex-wrap items-end justify-between gap-2">
+        <div>
+          <h2
+            id="story-showcase-heading"
+            className="text-lg font-extrabold tracking-tight text-slate-900"
+          >
+            <span aria-hidden="true" className="mr-1.5">
+              📖
+            </span>
+            {variant === "new" ? "Peek at the stories" : "Stories you can open"}
+          </h2>
+          <p className="mt-0.5 text-sm text-slate-600">
+            {variant === "new"
+              ? "A sample from each level — jump in anytime. The guided path is still here when you’re ready."
+              : "One sample per level (rotates). Stay on your path below, or open any story."}
+          </p>
+        </div>
+        <a
+          href={getReadingPath()}
+          className="text-sm font-semibold text-teal-700 hover:text-teal-900"
+        >
+          All stories →
+        </a>
+      </div>
+
+      <ul
+        className={cn(
+          "grid gap-3",
+          picks.length === 1 && "grid-cols-1 sm:max-w-sm",
+          picks.length === 2 && "grid-cols-2",
+          picks.length === 3 && "grid-cols-2 sm:grid-cols-3",
+          picks.length >= 4 && "grid-cols-2 lg:grid-cols-4",
+        )}
+      >
+        {picks.map((t) => (
+          <li key={t.level}>
+            <a
+              href={t.href}
+              className={cn(
+                "group flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition",
+                "hover:-translate-y-0.5 hover:border-teal-300 hover:shadow-md",
+                "focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2",
+              )}
+            >
+              <div className="relative aspect-[4/3] overflow-hidden bg-slate-100">
+                <img
+                  src={t.imageUrl}
+                  alt=""
+                  loading="lazy"
+                  className="h-full w-full object-cover transition duration-300 group-hover:scale-105"
+                />
+                <span
+                  className={cn(
+                    "absolute left-2 top-2 rounded-full px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wide text-white shadow-sm",
+                    LEVEL_BADGE[t.level],
+                  )}
+                >
+                  {LEVEL_LABELS[t.level]}
+                </span>
+              </div>
+              <div className="flex flex-1 flex-col gap-0.5 p-2.5 sm:p-3">
+                <p className="font-thai text-sm font-semibold leading-snug text-slate-800 line-clamp-1">
+                  {t.titleTh || t.titleEn}
+                </p>
+                <p className="text-xs font-bold text-slate-900 line-clamp-1">
+                  {t.titleEn}
+                </p>
+                {t.blurb ? (
+                  <p className="mt-0.5 line-clamp-2 text-[11px] leading-snug text-slate-500">
+                    {t.blurb}
+                  </p>
+                ) : null}
+                <span className="mt-auto pt-2 text-[11px] font-semibold text-teal-700 group-hover:text-teal-900">
+                  Read story →
+                </span>
+              </div>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
+export default function LearnHome({
+  catalog,
+  storyTeasers = [],
+}: LearnHomeProps) {
   const [progress, setProgress] = useState<LearnerProgress | null>(null);
   const [confirmReset, setConfirmReset] = useState(false);
   /** Filter path bands; default shows every level */
@@ -393,113 +533,87 @@ export default function LearnHome({ catalog }: LearnHomeProps) {
 
         <HowItWorksStrip />
 
-        {/* Level rainbow */}
-        <section className="rounded-3xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
-          <div className="mb-3 flex items-center gap-2">
+        <StoryShowcase teasers={storyTeasers} variant="new" />
+
+        {/* Combined level picker — clickable cards (same action as former skip-intro chips) */}
+        <section
+          className="rounded-3xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5"
+          aria-labelledby="level-pick-heading"
+        >
+          <div className="mb-1 flex items-start gap-2">
             <span className="text-xl" aria-hidden="true">
               🌈
             </span>
             <div>
-              <h2 className="text-sm font-bold text-slate-900">Four levels to grow into</h2>
-              <p className="text-xs text-slate-500">
-                We start at Beginner — switch anytime after.
+              <h2
+                id="level-pick-heading"
+                className="text-sm font-bold text-slate-900 sm:text-base"
+              >
+                Choose where to begin
+              </h2>
+              <p className="mt-1 text-xs leading-relaxed text-slate-600 sm:text-sm">
+                Tap a level to open your learning map there — no intro required.
+                New to Thai? Pick{" "}
+                <strong className="font-semibold text-slate-800">Beginner</strong>.
+                Already know some? Jump ahead; you can change level anytime.
               </p>
             </div>
           </div>
-          <ul className="grid grid-cols-2 gap-2 sm:grid-cols-4">
+          <ul
+            className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-4"
+            role="list"
+          >
             {LEVELS.map((level, i) => (
-              <li
-                key={level}
-                className={cn(
-                  "relative overflow-hidden rounded-2xl border px-3 py-4 text-center shadow-sm",
-                  LEVEL_BAND[level].soft,
-                )}
-              >
-                <span
-                  className="absolute -right-1 -top-1 text-4xl opacity-20"
-                  aria-hidden="true"
-                >
-                  {emojiForLevel(level)}
-                </span>
-                <span className="relative text-3xl" aria-hidden="true">
-                  {emojiForLevel(level)}
-                </span>
-                <p
+              <li key={level}>
+                <button
+                  type="button"
+                  onClick={() => handleSkipIntro(level)}
                   className={cn(
-                    "relative mt-1.5 text-sm font-bold",
-                    LEVEL_BAND[level].text,
+                    "relative flex h-full w-full flex-col items-center overflow-hidden rounded-2xl border px-3 py-4 text-center shadow-sm transition",
+                    "hover:-translate-y-0.5 hover:shadow-md",
+                    "focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2",
+                    LEVEL_BAND[level].soft,
                   )}
                 >
-                  {LEVEL_LABELS[level]}
-                </p>
-                <p className="relative mt-0.5 text-[11px] text-slate-600">
-                  {LEVEL_ICONS[level].trail}
-                </p>
-                <p className="relative mt-2 text-[10px] font-semibold uppercase tracking-wide text-slate-400">
-                  {i === 0 ? "Start here" : `Level ${i + 1}`}
-                </p>
+                  <span
+                    className="absolute -right-1 -top-1 text-4xl opacity-20"
+                    aria-hidden="true"
+                  >
+                    {emojiForLevel(level)}
+                  </span>
+                  <span className="relative text-3xl" aria-hidden="true">
+                    {emojiForLevel(level)}
+                  </span>
+                  <p
+                    className={cn(
+                      "relative mt-1.5 text-sm font-bold",
+                      LEVEL_BAND[level].text,
+                    )}
+                  >
+                    {LEVEL_LABELS[level]}
+                  </p>
+                  <p className="relative mt-0.5 text-[11px] text-slate-600">
+                    {LEVEL_ICONS[level].trail}
+                  </p>
+                  <p className="relative mt-2 text-[10px] font-semibold uppercase tracking-wide text-teal-700/80">
+                    {i === 0 ? "Recommended start" : "Skip to here"}
+                  </p>
+                </button>
               </li>
             ))}
           </ul>
-        </section>
-
-        {/* Preview path chips */}
-        <section className="rounded-3xl border border-dashed border-teal-200 bg-gradient-to-r from-teal-50/80 to-white p-4 sm:p-5">
-          <p className="mb-3 text-sm font-bold text-teal-900">
-            <span aria-hidden="true">🗺️ </span>
-            A peek at your first stops
-          </p>
-          <ul className="flex flex-wrap gap-2">
-            {[
-              { e: "👋", t: "Greetings" },
-              { e: "🔢", t: "Numbers" },
-              { e: "👨‍👩‍👧", t: "Family" },
-              { e: "🍜", t: "Food" },
-              { e: "🎨", t: "Colors" },
-              { e: "🐱", t: "Pets" },
-            ].map((s) => (
-              <li
-                key={s.t}
-                className="inline-flex items-center gap-1.5 rounded-full border border-teal-100 bg-white px-3 py-1.5 text-sm font-medium text-slate-700 shadow-sm"
-              >
-                <span aria-hidden="true">{s.e}</span>
-                {s.t}
-              </li>
-            ))}
-            <li className="inline-flex items-center rounded-full bg-teal-100/80 px-3 py-1.5 text-sm font-semibold text-teal-800">
-              + many more →
-            </li>
-          </ul>
-        </section>
-
-        <div className="rounded-3xl border border-slate-200 bg-slate-50/90 p-5">
-          <p className="text-sm text-slate-600">
-            Ready in under a minute — a short intro, then your first unit.
-          </p>
-          <p className="mt-3 text-sm font-bold text-slate-800">
-            Already past beginner?
-          </p>
-          <div
-            className="mt-2 flex flex-wrap gap-2"
-            role="group"
-            aria-label="Skip intro and choose level"
-          >
-            {LEVELS.map((level) => (
-              <button
-                key={level}
-                type="button"
-                onClick={() => handleSkipIntro(level)}
-                className={cn(
-                  "inline-flex items-center gap-1.5 rounded-full border bg-white px-3 py-1.5 text-sm font-medium shadow-sm transition-colors hover:border-teal-400 hover:text-teal-800",
-                  LEVEL_BAND[level].soft,
-                )}
-              >
-                <span aria-hidden="true">{emojiForLevel(level)}</span>
-                {LEVEL_LABELS[level]}
-              </button>
-            ))}
+          <div className="mt-4 flex flex-col items-stretch gap-2 border-t border-slate-100 pt-4 sm:flex-row sm:items-center sm:justify-between">
+            <p className="text-xs text-slate-600 sm:text-sm">
+              Prefer a short guided intro first?
+            </p>
+            <a
+              href={getOnboardingPath()}
+              className="inline-flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-teal-600 to-emerald-600 px-5 py-2.5 text-sm font-bold text-white shadow-md shadow-teal-600/20 transition hover:from-teal-700 hover:to-emerald-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2"
+            >
+              <span aria-hidden="true">🚀</span> Start learning
+            </a>
           </div>
-        </div>
+        </section>
       </div>
     );
   }
@@ -690,6 +804,8 @@ export default function LearnHome({ catalog }: LearnHomeProps) {
           </a>
         </section>
       )}
+
+      <StoryShowcase teasers={storyTeasers} variant="return" />
 
       {nextStep && (
         <section className="relative overflow-hidden rounded-3xl border-2 border-violet-200 bg-gradient-to-br from-white via-violet-50/40 to-fuchsia-50/50 p-5 shadow-sm sm:p-6">
