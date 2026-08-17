@@ -5,7 +5,7 @@ import UnitHub from "@/components/islands/UnitHub";
 import { buildLadderCatalog } from "@/lib/ladder";
 import { loadCurriculumUnits } from "@/lib/curriculum";
 import { loadGrammarMarkdown } from "@/lib/grammar";
-import { getLearnPath, getUnitPath } from "@/lib/utils";
+import { getUnitPath } from "@/lib/utils";
 import type { Level } from "@/lib/progress";
 
 export async function getStaticPaths() {
@@ -72,10 +72,6 @@ const grammarMarkdown = loadGrammarMarkdown("th");
   description={`Learn unit: ${title}. Switch between flashcards and reading.`}
   ogType="website"
   canonicalPath={canonicalPath}
-  breadcrumbs={[
-    { label: "Learn", href: getLearnPath() },
-    { label: title },
-  ]}
 >
   <UnitHub
     client:load

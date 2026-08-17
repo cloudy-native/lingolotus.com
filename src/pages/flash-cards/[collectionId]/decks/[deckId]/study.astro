@@ -5,7 +5,7 @@ import StudyMode from "@/components/islands/StudyMode.tsx";
 import { buildLadderCatalog } from "@/lib/ladder";
 import { loadCurriculumUnits } from "@/lib/curriculum";
 import { loadGrammarMarkdown } from "@/lib/grammar";
-import { getStudyPath, getDeckPath, getLearnPath } from "@/lib/utils";
+import { getStudyPath, getDeckPath } from "@/lib/utils";
 import type { Level } from "@/lib/progress";
 
 export async function getStaticPaths() {
@@ -124,11 +124,6 @@ const grammarMarkdown = loadGrammarMarkdown(deck.sourceLanguage);
   description={`Practice flashcards from ${deck.name} with interactive study mode.`}
   ogType="website"
   canonicalPath={canonicalPath}
-  breadcrumbs={[
-    { label: "Learn", href: getLearnPath() },
-    { label: deck.name },
-    { label: "Study" },
-  ]}
 >
   <StudyMode
     client:load

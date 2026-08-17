@@ -139,7 +139,7 @@ export default function SpeechButton({
         dim,
         "shadow-sm ring-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2",
         isSpeaking
-          ? "bg-teal-600 text-white ring-teal-700 shadow-md scale-105 animate-pulse"
+          ? "bg-teal-600 text-white ring-teal-700 shadow-md"
           : "bg-teal-50 text-teal-900 ring-teal-300 hover:bg-teal-100 hover:ring-teal-400 hover:scale-105",
         isDisabled &&
           "cursor-not-allowed bg-slate-100 text-slate-400 ring-slate-200 opacity-60 hover:scale-100 hover:bg-slate-100",

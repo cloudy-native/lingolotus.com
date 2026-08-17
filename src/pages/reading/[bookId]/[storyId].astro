@@ -6,11 +6,7 @@ import { buildLadderCatalog, getLevelLadder, hrefForHalf, getStepProgress } from
 import { loadGrammarMarkdown } from "@/lib/grammar";
 import { loadCurriculumUnits } from "@/lib/curriculum";
 import {
-  getBookPath,
-  getReadingPath,
   getStoryPath,
-  getLearnPath,
-  getBrowsePath,
   validateStoryReferences,
 } from "@/lib/utils";
 import type { Level } from "@/lib/progress";
@@ -186,13 +182,6 @@ const grammarMarkdown = loadGrammarMarkdown(story.language);
   ogType="article"
   canonicalPath={canonicalPath}
   jsonLd={jsonLd}
-  breadcrumbs={[
-    { label: "Learn", href: getLearnPath() },
-    { label: "Browse", href: getBrowsePath() },
-    { label: "Reading", href: getReadingPath() },
-    { label: book.name, href: getBookPath(book.bookId) },
-    { label: story.title.target },
-  ]}
 >
   <StoryReader
     client:load
