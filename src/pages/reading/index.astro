@@ -6,111 +6,114 @@ import { getBookPath, getReadingPath, getLearnPath } from "@/lib/utils";
 import { assertImageReferencesValid } from "@/lib/image-validation";
 import { loadCurriculumUnits } from "@/lib/curriculum";
 import { normalizeLevel, type Level } from "@/lib/progress";
+import { levelSurfaces } from "@/theme/warm-paper";
 
 const books = await getCollection("books");
 const units = loadCurriculumUnits();
 
 // Build-time validation: ensure all imageUrl references exist in public/
 assertImageReferencesValid(
-  books.map((b) => ({
-    id: b.data.bookId,
-    collection: "books",
-    imageUrl: b.data.imageUrl,
-  })),
+    books.map((b) => ({
+        id: b.data.bookId,
+        collection: "books",
+        imageUrl: b.data.imageUrl,
+    })),
 );
 
 /** Curriculum book order = first appearance in units.json */
 const curriculumBookOrder: string[] = [];
 for (const u of units) {
-  if (u.bookId && !curriculumBookOrder.includes(u.bookId)) {
-    curriculumBookOrder.push(u.bookId);
-  }
+    if (u.bookId && !curriculumBookOrder.includes(u.bookId)) {
+        curriculumBookOrder.push(u.bookId);
+    }
 }
 
 /** Fallback sequence if a book is not referenced by units */
 const FALLBACK_BOOK_ORDER = [
-  "thai-beginner-1",
-  "thai-beginner-2",
-  "thai-intermediate-1",
-  "thai-intermediate-2",
-  "thai-advanced-1",
+    "thai-beginner-1",
+    "thai-beginner-2",
+    "thai-intermediate-1",
+    "thai-intermediate-2",
+    "thai-advanced-1",
 ];
 
 function bookSortKey(bookId: string): number {
-  const i = curriculumBookOrder.indexOf(bookId);
-  if (i >= 0) return i;
-  const j = FALLBACK_BOOK_ORDER.indexOf(bookId);
-  if (j >= 0) return 1000 + j;
-  return 2000;
+    const i = curriculumBookOrder.indexOf(bookId);
+    if (i >= 0) return i;
+    const j = FALLBACK_BOOK_ORDER.indexOf(bookId);
+    if (j >= 0) return 1000 + j;
+    return 2000;
 }
 
 /** Map book → curriculum level (from units, else difficulty field) */
 function levelForBook(book: (typeof books)[0]): Level {
-  const fromUnit = units.find((u) => u.bookId === book.data.bookId);
-  if (fromUnit) {
-    const n = normalizeLevel(fromUnit.level);
-    if (n) return n;
-  }
-  // Book difficulty strings: Beginner, Intermediate, Advanced
-  // Beginner 2 ≈ elementary band in curriculum
-  if (book.data.bookId === "thai-beginner-2") return "elementary";
-  const d = normalizeLevel(book.data.difficulty ?? null);
-  if (d) return d;
-  if (book.data.difficulty?.toLowerCase().includes("beginner")) return "beginner";
-  if (book.data.difficulty?.toLowerCase().includes("intermediate"))
-    return "intermediate";
-  if (book.data.difficulty?.toLowerCase().includes("advanced")) return "advanced";
-  return "beginner";
+    const fromUnit = units.find((u) => u.bookId === book.data.bookId);
+    if (fromUnit) {
+        const n = normalizeLevel(fromUnit.level);
+        if (n) return n;
+    }
+    // Book difficulty strings: Beginner, Intermediate, Advanced
+    // Beginner 2 ≈ elementary band in curriculum
+    if (book.data.bookId === "thai-beginner-2") return "elementary";
+    const d = normalizeLevel(book.data.difficulty ?? null);
+    if (d) return d;
+    if (book.data.difficulty?.toLowerCase().includes("beginner"))
+        return "beginner";
+    if (book.data.difficulty?.toLowerCase().includes("intermediate"))
+        return "intermediate";
+    if (book.data.difficulty?.toLowerCase().includes("advanced"))
+        return "advanced";
+    return "beginner";
 }
 
 /** Pale surface + border tint per level */
 const LEVEL_STYLE: Record<
-  Level,
-  { card: string; badge: string; label: string; emoji: string }
+    Level,
+    { card: string; badge: string; label: string; emoji: string }
 > = {
-  beginner: {
-    card: "border-emerald-200 bg-emerald-50/70 hover:border-emerald-300",
-    badge: "bg-emerald-100 text-emerald-900",
-    label: "Beginner",
-    emoji: "🌱",
-  },
-  elementary: {
-    card: "border-sky-200 bg-sky-50/70 hover:border-sky-300",
-    badge: "bg-sky-100 text-sky-900",
-    label: "Elementary",
-    emoji: "📘",
-  },
-  intermediate: {
-    card: "border-amber-200 bg-amber-50/70 hover:border-amber-300",
-    badge: "bg-amber-100 text-amber-900",
-    label: "Intermediate",
-    emoji: "🧭",
-  },
-  advanced: {
-    card: "border-violet-200 bg-violet-50/70 hover:border-violet-300",
-    badge: "bg-violet-100 text-violet-900",
-    label: "Advanced",
-    emoji: "✨",
-  },
+    beginner: {
+        card: levelSurfaces.beginner.card,
+        badge: levelSurfaces.beginner.badge,
+        label: "Beginner",
+        emoji: "🌱",
+    },
+    elementary: {
+        card: levelSurfaces.elementary.card,
+        badge: levelSurfaces.elementary.badge,
+        label: "Elementary",
+        emoji: "📘",
+    },
+    intermediate: {
+        card: levelSurfaces.intermediate.card,
+        badge: levelSurfaces.intermediate.badge,
+        label: "Intermediate",
+        emoji: "🧭",
+    },
+    advanced: {
+        card: levelSurfaces.advanced.card,
+        badge: levelSurfaces.advanced.badge,
+        label: "Advanced",
+        emoji: "✨",
+    },
 };
 
 const LEVEL_ORDER: Level[] = [
-  "beginner",
-  "elementary",
-  "intermediate",
-  "advanced",
+    "beginner",
+    "elementary",
+    "intermediate",
+    "advanced",
 ];
 
 const sortedBooks = [...books].sort(
-  (a, b) => bookSortKey(a.data.bookId) - bookSortKey(b.data.bookId),
+    (a, b) => bookSortKey(a.data.bookId) - bookSortKey(b.data.bookId),
 );
 
 // Group by level, preserving curriculum book order within each group
 const booksByLevel = new Map<Level, typeof books>();
 for (const level of LEVEL_ORDER) booksByLevel.set(level, []);
 for (const book of sortedBooks) {
-  const level = levelForBook(book);
-  booksByLevel.get(level)!.push(book);
+    const level = levelForBook(book);
+    booksByLevel.get(level)!.push(book);
 }
 ---
 
@@ -126,20 +129,20 @@ for (const book of sortedBooks) {
 >
   <div class="space-y-10">
     {books.length === 0 ? (
-      <div class="flex flex-col items-center justify-center rounded-lg border border-dashed border-gray-300 px-6 py-16 text-center ">
-        <p class="text-lg text-gray-500 ">No books available yet.</p>
+      <div class="flex flex-col items-center justify-center rounded-lg border border-dashed border-stone-300 px-6 py-16 text-center ">
+        <p class="text-lg text-stone-500 ">No books available yet.</p>
       </div>
     ) : (
       <>
-        <section class="rounded-3xl border border-slate-200 bg-slate-50 px-6 py-10 sm:px-10 sm:py-14">
+        <section class="rounded-3xl border border-stone-200 bg-stone-50 px-6 py-10 sm:px-10 sm:py-14">
           <p class="mb-2 text-3xl" aria-hidden="true">📖</p>
-          <h1 class="mb-4 text-3xl font-bold text-gray-900 sm:text-4xl">
+          <h1 class="mb-4 text-3xl font-bold text-stone-900 sm:text-4xl">
             Practice Reading
           </h1>
-          <p class="mb-2 text-lg text-gray-700">
+          <p class="mb-2 text-lg text-stone-700">
             Books in curriculum order — from first steps through advanced stories.
           </p>
-          <p class="text-base text-gray-600">
+          <p class="text-base text-stone-600">
             Follow the path on Learn, or jump into any book. Color shows level at a glance.
           </p>
         </section>
@@ -150,7 +153,7 @@ for (const book of sortedBooks) {
           const style = LEVEL_STYLE[level];
           return (
             <section>
-              <h2 class="mb-4 flex items-center gap-2 text-xl font-bold text-slate-900 sm:text-2xl">
+              <h2 class="mb-4 flex items-center gap-2 text-xl font-bold text-stone-900 sm:text-2xl">
                 <span aria-hidden="true">{style.emoji}</span>
                 {style.label}
               </h2>
@@ -164,7 +167,7 @@ for (const book of sortedBooks) {
                     ]}
                   >
                     {book.data.imageUrl ? (
-                      <div class="aspect-video w-full overflow-hidden bg-white/50">
+                      <div class="aspect-video w-full overflow-hidden bg-paper/50">
                         <ContentImage
                           src={book.data.imageUrl}
                           alt={book.data.name}
@@ -175,24 +178,24 @@ for (const book of sortedBooks) {
                         />
                       </div>
                     ) : (
-                      <div class="flex aspect-video w-full items-center justify-center bg-white/60 text-5xl" aria-hidden="true">
+                      <div class="flex aspect-video w-full items-center justify-center bg-paper/60 text-5xl" aria-hidden="true">
                         {style.emoji}
                       </div>
                     )}
                     <div class="flex flex-1 flex-col p-4">
-                      <h3 class="text-lg font-semibold text-slate-900 group-hover:text-teal-800">
+                      <h3 class="text-lg font-semibold text-stone-900 group-hover:text-orange-900">
                         <span aria-hidden="true" class="mr-1.5">{style.emoji}</span>
                         {book.data.name}
                       </h3>
-                      <p class="mt-1 flex-1 text-sm text-slate-600">
+                      <p class="mt-1 flex-1 text-sm text-stone-600">
                         {book.data.description}
                       </p>
                       <div class="mt-3 flex flex-wrap gap-1.5">
-                        <span class="inline-flex items-center rounded-full bg-white/80 px-2 py-0.5 text-xs font-medium text-slate-700 ring-1 ring-slate-200/80">
+                        <span class="inline-flex items-center rounded-full bg-paper/80 px-2 py-0.5 text-xs font-medium text-stone-700 ring-1 ring-stone-200/80">
                           {book.data.sourceLanguage.toUpperCase()}
                         </span>
                         {book.data.targetLanguage && (
-                          <span class="inline-flex items-center rounded-full bg-white/80 px-2 py-0.5 text-xs font-medium text-slate-700 ring-1 ring-slate-200/80">
+                          <span class="inline-flex items-center rounded-full bg-paper/80 px-2 py-0.5 text-xs font-medium text-stone-700 ring-1 ring-stone-200/80">
                             {book.data.targetLanguage.toUpperCase()}
                           </span>
                         )}

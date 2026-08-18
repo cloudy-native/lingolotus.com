@@ -174,7 +174,7 @@ export default function StudyMode({
             <div className="flex flex-wrap items-center justify-between gap-2">
                 <a
                     href={getLearnPath()}
-                    className="inline-flex items-center gap-1 text-sm font-medium text-slate-500 transition-colors hover:text-slate-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2 rounded"
+                    className="inline-flex items-center gap-1 text-sm font-medium text-stone-500 transition-colors hover:text-stone-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2 rounded"
                 >
                     <svg
                         className="h-4 w-4"
@@ -195,14 +195,14 @@ export default function StudyMode({
                 {activeUnitId ? (
                     <a
                         href={getUnitPath(activeUnitId)}
-                        className="text-sm font-medium text-slate-500 underline-offset-2 hover:text-slate-800 hover:underline"
+                        className="text-sm font-medium text-stone-500 underline-offset-2 hover:text-stone-800 hover:underline"
                     >
                         Unit hub
                     </a>
                 ) : deckDetailsHref ? (
                     <a
                         href={deckDetailsHref}
-                        className="text-sm font-medium text-slate-500 underline-offset-2 hover:text-slate-800 hover:underline"
+                        className="text-sm font-medium text-stone-500 underline-offset-2 hover:text-stone-800 hover:underline"
                     >
                         Deck details
                     </a>
@@ -444,10 +444,10 @@ export default function StudyMode({
     // Progress bar segments — use card results for coloring
     const getSegmentColor = (i: number) => {
         const result = cardResults[i];
-        if (i === currentIndex) return "bg-slate-700";
+        if (i === currentIndex) return "bg-stone-700";
         if (result === true) return "bg-emerald-500";
         if (result === false) return "bg-amber-500";
-        return "bg-slate-200";
+        return "bg-stone-200";
     };
 
     const thaiText = currentCard.frontContent.text;
@@ -472,7 +472,7 @@ export default function StudyMode({
             ) : (
                 <p
                     className={cn(
-                        "text-center font-bold text-slate-900",
+                        "text-center font-bold text-stone-900",
                         fontSize === "sm" && "text-2xl",
                         fontSize === "base" && "text-3xl md:text-4xl",
                         fontSize === "lg" && "text-4xl md:text-5xl",
@@ -490,7 +490,7 @@ export default function StudyMode({
             <div>
                 <p
                     className={cn(
-                        "font-bold leading-snug text-slate-900",
+                        "font-bold leading-snug text-stone-900",
                         fontSize === "sm" && "text-xl",
                         fontSize === "base" && "text-2xl",
                         fontSize === "lg" && "text-3xl",
@@ -499,7 +499,7 @@ export default function StudyMode({
                     {languageDisplay === "source" ? englishText : thaiText}
                 </p>
                 {currentCard.context ? (
-                    <p className="mt-0.5 text-sm text-slate-500">
+                    <p className="mt-0.5 text-sm text-stone-500">
                         {currentCard.context}
                     </p>
                 ) : null}
@@ -518,11 +518,11 @@ export default function StudyMode({
             />
 
             {currentCard.examples && currentCard.examples.length > 0 ? (
-                <ul className="space-y-3 border-t border-slate-100 pt-3">
+                <ul className="space-y-3 border-t border-stone-100 pt-3">
                     {currentCard.examples.map((example, idx) => (
                         <li key={idx}>
                             {example.translation ? (
-                                <p className="mb-0.5 text-xs font-medium text-slate-500">
+                                <p className="mb-0.5 text-xs font-medium text-stone-500">
                                     {example.translation}
                                 </p>
                             ) : null}
@@ -545,7 +545,7 @@ export default function StudyMode({
     if (!ready || !currentCard) {
         return (
             <div
-                className="mx-auto max-w-4xl py-12 text-center text-sm text-slate-500"
+                className="mx-auto max-w-4xl py-12 text-center text-sm text-stone-500"
                 aria-busy="true"
             >
                 Loading progress…
@@ -598,7 +598,7 @@ export default function StudyMode({
                 <span className="font-medium text-amber-600">
                     Incorrect: {incorrect}
                 </span>
-                <span className="text-gray-600">Remaining: {remaining}</span>
+                <span className="text-stone-600">Remaining: {remaining}</span>
             </div>
         </>
     );
@@ -608,11 +608,11 @@ export default function StudyMode({
             <div className="mx-auto w-full max-w-4xl">
                 {pageChrome}
                 {progressBar}
-                <div className="mx-auto max-w-md rounded-2xl border border-slate-200 bg-slate-50 p-6 text-center">
-                    <p className="text-lg font-semibold text-slate-900">
+                <div className="mx-auto max-w-md rounded-2xl border border-stone-200 bg-stone-50 p-6 text-center">
+                    <p className="text-lg font-semibold text-stone-900">
                         Cards done
                     </p>
-                    <p className="mt-1 text-sm text-slate-600">
+                    <p className="mt-1 text-sm text-stone-600">
                         {correct} correct · {incorrect} to review
                     </p>
                 </div>
@@ -625,7 +625,7 @@ export default function StudyMode({
             <div className="mx-auto w-full max-w-4xl space-y-6">
                 {pageChrome}
                 <div className="text-center">
-                    <span className="text-lg font-semibold text-slate-900">
+                    <span className="text-lg font-semibold text-stone-900">
                         {deckName}
                     </span>
                 </div>
@@ -647,14 +647,14 @@ export default function StudyMode({
                     <button
                         type="button"
                         onClick={handleReviewAnswers}
-                        className="rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-800 hover:bg-slate-50"
+                        className="rounded-xl border border-stone-200 bg-paper px-4 py-2.5 text-sm font-semibold text-stone-800 hover:bg-stone-50"
                     >
                         Review cards
                     </button>
                     <button
                         type="button"
                         onClick={handleResetDeck}
-                        className="rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-800 hover:bg-slate-50"
+                        className="rounded-xl border border-stone-200 bg-paper px-4 py-2.5 text-sm font-semibold text-stone-800 hover:bg-stone-50"
                     >
                         Reset deck progress
                     </button>
@@ -672,10 +672,10 @@ export default function StudyMode({
             {/* Header row: deck name + counter + language toggles */}
             <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
                 <div className="flex flex-1 flex-wrap items-center justify-center gap-2 text-center">
-                    <span className="text-lg font-semibold text-slate-900 sm:text-xl">
+                    <span className="text-lg font-semibold text-stone-900 sm:text-xl">
                         {deckName}
                     </span>
-                    <span className="text-lg text-teal-700">
+                    <span className="text-lg text-orange-800">
                         {currentIndex + 1} of {total}
                     </span>
                 </div>
@@ -686,8 +686,8 @@ export default function StudyMode({
                         className={cn(
                             "inline-flex items-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-medium transition-colors",
                             languageDisplay === "target"
-                                ? "bg-slate-800 text-white"
-                                : "border border-slate-200 bg-white text-slate-700 hover:bg-slate-50",
+                                ? "bg-stone-800 text-white"
+                                : "border border-stone-200 bg-paper text-stone-700 hover:bg-stone-50",
                         )}
                         aria-pressed={languageDisplay === "target"}
                     >
@@ -699,8 +699,8 @@ export default function StudyMode({
                         className={cn(
                             "inline-flex items-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-medium transition-colors",
                             languageDisplay === "source"
-                                ? "bg-teal-700 text-white"
-                                : "border border-slate-200 bg-white text-slate-700 hover:bg-slate-50",
+                                ? "bg-orange-800 text-white"
+                                : "border border-stone-200 bg-paper text-stone-700 hover:bg-stone-50",
                         )}
                         aria-pressed={languageDisplay === "source"}
                     >
@@ -715,7 +715,7 @@ export default function StudyMode({
                 <button
                     type="button"
                     onClick={handleResetDeck}
-                    className="text-xs font-medium text-slate-500 hover:text-slate-800"
+                    className="text-xs font-medium text-stone-500 hover:text-stone-800"
                 >
                     Reset deck progress
                 </button>
@@ -731,8 +731,8 @@ export default function StudyMode({
                     className={cn(
                         "flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg transition-colors",
                         isPrevDisabled
-                            ? "text-slate-300 cursor-not-allowed"
-                            : "bg-slate-100 text-slate-700 hover:bg-slate-200",
+                            ? "text-stone-300 cursor-not-allowed"
+                            : "bg-stone-100 text-stone-700 hover:bg-stone-200",
                     )}
                     aria-label="Previous card"
                 >
@@ -777,8 +777,8 @@ export default function StudyMode({
                     className={cn(
                         "flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg transition-colors",
                         isNextDisabled
-                            ? "text-slate-300 cursor-not-allowed"
-                            : "bg-slate-100 text-slate-700 hover:bg-slate-200",
+                            ? "text-stone-300 cursor-not-allowed"
+                            : "bg-stone-100 text-stone-700 hover:bg-stone-200",
                     )}
                     aria-label="Next card"
                 >
@@ -822,7 +822,7 @@ export default function StudyMode({
             )}
 
             {/* Keyboard hint */}
-            <p className="text-center text-xs text-slate-500">
+            <p className="text-center text-xs text-stone-500">
                 Keyboard: ← Previous · → Next · Space Flip
             </p>
         </div>

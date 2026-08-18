@@ -140,8 +140,8 @@ const POS_BUCKET_META: Record<
     },
     function: {
         label: "func",
-        underline: "border-slate-400/90",
-        hover: "hover:bg-slate-50",
+        underline: "border-stone-400/90",
+        hover: "hover:bg-stone-50",
         tip: "preposition / conjunction / determiner",
     },
     other: {
@@ -160,7 +160,7 @@ const POS_DOT: Record<PosBucket, string> = {
     pronoun: "bg-cyan-400",
     particle: "bg-rose-400",
     number: "bg-emerald-400",
-    function: "bg-slate-400",
+    function: "bg-stone-400",
     other: "bg-fuchsia-400",
 };
 
@@ -270,18 +270,18 @@ function ThaiRubyLine({
                             .join(" ")}
                         className={cn(
                             "inline-flex max-w-[9rem] flex-col items-center rounded-md px-0.5 py-0.5 text-center transition-colors sm:max-w-[11rem]",
-                            "focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500",
-                            meta ? meta.hover : "hover:bg-teal-50",
+                            "focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500",
+                            meta ? meta.hover : "hover:bg-orange-50",
                         )}
                     >
                         {showPhonetics && (
-                            <span className="mb-0.5 w-full truncate text-[11px] font-medium italic leading-none text-slate-500 sm:text-xs">
+                            <span className="mb-0.5 w-full truncate text-[11px] font-medium italic leading-none text-stone-500 sm:text-xs">
                                 {word.phonetic || "·"}
                             </span>
                         )}
                         <span
                             className={cn(
-                                "font-thai font-medium text-slate-900",
+                                "font-thai font-medium text-stone-900",
                                 // POS cue only when the Parts of speech toggle is on
                                 bucket && meta && "border-b-2 pb-px",
                                 bucket && meta?.underline,
@@ -291,7 +291,7 @@ function ThaiRubyLine({
                             {word.source}
                         </span>
                         {showEnglish && word.target ? (
-                            <span className="mt-0.5 w-full text-[11px] font-medium leading-snug text-slate-600 sm:text-xs">
+                            <span className="mt-0.5 w-full text-[11px] font-medium leading-snug text-stone-600 sm:text-xs">
                                 {word.target}
                             </span>
                         ) : null}
@@ -326,7 +326,7 @@ function PosLegend({ words }: { words: WordPiece[] }) {
 
     return (
         <ul
-            className="mb-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-[11px] text-slate-500"
+            className="mb-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-[11px] text-stone-500"
             aria-label="Part of speech colors"
         >
             {items.map((b) => (
@@ -471,7 +471,7 @@ export default function StoryReader({
                 <div className="flex flex-wrap items-center justify-between gap-2">
                     <a
                         href={getLearnPath()}
-                        className="inline-flex items-center gap-1 rounded text-sm font-medium text-slate-500 transition-colors hover:text-slate-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2"
+                        className="inline-flex items-center gap-1 rounded text-sm font-medium text-stone-500 transition-colors hover:text-stone-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2"
                     >
                         <svg
                             className="h-4 w-4"
@@ -492,7 +492,7 @@ export default function StoryReader({
                     {activeUnitId ? (
                         <a
                             href={getUnitPath(activeUnitId)}
-                            className="text-sm font-medium text-slate-500 underline-offset-2 hover:text-slate-800 hover:underline"
+                            className="text-sm font-medium text-stone-500 underline-offset-2 hover:text-stone-800 hover:underline"
                         >
                             Unit hub
                         </a>
@@ -526,7 +526,7 @@ export default function StoryReader({
         <>
             {/* Title row — mirrors StudyMode header density */}
             <div className="flex flex-wrap items-center justify-center gap-2 text-center">
-                <h1 className="text-lg font-semibold text-slate-900 sm:text-xl">
+                <h1 className="text-lg font-semibold text-stone-900 sm:text-xl">
                     {title.target}
                 </h1>
                 {difficulty ? (
@@ -554,7 +554,7 @@ export default function StoryReader({
                         />
                     ) : (
                         <div
-                            className="flex h-14 w-14 shrink-0 items-center justify-center rounded-lg bg-teal-100 text-2xl sm:h-16 sm:w-16"
+                            className="flex h-14 w-14 shrink-0 items-center justify-center rounded-lg bg-orange-100 text-2xl sm:h-16 sm:w-16"
                             aria-hidden="true"
                         >
                             📖
@@ -562,12 +562,12 @@ export default function StoryReader({
                     )}
                     <div className="min-w-0 flex-1 self-center">
                         {title.source ? (
-                            <p className="font-thai text-base font-semibold text-slate-800 sm:text-lg">
+                            <p className="font-thai text-base font-semibold text-stone-800 sm:text-lg">
                                 {title.source}
                             </p>
                         ) : null}
                         {summary ? (
-                            <p className="mt-0.5 line-clamp-2 text-sm text-slate-600">
+                            <p className="mt-0.5 line-clamp-2 text-sm text-stone-600">
                                 {summary.target}
                             </p>
                         ) : null}
@@ -575,9 +575,9 @@ export default function StoryReader({
                 </header>
 
                 {/* Slim chrome: read/translate mode + reveal actions */}
-                <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 bg-white/70 px-3 py-2 sm:px-4">
+                <div className="flex flex-wrap items-center justify-between gap-2 border-b border-stone-100 bg-paper/70 px-3 py-2 sm:px-4">
                     <div
-                        className="inline-flex rounded-lg bg-slate-100 p-0.5"
+                        className="inline-flex rounded-lg bg-stone-100 p-0.5"
                         role="group"
                         aria-label="Reading mode"
                     >
@@ -590,8 +590,8 @@ export default function StoryReader({
                             className={cn(
                                 "rounded-md px-3 py-1.5 text-xs font-semibold transition-colors sm:text-sm",
                                 mode === "read"
-                                    ? "bg-teal-700 text-white shadow-sm"
-                                    : "text-slate-600 hover:text-slate-900",
+                                    ? "bg-orange-800 text-white shadow-sm"
+                                    : "text-stone-600 hover:text-stone-900",
                             )}
                         >
                             Read
@@ -605,8 +605,8 @@ export default function StoryReader({
                             className={cn(
                                 "rounded-md px-3 py-1.5 text-xs font-semibold transition-colors sm:text-sm",
                                 mode === "translate"
-                                    ? "bg-teal-700 text-white shadow-sm"
-                                    : "text-slate-600 hover:text-slate-900",
+                                    ? "bg-orange-800 text-white shadow-sm"
+                                    : "text-stone-600 hover:text-stone-900",
                             )}
                         >
                             Translate
@@ -617,14 +617,14 @@ export default function StoryReader({
                         <button
                             type="button"
                             onClick={revealAll}
-                            className="rounded-md px-2.5 py-1.5 text-xs font-semibold text-teal-800 hover:bg-teal-50 sm:text-sm"
+                            className="rounded-md px-2.5 py-1.5 text-xs font-semibold text-orange-900 hover:bg-orange-50 sm:text-sm"
                         >
                             Reveal all
                         </button>
                         <button
                             type="button"
                             onClick={hideAll}
-                            className="rounded-md px-2.5 py-1.5 text-xs font-medium text-slate-500 hover:bg-slate-50 hover:text-slate-800 sm:text-sm"
+                            className="rounded-md px-2.5 py-1.5 text-xs font-medium text-stone-500 hover:bg-stone-50 hover:text-stone-800 sm:text-sm"
                         >
                             Hide
                         </button>
@@ -635,13 +635,13 @@ export default function StoryReader({
                 <div className="px-4 py-5 sm:px-8 sm:py-7 md:px-12">
                     <div className="mx-auto max-w-prose">
                         {mode === "read" ? (
-                            <p className="mb-2 text-xs font-medium uppercase tracking-wide text-slate-400">
+                            <p className="mb-2 text-xs font-medium uppercase tracking-wide text-stone-400">
                                 {lowScaffold
                                     ? "Tap a word to hear it · Show English for glosses + sentence"
                                     : "Read in Thai · Show English for the translation"}
                             </p>
                         ) : (
-                            <p className="mb-2 text-xs font-medium uppercase tracking-wide text-slate-400">
+                            <p className="mb-2 text-xs font-medium uppercase tracking-wide text-stone-400">
                                 Translate · tap a line for Thai
                             </p>
                         )}
@@ -670,7 +670,7 @@ export default function StoryReader({
                                         <div>
                                             <p
                                                 className={cn(
-                                                    "font-thai font-medium text-slate-900",
+                                                    "font-thai font-medium text-stone-900",
                                                     thaiText,
                                                 )}
                                             >
@@ -678,7 +678,7 @@ export default function StoryReader({
                                             </p>
                                             {showPhonetics &&
                                             sentence.phonetic ? (
-                                                <p className="mt-0.5 text-sm italic text-slate-500">
+                                                <p className="mt-0.5 text-sm italic text-stone-500">
                                                     {sentence.phonetic}
                                                 </p>
                                             ) : null}
@@ -692,7 +692,7 @@ export default function StoryReader({
                                             className={cn(
                                                 "group rounded-xl border border-transparent px-2 py-2.5 transition-colors sm:px-3",
                                                 isRevealed
-                                                    ? "border-teal-100 bg-teal-50/70"
+                                                    ? "border-orange-100 bg-orange-50/70"
                                                     : "hover:bg-amber-50/50",
                                             )}
                                         >
@@ -721,8 +721,8 @@ export default function StoryReader({
                                                         className={cn(
                                                             "mt-2 text-left text-xs font-semibold transition-colors",
                                                             isRevealed
-                                                                ? "text-slate-500 hover:text-slate-800"
-                                                                : "text-teal-700 hover:text-teal-900",
+                                                                ? "text-stone-500 hover:text-stone-800"
+                                                                : "text-orange-800 hover:text-orange-950",
                                                         )}
                                                     >
                                                         {isRevealed
@@ -734,7 +734,7 @@ export default function StoryReader({
                                                     {isRevealed && (
                                                         <p
                                                             className={cn(
-                                                                "mt-1.5 font-medium text-slate-600",
+                                                                "mt-1.5 font-medium text-stone-600",
                                                                 enText,
                                                             )}
                                                         >
@@ -754,7 +754,7 @@ export default function StoryReader({
                                         className={cn(
                                             "group rounded-xl border border-transparent px-2 py-2.5 transition-colors sm:px-3",
                                             isRevealed
-                                                ? "border-teal-100 bg-teal-50/70"
+                                                ? "border-orange-100 bg-orange-50/70"
                                                 : "hover:bg-amber-50/50",
                                         )}
                                     >
@@ -769,7 +769,7 @@ export default function StoryReader({
                                         >
                                             <span
                                                 className={cn(
-                                                    "font-medium text-slate-800",
+                                                    "font-medium text-stone-800",
                                                     enText,
                                                 )}
                                             >
@@ -799,13 +799,13 @@ export default function StoryReader({
                 {/* Finish — same teal CTA language as study complete */}
                 {!isSample && storyId && (
                     <footer className="border-t border-amber-100/80 bg-amber-50/40 px-4 py-5 text-center sm:px-6">
-                        <p className="text-sm text-slate-600">
+                        <p className="text-sm text-stone-600">
                             Finished reading?
                         </p>
                         <button
                             type="button"
                             onClick={handleFinish}
-                            className="mt-2 inline-flex items-center justify-center rounded-xl bg-teal-700 px-5 py-2.5 text-sm font-semibold text-white hover:bg-teal-800 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
+                            className="mt-2 inline-flex items-center justify-center rounded-xl bg-orange-800 px-5 py-2.5 text-sm font-semibold text-white hover:bg-orange-900 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2"
                         >
                             Mark story complete
                         </button>

@@ -93,9 +93,9 @@ export default function SessionComplete(props: Props) {
       typeof props.total === "number";
 
     return (
-      <div className="mx-auto max-w-md space-y-5 rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm">
-        <p className="text-sm font-medium text-teal-700">Deck complete</p>
-        <h2 className="text-2xl font-bold text-slate-900">{props.deckName}</h2>
+      <div className="mx-auto max-w-md space-y-5 rounded-2xl border border-stone-200 bg-paper p-6 text-center shadow-sm">
+        <p className="text-sm font-medium text-orange-800">Deck complete</p>
+        <h2 className="text-2xl font-bold text-stone-900">{props.deckName}</h2>
         {hasScores && (
           <div className="flex justify-center gap-4 text-sm">
             <span className="font-medium text-emerald-600">
@@ -104,19 +104,19 @@ export default function SessionComplete(props: Props) {
             <span className="font-medium text-amber-600">
               Incorrect: {props.incorrect}
             </span>
-            <span className="text-slate-600">
+            <span className="text-stone-600">
               of {props.total}
             </span>
           </div>
         )}
         {saved && (
-          <p className="text-sm text-slate-500">Saved on this device</p>
+          <p className="text-sm text-stone-500">Saved on this device</p>
         )}
         <div className="flex flex-col gap-3 pt-2">
           {showPair && pairHref && props.pairedStory && (
             <a
               href={pairHref}
-              className="inline-flex w-full items-center justify-center rounded-xl bg-teal-700 px-4 py-3 text-sm font-semibold text-white hover:bg-teal-800"
+              className="inline-flex w-full items-center justify-center rounded-xl bg-orange-800 px-4 py-3 text-sm font-semibold text-white hover:bg-orange-900"
             >
               Read: {props.pairedStory.title}
             </a>
@@ -126,8 +126,8 @@ export default function SessionComplete(props: Props) {
               href={getUnitPath(props.unitId)}
               className={
                 showPair
-                  ? "inline-flex w-full items-center justify-center rounded-xl border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800 hover:bg-slate-50"
-                  : "inline-flex w-full items-center justify-center rounded-xl bg-teal-700 px-4 py-3 text-sm font-semibold text-white hover:bg-teal-800"
+                  ? "inline-flex w-full items-center justify-center rounded-xl border border-stone-200 px-4 py-3 text-sm font-semibold text-stone-800 hover:bg-stone-50"
+                  : "inline-flex w-full items-center justify-center rounded-xl bg-orange-800 px-4 py-3 text-sm font-semibold text-white hover:bg-orange-900"
               }
             >
               Back to unit
@@ -135,13 +135,13 @@ export default function SessionComplete(props: Props) {
           )}
           <a
             href={getHomePath()}
-            className="inline-flex w-full items-center justify-center rounded-xl border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800 hover:bg-slate-50"
+            className="inline-flex w-full items-center justify-center rounded-xl border border-stone-200 px-4 py-3 text-sm font-semibold text-stone-800 hover:bg-stone-50"
           >
             Back to Learn
           </a>
           <a
             href={getBrowsePath()}
-            className="text-sm font-medium text-slate-500 hover:text-slate-800"
+            className="text-sm font-medium text-stone-500 hover:text-stone-800"
           >
             Browse library
           </a>
@@ -151,15 +151,15 @@ export default function SessionComplete(props: Props) {
   }
 
   return (
-    <div className="mx-auto max-w-md space-y-5 rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm">
-      <p className="text-sm font-medium text-teal-700">Story complete</p>
-      <h2 className="text-2xl font-bold text-slate-900">{props.storyTitle}</h2>
-      {saved && <p className="text-sm text-slate-500">Saved on this device</p>}
+    <div className="mx-auto max-w-md space-y-5 rounded-2xl border border-stone-200 bg-paper p-6 text-center shadow-sm">
+      <p className="text-sm font-medium text-orange-800">Story complete</p>
+      <h2 className="text-2xl font-bold text-stone-900">{props.storyTitle}</h2>
+      {saved && <p className="text-sm text-stone-500">Saved on this device</p>}
       <div className="flex flex-col gap-3 pt-2">
         {props.unitId && (
           <a
             href={getUnitPath(props.unitId)}
-            className="inline-flex w-full items-center justify-center rounded-xl bg-teal-700 px-4 py-3 text-sm font-semibold text-white hover:bg-teal-800"
+            className="inline-flex w-full items-center justify-center rounded-xl bg-orange-800 px-4 py-3 text-sm font-semibold text-white hover:bg-orange-900"
           >
             Back to unit
           </a>
@@ -168,8 +168,8 @@ export default function SessionComplete(props: Props) {
           href={getHomePath()}
           className={
             props.unitId
-              ? "inline-flex w-full items-center justify-center rounded-xl border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800 hover:bg-slate-50"
-              : "inline-flex w-full items-center justify-center rounded-xl bg-teal-700 px-4 py-3 text-sm font-semibold text-white hover:bg-teal-800"
+              ? "inline-flex w-full items-center justify-center rounded-xl border border-stone-200 px-4 py-3 text-sm font-semibold text-stone-800 hover:bg-stone-50"
+              : "inline-flex w-full items-center justify-center rounded-xl bg-orange-800 px-4 py-3 text-sm font-semibold text-white hover:bg-orange-900"
           }
         >
           Back to Learn
@@ -177,7 +177,7 @@ export default function SessionComplete(props: Props) {
         {props.nextHref && (
           <a
             href={props.nextHref}
-            className="inline-flex w-full items-center justify-center rounded-xl border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800 hover:bg-slate-50"
+            className="inline-flex w-full items-center justify-center rounded-xl border border-stone-200 px-4 py-3 text-sm font-semibold text-stone-800 hover:bg-stone-50"
           >
             {props.nextLabel || "Next step"}
           </a>

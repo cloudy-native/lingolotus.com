@@ -51,7 +51,7 @@ type Phase = "intro" | "cards" | "bridge" | "reading" | "done";
 function PhaseFallback({ label }: { label: string }) {
   return (
     <div
-      className="mx-auto max-w-lg py-12 text-center text-sm text-slate-500"
+      className="mx-auto max-w-lg py-12 text-center text-sm text-stone-500"
       aria-busy="true"
     >
       Loading {label}…
@@ -86,11 +86,11 @@ export default function OnboardingFlow({
   if (phase === "intro") {
     return (
       <div className="mx-auto max-w-lg space-y-6 py-8 text-center">
-        <p className="text-sm font-medium text-teal-700">Quick start · ~5 minutes</p>
-        <h1 className="text-3xl font-bold text-slate-900">
+        <p className="text-sm font-medium text-orange-800">Quick start · ~5 minutes</p>
+        <h1 className="text-3xl font-bold text-stone-900">
           A few words, then a tiny story
         </h1>
-        <p className="text-slate-600">
+        <p className="text-stone-600">
           We’ll try {ONBOARDING.cardLimit} greeting cards, then a short beginner
           story with phonetics. No account needed.
         </p>
@@ -98,14 +98,14 @@ export default function OnboardingFlow({
           <button
             type="button"
             onClick={() => setPhase("cards")}
-            className="inline-flex w-full items-center justify-center rounded-xl bg-teal-700 px-5 py-3.5 text-base font-semibold text-white hover:bg-teal-800"
+            className="inline-flex w-full items-center justify-center rounded-xl bg-orange-800 px-5 py-3.5 text-base font-semibold text-white hover:bg-orange-900"
           >
             Let’s go
           </button>
           <button
             type="button"
             onClick={skip}
-            className="text-sm font-medium text-slate-600 hover:text-slate-900"
+            className="text-sm font-medium text-stone-600 hover:text-stone-900"
           >
             Skip intro
           </button>
@@ -118,13 +118,13 @@ export default function OnboardingFlow({
     return (
       <div className="space-y-4">
         <div className="flex items-center justify-between gap-3">
-          <p className="text-sm font-medium text-teal-700">
+          <p className="text-sm font-medium text-orange-800">
             Intro · Cards (up to {sampleCards.length})
           </p>
           <button
             type="button"
             onClick={() => setPhase("bridge")}
-            className="text-sm font-medium text-slate-600 hover:text-slate-900"
+            className="text-sm font-medium text-stone-600 hover:text-stone-900"
           >
             Skip to story
           </button>
@@ -144,7 +144,7 @@ export default function OnboardingFlow({
           <button
             type="button"
             onClick={() => setPhase("bridge")}
-            className="inline-flex items-center justify-center rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-800 hover:bg-slate-50"
+            className="inline-flex items-center justify-center rounded-xl border border-stone-200 bg-paper px-4 py-2.5 text-sm font-semibold text-stone-800 hover:bg-stone-50"
           >
             Continue to story
           </button>
@@ -156,14 +156,14 @@ export default function OnboardingFlow({
   if (phase === "bridge") {
     return (
       <div className="mx-auto max-w-lg space-y-6 py-10 text-center">
-        <h1 className="text-2xl font-bold text-slate-900">Nice start</h1>
-        <p className="text-slate-600">
+        <h1 className="text-2xl font-bold text-stone-900">Nice start</h1>
+        <p className="text-stone-600">
           Here’s how those words feel in a real mini-story.
         </p>
         <button
           type="button"
           onClick={() => setPhase("reading")}
-          className="inline-flex w-full items-center justify-center rounded-xl bg-teal-700 px-5 py-3.5 text-base font-semibold text-white hover:bg-teal-800"
+          className="inline-flex w-full items-center justify-center rounded-xl bg-orange-800 px-5 py-3.5 text-base font-semibold text-white hover:bg-orange-900"
         >
           Read a short story
         </button>
@@ -174,7 +174,7 @@ export default function OnboardingFlow({
   if (phase === "reading") {
     return (
       <div className="space-y-4">
-        <p className="text-sm font-medium text-teal-700">Intro · Reading</p>
+        <p className="text-sm font-medium text-orange-800">Intro · Reading</p>
         <Suspense fallback={<PhaseFallback label="story" />}>
           <StoryReader
             sentences={story.sentences}
@@ -192,7 +192,7 @@ export default function OnboardingFlow({
           <button
             type="button"
             onClick={finish}
-            className="inline-flex items-center justify-center rounded-xl bg-teal-700 px-5 py-3 text-sm font-semibold text-white hover:bg-teal-800"
+            className="inline-flex items-center justify-center rounded-xl bg-orange-800 px-5 py-3 text-sm font-semibold text-white hover:bg-orange-900"
           >
             Finish intro
           </button>
@@ -204,14 +204,14 @@ export default function OnboardingFlow({
   // done
   return (
     <div className="mx-auto max-w-lg space-y-6 py-10 text-center">
-      <h1 className="text-3xl font-bold text-slate-900">You’re set up</h1>
-      <p className="text-slate-600">
+      <h1 className="text-3xl font-bold text-stone-900">You’re set up</h1>
+      <p className="text-stone-600">
         We’ll keep a simple path for you on this device. Free forever — no
         account.
       </p>
       <a
         href={getHomePath()}
-        className="inline-flex w-full items-center justify-center rounded-xl bg-teal-700 px-5 py-3.5 text-base font-semibold text-white hover:bg-teal-800"
+        className="inline-flex w-full items-center justify-center rounded-xl bg-orange-800 px-5 py-3.5 text-base font-semibold text-white hover:bg-orange-900"
       >
         Go to your Learn home
       </a>

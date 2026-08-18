@@ -4,6 +4,11 @@ import PageLayout from "../layouts/PageLayout.astro";
 import LearnHome from "../components/islands/LearnHome";
 import { buildLadderCatalog } from "../lib/ladder";
 import { loadCurriculumUnits } from "../lib/curriculum";
+import { getUnitPath } from "../lib/utils";
+import {
+    FIRST_RUN_LINE,
+    type FirstRunPreview,
+} from "../components/islands/FirstRunHome";
 
 const collections = await getCollection("flashcard-collections");
 const decks = await getCollection("flashcard-decks");
@@ -35,13 +40,44 @@ const catalog = buildLadderCatalog({
     })),
     units,
 });
+
+const COVER_UNITS: Array<{ unitId: string; imageUrl: string }> = [
+    { unitId: "beginner-greetings", imageUrl: "/images/IMG_0649.jpeg" },
+    { unitId: "beginner-family", imageUrl: "/images/IMG_5492.jpeg" },
+    { unitId: "beginner-food", imageUrl: "/images/IMG_5501.jpeg" },
+];
+
+const covers = COVER_UNITS.flatMap((cover) => {
+    const unit = units.find((u) => u.unitId === cover.unitId);
+    if (!unit) return [];
+    const story = unit.storyId
+        ? stories.find((s) => s.data.storyId === unit.storyId)
+        : undefined;
+    const opener = story?.data.sentences[0];
+    return [
+        {
+            unitId: unit.unitId,
+            titleEn: story?.data.title.target || unit.title.en,
+            titleTh: unit.title.th || story?.data.title.source || unit.title.en,
+            hookThai: opener?.source ?? "",
+            hookEn: opener?.target ?? "",
+            imageUrl: cover.imageUrl,
+            href: getUnitPath(unit.unitId),
+        },
+    ];
+});
+
+const firstRun: FirstRunPreview = {
+    lines: [FIRST_RUN_LINE],
+    covers,
+};
 ---
 
 <PageLayout
   title="Learn Thai | Lingo Lotus"
-  description="Learn Thai with a clear path: short flashcard steps and simple stories with phonetics. Free forever, no account."
+  description="Hear a line of Thai, then learn it — short flashcard steps and simple stories with phonetics. Free forever, no account."
   ogType="website"
   canonicalPath="/"
 >
-  <LearnHome client:load catalog={catalog} />
+  <LearnHome client:load catalog={catalog} firstRun={firstRun} />
 </PageLayout>

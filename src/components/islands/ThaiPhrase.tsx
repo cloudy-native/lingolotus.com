@@ -93,7 +93,7 @@ export function ThaiPhrase({
             <p
               className={cn(
                 // Extra room so Paiboon clears tall Thai vowel marks
-                "mb-2.5 font-medium italic leading-snug text-slate-500 sm:mb-3",
+                "mb-2.5 font-medium italic leading-snug text-orange-800/80 sm:mb-3",
                 phoneticClass,
               )}
             >
@@ -104,7 +104,7 @@ export function ThaiPhrase({
             <SpeechButton text={thai} languageCode={languageCode} size="sm" />
             <p
               className={cn(
-                "font-thai font-bold leading-normal text-slate-900",
+                "font-thai font-bold leading-normal text-stone-900",
                 thaiClass,
               )}
             >
@@ -114,7 +114,7 @@ export function ThaiPhrase({
           {showTranslation && translation ? (
             <p
               className={cn(
-                "mt-2 font-medium text-slate-600",
+                "mt-2 font-medium text-stone-600",
                 translationClass,
               )}
             >
@@ -137,7 +137,7 @@ export function ThaiPhrase({
             {showPhonetics && phonetic ? (
               <p
                 className={cn(
-                  "mb-2 font-medium italic leading-snug text-slate-500 sm:mb-2.5",
+                  "mb-2 font-medium italic leading-snug text-orange-800/80 sm:mb-2.5",
                   phoneticClass,
                 )}
               >
@@ -146,7 +146,7 @@ export function ThaiPhrase({
             ) : null}
             <p
               className={cn(
-                "font-thai font-bold leading-normal text-slate-900",
+                "font-thai font-bold leading-normal text-stone-900",
                 thaiClass,
               )}
             >
@@ -155,7 +155,7 @@ export function ThaiPhrase({
             {showTranslation && translation ? (
               <p
                 className={cn(
-                  "mt-1 font-medium text-slate-600",
+                  "mt-1 font-medium text-stone-600",
                   translationClass,
                 )}
               >

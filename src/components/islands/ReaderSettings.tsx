@@ -91,7 +91,7 @@ export default function ReaderSettings({
             role="presentation"
           >
             <div
-              className="absolute inset-0 bg-slate-900/40"
+              className="absolute inset-0 bg-stone-900/40"
               aria-hidden="true"
               onClick={() => setOpen(false)}
             />
@@ -100,17 +100,17 @@ export default function ReaderSettings({
               aria-modal="true"
               aria-labelledby={titleId}
               aria-describedby={descId}
-              className="relative z-10 w-full max-w-md overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl"
+              className="relative z-10 w-full max-w-md overflow-hidden rounded-2xl border border-stone-200 bg-paper shadow-2xl"
             >
-              <div className="flex items-start justify-between gap-3 border-b border-slate-100 px-4 py-3">
+              <div className="flex items-start justify-between gap-3 border-b border-stone-100 px-4 py-3">
                 <div className="min-w-0">
                   <h2
                     id={titleId}
-                    className="text-base font-bold text-slate-900"
+                    className="text-base font-bold text-stone-900"
                   >
                     Reading tools
                   </h2>
-                  <p id={descId} className="mt-0.5 text-xs text-slate-500">
+                  <p id={descId} className="mt-0.5 text-xs text-stone-500">
                     How Thai looks on cards and stories — script style, size,
                     phonetics.
                   </p>
@@ -118,7 +118,7 @@ export default function ReaderSettings({
                 <button
                   type="button"
                   onClick={() => setOpen(false)}
-                  className="shrink-0 rounded-lg p-2 text-slate-500 hover:bg-slate-100 hover:text-slate-900"
+                  className="shrink-0 rounded-lg p-2 text-stone-500 hover:bg-stone-100 hover:text-stone-900"
                   aria-label="Close reading tools"
                 >
                   <svg
@@ -141,7 +141,7 @@ export default function ReaderSettings({
               <div className="space-y-5 px-4 py-4">
                 {/* Thai style */}
                 <fieldset>
-                  <legend className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-500">
+                  <legend className="mb-2 text-xs font-semibold uppercase tracking-wide text-stone-500">
                     Thai script style
                   </legend>
                   <div className="grid grid-cols-2 gap-2">
@@ -164,11 +164,11 @@ export default function ReaderSettings({
 
                 {/* Text size */}
                 <fieldset>
-                  <legend className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-500">
+                  <legend className="mb-2 text-xs font-semibold uppercase tracking-wide text-stone-500">
                     Text size
                   </legend>
                   <div
-                    className="inline-flex w-full items-end justify-center gap-1 rounded-xl border border-slate-200 bg-slate-50 p-2"
+                    className="inline-flex w-full items-end justify-center gap-1 rounded-xl border border-stone-200 bg-stone-50 p-2"
                     role="group"
                     aria-label="Text size"
                   >
@@ -188,8 +188,8 @@ export default function ReaderSettings({
                           "inline-flex flex-1 items-center justify-center rounded-lg font-thai font-semibold transition-colors",
                           box,
                           settings.fontSize === size
-                            ? "bg-teal-600 text-white shadow-sm"
-                            : "bg-white text-slate-600 ring-1 ring-slate-200 hover:bg-slate-50",
+                            ? "bg-orange-800 text-white shadow-sm"
+                            : "bg-paper text-stone-600 ring-1 ring-stone-200 hover:bg-stone-50",
                         )}
                       >
                         ก
@@ -200,7 +200,7 @@ export default function ReaderSettings({
 
                 {/* Toggles */}
                 <fieldset className="space-y-3">
-                  <legend className="mb-1 text-xs font-semibold uppercase tracking-wide text-slate-500">
+                  <legend className="mb-1 text-xs font-semibold uppercase tracking-wide text-stone-500">
                     Display
                   </legend>
                   <ToggleRow
@@ -220,11 +220,11 @@ export default function ReaderSettings({
                 </fieldset>
               </div>
 
-              <div className="border-t border-slate-100 px-4 py-3">
+              <div className="border-t border-stone-100 px-4 py-3">
                 <button
                   type="button"
                   onClick={() => setOpen(false)}
-                  className="w-full rounded-xl bg-teal-700 px-4 py-2.5 text-sm font-semibold text-white hover:bg-teal-800"
+                  className="w-full rounded-xl bg-orange-800 px-4 py-2.5 text-sm font-semibold text-white hover:bg-orange-900"
                 >
                   Done
                 </button>
@@ -244,13 +244,13 @@ export default function ReaderSettings({
         aria-expanded={open}
         title="Reading tools — script style, size, phonetics"
         className={cn(
-          "inline-flex items-center gap-1.5 rounded-full font-semibold transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2",
+          "inline-flex items-center gap-1.5 rounded-full font-semibold transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2",
           variant === "nav" &&
-            "bg-teal-50 px-3 py-1.5 text-xs text-teal-800 ring-1 ring-teal-200 hover:bg-teal-100 hover:text-teal-950",
+            "bg-orange-50 px-3 py-1.5 text-xs text-orange-900 ring-1 ring-orange-200 hover:bg-orange-100 hover:text-orange-950",
           variant === "chrome" &&
-            "bg-white px-2.5 py-1.5 text-xs text-teal-800 shadow-sm ring-1 ring-slate-200 hover:border-teal-300 hover:bg-teal-50 sm:text-sm",
+            "bg-paper px-2.5 py-1.5 text-xs text-orange-900 shadow-sm ring-1 ring-stone-200 hover:border-orange-300 hover:bg-orange-50 sm:text-sm",
           variant === "default" &&
-            "bg-teal-50 px-3.5 py-2 text-sm text-teal-900 shadow-sm ring-1 ring-teal-200 hover:bg-teal-100",
+            "bg-orange-50 px-3.5 py-2 text-sm text-orange-950 shadow-sm ring-1 ring-orange-200 hover:bg-orange-100",
           className,
         )}
       >
@@ -295,21 +295,21 @@ function StyleCard({
       className={cn(
         "rounded-xl border px-3 py-3 text-left transition-colors",
         active
-          ? "border-teal-600 bg-teal-50 ring-1 ring-teal-600"
-          : "border-slate-200 bg-white hover:border-slate-300 hover:bg-slate-50",
+          ? "border-orange-800 bg-orange-50 ring-1 ring-orange-800"
+          : "border-stone-200 bg-paper hover:border-stone-300 hover:bg-stone-50",
       )}
     >
       <span
-        className="block text-2xl font-semibold text-slate-900"
+        className="block text-2xl font-semibold text-stone-900"
         style={{ fontFamily: family }}
         lang="th"
       >
         สวัสดี
       </span>
-      <span className="mt-1 block text-sm font-bold text-slate-900">
+      <span className="mt-1 block text-sm font-bold text-stone-900">
         {title}
       </span>
-      <span className="block text-xs text-slate-500">{subtitle}</span>
+      <span className="block text-xs text-stone-500">{subtitle}</span>
     </button>
   );
 }
@@ -326,10 +326,10 @@ function ToggleRow({
   onChange: (v: boolean) => void;
 }) {
   return (
-    <div className="flex items-center justify-between gap-3 rounded-xl border border-slate-100 bg-slate-50/80 px-3 py-2.5">
+    <div className="flex items-center justify-between gap-3 rounded-xl border border-stone-100 bg-stone-50/80 px-3 py-2.5">
       <div className="min-w-0">
-        <p className="text-sm font-semibold text-slate-900">{label}</p>
-        <p className="text-xs text-slate-500">{description}</p>
+        <p className="text-sm font-semibold text-stone-900">{label}</p>
+        <p className="text-xs text-stone-500">{description}</p>
       </div>
       <button
         type="button"
@@ -339,12 +339,12 @@ function ToggleRow({
         onClick={() => onChange(!checked)}
         className={cn(
           "relative inline-flex h-6 w-11 shrink-0 items-center rounded-full transition-colors",
-          checked ? "bg-teal-500" : "bg-slate-300",
+          checked ? "bg-orange-500" : "bg-stone-300",
         )}
       >
         <span
           className={cn(
-            "inline-block h-4 w-4 transform rounded-full bg-white transition-transform",
+            "inline-block h-4 w-4 transform rounded-full bg-paper transition-transform",
             checked ? "translate-x-6" : "translate-x-1",
           )}
         />

@@ -44,18 +44,18 @@ export default function UnitModeSwitcher({
         >
             <nav
                 aria-label="Unit practice mode"
-                className="overflow-hidden rounded-2xl border border-teal-200 bg-white shadow-md shadow-teal-900/5"
+                className="overflow-hidden rounded-2xl border border-orange-200 bg-paper shadow-md shadow-orange-950/5"
             >
                 {/* Unit context + dual mode — compact single block */}
-                <div className="flex flex-wrap items-center justify-between gap-2 border-b border-teal-100 bg-teal-50/60 px-3 py-1.5 sm:px-4">
+                <div className="flex flex-wrap items-center justify-between gap-2 border-b border-orange-100 bg-orange-50/60 px-3 py-1.5 sm:px-4">
                     <a
                         href={getUnitPath(unitId)}
-                        className="min-w-0 truncate text-sm font-semibold text-slate-800 transition-colors hover:text-teal-800"
+                        className="min-w-0 truncate text-sm font-semibold text-stone-800 transition-colors hover:text-orange-900"
                         title={title}
                     >
                         {title}
                     </a>
-                    <p className="text-[11px] font-medium text-slate-500 sm:text-xs">
+                    <p className="text-[11px] font-medium text-stone-500 sm:text-xs">
                         Cards + story
                     </p>
                 </div>
@@ -124,16 +124,16 @@ function ModePanel({
         "focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2",
         active &&
             isCards &&
-            "bg-teal-700 text-white shadow-sm focus-visible:ring-teal-500",
+            "bg-orange-800 text-white shadow-sm focus-visible:ring-orange-500",
         active &&
             !isCards &&
-            "bg-violet-700 text-white shadow-sm focus-visible:ring-violet-500",
+            "bg-rose-700 text-white shadow-sm focus-visible:ring-rose-500",
         !active &&
             isCards &&
-            "border border-dashed border-teal-300 bg-teal-50/80 text-teal-950 hover:border-teal-500 hover:bg-teal-100 focus-visible:ring-teal-500",
+            "border border-dashed border-orange-300 bg-orange-50/80 text-orange-950 hover:border-orange-500 hover:bg-orange-100 focus-visible:ring-orange-500",
         !active &&
             !isCards &&
-            "border border-dashed border-violet-400 bg-violet-50 text-violet-950 hover:border-violet-600 hover:bg-violet-100 focus-visible:ring-violet-500",
+            "border border-dashed border-rose-400 bg-rose-50 text-rose-950 hover:border-rose-600 hover:bg-rose-100 focus-visible:ring-rose-500",
     );
 
     const body = (
@@ -150,8 +150,8 @@ function ModePanel({
                         className={cn(
                             "ml-auto rounded-full px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide",
                             isCards
-                                ? "bg-teal-600/80 text-white"
-                                : "bg-violet-600/80 text-white",
+                                ? "bg-orange-800/80 text-white"
+                                : "bg-rose-600/80 text-white",
                         )}
                     >
                         Here
@@ -161,8 +161,8 @@ function ModePanel({
                         className={cn(
                             "ml-auto rounded-full px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide",
                             isCards
-                                ? "bg-teal-600 text-white"
-                                : "bg-violet-600 text-white",
+                                ? "bg-orange-800 text-white"
+                                : "bg-rose-600 text-white",
                         )}
                     >
                         {hint}
@@ -175,8 +175,8 @@ function ModePanel({
                     active
                         ? "text-white/90"
                         : isCards
-                          ? "text-teal-800/90"
-                          : "text-violet-900/90",
+                          ? "text-orange-900/90"
+                          : "text-rose-900/90",
                 )}
             >
                 {subtitle}

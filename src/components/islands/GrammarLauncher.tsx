@@ -31,7 +31,7 @@ export default function GrammarLauncher({
         expanded={open}
         className={cn(
           variant === "nav" &&
-            "!bg-violet-50 !px-3 !py-1.5 !text-xs !font-semibold !text-violet-800 !shadow-none ring-1 ring-violet-200 hover:!bg-violet-100 hover:!text-violet-950",
+            "!bg-rose-50 !px-3 !py-1.5 !text-xs !font-semibold !text-rose-900 !shadow-none ring-1 ring-rose-200 hover:!bg-rose-100 hover:!text-rose-950",
           className,
         )}
       />
