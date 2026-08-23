@@ -69,6 +69,22 @@ function speakThai(text: string) {
     window.speechSynthesis.speak(utterance);
 }
 
+function WritingNote() {
+    return (
+        <div className="mx-auto mt-6 max-w-lg space-y-1.5 border-t border-amber-200/70 pt-5 text-center text-md leading-relaxed text-stone-500">
+            <p>
+                ไ is the vowel "i" and always comes before the consonant. ป is
+                "b".
+            </p>
+            <p>
+                Notice ไหน is a different tone. Tones are super important in
+                Thai. น is "n" and ห makes it a rising tone.
+            </p>
+            <p>Click again to hear the difference.</p>
+        </div>
+    );
+}
+
 /** Same word-aligned layout as beginning stories: phonetic / Thai / English. */
 function SentenceRuby({ line }: { line: FirstRunLine }) {
     const words = line.words.length > 0 ? line.words : [];
@@ -204,6 +220,7 @@ export default function FirstRunHome({
                             Tap a word to hear it
                         </p>
                         <SentenceRuby line={lines[0] ?? FIRST_RUN_LINE} />
+                        <WritingNote />
                     </section>
 
                     <div className="space-y-3 text-center">

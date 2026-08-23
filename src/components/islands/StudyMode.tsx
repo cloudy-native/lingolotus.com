@@ -5,6 +5,9 @@ import SessionComplete, {
 import { useReaderSettings } from "@/components/islands/ReaderSettings";
 import { ThaiPhrase } from "@/components/islands/ThaiPhrase";
 import UnitModeSwitcher from "@/components/islands/UnitModeSwitcher";
+import LanguagePairToggle, {
+    type LanguageSide,
+} from "@/components/islands/LanguagePairToggle";
 import { FlippableCard } from "@/components/ui/card";
 import {
     clearDeckSession,
@@ -75,19 +78,7 @@ interface StudyModeProps {
     deckDetailsHref?: string | null;
 }
 
-type LanguageDisplay = "source" | "target";
-
-const LANG_NAMES: Record<string, { native: string; flag: string }> = {
-    th: { native: "ไทย", flag: "🇹🇭" },
-    en: { native: "English", flag: "🇬🇧" },
-    ja: { native: "日本語", flag: "🇯🇵" },
-    zh: { native: "中文", flag: "🇨🇳" },
-    ko: { native: "한국어", flag: "🇰🇷" },
-};
-
-function getLangInfo(code: string) {
-    return LANG_NAMES[code] || { native: code.toUpperCase(), flag: "🌐" };
-}
+type LanguageDisplay = LanguageSide;
 
 function emptyResults(n: number): CardResult[] {
     return new Array(n).fill(null);
@@ -312,9 +303,6 @@ export default function StudyMode({
         setShowComplete(true);
         onSessionComplete?.();
     }, [remaining, total, completionNotified, onSessionComplete, ready]);
-
-    const sourceLang = getLangInfo(currentCard.sourceLanguage);
-    const targetLang = getLangInfo(currentCard.targetLanguage);
 
     const isPrevDisabled = currentIndex === 0;
     const isNextDisabled = currentIndex === total - 1;
@@ -679,34 +667,12 @@ export default function StudyMode({
                         {currentIndex + 1} of {total}
                     </span>
                 </div>
-                <div className="flex gap-2">
-                    <button
-                        type="button"
-                        onClick={() => setLanguageDisplay("target")}
-                        className={cn(
-                            "inline-flex items-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-medium transition-colors",
-                            languageDisplay === "target"
-                                ? "bg-stone-800 text-white"
-                                : "border border-stone-200 bg-paper text-stone-700 hover:bg-stone-50",
-                        )}
-                        aria-pressed={languageDisplay === "target"}
-                    >
-                        {targetLang.flag} {targetLang.native}
-                    </button>
-                    <button
-                        type="button"
-                        onClick={() => setLanguageDisplay("source")}
-                        className={cn(
-                            "inline-flex items-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-medium transition-colors",
-                            languageDisplay === "source"
-                                ? "bg-orange-800 text-white"
-                                : "border border-stone-200 bg-paper text-stone-700 hover:bg-stone-50",
-                        )}
-                        aria-pressed={languageDisplay === "source"}
-                    >
-                        {sourceLang.flag} {sourceLang.native}
-                    </button>
-                </div>
+                <LanguagePairToggle
+                    sourceCode={currentCard.sourceLanguage}
+                    targetCode={currentCard.targetLanguage}
+                    value={languageDisplay}
+                    onChange={setLanguageDisplay}
+                />
             </div>
 
             {progressBar}

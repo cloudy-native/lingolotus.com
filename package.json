@@ -2,6 +2,9 @@
     "name": "lingolotus",
     "version": "1.0.0",
     "private": true,
+    "workspaces": [
+        "cdk"
+    ],
     "description": "Lingo Lotus - Learn languages naturally with flashcards and graded reading",
     "author": "",
     "keywords": [

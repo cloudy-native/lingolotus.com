@@ -9,6 +9,9 @@ import SpeechButton from "@/components/islands/SpeechButton";
 import SessionComplete from "@/components/islands/SessionComplete";
 import { useReaderSettings } from "@/components/islands/ReaderSettings";
 import UnitModeSwitcher from "@/components/islands/UnitModeSwitcher";
+import LanguagePairToggle, {
+    type LanguageSide,
+} from "@/components/islands/LanguagePairToggle";
 import type { Level } from "@/lib/progress";
 import {
     cn,
@@ -576,42 +579,16 @@ export default function StoryReader({
 
                 {/* Slim chrome: read/translate mode + reveal actions */}
                 <div className="flex flex-wrap items-center justify-between gap-2 border-b border-stone-100 bg-paper/70 px-3 py-2 sm:px-4">
-                    <div
-                        className="inline-flex rounded-lg bg-stone-100 p-0.5"
-                        role="group"
-                        aria-label="Reading mode"
-                    >
-                        <button
-                            type="button"
-                            onClick={() => {
-                                setMode("read");
-                                hideAll();
-                            }}
-                            className={cn(
-                                "rounded-md px-3 py-1.5 text-xs font-semibold transition-colors sm:text-sm",
-                                mode === "read"
-                                    ? "bg-orange-800 text-white shadow-sm"
-                                    : "text-stone-600 hover:text-stone-900",
-                            )}
-                        >
-                            Read
-                        </button>
-                        <button
-                            type="button"
-                            onClick={() => {
-                                setMode("translate");
-                                hideAll();
-                            }}
-                            className={cn(
-                                "rounded-md px-3 py-1.5 text-xs font-semibold transition-colors sm:text-sm",
-                                mode === "translate"
-                                    ? "bg-orange-800 text-white shadow-sm"
-                                    : "text-stone-600 hover:text-stone-900",
-                            )}
-                        >
-                            Translate
-                        </button>
-                    </div>
+                    <LanguagePairToggle
+                        sourceCode={language}
+                        targetCode="en"
+                        value={mode === "read" ? "source" : "target"}
+                        onChange={(side: LanguageSide) => {
+                            setMode(side === "source" ? "read" : "translate");
+                            hideAll();
+                        }}
+                        ariaLabel="Reading mode"
+                    />
 
                     <div className="flex items-center gap-1.5 sm:gap-2">
                         <button
